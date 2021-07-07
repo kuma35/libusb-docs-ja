@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:8
+msgid "libusb: Packets and overflows"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:45
+msgid "Packets and overflows"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:48
+msgid "<a class=\"anchor\" id=\"packets\"></a> Packet abstraction"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:50
+msgid ""
+"The USB specifications describe how data is transmitted in packets, with "
+"constraints on packet size defined by endpoint descriptors. The host must "
+"not send data payloads larger than the endpoint's maximum packet size."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:51
+msgid ""
+"libusb and the underlying OS abstract out the packet concept, allowing you "
+"to request transfers of any size. Internally, the request will be divided up "
+"into correctly-sized packets. You do not have to be concerned with packet "
+"sizes, but there is one exception when considering overflows."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:52
+msgid "<a class=\"anchor\" id=\"overflow\"></a> Bulk/interrupt transfer overflows"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:54
+msgid ""
+"When requesting data on a bulk endpoint, libusb requires you to supply a "
+"buffer and the maximum number of bytes of data that libusb can put in that "
+"buffer. However, the size of the buffer is not communicated to the device - "
+"the device is just asked to send any amount of data."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:55
+msgid ""
+"There is no problem if the device sends an amount of data that is less than "
+"or equal to the buffer size. libusb reports this condition to you through "
+"the <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">libusb_transfer.actual_length</a> "
+"field."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:56
+msgid ""
+"Problems may occur if the device attempts to send more data than can fit in "
+"the buffer. libusb reports LIBUSB_TRANSFER_OVERFLOW for this condition but "
+"other behaviour is largely undefined: actual_length may or may not be "
+"accurate, the chunk of data that can fit in the buffer (before overflow) may "
+"or may not have been transferred."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:57
+msgid ""
+"Overflows are nasty, but can be avoided. Even though you were told to ignore "
+"packets above, think about the lower level details: each transfer is split "
+"into packets (typically small, with a maximum size of 512 bytes). Overflows "
+"can only happen if the final packet in an incoming data transfer is smaller "
+"than the actual packet that the device wants to transfer. Therefore, you "
+"will never see an overflow if your transfer buffer size is a multiple of the "
+"endpoint's packet size: the final packet will either fill up completely or "
+"will be only partially filled."
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:61
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:63
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/libusb_packetoverflow.html:64
+msgid "</a> 1.8.17 </small>"
+msgstr ""

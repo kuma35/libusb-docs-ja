@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:8
+msgid "libusb: libusb_ss_endpoint_companion_descriptor Struct Reference"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:45
+msgid ""
+"<a "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#pub-attribs\">Data "
+"Fields</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:47
+msgid "libusb_ss_endpoint_companion_descriptor Struct Reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:47
+msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:51
+msgid ""
+"<code>#include &lt;<a class=\"el\" "
+"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:53
+msgid "<a name=\"pub-attribs\"></a> Data Fields"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:55
+msgid "<a id=\"a576f037f393bf45926a2d45a80c3c3ce\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:56
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a576f037f393bf45926a2d45a80c3c3ce\">bLength</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:58 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:60 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:61 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:64 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:65 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:67 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:68 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:70 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:71
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:57
+msgid "Size of this descriptor (in bytes)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:59 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:66
+msgid "uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:59
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85344cb4f4d8d03014d9cc2cf90c748f\">bDescriptorType</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:60
+msgid ""
+"Descriptor type.  <a "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85344cb4f4d8d03014d9cc2cf90c748f\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:62
+msgid "<a id=\"a85b999ffaff20e9e1518597339e0a7dc\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:63
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85b999ffaff20e9e1518597339e0a7dc\">bMaxBurst</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:64
+msgid ""
+"The maximum number of packets the endpoint can send or receive as part of a "
+"burst."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:66
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#aa7097b478f5e46e8cdd160fb4aaccc1f\">bmAttributes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:67
+msgid ""
+"In bulk EP: bits 4:0 represents the maximum number of streams the EP "
+"supports.  <a "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#aa7097b478f5e46e8cdd160fb4aaccc1f\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:69
+msgid "uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:69
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a13605afcfe00291bc86ebb415226ece6\">wBytesPerInterval</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:70
+msgid ""
+"The total number of bytes this EP will transfer every service interval.  <a "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a13605afcfe00291bc86ebb415226ece6\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:73
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:73
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:74
+msgid ""
+"A structure representing the superspeed endpoint companion descriptor. This "
+"descriptor is documented in section 9.6.7 of the USB 3.0 specification. All "
+"multiple-byte fields are represented in host-endian format."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:75
+msgid "Field Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:76
+msgid "<a id=\"a85344cb4f4d8d03014d9cc2cf90c748f\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:77
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85344cb4f4d8d03014d9cc2cf90c748f\">&#9670;&nbsp;</a></span>bDescriptorType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:83
+msgid "uint8_t libusb_ss_endpoint_companion_descriptor::bDescriptorType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:88
+msgid "Descriptor type."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:89
+msgid ""
+"Will have value <a class=\"el\" "
+"href=\"group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca9bdd0a16eb0647330c2b7085520db533\">libusb_descriptor_type::LIBUSB_DT_SS_ENDPOINT_COMPANION</a> "
+"in this context."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:93
+msgid "<a id=\"aa7097b478f5e46e8cdd160fb4aaccc1f\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:94
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#aa7097b478f5e46e8cdd160fb4aaccc1f\">&#9670;&nbsp;</a></span>bmAttributes"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:100
+msgid "uint8_t libusb_ss_endpoint_companion_descriptor::bmAttributes"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:105
+msgid ""
+"In bulk EP: bits 4:0 represents the maximum number of streams the EP "
+"supports."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:106
+msgid ""
+"In isochronous EP: bits 1:0 represents the Mult - a zero based value that "
+"determines the maximum number of packets within a service interval"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:111
+msgid "<a id=\"a13605afcfe00291bc86ebb415226ece6\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:112
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__ss__endpoint__companion__descriptor.html#a13605afcfe00291bc86ebb415226ece6\">&#9670;&nbsp;</a></span>wBytesPerInterval"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:118
+msgid "uint16_t libusb_ss_endpoint_companion_descriptor::wBytesPerInterval"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:123
+msgid "The total number of bytes this EP will transfer every service interval."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:124
+msgid "Valid only for periodic EPs."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:128
+msgid "The documentation for this struct was generated from the following file:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:129
+msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:133
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:135
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:136
+msgid "</a> 1.8.17 </small>"
+msgstr ""

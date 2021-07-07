@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:8
+msgid "libusb: libusb_interface Struct Reference"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:45
+msgid "<a href=\"structlibusb__interface.html#pub-attribs\">Data Fields</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:47
+msgid "libusb_interface Struct Reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:47
+msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:51
+msgid ""
+"<code>#include &lt;<a class=\"el\" "
+"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:53
+msgid "<a name=\"pub-attribs\"></a> Data Fields"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:55
+msgid ""
+"const struct <a class=\"el\" "
+"href=\"structlibusb__interface__descriptor.html\">libusb_interface_descriptor</a> "
+"*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:55
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce\">altsetting</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:56 ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:59 ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:60
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:56
+msgid ""
+"Array of interface descriptors.  <a "
+"href=\"structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:58
+msgid "int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:58
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">num_altsetting</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:59
+msgid ""
+"The number of alternate settings that belong to this interface.  <a "
+"href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:62
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:62
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:63
+msgid "A collection of alternate settings for a particular USB interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:64
+msgid "Field Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:65
+msgid "<a id=\"a072dc48e34a98aeafbd23591ffe694ce\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:66
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce\">&#9670;&nbsp;</a></span>altsetting"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:72
+msgid ""
+"const struct <a class=\"el\" "
+"href=\"structlibusb__interface__descriptor.html\">libusb_interface_descriptor</a>* "
+"libusb_interface::altsetting"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:77
+msgid "Array of interface descriptors."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:78
+msgid "The length of this array is determined by the num_altsetting field."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:82
+msgid "<a id=\"afc930be16a60980424f64a88b23c10e9\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:83
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">&#9670;&nbsp;</a></span>num_altsetting"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:89
+msgid "int libusb_interface::num_altsetting"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:94
+msgid "The number of alternate settings that belong to this interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:95
+msgid "Must be non-negative."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:99
+msgid "The documentation for this struct was generated from the following file:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:100
+msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:104
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:106
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__interface.html:107
+msgid "</a> 1.8.17 </small>"
+msgstr ""

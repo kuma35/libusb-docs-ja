@@ -1,0 +1,601 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:8
+msgid "libusb: Synchronous device I/O"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:45
+msgid "<a href=\"group__libusb__syncio.html#func-members\">Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:47
+msgid "Synchronous device I/O"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:51
+msgid ""
+"This page documents libusb's synchronous (blocking) API for USB device "
+"I/O. This interface is easy to use but has some limitations. More advanced "
+"users may wish to consider using the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html\">asynchronous I/O API</a> instead.  <a "
+"href=\"group__libusb__syncio.html#details\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:54
+msgid "<a name=\"func-members\"></a> Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:56 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:58 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:60 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:186 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:268
+msgid "int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:56
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__syncio.html#gadb11f7a761bd12fc77a07f4568d56f38\">libusb_control_transfer</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, uint8_t bmRequestType, uint8_t bRequest, uint16_t wValue, "
+"uint16_t wIndex, unsigned char *data, uint16_t wLength, unsigned int "
+"timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:57 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:59 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:61
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:58
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char endpoint, unsigned char *data, int length, int "
+"*transferred, unsigned int timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:60
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__syncio.html#ga0f171a72904a552fc43e6e6564d108a3\">libusb_interrupt_transfer</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char endpoint, unsigned char *data, int length, int "
+"*transferred, unsigned int timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:63
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:63
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:64
+msgid ""
+"This page documents libusb's synchronous (blocking) API for USB device "
+"I/O. This interface is easy to use but has some limitations. More advanced "
+"users may wish to consider using the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html\">asynchronous I/O API</a> instead."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:65
+msgid "Function Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:66
+msgid "<a id=\"gadb11f7a761bd12fc77a07f4568d56f38\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:67
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__syncio.html#gadb11f7a761bd12fc77a07f4568d56f38\">&#9670;&nbsp;</a></span>libusb_control_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:73
+msgid "int libusb_control_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:74 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:167 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:249
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:75 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:168 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:250
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:76 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:169 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:251
+msgid "<em>dev_handle</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:81 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:87
+msgid "uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:82
+msgid "<em>bmRequestType</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:88
+msgid "<em>bRequest</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:93 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:99 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:111
+msgid "uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:94
+msgid "<em>wValue</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:100
+msgid "<em>wIndex</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:105 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:180 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:262
+msgid "unsigned char *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:106 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:181 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:263
+msgid "<em>data</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:112
+msgid "<em>wLength</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:117 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:198 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:280
+msgid "unsigned int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:118 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:199 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:281
+msgid "<em>timeout</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:122 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:203 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:285
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:127
+msgid "Perform a USB control transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:128
+msgid ""
+"The direction of the transfer is inferred from the bmRequestType field of "
+"the setup packet."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:129
+msgid ""
+"The wValue, wIndex and wLength fields values should be given in host-endian "
+"byte order."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:130 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:212 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:295
+msgid "Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:132 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:214 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:297
+msgid "dev_handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:132 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:214 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:297
+msgid "a handle for the device to communicate with"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:133
+msgid "bmRequestType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:133
+msgid "the request type field for the setup packet"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:134
+msgid "bRequest"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:134
+msgid "the request field for the setup packet"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:135
+msgid "wValue"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:135
+msgid "the value field for the setup packet"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:136
+msgid "wIndex"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:136
+msgid "the index field for the setup packet"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:137 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:216 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:299
+msgid "data"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:137
+msgid ""
+"a suitably-sized data buffer for either input or output (depending on "
+"direction bits within bmRequestType)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:138
+msgid "wLength"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:138
+msgid ""
+"the length field for the setup packet. The data buffer should be at least "
+"this size."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:139 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:219 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:302
+msgid "timeout"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:139 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:219 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:302
+msgid ""
+"timeout (in milliseconds) that this function should wait before giving up "
+"due to no response being received. For an unlimited timeout, use value 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:143 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:223 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:306
+msgid "Returns"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:143
+msgid "on success, the number of bytes actually transferred"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:145 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:308
+msgid "LIBUSB_ERROR_TIMEOUT if the transfer timed out"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:147
+msgid "LIBUSB_ERROR_PIPE if the control request was not supported by the device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:149 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:231 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:314
+msgid "LIBUSB_ERROR_NO_DEVICE if the device has been disconnected"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:151 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:233 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:316
+msgid "LIBUSB_ERROR_BUSY if called from event handling context"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:153 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:235 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:318
+msgid ""
+"LIBUSB_ERROR_INVALID_PARAM if the transfer size is larger than the operating "
+"system and/or hardware can support (see <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#asynclimits\">Transfer length "
+"limitations</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:155 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:237
+msgid "another LIBUSB_ERROR code on other failures"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:159
+msgid "<a id=\"ga2f90957ccc1285475ae96ad2ceb1f58c\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:160
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">&#9670;&nbsp;</a></span>libusb_bulk_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:166
+msgid "int libusb_bulk_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:174 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:256
+msgid "unsigned char&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:175 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:257
+msgid "<em>endpoint</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:187 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:269
+msgid "<em>length</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:192 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:274
+msgid "int *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:193 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:275
+msgid "<em>transferred</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:208
+msgid ""
+"Perform a USB bulk transfer. The direction of the transfer is inferred from "
+"the direction bits of the endpoint address."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:209
+msgid ""
+"For bulk reads, the <code>length</code> field indicates the maximum length "
+"of data you are expecting to receive. If less data arrives than expected, "
+"this function will return that data, so be sure to check the "
+"<code>transferred</code> output parameter."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:210
+msgid ""
+"You should also check the <code>transferred</code> parameter for bulk "
+"writes. Not all of the data may have been written."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:211 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:293
+msgid ""
+"Also check <code>transferred</code> when dealing with a timeout error "
+"code. libusb may have to split your transfer into a number of chunks to "
+"satisfy underlying O/S requirements, meaning that the timeout may expire "
+"after the first few chunks have completed. libusb is careful not to lose any "
+"data that may have been transferred; do not assume that timeout conditions "
+"indicate a complete lack of I/O. See <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#asynctimeout\">Timeouts</a> for more "
+"details."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:215 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:298
+msgid "endpoint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:215 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:298
+msgid "the address of a valid endpoint to communicate with"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:216 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:299
+msgid ""
+"a suitably-sized data buffer for either input or output (depending on "
+"endpoint)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:217 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:300
+msgid "length"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:217 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:300
+msgid ""
+"for bulk writes, the number of bytes from data to be sent. for bulk reads, "
+"the maximum number of bytes to receive into the data buffer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:218 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:301
+msgid "transferred"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:218 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:301
+msgid ""
+"output location for the number of bytes actually transferred. Since version "
+"1.0.21 (<a class=\"el\" "
+"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> "
+"&gt;= 0x01000105), it is legal to pass a NULL pointer if you do not wish to "
+"receive this information."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:223 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:306
+msgid "0 on success (and populates <code>transferred</code>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:225
+msgid ""
+"LIBUSB_ERROR_TIMEOUT if the transfer timed out (and populates "
+"<code>transferred</code>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:227 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:310
+msgid "LIBUSB_ERROR_PIPE if the endpoint halted"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:229 ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:312
+msgid ""
+"LIBUSB_ERROR_OVERFLOW if the device offered more data, see <a class=\"el\" "
+"href=\"libusb_packetoverflow.html\">Packets and overflows</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:241
+msgid "<a id=\"ga0f171a72904a552fc43e6e6564d108a3\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:242
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__syncio.html#ga0f171a72904a552fc43e6e6564d108a3\">&#9670;&nbsp;</a></span>libusb_interrupt_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:248
+msgid "int libusb_interrupt_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:290
+msgid ""
+"Perform a USB interrupt transfer. The direction of the transfer is inferred "
+"from the direction bits of the endpoint address."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:291
+msgid ""
+"For interrupt reads, the <code>length</code> field indicates the maximum "
+"length of data you are expecting to receive. If less data arrives than "
+"expected, this function will return that data, so be sure to check the "
+"<code>transferred</code> output parameter."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:292
+msgid ""
+"You should also check the <code>transferred</code> parameter for interrupt "
+"writes. Not all of the data may have been written."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:294
+msgid "The default endpoint bInterval value is used as the polling interval."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:320
+msgid "another LIBUSB_ERROR code on other error"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:326
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:328
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__syncio.html:329
+msgid "</a> 1.8.17 </small>"
+msgstr ""

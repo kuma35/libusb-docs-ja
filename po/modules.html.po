@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:8
+msgid "libusb: Modules"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:45
+msgid "Modules"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:48
+msgid "Here is a list of all modules:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:50
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__lib.html\" target=\"_self\">Library "
+"initialization/deinitialization</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:50
+msgid ""
+"This page details how to initialize and deinitialize libusb. Initialization "
+"must be performed before using any libusb functionality, and similarly you "
+"must not call any libusb functions after deinitialization"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:51
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__dev.html\" target=\"_self\">Device "
+"handling and enumeration</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:51
+msgid ""
+"The functionality documented below is designed to help with the following "
+"operations:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:52
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__misc.html\" "
+"target=\"_self\">Miscellaneous</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:53
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__desc.html\" target=\"_self\">USB "
+"descriptors</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:53
+msgid ""
+"This page details how to examine the various standard USB descriptors for "
+"detected devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:54
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__hotplug.html\" target=\"_self\">Device "
+"hotplug event notification</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:54
+msgid "This page details how to use the libusb hotplug interface, where available"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:55
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__asyncio.html\" "
+"target=\"_self\">Asynchronous device I/O</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:55
+msgid ""
+"This page details libusb's asynchronous (non-blocking) API for USB device "
+"I/O. This interface is very powerful but is also quite complex - you will "
+"need to read this page carefully to understand the necessary considerations "
+"and issues surrounding use of this interface. Simplistic applications may "
+"wish to consider the <a class=\"el\" "
+"href=\"group__libusb__syncio.html\">synchronous I/O API</a> instead"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:56
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__poll.html\" target=\"_self\">Polling and "
+"timing</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:56
+msgid ""
+"This page documents libusb's functions for polling events and timing. These "
+"functions are only necessary for users of the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html\">asynchronous API</a>. If you are only "
+"using the simpler <a class=\"el\" "
+"href=\"group__libusb__syncio.html\">synchronous API</a> then you do not need "
+"to ever call these functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:57
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
+"class=\"el\" href=\"group__libusb__syncio.html\" "
+"target=\"_self\">Synchronous device I/O</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:57
+msgid ""
+"This page documents libusb's synchronous (blocking) API for USB device "
+"I/O. This interface is easy to use but has some limitations. More advanced "
+"users may wish to consider using the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html\">asynchronous I/O API</a> instead"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:62
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:64
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/modules.html:65
+msgid "</a> 1.8.17 </small>"
+msgstr ""

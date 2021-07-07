@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:8
+msgid "libusb: libusb_iso_packet_descriptor Struct Reference"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:45
+msgid ""
+"<a href=\"structlibusb__iso__packet__descriptor.html#pub-attribs\">Data "
+"Fields</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:47
+msgid "libusb_iso_packet_descriptor Struct Reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:47
+msgid ""
+"<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device "
+"I/O</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:51
+msgid ""
+"<code>#include &lt;<a class=\"el\" "
+"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:53
+msgid "<a name=\"pub-attribs\"></a> Data Fields"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:55
+msgid "<a id=\"a374d36e24869c8b07bf8eb1a18fa10ad\"></a> unsigned int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:56
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__iso__packet__descriptor.html#a374d36e24869c8b07bf8eb1a18fa10ad\">length</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:58 ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:61 ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:62 ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:65 ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:66
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:57
+msgid "Length of data to request in this packet."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:59
+msgid "<a id=\"a03fa4f4eaf8a8b4e5c05931809581a32\"></a> unsigned int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:60
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32\">actual_length</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:61
+msgid "Amount of data that was actually transferred."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:63
+msgid ""
+"<a id=\"aab21ee2a5835a0e53d7ac5844ee34371\"></a> enum <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:64
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:65
+msgid "Status code for this packet."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:68
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:68
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:69
+msgid "Isochronous packet descriptor."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:70
+msgid "The documentation for this struct was generated from the following file:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:71
+msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:75
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:77
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__iso__packet__descriptor.html:78
+msgid "</a> 1.8.17 </small>"
+msgstr ""

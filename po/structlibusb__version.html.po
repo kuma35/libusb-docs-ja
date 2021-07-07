@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:8
+msgid "libusb: libusb_version Struct Reference"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:45
+msgid "<a href=\"structlibusb__version.html#pub-attribs\">Data Fields</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:47
+msgid "libusb_version Struct Reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:47
+msgid ""
+"<a class=\"el\" href=\"group__libusb__lib.html\">Library "
+"initialization/deinitialization</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:51
+msgid ""
+"<code>#include &lt;<a class=\"el\" "
+"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:53
+msgid "<a name=\"pub-attribs\"></a> Data Fields"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:55
+msgid "<a id=\"a7f80ed3e95566b639fa09380e94f8d59\"></a> const uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:56
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__version.html#a7f80ed3e95566b639fa09380e94f8d59\">major</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:58 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:61 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:62 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:65 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:66 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:69 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:70 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:72 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:73 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:76 ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:77
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:57
+msgid "Library major version."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:59
+msgid "<a id=\"ac886b798704bb9ca2b6cd3ae0234591f\"></a> const uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:60
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__version.html#ac886b798704bb9ca2b6cd3ae0234591f\">minor</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:61
+msgid "Library minor version."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:63
+msgid "<a id=\"a6a73a21564237c1fa0e6e5b038e98605\"></a> const uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:64
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__version.html#a6a73a21564237c1fa0e6e5b038e98605\">micro</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:65
+msgid "Library micro version."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:67
+msgid "<a id=\"afbe4cf431bea706294667e333878508c\"></a> const uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:68
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__version.html#afbe4cf431bea706294667e333878508c\">nano</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:69
+msgid "Library nano version."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:71
+msgid "const char *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:71
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">rc</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:72
+msgid ""
+"Library release candidate suffix string, e.g.  <a "
+"href=\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:74
+msgid "<a id=\"af42453a3421515fa2db3fdf30f2367c3\"></a> const char *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:75
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__version.html#af42453a3421515fa2db3fdf30f2367c3\">describe</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:76
+msgid "For ABI compatibility only."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:79
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:79
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:80
+msgid "Structure providing the version of the libusb runtime"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:81
+msgid "Field Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:82
+msgid "<a id=\"a99937642131c0559025bad92e7f51f27\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:83
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">&#9670;&nbsp;</a></span>rc"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:89
+msgid "const char* libusb_version::rc"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:94
+msgid "Library release candidate suffix string, e.g."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:95
+msgid "\"-rc4\"."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:99
+msgid "The documentation for this struct was generated from the following file:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:100
+msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:104
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:106
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__version.html:107
+msgid "</a> 1.8.17 </small>"
+msgstr ""

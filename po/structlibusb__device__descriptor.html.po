@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:8
+msgid "libusb: libusb_device_descriptor Struct Reference"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:45
+msgid ""
+"<a href=\"structlibusb__device__descriptor.html#pub-attribs\">Data "
+"Fields</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:47
+msgid "libusb_device_descriptor Struct Reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:47
+msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:51
+msgid ""
+"<code>#include &lt;<a class=\"el\" "
+"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:53
+msgid "<a name=\"pub-attribs\"></a> Data Fields"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:55
+msgid "<a id=\"affda0be3fe1c37092ddc7cb120428f30\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:56
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#affda0be3fe1c37092ddc7cb120428f30\">bLength</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:58 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:60 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:61 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:63 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:64 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:66 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:67 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:70 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:71 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:74 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:75 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:78 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:79 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:82 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:83 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:86 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:87 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:90 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:91 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:94 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:95 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:98 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:99 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:102 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:103 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:106 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:107
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:57
+msgid "Size of this descriptor (in bytes)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:59 ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:65
+msgid "uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:59
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a63c4b109725ce829fc81c5c9cad8c87a\">bDescriptorType</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:60
+msgid ""
+"Descriptor type.  <a "
+"href=\"structlibusb__device__descriptor.html#a63c4b109725ce829fc81c5c9cad8c87a\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:62
+msgid "uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:62
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#af0682f293291db942b5d253092d472e4\">bcdUSB</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:63
+msgid ""
+"USB specification release number in binary-coded decimal.  <a "
+"href=\"structlibusb__device__descriptor.html#af0682f293291db942b5d253092d472e4\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:65
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#ab86c8f43e75d4d54fccbc199cfa9703b\">bDeviceClass</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:66
+msgid ""
+"USB-IF class code for the device.  <a "
+"href=\"structlibusb__device__descriptor.html#ab86c8f43e75d4d54fccbc199cfa9703b\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:68
+msgid "<a id=\"a9c3a91102d3d53d9414d0dda0191c5ab\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:69
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a9c3a91102d3d53d9414d0dda0191c5ab\">bDeviceSubClass</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:70
+msgid "USB-IF subclass code for the device, qualified by the bDeviceClass value."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:72
+msgid "<a id=\"a480a0b5345a2e59987e20fa7247c3f0e\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:73
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a480a0b5345a2e59987e20fa7247c3f0e\">bDeviceProtocol</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:74
+msgid ""
+"USB-IF protocol code for the device, qualified by the bDeviceClass and "
+"bDeviceSubClass values."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:76
+msgid "<a id=\"a3b60170f077c9b26fc9f86e0cdb1d28a\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:77
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a3b60170f077c9b26fc9f86e0cdb1d28a\">bMaxPacketSize0</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:78
+msgid "Maximum packet size for endpoint 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:80
+msgid "<a id=\"ad26c5e2fbd16ce3ee143f4bac5d49bda\"></a> uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:81
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#ad26c5e2fbd16ce3ee143f4bac5d49bda\">idVendor</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:82
+msgid "USB-IF vendor ID."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:84
+msgid "<a id=\"a568d479fb0b76ea572a739c961fd3047\"></a> uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:85
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a568d479fb0b76ea572a739c961fd3047\">idProduct</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:86
+msgid "USB-IF product ID."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:88
+msgid "<a id=\"afb5e0fc6f0cfe51de900d35506fb9317\"></a> uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:89
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#afb5e0fc6f0cfe51de900d35506fb9317\">bcdDevice</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:90
+msgid "Device release number in binary-coded decimal."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:92
+msgid "<a id=\"ab9e9a064265f2833d1d3f216f15a487a\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:93
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#ab9e9a064265f2833d1d3f216f15a487a\">iManufacturer</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:94
+msgid "Index of string descriptor describing manufacturer."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:96
+msgid "<a id=\"a20082f9e03f1cbffef3d9472a8dcfd64\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:97
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a20082f9e03f1cbffef3d9472a8dcfd64\">iProduct</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:98
+msgid "Index of string descriptor describing product."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:100
+msgid "<a id=\"a327e8ede51268b38955ef035cf6de875\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:101
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a327e8ede51268b38955ef035cf6de875\">iSerialNumber</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:102
+msgid "Index of string descriptor containing device serial number."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:104
+msgid "<a id=\"a0f3f80cd931628a0531a815b59d067dd\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:105
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__device__descriptor.html#a0f3f80cd931628a0531a815b59d067dd\">bNumConfigurations</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:106
+msgid "Number of possible configurations."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:109
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:109
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:110
+msgid ""
+"A structure representing the standard USB device descriptor. This descriptor "
+"is documented in section 9.6.1 of the USB 3.0 specification. All "
+"multiple-byte fields are represented in host-endian format."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:111
+msgid "Field Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:112
+msgid "<a id=\"a63c4b109725ce829fc81c5c9cad8c87a\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:113
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__device__descriptor.html#a63c4b109725ce829fc81c5c9cad8c87a\">&#9670;&nbsp;</a></span>bDescriptorType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:119
+msgid "uint8_t libusb_device_descriptor::bDescriptorType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:124
+msgid "Descriptor type."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:125
+msgid ""
+"Will have value <a class=\"el\" "
+"href=\"group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca486e222e9f3053502ce4954a5bd89ba2\">libusb_descriptor_type::LIBUSB_DT_DEVICE</a> "
+"LIBUSB_DT_DEVICE in this context."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:129
+msgid "<a id=\"af0682f293291db942b5d253092d472e4\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:130
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__device__descriptor.html#af0682f293291db942b5d253092d472e4\">&#9670;&nbsp;</a></span>bcdUSB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:136
+msgid "uint16_t libusb_device_descriptor::bcdUSB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:141
+msgid "USB specification release number in binary-coded decimal."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:142
+msgid "A value of 0x0200 indicates USB 2.0, 0x0110 indicates USB 1.1, etc."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:146
+msgid "<a id=\"ab86c8f43e75d4d54fccbc199cfa9703b\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:147
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__device__descriptor.html#ab86c8f43e75d4d54fccbc199cfa9703b\">&#9670;&nbsp;</a></span>bDeviceClass"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:153
+msgid "uint8_t libusb_device_descriptor::bDeviceClass"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:158
+msgid "USB-IF class code for the device."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:159
+msgid ""
+"See <a class=\"el\" "
+"href=\"group__libusb__desc.html#gac529888effbefef8af4f9d17ebc903a1\">libusb_class_code</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:163
+msgid "The documentation for this struct was generated from the following file:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:164
+msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:168
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:170
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__device__descriptor.html:171
+msgid "</a> 1.8.17 </small>"
+msgstr ""

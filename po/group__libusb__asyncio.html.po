@@ -1,0 +1,3383 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:8
+msgid "libusb: Asynchronous device I/O"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:45
+msgid ""
+"<a href=\"group__libusb__asyncio.html#nested-classes\">Data Structures</a> "
+"&#124; <a href=\"group__libusb__asyncio.html#typedef-members\">Typedefs</a> "
+"&#124; <a href=\"group__libusb__asyncio.html#enum-members\">Enumerations</a> "
+"&#124; <a href=\"group__libusb__asyncio.html#func-members\">Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:50
+msgid "Asynchronous device I/O"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:54
+msgid ""
+"This page details libusb's asynchronous (non-blocking) API for USB device "
+"I/O. This interface is very powerful but is also quite complex - you will "
+"need to read this page carefully to understand the necessary considerations "
+"and issues surrounding use of this interface. Simplistic applications may "
+"wish to consider the <a class=\"el\" "
+"href=\"group__libusb__syncio.html\">synchronous I/O API</a> instead.  <a "
+"href=\"group__libusb__asyncio.html#details\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:57
+msgid "<a name=\"nested-classes\"></a> Data Structures"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:59 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:61 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:63
+msgid "struct &#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:59
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:60 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:62 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:64 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:69 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:82 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:94 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:100 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:105 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:107 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:109 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:111 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:113 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:115 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:117 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:119 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:121 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:123 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:125 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:127 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:129 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:131 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:133 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:135 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:137 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:139 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:141 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:143 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:145
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:61
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__iso__packet__descriptor.html\">libusb_iso_packet_descriptor</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:63
+msgid "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:66
+msgid "<a name=\"typedef-members\"></a> Typedefs"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:68
+msgid "typedef void(*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:68
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>) "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:71
+msgid "<a name=\"enum-members\"></a> Enumerations"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:73 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:83 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:95
+msgid "enum &#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:73
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a> "
+"{"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:74
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a4c89624658c783ef9b2a2f08091bc7d7\">LIBUSB_TRANSFER_TYPE_CONTROL</a> "
+"= 0U, <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300\">LIBUSB_TRANSFER_TYPE_ISOCHRONOUS</a> "
+"= 1U, <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a7bdfa2fc5dadbaaa0e9262e1b4a228e2\">LIBUSB_TRANSFER_TYPE_BULK</a> "
+"= 2U, <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c\">LIBUSB_TRANSFER_TYPE_INTERRUPT</a> "
+"= 3U,"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:79
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3\">LIBUSB_TRANSFER_TYPE_BULK_STREAM</a> "
+"= 4U"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:81 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:93 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:296 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:310 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:317
+msgid "}"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:83
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a> "
+"{"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:84
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363\">LIBUSB_TRANSFER_COMPLETED</a>, "
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\">LIBUSB_TRANSFER_ERROR</a>, "
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856ac2b7626d7b51cb980f83933b6ada1ddf\">LIBUSB_TRANSFER_TIMED_OUT</a>, "
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b\">LIBUSB_TRANSFER_CANCELLED</a>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:89
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a23cdfd929f5fe82cca9654f8075eeebb\">LIBUSB_TRANSFER_STALL</a>, "
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856ab7dcb24f313ace407e0c070d6b2c5f13\">LIBUSB_TRANSFER_NO_DEVICE</a>, "
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14\">LIBUSB_TRANSFER_OVERFLOW</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:95
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a> "
+"{ <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276\">LIBUSB_TRANSFER_SHORT_NOT_OK</a> "
+"= (1U &lt;&lt; 0), <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</a> "
+"= (1U &lt;&lt; 1), <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\">LIBUSB_TRANSFER_FREE_TRANSFER</a> "
+"= (1U &lt;&lt; 2), <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f\">LIBUSB_TRANSFER_ADD_ZERO_PACKET</a> "
+"= (1U &lt;&lt; 3)  }"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:102
+msgid "<a name=\"func-members\"></a> Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:104 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:106 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:110 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:116 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:118 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:460 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:508 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:626 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1063 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1155 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1243 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1329 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1335
+msgid "int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:104
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, uint32_t num_streams, unsigned char *endpoints, int "
+"num_endpoints)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:106
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gab068de0fd203ccef5c620a8143526acb\">libusb_free_streams</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char *endpoints, int num_endpoints)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:108 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:454 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:502 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:588 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:887 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:971 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1057 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1149 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1237 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1323
+msgid "unsigned char *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:108
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, size_t length)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:110
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62\">libusb_dev_mem_free</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char *buffer, size_t length)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:112 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:655 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:683 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:719 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:749 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:787 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:817 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:852 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:959 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1039 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1125 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1219 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1305 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1398 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1443 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1490
+msgid ""
+"struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:112
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer</a> "
+"(int iso_packets)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:114 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:120
+msgid "void&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:114
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:116
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:118
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:120
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gaeae2db23b9de811af317483afdeb230f\">libusb_transfer_set_stream_id</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, uint32_t "
+"stream_id)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:122 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:448 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:755 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1143
+msgid "uint32_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:122
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga631653487273f3306925131cdc0a3ffc\">libusb_transfer_get_stream_id</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:124 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:142 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:144
+msgid "static unsigned char *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:124
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gadf9c633586dde54ce62a3d66a4d7554c\">libusb_control_transfer_get_data</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:126
+msgid ""
+"static struct <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a> *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:126
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:128 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:130 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:132 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:134 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:136 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:138 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:140
+msgid "static void&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:128
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup</a> "
+"(unsigned char *buffer, uint8_t bmRequestType, uint8_t bRequest, uint16_t "
+"wValue, uint16_t wIndex, uint16_t wLength)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:130
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char *buffer, <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
+"callback, void *user_data, unsigned int timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:132
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char endpoint, unsigned char *buffer, int length, <a "
+"class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
+"callback, void *user_data, unsigned int timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:134
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char endpoint, uint32_t stream_id, unsigned char "
+"*buffer, int length, <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
+"callback, void *user_data, unsigned int timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:136
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char endpoint, unsigned char *buffer, int length, <a "
+"class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
+"callback, void *user_data, unsigned int timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:138
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga30fdce8c461e851f0aa4c851014e1aa7\">libusb_fill_iso_transfer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char endpoint, unsigned char *buffer, int length, int "
+"num_iso_packets, <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
+"callback, void *user_data, unsigned int timeout)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:140
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, unsigned "
+"int length)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:142
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, unsigned "
+"int packet)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:144
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple</a> "
+"(struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, unsigned "
+"int packet)"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:147
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:147
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:148
+msgid ""
+"This page details libusb's asynchronous (non-blocking) API for USB device "
+"I/O. This interface is very powerful but is also quite complex - you will "
+"need to read this page carefully to understand the necessary considerations "
+"and issues surrounding use of this interface. Simplistic applications may "
+"wish to consider the <a class=\"el\" "
+"href=\"group__libusb__syncio.html\">synchronous I/O API</a> instead."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:149
+msgid ""
+"The asynchronous interface is built around the idea of separating transfer "
+"submission and handling of transfer completion (the synchronous model "
+"combines both of these into one). There may be a long delay between "
+"submission and completion, however the asynchronous submission function is "
+"non-blocking so will return control to your application during that "
+"potentially long delay."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:150
+msgid "<a class=\"anchor\" id=\"asyncabstraction\"></a> Transfer abstraction"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:152
+msgid ""
+"For the asynchronous I/O, libusb implements the concept of a generic "
+"transfer entity for all types of I/O (control, bulk, interrupt, "
+"isochronous). The generic transfer object must be treated slightly "
+"differently depending on which type of I/O you are performing with it."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:153
+msgid ""
+"This is represented by the public <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> structure type."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:154
+msgid "<a class=\"anchor\" id=\"asynctrf\"></a> Asynchronous transfers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:156
+msgid "We can view asynchronous I/O as a 5 step process:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:157
+msgid ""
+"<b>Allocation</b>: allocate a <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:158
+msgid ""
+"<b>Filling</b>: populate the <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> instance with "
+"information about the transfer you wish to perform"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:159
+msgid "<b>Submission</b>: ask libusb to submit the transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:160
+msgid ""
+"<b>Completion handling</b>: examine transfer results in the <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> structure"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:161
+msgid "<b>Deallocation</b>: clean up resources"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:163
+msgid "<a class=\"anchor\" id=\"asyncalloc\"></a> Allocation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:165
+msgid ""
+"This step involves allocating memory for a USB transfer. This is the generic "
+"transfer object mentioned above. At this stage, the transfer is \"blank\" "
+"with no details about what type of I/O it will be used for."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:166
+msgid ""
+"Allocation is done with the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> "
+"function. You must use this function rather than allocating your own "
+"transfers."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:167
+msgid "<a class=\"anchor\" id=\"asyncfill\"></a> Filling"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:169
+msgid ""
+"This step is where you take a previously allocated transfer and fill it with "
+"information to determine the message type and direction, data buffer, "
+"callback function, etc."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:170
+msgid ""
+"You can either fill the required fields yourself or you can use the helper "
+"functions: <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a>, "
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer()</a> "
+"and <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:171
+msgid "<a class=\"anchor\" id=\"asyncsubmit\"></a> Submission"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:173
+msgid ""
+"When you have allocated a transfer and filled it, you can submit it using <a "
+"class=\"el\" "
+"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a>. "
+"This function returns immediately but can be regarded as firing off the I/O "
+"request in the background."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:174
+msgid "<a class=\"anchor\" id=\"asynccomplete\"></a> Completion handling"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:176
+msgid "After a transfer has been submitted, one of four things can happen to it:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:178
+msgid "The transfer completes (i.e. some data was transferred)"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:179
+msgid ""
+"The transfer has a timeout and the timeout expires before all data is "
+"transferred"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:180
+msgid "The transfer fails due to an error"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:181
+msgid "The transfer is cancelled"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:183
+msgid ""
+"Each of these will cause the user-specified transfer callback function to be "
+"invoked. It is up to the callback function to determine which of the above "
+"actually happened and to act accordingly."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:184
+msgid ""
+"The user-specified callback is passed a pointer to the <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> structure which was "
+"used to setup and submit the transfer. At completion time, libusb has "
+"populated this structure with results of the transfer: success or failure "
+"reason, number of bytes of data transferred, etc. See the <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> structure "
+"documentation for more information."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:185
+msgid ""
+"<b>Important Note</b>: The user-specified callback is called from an event "
+"handling context. It is therefore important that no calls are made into "
+"libusb that will attempt to perform any event handling. Examples of such "
+"functions are any listed in the <a class=\"el\" "
+"href=\"group__libusb__syncio.html\">synchronous API</a> and any of the "
+"blocking functions that retrieve <a class=\"el\" "
+"href=\"group__libusb__desc.html\">USB descriptors</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:186
+msgid "<a class=\"anchor\" id=\"Deallocation\"></a> Deallocation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:188
+msgid ""
+"When a transfer has completed (i.e. the callback function has been invoked), "
+"you are advised to free the transfer (unless you wish to resubmit it, see "
+"below). Transfers are deallocated with <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:189
+msgid "It is undefined behaviour to free a transfer which has not completed."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:190
+msgid "<a class=\"anchor\" id=\"asyncresubmit\"></a> Resubmission"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:192
+msgid ""
+"You may be wondering why allocation, filling, and submission are all "
+"separated above where they could reasonably be combined into a single "
+"operation."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:193
+msgid ""
+"The reason for separation is to allow you to resubmit transfers without "
+"having to allocate new ones every time. This is especially useful for common "
+"situations dealing with interrupt endpoints - you allocate one transfer, "
+"fill and submit it, and when it returns with results you just resubmit it "
+"for the next interrupt."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:194
+msgid "<a class=\"anchor\" id=\"asynccancel\"></a> Cancellation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:196
+msgid ""
+"Another advantage of using the asynchronous interface is that you have the "
+"ability to cancel transfers which have not yet completed. This is done by "
+"calling the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer()</a> "
+"function."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:197
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer()</a> "
+"is asynchronous/non-blocking in itself. When the cancellation actually "
+"completes, the transfer's callback function will be invoked, and the "
+"callback function should check the transfer status to determine that it was "
+"cancelled."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:198
+msgid ""
+"Freeing the transfer after it has been cancelled but before cancellation has "
+"completed will result in undefined behaviour."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:199
+msgid "Attention"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:199
+msgid ""
+"When a transfer is cancelled, some of the data may have been "
+"transferred. libusb will communicate this to you in the transfer "
+"callback. <b>Do not assume that no data was transferred.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:200
+msgid ""
+"<a class=\"anchor\" id=\"asyncpartial\"></a> Partial data transfer resulting "
+"from cancellation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:202
+msgid ""
+"As noted above, some of the data may have been transferred at the time a "
+"transfer is cancelled. It is helpful to see how this is possible if you "
+"consider a bulk transfer to an endpoint with a packet size of 64 "
+"bytes. Supposing you submit a 512-byte transfer to this endpoint, the "
+"operating system will divide this transfer up into 8 separate 64-byte frames "
+"that the host controller will schedule for the device to transfer data. If "
+"this transfer is cancelled while the device is transferring data, a subset "
+"of these frames may be descheduled from the host controller before the "
+"device has the opportunity to finish transferring data to the host."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:203
+msgid ""
+"What your application should do with a partial data transfer is a policy "
+"decision; there is no single answer that satisfies the needs of every "
+"application. The data that was successfully transferred should be considered "
+"entirely valid, but your application must decide what to do with the "
+"remaining data that was not transferred. Some possible actions to take are:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:204
+msgid ""
+"Resubmit another transfer for the remaining data, possibly with a shorter "
+"timeout"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:205
+msgid "Discard the partially transferred data and report an error"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:207
+msgid "<a class=\"anchor\" id=\"asynctimeout\"></a> Timeouts"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:209
+msgid ""
+"When a transfer times out, libusb internally notes this and attempts to "
+"cancel the transfer. As noted in <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#asyncpartial\">above</a>, it is possible "
+"that some of the data may actually have been transferred. Your application "
+"should <b>always</b> check how much data was actually transferred once the "
+"transfer completes and act accordingly."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:210
+msgid ""
+"<a class=\"anchor\" id=\"bulk_overflows\"></a> Overflows on device-to-host "
+"bulk/interrupt endpoints"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:212
+msgid ""
+"If your device does not have predictable transfer sizes (or it misbehaves), "
+"your application may submit a request for data on an IN endpoint which is "
+"smaller than the data that the device wishes to send. In some circumstances "
+"this will cause an overflow, which is a nasty condition to deal with. See "
+"the <a class=\"el\" href=\"libusb_packetoverflow.html\">Packets and "
+"overflows</a> page for discussion."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:213
+msgid ""
+"<a class=\"anchor\" id=\"asyncctrl\"></a> Considerations for control "
+"transfers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:215
+msgid ""
+"The <code><a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a></code> structure is "
+"generic and hence does not include specific fields for the control-specific "
+"setup packet structure."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:216
+msgid ""
+"In order to perform a control transfer, you must place the 8-byte setup "
+"packet at the start of the data buffer. To simplify this, you could cast the "
+"buffer pointer to type struct <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>, or you "
+"can use the helper function <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:217
+msgid ""
+"The wLength field placed in the setup packet must be the length you would "
+"expect to be sent in the setup packet: the length of the payload that "
+"follows (or the expected maximum number of bytes to receive). However, the "
+"length field of the <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> object must be the "
+"length of the data buffer - i.e. it should be wLength <em>plus</em> the size "
+"of the setup packet (LIBUSB_CONTROL_SETUP_SIZE)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:218
+msgid "If you use the helper functions, this is simplified for you:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:219
+msgid ""
+"Allocate a buffer of size LIBUSB_CONTROL_SETUP_SIZE plus the size of the "
+"data you are sending/requesting."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:220
+msgid ""
+"Call <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> "
+"on the data buffer, using the transfer request size as the wLength value "
+"(i.e. do not include the extra space you allocated for the control setup)."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:221
+msgid ""
+"If this is a host-to-device transfer, place the data to be transferred in "
+"the data buffer, starting at offset LIBUSB_CONTROL_SETUP_SIZE."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:222
+msgid ""
+"Call <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a> "
+"to associate the data buffer with the transfer (and to set the remaining "
+"details such as callback and timeout)."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:223
+msgid ""
+"Note that there is no parameter to set the length field of the transfer. The "
+"length is automatically inferred from the wLength field of the setup packet."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:226
+msgid "Submit the transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:228
+msgid ""
+"The multi-byte control setup fields (wValue, wIndex and wLength) must be "
+"given in little-endian byte order (the endianness of the USB "
+"bus). Endianness conversion is transparently handled by <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> "
+"which is documented to accept host-endian values."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:229
+msgid ""
+"Further considerations are needed when handling transfer completion in your "
+"callback function:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:230
+msgid ""
+"As you might expect, the setup packet will still be sitting at the start of "
+"the data buffer."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:231
+msgid ""
+"If this was a device-to-host transfer, the received data will be sitting at "
+"offset LIBUSB_CONTROL_SETUP_SIZE into the buffer."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:232
+msgid ""
+"The actual_length field of the transfer structure is relative to the wLength "
+"of the setup packet, rather than the size of the data buffer. So, if your "
+"wLength was 4, your transfer's <code>length</code> was 12, then you should "
+"expect an <code>actual_length</code> of 4 to indicate that the data was "
+"transferred in entirety."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:234
+msgid ""
+"To simplify parsing of setup packets and obtaining the data from the correct "
+"offset, you may wish to use the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gadf9c633586dde54ce62a3d66a4d7554c\">libusb_control_transfer_get_data()</a> "
+"and <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup()</a> "
+"functions within your transfer callback."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:235
+msgid ""
+"Even though control endpoints do not halt, a completed control transfer may "
+"have a LIBUSB_TRANSFER_STALL status code. This indicates the control request "
+"was not supported."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:236
+msgid ""
+"<a class=\"anchor\" id=\"asyncintr\"></a> Considerations for interrupt "
+"transfers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:238
+msgid ""
+"All interrupt transfers are performed using the polling interval presented "
+"by the bInterval value of the endpoint descriptor."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:239
+msgid ""
+"<a class=\"anchor\" id=\"asynciso\"></a> Considerations for isochronous "
+"transfers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:241
+msgid ""
+"Isochronous transfers are more complicated than transfers to non-isochronous "
+"endpoints."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:242
+msgid ""
+"To perform I/O to an isochronous endpoint, allocate the transfer by calling "
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> "
+"with an appropriate number of isochronous packets."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:243
+msgid ""
+"During filling, set <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1\">type</a> "
+"to <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300\">LIBUSB_TRANSFER_TYPE_ISOCHRONOUS</a>, "
+"and set <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">num_iso_packets</a> "
+"to a value less than or equal to the number of packets you requested during "
+"allocation. <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> "
+"does not set either of these fields for you, given that you might not even "
+"use the transfer on an isochronous endpoint."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:244
+msgid ""
+"Next, populate the length field for the first num_iso_packets entries in the "
+"<a class=\"el\" "
+"href=\"structlibusb__transfer.html#a3b72ef736d32b94a7097798612741644\">iso_packet_desc</a> "
+"array. Section 5.6.3 of the USB2 specifications describe how the maximum "
+"isochronous packet length is determined by the wMaxPacketSize field in the "
+"endpoint descriptor. Two functions can help you here:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:246
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size()</a> "
+"is an easy way to determine the max packet size for an isochronous "
+"endpoint. Note that the maximum packet size is actually the maximum number "
+"of bytes that can be transmitted in a single microframe, therefore this "
+"function multiplies the maximum number of bytes per transaction by the "
+"number of transaction opportunities per microframe."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:247
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</a> "
+"assigns the same length to all packets within a transfer, which is usually "
+"what you want."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:249
+msgid ""
+"For outgoing transfers, you'll obviously fill the buffer and populate the "
+"packet descriptors in hope that all the data gets transferred. For incoming "
+"transfers, you must ensure the buffer has sufficient capacity for the "
+"situation where all packets transfer the full amount of requested data."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:250
+msgid ""
+"Completion handling requires some extra consideration. The <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">actual_length</a> "
+"field of the transfer is meaningless and should not be examined; instead you "
+"must refer to the <a class=\"el\" "
+"href=\"structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32\">actual_length</a> "
+"field of each individual packet."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:251
+msgid ""
+"The <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a64b2e70e76d52a7cd23daa3cd4fb397e\">status</a> "
+"field of the transfer is also a little misleading:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:252
+msgid ""
+"If the packets were submitted and the isochronous data microframes completed "
+"normally, status will have value <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363\">LIBUSB_TRANSFER_COMPLETED</a>. "
+"Note that bus errors and software-incurred delays are not counted as "
+"transfer errors; the transfer.status field may indicate COMPLETED even if "
+"some or all of the packets failed. Refer to the <a class=\"el\" "
+"href=\"structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a> "
+"field of each individual packet to determine packet failures."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:253
+msgid ""
+"The status field will have value <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\">LIBUSB_TRANSFER_ERROR</a> "
+"only when serious errors were encountered."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:254
+msgid "Other transfer status codes occur with normal behaviour."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:256
+msgid ""
+"The data for each packet will be found at an offset into the buffer that can "
+"be calculated as if each prior packet completed in full. The <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer()</a> "
+"and <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple()</a> "
+"functions may help you here."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:257
+msgid "<a class=\"anchor\" id=\"asynclimits\"></a> Transfer length limitations"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:259
+msgid ""
+"Some operating systems may impose limits on the length of the transfer data "
+"buffer or, in the case of isochronous transfers, the length of individual "
+"isochronous packets. Such limits can be difficult for libusb to detect, so "
+"in most cases the library will simply try and submit the transfer as set up "
+"by you. If the transfer fails to submit because it is too large, <a "
+"class=\"el\" "
+"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a> "
+"will return <a class=\"el\" "
+"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\">LIBUSB_ERROR_INVALID_PARAM</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:260
+msgid ""
+"The following are known limits for control transfer lengths. Note that this "
+"length includes the 8-byte setup packet."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:261
+msgid "Linux (4,096 bytes)"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:262
+msgid "Windows (4,096 bytes)"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:264
+msgid "<a class=\"anchor\" id=\"asyncmem\"></a> Memory caveats"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:266
+msgid ""
+"In most circumstances, it is not safe to use stack memory for transfer "
+"buffers. This is because the function that fired off the asynchronous "
+"transfer may return before libusb has finished using the buffer, and when "
+"the function returns it's stack gets destroyed. This is true for both "
+"host-to-device and device-to-host transfers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:267
+msgid ""
+"The only case in which it is safe to use stack memory is where you can "
+"guarantee that the function owning the stack space for the buffer does not "
+"return until after the transfer's callback function has completed. In every "
+"other case, you need to use heap memory instead."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:268
+msgid "<a class=\"anchor\" id=\"asyncflags\"></a> Fine control"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:270
+msgid ""
+"Through using this asynchronous interface, you may find yourself repeating a "
+"few simple operations many times. You can apply a bitwise OR of certain "
+"flags to a transfer to simplify certain things:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:271
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276\">LIBUSB_TRANSFER_SHORT_NOT_OK</a> "
+"results in transfers which transferred less than the requested amount of "
+"data being marked with status <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\">LIBUSB_TRANSFER_ERROR</a> "
+"(they would normally be regarded as COMPLETED)"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:272
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</a> "
+"allows you to ask libusb to free the transfer buffer when freeing the "
+"transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:273
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\">LIBUSB_TRANSFER_FREE_TRANSFER</a> "
+"causes libusb to automatically free the transfer after the transfer callback "
+"returns."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:275
+msgid "<a class=\"anchor\" id=\"asyncevent\"></a> Event handling"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:277
+msgid ""
+"An asynchronous model requires that libusb perform work at various points in "
+"time - namely processing the results of previously-submitted transfers and "
+"invoking the user-supplied callback function."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:278
+msgid ""
+"This gives rise to the <a class=\"el\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"function which your application must call into when libusb has work do "
+"to. This gives libusb the opportunity to reap pending transfers, invoke "
+"callbacks, etc."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:279
+msgid "Note"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:279
+msgid ""
+"All event handling is performed by whichever thread calls the <a "
+"class=\"el\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"function. libusb does not invoke any callbacks outside of this "
+"context. Consequently, any callbacks will be run on the thread that calls "
+"the <a class=\"el\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"function."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:280
+msgid ""
+"When to call the <a class=\"el\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"function depends on which model your application decides to use. The 2 "
+"different approaches:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:282
+msgid ""
+"Repeatedly call <a class=\"el\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"in blocking mode from a dedicated thread."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:283
+msgid ""
+"Integrate libusb with your application's main event loop. libusb exposes a "
+"set of file descriptors which allow you to do this."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:285
+msgid ""
+"The first approach has the big advantage that it will also work on Windows "
+"were libusb' poll API for select / poll integration is not available. So if "
+"you want to support Windows and use the async API, you must use this "
+"approach, see the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#eventthread\">Using an event handling "
+"thread</a> section below for details."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:286
+msgid ""
+"If you prefer a single threaded approach with a single central event loop, "
+"see the <a class=\"el\" href=\"group__libusb__poll.html\">polling and "
+"timing</a> section for how to integrate libusb into your application's main "
+"event loop."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:287
+msgid "<a class=\"anchor\" id=\"eventthread\"></a> Using an event handling thread"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:289
+msgid ""
+"Lets begin with stating the obvious: If you're going to use a separate "
+"thread for libusb event handling, your callback functions MUST be "
+"thread-safe."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:290
+msgid ""
+"Other then that doing event handling from a separate thread, is mostly "
+"simple. You can use an event thread function as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:290
+msgid ""
+"<span class=\"keywordtype\">void</span> *event_thread_func(<span "
+"class=\"keywordtype\">void</span> *ctx)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:291 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:300 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:312
+msgid "{"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:292
+msgid "<span class=\"keywordflow\">while</span> (event_thread_run)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:293
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>(ctx);"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:295
+msgid "<span class=\"keywordflow\">return</span> NULL;"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:297
+msgid ""
+"There is one caveat though, stopping this thread requires setting the "
+"event_thread_run variable to 0, and after that <a class=\"el\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"needs to return control to event_thread_func. But unless some event happens, "
+"<a class=\"el\" "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"will not return."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:298
+msgid ""
+"There are 2 different ways of dealing with this, depending on if your "
+"application uses libusb' <a class=\"el\" "
+"href=\"libusb_hotplug.html\">hotplug</a> support or not."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:299
+msgid ""
+"Applications which do not use hotplug support, should not start the event "
+"thread until after their first call to <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>, "
+"and should stop the thread when closing the last open device as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:299
+msgid ""
+"<span class=\"keywordtype\">void</span> my_close_handle(<a class=\"code\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*<a class=\"code\" "
+"href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">dev_handle</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:301 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:306
+msgid "<span class=\"keywordflow\">if</span> (open_devs == 1)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:302 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:313
+msgid "event_thread_run = 0;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:304
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a>(<a "
+"class=\"code\" "
+"href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">dev_handle</a>); "
+"<span class=\"comment\">// This wakes up libusb_handle_events()</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:307 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:315
+msgid "pthread_join(event_thread);"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:309
+msgid "open_devs--;"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:311
+msgid ""
+"Applications using hotplug support should start the thread at program init, "
+"after having successfully called <a class=\"el\" "
+"href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a>, "
+"and should stop the thread at program exit as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:311
+msgid ""
+"<span class=\"keywordtype\">void</span> my_libusb_exit(<span "
+"class=\"keywordtype\">void</span>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:314
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback</a>(ctx, "
+"hotplug_cb_handle); <span class=\"comment\">// This wakes up "
+"libusb_handle_events()</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:316
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>(ctx);"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:318
+msgid "Typedef Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:319
+msgid "<a id=\"gac74874519794cd7aa40c0814702b0c88\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:320
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">&#9670;&nbsp;</a></span>libusb_transfer_cb_fn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:326
+msgid ""
+"typedef void( * libusb_transfer_cb_fn) (struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:330
+msgid ""
+"Asynchronous transfer callback function type. When submitting asynchronous "
+"transfers, you pass a pointer to a callback function of this type via the <a "
+"class=\"el\" "
+"href=\"structlibusb__transfer.html#a69c6df011ec23ff3e481cc98bfff0623\">callback</a> "
+"member of the <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> structure. libusb "
+"will call this function later, when the transfer has completed or "
+"failed. See <a class=\"el\" "
+"href=\"group__libusb__asyncio.html\">Asynchronous device I/O</a> for more "
+"information."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:330 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:474 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:521 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:562 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:605 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:636 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:665 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:690 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:726 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:767 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:795 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:830 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:865 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:933 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1013 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1097 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1190 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1277 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1369 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1420 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1466 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1514
+msgid "Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:332 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:667 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:692 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:728 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:769 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:797 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:832 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:867 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1015 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1099 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1192 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1279 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1371 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1422 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1468 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1516
+msgid "transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:332
+msgid ""
+"The <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> "
+"struct the callback function is being notified about."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:339
+msgid "Enumeration Type Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:340
+msgid "<a id=\"gacb52027036a07de6ecc6c2bf07d07c71\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:341
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71\">&#9670;&nbsp;</a></span>libusb_transfer_type"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:347
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:351
+msgid "Transfer type"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><th>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:353 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:380 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:413
+msgid "Enumerator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:353
+msgid ""
+"<a "
+"id=\"ggacb52027036a07de6ecc6c2bf07d07c71a4c89624658c783ef9b2a2f08091bc7d7\"></a>LIBUSB_TRANSFER_TYPE_CONTROL&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:353
+msgid "Control transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:355
+msgid ""
+"<a "
+"id=\"ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300\"></a>LIBUSB_TRANSFER_TYPE_ISOCHRONOUS&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:355
+msgid "Isochronous transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:357
+msgid ""
+"<a "
+"id=\"ggacb52027036a07de6ecc6c2bf07d07c71a7bdfa2fc5dadbaaa0e9262e1b4a228e2\"></a>LIBUSB_TRANSFER_TYPE_BULK&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:357
+msgid "Bulk transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:359
+msgid ""
+"<a "
+"id=\"ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c\"></a>LIBUSB_TRANSFER_TYPE_INTERRUPT&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:359
+msgid "Interrupt transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:361
+msgid ""
+"<a "
+"id=\"ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3\"></a>LIBUSB_TRANSFER_TYPE_BULK_STREAM&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:361
+msgid "Bulk stream transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:367
+msgid "<a id=\"ga9fcb2aa23d342060ebda1d0cf7478856\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:368
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">&#9670;&nbsp;</a></span>libusb_transfer_status"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:374
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:378
+msgid "Transfer status codes"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:380
+msgid ""
+"<a "
+"id=\"gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363\"></a>LIBUSB_TRANSFER_COMPLETED&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:380
+msgid "Transfer completed without error."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:381
+msgid ""
+"Note that this does not indicate that the entire amount of requested data "
+"was transferred."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:383
+msgid ""
+"<a "
+"id=\"gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\"></a>LIBUSB_TRANSFER_ERROR&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:383
+msgid "Transfer failed."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:385
+msgid ""
+"<a "
+"id=\"gga9fcb2aa23d342060ebda1d0cf7478856ac2b7626d7b51cb980f83933b6ada1ddf\"></a>LIBUSB_TRANSFER_TIMED_OUT&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:385
+msgid "Transfer timed out."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:387
+msgid ""
+"<a "
+"id=\"gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b\"></a>LIBUSB_TRANSFER_CANCELLED&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:387
+msgid "Transfer was cancelled."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:389
+msgid ""
+"<a "
+"id=\"gga9fcb2aa23d342060ebda1d0cf7478856a23cdfd929f5fe82cca9654f8075eeebb\"></a>LIBUSB_TRANSFER_STALL&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:389
+msgid "For bulk/interrupt endpoints: halt condition detected (endpoint stalled)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:390
+msgid "For control endpoints: control request not supported."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:392
+msgid ""
+"<a "
+"id=\"gga9fcb2aa23d342060ebda1d0cf7478856ab7dcb24f313ace407e0c070d6b2c5f13\"></a>LIBUSB_TRANSFER_NO_DEVICE&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:392
+msgid "Device was disconnected."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:394
+msgid ""
+"<a "
+"id=\"gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14\"></a>LIBUSB_TRANSFER_OVERFLOW&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:394
+msgid "Device sent more data than requested."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:400
+msgid "<a id=\"ga1fb47dd0f7c209b60a3609ff0c03d56d\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:401
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">&#9670;&nbsp;</a></span>libusb_transfer_flags"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:407
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:411
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__transfer.html#ae26c063df30c2e29835212aad98c6e06\" "
+"title=\"A bitwise OR combination of "
+"libusb_transfer_flags.\">libusb_transfer.flags</a> values"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:413
+msgid ""
+"<a "
+"id=\"gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276\"></a>LIBUSB_TRANSFER_SHORT_NOT_OK&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:413
+msgid "Report short frames as errors."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:415
+msgid ""
+"<a "
+"id=\"gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\"></a>LIBUSB_TRANSFER_FREE_BUFFER&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:415
+msgid ""
+"Automatically free() transfer buffer during <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:416
+msgid ""
+"Note that buffers allocated with <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a> "
+"should not be attempted freed in this way, since free() is not an "
+"appropriate way to release such memory."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:418
+msgid ""
+"<a "
+"id=\"gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\"></a>LIBUSB_TRANSFER_FREE_TRANSFER&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:418
+msgid ""
+"Automatically call <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> "
+"after callback returns."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:419
+msgid ""
+"If this flag is set, it is illegal to call <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> "
+"from your transfer callback, as this will result in a double-free when this "
+"flag is acted upon."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:421
+msgid ""
+"<a "
+"id=\"gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f\"></a>LIBUSB_TRANSFER_ADD_ZERO_PACKET&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:421
+msgid ""
+"Terminate transfers that are a multiple of the endpoint's wMaxPacketSize "
+"with an extra zero length packet."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:422
+msgid ""
+"This is useful when a device protocol mandates that each logical request is "
+"terminated by an incomplete packet (i.e. the logical requests are not "
+"separated by other means)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:423
+msgid ""
+"This flag only affects host-to-device transfers to bulk and interrupt "
+"endpoints. In other situations, it is ignored."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:424
+msgid ""
+"This flag only affects transfers with a length that is a multiple of the "
+"endpoint's wMaxPacketSize. On transfers of other lengths, this flag has no "
+"effect. Therefore, if you are working with a device that needs a ZLP "
+"whenever the end of the logical request falls on a packet boundary, then it "
+"is sensible to set this flag on <em>every</em> transfer (you do not have to "
+"worry about only setting it on transfers that end on the boundary)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:425
+msgid ""
+"This flag is currently only supported on Linux. On other systems, <a "
+"class=\"el\" "
+"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a> "
+"will return LIBUSB_ERROR_NOT_SUPPORTED for every transfer where this flag is "
+"set."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:426
+msgid "Available since libusb-1.0.9."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:432
+msgid "Function Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:433
+msgid "<a id=\"gad7e786c1bedd4a668887564465101981\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:434
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">&#9670;&nbsp;</a></span>libusb_alloc_streams()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:440
+msgid "int libusb_alloc_streams"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:441 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:495 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:541 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:581 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:625 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:654 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:682 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:718 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:748 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:786 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:816 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:851 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:886 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:958 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1038 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1124 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1218 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1304 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1397 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1442 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1489
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:442 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:496 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:542 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:582 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:965 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1045 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1131 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1225 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1311
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:443 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:497 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:543 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:583 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:966 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1046 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1132 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1226 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1312
+msgid "<em>dev_handle</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:449
+msgid "<em>num_streams</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:455 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:503
+msgid "<em>endpoints</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:461 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:509
+msgid "<em>num_endpoints</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:465 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:513 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:553 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:599 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:627 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:656 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:684 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:720 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:760 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:788 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:818 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:853 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:922 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:994 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1086 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1178 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1266 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1358 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1409 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1454 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1501
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:470
+msgid ""
+"Allocate up to num_streams usb bulk streams on the specified endpoints. This "
+"function takes an array of endpoints rather then a single endpoint because "
+"some protocols require that endpoints are setup with similar stream ids. All "
+"endpoints passed in must belong to the same interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:471
+msgid ""
+"Note this function may return less streams then requested. Also note that "
+"the same number of streams are allocated for each endpoint in the endpoint "
+"array."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:472
+msgid ""
+"Stream id 0 is reserved, and should not be used to communicate with "
+"devices. If <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a> "
+"returns with a value of N, you may use stream ids 1 to N."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:473 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:520 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:766 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:794 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1189
+msgid ""
+"Since version 1.0.19, <a class=\"el\" "
+"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> "
+"&gt;= 0x01000103"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:476 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:523 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:564 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:607 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1016 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1100 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1193 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1280 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1372
+msgid "dev_handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:476 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:523 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:564 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:607
+msgid "a device handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:477
+msgid "num_streams"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:477
+msgid "number of streams to try to allocate"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:478 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:524
+msgid "endpoints"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:478
+msgid "array of endpoints to allocate streams on"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:479 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:525
+msgid "num_endpoints"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:479 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:525
+msgid "length of the endpoints array"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:483 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:529 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:569 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:613 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:642 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:696 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:732 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:801 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:836 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:871 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1473 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1521
+msgid "Returns"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:483
+msgid "number of streams allocated, or a LIBUSB_ERROR code on failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:487
+msgid "<a id=\"gab068de0fd203ccef5c620a8143526acb\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:488
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gab068de0fd203ccef5c620a8143526acb\">&#9670;&nbsp;</a></span>libusb_free_streams()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:494
+msgid "int libusb_free_streams"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:518
+msgid ""
+"Free usb bulk streams allocated with <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:519
+msgid "Note streams are automatically free-ed when releasing an interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:524
+msgid "array of endpoints to free streams on"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:529 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:613
+msgid "LIBUSB_SUCCESS, or a LIBUSB_ERROR code on failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:533
+msgid "<a id=\"ga47c492e750197f1a28874c7a0dee40e3\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:534
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">&#9670;&nbsp;</a></span>libusb_dev_mem_alloc()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:540
+msgid "unsigned char* libusb_dev_mem_alloc"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:548 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:594
+msgid "size_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:549 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:595 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1405
+msgid "<em>length</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:558
+msgid ""
+"Attempts to allocate a block of persistent DMA memory suitable for transfers "
+"against the given device. If successful, will return a block of memory that "
+"is suitable for use as \"buffer\" in <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> against this "
+"device. Using this memory instead of regular memory means that the host "
+"controller can use DMA directly into the buffer to increase performance, and "
+"also that transfers can no longer fail due to kernel memory fragmentation."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:559
+msgid ""
+"Note that this means you should not modify this memory (or even data on the "
+"same cache lines) when a transfer is in progress, although it is legal to "
+"have several transfers going on within the same memory block."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:560
+msgid ""
+"Will return NULL on failure. Many systems do not support such zero-copy and "
+"will always return NULL. Memory allocated with this function must be freed "
+"with <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62\">libusb_dev_mem_free</a>. "
+"Specifically, this means that the flag <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</a> "
+"cannot be used to free memory allocated with this function."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:561
+msgid ""
+"Since version 1.0.21, <a class=\"el\" "
+"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> "
+"&gt;= 0x01000105"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:565 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:609 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1103 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1197 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1283 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1375 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1423
+msgid "length"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:565
+msgid "size of desired data buffer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:569
+msgid "a pointer to the newly allocated memory, or NULL on failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:573
+msgid "<a id=\"gad7575ff325f0159a5b74b7c0ee64eb62\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:574
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62\">&#9670;&nbsp;</a></span>libusb_dev_mem_free()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:580
+msgid "int libusb_dev_mem_free"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:589 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:888 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:972 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1058 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1150 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1238 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1324
+msgid "<em>buffer</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:604
+msgid ""
+"Free device memory allocated with <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:608 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:935 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1017 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1102 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1196 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1282 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1374
+msgid "buffer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:608
+msgid "pointer to the previously allocated memory"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:609
+msgid "size of previously allocated memory"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:617
+msgid "<a id=\"ga13cc69ea40c702181c430c950121c000\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:618
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">&#9670;&nbsp;</a></span>libusb_alloc_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:624
+msgid ""
+"struct <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a>* "
+"libusb_alloc_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:627
+msgid "<em>iso_packets</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:632
+msgid ""
+"Allocate a libusb transfer with a specified number of isochronous packet "
+"descriptors. The returned transfer is pre-initialized for you. When the new "
+"transfer is no longer needed, it should be freed with <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:633
+msgid ""
+"Transfers intended for non-isochronous endpoints (e.g. control, bulk, "
+"interrupt) should specify an iso_packets count of zero."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:634
+msgid ""
+"For transfers intended for isochronous endpoints, specify an appropriate "
+"number of packet descriptors to be allocated as part of the transfer. The "
+"returned transfer is not specially initialized for isochronous I/O; you are "
+"still required to set the <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">num_iso_packets</a> "
+"and <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1\">type</a> "
+"fields accordingly."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:635
+msgid ""
+"It is safe to allocate a transfer with some isochronous packets and then use "
+"it on a non-isochronous endpoint. If you do this, ensure that at time of "
+"submission, num_iso_packets is 0 and that type is set appropriately."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:638
+msgid "iso_packets"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:638
+msgid "number of isochronous packet descriptors to allocate. Must be non-negative."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:642
+msgid "a newly allocated transfer, or NULL on error"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:646
+msgid "<a id=\"ga6ab8b2cff4de9091298a06b2f4b86cd6\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:647
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">&#9670;&nbsp;</a></span>libusb_free_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:653
+msgid "void libusb_free_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:656 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:684 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:720 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:788 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:818 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:853
+msgid "<em>transfer</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:661
+msgid ""
+"Free a transfer structure. This should be called for all transfers allocated "
+"with <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:662
+msgid ""
+"If the <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</a> "
+"flag is set and the transfer buffer is non-NULL, this function will also "
+"free the transfer buffer using the standard system memory allocator "
+"(e.g. free())."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:663
+msgid ""
+"It is legal to call this function with a NULL transfer. In this case, the "
+"function will simply return safely."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:664
+msgid ""
+"It is not legal to free an active transfer (one which has been submitted and "
+"has not yet completed)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:667
+msgid "the transfer to free"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:674
+msgid "<a id=\"gabb0932601f2c7dad2fee4b27962848ce\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:675
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">&#9670;&nbsp;</a></span>libusb_submit_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:681
+msgid "int libusb_submit_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:689
+msgid ""
+"Submit a transfer. This function will fire off the USB transfer and then "
+"return immediately."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:692
+msgid "the transfer to submit"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:696 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:732
+msgid "0 on success"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:698
+msgid "LIBUSB_ERROR_NO_DEVICE if the device has been disconnected"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:700
+msgid "LIBUSB_ERROR_BUSY if the transfer has already been submitted."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:702
+msgid ""
+"LIBUSB_ERROR_NOT_SUPPORTED if the transfer flags are not supported by the "
+"operating system."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:704
+msgid ""
+"LIBUSB_ERROR_INVALID_PARAM if the transfer size is larger than the operating "
+"system and/or hardware can support (see <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#asynclimits\">Transfer length "
+"limitations</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:706
+msgid "another LIBUSB_ERROR code on other failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:710
+msgid "<a id=\"ga685eb7731f9a0593f75beb99727bbe54\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:711
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">&#9670;&nbsp;</a></span>libusb_cancel_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:717
+msgid "int libusb_cancel_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:725
+msgid ""
+"Asynchronously cancel a previously submitted transfer. This function returns "
+"immediately, but this does not indicate cancellation is complete. Your "
+"callback function will be invoked at some later time with a transfer status "
+"of <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b\">LIBUSB_TRANSFER_CANCELLED.</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:728
+msgid "the transfer to cancel"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:734
+msgid ""
+"LIBUSB_ERROR_NOT_FOUND if the transfer is not in progress, already complete, "
+"or already cancelled."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:736
+msgid "a LIBUSB_ERROR code on failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:740
+msgid "<a id=\"gaeae2db23b9de811af317483afdeb230f\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:741
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gaeae2db23b9de811af317483afdeb230f\">&#9670;&nbsp;</a></span>libusb_transfer_set_stream_id()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:747
+msgid "void libusb_transfer_set_stream_id"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:750 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:960 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1040 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1126 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1220 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1306 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1399 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1444 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1491
+msgid "<em>transfer</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:756
+msgid "<em>stream_id</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:765
+msgid ""
+"Set a transfers bulk stream id. Note users are advised to use <a "
+"class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer()</a> "
+"instead of calling this function directly."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:769
+msgid "the transfer to set the stream id for"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:770 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1195
+msgid "stream_id"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:770
+msgid "the stream id to set"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:774 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1427 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1474 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1522
+msgid "See also"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:774
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:778
+msgid "<a id=\"ga631653487273f3306925131cdc0a3ffc\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:779
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga631653487273f3306925131cdc0a3ffc\">&#9670;&nbsp;</a></span>libusb_transfer_get_stream_id()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:785
+msgid "uint32_t libusb_transfer_get_stream_id"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:793
+msgid "Get a transfers bulk stream id."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:797
+msgid "the transfer to get the stream id for"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:801
+msgid "the stream id for the transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:805
+msgid "<a id=\"gadf9c633586dde54ce62a3d66a4d7554c\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:806
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gadf9c633586dde54ce62a3d66a4d7554c\">&#9670;&nbsp;</a></span>libusb_control_transfer_get_data()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:815
+msgid "static unsigned char* libusb_control_transfer_get_data"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:824 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:859 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:928 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1000 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1092 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1184 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1272 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1364 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1415 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1460 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1507
+msgid ""
+"<span class=\"mlabels\"><span class=\"mlabel\">inline</span><span "
+"class=\"mlabel\">static</span></span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:828
+msgid ""
+"Get the data section of a control transfer. This convenience function is "
+"here to remind you that the data does not start until 8 bytes into the "
+"actual buffer, as the setup packet comes first."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:829 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:864
+msgid ""
+"Calling this function only makes sense from a transfer callback function, or "
+"situations where you have already allocated a suitably sized buffer at "
+"transfer-&gt;buffer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:832 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:867 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1422 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1468 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1516
+msgid "a transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:836
+msgid "pointer to the first byte of the data section"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:840
+msgid "<a id=\"ga6ab02f15e11b5b03b1174fbd7c3bc061\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:841
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">&#9670;&nbsp;</a></span>libusb_control_transfer_get_setup()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:850
+msgid ""
+"static struct <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>* "
+"libusb_control_transfer_get_setup"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:863
+msgid ""
+"Get the control setup packet of a control transfer. This convenience "
+"function is here to remind you that the control setup occupies the first 8 "
+"bytes of the transfer data buffer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:871
+msgid "a casted pointer to the start of the transfer data buffer"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:875
+msgid "<a id=\"ga5447311149ec2bd954b5f1a640a8e231\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:876
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">&#9670;&nbsp;</a></span>libusb_fill_control_setup()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:885
+msgid "static void libusb_fill_control_setup"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:893 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:899
+msgid "uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:894
+msgid "<em>bmRequestType</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:900
+msgid "<em>bRequest</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:905 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:911 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:917
+msgid "uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:906
+msgid "<em>wValue</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:912
+msgid "<em>wIndex</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:918
+msgid "<em>wLength</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:932
+msgid ""
+"Helper function to populate the setup packet (first 8 bytes of the data "
+"buffer) for a control transfer. The wIndex, wValue and wLength values should "
+"be given in host-endian byte order."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:935
+msgid ""
+"buffer to output the setup packet into This pointer must be aligned to at "
+"least 2 bytes boundary."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:936
+msgid "bmRequestType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:936
+msgid ""
+"see the <a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> "
+"field of <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:937
+msgid "bRequest"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:937
+msgid ""
+"see the <a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">bRequest</a> "
+"field of <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:938
+msgid "wValue"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:938
+msgid ""
+"see the <a class=\"el\" "
+"href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">wValue</a> "
+"field of <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:939
+msgid "wIndex"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:939
+msgid ""
+"see the <a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">wIndex</a> "
+"field of <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:940
+msgid "wLength"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:940
+msgid ""
+"see the <a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a3c442c64fd7619b43b782367235766cc\">wLength</a> "
+"field of <a class=\"el\" "
+"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:947
+msgid "<a id=\"ga3a8513ed87229fe2c9771ef0bf17206e\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:948
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">&#9670;&nbsp;</a></span>libusb_fill_control_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:957
+msgid "static void libusb_fill_control_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:977 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1069 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1161 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1249 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1341
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:978 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1070 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1162 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1250 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1342
+msgid "<em>callback</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:983 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1075 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1167 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1255 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1347
+msgid "void *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:984 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1076 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1168 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1256 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1348
+msgid "<em>user_data</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:989 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1081 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1173 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1261 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1353 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1404 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1449 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1496
+msgid "unsigned int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:990 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1082 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1174 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1262 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1354
+msgid "<em>timeout</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1004
+msgid ""
+"Helper function to populate the required <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> fields for a "
+"control transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1005
+msgid ""
+"If you pass a transfer buffer to this function, the first 8 bytes will be "
+"interpreted as a control setup packet, and the wLength field will be used to "
+"automatically populate the <a class=\"el\" "
+"href=\"structlibusb__transfer.html#a68c023e1f40b50aa8604a2495b6a391e\">length</a> "
+"field of the transfer. Therefore the recommended approach is:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1006
+msgid "Allocate a suitably sized data buffer (including space for control setup)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1007
+msgid ""
+"Call <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1008
+msgid ""
+"If this is a host-to-device transfer with a data stage, put the data in "
+"place after the setup packet"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1009
+msgid "Call this function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1010
+msgid ""
+"Call <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1012
+msgid ""
+"It is also legal to pass a NULL buffer to this function, in which case this "
+"function will not attempt to populate the length field. Remember that you "
+"must then populate the buffer and length fields later."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1015 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1099 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1192 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1279 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1371
+msgid "the transfer to populate"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1016 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1100 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1193 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1280 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1372
+msgid "handle of the device that will handle the transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1017
+msgid ""
+"data buffer. If provided, this function will interpret the first 8 bytes as "
+"a setup packet and infer the transfer length from that. This pointer must be "
+"aligned to at least 2 bytes boundary."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1018 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1104 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1198 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1284 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1377
+msgid "callback"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1018 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1104 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1198 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1284 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1377
+msgid "callback function to be invoked on transfer completion"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1019 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1105 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1199 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1285 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1378
+msgid "user_data"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1019 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1105 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1199 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1285 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1378
+msgid "user data to pass to callback function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1020 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1106 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1200 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1286 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1379
+msgid "timeout"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1020 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1106 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1200 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1286 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1379
+msgid "timeout for the transfer in milliseconds"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1027
+msgid "<a id=\"gad4ddb1a5c6c7fefc979a44d7300b95d7\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1028
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">&#9670;&nbsp;</a></span>libusb_fill_bulk_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1037
+msgid "static void libusb_fill_bulk_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1051 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1137 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1231 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1317
+msgid "unsigned char&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1052 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1138 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1232 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1318
+msgid "<em>endpoint</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1064 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1156 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1244 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1330
+msgid "<em>length</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1096
+msgid ""
+"Helper function to populate the required <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> fields for a bulk "
+"transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1101 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1194 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1281 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1373
+msgid "endpoint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1101 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1194 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1281 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1373
+msgid "address of the endpoint where this transfer will be sent"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1102 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1196 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1282 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1374
+msgid "data buffer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1103 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1197 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1283 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1375
+msgid "length of data buffer"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1113
+msgid "<a id=\"gac2e84d8fb9218d3c67e6a4fd4ade5b10\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1114
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">&#9670;&nbsp;</a></span>libusb_fill_bulk_stream_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1123
+msgid "static void libusb_fill_bulk_stream_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1144
+msgid "<em>stream_id</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1188
+msgid ""
+"Helper function to populate the required <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> fields for a bulk "
+"transfer using bulk streams."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1195
+msgid "bulk stream id for this transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1207
+msgid "<a id=\"ga90f53cea1124a7566df1aa1202b77510\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1208
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510\">&#9670;&nbsp;</a></span>libusb_fill_interrupt_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1217
+msgid "static void libusb_fill_interrupt_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1276
+msgid ""
+"Helper function to populate the required <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> fields for an "
+"interrupt transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1293
+msgid "<a id=\"ga30fdce8c461e851f0aa4c851014e1aa7\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1294
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga30fdce8c461e851f0aa4c851014e1aa7\">&#9670;&nbsp;</a></span>libusb_fill_iso_transfer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1303
+msgid "static void libusb_fill_iso_transfer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1336
+msgid "<em>num_iso_packets</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1368
+msgid ""
+"Helper function to populate the required <a class=\"el\" "
+"href=\"structlibusb__transfer.html\">libusb_transfer</a> fields for an "
+"isochronous transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1376
+msgid "num_iso_packets"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1376
+msgid "the number of isochronous packets"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1386
+msgid "<a id=\"gacbdecd6f50093f0c1d0e72ee35ace274\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1387
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">&#9670;&nbsp;</a></span>libusb_set_iso_packet_lengths()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1396
+msgid "static void libusb_set_iso_packet_lengths"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1419
+msgid ""
+"Convenience function to set the length of all packets in an isochronous "
+"transfer, based on the num_iso_packets field in the transfer structure."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1423
+msgid "the length to set in each isochronous packet descriptor"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1427
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gac81968047e262409e78f3fe24321b604\">libusb_get_max_packet_size()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1431
+msgid "<a id=\"ga7f6ea0eb35a216d19d984977e454a7b3\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1432
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">&#9670;&nbsp;</a></span>libusb_get_iso_packet_buffer()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1441
+msgid "static unsigned char* libusb_get_iso_packet_buffer"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1450 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1497
+msgid "<em>packet</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1464
+msgid ""
+"Convenience function to locate the position of an isochronous packet within "
+"the buffer of an isochronous transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1465
+msgid ""
+"This is a thorough function which loops through all preceding packets, "
+"accumulating their lengths to find the position of the specified "
+"packet. Typically you will assign equal lengths to each packet in the "
+"transfer, and hence the above method is sub-optimal. You may wish to use <a "
+"class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple()</a> "
+"instead."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1469 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1517
+msgid "packet"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1469 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1517
+msgid "the packet to return the address of"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1473 ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1521
+msgid ""
+"the base address of the packet buffer inside the transfer buffer, or NULL if "
+"the packet does not exist."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1474
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1478
+msgid "<a id=\"ga3df9a28c4f5c8f1850181ddb5efd12fd\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1479
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">&#9670;&nbsp;</a></span>libusb_get_iso_packet_buffer_simple()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1488
+msgid "static unsigned char* libusb_get_iso_packet_buffer_simple"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1511
+msgid ""
+"Convenience function to locate the position of an isochronous packet within "
+"the buffer of an isochronous transfer, for transfers where each packet is of "
+"identical size."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1512
+msgid ""
+"This function relies on the assumption that every packet within the transfer "
+"is of identical size to the first packet. Calculating the location of the "
+"packet buffer is then just a simple calculation: <code>buffer + (packet_size "
+"* packet)</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1513
+msgid ""
+"Do not use this function on transfers other than those that have identical "
+"packet lengths for each packet."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1522
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1527
+msgid ""
+"<a "
+"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1527
+msgid "int libusb_handle_events(libusb_context *ctx)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1527
+msgid "<b>Definition:</b> io.c:2411"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1528
+msgid ""
+"<a "
+"href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1528
+msgid "void libusb_exit(libusb_context *ctx)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1528
+msgid "<b>Definition:</b> core.c:2367"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1529
+msgid ""
+"<a "
+"href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">libusb_transfer::dev_handle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1529
+msgid "libusb_device_handle * dev_handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1529
+msgid "Handle of the device that this transfer will be submitted to."
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1529
+msgid "<b>Definition:</b> libusb.h:1224"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1530
+msgid ""
+"<a "
+"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1530
+msgid ""
+"void libusb_hotplug_deregister_callback(libusb_context *ctx, "
+"libusb_hotplug_callback_handle callback_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1530
+msgid "<b>Definition:</b> hotplug.c:319"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1531
+msgid ""
+"<a "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1531
+msgid "void libusb_close(libusb_device_handle *dev_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1531
+msgid "<b>Definition:</b> core.c:1457"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1532
+msgid ""
+"<a "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1532
+msgid "struct libusb_device_handle libusb_device_handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1532
+msgid "<b>Definition:</b> libusb.h:1015"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1534
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1536
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__asyncio.html:1537
+msgid "</a> 1.8.17 </small>"
+msgstr ""

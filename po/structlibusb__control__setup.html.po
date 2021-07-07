@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:8
+msgid "libusb: libusb_control_setup Struct Reference"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:45
+msgid "<a href=\"structlibusb__control__setup.html#pub-attribs\">Data Fields</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:47
+msgid "libusb_control_setup Struct Reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:47
+msgid ""
+"<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device "
+"I/O</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:51
+msgid ""
+"<code>#include &lt;<a class=\"el\" "
+"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:53
+msgid "<a name=\"pub-attribs\"></a> Data Fields"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:55 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:58
+msgid "uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:55
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:56 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:59 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:60 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:62 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:63 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:65 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:66 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:69 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:70
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:56
+msgid ""
+"Request type.  <a "
+"href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:58
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">bRequest</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:59
+msgid ""
+"Request.  <a "
+"href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:61 ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:64
+msgid "uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:61
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">wValue</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:62
+msgid ""
+"Value.  <a "
+"href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:64
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">wIndex</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:65
+msgid ""
+"Index.  <a "
+"href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:67
+msgid "<a id=\"a3c442c64fd7619b43b782367235766cc\"></a> uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:68
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__control__setup.html#a3c442c64fd7619b43b782367235766cc\">wLength</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:69
+msgid "Number of bytes to transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:72
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:72
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:73
+msgid "Setup packet for control transfers."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:74
+msgid "Field Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:75
+msgid "<a id=\"a39b148c231d675492ccd2383196926bf\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:76
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">&#9670;&nbsp;</a></span>bmRequestType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:82
+msgid "uint8_t libusb_control_setup::bmRequestType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:87
+msgid "Request type."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:88
+msgid ""
+"Bits 0:4 determine recipient, see <a class=\"el\" "
+"href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a>. "
+"Bits 5:6 determine type, see <a class=\"el\" "
+"href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a>. "
+"Bit 7 determines data transfer direction, see <a class=\"el\" "
+"href=\"group__libusb__desc.html#ga86c880af878493aa8f805c2aba654b8b\">libusb_endpoint_direction</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:92
+msgid "<a id=\"a1b80a28b8d4e8586fc54358194e70087\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:93
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">&#9670;&nbsp;</a></span>bRequest"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:99
+msgid "uint8_t libusb_control_setup::bRequest"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:104
+msgid "Request."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:105
+msgid ""
+"If the type bits of bmRequestType are equal to <a class=\"el\" "
+"href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\">LIBUSB_REQUEST_TYPE_STANDARD</a> "
+"then this field refers to <a class=\"el\" "
+"href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>. "
+"For other cases, use of this field is application-specific."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:109
+msgid "<a id=\"abbb6daa01fe4b6a05dc43492e4e53a7d\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:110
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">&#9670;&nbsp;</a></span>wValue"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:116
+msgid "uint16_t libusb_control_setup::wValue"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:121
+msgid "Value."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:122
+msgid "Varies according to request"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:126
+msgid "<a id=\"a70c2ae456344b200a19d434ace85ae2b\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:127
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">&#9670;&nbsp;</a></span>wIndex"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:133
+msgid "uint16_t libusb_control_setup::wIndex"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:138
+msgid "Index."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:139
+msgid "Varies according to request, typically used to pass an index or offset"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:143
+msgid "The documentation for this struct was generated from the following file:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:144
+msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:148
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:150
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__control__setup.html:151
+msgid "</a> 1.8.17 </small>"
+msgstr ""

@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:8
+msgid "libusb: libusb_usb_2_0_extension_descriptor Struct Reference"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:45
+msgid ""
+"<a "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#pub-attribs\">Data "
+"Fields</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:47
+msgid "libusb_usb_2_0_extension_descriptor Struct Reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:47
+msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:51
+msgid ""
+"<code>#include &lt;<a class=\"el\" "
+"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:53
+msgid "<a name=\"pub-attribs\"></a> Data Fields"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:55
+msgid "<a id=\"a11b9f042687aec219e0e777530df0664\"></a> uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:56
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#a11b9f042687aec219e0e777530df0664\">bLength</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:58 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:60 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:61 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:63 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:64 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:66 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:67
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:57
+msgid "Size of this descriptor (in bytes)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:59 ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:62
+msgid "uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:59
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#ab3f73eeaabab1e8db659bcb6b2cb59c5\">bDescriptorType</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:60
+msgid ""
+"Descriptor type.  <a "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#ab3f73eeaabab1e8db659bcb6b2cb59c5\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:62
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#aa6a3e671c23b77eef252f17ce865734e\">bDevCapabilityType</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:63
+msgid ""
+"Capability type.  <a "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#aa6a3e671c23b77eef252f17ce865734e\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:65
+msgid "uint32_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:65
+msgid ""
+"<a class=\"el\" "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#ab22e1857d38c9205aaecca52b2e20ae0\">bmAttributes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:66
+msgid ""
+"Bitmap encoding of supported device level features.  <a "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#ab22e1857d38c9205aaecca52b2e20ae0\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:69
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:69
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:70
+msgid ""
+"A structure representing the USB 2.0 Extension descriptor This descriptor is "
+"documented in section 9.6.2.1 of the USB 3.0 specification. All "
+"multiple-byte fields are represented in host-endian format."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:71
+msgid "Field Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:72
+msgid "<a id=\"ab3f73eeaabab1e8db659bcb6b2cb59c5\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:73
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#ab3f73eeaabab1e8db659bcb6b2cb59c5\">&#9670;&nbsp;</a></span>bDescriptorType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:79
+msgid "uint8_t libusb_usb_2_0_extension_descriptor::bDescriptorType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:84
+msgid "Descriptor type."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:85
+msgid ""
+"Will have value <a class=\"el\" "
+"href=\"group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca56875fd1a3df25bdea7680fa9047743c\">libusb_descriptor_type::LIBUSB_DT_DEVICE_CAPABILITY</a> "
+"LIBUSB_DT_DEVICE_CAPABILITY in this context."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:89
+msgid "<a id=\"aa6a3e671c23b77eef252f17ce865734e\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:90
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#aa6a3e671c23b77eef252f17ce865734e\">&#9670;&nbsp;</a></span>bDevCapabilityType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:96
+msgid "uint8_t libusb_usb_2_0_extension_descriptor::bDevCapabilityType"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:101
+msgid "Capability type."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:102
+msgid ""
+"Will have value <a class=\"el\" "
+"href=\"group__libusb__desc.html#gga6ccabbf3b3728ae69608ba83bba4e64ca243b090db95a0fdf7104fbf581724b86\">libusb_capability_type::LIBUSB_BT_USB_2_0_EXTENSION</a> "
+"LIBUSB_BT_USB_2_0_EXTENSION in this context."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:106
+msgid "<a id=\"ab22e1857d38c9205aaecca52b2e20ae0\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:107
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"structlibusb__usb__2__0__extension__descriptor.html#ab22e1857d38c9205aaecca52b2e20ae0\">&#9670;&nbsp;</a></span>bmAttributes"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:113
+msgid "uint32_t libusb_usb_2_0_extension_descriptor::bmAttributes"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:118
+msgid "Bitmap encoding of supported device level features."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:119
+msgid ""
+"A value of one in a bit location indicates a feature is supported; a value "
+"of zero indicates it is not supported. See <a class=\"el\" "
+"href=\"group__libusb__desc.html#gacb8cfa928bffdd0066a3dd2e6aba0558\">libusb_usb_2_0_extension_attributes</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:123
+msgid "The documentation for this struct was generated from the following file:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:124
+msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:128
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:130
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:131
+msgid "</a> 1.8.17 </small>"
+msgstr ""

@@ -1,0 +1,2888 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:01+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:8
+msgid "libusb: Device handling and enumeration"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:45
+msgid ""
+"<a href=\"group__libusb__dev.html#typedef-members\">Typedefs</a> &#124; <a "
+"href=\"group__libusb__dev.html#enum-members\">Enumerations</a> &#124; <a "
+"href=\"group__libusb__dev.html#func-members\">Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:49
+msgid "Device handling and enumeration"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:53
+msgid ""
+"The functionality documented below is designed to help with the following "
+"operations: <a href=\"group__libusb__dev.html#details\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:56
+msgid "<a name=\"typedef-members\"></a> Typedefs"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:58
+msgid ""
+"typedef struct <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:58
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:59 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:61 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:75 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:80 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:82 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:84 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:86 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:88 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:90 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:92 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:94 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:96 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:98 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:100 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:102 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:104 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:106 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:108 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:110 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:112 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:114 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:116 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:118 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:120 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:122 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:124 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:126 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:128 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:130 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:132 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:134 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:136
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:60
+msgid ""
+"typedef struct <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:60
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:63
+msgid "<a name=\"enum-members\"></a> Enumerations"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:65
+msgid "enum &#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:65
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614\">libusb_speed</a> "
+"{"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:66
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__dev.html#gga2959abf1184f87b2ce06fe90db6ce614ace31df1e97e9a66146ac83dcab1e6cfb\">LIBUSB_SPEED_UNKNOWN</a> "
+"= 0, <a class=\"el\" "
+"href=\"group__libusb__dev.html#gga2959abf1184f87b2ce06fe90db6ce614a6017f9ac2509cd523b51c1b72ad6991b\">LIBUSB_SPEED_LOW</a> "
+"= 1, <a class=\"el\" "
+"href=\"group__libusb__dev.html#gga2959abf1184f87b2ce06fe90db6ce614a0011bead7a48b873808795d8495b4d9e\">LIBUSB_SPEED_FULL</a> "
+"= 2, <a class=\"el\" "
+"href=\"group__libusb__dev.html#gga2959abf1184f87b2ce06fe90db6ce614a27bc0b9fe76f8ddf524f3d2ece0eefac\">LIBUSB_SPEED_HIGH</a> "
+"= 3,"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:71
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__dev.html#gga2959abf1184f87b2ce06fe90db6ce614ab8c71e1409cd555ae05937b4db9946a2\">LIBUSB_SPEED_SUPER</a> "
+"= 4, <a class=\"el\" "
+"href=\"group__libusb__dev.html#gga2959abf1184f87b2ce06fe90db6ce614aa65f23e14e68162a142f26dac5fcfc4a\">LIBUSB_SPEED_SUPER_PLUS</a> "
+"= 5"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:74 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:161 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:162 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:171
+msgid "}"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:77
+msgid "<a name=\"func-members\"></a> Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:79
+msgid "ssize_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:79
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"***list)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:81 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:103 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:111
+msgid "void&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:81
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"**list, int unref_devices)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:83 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:85 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:93 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:466
+msgid "uint8_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:83
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gaf2718609d50c8ded2704e4051b3d2925\">libusb_get_bus_number</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:85
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga14879a0ea7daccdcddb68852d86c00c4\">libusb_get_port_number</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:87 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:89 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:95 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:97 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:99 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:105 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:107 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:115 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:117 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:119 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:121 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:123 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:125 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:127 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:129 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:131 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:133 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:135 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:321 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:414 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:951 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1008 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1058 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1104 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1110 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1233 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1280 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1330 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1381
+msgid "int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:87
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gaa4b7b2b50a9ce2aa396b0af2b979544d\">libusb_get_port_numbers</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev, uint8_t *port_numbers, int port_numbers_len)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:89
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga9d392b8dff7abf5e475c72fd071c3c34\">libusb_get_port_path</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev, uint8_t *port_numbers, uint8_t port_numbers_len)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:91 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:101 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:113 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:350 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:375 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:402 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:454 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:489 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:514 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:539 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:564 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:606 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:651 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:676 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:757
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:91
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga97bb4dfff6bbb897ed9dfd6fa1a1deed\">libusb_get_parent</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:93
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gab6d4e39ac483ebaeb108f2954715305d\">libusb_get_device_address</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:95
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga58c4e448ecd5cd4782f2b896ec40b22b\">libusb_get_device_speed</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:97
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gac81968047e262409e78f3fe24321b604\">libusb_get_max_packet_size</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev, unsigned char endpoint)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:99
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev, unsigned char endpoint)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:101
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gaabaa4193adcabba1789cc1165ac41a03\">libusb_ref_device</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:103
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3cc62e6a191b7a9f213e62b81ec30f4d\">libusb_unref_device</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:105
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c\">libusb_wrap_sys_device</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, intptr_t sys_dev, <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"**dev_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:107
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*dev, <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"**dev_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:109 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:849 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:876 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:901 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:945 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1002 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1052 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1098 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1150 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1195 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1227 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1274 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1324 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1375
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:109
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga11ba48adb896b1492bbd3d0bf7e0f665\">libusb_open_device_with_vid_pid</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, uint16_t vendor_id, uint16_t product_id)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:111
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:113
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:115
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int *config)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:117
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int configuration)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:119
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int interface_number)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:121
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int interface_number)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:123
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a\">libusb_set_interface_alt_setting</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int interface_number, int alternate_setting)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:125
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gab794bbc0b055d140f186f5a4d39c0891\">libusb_clear_halt</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, unsigned char endpoint)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:127
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gafee9c4638f1713ca5faa867948878111\">libusb_reset_device</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:129
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779\">libusb_kernel_driver_active</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int interface_number)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:131
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int interface_number)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:133
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gadeba36e900db663c0b7cf1b164a20d02\">libusb_attach_kernel_driver</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int interface_number)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:135
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf\">libusb_set_auto_detach_kernel_driver</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*dev_handle, int enable)"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:138
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:138
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:139
+msgid ""
+"The functionality documented below is designed to help with the following "
+"operations:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:141
+msgid "Enumerating the USB devices currently attached to the system"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:142
+msgid "Choosing a device to operate from your software"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:143
+msgid "Opening and closing the chosen device"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:145
+msgid "<a class=\"anchor\" id=\"nutshell\"></a> In a nutshell..."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:147
+msgid ""
+"The description below really makes things sound more complicated than they "
+"actually are. The following sequence of function calls will be suitable for "
+"almost all scenarios and does not require you to have such a deep "
+"understanding of the resource management issues:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:147
+msgid "<span class=\"comment\">// discover devices</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:148
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"**list;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:149
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*found = NULL;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:150
+msgid ""
+"ssize_t cnt = <a class=\"code\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list</a>(NULL, "
+"&amp;list);"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:151
+msgid "ssize_t i = 0;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:152
+msgid "<span class=\"keywordtype\">int</span> err = 0;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:153
+msgid "<span class=\"keywordflow\">if</span> (cnt &lt; 0)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:154 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:169
+msgid "error();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:156
+msgid "<span class=\"keywordflow\">for</span> (i = 0; i &lt; cnt; i++) {"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:157
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"*device = list[i];"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:158
+msgid "<span class=\"keywordflow\">if</span> (is_interesting(device)) {"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:159
+msgid "found = device;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:160
+msgid "<span class=\"keywordflow\">break</span>;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:164
+msgid "<span class=\"keywordflow\">if</span> (found) {"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:165
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"*handle;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:167
+msgid ""
+"err = <a class=\"code\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>(found, "
+"&amp;handle);"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:168
+msgid "<span class=\"keywordflow\">if</span> (err)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:170
+msgid "<span class=\"comment\">// etc</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:173
+msgid ""
+"<a class=\"code\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list</a>(list, "
+"1);"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:174
+msgid "The two important points:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:175
+msgid ""
+"You asked <a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> "
+"to unreference the devices (2nd parameter)"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:176
+msgid "You opened the device before freeing the list and unreferencing the devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:178
+msgid ""
+"If you ended up with a handle, you can now proceed to perform I/O on the "
+"device."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:179
+msgid "<a class=\"anchor\" id=\"devshandles\"></a> Devices and device handles"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:181
+msgid ""
+"libusb has a concept of a USB device, represented by the <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"opaque type. A device represents a USB device that is currently or was "
+"previously connected to the system. Using a reference to a device, you can "
+"determine certain information about the device (e.g. you can read the "
+"descriptor data)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:182
+msgid ""
+"The <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> "
+"function can be used to obtain a list of devices currently connected to the "
+"system. This is known as device discovery."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:183
+msgid ""
+"Just because you have a reference to a device does not mean it is "
+"necessarily usable. The device may have been unplugged, you may not have "
+"permission to operate such device, or another program or driver may be using "
+"the device."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:184
+msgid ""
+"When you've found a device that you'd like to operate, you must ask libusb "
+"to open the device using the <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
+"function. Assuming success, libusb then returns you a <em>device handle</em> "
+"(a <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"pointer). All \"real\" I/O operations then operate on the handle rather than "
+"the original device pointer."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:185
+msgid ""
+"<a class=\"anchor\" id=\"devref\"></a> Device discovery and reference "
+"counting"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:187
+msgid ""
+"Device discovery (i.e. calling <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a>) "
+"returns a freshly-allocated list of devices. The list itself must be freed "
+"when you are done with it. libusb also needs to know when it is OK to free "
+"the contents of the list - the devices themselves."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:188
+msgid "To handle these issues, libusb provides you with two separate items:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:189
+msgid "A function to free the list itself"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:190
+msgid "A reference counting system for the devices inside"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:192
+msgid ""
+"New devices presented by the <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> "
+"function all have a reference count of 1. You can increase and decrease "
+"reference count using <a class=\"el\" "
+"href=\"group__libusb__dev.html#gaabaa4193adcabba1789cc1165ac41a03\">libusb_ref_device()</a> "
+"and <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3cc62e6a191b7a9f213e62b81ec30f4d\">libusb_unref_device()</a>. "
+"A device is destroyed when its reference count reaches 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:193
+msgid ""
+"With the above information in mind, the process of opening a device can be "
+"viewed as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:194
+msgid ""
+"Discover devices using <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:195
+msgid ""
+"Choose the device that you want to operate, and call <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:196
+msgid "Unref all devices in the discovered device list."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:197
+msgid "Free the discovered device list."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:199
+msgid ""
+"The order is important - you must not unreference the device before "
+"attempting to open it, because unreferencing it may destroy the device."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:200
+msgid ""
+"For convenience, the <a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> "
+"function includes a parameter to optionally unreference all the devices in "
+"the list before freeing the list itself. This combines steps 3 and 4 above."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:201
+msgid ""
+"As an implementation detail, <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
+"actually adds a reference to the device in question. This is because the "
+"device remains available through the handle via <a class=\"el\" "
+"href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a>. "
+"The reference is deleted during <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:202
+msgid "Typedef Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:203
+msgid "<a id=\"ga77eedd00d01eb7569b880e861a971c2b\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:204
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">&#9670;&nbsp;</a></span>libusb_device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:210
+msgid ""
+"typedef struct <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:214
+msgid ""
+"Structure representing a USB device detected on the system. This is an "
+"opaque type for which you are only ever provided with a pointer, usually "
+"originating from <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:215
+msgid ""
+"Certain operations can be performed on a device, but in order to do any I/O "
+"you will have to first obtain a device handle using <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:216
+msgid ""
+"Devices are reference counted with <a class=\"el\" "
+"href=\"group__libusb__dev.html#gaabaa4193adcabba1789cc1165ac41a03\">libusb_ref_device()</a> "
+"and <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3cc62e6a191b7a9f213e62b81ec30f4d\">libusb_unref_device()</a>, "
+"and are freed when the reference count reaches 0. New devices presented by "
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> "
+"have a reference count of 1, and <a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> "
+"can optionally decrease the reference count on all devices in the list. <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
+"adds another reference which is later destroyed by <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:220
+msgid "<a id=\"ga7df95821d20d27b5597f1d783749d6a4\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:221
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">&#9670;&nbsp;</a></span>libusb_device_handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:227
+msgid ""
+"typedef struct <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:231
+msgid ""
+"Structure representing a handle on a USB device. This is an opaque type for "
+"which you are only ever provided with a pointer, usually originating from <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:232
+msgid ""
+"A device handle is used to perform I/O and other operations. When finished "
+"with a device handle, you should call <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:236
+msgid "Enumeration Type Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:237
+msgid "<a id=\"ga2959abf1184f87b2ce06fe90db6ce614\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:238
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614\">&#9670;&nbsp;</a></span>libusb_speed"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:244
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614\">libusb_speed</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:248
+msgid "Speed codes. Indicates the speed at which the device is operating."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><th>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:250
+msgid "Enumerator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:250
+msgid ""
+"<a "
+"id=\"gga2959abf1184f87b2ce06fe90db6ce614ace31df1e97e9a66146ac83dcab1e6cfb\"></a>LIBUSB_SPEED_UNKNOWN&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:250
+msgid "The OS doesn't report or know the device speed."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:252
+msgid ""
+"<a "
+"id=\"gga2959abf1184f87b2ce06fe90db6ce614a6017f9ac2509cd523b51c1b72ad6991b\"></a>LIBUSB_SPEED_LOW&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:252
+msgid "The device is operating at low speed (1.5MBit/s)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:254
+msgid ""
+"<a "
+"id=\"gga2959abf1184f87b2ce06fe90db6ce614a0011bead7a48b873808795d8495b4d9e\"></a>LIBUSB_SPEED_FULL&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:254
+msgid "The device is operating at full speed (12MBit/s)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:256
+msgid ""
+"<a "
+"id=\"gga2959abf1184f87b2ce06fe90db6ce614a27bc0b9fe76f8ddf524f3d2ece0eefac\"></a>LIBUSB_SPEED_HIGH&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:256
+msgid "The device is operating at high speed (480MBit/s)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:258
+msgid ""
+"<a "
+"id=\"gga2959abf1184f87b2ce06fe90db6ce614ab8c71e1409cd555ae05937b4db9946a2\"></a>LIBUSB_SPEED_SUPER&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:258
+msgid "The device is operating at super speed (5000MBit/s)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:260
+msgid ""
+"<a "
+"id=\"gga2959abf1184f87b2ce06fe90db6ce614aa65f23e14e68162a142f26dac5fcfc4a\"></a>LIBUSB_SPEED_SUPER_PLUS&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:260
+msgid "The device is operating at super speed plus (10000MBit/s)."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:266
+msgid "Function Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:267
+msgid "<a id=\"gac0fe4b65914c5ed036e6cbec61cb0b97\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:268
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">&#9670;&nbsp;</a></span>libusb_get_device_list()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:274
+msgid "ssize_t libusb_get_device_list"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:275 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:314 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:349 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:374 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:401 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:447 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:488 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:513 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:538 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:563 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:605 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:650 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:675 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:699 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:756 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:803 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:848 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:875 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:900 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:944 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1001 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1051 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1097 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1149 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1194 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1226 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1273 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1323 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1374
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:276 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:448 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:700 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:804
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:277 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:449 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:701 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:805
+msgid "<em>ctx</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:282
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"***&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:283
+msgid "<em>list</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:287 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:326 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:351 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:376 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:419 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:471 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:490 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:515 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:540 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:575 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:617 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:652 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:677 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:717 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:768 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:821 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:850 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:877 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:912 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:956 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1013 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1063 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1115 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1161 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1196 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1238 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1285 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1335 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1386
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:292
+msgid ""
+"Returns a list of USB devices currently attached to the system. This is your "
+"entry point into finding a USB device to operate."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:293
+msgid ""
+"You are expected to unreference all the devices when you are done with them, "
+"and then free the list with <a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a>. "
+"Note that <a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> "
+"can unref all the devices for you. Be careful not to unreference a device "
+"you are about to open until after you have opened it."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:294
+msgid ""
+"This return value of this function indicates the number of devices in the "
+"resultant list. The list is actually one element larger, as it is "
+"NULL-terminated."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:295 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:331 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:356 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:383 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:425 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:495 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:520 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:545 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:582 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:627 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:657 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:682 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:728 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:776 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:828 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:858 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:882 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:921 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:971 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1023 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1071 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1123 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1169 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1204 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1245 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1293 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1342 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1394
+msgid "Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:297 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:730 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:830
+msgid "ctx"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:297 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:730 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:830
+msgid "the context to operate on, or NULL for the default context"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:298 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:333
+msgid "list"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:298
+msgid ""
+"output location for a list of devices. Must be later freed with <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:302 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:362 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:389 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:433 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:501 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:526 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:551 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:589 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:634 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:663 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:736 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:783 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:836 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:888 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:928 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:978 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1030 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1078 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1131 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1176 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1210 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1252 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1300 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1349 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1401
+msgid "Returns"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:302
+msgid ""
+"the number of devices in the outputted list, or any <a class=\"el\" "
+"href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> "
+"according to errors encountered by the backend."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:306
+msgid "<a id=\"gad3b8561d064bb3e1b8851ddeed3cd7d6\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:307
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">&#9670;&nbsp;</a></span>libusb_free_device_list()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:313
+msgid "void libusb_free_device_list"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:315
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
+"**&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:316
+msgid "<em>list</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:322
+msgid "<em>unref_devices</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:331
+msgid ""
+"Frees a list of devices previously discovered using <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a>. "
+"If the unref_devices parameter is set, the reference count of each device in "
+"the list is decremented by 1."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:333
+msgid "the list to free"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:334
+msgid "unref_devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:334
+msgid "whether to unref the devices in the list"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:341
+msgid "<a id=\"gaf2718609d50c8ded2704e4051b3d2925\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:342
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gaf2718609d50c8ded2704e4051b3d2925\">&#9670;&nbsp;</a></span>libusb_get_bus_number()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:348
+msgid "uint8_t libusb_get_bus_number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:351 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:376 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:490 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:515 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:540 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:652 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:677
+msgid "<em>dev</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:356
+msgid "Get the number of the bus that a device is connected to."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:358 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:385 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:427 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:497 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:522 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:547 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:584 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:629 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:659 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:684 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:778
+msgid "dev"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:358 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:385 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:427 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:497 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:522 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:547 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:584 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:629
+msgid "a device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:362
+msgid "the bus number"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:366
+msgid "<a id=\"ga14879a0ea7daccdcddb68852d86c00c4\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:367
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga14879a0ea7daccdcddb68852d86c00c4\">&#9670;&nbsp;</a></span>libusb_get_port_number()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:373
+msgid "uint8_t libusb_get_port_number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:381
+msgid ""
+"Get the number of the port that a device is connected to. Unless the OS does "
+"something funky, or you are hot-plugging USB extension cards, the port "
+"number returned by this call is usually guaranteed to be uniquely tied to a "
+"physical port, meaning that different devices plugged on the same physical "
+"port should return the same port number."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:382
+msgid ""
+"But outside of this, there is no guarantee that the port number returned by "
+"this call will remain the same, or even match the order in which ports have "
+"been numbered by the HUB/HCD manufacturer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:389
+msgid "the port number (0 if not available)"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:393
+msgid "<a id=\"gaa4b7b2b50a9ce2aa396b0af2b979544d\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:394
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gaa4b7b2b50a9ce2aa396b0af2b979544d\">&#9670;&nbsp;</a></span>libusb_get_port_numbers()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:400
+msgid "int libusb_get_port_numbers"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:403 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:455 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:565 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:607 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:758
+msgid "<em>dev</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:408 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:460
+msgid "uint8_t *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:409 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:461
+msgid "<em>port_numbers</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:415 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:467
+msgid "<em>port_numbers_len</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:424
+msgid "Get the list of all port numbers from root for the specified device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:425
+msgid ""
+"Since version 1.0.16, <a class=\"el\" "
+"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> "
+"&gt;= 0x01000102"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:428
+msgid "port_numbers"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:428
+msgid "the array that should contain the port numbers"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:429
+msgid "port_numbers_len"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:429
+msgid ""
+"the maximum length of the array. As per the USB 3.0 specs, the current "
+"maximum limit for the depth is 7."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:433
+msgid "the number of elements filled"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:435
+msgid "LIBUSB_ERROR_OVERFLOW if the array is too small"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:439
+msgid "<a id=\"ga9d392b8dff7abf5e475c72fd071c3c34\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:440
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga9d392b8dff7abf5e475c72fd071c3c34\">&#9670;&nbsp;</a></span>libusb_get_port_path()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:446
+msgid "int libusb_get_port_path"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:476
+msgid ""
+"<b><a class=\"el\" "
+"href=\"deprecated.html#_deprecated000001\">Deprecated:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:476
+msgid ""
+"Please use <a class=\"el\" "
+"href=\"group__libusb__dev.html#gaa4b7b2b50a9ce2aa396b0af2b979544d\">libusb_get_port_numbers()</a> "
+"instead."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:480
+msgid "<a id=\"ga97bb4dfff6bbb897ed9dfd6fa1a1deed\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:481
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga97bb4dfff6bbb897ed9dfd6fa1a1deed\">&#9670;&nbsp;</a></span>libusb_get_parent()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:487
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* "
+"libusb_get_parent"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:495
+msgid "Get the the parent from the specified device."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:501
+msgid ""
+"the device parent or NULL if not available You should issue a <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> "
+"before calling this function and make sure that you only access the parent "
+"before issuing <a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a>. "
+"The reason is that libusb currently does not maintain a permanent list of "
+"device instances, and therefore can only guarantee that parents are fully "
+"instantiated within a <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> "
+"- <a class=\"el\" "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> "
+"block."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:505
+msgid "<a id=\"gab6d4e39ac483ebaeb108f2954715305d\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:506
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gab6d4e39ac483ebaeb108f2954715305d\">&#9670;&nbsp;</a></span>libusb_get_device_address()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:512
+msgid "uint8_t libusb_get_device_address"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:520
+msgid "Get the address of the device on the bus it is connected to."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:526
+msgid "the device address"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:530
+msgid "<a id=\"ga58c4e448ecd5cd4782f2b896ec40b22b\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:531
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga58c4e448ecd5cd4782f2b896ec40b22b\">&#9670;&nbsp;</a></span>libusb_get_device_speed()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:537
+msgid "int libusb_get_device_speed"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:545
+msgid "Get the negotiated connection speed for a device."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:551
+msgid ""
+"a <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614\">libusb_speed</a> "
+"code, where LIBUSB_SPEED_UNKNOWN means that the OS doesn't know or doesn't "
+"support returning the negotiated speed."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:555
+msgid "<a id=\"gac81968047e262409e78f3fe24321b604\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:556
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gac81968047e262409e78f3fe24321b604\">&#9670;&nbsp;</a></span>libusb_get_max_packet_size()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:562
+msgid "int libusb_get_max_packet_size"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:570 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:612 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1156
+msgid "unsigned char&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:571 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:613 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1157
+msgid "<em>endpoint</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:580
+msgid ""
+"Convenience function to retrieve the wMaxPacketSize value for a particular "
+"endpoint in the active device configuration."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:581
+msgid ""
+"This function was originally intended to be of assistance when setting up "
+"isochronous transfers, but a design mistake resulted in this function "
+"instead. It simply returns the wMaxPacketSize value without considering its "
+"contents. If you're dealing with isochronous transfers, you probably want <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size()</a> "
+"instead."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:585 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:630 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1172
+msgid "endpoint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:585 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:630
+msgid "address of the endpoint in question"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:589
+msgid "the wMaxPacketSize value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:591 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:636 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1178
+msgid "LIBUSB_ERROR_NOT_FOUND if the endpoint does not exist"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:593 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:638
+msgid "LIBUSB_ERROR_OTHER on other failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:597
+msgid "<a id=\"gaec10b71c7209760db55ee0f8768bb4f0\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:598
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0\">&#9670;&nbsp;</a></span>libusb_get_max_iso_packet_size()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:604
+msgid "int libusb_get_max_iso_packet_size"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:622
+msgid ""
+"Calculate the maximum packet size which a specific endpoint is capable is "
+"sending or receiving in the duration of 1 microframe"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:623
+msgid ""
+"Only the active configuration is examined. The calculation is based on the "
+"wMaxPacketSize field in the endpoint descriptor as described in section "
+"9.6.6 in the USB 2.0 specifications."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:624
+msgid ""
+"If acting on an isochronous or interrupt endpoint, this function will "
+"multiply the value found in bits 0:10 by the number of transactions per "
+"microframe (determined by bits 11:12). Otherwise, this function just returns "
+"the numeric value found in bits 0:10. For USB 3.0 device, it will attempts "
+"to retrieve the Endpoint Companion Descriptor to return wBytesPerInterval."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:625
+msgid ""
+"This function is useful for setting up isochronous transfers, for example "
+"you might pass the return value from this function to <a class=\"el\" "
+"href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</a> "
+"in order to set the length field of every isochronous packet in a transfer."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:626
+msgid "Since v1.0.3."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:634
+msgid "the maximum packet size which can be sent/received on this endpoint"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:642
+msgid "<a id=\"gaabaa4193adcabba1789cc1165ac41a03\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:643
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gaabaa4193adcabba1789cc1165ac41a03\">&#9670;&nbsp;</a></span>libusb_ref_device()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:649
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* "
+"libusb_ref_device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:657
+msgid "Increment the reference count of a device."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:659
+msgid "the device to reference"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:663
+msgid "the same device"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:667
+msgid "<a id=\"ga3cc62e6a191b7a9f213e62b81ec30f4d\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:668
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga3cc62e6a191b7a9f213e62b81ec30f4d\">&#9670;&nbsp;</a></span>libusb_unref_device()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:674
+msgid "void libusb_unref_device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:682
+msgid ""
+"Decrement the reference count of a device. If the decrement operation causes "
+"the reference count to reach zero, the device shall be destroyed."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:684
+msgid "the device to unreference"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:691
+msgid "<a id=\"ga98f783e115ceff4eaf88a60e6439563c\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:692
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c\">&#9670;&nbsp;</a></span>libusb_wrap_sys_device()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:698
+msgid "int libusb_wrap_sys_device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:706
+msgid "intptr_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:707
+msgid "<em>sys_dev</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:712 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:763
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
+"**&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:713 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:764
+msgid "<em>dev_handle</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:722
+msgid ""
+"Wrap a platform-specific system device handle and obtain a libusb device "
+"handle for the underlying device. The handle allows you to use libusb to "
+"perform I/O on the device in question."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:723
+msgid ""
+"Must call libusb_set_option(NULL, LIBUSB_OPTION_WEAK_AUTHORITY) before "
+"libusb_init if don't have authority to access the usb device directly."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:724
+msgid ""
+"On Linux, the system device handle must be a valid file descriptor opened on "
+"the device node."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:725
+msgid ""
+"The system device handle must remain open until <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> "
+"is called. The system device handle will not be closed by <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:726
+msgid ""
+"Internally, this function creates a temporary device and makes it available "
+"to you through <a class=\"el\" "
+"href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a>. "
+"This device is destroyed during <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>. "
+"The device shall not be opened through <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:727 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:775 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:857
+msgid "This is a non-blocking function; no requests are sent over the bus."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:731
+msgid "sys_dev"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:731
+msgid "the platform-specific system device handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:732 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:779 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:860 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:884 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:923 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:973 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1025 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1073 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1125 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1171 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1206 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1247 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1295 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1344 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1396
+msgid "dev_handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:732 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:779
+msgid ""
+"output location for the returned device handle pointer. Only populated when "
+"the return code is 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:736 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:783 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:928 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:978 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1030 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1078 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1131 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1176 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1210 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1300 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1349
+msgid "0 on success"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:738 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:785
+msgid "LIBUSB_ERROR_NO_MEM on memory allocation failure"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:740 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:787
+msgid "LIBUSB_ERROR_ACCESS if the user has insufficient permissions"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:742
+msgid ""
+"LIBUSB_ERROR_NOT_SUPPORTED if the operation is not supported on this "
+"platform"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:744 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:791 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:932 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:988 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1084 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1137 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1182 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1214 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1260 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1310 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1361
+msgid "another LIBUSB_ERROR code on other failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:748
+msgid "<a id=\"ga3f184a8be4488a767b2e0ae07e76d1b0\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:749
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">&#9670;&nbsp;</a></span>libusb_open()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:755
+msgid "int libusb_open"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:773
+msgid ""
+"Open a device and obtain a device handle. A handle allows you to perform I/O "
+"on the device in question."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:774
+msgid ""
+"Internally, this function adds a reference to the device and makes it "
+"available to you through <a class=\"el\" "
+"href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a>. "
+"This reference is removed during <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:778
+msgid "the device to open"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:789 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:930 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:986 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1036 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1082 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1135 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1180 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1256 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1306 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1355
+msgid "LIBUSB_ERROR_NO_DEVICE if the device has been disconnected"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:795
+msgid "<a id=\"ga11ba48adb896b1492bbd3d0bf7e0f665\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:796
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga11ba48adb896b1492bbd3d0bf7e0f665\">&#9670;&nbsp;</a></span>libusb_open_device_with_vid_pid()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:802
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>* "
+"libusb_open_device_with_vid_pid"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:810 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:816
+msgid "uint16_t&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:811
+msgid "<em>vendor_id</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:817
+msgid "<em>product_id</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:826
+msgid ""
+"Convenience function for finding a device with a particular "
+"<code>idVendor</code>/<code>idProduct</code> combination. This function is "
+"intended for those scenarios where you are using libusb to knock up a quick "
+"test application - it allows you to avoid calling <a class=\"el\" "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> "
+"and worrying about traversing/freeing the list."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:827
+msgid ""
+"This function has limitations and is hence not intended for use in real "
+"applications: if multiple devices have the same IDs it will only give you "
+"the first one, etc."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:831
+msgid "vendor_id"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:831
+msgid "the idVendor value to search for"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:832
+msgid "product_id"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:832
+msgid "the idProduct value to search for"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:836
+msgid ""
+"a device handle for the first found device, or NULL on error or if the "
+"device could not be found."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:840
+msgid "<a id=\"ga779bc4f1316bdb0ac383bddbd538620e\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:841
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">&#9670;&nbsp;</a></span>libusb_close()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:847
+msgid "void libusb_close"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:850 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:877 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1196
+msgid "<em>dev_handle</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:855
+msgid ""
+"Close a device handle. Should be called on all open handles before your "
+"application exits."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:856
+msgid ""
+"Internally, this function destroys the reference that was added by <a "
+"class=\"el\" "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
+"on the given device."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:860
+msgid "the device handle to close"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:867
+msgid "<a id=\"gafe70b8a797893d4d16985980acec956a\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:868
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">&#9670;&nbsp;</a></span>libusb_get_device()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:874
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* "
+"libusb_get_device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:882
+msgid ""
+"Get the underlying device for a device handle. This function does not modify "
+"the reference count of the returned device, so do not feel compelled to "
+"unreference it when you are done."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:884 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:923 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:973 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1025 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1073 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1125 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1171 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1247 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1295 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1344 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1396
+msgid "a device handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:888
+msgid "the underlying device"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:892
+msgid "<a id=\"gae921014b888b105471a31d54c77c1c4d\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:893
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d\">&#9670;&nbsp;</a></span>libusb_get_configuration()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:899
+msgid "int libusb_get_configuration"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:902 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:946 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1003 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1053 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1099 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1151 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1228 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1275 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1325 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1376
+msgid "<em>dev_handle</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:907
+msgid "int *&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:908
+msgid "<em>config</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:917
+msgid "Determine the bConfigurationValue of the currently active configuration."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:918
+msgid ""
+"You could formulate your own control request to obtain this information, but "
+"this function has the advantage that it may be able to retrieve the "
+"information from operating system caches (no I/O involved)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:919
+msgid ""
+"If the OS does not cache this information, then this function will block "
+"while a control transfer is submitted to retrieve the information."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:920
+msgid ""
+"This function will return a value of 0 in the <code>config</code> output "
+"parameter if the device is in unconfigured state."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:924
+msgid "config"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:924
+msgid ""
+"output location for the bConfigurationValue of the active configuration "
+"(only valid for return code 0)"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:936
+msgid "<a id=\"ga785ddea63a2b9bcb879a614ca4867bed\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:937
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">&#9670;&nbsp;</a></span>libusb_set_configuration()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:943
+msgid "int libusb_set_configuration"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:952
+msgid "<em>configuration</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:961
+msgid "Set the active configuration for a device."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:962
+msgid ""
+"The operating system may or may not have already set an active configuration "
+"on the device. It is up to your application to ensure the correct "
+"configuration is selected before you attempt to claim interfaces and perform "
+"other operations."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:963
+msgid ""
+"If you call this function on a device already configured with the selected "
+"configuration, then this function will act as a lightweight device reset: it "
+"will issue a SET_CONFIGURATION request using the current configuration, "
+"causing most USB-related device state to be reset (altsetting reset to zero, "
+"endpoint halts cleared, toggles reset)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:964
+msgid ""
+"Not all backends support setting the configuration from user space, which "
+"will be indicated by the return code LIBUSB_ERROR_NOT_SUPPORTED. As this "
+"suggests that the platform is handling the device configuration itself, this "
+"error should generally be safe to ignore."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:965
+msgid ""
+"You cannot change/reset configuration if your application has claimed "
+"interfaces. It is advised to set the desired configuration before claiming "
+"interfaces."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:966
+msgid ""
+"Alternatively you can call <a class=\"el\" "
+"href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a> "
+"first. Note if you do things this way you must ensure that "
+"auto_detach_kernel_driver for <code>dev</code> is 0, otherwise the kernel "
+"driver will be re-attached when you release the interface(s)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:967
+msgid ""
+"You cannot change/reset configuration if other applications or drivers have "
+"claimed interfaces."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:968
+msgid ""
+"A configuration value of -1 will put the device in unconfigured state. The "
+"USB specifications state that a configuration value of 0 does this, however "
+"buggy devices exist which actually have a configuration 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:969
+msgid ""
+"You should always use this function rather than formulating your own "
+"SET_CONFIGURATION control request. This is because the underlying operating "
+"system needs to know when such changes happen."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:970 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1122 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1168
+msgid "This is a blocking function."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:974
+msgid "configuration"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:974
+msgid ""
+"the bConfigurationValue of the configuration you wish to activate, or -1 if "
+"you wish to put the device in an unconfigured state"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:980
+msgid "LIBUSB_ERROR_NOT_FOUND if the requested configuration does not exist"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:982
+msgid "LIBUSB_ERROR_BUSY if interfaces are currently claimed"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:984
+msgid ""
+"LIBUSB_ERROR_NOT_SUPPORTED if setting or changing the configuration is not "
+"supported by the backend"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:989 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1039 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1085 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1261 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1311 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1362 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1404
+msgid "See also"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:989 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1039 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1085
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf\">libusb_set_auto_detach_kernel_driver()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:993
+msgid "<a id=\"gaee5076addf5de77c7962138397fd5b1a\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:994
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">&#9670;&nbsp;</a></span>libusb_claim_interface()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1000
+msgid "int libusb_claim_interface"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1009 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1059 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1234 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1281 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1331
+msgid "<em>interface_number</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1018
+msgid ""
+"Claim an interface on a given device handle. You must claim the interface "
+"you wish to use before you can perform I/O on any of its endpoints."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1019
+msgid ""
+"It is legal to attempt to claim an already-claimed interface, in which case "
+"libusb just returns 0 without doing anything."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1020
+msgid ""
+"If auto_detach_kernel_driver is set to 1 for <code>dev</code>, the kernel "
+"driver will be detached if necessary, on failure the detach error is "
+"returned."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1021
+msgid ""
+"Claiming of interfaces is a purely logical operation; it does not cause any "
+"requests to be sent over the bus. Interface claiming is used to instruct the "
+"underlying operating system that your application wishes to take ownership "
+"of the interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1022
+msgid "This is a non-blocking function."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1026 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1074 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1126 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1248 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1296 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1345
+msgid "interface_number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1026
+msgid "the <code>bInterfaceNumber</code> of the interface you wish to claim"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1032
+msgid "LIBUSB_ERROR_NOT_FOUND if the requested interface does not exist"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1034
+msgid "LIBUSB_ERROR_BUSY if another program or driver has claimed the interface"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1038
+msgid "a LIBUSB_ERROR code on other failure"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1043
+msgid "<a id=\"ga49b5cb0d894f6807cd1693ef29aecbfa\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1044
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">&#9670;&nbsp;</a></span>libusb_release_interface()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1050
+msgid "int libusb_release_interface"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1068
+msgid ""
+"Release an interface previously claimed with <a class=\"el\" "
+"href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>. "
+"You should release all claimed interfaces before closing a device handle."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1069
+msgid ""
+"This is a blocking function. A SET_INTERFACE control request will be sent to "
+"the device, resetting interface state to the first alternate setting."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1070
+msgid ""
+"If auto_detach_kernel_driver is set to 1 for <code>dev</code>, the kernel "
+"driver will be re-attached after releasing the interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1074 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1126
+msgid "the <code>bInterfaceNumber</code> of the previously-claimed interface"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1080
+msgid "LIBUSB_ERROR_NOT_FOUND if the interface was not claimed"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1089
+msgid "<a id=\"ga4858ad4f0f58fd1dc0afaead1fe6479a\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1090
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a\">&#9670;&nbsp;</a></span>libusb_set_interface_alt_setting()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1096
+msgid "int libusb_set_interface_alt_setting"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1105
+msgid "<em>interface_number</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1111
+msgid "<em>alternate_setting</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1120
+msgid ""
+"Activate an alternate setting for an interface. The interface must have been "
+"previously claimed with <a class=\"el\" "
+"href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1121
+msgid ""
+"You should always use this function rather than formulating your own "
+"SET_INTERFACE control request. This is because the underlying operating "
+"system needs to know when such changes happen."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1127
+msgid "alternate_setting"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1127
+msgid "the <code>bAlternateSetting</code> of the alternate setting to activate"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1133
+msgid ""
+"LIBUSB_ERROR_NOT_FOUND if the interface was not claimed, or the requested "
+"alternate setting does not exist"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1141
+msgid "<a id=\"gab794bbc0b055d140f186f5a4d39c0891\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1142
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gab794bbc0b055d140f186f5a4d39c0891\">&#9670;&nbsp;</a></span>libusb_clear_halt()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1148
+msgid "int libusb_clear_halt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1166
+msgid ""
+"Clear the halt/stall condition for an endpoint. Endpoints with halt status "
+"are unable to receive or transmit data until the halt condition is stalled."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1167
+msgid ""
+"You should cancel all pending transfers before attempting to clear the halt "
+"condition."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1172
+msgid "the endpoint to clear halt status"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1186
+msgid "<a id=\"gafee9c4638f1713ca5faa867948878111\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1187
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gafee9c4638f1713ca5faa867948878111\">&#9670;&nbsp;</a></span>libusb_reset_device()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1193
+msgid "int libusb_reset_device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1201
+msgid ""
+"Perform a USB port reset to reinitialize a device. The system will attempt "
+"to restore the previous configuration and alternate settings after the reset "
+"has completed."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1202
+msgid ""
+"If the reset fails, the descriptors change, or the previous state cannot be "
+"restored, the device will appear to be disconnected and reconnected. This "
+"means that the device handle is no longer valid (you should close it) and "
+"rediscover the device. A return code of LIBUSB_ERROR_NOT_FOUND indicates "
+"when this is the case."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1203
+msgid "This is a blocking function which usually incurs a noticeable delay."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1206
+msgid "a handle of the device to reset"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1212
+msgid ""
+"LIBUSB_ERROR_NOT_FOUND if re-enumeration is required, or if the device has "
+"been disconnected"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1218
+msgid "<a id=\"ga1cabd4660a274f715eeb82de112e0779\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1219
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779\">&#9670;&nbsp;</a></span>libusb_kernel_driver_active()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1225
+msgid "int libusb_kernel_driver_active"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1243
+msgid ""
+"Determine if a kernel driver is active on an interface. If a kernel driver "
+"is active, you cannot claim the interface, and libusb will be unable to "
+"perform I/O."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1244
+msgid "This functionality is not available on Windows."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1248
+msgid "the interface to check"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1252
+msgid "0 if no kernel driver is active"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1254
+msgid "1 if a kernel driver is active"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1258 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1308 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1357 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1403
+msgid ""
+"LIBUSB_ERROR_NOT_SUPPORTED on platforms where the functionality is not "
+"available"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1261
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1265
+msgid "<a id=\"ga5e0cc1d666097e915748593effdc634a\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1266
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">&#9670;&nbsp;</a></span>libusb_detach_kernel_driver()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1272
+msgid "int libusb_detach_kernel_driver"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1290
+msgid ""
+"Detach a kernel driver from an interface. If successful, you will then be "
+"able to claim the interface and perform I/O."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1291 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1341
+msgid "This functionality is not available on Darwin or Windows."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1292
+msgid ""
+"Note that libusb itself also talks to the device through a special kernel "
+"driver, if this driver is already attached to the device, this call will not "
+"detach it and return LIBUSB_ERROR_NOT_FOUND."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1296
+msgid "the interface to detach the driver from"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1302 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1351
+msgid "LIBUSB_ERROR_NOT_FOUND if no kernel driver was active"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1304 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1353
+msgid "LIBUSB_ERROR_INVALID_PARAM if the interface does not exist"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1311 ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1362
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779\">libusb_kernel_driver_active()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1315
+msgid "<a id=\"gadeba36e900db663c0b7cf1b164a20d02\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1316
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gadeba36e900db663c0b7cf1b164a20d02\">&#9670;&nbsp;</a></span>libusb_attach_kernel_driver()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1322
+msgid "int libusb_attach_kernel_driver"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1340
+msgid ""
+"Re-attach an interface's kernel driver, which was previously detached using "
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>. "
+"This call is only effective on Linux and returns LIBUSB_ERROR_NOT_SUPPORTED "
+"on all other platforms."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1345
+msgid "the interface to attach the driver from"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1359
+msgid ""
+"LIBUSB_ERROR_BUSY if the driver cannot be attached because the interface is "
+"claimed by a program or driver"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1366
+msgid "<a id=\"gac35b26fef01271eba65c60b2b3ce1cbf\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1367
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf\">&#9670;&nbsp;</a></span>libusb_set_auto_detach_kernel_driver()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1373
+msgid "int libusb_set_auto_detach_kernel_driver"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1382
+msgid "<em>enable</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1391
+msgid ""
+"Enable/disable libusb's automatic kernel driver detachment. When this is "
+"enabled libusb will automatically detach the kernel driver on an interface "
+"when claiming the interface, and attach it when releasing the interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1392
+msgid ""
+"Automatic kernel driver detachment is disabled on newly opened device "
+"handles by default."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1393
+msgid ""
+"On platforms which do not have LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER this "
+"function will return LIBUSB_ERROR_NOT_SUPPORTED, and libusb will continue as "
+"if this function was never called."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1397
+msgid "enable"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1397
+msgid "whether to enable or disable auto kernel driver detachment"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1401
+msgid "LIBUSB_SUCCESS on success"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1404
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1406
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1408
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1413
+msgid ""
+"<a "
+"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1413
+msgid "ssize_t libusb_get_device_list(libusb_context *ctx, libusb_device ***list)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1413
+msgid "<b>Definition:</b> core.c:825"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1414
+msgid ""
+"<a "
+"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1414
+msgid "struct libusb_device libusb_device"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1414
+msgid "<b>Definition:</b> libusb.h:1004"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1415
+msgid ""
+"<a "
+"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1415
+msgid "int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1415
+msgid "<b>Definition:</b> core.c:1302"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1416
+msgid ""
+"<a "
+"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1416
+msgid "void libusb_free_device_list(libusb_device **list, int unref_devices)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1416
+msgid "<b>Definition:</b> core.c:895"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1417
+msgid ""
+"<a "
+"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1417
+msgid "struct libusb_device_handle libusb_device_handle"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1417
+msgid "<b>Definition:</b> libusb.h:1015"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1419
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1421
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__dev.html:1422
+msgid "</a> 1.8.17 </small>"
+msgstr ""

@@ -1,0 +1,1089 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR libusb
+# This file is distributed under the same license as the libusb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libusb 0.0\n"
+"POT-Creation-Date: 2021-07-07 16:02+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><title>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:8
+msgid "libusb: Library initialization/deinitialization"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:20
+msgid "Logo"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:22
+msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:25
+msgid "A cross-platform user library to access USB devices"
+msgstr ""
+
+#. type: Content of: <html><body><div><script>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:36
+msgid ""
+"/* @license "
+"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
+"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
+"/* @license-end */"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:45
+msgid ""
+"<a href=\"group__libusb__lib.html#nested-classes\">Data Structures</a> "
+"&#124; <a href=\"group__libusb__lib.html#typedef-members\">Typedefs</a> "
+"&#124; <a href=\"group__libusb__lib.html#enum-members\">Enumerations</a> "
+"&#124; <a href=\"group__libusb__lib.html#func-members\">Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:50
+msgid "Library initialization/deinitialization"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:54
+msgid ""
+"This page details how to initialize and deinitialize libusb. Initialization "
+"must be performed before using any libusb functionality, and similarly you "
+"must not call any libusb functions after deinitialization.  <a "
+"href=\"group__libusb__lib.html#details\">More...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:57
+msgid "<a name=\"nested-classes\"></a> Data Structures"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:59
+msgid "struct &#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:59
+msgid "<a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:60 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:65 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:67 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:80 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:84 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:89 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:94 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:96 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:98 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:100 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:102 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:326
+msgid "&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:62
+msgid "<a name=\"typedef-members\"></a> Typedefs"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:64
+msgid ""
+"typedef struct <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:64
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:66
+msgid "typedef void(*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:66
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>) "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, enum <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> "
+"level, const char *str)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:69
+msgid "<a name=\"enum-members\"></a> Enumerations"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:71 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:81 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:85
+msgid "enum &#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:71
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> "
+"{"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:72
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2af431dbe84c85599526cc0103f8178270\">LIBUSB_LOG_LEVEL_NONE</a> "
+"= 0, <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2ace959b4b99f6c460dfa929b6152e49a8\">LIBUSB_LOG_LEVEL_ERROR</a> "
+"= 1, <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2a1d141f7a981d9fcd4bc12e41a1a14e78\">LIBUSB_LOG_LEVEL_WARNING</a> "
+"= 2, <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07\">LIBUSB_LOG_LEVEL_INFO</a> "
+"= 3,"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:77
+msgid ""
+"&#160;&#160;<a class=\"el\" "
+"href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c\">LIBUSB_LOG_LEVEL_DEBUG</a> "
+"= 4"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:79
+msgid "}"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:81
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a> "
+"{ <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga20e11f6f5a3b5a075fdf44969f3a9310a3baf6e9e1909f47fa8fce3f4155fbf5e\">LIBUSB_LOG_CB_GLOBAL</a> "
+"= (1 &lt;&lt; 0), <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15\">LIBUSB_LOG_CB_CONTEXT</a> "
+"= (1 &lt;&lt; 1)  }"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:85
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a> "
+"{ <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d\">LIBUSB_OPTION_LOG_LEVEL</a> "
+"= 0, <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6\">LIBUSB_OPTION_USE_USBDK</a> "
+"= 1, <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d\">LIBUSB_OPTION_WEAK_AUTHORITY</a> "
+"= 2 }"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:91
+msgid "<a name=\"func-members\"></a> Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:93 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:95 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:101
+msgid "void&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:93
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a\">libusb_set_debug</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, int level)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:95
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a> "
+"cb, int mode)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:97 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:99 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:245 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:280
+msgid "int&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:97
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, enum <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a> "
+"option,...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:99
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b\">libusb_init</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"**context)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:101
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a> "
+"(<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx)"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:104
+msgid "<a name=\"details\" id=\"details\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:104
+msgid "Detailed Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:105
+msgid ""
+"This page details how to initialize and deinitialize libusb. Initialization "
+"must be performed before using any libusb functionality, and similarly you "
+"must not call any libusb functions after deinitialization."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:106
+msgid "Typedef Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:107
+msgid "<a id=\"ga4ec088aa7b79c4a9599e39bf36a72833\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:108
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">&#9670;&nbsp;</a></span>libusb_context"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:114
+msgid ""
+"typedef struct <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:118
+msgid ""
+"Structure representing a libusb session. The concept of individual libusb "
+"sessions allows for your program to use two libraries (or dynamically load "
+"two modules) which both independently use libusb. This will prevent "
+"interference between the individual libusb users - for example <a "
+"class=\"el\" "
+"href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a> "
+"will not affect the other user of the library, and <a class=\"el\" "
+"href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a> "
+"will not destroy resources that the other user is still using."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:119
+msgid ""
+"Sessions are created by <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b\">libusb_init()</a> "
+"and destroyed through <a class=\"el\" "
+"href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a>. "
+"If your application is guaranteed to only ever include a single libusb user "
+"(i.e. you), you do not have to worry about contexts: pass NULL in every "
+"function call where a context is required. The default context will be used."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:120
+msgid ""
+"For more information, see <a class=\"el\" "
+"href=\"libusb_contexts.html\">Contexts</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:124
+msgid "<a id=\"ga968e4c2133a5db1ab5b22b09fcbf9cb7\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:125
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">&#9670;&nbsp;</a></span>libusb_log_cb"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:131
+msgid ""
+"typedef void( * libusb_log_cb) (<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*ctx, enum <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> "
+"level, const char *str)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:135
+msgid "Callback function for handling log messages."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:135 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:293 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:340 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:375 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:401
+msgid "Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:137 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:295 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:342 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:403
+msgid "ctx"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:137
+msgid ""
+"the context which is related to the log message, or NULL if it is a global "
+"log message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:138
+msgid "level"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:138
+msgid ""
+"the log level, see <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> "
+"for a description"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:139
+msgid "str"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:139
+msgid "the log message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:143 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:186 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:301 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:382
+msgid "See also"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:143 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:186
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:147
+msgid "Enumeration Type Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:148
+msgid "<a id=\"ga2d6144203f0fc6d373677f6e2e89d2d2\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:149
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">&#9670;&nbsp;</a></span>libusb_log_level"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:155
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:159
+msgid "Log message levels."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><th>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:161 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:188 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:209
+msgid "Enumerator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:161
+msgid ""
+"<a "
+"id=\"gga2d6144203f0fc6d373677f6e2e89d2d2af431dbe84c85599526cc0103f8178270\"></a>LIBUSB_LOG_LEVEL_NONE&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:161
+msgid "(0) : No messages ever emitted by the library (default)"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:163
+msgid ""
+"<a "
+"id=\"gga2d6144203f0fc6d373677f6e2e89d2d2ace959b4b99f6c460dfa929b6152e49a8\"></a>LIBUSB_LOG_LEVEL_ERROR&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:163
+msgid "(1) : Error messages are emitted"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:165
+msgid ""
+"<a "
+"id=\"gga2d6144203f0fc6d373677f6e2e89d2d2a1d141f7a981d9fcd4bc12e41a1a14e78\"></a>LIBUSB_LOG_LEVEL_WARNING&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:165
+msgid "(2) : Warning and error messages are emitted"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:167
+msgid ""
+"<a "
+"id=\"gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07\"></a>LIBUSB_LOG_LEVEL_INFO&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:167
+msgid "(3) : Informational, warning and error messages are emitted"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:169
+msgid ""
+"<a "
+"id=\"gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c\"></a>LIBUSB_LOG_LEVEL_DEBUG&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:169
+msgid "(4) : All messages are emitted"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:175
+msgid "<a id=\"ga20e11f6f5a3b5a075fdf44969f3a9310\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:176
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">&#9670;&nbsp;</a></span>libusb_log_cb_mode"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:182
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:186
+msgid "Log callback mode."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:188
+msgid ""
+"<a "
+"id=\"gga20e11f6f5a3b5a075fdf44969f3a9310a3baf6e9e1909f47fa8fce3f4155fbf5e\"></a>LIBUSB_LOG_CB_GLOBAL&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:188
+msgid "Callback function handling all log messages."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:190
+msgid ""
+"<a "
+"id=\"gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15\"></a>LIBUSB_LOG_CB_CONTEXT&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:190
+msgid "Callback function handling context related log messages."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:196
+msgid "<a id=\"ga07d4ec54cf575d672ba94c72b3c0de7c\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:197
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">&#9670;&nbsp;</a></span>libusb_option"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:203
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:207
+msgid ""
+"Available option values for <a class=\"el\" "
+"href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:209
+msgid ""
+"<a "
+"id=\"gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d\"></a>LIBUSB_OPTION_LOG_LEVEL&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:209
+msgid "Set the log message verbosity."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:210
+msgid ""
+"The default level is LIBUSB_LOG_LEVEL_NONE, which means no messages are ever "
+"printed. If you choose to increase the message verbosity level, ensure that "
+"your application does not close the stderr file descriptor."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:211
+msgid ""
+"You are advised to use level LIBUSB_LOG_LEVEL_WARNING. libusb is "
+"conservative with its message logging and most of the time, will only log "
+"messages that explain error conditions and other oddities. This will help "
+"you debug your software."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:212
+msgid ""
+"If the LIBUSB_DEBUG environment variable was set when libusb was "
+"initialized, this function does nothing: the message verbosity is fixed to "
+"the value in the environment variable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:213
+msgid ""
+"If libusb was compiled without any message logging, this function does "
+"nothing: you'll never get any messages."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:214
+msgid ""
+"If libusb was compiled with verbose debug message logging, this function "
+"does nothing: you'll always get messages from all levels."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:216
+msgid ""
+"<a "
+"id=\"gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6\"></a>LIBUSB_OPTION_USE_USBDK&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:216
+msgid "Use the UsbDk backend for a specific context, if available."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:217
+msgid ""
+"This option should be set immediately after calling <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b\">libusb_init()</a>, "
+"otherwise unspecified behavior may occur."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:218
+msgid "Only valid on Windows."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:220
+msgid ""
+"<a "
+"id=\"gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d\"></a>LIBUSB_OPTION_WEAK_AUTHORITY&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:220
+msgid "Set libusb has weak authority."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:221
+msgid "With this option, libusb will skip scan devices in libusb_init."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:222
+msgid ""
+"This option should be set before calling <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b\">libusb_init()</a>, "
+"otherwise libusb_init will failed. Normally libusb_wrap_sys_device need set "
+"this option."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:223
+msgid "Only valid on Linux-based operating system, such as Android."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:229
+msgid "Function Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:230
+msgid "<a id=\"ga5f8376b7a863a5a8d5b8824feb8a427a\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:231
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a\">&#9670;&nbsp;</a></span>libusb_set_debug()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:237
+msgid "void libusb_set_debug"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:238 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:267 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:313 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:366 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:394
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:239 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:268 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:314 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:395
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"*&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:240 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:269 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:315
+msgid "<em>ctx</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:246
+msgid "<em>level</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:250 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:285 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:331 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:368 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:396
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:255
+msgid ""
+"<b><a class=\"el\" "
+"href=\"deprecated.html#_deprecated000002\">Deprecated:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:255
+msgid ""
+"Use <a class=\"el\" "
+"href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a> "
+"instead using the <a class=\"el\" "
+"href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d\">LIBUSB_OPTION_LOG_LEVEL</a> "
+"option."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:259
+msgid "<a id=\"ga2efb66b8f16ffb0851f3907794c06e20\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:260
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20\">&#9670;&nbsp;</a></span>libusb_set_log_cb()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:266
+msgid "void libusb_set_log_cb"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:274
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:275
+msgid "<em>cb</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:281
+msgid "<em>mode</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:290
+msgid "Set log handler."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:291
+msgid ""
+"libusb will redirect its log messages to the provided callback "
+"function. libusb supports redirection of per context and global log "
+"messages. Log messages sent to the context will be sent to the global log "
+"handler too."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:292
+msgid ""
+"If libusb is compiled without message logging or USE_SYSTEM_LOGGING_FACILITY "
+"is defined then global callback function will never be called. If "
+"ENABLE_DEBUG_LOGGING is defined then per context callback function will "
+"never be called."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:295
+msgid ""
+"context on which to assign log handler, or NULL for the default "
+"context. Parameter ignored if only LIBUSB_LOG_CB_GLOBAL mode is requested."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:296
+msgid "cb"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:296
+msgid "pointer to the callback function, or NULL to stop log messages redirection"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:297
+msgid "mode"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:297
+msgid ""
+"mode of callback function operation. Several modes can be selected for a "
+"single callback function, see <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a> "
+"for a description."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:301
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>, "
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:305
+msgid "<a id=\"gaf6ce5db28dac96b1680877a123da4fa8\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:306
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">&#9670;&nbsp;</a></span>libusb_set_option()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:312
+msgid "int libusb_set_option"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:320
+msgid ""
+"enum <a class=\"el\" "
+"href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:321
+msgid "<em>option</em>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:327
+msgid "<em>...</em>&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:336
+msgid "Set an option in the library."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:337
+msgid "Use this function to configure a specific option within the library."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:338
+msgid ""
+"Some options require one or more arguments to be provided. Consult each "
+"option's documentation for specific requirements."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:339
+msgid ""
+"Since version 1.0.22, <a class=\"el\" "
+"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> "
+"&gt;= 0x01000106"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:342
+msgid "context on which to operate"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:343
+msgid "option"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:343
+msgid "which option to set"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:344
+msgid "..."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:344
+msgid "any required arguments for the specified option"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dt>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:348 ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:381
+msgid "Returns"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:348
+msgid "LIBUSB_SUCCESS on success"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:350
+msgid "LIBUSB_ERROR_INVALID_PARAM if the option or arguments are invalid"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:352
+msgid ""
+"LIBUSB_ERROR_NOT_SUPPORTED if the option is valid but not supported on this "
+"platform"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:354
+msgid ""
+"LIBUSB_ERROR_NOT_FOUND if LIBUSB_OPTION_USE_USBDK is valid on this platform "
+"but UsbDk is not available"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:358
+msgid "<a id=\"ga9517c37281bba0b51cc62eba728be48b\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:359
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b\">&#9670;&nbsp;</a></span>libusb_init()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:365
+msgid "int libusb_init"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:367
+msgid ""
+"<a class=\"el\" "
+"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
+"**&#160;"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:368
+msgid "<em>context</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:373
+msgid ""
+"Initialize libusb. This function must be called before calling any other "
+"libusb function."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:374
+msgid ""
+"If you do not provide an output location for a context pointer, a default "
+"context will be created. If there was already a default context, it will be "
+"reused (and nothing will be initialized/reinitialized)."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:377
+msgid "context"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:377
+msgid "Optional output location for context pointer. Only valid on return code 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:381
+msgid "0 on success, or a LIBUSB_ERROR code on failure"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:382
+msgid "libusb_contexts"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:386
+msgid "<a id=\"gadc174de608932caeb2fc15d94fa0844d\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:387
+msgid ""
+"<span class=\"permalink\"><a "
+"href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">&#9670;&nbsp;</a></span>libusb_exit()"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:393
+msgid "void libusb_exit"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:396
+msgid "<em>ctx</em>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:401
+msgid ""
+"Deinitialize libusb. Should be called after closing all open devices and "
+"before your application terminates."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:403
+msgid "the context to deinitialize, or NULL for the default context"
+msgstr ""
+
+#. type: Content of: <html><body><address><small><a>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:412
+msgid ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
+"href=\"http://www.doxygen.org/index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><address><small><a><img>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:414
+msgid "doxygen"
+msgstr ""
+
+#. type: Content of: <html><body><address>
+#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__lib.html:415
+msgid "</a> 1.8.17 </small>"
+msgstr ""
