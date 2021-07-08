@@ -27,7 +27,7 @@ libusb 1.0 document translate to Japanese.
 
 # Usage
 
-https://kuma35.github.io/libusb-docs-ja/target/index.html
+https://kuma35.github.io/libusb-docs-ja/
 
 # References
 
