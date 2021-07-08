@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc-1pi-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:44+0900\n"
-"PO-Revision-Date: 2021-07-09 02:46+0900\n"
+"PO-Revision-Date: 2021-07-09 08:00+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/functions_vars.html:8
 msgid "libusb: Data Fields - Variables"
-msgstr ""
+msgstr "libusb: データ・フィールド - 変数"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/functions_vars.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/functions_vars.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/functions_vars.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/functions_vars.html:36
@@ -43,17 +43,17 @@ msgid ""
 "magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
 "GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
 "/* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/functions_vars.html:44
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:46
 msgid "<a id=\"index_a\"></a>- a -"
-msgstr ""
+msgstr "<a id=\"index_a\"></a>- a -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:47
@@ -62,47 +62,47 @@ msgid ""
 "href=\"structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32\">libusb_iso_packet_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">libusb_transfer</a>"
-msgstr ""
+msgstr "actual_length : <a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32\">libusb_iso_packet_descriptor</a> , <a class=\"el\" href=\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:51
 msgid ""
 "altsetting : <a class=\"el\" "
 "href=\"structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce\">libusb_interface</a>"
-msgstr ""
+msgstr "altsetting : <a class=\"el\" href=\"structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce\">libusb_interface</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:57
 msgid "<a id=\"index_b\"></a>- b -"
-msgstr ""
+msgstr "<a id=\"index_b\"></a>- b -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:58
 msgid ""
 "bAlternateSetting : <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#a2c94bce217e8ecd5fd23728510e9c838\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "bAlternateSetting : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a2c94bce217e8ecd5fd23728510e9c838\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:61
 msgid ""
 "bcdDevice : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#afb5e0fc6f0cfe51de900d35506fb9317\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "bcdDevice : <a class=\"el\" href=\"structlibusb__device__descriptor.html#afb5e0fc6f0cfe51de900d35506fb9317\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:64
 msgid ""
 "bcdUSB : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#af0682f293291db942b5d253092d472e4\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "bcdUSB : <a class=\"el\" href=\"structlibusb__device__descriptor.html#af0682f293291db942b5d253092d472e4\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:67
 msgid ""
 "bConfigurationValue : <a class=\"el\" "
 "href=\"structlibusb__config__descriptor.html#a04549d99d38080857e0256fcad8dcce7\">libusb_config_descriptor</a>"
-msgstr ""
+msgstr "bConfigurationValue : <a class=\"el\" href=\"structlibusb__config__descriptor.html#a04549d99d38080857e0256fcad8dcce7\">libusb_config_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:70
@@ -127,7 +127,7 @@ msgid ""
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#ae8a297e3fb16cb5199df99816d48321a\">libusb_ss_usb_device_capability_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__usb__2__0__extension__descriptor.html#ab3f73eeaabab1e8db659bcb6b2cb59c5\">libusb_usb_2_0_extension_descriptor</a>"
-msgstr ""
+msgstr "bDescriptorType : <a class=\"el\" href=\"structlibusb__bos__descriptor.html#ae6dcffa81a4885e1cf677656f7ae9ff7\">libusb_bos_descriptor</a> , <a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html#a3d86cfc459f933fd825366279671e263\">libusb_bos_dev_capability_descriptor</a> , <a class=\"el\" href=\"structlibusb__config__descriptor.html#abc4f9a751c5b2ed968b045cb17528f74\">libusb_config_descriptor</a> , <a class=\"el\" href=\"structlibusb__container__id__descriptor.html#a4773f74ef9411441e59e9b31bc61c44b\">libusb_container_id_descriptor</a> , <a class=\"el\" href=\"structlibusb__device__descriptor.html#a63c4b109725ce829fc81c5c9cad8c87a\">libusb_device_descriptor</a> , <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#a609c257394a574af229293bddf26986e\">libusb_endpoint_descriptor</a> , <a class=\"el\" href=\"structlibusb__interface__descriptor.html#affe977ae83d3bbf07513d87ebfb6ed0e\">libusb_interface_descriptor</a> , <a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85344cb4f4d8d03014d9cc2cf90c748f\">libusb_ss_endpoint_companion_descriptor</a> , <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#ae8a297e3fb16cb5199df99816d48321a\">libusb_ss_usb_device_capability_descriptor</a> , <a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html#ab3f73eeaabab1e8db659bcb6b2cb59c5\">libusb_usb_2_0_extension_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:82
@@ -140,77 +140,77 @@ msgid ""
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#a25c10ea11b37e6adc0aca8c6701bcbff\">libusb_ss_usb_device_capability_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__usb__2__0__extension__descriptor.html#aa6a3e671c23b77eef252f17ce865734e\">libusb_usb_2_0_extension_descriptor</a>"
-msgstr ""
+msgstr "bDevCapabilityType : <a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html#a8e0b85cb554e5227a3ef860c1c97cdb0\">libusb_bos_dev_capability_descriptor</a> , <a class=\"el\" href=\"structlibusb__container__id__descriptor.html#a9c6771495f9010d2cceb86f9738053ac\">libusb_container_id_descriptor</a> , <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#a25c10ea11b37e6adc0aca8c6701bcbff\">libusb_ss_usb_device_capability_descriptor</a> , <a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html#aa6a3e671c23b77eef252f17ce865734e\">libusb_usb_2_0_extension_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:88
 msgid ""
 "bDeviceClass : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#ab86c8f43e75d4d54fccbc199cfa9703b\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "bDeviceClass : <a class=\"el\" href=\"structlibusb__device__descriptor.html#ab86c8f43e75d4d54fccbc199cfa9703b\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:91
 msgid ""
 "bDeviceProtocol : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#a480a0b5345a2e59987e20fa7247c3f0e\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "bDeviceProtocol : <a class=\"el\" href=\"structlibusb__device__descriptor.html#a480a0b5345a2e59987e20fa7247c3f0e\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:94
 msgid ""
 "bDeviceSubClass : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#a9c3a91102d3d53d9414d0dda0191c5ab\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "bDeviceSubClass : <a class=\"el\" href=\"structlibusb__device__descriptor.html#a9c3a91102d3d53d9414d0dda0191c5ab\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:97
 msgid ""
 "bEndpointAddress : <a class=\"el\" "
 "href=\"structlibusb__endpoint__descriptor.html#a111d087a09cbeded8e15eda9127e23d2\">libusb_endpoint_descriptor</a>"
-msgstr ""
+msgstr "bEndpointAddress : <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#a111d087a09cbeded8e15eda9127e23d2\">libusb_endpoint_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:100
 msgid ""
 "bFunctionalitySupport : <a class=\"el\" "
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#a522e3ade3bfd1139c9e8af3876d0a843\">libusb_ss_usb_device_capability_descriptor</a>"
-msgstr ""
+msgstr "bFunctionalitySupport : <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#a522e3ade3bfd1139c9e8af3876d0a843\">libusb_ss_usb_device_capability_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:103
 msgid ""
 "bInterfaceClass : <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#a19dcf80e6a5fedf3d3673630897ad649\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "bInterfaceClass : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a19dcf80e6a5fedf3d3673630897ad649\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:106
 msgid ""
 "bInterfaceNumber : <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#a75046f443d3330f590f3d3fb1f9df863\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "bInterfaceNumber : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a75046f443d3330f590f3d3fb1f9df863\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:109
 msgid ""
 "bInterfaceProtocol : <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#a5062bbb17fc76e6c3624ea7ca68d554c\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "bInterfaceProtocol : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a5062bbb17fc76e6c3624ea7ca68d554c\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:112
 msgid ""
 "bInterfaceSubClass : <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#a0b9b890f84694a4e6a0103944e1247f4\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "bInterfaceSubClass : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a0b9b890f84694a4e6a0103944e1247f4\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:115
 msgid ""
 "bInterval : <a class=\"el\" "
 "href=\"structlibusb__endpoint__descriptor.html#a3194f3f04ebd860d59cbdb07d758f9d8\">libusb_endpoint_descriptor</a>"
-msgstr ""
+msgstr "bInterval : <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#a3194f3f04ebd860d59cbdb07d758f9d8\">libusb_endpoint_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:118
@@ -235,7 +235,7 @@ msgid ""
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#a64379238b9225de97b67db770c3c15e9\">libusb_ss_usb_device_capability_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__usb__2__0__extension__descriptor.html#a11b9f042687aec219e0e777530df0664\">libusb_usb_2_0_extension_descriptor</a>"
-msgstr ""
+msgstr "bLength : <a class=\"el\" href=\"structlibusb__bos__descriptor.html#ae0684cd2fd0a519c711b2c5169c6a54e\">libusb_bos_descriptor</a> , <a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html#a02cfb0bb72c092b12d76ca4676506b10\">libusb_bos_dev_capability_descriptor</a> , <a class=\"el\" href=\"structlibusb__config__descriptor.html#a18ccd46a86328fd9c849e17ca8f01738\">libusb_config_descriptor</a> , <a class=\"el\" href=\"structlibusb__container__id__descriptor.html#aa95ab98f88151e5d05f0c6d3d983abd8\">libusb_container_id_descriptor</a> , <a class=\"el\" href=\"structlibusb__device__descriptor.html#affda0be3fe1c37092ddc7cb120428f30\">libusb_device_descriptor</a> , <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#aa47a5fa31c179e7cb92818c0572c18a3\">libusb_endpoint_descriptor</a> , <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a646b7bf875e5b927796d47e57c9182b8\">libusb_interface_descriptor</a> , <a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a576f037f393bf45926a2d45a80c3c3ce\">libusb_ss_endpoint_companion_descriptor</a> , <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#a64379238b9225de97b67db770c3c15e9\">libusb_ss_usb_device_capability_descriptor</a> , <a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html#a11b9f042687aec219e0e777530df0664\">libusb_usb_2_0_extension_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:130
@@ -250,162 +250,162 @@ msgid ""
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad387790c14d8d6eefe6aa1b4a55006bf\">libusb_ss_usb_device_capability_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__usb__2__0__extension__descriptor.html#ab22e1857d38c9205aaecca52b2e20ae0\">libusb_usb_2_0_extension_descriptor</a>"
-msgstr ""
+msgstr "bmAttributes : <a class=\"el\" href=\"structlibusb__config__descriptor.html#adb65fe86ce28394110caad982c566525\">libusb_config_descriptor</a> , <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#a932b84417c46467f9916ecf7b679160b\">libusb_endpoint_descriptor</a> , <a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#aa7097b478f5e46e8cdd160fb4aaccc1f\">libusb_ss_endpoint_companion_descriptor</a> , <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad387790c14d8d6eefe6aa1b4a55006bf\">libusb_ss_usb_device_capability_descriptor</a> , <a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html#ab22e1857d38c9205aaecca52b2e20ae0\">libusb_usb_2_0_extension_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:137
 msgid ""
 "bMaxBurst : <a class=\"el\" "
 "href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85b999ffaff20e9e1518597339e0a7dc\">libusb_ss_endpoint_companion_descriptor</a>"
-msgstr ""
+msgstr "bMaxBurst : <a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85b999ffaff20e9e1518597339e0a7dc\">libusb_ss_endpoint_companion_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:140
 msgid ""
 "bMaxPacketSize0 : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#a3b60170f077c9b26fc9f86e0cdb1d28a\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "bMaxPacketSize0 : <a class=\"el\" href=\"structlibusb__device__descriptor.html#a3b60170f077c9b26fc9f86e0cdb1d28a\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:143
 msgid ""
 "bmRequestType : <a class=\"el\" "
 "href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">libusb_control_setup</a>"
-msgstr ""
+msgstr "bmRequestType : <a class=\"el\" href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">libusb_control_setup</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:146
 msgid ""
 "bNumConfigurations : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#a0f3f80cd931628a0531a815b59d067dd\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "bNumConfigurations : <a class=\"el\" href=\"structlibusb__device__descriptor.html#a0f3f80cd931628a0531a815b59d067dd\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:149
 msgid ""
 "bNumDeviceCaps : <a class=\"el\" "
 "href=\"structlibusb__bos__descriptor.html#aba92a4ee25d13195f80651a79add48d6\">libusb_bos_descriptor</a>"
-msgstr ""
+msgstr "bNumDeviceCaps : <a class=\"el\" href=\"structlibusb__bos__descriptor.html#aba92a4ee25d13195f80651a79add48d6\">libusb_bos_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:152
 msgid ""
 "bNumEndpoints : <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#a487bd2058bfbe749d370c6e7d3add20e\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "bNumEndpoints : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a487bd2058bfbe749d370c6e7d3add20e\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:155
 msgid ""
 "bNumInterfaces : <a class=\"el\" "
 "href=\"structlibusb__config__descriptor.html#a2c89b2d0a9ec0440801b97a8f8145792\">libusb_config_descriptor</a>"
-msgstr ""
+msgstr "bNumInterfaces : <a class=\"el\" href=\"structlibusb__config__descriptor.html#a2c89b2d0a9ec0440801b97a8f8145792\">libusb_config_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:158
 msgid ""
 "bRefresh : <a class=\"el\" "
 "href=\"structlibusb__endpoint__descriptor.html#a9176a6d206a48731244e33a89a2bea0b\">libusb_endpoint_descriptor</a>"
-msgstr ""
+msgstr "bRefresh : <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#a9176a6d206a48731244e33a89a2bea0b\">libusb_endpoint_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:161
 msgid ""
 "bRequest : <a class=\"el\" "
 "href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">libusb_control_setup</a>"
-msgstr ""
+msgstr "bRequest : <a class=\"el\" href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">libusb_control_setup</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:164
 msgid ""
 "bReserved : <a class=\"el\" "
 "href=\"structlibusb__container__id__descriptor.html#ae9c428c25e90439904e97f697f32545b\">libusb_container_id_descriptor</a>"
-msgstr ""
+msgstr "bReserved : <a class=\"el\" href=\"structlibusb__container__id__descriptor.html#ae9c428c25e90439904e97f697f32545b\">libusb_container_id_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:167
 msgid ""
 "bSynchAddress : <a class=\"el\" "
 "href=\"structlibusb__endpoint__descriptor.html#ab8408ca33f4e135039b1900c6f50ce6d\">libusb_endpoint_descriptor</a>"
-msgstr ""
+msgstr "bSynchAddress : <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#ab8408ca33f4e135039b1900c6f50ce6d\">libusb_endpoint_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:170
 msgid ""
 "bU1DevExitLat : <a class=\"el\" "
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad9f0f87cfbf810e691580d3e702ddf3a\">libusb_ss_usb_device_capability_descriptor</a>"
-msgstr ""
+msgstr "bU1DevExitLat : <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad9f0f87cfbf810e691580d3e702ddf3a\">libusb_ss_usb_device_capability_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:173
 msgid ""
 "bU2DevExitLat : <a class=\"el\" "
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#a530ae59b4e6c8e3b23f6c49f59597994\">libusb_ss_usb_device_capability_descriptor</a>"
-msgstr ""
+msgstr "bU2DevExitLat : <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#a530ae59b4e6c8e3b23f6c49f59597994\">libusb_ss_usb_device_capability_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:176
 msgid ""
 "buffer : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea\">libusb_transfer</a>"
-msgstr ""
+msgstr "buffer : <a class=\"el\" href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:182
 msgid "<a id=\"index_c\"></a>- c -"
-msgstr ""
+msgstr "<a id=\"index_c\"></a>- c -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:183
 msgid ""
 "callback : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a69c6df011ec23ff3e481cc98bfff0623\">libusb_transfer</a>"
-msgstr ""
+msgstr "callback : <a class=\"el\" href=\"structlibusb__transfer.html#a69c6df011ec23ff3e481cc98bfff0623\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:186
 msgid ""
 "ContainerID : <a class=\"el\" "
 "href=\"structlibusb__container__id__descriptor.html#a0c74613e2be1d8da0e349024a8b73621\">libusb_container_id_descriptor</a>"
-msgstr ""
+msgstr "ContainerID : <a class=\"el\" href=\"structlibusb__container__id__descriptor.html#a0c74613e2be1d8da0e349024a8b73621\">libusb_container_id_descriptor</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:192
 msgid "<a id=\"index_d\"></a>- d -"
-msgstr ""
+msgstr "<a id=\"index_d\"></a>- d -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:193
 msgid ""
 "describe : <a class=\"el\" "
 "href=\"structlibusb__version.html#af42453a3421515fa2db3fdf30f2367c3\">libusb_version</a>"
-msgstr ""
+msgstr "describe : <a class=\"el\" href=\"structlibusb__version.html#af42453a3421515fa2db3fdf30f2367c3\">libusb_version</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:196
 msgid ""
 "dev_capability : <a class=\"el\" "
 "href=\"structlibusb__bos__descriptor.html#a8c3e8bd21b759d317eaf7d84ee0e9fa0\">libusb_bos_descriptor</a>"
-msgstr ""
+msgstr "dev_capability : <a class=\"el\" href=\"structlibusb__bos__descriptor.html#a8c3e8bd21b759d317eaf7d84ee0e9fa0\">libusb_bos_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:199
 msgid ""
 "dev_capability_data : <a class=\"el\" "
 "href=\"structlibusb__bos__dev__capability__descriptor.html#a879fed95e6e3221a6d9687b815b56ecf\">libusb_bos_dev_capability_descriptor</a>"
-msgstr ""
+msgstr "dev_capability_data : <a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html#a879fed95e6e3221a6d9687b815b56ecf\">libusb_bos_dev_capability_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:202
 msgid ""
 "dev_handle : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">libusb_transfer</a>"
-msgstr ""
+msgstr "dev_handle : <a class=\"el\" href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:208
 msgid "<a id=\"index_e\"></a>- e -"
-msgstr ""
+msgstr "<a id=\"index_e\"></a>- e -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:209
@@ -414,14 +414,14 @@ msgid ""
 "href=\"structlibusb__interface__descriptor.html#a42bd0c63b361cf6c0bda5ecdf73e1c75\">libusb_interface_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a0fcfd057f53b0e1bff6f1567761c231a\">libusb_transfer</a>"
-msgstr ""
+msgstr "endpoint : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a42bd0c63b361cf6c0bda5ecdf73e1c75\">libusb_interface_descriptor</a> , <a class=\"el\" href=\"structlibusb__transfer.html#a0fcfd057f53b0e1bff6f1567761c231a\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:213
 msgid ""
 "events : <a class=\"el\" "
 "href=\"structlibusb__pollfd.html#a5e6391383c132343ecd2f34b78ca017e\">libusb_pollfd</a>"
-msgstr ""
+msgstr "events : <a class=\"el\" href=\"structlibusb__pollfd.html#a5e6391383c132343ecd2f34b78ca017e\">libusb_pollfd</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:216
@@ -432,7 +432,7 @@ msgid ""
 "href=\"structlibusb__endpoint__descriptor.html#a27a637679d4cd75fd6af5b8ea19a88d6\">libusb_endpoint_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#aa1169e8c0b22a9928bbd51169609f31d\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "extra : <a class=\"el\" href=\"structlibusb__config__descriptor.html#acc982e6c82f7183dfa41076d28d991f7\">libusb_config_descriptor</a> , <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#a27a637679d4cd75fd6af5b8ea19a88d6\">libusb_endpoint_descriptor</a> , <a class=\"el\" href=\"structlibusb__interface__descriptor.html#aa1169e8c0b22a9928bbd51169609f31d\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:221
@@ -443,99 +443,99 @@ msgid ""
 "href=\"structlibusb__endpoint__descriptor.html#a0b34ea2919834df309eba8f2775491ae\">libusb_endpoint_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#ad77fa0b951a83d0c7eac28920367f200\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "extra_length : <a class=\"el\" href=\"structlibusb__config__descriptor.html#a18439e83e8f46606a13d70c00a48a9d9\">libusb_config_descriptor</a> , <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#a0b34ea2919834df309eba8f2775491ae\">libusb_endpoint_descriptor</a> , <a class=\"el\" href=\"structlibusb__interface__descriptor.html#ad77fa0b951a83d0c7eac28920367f200\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:229
 msgid "<a id=\"index_f\"></a>- f -"
-msgstr ""
+msgstr "<a id=\"index_f\"></a>- f -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:230
 msgid ""
 "fd : <a class=\"el\" "
 "href=\"structlibusb__pollfd.html#a6bf9823709974cfb204e008eae7d451a\">libusb_pollfd</a>"
-msgstr ""
+msgstr "fd : <a class=\"el\" href=\"structlibusb__pollfd.html#a6bf9823709974cfb204e008eae7d451a\">libusb_pollfd</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:233
 msgid ""
 "flags : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#ae26c063df30c2e29835212aad98c6e06\">libusb_transfer</a>"
-msgstr ""
+msgstr "flags : <a class=\"el\" href=\"structlibusb__transfer.html#ae26c063df30c2e29835212aad98c6e06\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:239
 msgid "<a id=\"index_i\"></a>- i -"
-msgstr ""
+msgstr "<a id=\"index_i\"></a>- i -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:240
 msgid ""
 "iConfiguration : <a class=\"el\" "
 "href=\"structlibusb__config__descriptor.html#a06dbb2e068b3999dd23954e63640d953\">libusb_config_descriptor</a>"
-msgstr ""
+msgstr "iConfiguration : <a class=\"el\" href=\"structlibusb__config__descriptor.html#a06dbb2e068b3999dd23954e63640d953\">libusb_config_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:243
 msgid ""
 "idProduct : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#a568d479fb0b76ea572a739c961fd3047\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "idProduct : <a class=\"el\" href=\"structlibusb__device__descriptor.html#a568d479fb0b76ea572a739c961fd3047\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:246
 msgid ""
 "idVendor : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#ad26c5e2fbd16ce3ee143f4bac5d49bda\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "idVendor : <a class=\"el\" href=\"structlibusb__device__descriptor.html#ad26c5e2fbd16ce3ee143f4bac5d49bda\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:249
 msgid ""
 "iInterface : <a class=\"el\" "
 "href=\"structlibusb__interface__descriptor.html#a19227cc111c27e27c2c07430777e1ab8\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "iInterface : <a class=\"el\" href=\"structlibusb__interface__descriptor.html#a19227cc111c27e27c2c07430777e1ab8\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:252
 msgid ""
 "iManufacturer : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#ab9e9a064265f2833d1d3f216f15a487a\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "iManufacturer : <a class=\"el\" href=\"structlibusb__device__descriptor.html#ab9e9a064265f2833d1d3f216f15a487a\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:255
 msgid ""
 "interface : <a class=\"el\" "
 "href=\"structlibusb__config__descriptor.html#afe04b70611b0ac83866639103d27df76\">libusb_config_descriptor</a>"
-msgstr ""
+msgstr "interface : <a class=\"el\" href=\"structlibusb__config__descriptor.html#afe04b70611b0ac83866639103d27df76\">libusb_config_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:258
 msgid ""
 "iProduct : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#a20082f9e03f1cbffef3d9472a8dcfd64\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "iProduct : <a class=\"el\" href=\"structlibusb__device__descriptor.html#a20082f9e03f1cbffef3d9472a8dcfd64\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:261
 msgid ""
 "iSerialNumber : <a class=\"el\" "
 "href=\"structlibusb__device__descriptor.html#a327e8ede51268b38955ef035cf6de875\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "iSerialNumber : <a class=\"el\" href=\"structlibusb__device__descriptor.html#a327e8ede51268b38955ef035cf6de875\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:264
 msgid ""
 "iso_packet_desc : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a3b72ef736d32b94a7097798612741644\">libusb_transfer</a>"
-msgstr ""
+msgstr "iso_packet_desc : <a class=\"el\" href=\"structlibusb__transfer.html#a3b72ef736d32b94a7097798612741644\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:270
 msgid "<a id=\"index_l\"></a>- l -"
-msgstr ""
+msgstr "<a id=\"index_l\"></a>- l -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:271
@@ -544,83 +544,83 @@ msgid ""
 "href=\"structlibusb__iso__packet__descriptor.html#a374d36e24869c8b07bf8eb1a18fa10ad\">libusb_iso_packet_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a68c023e1f40b50aa8604a2495b6a391e\">libusb_transfer</a>"
-msgstr ""
+msgstr "length : <a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#a374d36e24869c8b07bf8eb1a18fa10ad\">libusb_iso_packet_descriptor</a> , <a class=\"el\" href=\"structlibusb__transfer.html#a68c023e1f40b50aa8604a2495b6a391e\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:278
 msgid "<a id=\"index_m\"></a>- m -"
-msgstr ""
+msgstr "<a id=\"index_m\"></a>- m -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:279
 msgid ""
 "major : <a class=\"el\" "
 "href=\"structlibusb__version.html#a7f80ed3e95566b639fa09380e94f8d59\">libusb_version</a>"
-msgstr ""
+msgstr "major : <a class=\"el\" href=\"structlibusb__version.html#a7f80ed3e95566b639fa09380e94f8d59\">libusb_version</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:282
 msgid ""
 "MaxPower : <a class=\"el\" "
 "href=\"structlibusb__config__descriptor.html#a527518147a0c7321a195f2d8dac2ea01\">libusb_config_descriptor</a>"
-msgstr ""
+msgstr "MaxPower : <a class=\"el\" href=\"structlibusb__config__descriptor.html#a527518147a0c7321a195f2d8dac2ea01\">libusb_config_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:285
 msgid ""
 "micro : <a class=\"el\" "
 "href=\"structlibusb__version.html#a6a73a21564237c1fa0e6e5b038e98605\">libusb_version</a>"
-msgstr ""
+msgstr "micro : <a class=\"el\" href=\"structlibusb__version.html#a6a73a21564237c1fa0e6e5b038e98605\">libusb_version</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:288
 msgid ""
 "minor : <a class=\"el\" "
 "href=\"structlibusb__version.html#ac886b798704bb9ca2b6cd3ae0234591f\">libusb_version</a>"
-msgstr ""
+msgstr "minor : <a class=\"el\" href=\"structlibusb__version.html#ac886b798704bb9ca2b6cd3ae0234591f\">libusb_version</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:294
 msgid "<a id=\"index_n\"></a>- n -"
-msgstr ""
+msgstr "<a id=\"index_n\"></a>- n -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:295
 msgid ""
 "nano : <a class=\"el\" "
 "href=\"structlibusb__version.html#afbe4cf431bea706294667e333878508c\">libusb_version</a>"
-msgstr ""
+msgstr "nano : <a class=\"el\" href=\"structlibusb__version.html#afbe4cf431bea706294667e333878508c\">libusb_version</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:298
 msgid ""
 "num_altsetting : <a class=\"el\" "
 "href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">libusb_interface</a>"
-msgstr ""
+msgstr "num_altsetting : <a class=\"el\" href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">libusb_interface</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:301
 msgid ""
 "num_iso_packets : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">libusb_transfer</a>"
-msgstr ""
+msgstr "num_iso_packets : <a class=\"el\" href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:307
 msgid "<a id=\"index_r\"></a>- r -"
-msgstr ""
+msgstr "<a id=\"index_r\"></a>- r -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:308
 msgid ""
 "rc : <a class=\"el\" "
 "href=\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">libusb_version</a>"
-msgstr ""
+msgstr "rc : <a class=\"el\" href=\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">libusb_version</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:314
 msgid "<a id=\"index_s\"></a>- s -"
-msgstr ""
+msgstr "<a id=\"index_s\"></a>- s -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:315
@@ -629,78 +629,78 @@ msgid ""
 "href=\"structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371\">libusb_iso_packet_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a64b2e70e76d52a7cd23daa3cd4fb397e\">libusb_transfer</a>"
-msgstr ""
+msgstr "status : <a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371\">libusb_iso_packet_descriptor</a> , <a class=\"el\" href=\"structlibusb__transfer.html#a64b2e70e76d52a7cd23daa3cd4fb397e\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:322
 msgid "<a id=\"index_t\"></a>- t -"
-msgstr ""
+msgstr "<a id=\"index_t\"></a>- t -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:323
 msgid ""
 "timeout : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a9a12af15ca5b482f5dcaebd26a848cbb\">libusb_transfer</a>"
-msgstr ""
+msgstr "timeout : <a class=\"el\" href=\"structlibusb__transfer.html#a9a12af15ca5b482f5dcaebd26a848cbb\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:326
 msgid ""
 "type : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1\">libusb_transfer</a>"
-msgstr ""
+msgstr "type : <a class=\"el\" href=\"structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:332
 msgid "<a id=\"index_u\"></a>- u -"
-msgstr ""
+msgstr "<a id=\"index_u\"></a>- u -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:333
 msgid ""
 "user_data : <a class=\"el\" "
 "href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b\">libusb_transfer</a>"
-msgstr ""
+msgstr "user_data : <a class=\"el\" href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><h3>
 #: source/api-1.0/functions_vars.html:339
 msgid "<a id=\"index_w\"></a>- w -"
-msgstr ""
+msgstr "<a id=\"index_w\"></a>- w -"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:340
 msgid ""
 "wBytesPerInterval : <a class=\"el\" "
 "href=\"structlibusb__ss__endpoint__companion__descriptor.html#a13605afcfe00291bc86ebb415226ece6\">libusb_ss_endpoint_companion_descriptor</a>"
-msgstr ""
+msgstr "wBytesPerInterval : <a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a13605afcfe00291bc86ebb415226ece6\">libusb_ss_endpoint_companion_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:343
 msgid ""
 "wIndex : <a class=\"el\" "
 "href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">libusb_control_setup</a>"
-msgstr ""
+msgstr "wIndex : <a class=\"el\" href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">libusb_control_setup</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:346
 msgid ""
 "wLength : <a class=\"el\" "
 "href=\"structlibusb__control__setup.html#a3c442c64fd7619b43b782367235766cc\">libusb_control_setup</a>"
-msgstr ""
+msgstr "wLength : <a class=\"el\" href=\"structlibusb__control__setup.html#a3c442c64fd7619b43b782367235766cc\">libusb_control_setup</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:349
 msgid ""
 "wMaxPacketSize : <a class=\"el\" "
 "href=\"structlibusb__endpoint__descriptor.html#ac1feafc3d7310b2c8ab360513bcfa7b4\">libusb_endpoint_descriptor</a>"
-msgstr ""
+msgstr "wMaxPacketSize : <a class=\"el\" href=\"structlibusb__endpoint__descriptor.html#ac1feafc3d7310b2c8ab360513bcfa7b4\">libusb_endpoint_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:352
 msgid ""
 "wSpeedSupported : <a class=\"el\" "
 "href=\"structlibusb__ss__usb__device__capability__descriptor.html#a391eb2350276e0902776831d41b23017\">libusb_ss_usb_device_capability_descriptor</a>"
-msgstr ""
+msgstr "wSpeedSupported : <a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html#a391eb2350276e0902776831d41b23017\">libusb_ss_usb_device_capability_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:355
@@ -709,28 +709,28 @@ msgid ""
 "href=\"structlibusb__bos__descriptor.html#a02490a8cfd9d1b53ef8f19190a2a1a2c\">libusb_bos_descriptor</a> "
 ", <a class=\"el\" "
 "href=\"structlibusb__config__descriptor.html#a819c160c66c1bd7b569399e6a6fc278f\">libusb_config_descriptor</a>"
-msgstr ""
+msgstr "wTotalLength : <a class=\"el\" href=\"structlibusb__bos__descriptor.html#a02490a8cfd9d1b53ef8f19190a2a1a2c\">libusb_bos_descriptor</a> , <a class=\"el\" href=\"structlibusb__config__descriptor.html#a819c160c66c1bd7b569399e6a6fc278f\">libusb_config_descriptor</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/functions_vars.html:359
 msgid ""
 "wValue : <a class=\"el\" "
 "href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">libusb_control_setup</a>"
-msgstr ""
+msgstr "wValue : <a class=\"el\" href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">libusb_control_setup</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/functions_vars.html:365
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a "
 "href=\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/functions_vars.html:367
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/functions_vars.html:368
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
