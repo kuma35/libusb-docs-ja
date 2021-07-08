@@ -3,38 +3,37 @@
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: libusb 0.0\n"
 "POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-07-08 08:15+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:8
 msgid "libusb: libusb-1.0 API Reference"
-msgstr ""
+msgstr "libusb: libusb-1.0 API リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロスプラットフォームのユーザーライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:36
@@ -43,17 +42,17 @@ msgid ""
 "magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
 "GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
 "/* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:45
 msgid "libusb-1.0 API Reference"
-msgstr ""
+msgstr "libusb-1.0 API リファレンス"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:48
 msgid "<a class=\"anchor\" id=\"intro\"></a> Introduction"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"intro\"></a> はじめに"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:50
@@ -61,7 +60,7 @@ msgid ""
 "libusb is an open source library that allows you to communicate with USB "
 "devices from user space. For more info, see the <a "
 "href=\"http://libusb.info\">libusb homepage</a>."
-msgstr ""
+msgstr "libusbは、ユーザー空間からUSBデバイスと通信できるようにするオープン・ソース・ライブラリです。 詳細については、 <a href=\"http://libusb.info\">libusb homepage</a> を参照してください。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:51
@@ -70,7 +69,7 @@ msgid ""
 "with USB peripherals from their own software. After reviewing this "
 "documentation, feedback and questions can be sent to the <a "
 "href=\"http://mailing-list.libusb.info\">libusb-devel mailing list</a>."
-msgstr ""
+msgstr "この文書は、独自のソフトウェアからUSB周辺機器と通信したいアプリケーション開発者を対象としています。 この文書を読んだ後で、フィードバックや質問を <a href=\"http://mailing-list.libusb.info\">libusb-devel mailing list</a> メーリングリストに投げる事もできます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:52
@@ -81,12 +80,12 @@ msgid ""
 "found in the <a href=\"http://www.usb.org/developers/docs/\">USB 3.0 "
 "Specification</a> which is available for free download. You can probably "
 "find less verbose introductions by searching the web."
-msgstr ""
+msgstr "この文書は、ソフトウェアの観点(デスクリプター、構成、インターフェイス、エンドポイント、制御/バルク/割り込み/アイソクロナス転送など)からUSBデバイスを操作する方法に関する知識を前提としています。詳細については、無料でダウンロードできる <a href=\"http://www.usb.org/developers/docs/\">USB 3.0 Specification</a> を参照してください。 Webを検索すると、冗長性の低い説明を見つけることもできます。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:53
 msgid "<a class=\"anchor\" id=\"API\"></a> Application Programming Interface (API)"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"API\"></a> アプリケーション・プログラミング・インターフェイス (API)"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:55
@@ -94,49 +93,49 @@ msgid ""
 "See the <a class=\"el\" "
 "href=\"https://libusb.sourceforge.io/api-1.0/libusb_api.html\">Application "
 "Programming Interface</a> page for a complete list of the libusb functions."
-msgstr ""
+msgstr "libusb関数の完全なリストについては、 <a class=\"el\" href=\"libusb_api.html\"> アプリケーション・プログラミング・インターフェイス</a> ページを参照してください。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:56
 msgid "<a class=\"anchor\" id=\"features\"></a> Library features"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"features\"></a> ライブラリの機能"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:59
 msgid "All transfer types supported (control/bulk/interrupt/isochronous)"
-msgstr ""
+msgstr "全ての転送型をサポートしています(制御/バルク/割り込み/アイソクロナス)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:60
 msgid "2 transfer interfaces:"
-msgstr ""
+msgstr "2つの転送インターフェイス:"
 
 #. type: Content of: <html><body><div><div><div><ul><li><ol><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:61
 msgid "Synchronous (simple)"
-msgstr ""
+msgstr "同期(synchronous)(シンプル)"
 
 #. type: Content of: <html><body><div><div><div><ul><li><ol><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:62
 msgid "Asynchronous (more complicated, but more powerful)"
-msgstr ""
+msgstr "非同期(asynchronous)(より複雑だけど、より強力)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:65
 msgid ""
 "Thread safe (although the asynchronous interface means that you usually "
 "won't need to thread)"
-msgstr ""
+msgstr "スレッド・セーフ(けれども、通常あなたは非同期インターフェイスをスレッド化する必要がありません)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:66
 msgid "Lightweight with lean API"
-msgstr ""
+msgstr "無駄のない軽量API"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:67
 msgid "Compatible with libusb-0.1 through the libusb-compat-0.1 translation layer"
-msgstr ""
+msgstr "libusb-compat-0.1変換レイヤーを介してlibusb-0.1と互換性があります"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:68
@@ -144,19 +143,19 @@ msgid ""
 "Hotplug support (on some platforms). See <a class=\"el\" "
 "href=\"https://libusb.sourceforge.io/api-1.0/libusb_hotplug.html\">Device "
 "hotplug event notification</a>."
-msgstr ""
+msgstr "(幾つかのプラットフォームでは)活線挿抜(hotplug)をサポート。 <a class=\"el\" href=\"libusb_hotplug.html\">デバイスの活線挿抜イベント通知</a> を参照してください。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:70
 msgid "<a class=\"anchor\" id=\"gettingstarted\"></a> Getting Started"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"gettingstarted\"></a> ここから始めます"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:72
 msgid ""
 "To begin reading the API documentation, start with the Modules page which "
 "links to the different categories of libusb's functionality."
-msgstr ""
+msgstr "API文書を読み始めるには、libusbの機能のさまざまなカテゴリにリンクしているモジュール・ページから始めます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:73
@@ -166,7 +165,7 @@ msgid ""
 "href=\"https://libusb.sourceforge.io/api-1.0/libusb_io.html\">Synchronous "
 "and asynchronous device I/O</a> documentation provides some insight into "
 "this topic."
-msgstr ""
+msgstr "あなたが行う必要がある決定の１つは、同期または非同期のどちらのデータ転送インターフェイスを使用するかどうかです。 <a class=\"el\" href=\"libusb_io.html\">同期・非同期のデバイス入出力</a> の文書は、この話題に関する洞察を提供します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:74
@@ -174,12 +173,12 @@ msgid ""
 "Some example programs can be found in the libusb source distribution under "
 "the \"examples\" subdirectory. The libusb homepage includes a list of "
 "real-life project examples which use libusb."
-msgstr ""
+msgstr "いくつかのサンプル・プログラムは、libusbソース・ディストリビューションの \"examples\" サブ・ディレクトリにあります。 libusbホームページには、libusbを使用する実際のプロジェクト例のリストが含まれています。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:75
 msgid "<a class=\"anchor\" id=\"errorhandling\"></a> Error handling"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"errorhandling\"></a> エラー処理"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:77
@@ -189,12 +188,12 @@ msgid ""
 "are listed on the <a class=\"el\" "
 "href=\"https://libusb.sourceforge.io/api-1.0/group__libusb__misc.html\">miscellaneous</a> "
 "documentation page."
-msgstr ""
+msgstr "libusb関数は通常、成功した場合は0を返し、失敗した場合は負のエラー・コードを返します。 これらの負のエラー・コードは、<a class=\"el\"href=\"group__libusb__misc.html\">その他</a> の文書ページにリストされているLIBUSB_ERROR定数に関連しています。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:78
 msgid "<a class=\"anchor\" id=\"msglog\"></a> Debug message logging"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"msglog\"></a> デバッグ・メッセージ・ロギング"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:80
@@ -207,7 +206,7 @@ msgid ""
 "result in logging being produced. Your application should therefore not "
 "close stderr, but instead direct it to the null device if its output is "
 "undesirable."
-msgstr ""
+msgstr "libusbは、すべてのロギングにstderrを使用します。 デフォルトでは、ロギングはNONEに設定されています。これは、出力が生成されないことを意味します。 ただし、ライブラリがロギングを無効にしてコンパイルされていない限り、libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, level)へのアプリケーション呼び出し、またはアプリケーション外での環境変数LIBUSB_DEBUGの設定により、ロギングが生成される可能性があります。したがって、アプリケーションはstderrを閉じるのではなく、出力が望ましくない場合はnullデバイスに転送する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:81
@@ -217,7 +216,7 @@ msgid ""
 "libusb doesn't really log much so you are advised to use this function to "
 "enable all error/warning/ informational messages. It will help debug "
 "problems with your software."
-msgstr ""
+msgstr "libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, level)関数を使用して、特定のメッセージのログを有効にすることができます。 標準構成では、libusbは実際には多くのログを記録しないため、この関数を使用してすべてのエラー/警告/情報メッセージを有効にすることをお勧めします。ソフトウェアの問題をデバッグするのに役立ちます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:82
@@ -232,7 +231,7 @@ msgid ""
 "to aid you as a programmer, and if you're confused because you're getting a "
 "strange error code from a libusb function, enabling message logging may give "
 "you a suitable explanation."
-msgstr ""
+msgstr "ログに記録されたメッセージは構造化されていません。 ログに記録されるメッセージと、libusb関数からの成功または失敗の戻りコードとの間に1対1の対応はありません。 メッセージには形式がないため、メッセージをキャプチャまたは解析しようとしないでください。 それらはローカライズされておらず、今後もローカライズされません。 これらのメッセージは、アプリケーション・ユーザーに渡されることを意図したものではありません。 代わりに、libusb関数から返されたエラーコードを解釈し、ユーザーに適切な通知を提供する必要があります。 メッセージはプログラマーとしてのあなたを助けるために単にそこにあります、そしてあなたがlibusb関数から奇妙なエラーコードを受け取っているために混乱しているなら、メッセージ・ロギングを有効にすることはあなたに適切な説明を与えるかもしれません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:83
@@ -243,7 +242,7 @@ msgid ""
 "LIBUSB_OPTION_LOG_LEVEL, level) parameter. When this environment variable is "
 "set, the message logging verbosity level is fixed and libusb_set_option(ctx, "
 "LIBUSB_OPTION_LOG_LEVEL, level) effectively does nothing."
-msgstr ""
+msgstr "LIBUSB_DEBUG環境変数を使用して、実行時にメッセージ・ログを有効にすることができます。 この環境変数は、libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, level)パラメーターと同じように解釈されるログ・レベル番号に設定する必要があります。この環境変数が設定されている場合、メッセージ・ログの詳細レベルは固定され、libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, level)は事実上何もしません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:84
@@ -251,7 +250,7 @@ msgid ""
 "libusb can be compiled without any logging functions, useful for embedded "
 "systems. In this case, libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, "
 "level) and the LIBUSB_DEBUG environment variable have no effects."
-msgstr ""
+msgstr "libusbは、ロギング関数なしでコンパイルでき、組み込みシステムで利用できます。この場合、libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, level)およびLIBUSB_DEBUG環境変数は効果がありません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:85
@@ -260,12 +259,12 @@ msgid ""
 "library is compiled in this way, all messages of all verbosities are always "
 "logged. libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, level) and the "
 "LIBUSB_DEBUG environment variable have no effects."
-msgstr ""
+msgstr "libusbは、常に詳細なデバッグ・メッセージを使用するようコンパイルすることもできます。ライブラリがこのようにコンパイルされると、すべての詳細度のすべてのメッセージが常にログに記録されます。libusb_set_option(ctx, LIBUSB_OPTION_LOG_LEVEL, level)およびLIBUSB_DEBUG環境変数は効果がありません。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:86
 msgid "<a class=\"anchor\" id=\"remarks\"></a> Other remarks"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"remarks\"></a> その他注意点"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:88
@@ -273,21 +272,21 @@ msgid ""
 "libusb does have imperfections. The <a class=\"el\" "
 "href=\"https://libusb.sourceforge.io/api-1.0/libusb_caveats.html\">caveats</a> "
 "page attempts to document these."
-msgstr ""
+msgstr "libusbには欠陥があります。 <a class=\"el\"href=\"libusb_caveats.html\">警告</a>ページはこれらを文書化しようとします。"
 
 #. type: Content of: <html><body><address><small><a>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:92
 msgid ""
 "<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
 "href=\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:94
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: ./source/libusb.sourceforge.io/api-1.0/index.html:95
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
