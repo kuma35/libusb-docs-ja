@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:04+0900\n"
+"PO-Revision-Date: 2021-07-09 08:08+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/annotated.html:8
 msgid "libusb: Data Structures"
-msgstr ""
+msgstr "libusb: データ構造"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/annotated.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/annotated.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/annotated.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/annotated.html:36
@@ -42,17 +42,17 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/annotated.html:45
 msgid "Data Structures"
-msgstr ""
+msgstr "データ構造"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/annotated.html:48
 msgid "Here are the data structures with brief descriptions:"
-msgstr ""
+msgstr "簡単な説明付きのデータ構造は以下のとおりです:"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:50
@@ -61,7 +61,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__bos__descriptor.html\" target=\"_self"
 "\">libusb_bos_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__bos__descriptor.html\" target=\"_self\">libusb_bos_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:51
@@ -70,7 +70,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__bos__dev__capability__descriptor.html\" target=\"_self"
 "\">libusb_bos_dev_capability_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html\" target=\"_self\">libusb_bos_dev_capability_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:52
@@ -79,7 +79,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__config__descriptor.html\" target=\"_self"
 "\">libusb_config_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__config__descriptor.html\" target=\"_self\">libusb_config_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:53
@@ -88,7 +88,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__container__id__descriptor.html\" target=\"_self"
 "\">libusb_container_id_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__container__id__descriptor.html\" target=\"_self\">libusb_container_id_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:54
@@ -97,7 +97,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__control__setup.html\" target=\"_self\">libusb_control_setup</"
 "a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__control__setup.html\" target=\"_self\">libusb_control_setup</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:55
@@ -106,7 +106,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__device__descriptor.html\" target=\"_self"
 "\">libusb_device_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__device__descriptor.html\" target=\"_self\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:56
@@ -115,7 +115,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__endpoint__descriptor.html\" target=\"_self"
 "\">libusb_endpoint_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__endpoint__descriptor.html\" target=\"_self\">libusb_endpoint_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:57
@@ -123,7 +123,7 @@ msgid ""
 "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class="
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__interface.html\" target=\"_self\">libusb_interface</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__interface.html\" target=\"_self\">libusb_interface</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:58
@@ -132,7 +132,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__interface__descriptor.html\" target=\"_self"
 "\">libusb_interface_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__interface__descriptor.html\" target=\"_self\">libusb_interface_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:59
@@ -141,7 +141,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__iso__packet__descriptor.html\" target=\"_self"
 "\">libusb_iso_packet_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html\" target=\"_self\">libusb_iso_packet_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:60
@@ -149,7 +149,7 @@ msgid ""
 "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class="
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__pollfd.html\" target=\"_self\">libusb_pollfd</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__pollfd.html\" target=\"_self\">libusb_pollfd</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:61
@@ -158,7 +158,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__ss__endpoint__companion__descriptor.html\" target=\"_self"
 "\">libusb_ss_endpoint_companion_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html\" target=\"_self\">libusb_ss_endpoint_companion_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:62
@@ -167,7 +167,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__ss__usb__device__capability__descriptor.html\" target=\"_self"
 "\">libusb_ss_usb_device_capability_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html\" target=\"_self\">libusb_ss_usb_device_capability_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:63
@@ -175,7 +175,7 @@ msgid ""
 "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class="
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__transfer.html\" target=\"_self\">libusb_transfer</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__transfer.html\" target=\"_self\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:64
@@ -184,7 +184,7 @@ msgid ""
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__usb__2__0__extension__descriptor.html\" target=\"_self"
 "\">libusb_usb_2_0_extension_descriptor</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html\" target=\"_self\">libusb_usb_2_0_extension_descriptor</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
 #: source/api-1.0/annotated.html:65
@@ -192,21 +192,21 @@ msgid ""
 "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class="
 "\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href="
 "\"structlibusb__version.html\" target=\"_self\">libusb_version</a>"
-msgstr ""
+msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><span class=\"icona\"><span class=\"icon\">C</span></span><a class=\"el\" href=\"structlibusb__version.html\" target=\"_self\">libusb_version</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/annotated.html:70
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/annotated.html:72
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/annotated.html:73
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
