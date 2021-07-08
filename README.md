@@ -10,12 +10,13 @@ libusb 1.0 document translate to Japanese.
 
 # Setup
 
-get documents from libusb web site.
-
-```sh
-cd source
-sh ./wget-api.sh
-```
+- libusb from github
+- sudo apt-install doxygen
+- sudo apt-install libudev-dev
+- autogen.sh
+- cd doc
+- make
+- documents in doc/api-1.0 folder
 
 ## folder
 
