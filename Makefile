@@ -20,7 +20,7 @@ html: $(TARGET_HTML) $(TARGET_OTHER)
 
 # static pattern
 $(TARGET_HTML): $(TARGET_DIR)/%.html : $(PO_DIR)/%.html.po
-	po4a-translate -v --format xhtml --master $(call a_file,$(SRC_DIR),$@,.html) --master-charset UTF-8 --po $? --localized $(call a_file,$(TARGET_DIR),$@,.html) --localized-charset UTF-8
+	po4a-translate -v --format xhtml --master $(call a_file,$(SRC_DIR),$@,.html) --master-charset UTF-8 --po $? --localized $(call a_file,$(TARGET_DIR),$@,.html) --localized-charset UTF-8 --keep 0
 
 $(TARGET_OTHER): $(TARGET_DIR)/% : $(SRC_DIR)/%
 	cp -v -u $? $@
