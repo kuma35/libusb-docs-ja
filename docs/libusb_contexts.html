@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: Contexts</title>
+<title>libusb: コンテキスト</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,54 +44,41 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Contexts </div>  </div>
+<div class="title">コンテキスト </div>  </div>
 </div>
 <!--header-->
 <div class="contents">
-<div class="textblock"><p>It is possible that libusb may be used simultaneously from two independent
-libraries linked into the same executable. For example, if your application
-has a plugin-like system which allows the user to dynamically load a range
-of modules into your program, it is feasible that two independently
-developed modules may both use libusb.</p>
-<p>libusb is written to allow for these multiple user scenarios. The two
-"instances" of libusb will not interfere: <a class="el"
+<div class="textblock"><p>libusbは、同じ実行可能ファイルにリンクされた2つの独立したライブラリから同時に使用される可能性があります。
+たとえば、アプリケーションにプラグインのようなシステムがあり、ユーザーがさまざまなモジュールをプログラムに動的にロードできる場合、2つの独立して開発されたモジュールが両方ともlibusbを使用する可能性があります。</p>
+<p>libusbは、これらの複数のユーザー・シナリオを可能にするように作成されています。 libusbの2つの"インスタンス"は干渉しません:
+あるユーザーからの <a class="el"
 href="group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8">libusb_set_option()</a>
-calls from one user will not affect the same settings for other users, other
-users can continue using libusb after one of them calls <a class="el"
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>,
-etc.</p>
-<p>This is made possible through libusb's <em>context</em> concept. When you
-call <a class="el"
-href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">libusb_init()</a>,
-you are (optionally) given a context. You can then pass this context pointer
-back into future libusb functions.</p>
-<p>In order to keep things simple for more simplistic applications, it is legal
-to pass NULL to all functions requiring a context pointer (as long as you're
-sure no other code will attempt to use libusb from the same process). When
-you pass NULL, the default context will be used. The default context is
-created the first time a process calls <a class="el"
-href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">libusb_init()</a>
-when no other context is alive. Contexts are destroyed during <a class="el"
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>.</p>
-<p>The default context is reference-counted and can be shared. That means that
-if libusb_init(NULL) is called twice within the same process, the two users
-end up sharing the same context. The deinitialization and freeing of the
-default context will only happen when the last user calls <a class="el"
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>.
-In other words, the default context is created and initialized when its
-reference count goes from 0 to 1, and is deinitialized and destroyed when
-its reference count goes from 1 to 0.</p>
-<p>You may be wondering why only a subset of libusb functions require a context
-pointer in their function definition. Internally, libusb stores context
-pointers in other objects (e.g. libusb_device instances) and hence can infer
-the context from those objects. </p>
+呼び出しは、他のユーザーの同じ設定に影響しません。 ユーザーは、その誰かが <a class="el"
+href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>
+などを呼び出した後も、引き続きlibusbを使用できます。</p>
+<p>これは、libusbの<em>コンテキスト</em>(context)の概念によって可能になります。あなたが <a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
+を呼び出すと、(オプションで)コンテキストが与えられます。あなたは、このコンテキスト・ポインタを、この先使うlibusb関数に渡すことができます。</p>
+<p>より単純なアプリケーションのために物事を単純に保つために、(他のコードが同じプロセスからlibusbを使用しようとしないことが確実である限り)コンテキスト・ポインタを必要とするすべての関数にNULLを渡すことは合法です。NULLを渡すと、デフォルトのコンテキストが使用されます。
+デフォルトのコンテキストは、他のコンテキストが存在しないときにプロセスが <a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
+を初めて呼び出すときに作成されます。コンテキストは、<a class="el"
+href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>
+処理中に破棄されます。</p>
+<p>デフォルトのコンテキストは参照カウンターであり、共有できます。 つまり、 libusb_init(NULL)
+が同じプロセス内で2回呼び出された場合、2人のユーザーは同じコンテキストを共有することになります。デフォルトのコンテキストの後片付け(deinitialization)と解放は、最後のユーザーが
+<a class="el"
+href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>
+を呼び出したときにのみ発生します。つまり、デフォルトのコンテキストは、参照カウンターが0から1になると作成および初期化され、参照カウンターが1から0になると後片付け(deinitialization)および破棄されます。</p>
+<p>libusb関数のサブセットのみが関数定義でコンテキスト・ポインターを必要とするのはなぜか疑問に思われるかもしれません。
+内部的には、libusbはコンテキスト・ポインタを他のオブジェクト(libusb_deviceインスタンスなど)に格納するため、それらのオブジェクトからコンテキストを推測できます。 </p>
 </div></div>
 <!-- contents -->
 </div>
 
 <!-- PageDoc -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a
+<hr class="footer"/><address class="footer"><small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a
 href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17 </small></address>

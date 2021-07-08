@@ -44,10 +44,10 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="group__libusb__lib.html#nested-classes">Data Structures</a> &#124;
-<a href="group__libusb__lib.html#typedef-members">Typedefs</a> &#124; <a
-href="group__libusb__lib.html#enum-members">Enumerations</a> &#124; <a
-href="group__libusb__lib.html#func-members">Functions</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124; <a
+href="#typedef-members">Typedefs</a> &#124; <a
+href="#enum-members">Enumerations</a> &#124; <a
+href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Library initialization/deinitialization</div>  </div>
 </div>
@@ -57,7 +57,7 @@ href="group__libusb__lib.html#func-members">Functions</a>  </div>
 <p>This page details how to initialize and deinitialize libusb. Initialization
 must be performed before using any libusb functionality, and similarly you
 must not call any libusb functions after deinitialization.  <a
-href="group__libusb__lib.html#details">More...</a></p>
+href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a> Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibusb__version.html">libusb_version</a></td></tr>
@@ -113,7 +113,7 @@ href="group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c4
 href="group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6">LIBUSB_OPTION_USE_USBDK</a>
 = 1, <a class="el"
 href="group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d">LIBUSB_OPTION_WEAK_AUTHORITY</a>
-= 2 }</td></tr>
+= 2, <b>LIBUSB_OPTION_MAX</b> = 3 }</td></tr>
 <tr class="separator:ga07d4ec54cf575d672ba94c72b3c0de7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a> Functions</h2></td></tr>
@@ -139,12 +139,12 @@ href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context
 href="group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c">libusb_option</a>
 option,...)</td></tr>
 <tr class="separator:gaf6ce5db28dac96b1680877a123da4fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9517c37281bba0b51cc62eba728be48b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
-href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">libusb_init</a>
+<tr class="memitem:ga7deaef521cfb1a5b3f8d6c01be11a795"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init</a>
 (<a class="el"
 href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context</a>
-**context)</td></tr>
-<tr class="separator:ga9517c37281bba0b51cc62eba728be48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+**ctx)</td></tr>
+<tr class="separator:ga7deaef521cfb1a5b3f8d6c01be11a795"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadc174de608932caeb2fc15d94fa0844d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit</a>
 (<a class="el"
@@ -159,7 +159,7 @@ must not call any libusb functions after deinitialization. </p>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ga4ec088aa7b79c4a9599e39bf36a72833"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">&#9670;&nbsp;</a></span>libusb_context</h2>
+href="#ga4ec088aa7b79c4a9599e39bf36a72833">&#9670;&nbsp;</a></span>libusb_context</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,7 +181,7 @@ will not affect the other user of the library, and <a class="el"
 href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>
 will not destroy resources that the other user is still using.</p>
 <p>Sessions are created by <a class="el"
-href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">libusb_init()</a>
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
 and destroyed through <a class="el"
 href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>.
 If your application is guaranteed to only ever include a single libusb user
@@ -194,7 +194,7 @@ href="libusb_contexts.html">Contexts</a>. </p>
 </div>
 <a id="ga968e4c2133a5db1ab5b22b09fcbf9cb7"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7">&#9670;&nbsp;</a></span>libusb_log_cb</h2>
+href="#ga968e4c2133a5db1ab5b22b09fcbf9cb7">&#9670;&nbsp;</a></span>libusb_log_cb</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,10 +215,13 @@ log message </td></tr>
     <tr><td class="paramname">level</td><td>the log level, see <a class="el"
 href="group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2">libusb_log_level</a>
 for a description </td></tr>
-    <tr><td class="paramname">str</td><td>the log message </td></tr>
+    <tr><td class="paramname">str</td><td>the log message</td></tr>
   </table>
   </dd>
 </dl>
+<p>Since version 1.0.23, <a class="el"
+href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
+&gt;= 0x01000107</p>
 <dl class="section see"><dt>See also</dt><dd><a class="el"
 href="group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20">libusb_set_log_cb()</a> </dd></dl>
 
@@ -227,7 +230,7 @@ href="group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20">libusb_set_log
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="ga2d6144203f0fc6d373677f6e2e89d2d2"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2">&#9670;&nbsp;</a></span>libusb_log_level</h2>
+href="#ga2d6144203f0fc6d373677f6e2e89d2d2">&#9670;&nbsp;</a></span>libusb_log_level</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -261,7 +264,7 @@ id="gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c"></a>LI
 </div>
 <a id="ga20e11f6f5a3b5a075fdf44969f3a9310"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310">&#9670;&nbsp;</a></span>libusb_log_cb_mode</h2>
+href="#ga20e11f6f5a3b5a075fdf44969f3a9310">&#9670;&nbsp;</a></span>libusb_log_cb_mode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -272,7 +275,11 @@ href="group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310">libusb_log_cb_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Log callback mode. </p><dl class="section see"><dt>See also</dt><dd><a class="el"
+<p>Log callback mode.</p>
+<p>Since version 1.0.23, <a class="el"
+href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
+&gt;= 0x01000107</p>
+<dl class="section see"><dt>See also</dt><dd><a class="el"
 href="group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20">libusb_set_log_cb()</a> </dd></dl>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
@@ -287,7 +294,7 @@ id="gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15"></a>LI
 </div>
 <a id="ga07d4ec54cf575d672ba94c72b3c0de7c"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c">&#9670;&nbsp;</a></span>libusb_option</h2>
+href="#ga07d4ec54cf575d672ba94c72b3c0de7c">&#9670;&nbsp;</a></span>libusb_option</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,18 +328,22 @@ does nothing: you'll always get messages from all levels. </p>
 <tr><td class="fieldname"><a
 id="gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6"></a>LIBUSB_OPTION_USE_USBDK&#160;</td><td class="fielddoc"><p>Use the UsbDk backend for a specific context, if available. </p>
 <p>This option should be set immediately after calling <a class="el"
-href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">libusb_init()</a>,
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>,
 otherwise unspecified behavior may occur.</p>
 <p>Only valid on Windows. </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d"></a>LIBUSB_OPTION_WEAK_AUTHORITY&#160;</td><td class="fielddoc"><p>Set libusb has weak authority. </p>
-<p>With this option, libusb will skip scan devices in libusb_init.</p>
+id="gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d"></a>LIBUSB_OPTION_WEAK_AUTHORITY&#160;</td><td class="fielddoc"><p>Flag that libusb has weak authority. </p>
+<p>With this option set, libusb will skip scanning devices in <a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>.</p>
 <p>This option should be set before calling <a class="el"
-href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">libusb_init()</a>,
-otherwise libusb_init will failed. Normally libusb_wrap_sys_device need set
-this option.</p>
-<p>Only valid on Linux-based operating system, such as Android. </p>
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>,
+otherwise <a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
+might fail. The option is typically needed on Android and used together with
+<a class="el"
+href="group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c">libusb_wrap_sys_device()</a>.</p>
+<p>Only valid on Linux. </p>
 </td></tr>
 </table>
 
@@ -341,7 +352,7 @@ this option.</p>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ga5f8376b7a863a5a8d5b8824feb8a427a"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a">&#9670;&nbsp;</a></span>libusb_set_debug()</h2>
+href="#ga5f8376b7a863a5a8d5b8824feb8a427a">&#9670;&nbsp;</a></span>libusb_set_debug()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -378,7 +389,7 @@ option. </dd></dl>
 </div>
 <a id="ga2efb66b8f16ffb0851f3907794c06e20"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20">&#9670;&nbsp;</a></span>libusb_set_log_cb()</h2>
+href="#ga2efb66b8f16ffb0851f3907794c06e20">&#9670;&nbsp;</a></span>libusb_set_log_cb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,6 +431,9 @@ handler too.</p>
 is defined then global callback function will never be called. If
 ENABLE_DEBUG_LOGGING is defined then per context callback function will
 never be called.</p>
+<p>Since version 1.0.23, <a class="el"
+href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
+&gt;= 0x01000107</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ctx</td><td>context on which to assign log handler, or NULL for the default
@@ -441,7 +455,7 @@ href="group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310">libusb_log_cb_
 </div>
 <a id="gaf6ce5db28dac96b1680877a123da4fa8"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8">&#9670;&nbsp;</a></span>libusb_set_option()</h2>
+href="#gaf6ce5db28dac96b1680877a123da4fa8">&#9670;&nbsp;</a></span>libusb_set_option()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -501,9 +515,9 @@ but UsbDk is not available </dd></dl>
 
 </div>
 </div>
-<a id="ga9517c37281bba0b51cc62eba728be48b"></a>
+<a id="ga7deaef521cfb1a5b3f8d6c01be11a795"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">&#9670;&nbsp;</a></span>libusb_init()</h2>
+href="#ga7deaef521cfb1a5b3f8d6c01be11a795">&#9670;&nbsp;</a></span>libusb_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,7 +528,7 @@ href="group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b">&#9670;&nbsp;<
           <td class="paramtype"><a class="el"
 href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context</a>
 **&#160;</td>
-          <td class="paramname"><em>context</em></td><td>)</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -526,7 +540,7 @@ context will be created. If there was already a default context, it will be
 reused (and nothing will be initialized/reinitialized).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">context</td><td>Optional output location for context pointer. Only valid on return code 0. </td></tr>
+    <tr><td class="paramname">ctx</td><td>Optional output location for context pointer. Only valid on return code 0. </td></tr>
   </table>
   </dd>
 </dl>
@@ -537,7 +551,7 @@ reused (and nothing will be initialized/reinitialized).</p>
 </div>
 <a id="gadc174de608932caeb2fc15d94fa0844d"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">&#9670;&nbsp;</a></span>libusb_exit()</h2>
+href="#gadc174de608932caeb2fc15d94fa0844d">&#9670;&nbsp;</a></span>libusb_exit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -567,7 +581,7 @@ before your application terminates. </p><dl class="params"><dt>Parameters</dt><d
 
 <!-- contents -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a
+<hr class="footer"/><address class="footer"><small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a
 href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17 </small></address>

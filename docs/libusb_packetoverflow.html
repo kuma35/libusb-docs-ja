@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: Packets and overflows</title>
+<title>libusb: パケットとオーバーフロー</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロスプ・ラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,48 +44,30 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Packets and overflows </div>  </div>
+<div class="title">パケットとオーバーフロー </div>  </div>
 </div>
 <!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="packets"></a> Packet abstraction</h1>
-<p>The USB specifications describe how data is transmitted in packets, with
-constraints on packet size defined by endpoint descriptors. The host must
-not send data payloads larger than the endpoint's maximum packet size.</p>
-<p>libusb and the underlying OS abstract out the packet concept, allowing you
-to request transfers of any size. Internally, the request will be divided up
-into correctly-sized packets. You do not have to be concerned with packet
-sizes, but there is one exception when considering overflows.</p>
-<h1><a class="anchor" id="overflow"></a> Bulk/interrupt transfer overflows</h1>
-<p>When requesting data on a bulk endpoint, libusb requires you to supply a
-buffer and the maximum number of bytes of data that libusb can put in that
-buffer. However, the size of the buffer is not communicated to the device -
-the device is just asked to send any amount of data.</p>
-<p>There is no problem if the device sends an amount of data that is less than
-or equal to the buffer size. libusb reports this condition to you through
-the <a class="el"
+<div class="textblock"><h1><a class="anchor" id="packets"></a> パケットの抽象化</h1>
+<p>USB仕様には、データがパケットで送信される方法が説明されていて、そしてエンド・ポイント・デスクリプターによって定義されたパケット・サイズには制限があります。ホストは、エンド・ポイントの最大パケット・サイズよりも大きいデータ・ペイロードを送信してはなりません。</p>
+<p>libusbと基盤となるOSは、パケットの概念を抽象化し、任意のサイズの転送を要求できるようにします。内部的には、要求は正しいサイズのパケットに分割されます。
+パケット・サイズを気にする必要はありませんが、オーバーフローを考慮する場合は1つの例外があります。</p>
+<h1><a class="anchor" id="overflow"></a> バルク転送・割り込み転送のオーバーフロー</h1>
+<p>バルク・エンド・ポイントでデータを要求する場合、libusbでは、バッファーと、libusbがそのバッファーに入れることができるデータの最大バイト数を指定する必要があります。
+ただし、バッファのサイズはデバイスに伝達されません。デバイスは、任意の量のデータを送信するように要求されるだけです。</p>
+<p>デバイスがバッファ・サイズ以下のデータ量を送信する場合は問題ありません。 libusbは、 <a class="el"
 href="structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607">libusb_transfer.actual_length</a>
-field.</p>
-<p>Problems may occur if the device attempts to send more data than can fit in
-the buffer. libusb reports LIBUSB_TRANSFER_OVERFLOW for this condition but
-other behaviour is largely undefined: actual_length may or may not be
-accurate, the chunk of data that can fit in the buffer (before overflow) may
-or may not have been transferred.</p>
-<p>Overflows are nasty, but can be avoided. Even though you were told to ignore
-packets above, think about the lower level details: each transfer is split
-into packets (typically small, with a maximum size of 512 bytes). Overflows
-can only happen if the final packet in an incoming data transfer is smaller
-than the actual packet that the device wants to transfer. Therefore, you
-will never see an overflow if your transfer buffer size is a multiple of the
-endpoint's packet size: the final packet will either fill up completely or
-will be only partially filled. </p>
+フィールドを介してこの状態を報告します。</p>
+<p>デバイスがバッファに収まらないより多くのデータを送信しようとすると、問題が発生する可能性があります。
+libusbは、この状態についてLIBUSB_TRANSFER_OVERFLOWを報告しますが、他の動作はほとんど定義されていません。actual_lengthは正確である場合とそうでない場合があり、(オーバーフロー前に)バッファーに収まるデータのチャンクが転送されている場合とされていない場合があります。</p>
+<p>オーバーフローは厄介ですが、回避することができます。あなたが上記のパケットを無視するように言われたとしても、下位レベルの詳細について考えてください。各転送はパケットに分割されます(通常は小さく、最大サイズは512バイトです)。オーバーフローは、着信データ転送の最後のパケットが、デバイスが転送したい実際のパケットよりも小さい場合にのみ発生する可能性があります。したがって、転送バッファサイズがエンドポイントのパケット・サイズの倍数である場合、オーバーフローが発生することはありません。最終的なパケットは完全にいっぱいになるか、部分的にしかいっぱいになりません。 </p>
 </div></div>
 <!-- contents -->
 </div>
 
 <!-- PageDoc -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a
+<hr class="footer"/><address class="footer"><small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a
 href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17 </small></address>

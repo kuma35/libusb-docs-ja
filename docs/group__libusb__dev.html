@@ -44,17 +44,15 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="group__libusb__dev.html#typedef-members">Typedefs</a> &#124; <a
-href="group__libusb__dev.html#enum-members">列挙</a> &#124; <a
-href="group__libusb__dev.html#func-members">関数</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124; <a
+href="#enum-members">Enumerations</a> &#124; <a href="#func-members">関数群</a>  </div>
   <div class="headertitle">
 <div class="title">デバイスの処理と列挙</div>  </div>
 </div>
 <!--header-->
 <div class="contents">
 
-<p>以下の各機能は、各行に記述の操作を支援するように設計されています: <a
-href="group__libusb__dev.html#details">さらに…</a></p>
+<p>以下の各機能は、各行に記述の操作を支援するように設計されています: <a href="#details">さらに…</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a> Typedef</h2></td></tr>
 <tr class="memitem:ga77eedd00d01eb7569b880e861a971c2b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el"
@@ -387,7 +385,7 @@ href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()
 <h2 class="groupheader">Typedef 文書</h2>
 <a id="ga77eedd00d01eb7569b880e861a971c2b"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">&#9670;&nbsp;</a></span>libusb_device</h2>
+href="#ga77eedd00d01eb7569b880e861a971c2b">&#9670;&nbsp;</a></span>libusb_device</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,7 +422,7 @@ href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()
 </div>
 <a id="ga7df95821d20d27b5597f1d783749d6a4"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">&#9670;&nbsp;</a></span>libusb_device_handle</h2>
+href="#ga7df95821d20d27b5597f1d783749d6a4">&#9670;&nbsp;</a></span>libusb_device_handle</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -437,20 +435,19 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Structure representing a handle on a USB device. This is an opaque type for
-which you are only ever provided with a pointer, usually originating from <a
-class="el"
-href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>.</p>
-<p>A device handle is used to perform I/O and other operations. When finished
-with a device handle, you should call <a class="el"
-href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>. </p>
+<p>USBデバイスのハンドルを表す構造(structure)。これは不透明(opaque)型であり、通常は <a class="el"
+href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>
+からポインタが提供されます。</p>
+<p>デバイス・ハンドルは、入出力およびその他の操作を実行するために使用されます。デバイス・ハンドルを使い終わったら、 <a class="el"
+href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
+を呼び出す必要があります。 </p>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
+<h2 class="groupheader">列挙型解説</h2>
 <a id="ga2959abf1184f87b2ce06fe90db6ce614"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614">&#9670;&nbsp;</a></span>libusb_speed</h2>
+href="#ga2959abf1184f87b2ce06fe90db6ce614">&#9670;&nbsp;</a></span>libusb_speed</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,34 +458,34 @@ href="group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614">libusb_speed</
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Speed codes. Indicates the speed at which the device is operating. </p>
+<p>速度コード。デバイスが動作している速度を示します。 </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
-id="gga2959abf1184f87b2ce06fe90db6ce614ace31df1e97e9a66146ac83dcab1e6cfb"></a>LIBUSB_SPEED_UNKNOWN&#160;</td><td class="fielddoc"><p>The OS doesn't report or know the device speed. </p>
+<tr><th colspan="2">列挙型</th></tr><tr><td class="fieldname"><a
+id="gga2959abf1184f87b2ce06fe90db6ce614ace31df1e97e9a66146ac83dcab1e6cfb"></a>LIBUSB_SPEED_UNKNOWN&#160;</td><td class="fielddoc"><p>OSは、デバイスの速度を報告・認識しません。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2959abf1184f87b2ce06fe90db6ce614a6017f9ac2509cd523b51c1b72ad6991b"></a>LIBUSB_SPEED_LOW&#160;</td><td class="fielddoc"><p>The device is operating at low speed (1.5MBit/s). </p>
+id="gga2959abf1184f87b2ce06fe90db6ce614a6017f9ac2509cd523b51c1b72ad6991b"></a>LIBUSB_SPEED_LOW&#160;</td><td class="fielddoc"><p>デバイスは低速(low speed)(1.5MBit/s)で動作しています。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2959abf1184f87b2ce06fe90db6ce614a0011bead7a48b873808795d8495b4d9e"></a>LIBUSB_SPEED_FULL&#160;</td><td class="fielddoc"><p>The device is operating at full speed (12MBit/s). </p>
+id="gga2959abf1184f87b2ce06fe90db6ce614a0011bead7a48b873808795d8495b4d9e"></a>LIBUSB_SPEED_FULL&#160;</td><td class="fielddoc"><p>デバイスは全速(full speed)(12MBit/s)で動作しています。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2959abf1184f87b2ce06fe90db6ce614a27bc0b9fe76f8ddf524f3d2ece0eefac"></a>LIBUSB_SPEED_HIGH&#160;</td><td class="fielddoc"><p>The device is operating at high speed (480MBit/s). </p>
+id="gga2959abf1184f87b2ce06fe90db6ce614a27bc0b9fe76f8ddf524f3d2ece0eefac"></a>LIBUSB_SPEED_HIGH&#160;</td><td class="fielddoc"><p>デバイスは高速(high speed)(480MBit/s)で動作しています。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2959abf1184f87b2ce06fe90db6ce614ab8c71e1409cd555ae05937b4db9946a2"></a>LIBUSB_SPEED_SUPER&#160;</td><td class="fielddoc"><p>The device is operating at super speed (5000MBit/s). </p>
+id="gga2959abf1184f87b2ce06fe90db6ce614ab8c71e1409cd555ae05937b4db9946a2"></a>LIBUSB_SPEED_SUPER&#160;</td><td class="fielddoc"><p>デバイスは超速(super speed)(5000MBit/s)で動作しています。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2959abf1184f87b2ce06fe90db6ce614aa65f23e14e68162a142f26dac5fcfc4a"></a>LIBUSB_SPEED_SUPER_PLUS&#160;</td><td class="fielddoc"><p>The device is operating at super speed plus (10000MBit/s). </p>
+id="gga2959abf1184f87b2ce06fe90db6ce614aa65f23e14e68162a142f26dac5fcfc4a"></a>LIBUSB_SPEED_SUPER_PLUS&#160;</td><td class="fielddoc"><p>デバイスは超速プラス(super speed plus)(10000MBit/s)で動作しています。 </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
+<h2 class="groupheader">関数解説</h2>
 <a id="gac0fe4b65914c5ed036e6cbec61cb0b97"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97">&#9670;&nbsp;</a></span>libusb_get_device_list()</h2>
+href="#gac0fe4b65914c5ed036e6cbec61cb0b97">&#9670;&nbsp;</a></span>libusb_get_device_list()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -516,8 +513,7 @@ href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">libusb_device<
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns a list of USB devices currently attached to the system. This is your
-entry point into finding a USB device to operate.</p>
+<p>現在システムに接続されているUSBデバイスのリストを返します。 これは、あなたが動作するUSBデバイスを見つけるための入り口です。</p>
 <p>You are expected to unreference all the devices when you are done with them,
 and then free the list with <a class="el"
 href="group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6">libusb_free_device_list()</a>.
@@ -545,7 +541,7 @@ according to errors encountered by the backend. </dd></dl>
 </div>
 <a id="gad3b8561d064bb3e1b8851ddeed3cd7d6"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6">&#9670;&nbsp;</a></span>libusb_free_device_list()</h2>
+href="#gad3b8561d064bb3e1b8851ddeed3cd7d6">&#9670;&nbsp;</a></span>libusb_free_device_list()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -586,7 +582,7 @@ the list is decremented by 1. </p><dl class="params"><dt>Parameters</dt><dd>
 </div>
 <a id="gaf2718609d50c8ded2704e4051b3d2925"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gaf2718609d50c8ded2704e4051b3d2925">&#9670;&nbsp;</a></span>libusb_get_bus_number()</h2>
+href="#gaf2718609d50c8ded2704e4051b3d2925">&#9670;&nbsp;</a></span>libusb_get_bus_number()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -614,7 +610,7 @@ href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">libusb_device<
 </div>
 <a id="ga14879a0ea7daccdcddb68852d86c00c4"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga14879a0ea7daccdcddb68852d86c00c4">&#9670;&nbsp;</a></span>libusb_get_port_number()</h2>
+href="#ga14879a0ea7daccdcddb68852d86c00c4">&#9670;&nbsp;</a></span>libusb_get_port_number()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -650,7 +646,7 @@ been numbered by the HUB/HCD manufacturer.</p>
 </div>
 <a id="gaa4b7b2b50a9ce2aa396b0af2b979544d"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gaa4b7b2b50a9ce2aa396b0af2b979544d">&#9670;&nbsp;</a></span>libusb_get_port_numbers()</h2>
+href="#gaa4b7b2b50a9ce2aa396b0af2b979544d">&#9670;&nbsp;</a></span>libusb_get_port_numbers()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -702,7 +698,7 @@ LIBUSB_ERROR_OVERFLOW if the array is too small </dd></dl>
 </div>
 <a id="ga9d392b8dff7abf5e475c72fd071c3c34"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga9d392b8dff7abf5e475c72fd071c3c34">&#9670;&nbsp;</a></span>libusb_get_port_path()</h2>
+href="#ga9d392b8dff7abf5e475c72fd071c3c34">&#9670;&nbsp;</a></span>libusb_get_port_path()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -751,7 +747,7 @@ instead. </dd></dl>
 </div>
 <a id="ga97bb4dfff6bbb897ed9dfd6fa1a1deed"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga97bb4dfff6bbb897ed9dfd6fa1a1deed">&#9670;&nbsp;</a></span>libusb_get_parent()</h2>
+href="#ga97bb4dfff6bbb897ed9dfd6fa1a1deed">&#9670;&nbsp;</a></span>libusb_get_parent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -792,7 +788,7 @@ block. </dd></dl>
 </div>
 <a id="gab6d4e39ac483ebaeb108f2954715305d"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gab6d4e39ac483ebaeb108f2954715305d">&#9670;&nbsp;</a></span>libusb_get_device_address()</h2>
+href="#gab6d4e39ac483ebaeb108f2954715305d">&#9670;&nbsp;</a></span>libusb_get_device_address()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -820,7 +816,7 @@ href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">libusb_device<
 </div>
 <a id="ga58c4e448ecd5cd4782f2b896ec40b22b"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga58c4e448ecd5cd4782f2b896ec40b22b">&#9670;&nbsp;</a></span>libusb_get_device_speed()</h2>
+href="#ga58c4e448ecd5cd4782f2b896ec40b22b">&#9670;&nbsp;</a></span>libusb_get_device_speed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -851,7 +847,7 @@ support returning the negotiated speed. </dd></dl>
 </div>
 <a id="gac81968047e262409e78f3fe24321b604"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gac81968047e262409e78f3fe24321b604">&#9670;&nbsp;</a></span>libusb_get_max_packet_size()</h2>
+href="#gac81968047e262409e78f3fe24321b604">&#9670;&nbsp;</a></span>libusb_get_max_packet_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -903,7 +899,7 @@ LIBUSB_ERROR_OTHER on other failure </dd></dl>
 </div>
 <a id="gaec10b71c7209760db55ee0f8768bb4f0"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0">&#9670;&nbsp;</a></span>libusb_get_max_iso_packet_size()</h2>
+href="#gaec10b71c7209760db55ee0f8768bb4f0">&#9670;&nbsp;</a></span>libusb_get_max_iso_packet_size()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -961,7 +957,7 @@ LIBUSB_ERROR_OTHER on other failure </dd></dl>
 </div>
 <a id="gaabaa4193adcabba1789cc1165ac41a03"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gaabaa4193adcabba1789cc1165ac41a03">&#9670;&nbsp;</a></span>libusb_ref_device()</h2>
+href="#gaabaa4193adcabba1789cc1165ac41a03">&#9670;&nbsp;</a></span>libusb_ref_device()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -991,7 +987,7 @@ href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">libusb_device<
 </div>
 <a id="ga3cc62e6a191b7a9f213e62b81ec30f4d"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga3cc62e6a191b7a9f213e62b81ec30f4d">&#9670;&nbsp;</a></span>libusb_unref_device()</h2>
+href="#ga3cc62e6a191b7a9f213e62b81ec30f4d">&#9670;&nbsp;</a></span>libusb_unref_device()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1019,7 +1015,7 @@ the reference count to reach zero, the device shall be destroyed. </p><dl class=
 </div>
 <a id="ga98f783e115ceff4eaf88a60e6439563c"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c">&#9670;&nbsp;</a></span>libusb_wrap_sys_device()</h2>
+href="#ga98f783e115ceff4eaf88a60e6439563c">&#9670;&nbsp;</a></span>libusb_wrap_sys_device()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1072,6 +1068,9 @@ href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()
 The device shall not be opened through <a class="el"
 href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>.</p>
 <p>This is a non-blocking function; no requests are sent over the bus.</p>
+<p>Since version 1.0.23, <a class="el"
+href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
+&gt;= 0x01000107</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ctx</td><td>the context to operate on, or NULL for the default context </td></tr>
@@ -1096,7 +1095,7 @@ another LIBUSB_ERROR code on other failure </dd></dl>
 </div>
 <a id="ga3f184a8be4488a767b2e0ae07e76d1b0"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">&#9670;&nbsp;</a></span>libusb_open()</h2>
+href="#ga3f184a8be4488a767b2e0ae07e76d1b0">&#9670;&nbsp;</a></span>libusb_open()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1154,7 +1153,7 @@ another LIBUSB_ERROR code on other failure </dd></dl>
 </div>
 <a id="ga11ba48adb896b1492bbd3d0bf7e0f665"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga11ba48adb896b1492bbd3d0bf7e0f665">&#9670;&nbsp;</a></span>libusb_open_device_with_vid_pid()</h2>
+href="#ga11ba48adb896b1492bbd3d0bf7e0f665">&#9670;&nbsp;</a></span>libusb_open_device_with_vid_pid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1212,7 +1211,7 @@ device could not be found. </dd></dl>
 </div>
 <a id="ga779bc4f1316bdb0ac383bddbd538620e"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">&#9670;&nbsp;</a></span>libusb_close()</h2>
+href="#ga779bc4f1316bdb0ac383bddbd538620e">&#9670;&nbsp;</a></span>libusb_close()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1246,7 +1245,7 @@ on the given device.</p>
 </div>
 <a id="gafe70b8a797893d4d16985980acec956a"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a">&#9670;&nbsp;</a></span>libusb_get_device()</h2>
+href="#gafe70b8a797893d4d16985980acec956a">&#9670;&nbsp;</a></span>libusb_get_device()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1278,7 +1277,7 @@ unreference it when you are done. </p><dl class="params"><dt>Parameters</dt><dd>
 </div>
 <a id="gae921014b888b105471a31d54c77c1c4d"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d">&#9670;&nbsp;</a></span>libusb_get_configuration()</h2>
+href="#gae921014b888b105471a31d54c77c1c4d">&#9670;&nbsp;</a></span>libusb_get_configuration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1330,7 +1329,7 @@ another LIBUSB_ERROR code on other failure </dd></dl>
 </div>
 <a id="ga785ddea63a2b9bcb879a614ca4867bed"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed">&#9670;&nbsp;</a></span>libusb_set_configuration()</h2>
+href="#ga785ddea63a2b9bcb879a614ca4867bed">&#9670;&nbsp;</a></span>libusb_set_configuration()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1414,7 +1413,7 @@ href="group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf">libusb_set_aut
 </div>
 <a id="gaee5076addf5de77c7962138397fd5b1a"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a">&#9670;&nbsp;</a></span>libusb_claim_interface()</h2>
+href="#gaee5076addf5de77c7962138397fd5b1a">&#9670;&nbsp;</a></span>libusb_claim_interface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1475,7 +1474,7 @@ href="group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf">libusb_set_aut
 </div>
 <a id="ga49b5cb0d894f6807cd1693ef29aecbfa"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa">&#9670;&nbsp;</a></span>libusb_release_interface()</h2>
+href="#ga49b5cb0d894f6807cd1693ef29aecbfa">&#9670;&nbsp;</a></span>libusb_release_interface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1529,7 +1528,7 @@ href="group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf">libusb_set_aut
 </div>
 <a id="ga4858ad4f0f58fd1dc0afaead1fe6479a"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a">&#9670;&nbsp;</a></span>libusb_set_interface_alt_setting()</h2>
+href="#ga4858ad4f0f58fd1dc0afaead1fe6479a">&#9670;&nbsp;</a></span>libusb_set_interface_alt_setting()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1589,7 +1588,7 @@ another LIBUSB_ERROR code on other failure </dd></dl>
 </div>
 <a id="gab794bbc0b055d140f186f5a4d39c0891"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gab794bbc0b055d140f186f5a4d39c0891">&#9670;&nbsp;</a></span>libusb_clear_halt()</h2>
+href="#gab794bbc0b055d140f186f5a4d39c0891">&#9670;&nbsp;</a></span>libusb_clear_halt()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1639,7 +1638,7 @@ another LIBUSB_ERROR code on other failure </dd></dl>
 </div>
 <a id="gafee9c4638f1713ca5faa867948878111"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gafee9c4638f1713ca5faa867948878111">&#9670;&nbsp;</a></span>libusb_reset_device()</h2>
+href="#gafee9c4638f1713ca5faa867948878111">&#9670;&nbsp;</a></span>libusb_reset_device()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1681,7 +1680,7 @@ another LIBUSB_ERROR code on other failure </dd></dl>
 </div>
 <a id="ga1cabd4660a274f715eeb82de112e0779"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779">&#9670;&nbsp;</a></span>libusb_kernel_driver_active()</h2>
+href="#ga1cabd4660a274f715eeb82de112e0779">&#9670;&nbsp;</a></span>libusb_kernel_driver_active()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1735,7 +1734,7 @@ href="group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a">libusb_detach_
 </div>
 <a id="ga5e0cc1d666097e915748593effdc634a"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a">&#9670;&nbsp;</a></span>libusb_detach_kernel_driver()</h2>
+href="#ga5e0cc1d666097e915748593effdc634a">&#9670;&nbsp;</a></span>libusb_detach_kernel_driver()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1763,7 +1762,7 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
 </div><div class="memdoc">
 <p>Detach a kernel driver from an interface. If successful, you will then be
 able to claim the interface and perform I/O.</p>
-<p>This functionality is not available on Darwin or Windows.</p>
+<p>This functionality is not available on Windows.</p>
 <p>Note that libusb itself also talks to the device through a special kernel
 driver, if this driver is already attached to the device, this call will not
 detach it and return LIBUSB_ERROR_NOT_FOUND.</p>
@@ -1793,7 +1792,7 @@ href="group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779">libusb_kernel_
 </div>
 <a id="gadeba36e900db663c0b7cf1b164a20d02"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gadeba36e900db663c0b7cf1b164a20d02">&#9670;&nbsp;</a></span>libusb_attach_kernel_driver()</h2>
+href="#gadeba36e900db663c0b7cf1b164a20d02">&#9670;&nbsp;</a></span>libusb_attach_kernel_driver()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1821,10 +1820,8 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
 </div><div class="memdoc">
 <p>Re-attach an interface's kernel driver, which was previously detached using
 <a class="el"
-href="group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a">libusb_detach_kernel_driver()</a>.
-This call is only effective on Linux and returns LIBUSB_ERROR_NOT_SUPPORTED
-on all other platforms.</p>
-<p>This functionality is not available on Darwin or Windows.</p>
+href="group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a">libusb_detach_kernel_driver()</a>.</p>
+<p>This functionality is not available on Windows.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dev_handle</td><td>a device handle </td></tr>
@@ -1854,7 +1851,7 @@ href="group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779">libusb_kernel_
 </div>
 <a id="gac35b26fef01271eba65c60b2b3ce1cbf"></a>
 <h2 class="memtitle"><span class="permalink"><a
-href="group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf">&#9670;&nbsp;</a></span>libusb_set_auto_detach_kernel_driver()</h2>
+href="#gac35b26fef01271eba65c60b2b3ce1cbf">&#9670;&nbsp;</a></span>libusb_set_auto_detach_kernel_driver()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1913,18 +1910,18 @@ href="group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed">libusb_set_con
 </div>
 <!-- contents -->
 <div class="ttc" id="agroup__libusb__dev_html_gac0fe4b65914c5ed036e6cbec61cb0b97"><div class="ttname"><a
-href="group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97">libusb_get_device_list</a></div><div class="ttdeci">ssize_t libusb_get_device_list(libusb_context *ctx, libusb_device ***list)</div><div class="ttdef"><b>Definition:</b> core.c:825</div></div>
+href="group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97">libusb_get_device_list</a></div><div class="ttdeci">ssize_t libusb_get_device_list(libusb_context *ctx, libusb_device ***list)</div><div class="ttdef"><b>Definition:</b> core.c:812</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga77eedd00d01eb7569b880e861a971c2b"><div class="ttname"><a
 href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">libusb_device</a></div><div class="ttdeci">struct libusb_device libusb_device</div><div class="ttdef"><b>Definition:</b> libusb.h:1004</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga3f184a8be4488a767b2e0ae07e76d1b0"><div class="ttname"><a
-href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open</a></div><div class="ttdeci">int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)</div><div class="ttdef"><b>Definition:</b> core.c:1302</div></div>
+href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open</a></div><div class="ttdeci">int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)</div><div class="ttdef"><b>Definition:</b> core.c:1291</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_gad3b8561d064bb3e1b8851ddeed3cd7d6"><div class="ttname"><a
-href="group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6">libusb_free_device_list</a></div><div class="ttdeci">void libusb_free_device_list(libusb_device **list, int unref_devices)</div><div class="ttdef"><b>Definition:</b> core.c:895</div></div>
+href="group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6">libusb_free_device_list</a></div><div class="ttdeci">void libusb_free_device_list(libusb_device **list, int unref_devices)</div><div class="ttdef"><b>Definition:</b> core.c:882</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga7df95821d20d27b5597f1d783749d6a4"><div class="ttname"><a
 href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_handle</a></div><div class="ttdeci">struct libusb_device_handle libusb_device_handle</div><div class="ttdef"><b>Definition:</b> libusb.h:1015</div></div>
 
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a
+<hr class="footer"/><address class="footer"><small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a
 href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17 </small></address>
