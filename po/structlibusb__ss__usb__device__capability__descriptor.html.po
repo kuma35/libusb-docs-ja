@@ -1,230 +1,249 @@
+# -*- coding: utf-8 -*-
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR libusb
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:32+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:8
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:8
 msgid "libusb: libusb_ss_usb_device_capability_descriptor Struct Reference"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:20
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:20
 msgid "Logo"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:22
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:25
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:25
 msgid "A cross-platform user library to access USB devices"
 msgstr ""
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:36
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:45
-msgid ""
-"<a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#pub-attribs\">Data "
-"Fields</a>"
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:45
+msgid "<a href=\"#pub-attribs\">Data Fields</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:47
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:47
 msgid "libusb_ss_usb_device_capability_descriptor Struct Reference"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:47
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:47
 msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:51
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:51
 msgid ""
-"<code>#include &lt;<a class=\"el\" "
-"href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
+"<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
+"a>&gt;</code>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:53
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:55
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:55
 msgid "<a id=\"a64379238b9225de97b67db770c3c15e9\"></a> uint8_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:56
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:56
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a64379238b9225de97b67db770c3c15e9\">bLength</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a64379238b9225de97b67db770c3c15e9\">bLength</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:57 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:58 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:60 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:61 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:63 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:64 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:66 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:67 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:69 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:70 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:72 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:73 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:76 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:77 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:80 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:81
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:57
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:58
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:60
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:61
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:63
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:64
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:66
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:67
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:69
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:70
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:72
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:73
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:76
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:77
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:80
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:81
 msgid "&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:57
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:57
 msgid "Size of this descriptor (in bytes)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:59 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:62 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:65 ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:71
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:59
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:62
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:65
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:71
 msgid "uint8_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:59
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:59
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#ae8a297e3fb16cb5199df99816d48321a\">bDescriptorType</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#ae8a297e3fb16cb5199df99816d48321a\">bDescriptorType</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:60
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:60
 msgid ""
-"Descriptor type.  <a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#ae8a297e3fb16cb5199df99816d48321a\">More...</a>"
+"Descriptor type.  <a href="
+"\"structlibusb__ss__usb__device__capability__descriptor."
+"html#ae8a297e3fb16cb5199df99816d48321a\">More...</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:62
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:62
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a25c10ea11b37e6adc0aca8c6701bcbff\">bDevCapabilityType</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a25c10ea11b37e6adc0aca8c6701bcbff\">bDevCapabilityType</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:63
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:63
 msgid ""
-"Capability type.  <a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a25c10ea11b37e6adc0aca8c6701bcbff\">More...</a>"
+"Capability type.  <a href="
+"\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a25c10ea11b37e6adc0aca8c6701bcbff\">More...</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:65
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:65
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad387790c14d8d6eefe6aa1b4a55006bf\">bmAttributes</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#ad387790c14d8d6eefe6aa1b4a55006bf\">bmAttributes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:66
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:66
 msgid ""
-"Bitmap encoding of supported device level features.  <a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad387790c14d8d6eefe6aa1b4a55006bf\">More...</a>"
+"Bitmap encoding of supported device level features.  <a href="
+"\"structlibusb__ss__usb__device__capability__descriptor."
+"html#ad387790c14d8d6eefe6aa1b4a55006bf\">More...</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:68
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:68
 msgid "uint16_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:68
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:68
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a391eb2350276e0902776831d41b23017\">wSpeedSupported</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a391eb2350276e0902776831d41b23017\">wSpeedSupported</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:69
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:69
 msgid ""
 "Bitmap encoding of the speed supported by this device when operating in "
-"SuperSpeed mode.  <a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a391eb2350276e0902776831d41b23017\">More...</a>"
+"SuperSpeed mode.  <a href="
+"\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a391eb2350276e0902776831d41b23017\">More...</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:71
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:71
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a522e3ade3bfd1139c9e8af3876d0a843\">bFunctionalitySupport</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a522e3ade3bfd1139c9e8af3876d0a843\">bFunctionalitySupport</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:72
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:72
 msgid ""
 "The lowest speed at which all the functionality supported by the device is "
-"available to the user.  <a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a522e3ade3bfd1139c9e8af3876d0a843\">More...</a>"
+"available to the user.  <a href="
+"\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a522e3ade3bfd1139c9e8af3876d0a843\">More...</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:74
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:74
 msgid "<a id=\"ad9f0f87cfbf810e691580d3e702ddf3a\"></a> uint8_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:75
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:75
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad9f0f87cfbf810e691580d3e702ddf3a\">bU1DevExitLat</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#ad9f0f87cfbf810e691580d3e702ddf3a\">bU1DevExitLat</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:76
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:76
 msgid "U1 Device Exit Latency."
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:78
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:78
 msgid "<a id=\"a530ae59b4e6c8e3b23f6c49f59597994\"></a> uint16_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:79
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:79
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a530ae59b4e6c8e3b23f6c49f59597994\">bU2DevExitLat</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html#a530ae59b4e6c8e3b23f6c49f59597994\">bU2DevExitLat</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:80
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:80
 msgid "U2 Device Exit Latency."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:83
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:83
 msgid "<a name=\"details\" id=\"details\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:83
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:83
 msgid "Detailed Description"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:84
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:84
 msgid ""
 "A structure representing the SuperSpeed USB Device Capability descriptor "
 "This descriptor is documented in section 9.6.2.2 of the USB 3.0 "
@@ -233,185 +252,192 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:85
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:85
 msgid "Field Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:86
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:86
 msgid "<a id=\"ae8a297e3fb16cb5199df99816d48321a\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:87
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:87
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#ae8a297e3fb16cb5199df99816d48321a\">&#9670;&nbsp;</a></span>bDescriptorType"
+"<span class=\"permalink\"><a href=\"#ae8a297e3fb16cb5199df99816d48321a"
+"\">&#9670;&nbsp;</a></span>bDescriptorType"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:93
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:93
 msgid "uint8_t libusb_ss_usb_device_capability_descriptor::bDescriptorType"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:98
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:98
 msgid "Descriptor type."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:99
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:99
 msgid ""
-"Will have value <a class=\"el\" "
-"href=\"group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca56875fd1a3df25bdea7680fa9047743c\">libusb_descriptor_type::LIBUSB_DT_DEVICE_CAPABILITY</a> "
+"Will have value <a class=\"el\" href=\"group__libusb__desc."
+"html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca56875fd1a3df25bdea7680fa9047743c"
+"\">libusb_descriptor_type::LIBUSB_DT_DEVICE_CAPABILITY</a> "
 "LIBUSB_DT_DEVICE_CAPABILITY in this context."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:103
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:103
 msgid "<a id=\"a25c10ea11b37e6adc0aca8c6701bcbff\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:104
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:104
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a25c10ea11b37e6adc0aca8c6701bcbff\">&#9670;&nbsp;</a></span>bDevCapabilityType"
+"<span class=\"permalink\"><a href=\"#a25c10ea11b37e6adc0aca8c6701bcbff"
+"\">&#9670;&nbsp;</a></span>bDevCapabilityType"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:110
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:110
 msgid "uint8_t libusb_ss_usb_device_capability_descriptor::bDevCapabilityType"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:115
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:115
 msgid "Capability type."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:116
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:116
 msgid ""
-"Will have value <a class=\"el\" "
-"href=\"group__libusb__desc.html#gga6ccabbf3b3728ae69608ba83bba4e64ca2f1ab0d2d1e14d4942c079749b1b6c85\">libusb_capability_type::LIBUSB_BT_SS_USB_DEVICE_CAPABILITY</a> "
-"LIBUSB_BT_SS_USB_DEVICE_CAPABILITY in this context."
+"Will have value <a class=\"el\" href=\"group__libusb__desc."
+"html#gga6ccabbf3b3728ae69608ba83bba4e64ca2f1ab0d2d1e14d4942c079749b1b6c85\">libusb_capability_type::"
+"LIBUSB_BT_SS_USB_DEVICE_CAPABILITY</a> LIBUSB_BT_SS_USB_DEVICE_CAPABILITY in "
+"this context."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:120
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:120
 msgid "<a id=\"ad387790c14d8d6eefe6aa1b4a55006bf\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:121
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:121
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#ad387790c14d8d6eefe6aa1b4a55006bf\">&#9670;&nbsp;</a></span>bmAttributes"
+"<span class=\"permalink\"><a href=\"#ad387790c14d8d6eefe6aa1b4a55006bf"
+"\">&#9670;&nbsp;</a></span>bmAttributes"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:127
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:127
 msgid "uint8_t libusb_ss_usb_device_capability_descriptor::bmAttributes"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:132
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:132
 msgid "Bitmap encoding of supported device level features."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:133
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:133
 msgid ""
 "A value of one in a bit location indicates a feature is supported; a value "
-"of zero indicates it is not supported. See <a class=\"el\" "
-"href=\"group__libusb__desc.html#gaad5a5399176a35a64164dafad7fe4fcd\">libusb_ss_usb_device_capability_attributes</a>."
+"of zero indicates it is not supported. See <a class=\"el\" href="
+"\"group__libusb__desc.html#gaad5a5399176a35a64164dafad7fe4fcd"
+"\">libusb_ss_usb_device_capability_attributes</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:137
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:137
 msgid "<a id=\"a391eb2350276e0902776831d41b23017\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:138
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:138
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a391eb2350276e0902776831d41b23017\">&#9670;&nbsp;</a></span>wSpeedSupported"
+"<span class=\"permalink\"><a href="
+"\"#a391eb2350276e0902776831d41b23017\">&#9670;&nbsp;</a></"
+"span>wSpeedSupported"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:144
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:144
 msgid "uint16_t libusb_ss_usb_device_capability_descriptor::wSpeedSupported"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:149
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:149
 msgid ""
 "Bitmap encoding of the speed supported by this device when operating in "
 "SuperSpeed mode."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:150
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:150
 msgid ""
-"See <a class=\"el\" "
-"href=\"group__libusb__desc.html#ga1454797ecc0de4d084c1619c420014f6\">libusb_supported_speed</a>."
+"See <a class=\"el\" href=\"group__libusb__desc."
+"html#ga1454797ecc0de4d084c1619c420014f6\">libusb_supported_speed</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:154
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:154
 msgid "<a id=\"a522e3ade3bfd1139c9e8af3876d0a843\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:155
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:155
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html#a522e3ade3bfd1139c9e8af3876d0a843\">&#9670;&nbsp;</a></span>bFunctionalitySupport"
+"<span class=\"permalink\"><a href="
+"\"#a522e3ade3bfd1139c9e8af3876d0a843\">&#9670;&nbsp;</a></"
+"span>bFunctionalitySupport"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:161
-msgid "uint8_t libusb_ss_usb_device_capability_descriptor::bFunctionalitySupport"
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:161
+msgid ""
+"uint8_t libusb_ss_usb_device_capability_descriptor::bFunctionalitySupport"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:166
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:166
 msgid ""
 "The lowest speed at which all the functionality supported by the device is "
 "available to the user."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:167
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:167
 msgid ""
 "For example if the device supports all its functionality when connected at "
 "full speed and above then it sets this value to 1."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:171
-msgid "The documentation for this struct was generated from the following file:"
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:171
+msgid ""
+"The documentation for this struct was generated from the following file:"
 msgstr ""
 
 #. type: Content of: <html><body><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:172
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:172
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 msgstr ""
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:176
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:176
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:178
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:178
 msgid "doxygen"
 msgstr ""
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:179
+#: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:179
 msgid "</a> 1.8.17 </small>"
 msgstr ""

@@ -1,1083 +1,1112 @@
+# -*- coding: utf-8 -*-
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR libusb
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:19+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:8
+#: source/api-1.0/libusb_api.html:8
 msgid "libusb: Application Programming Interface"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:20
+#: source/api-1.0/libusb_api.html:20
 msgid "Logo"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:22
+#: source/api-1.0/libusb_api.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:25
+#: source/api-1.0/libusb_api.html:25
 msgid "A cross-platform user library to access USB devices"
 msgstr ""
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:36
+#: source/api-1.0/libusb_api.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:45
+#: source/api-1.0/libusb_api.html:45
 msgid "Application Programming Interface"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:48
+#: source/api-1.0/libusb_api.html:48
 msgid ""
 "This is the complete list of libusb functions, structures and enumerations "
 "in alphabetical order."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:49
+#: source/api-1.0/libusb_api.html:49
 msgid "<a class=\"anchor\" id=\"Functions\"></a> Functions"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:52
+#: source/api-1.0/libusb_api.html:52
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:53
+#: source/api-1.0/libusb_api.html:53
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:54
+#: source/api-1.0/libusb_api.html:54
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gadeba36e900db663c0b7cf1b164a20d02\">libusb_attach_kernel_driver()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gadeba36e900db663c0b7cf1b164a20d02\">libusb_attach_kernel_driver()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:55
+#: source/api-1.0/libusb_api.html:55
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__syncio."
+"html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:56
+#: source/api-1.0/libusb_api.html:56
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:57
+#: source/api-1.0/libusb_api.html:57
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:58
+#: source/api-1.0/libusb_api.html:58
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gab794bbc0b055d140f186f5a4d39c0891\">libusb_clear_halt()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gab794bbc0b055d140f186f5a4d39c0891\">libusb_clear_halt()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:59
+#: source/api-1.0/libusb_api.html:59
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:60
+#: source/api-1.0/libusb_api.html:60
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__syncio.html#gadb11f7a761bd12fc77a07f4568d56f38\">libusb_control_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__syncio."
+"html#gadb11f7a761bd12fc77a07f4568d56f38\">libusb_control_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:61
+#: source/api-1.0/libusb_api.html:61
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gadf9c633586dde54ce62a3d66a4d7554c\">libusb_control_transfer_get_data()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gadf9c633586dde54ce62a3d66a4d7554c"
+"\">libusb_control_transfer_get_data()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:62
+#: source/api-1.0/libusb_api.html:62
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:63
+#: source/api-1.0/libusb_api.html:63
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16()</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:64
+#: source/api-1.0/libusb_api.html:64
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:65
+#: source/api-1.0/libusb_api.html:65
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:66
+#: source/api-1.0/libusb_api.html:66
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62\">libusb_dev_mem_free()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gad7575ff325f0159a5b74b7c0ee64eb62\">libusb_dev_mem_free()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:67
+#: source/api-1.0/libusb_api.html:67
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name()</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:68
+#: source/api-1.0/libusb_api.html:68
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:69
+#: source/api-1.0/libusb_api.html:69
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:70
+#: source/api-1.0/libusb_api.html:70
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:71
+#: source/api-1.0/libusb_api.html:71
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:72
+#: source/api-1.0/libusb_api.html:72
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:73
+#: source/api-1.0/libusb_api.html:73
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:74
+#: source/api-1.0/libusb_api.html:74
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:75
+#: source/api-1.0/libusb_api.html:75
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:76
+#: source/api-1.0/libusb_api.html:76
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga30fdce8c461e851f0aa4c851014e1aa7\">libusb_fill_iso_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga30fdce8c461e851f0aa4c851014e1aa7\">libusb_fill_iso_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:77
+#: source/api-1.0/libusb_api.html:77
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gac9bff9809a7b8663190dda0455998767\">libusb_free_bos_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gac9bff9809a7b8663190dda0455998767\">libusb_free_bos_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:78
+#: source/api-1.0/libusb_api.html:78
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga18d2b08a065857ff7ae4f3f719c115cc\">libusb_free_config_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga18d2b08a065857ff7ae4f3f719c115cc\">libusb_free_config_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:79
+#: source/api-1.0/libusb_api.html:79
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gafeb7c49aa9d3a9c4964f397220d8eab4\">libusb_free_container_id_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gafeb7c49aa9d3a9c4964f397220d8eab4\">libusb_free_container_id_descriptor()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:80
+#: source/api-1.0/libusb_api.html:80
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:81
+#: source/api-1.0/libusb_api.html:81
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#gad703b12ab275b6420c2c27e6279c955f\">libusb_free_pollfds()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#gad703b12ab275b6420c2c27e6279c955f\">libusb_free_pollfds()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:82
+#: source/api-1.0/libusb_api.html:82
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga52738e36d2c0e6a0607405d783a2c894\">libusb_free_ss_endpoint_companion_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga52738e36d2c0e6a0607405d783a2c894\">libusb_free_ss_endpoint_companion_descriptor()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:83
+#: source/api-1.0/libusb_api.html:83
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga8fbf4e49c3ae0c6b7bc2d540ad9a75fb\">libusb_free_ss_usb_device_capability_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga8fbf4e49c3ae0c6b7bc2d540ad9a75fb"
+"\">libusb_free_ss_usb_device_capability_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:84
+#: source/api-1.0/libusb_api.html:84
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gab068de0fd203ccef5c620a8143526acb\">libusb_free_streams()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gab068de0fd203ccef5c620a8143526acb\">libusb_free_streams()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:85
+#: source/api-1.0/libusb_api.html:85
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:86
+#: source/api-1.0/libusb_api.html:86
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga5efd69bf490c4359356f5e5bea8dd48c\">libusb_free_usb_2_0_extension_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga5efd69bf490c4359356f5e5bea8dd48c"
+"\">libusb_free_usb_2_0_extension_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:87
+#: source/api-1.0/libusb_api.html:87
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga425885149172b53b3975a07629c8dab3\">libusb_get_active_config_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga425885149172b53b3975a07629c8dab3\">libusb_get_active_config_descriptor()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:88
+#: source/api-1.0/libusb_api.html:88
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga68fd9576677c12aa397192916dc49a0b\">libusb_get_bos_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga68fd9576677c12aa397192916dc49a0b\">libusb_get_bos_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:89
+#: source/api-1.0/libusb_api.html:89
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gaf2718609d50c8ded2704e4051b3d2925\">libusb_get_bus_number()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gaf2718609d50c8ded2704e4051b3d2925\">libusb_get_bus_number()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:90
+#: source/api-1.0/libusb_api.html:90
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gaa635d9aec77de4895dd0896ccf001532\">libusb_get_config_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gaa635d9aec77de4895dd0896ccf001532\">libusb_get_config_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:91
+#: source/api-1.0/libusb_api.html:91
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga3e7bffc5d08404c4d6491e73b967bf67\">libusb_get_config_descriptor_by_value()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga3e7bffc5d08404c4d6491e73b967bf67\">libusb_get_config_descriptor_by_value()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:92
+#: source/api-1.0/libusb_api.html:92
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:93
+#: source/api-1.0/libusb_api.html:93
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga7334865c7e72c45dc662e179b7b9f074\">libusb_get_container_id_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga7334865c7e72c45dc662e179b7b9f074\">libusb_get_container_id_descriptor()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:94
+#: source/api-1.0/libusb_api.html:94
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga9e34f7ecf3817e9bfe77ed09238940df\">libusb_get_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga9e34f7ecf3817e9bfe77ed09238940df\">libusb_get_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:95
+#: source/api-1.0/libusb_api.html:95
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:96
+#: source/api-1.0/libusb_api.html:96
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gab6d4e39ac483ebaeb108f2954715305d\">libusb_get_device_address()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gab6d4e39ac483ebaeb108f2954715305d\">libusb_get_device_address()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:97
+#: source/api-1.0/libusb_api.html:97
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:98
+#: source/api-1.0/libusb_api.html:98
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:99
+#: source/api-1.0/libusb_api.html:99
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga58c4e448ecd5cd4782f2b896ec40b22b\">libusb_get_device_speed()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga58c4e448ecd5cd4782f2b896ec40b22b\">libusb_get_device_speed()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:100
+#: source/api-1.0/libusb_api.html:100
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:101
+#: source/api-1.0/libusb_api.html:101
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga3df9a28c4f5c8f1850181ddb5efd12fd"
+"\">libusb_get_iso_packet_buffer_simple()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:102
+#: source/api-1.0/libusb_api.html:102
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:103
+#: source/api-1.0/libusb_api.html:103
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gac81968047e262409e78f3fe24321b604\">libusb_get_max_packet_size()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gac81968047e262409e78f3fe24321b604\">libusb_get_max_packet_size()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:104
+#: source/api-1.0/libusb_api.html:104
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga5bc6f5bc71a43845244912da6679f634\">libusb_get_next_timeout()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga5bc6f5bc71a43845244912da6679f634\">libusb_get_next_timeout()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:105
+#: source/api-1.0/libusb_api.html:105
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga97bb4dfff6bbb897ed9dfd6fa1a1deed\">libusb_get_parent()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga97bb4dfff6bbb897ed9dfd6fa1a1deed\">libusb_get_parent()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:106
+#: source/api-1.0/libusb_api.html:106
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga54c27dcf8a95d2a3a03cfb7dd37eae63\">libusb_get_pollfds()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga54c27dcf8a95d2a3a03cfb7dd37eae63\">libusb_get_pollfds()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:107
+#: source/api-1.0/libusb_api.html:107
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga14879a0ea7daccdcddb68852d86c00c4\">libusb_get_port_number()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga14879a0ea7daccdcddb68852d86c00c4\">libusb_get_port_number()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:108
+#: source/api-1.0/libusb_api.html:108
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gaa4b7b2b50a9ce2aa396b0af2b979544d\">libusb_get_port_numbers()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gaa4b7b2b50a9ce2aa396b0af2b979544d\">libusb_get_port_numbers()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:109
+#: source/api-1.0/libusb_api.html:109
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga9d392b8dff7abf5e475c72fd071c3c34\">libusb_get_port_path()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga9d392b8dff7abf5e475c72fd071c3c34\">libusb_get_port_path()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:110
+#: source/api-1.0/libusb_api.html:110
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gab2803453a9861b0e12af203bbebccb6e\">libusb_get_ss_endpoint_companion_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gab2803453a9861b0e12af203bbebccb6e"
+"\">libusb_get_ss_endpoint_companion_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:111
+#: source/api-1.0/libusb_api.html:111
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gac880b79d7c293080b24d8b9b0fb44ee9\">libusb_get_ss_usb_device_capability_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gac880b79d7c293080b24d8b9b0fb44ee9\">libusb_get_ss_usb_device_capability_descriptor()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:112
+#: source/api-1.0/libusb_api.html:112
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga09103309f98471387561bce0719d88ad\">libusb_get_string_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga09103309f98471387561bce0719d88ad\">libusb_get_string_descriptor()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:113
+#: source/api-1.0/libusb_api.html:113
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga240aac96d92cb9f51e3aea79a4adbf42\">libusb_get_string_descriptor_ascii()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga240aac96d92cb9f51e3aea79a4adbf42\">libusb_get_string_descriptor_ascii()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:114
+#: source/api-1.0/libusb_api.html:114
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gae0f1f984b9ba899752f3b7e151c71cf0\">libusb_get_usb_2_0_extension_descriptor()</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gae0f1f984b9ba899752f3b7e151c71cf0\">libusb_get_usb_2_0_extension_descriptor()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:115
+#: source/api-1.0/libusb_api.html:115
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga61d07b01404fdea080cd16c1ed8be93d\">libusb_get_version()</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga61d07b01404fdea080cd16c1ed8be93d\">libusb_get_version()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:116
+#: source/api-1.0/libusb_api.html:116
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:117
+#: source/api-1.0/libusb_api.html:117
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:118
+#: source/api-1.0/libusb_api.html:118
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f\">libusb_handle_events_locked()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga71da081f97afa3bf68aed8e372254e8f\">libusb_handle_events_locked()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:119
+#: source/api-1.0/libusb_api.html:119
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:120
+#: source/api-1.0/libusb_api.html:120
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga43e52b912a760b41a0cf8a4a472fbd5b\">libusb_handle_events_timeout_completed()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga43e52b912a760b41a0cf8a4a472fbd5b"
+"\">libusb_handle_events_timeout_completed()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:121
+#: source/api-1.0/libusb_api.html:121
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:122
+#: source/api-1.0/libusb_api.html:122
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback()</a>"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga8110f57eab2064375934f1449b2602bc"
+"\">libusb_hotplug_deregister_callback()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:123
+#: source/api-1.0/libusb_api.html:123
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a>"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga5ab3955e2110a3099497a66256fb7fab"
+"\">libusb_hotplug_register_callback()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:124
+#: source/api-1.0/libusb_api.html:124
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b\">libusb_init()</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:125
+#: source/api-1.0/libusb_api.html:125
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga188b6c50944b49f122ccfd45b93fa9f2\">libusb_interrupt_event_handler()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga188b6c50944b49f122ccfd45b93fa9f2\">libusb_interrupt_event_handler()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:126
+#: source/api-1.0/libusb_api.html:126
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__syncio.html#ga0f171a72904a552fc43e6e6564d108a3\">libusb_interrupt_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__syncio."
+"html#ga0f171a72904a552fc43e6e6564d108a3\">libusb_interrupt_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:127
+#: source/api-1.0/libusb_api.html:127
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779\">libusb_kernel_driver_active()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga1cabd4660a274f715eeb82de112e0779\">libusb_kernel_driver_active()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:128
+#: source/api-1.0/libusb_api.html:128
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef\">libusb_lock_events()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#gaa72153938dc4f34decfacbc6cc6237ef\">libusb_lock_events()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:129
+#: source/api-1.0/libusb_api.html:129
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:130
+#: source/api-1.0/libusb_api.html:130
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:131
+#: source/api-1.0/libusb_api.html:131
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga11ba48adb896b1492bbd3d0bf7e0f665\">libusb_open_device_with_vid_pid()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga11ba48adb896b1492bbd3d0bf7e0f665\">libusb_open_device_with_vid_pid()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:132
+#: source/api-1.0/libusb_api.html:132
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#gae7a654315636bebf404c1784429f06df\">libusb_pollfds_handle_timeouts()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#gae7a654315636bebf404c1784429f06df\">libusb_pollfds_handle_timeouts()</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:133
+#: source/api-1.0/libusb_api.html:133
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gaabaa4193adcabba1789cc1165ac41a03\">libusb_ref_device()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gaabaa4193adcabba1789cc1165ac41a03\">libusb_ref_device()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:134
+#: source/api-1.0/libusb_api.html:134
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:135
+#: source/api-1.0/libusb_api.html:135
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gafee9c4638f1713ca5faa867948878111\">libusb_reset_device()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gafee9c4638f1713ca5faa867948878111\">libusb_reset_device()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:136
+#: source/api-1.0/libusb_api.html:136
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf\">libusb_set_auto_detach_kernel_driver()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#gac35b26fef01271eba65c60b2b3ce1cbf"
+"\">libusb_set_auto_detach_kernel_driver()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:137
+#: source/api-1.0/libusb_api.html:137
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:138
+#: source/api-1.0/libusb_api.html:138
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a\">libusb_set_debug()</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#ga5f8376b7a863a5a8d5b8824feb8a427a\">libusb_set_debug()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:139
+#: source/api-1.0/libusb_api.html:139
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb()</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:140
+#: source/api-1.0/libusb_api.html:140
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a\">libusb_set_interface_alt_setting()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga4858ad4f0f58fd1dc0afaead1fe6479a"
+"\">libusb_set_interface_alt_setting()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:141
+#: source/api-1.0/libusb_api.html:141
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:142
+#: source/api-1.0/libusb_api.html:142
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:143
+#: source/api-1.0/libusb_api.html:143
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:144
+#: source/api-1.0/libusb_api.html:144
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga1b7b2deb193f2e9ffda5e727361d7e67\">libusb_set_pollfd_notifiers()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga1b7b2deb193f2e9ffda5e727361d7e67\">libusb_set_pollfd_notifiers()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:145
+#: source/api-1.0/libusb_api.html:145
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:146
+#: source/api-1.0/libusb_api.html:146
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:147
+#: source/api-1.0/libusb_api.html:147
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga631653487273f3306925131cdc0a3ffc\">libusb_transfer_get_stream_id()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga631653487273f3306925131cdc0a3ffc\">libusb_transfer_get_stream_id()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:148
+#: source/api-1.0/libusb_api.html:148
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gaeae2db23b9de811af317483afdeb230f\">libusb_transfer_set_stream_id()</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gaeae2db23b9de811af317483afdeb230f\">libusb_transfer_set_stream_id()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:149
+#: source/api-1.0/libusb_api.html:149
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:150
+#: source/api-1.0/libusb_api.html:150
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:151
+#: source/api-1.0/libusb_api.html:151
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed\">libusb_unlock_event_waiters()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga41d7716458c11ee02d0deb19a31233ed\">libusb_unlock_event_waiters()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:152
+#: source/api-1.0/libusb_api.html:152
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga3cc62e6a191b7a9f213e62b81ec30f4d\">libusb_unref_device()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga3cc62e6a191b7a9f213e62b81ec30f4d\">libusb_unref_device()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:153
+#: source/api-1.0/libusb_api.html:153
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a>"
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:154
+#: source/api-1.0/libusb_api.html:154
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c\">libusb_wrap_sys_device()</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga98f783e115ceff4eaf88a60e6439563c\">libusb_wrap_sys_device()</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:156
+#: source/api-1.0/libusb_api.html:156
 msgid "<a class=\"anchor\" id=\"Structures\"></a> Structures"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:159
+#: source/api-1.0/libusb_api.html:159
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__bos__descriptor.html\">libusb_bos_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__bos__descriptor.html"
+"\">libusb_bos_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:160
+#: source/api-1.0/libusb_api.html:160
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__bos__dev__capability__descriptor.html\">libusb_bos_dev_capability_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html"
+"\">libusb_bos_dev_capability_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:161
+#: source/api-1.0/libusb_api.html:161
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__config__descriptor.html\">libusb_config_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__config__descriptor.html"
+"\">libusb_config_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:162
+#: source/api-1.0/libusb_api.html:162
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__container__id__descriptor.html\">libusb_container_id_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__container__id__descriptor.html"
+"\">libusb_container_id_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:163
+#: source/api-1.0/libusb_api.html:163
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:164
+#: source/api-1.0/libusb_api.html:164
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
+"<a class=\"el\" href=\"structlibusb__control__setup.html"
+"\">libusb_control_setup</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:165
+#: source/api-1.0/libusb_api.html:165
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:166
+#: source/api-1.0/libusb_api.html:166
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__device__descriptor.html\">libusb_device_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__device__descriptor.html"
+"\">libusb_device_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:167
+#: source/api-1.0/libusb_api.html:167
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:168
+#: source/api-1.0/libusb_api.html:168
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__endpoint__descriptor.html\">libusb_endpoint_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__endpoint__descriptor.html"
+"\">libusb_endpoint_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:169
-msgid "<a class=\"el\" href=\"structlibusb__interface.html\">libusb_interface</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:170
+#: source/api-1.0/libusb_api.html:169
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__interface__descriptor.html\">libusb_interface_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__interface.html\">libusb_interface</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:171
+#: source/api-1.0/libusb_api.html:170
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__iso__packet__descriptor.html\">libusb_iso_packet_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__interface__descriptor.html"
+"\">libusb_interface_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:172
+#: source/api-1.0/libusb_api.html:171
+msgid ""
+"<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html"
+"\">libusb_iso_packet_descriptor</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: source/api-1.0/libusb_api.html:172
 msgid "<a class=\"el\" href=\"structlibusb__pollfd.html\">libusb_pollfd</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:173
+#: source/api-1.0/libusb_api.html:173
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__endpoint__companion__descriptor.html\">libusb_ss_endpoint_companion_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html"
+"\">libusb_ss_endpoint_companion_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:174
+#: source/api-1.0/libusb_api.html:174
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html\">libusb_ss_usb_device_capability_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html\">libusb_ss_usb_device_capability_descriptor</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:175
-msgid "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a>"
-msgstr ""
-
-#. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:176
+#: source/api-1.0/libusb_api.html:175
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__usb__2__0__extension__descriptor.html\">libusb_usb_2_0_extension_descriptor</a>"
+"<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:177
+#: source/api-1.0/libusb_api.html:176
+msgid ""
+"<a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html"
+"\">libusb_usb_2_0_extension_descriptor</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><ul><li>
+#: source/api-1.0/libusb_api.html:177
 msgid "<a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:179
+#: source/api-1.0/libusb_api.html:179
 msgid "<a class=\"anchor\" id=\"Enums\"></a> Enums"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:182
+#: source/api-1.0/libusb_api.html:182
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga6ccabbf3b3728ae69608ba83bba4e64c\">libusb_bos_type</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga6ccabbf3b3728ae69608ba83bba4e64c\">libusb_bos_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:183
+#: source/api-1.0/libusb_api.html:183
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:184
+#: source/api-1.0/libusb_api.html:184
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gac529888effbefef8af4f9d17ebc903a1\">libusb_class_code</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gac529888effbefef8af4f9d17ebc903a1\">libusb_class_code</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:185
+#: source/api-1.0/libusb_api.html:185
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga0a2e8a25dfdebf29fdd4764dcdbc1a9c\">libusb_descriptor_type</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga0a2e8a25dfdebf29fdd4764dcdbc1a9c\">libusb_descriptor_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:186
+#: source/api-1.0/libusb_api.html:186
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga86c880af878493aa8f805c2aba654b8b\">libusb_endpoint_direction</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga86c880af878493aa8f805c2aba654b8b\">libusb_endpoint_direction</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:187
+#: source/api-1.0/libusb_api.html:187
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga8c93c0ec3fccf1c44e8ec7639619a53e\">libusb_endpoint_transfer_type</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga8c93c0ec3fccf1c44e8ec7639619a53e\">libusb_endpoint_transfer_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:188
+#: source/api-1.0/libusb_api.html:188
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:189
+#: source/api-1.0/libusb_api.html:189
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gaa2231202dfe12eddca49b1193d44a441\">libusb_iso_sync_type</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gaa2231202dfe12eddca49b1193d44a441\">libusb_iso_sync_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:190
+#: source/api-1.0/libusb_api.html:190
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gab72474551b0eb965401e6febb856007c\">libusb_iso_usage_type</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gab72474551b0eb965401e6febb856007c\">libusb_iso_usage_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:191
+#: source/api-1.0/libusb_api.html:191
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:192
+#: source/api-1.0/libusb_api.html:192
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:193
+#: source/api-1.0/libusb_api.html:193
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:194
+#: source/api-1.0/libusb_api.html:194
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:195
+#: source/api-1.0/libusb_api.html:195
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614\">libusb_speed</a>"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga2959abf1184f87b2ce06fe90db6ce614\">libusb_speed</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:196
+#: source/api-1.0/libusb_api.html:196
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gaad5a5399176a35a64164dafad7fe4fcd\">libusb_ss_usb_device_capability_attributes</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gaad5a5399176a35a64164dafad7fe4fcd"
+"\">libusb_ss_usb_device_capability_attributes</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:197
+#: source/api-1.0/libusb_api.html:197
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:198
+#: source/api-1.0/libusb_api.html:198
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#ga1454797ecc0de4d084c1619c420014f6\">libusb_supported_speed</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#ga1454797ecc0de4d084c1619c420014f6\">libusb_supported_speed</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:199
+#: source/api-1.0/libusb_api.html:199
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:200
+#: source/api-1.0/libusb_api.html:200
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:201
+#: source/api-1.0/libusb_api.html:201
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio."
+"html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:202
+#: source/api-1.0/libusb_api.html:202
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__desc.html#gacb8cfa928bffdd0066a3dd2e6aba0558\">libusb_usb_2_0_extension_attributes</a>"
+"<a class=\"el\" href=\"group__libusb__desc."
+"html#gacb8cfa928bffdd0066a3dd2e6aba0558\">libusb_usb_2_0_extension_attributes</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:207
+#: source/api-1.0/libusb_api.html:207
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:209
+#: source/api-1.0/libusb_api.html:209
 msgid "doxygen"
 msgstr ""
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_api.html:210
+#: source/api-1.0/libusb_api.html:210
 msgid "</a> 1.8.17 </small>"
 msgstr ""

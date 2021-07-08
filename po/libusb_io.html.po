@@ -1,69 +1,68 @@
+# -*- coding: utf-8 -*-
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR libusb
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:23+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:8
+#: source/api-1.0/libusb_io.html:8
 msgid "libusb: Synchronous and asynchronous device I/O"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:20
+#: source/api-1.0/libusb_io.html:20
 msgid "Logo"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:22
+#: source/api-1.0/libusb_io.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:25
+#: source/api-1.0/libusb_io.html:25
 msgid "A cross-platform user library to access USB devices"
 msgstr ""
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:36
+#: source/api-1.0/libusb_io.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:45
+#: source/api-1.0/libusb_io.html:45
 msgid "Synchronous and asynchronous device I/O"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:48
+#: source/api-1.0/libusb_io.html:48
 msgid "<a class=\"anchor\" id=\"io_intro\"></a> Introduction"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:50
+#: source/api-1.0/libusb_io.html:50
 msgid ""
 "If you're using libusb in your application, you're probably wanting to "
 "perform I/O with devices - you want to perform USB data transfers."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:51
+#: source/api-1.0/libusb_io.html:51
 msgid ""
 "libusb offers two separate interfaces for device I/O. This page aims to "
 "introduce the two in order to help you decide which one is more suitable for "
@@ -72,67 +71,67 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:52
+#: source/api-1.0/libusb_io.html:52
 msgid ""
 "Once you have read through the following discussion, you should consult the "
 "detailed API documentation pages for the details:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:53
+#: source/api-1.0/libusb_io.html:53
 msgid ""
-"<a class=\"el\" href=\"group__libusb__syncio.html\">Synchronous device "
-"I/O</a>"
+"<a class=\"el\" href=\"group__libusb__syncio.html\">Synchronous device I/O</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:54
+#: source/api-1.0/libusb_io.html:54
 msgid ""
-"<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device "
-"I/O</a>"
+"<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device I/"
+"O</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:56
+#: source/api-1.0/libusb_io.html:56
 msgid "<a class=\"anchor\" id=\"theory\"></a> Transfers at a logical level"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:58
+#: source/api-1.0/libusb_io.html:58
 msgid ""
 "At a logical level, USB transfers typically happen in two parts. For "
 "example, when reading data from a endpoint:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:59
+#: source/api-1.0/libusb_io.html:59
 msgid "A request for data is sent to the device"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:60
+#: source/api-1.0/libusb_io.html:60
 msgid "Some time later, the incoming data is received by the host"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:62
+#: source/api-1.0/libusb_io.html:62
 msgid "or when writing data to an endpoint:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:64
+#: source/api-1.0/libusb_io.html:64
 msgid "The data is sent to the device"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:65
+#: source/api-1.0/libusb_io.html:65
 msgid ""
 "Some time later, the host receives acknowledgement from the device that the "
 "data has been transferred."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:67
+#: source/api-1.0/libusb_io.html:67
 msgid ""
 "There may be an indefinite delay between the two steps. Consider a fictional "
 "USB input device with a button that the user can press. In order to "
@@ -143,7 +142,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:68
+#: source/api-1.0/libusb_io.html:68
 msgid ""
 "libusb offers both a synchronous and an asynchronous interface to performing "
 "USB transfers. The main difference is that the synchronous interface "
@@ -152,12 +151,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:69
+#: source/api-1.0/libusb_io.html:69
 msgid "<a class=\"anchor\" id=\"sync\"></a> The synchronous interface"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:71
+#: source/api-1.0/libusb_io.html:71
 msgid ""
 "The synchronous I/O interface allows you to perform a USB transfer with a "
 "single function call. When the function call returns, the transfer has "
@@ -165,96 +164,99 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:72
+#: source/api-1.0/libusb_io.html:72
 msgid ""
 "If you have used the libusb-0.1 before, this I/O style will seem familiar to "
 "you. libusb-0.1 only offered a synchronous interface."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:73
+#: source/api-1.0/libusb_io.html:73
 msgid ""
 "In our input device example, to read button presses you might write code in "
 "the following style:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:73
+#: source/api-1.0/libusb_io.html:73
 msgid ""
-"<span class=\"keywordtype\">unsigned</span> <span "
-"class=\"keywordtype\">char</span> data[4];"
+"<span class=\"keywordtype\">unsigned</span> <span class=\"keywordtype"
+"\">char</span> data[4];"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:74
+#: source/api-1.0/libusb_io.html:74
 msgid "<span class=\"keywordtype\">int</span> actual_length;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:75
+#: source/api-1.0/libusb_io.html:75
 msgid ""
-"<span class=\"keywordtype\">int</span> r = <a class=\"code\" "
-"href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer</a>(dev_handle, "
-"<a class=\"code\" "
-"href=\"group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</a>, "
-"data, <span class=\"keyword\">sizeof</span>(data), &amp;actual_length, 0);"
+"<span class=\"keywordtype\">int</span> r = <a class=\"code\" href="
+"\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c"
+"\">libusb_bulk_transfer</a>(dev_handle, <a class=\"code\" href="
+"\"group__libusb__desc."
+"html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</"
+"a>, data, <span class=\"keyword\">sizeof</span>(data), &amp;actual_length, "
+"0);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:76
+#: source/api-1.0/libusb_io.html:76
 msgid ""
 "<span class=\"keywordflow\">if</span> (r == 0 &amp;&amp; actual_length == "
 "<span class=\"keyword\">sizeof</span>(data)) {"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:77
+#: source/api-1.0/libusb_io.html:77
 msgid ""
 "<span class=\"comment\">// results of the transaction can now be found in "
 "the data buffer</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:78
-msgid "<span class=\"comment\">// parse them here and report button press</span>"
+#: source/api-1.0/libusb_io.html:78
+msgid ""
+"<span class=\"comment\">// parse them here and report button press</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:79
+#: source/api-1.0/libusb_io.html:79
 msgid "} <span class=\"keywordflow\">else</span> {"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:80
+#: source/api-1.0/libusb_io.html:80
 msgid "error();"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:81
+#: source/api-1.0/libusb_io.html:81
 msgid "}"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:82
+#: source/api-1.0/libusb_io.html:82
 msgid ""
 "The main advantage of this model is simplicity: you did everything with a "
 "single simple function call."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:83
+#: source/api-1.0/libusb_io.html:83
 msgid ""
 "However, this interface has its limitations. Your application will sleep "
-"inside <a class=\"el\" "
-"href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer()</a> "
-"until the transaction has completed. If it takes the user 3 hours to press "
-"the button, your application will be sleeping for that long. Execution will "
-"be tied up inside the library - the entire thread will be useless for that "
+"inside <a class=\"el\" href=\"group__libusb__syncio."
+"html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer()</a> until "
+"the transaction has completed. If it takes the user 3 hours to press the "
+"button, your application will be sleeping for that long. Execution will be "
+"tied up inside the library - the entire thread will be useless for that "
 "duration."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:84
+#: source/api-1.0/libusb_io.html:84
 msgid ""
 "Another issue is that by tying up the thread with that single transaction "
 "there is no possibility of performing I/O with multiple endpoints and/or "
@@ -263,34 +265,33 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:85
+#: source/api-1.0/libusb_io.html:85
 msgid ""
 "Additionally, there is no opportunity to cancel the transfer after the "
 "request has been submitted."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:86
+#: source/api-1.0/libusb_io.html:86
 msgid ""
-"For details on how to use the synchronous API, see the <a class=\"el\" "
-"href=\"group__libusb__syncio.html\">synchronous I/O API documentation</a> "
-"pages."
+"For details on how to use the synchronous API, see the <a class=\"el\" href="
+"\"group__libusb__syncio.html\">synchronous I/O API documentation</a> pages."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:87
+#: source/api-1.0/libusb_io.html:87
 msgid "<a class=\"anchor\" id=\"async\"></a> The asynchronous interface"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:89
+#: source/api-1.0/libusb_io.html:89
 msgid ""
 "Asynchronous I/O is the most significant new feature in libusb-1.0. Although "
 "it is a more complex interface, it solves all the issues detailed above."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:90
+#: source/api-1.0/libusb_io.html:90
 msgid ""
 "Instead of providing which functions that block until the I/O has complete, "
 "libusb's asynchronous interface presents non-blocking functions which begin "
@@ -300,14 +301,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:91
+#: source/api-1.0/libusb_io.html:91
 msgid ""
 "Transfers which have been submitted through the non-blocking functions can "
 "be cancelled with a separate function call."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:92
+#: source/api-1.0/libusb_io.html:92
 msgid ""
 "The non-blocking nature of this interface allows you to be simultaneously "
 "performing I/O to multiple endpoints on multiple devices, without having to "
@@ -315,12 +316,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:93
+#: source/api-1.0/libusb_io.html:93
 msgid "This added flexibility does come with some complications though:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:94
+#: source/api-1.0/libusb_io.html:94
 msgid ""
 "In the interest of being a lightweight library, libusb does not create "
 "threads and can only operate when your application is calling into it. Your "
@@ -330,14 +331,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:95
+#: source/api-1.0/libusb_io.html:95
 msgid ""
 "libusb also needs to be called into at certain fixed points in time in order "
 "to accurately handle transfer timeouts."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:96
+#: source/api-1.0/libusb_io.html:96
 msgid ""
 "Memory handling becomes more complex. You cannot use stack memory unless the "
 "function with that stack is guaranteed not to return until the transfer "
@@ -345,7 +346,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:97
+#: source/api-1.0/libusb_io.html:97
 msgid ""
 "You generally lose some linearity from your code flow because submitting the "
 "transfer request is done in a separate function from where the transfer "
@@ -354,29 +355,28 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:99
+#: source/api-1.0/libusb_io.html:99
 msgid ""
 "Internally, libusb's synchronous interface is expressed in terms of function "
 "calls to the asynchronous interface."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:100
+#: source/api-1.0/libusb_io.html:100
 msgid ""
-"For details on how to use the asynchronous API, see the <a class=\"el\" "
-"href=\"group__libusb__asyncio.html\">asynchronous I/O API</a> documentation "
-"pages."
+"For details on how to use the asynchronous API, see the <a class=\"el\" href="
+"\"group__libusb__asyncio.html\">asynchronous I/O API</a> documentation pages."
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:103
+#: source/api-1.0/libusb_io.html:103
 msgid ""
-"<a "
-"href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer</a>"
+"<a href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c"
+"\">libusb_bulk_transfer</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:103
+#: source/api-1.0/libusb_io.html:103
 msgid ""
 "int libusb_bulk_transfer(libusb_device_handle *dev_handle, unsigned char "
 "endpoint, unsigned char *data, int length, int *actual_length, unsigned int "
@@ -384,45 +384,46 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:103
+#: source/api-1.0/libusb_io.html:103
 msgid "<b>Definition:</b> sync.c:274"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:104
+#: source/api-1.0/libusb_io.html:104
 msgid ""
-"<a "
-"href=\"group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</a>"
+"<a href=\"group__libusb__desc."
+"html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:104
+#: source/api-1.0/libusb_io.html:104
 msgid "@ LIBUSB_ENDPOINT_IN"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:104
+#: source/api-1.0/libusb_io.html:104
 msgid "In: device-to-host."
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:104
+#: source/api-1.0/libusb_io.html:104
 msgid "<b>Definition:</b> libusb.h:322"
 msgstr ""
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:106
+#: source/api-1.0/libusb_io.html:106
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:108
+#: source/api-1.0/libusb_io.html:108
 msgid "doxygen"
 msgstr ""
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_io.html:109
+#: source/api-1.0/libusb_io.html:109
 msgid "</a> 1.8.17 </small>"
 msgstr ""

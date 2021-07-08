@@ -1,77 +1,75 @@
+# -*- coding: utf-8 -*-
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR libusb
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:24+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:8
+#: source/api-1.0/libusb_mtasync.html:8
 msgid "libusb: Multi-threaded applications and asynchronous I/O"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:20
+#: source/api-1.0/libusb_mtasync.html:20
 msgid "Logo"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:22
+#: source/api-1.0/libusb_mtasync.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:25
+#: source/api-1.0/libusb_mtasync.html:25
 msgid "A cross-platform user library to access USB devices"
 msgstr ""
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:36
+#: source/api-1.0/libusb_mtasync.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:45
+#: source/api-1.0/libusb_mtasync.html:45
 msgid "Multi-threaded applications and asynchronous I/O"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:48
+#: source/api-1.0/libusb_mtasync.html:48
 msgid ""
 "libusb is a thread-safe library, but extra considerations must be applied to "
 "applications which interact with libusb from multiple threads."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:49
+#: source/api-1.0/libusb_mtasync.html:49
 msgid ""
 "The underlying issue that must be addressed is that all libusb I/O revolves "
-"around monitoring file descriptors through the poll()/select() system "
-"calls. This is directly exposed at the <a class=\"el\" "
-"href=\"group__libusb__asyncio.html\">asynchronous interface</a> but it is "
-"important to note that the <a class=\"el\" "
-"href=\"group__libusb__syncio.html\">synchronous interface</a> is implemented "
-"on top of the asynchronous interface, therefore the same considerations "
-"apply."
+"around monitoring file descriptors through the poll()/select() system calls. "
+"This is directly exposed at the <a class=\"el\" href="
+"\"group__libusb__asyncio.html\">asynchronous interface</a> but it is "
+"important to note that the <a class=\"el\" href=\"group__libusb__syncio.html"
+"\">synchronous interface</a> is implemented on top of the asynchronous "
+"interface, therefore the same considerations apply."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:50
+#: source/api-1.0/libusb_mtasync.html:50
 msgid ""
 "The issue is that if two or more threads are concurrently calling poll() or "
 "select() on libusb's file descriptors then only one of those threads will be "
@@ -80,7 +78,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:51
+#: source/api-1.0/libusb_mtasync.html:51
 msgid ""
 "Consider the following pseudo-code, which submits an asynchronous transfer "
 "then waits for its completion. This style is one way you could implement a "
@@ -90,140 +88,155 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:52
+#: source/api-1.0/libusb_mtasync.html:52
 msgid ""
-"<span class=\"keywordtype\">void</span> cb(<span "
-"class=\"keyword\">struct</span> <a class=\"code\" "
-"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
+"<span class=\"keywordtype\">void</span> cb(<span class=\"keyword\">struct</"
+"span> <a class=\"code\" href=\"structlibusb__transfer.html"
+"\">libusb_transfer</a> *transfer)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:53
+#: source/api-1.0/libusb_mtasync.html:53
 msgid "{"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:54
+#: source/api-1.0/libusb_mtasync.html:54
 msgid ""
-"<span class=\"keywordtype\">int</span> *completed = transfer-&gt;<a "
-"class=\"code\" "
-"href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b\">user_data</a>;"
+"<span class=\"keywordtype\">int</span> *completed = transfer-&gt;<a class="
+"\"code\" href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b"
+"\">user_data</a>;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:55
+#: source/api-1.0/libusb_mtasync.html:55
 msgid "*completed = 1;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:56 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:73 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:76 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:88 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:96 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:112 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:126 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:130 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:145 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:148 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:150
+#: source/api-1.0/libusb_mtasync.html:56 source/api-1.0/libusb_mtasync.html:73
+#: source/api-1.0/libusb_mtasync.html:76 source/api-1.0/libusb_mtasync.html:88
+#: source/api-1.0/libusb_mtasync.html:96 source/api-1.0/libusb_mtasync.html:112
+#: source/api-1.0/libusb_mtasync.html:126
+#: source/api-1.0/libusb_mtasync.html:130
+#: source/api-1.0/libusb_mtasync.html:145
+#: source/api-1.0/libusb_mtasync.html:148
+#: source/api-1.0/libusb_mtasync.html:150
 msgid "}"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:58
+#: source/api-1.0/libusb_mtasync.html:58
 msgid "<span class=\"keywordtype\">void</span> myfunc() {"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:59
+#: source/api-1.0/libusb_mtasync.html:59
 msgid ""
-"<span class=\"keyword\">struct </span><a class=\"code\" "
-"href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer;"
+"<span class=\"keyword\">struct </span><a class=\"code\" href="
+"\"structlibusb__transfer.html\">libusb_transfer</a> *transfer;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:60
+#: source/api-1.0/libusb_mtasync.html:60
 msgid ""
-"<span class=\"keywordtype\">unsigned</span> <span "
-"class=\"keywordtype\">char</span> <a class=\"code\" "
-"href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</a>[LIBUSB_CONTROL_SETUP_SIZE] "
-"__attribute__ ((aligned (2)));"
+"<span class=\"keywordtype\">unsigned</span> <span class=\"keywordtype"
+"\">char</span> <a class=\"code\" href=\"structlibusb__transfer."
+"html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</"
+"a>[LIBUSB_CONTROL_SETUP_SIZE] __attribute__ ((aligned (2)));"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:61
+#: source/api-1.0/libusb_mtasync.html:61
 msgid "<span class=\"keywordtype\">int</span> completed = 0;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:63
+#: source/api-1.0/libusb_mtasync.html:63
 msgid ""
-"transfer = <a class=\"code\" "
-"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer</a>(0);"
+"transfer = <a class=\"code\" href=\"group__libusb__asyncio."
+"html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer</a>(0);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:64
+#: source/api-1.0/libusb_mtasync.html:64
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup</a>(<a "
-"class=\"code\" "
-"href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</a>,"
+"<a class=\"code\" href=\"group__libusb__asyncio."
+"html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup</a>(<a "
+"class=\"code\" href=\"structlibusb__transfer."
+"html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</a>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:65
+#: source/api-1.0/libusb_mtasync.html:65
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\">LIBUSB_REQUEST_TYPE_VENDOR</a> "
-"| <a class=\"code\" "
-"href=\"group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba940484c16d44bdfc6eccc2de7a9ffcb2\">LIBUSB_ENDPOINT_OUT</a>, "
-"0x04, 0x01, 0, 0);"
+"<a class=\"code\" href=\"group__libusb__misc."
+"html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\">LIBUSB_REQUEST_TYPE_VENDOR</"
+"a> | <a class=\"code\" href=\"group__libusb__desc."
+"html#gga86c880af878493aa8f805c2aba654b8ba940484c16d44bdfc6eccc2de7a9ffcb2\">LIBUSB_ENDPOINT_OUT</"
+"a>, 0x04, 0x01, 0, 0);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:66
+#: source/api-1.0/libusb_mtasync.html:66
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer</a>(transfer, "
-"dev, <a class=\"code\" "
-"href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</a>, "
-"cb, &amp;completed, 1000);"
+"<a class=\"code\" href=\"group__libusb__asyncio."
+"html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer</"
+"a>(transfer, dev, <a class=\"code\" href=\"structlibusb__transfer."
+"html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</a>, cb, &amp;completed, "
+"1000);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:67 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:84 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:92
+#: source/api-1.0/libusb_mtasync.html:67 source/api-1.0/libusb_mtasync.html:84
+#: source/api-1.0/libusb_mtasync.html:92
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer</a>(transfer);"
+"<a class=\"code\" href=\"group__libusb__asyncio."
+"html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer</"
+"a>(transfer);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:69 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:86 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:94 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:108 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:122 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:137
+#: source/api-1.0/libusb_mtasync.html:69 source/api-1.0/libusb_mtasync.html:86
+#: source/api-1.0/libusb_mtasync.html:94 source/api-1.0/libusb_mtasync.html:108
+#: source/api-1.0/libusb_mtasync.html:122
+#: source/api-1.0/libusb_mtasync.html:137
 msgid "<span class=\"keywordflow\">while</span> (!completed) {"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:70 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:109 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:127
+#: source/api-1.0/libusb_mtasync.html:70 source/api-1.0/libusb_mtasync.html:109
+#: source/api-1.0/libusb_mtasync.html:127
 msgid "poll(libusb file descriptors, 120*1000);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:71 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:110 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:128
+#: source/api-1.0/libusb_mtasync.html:71 source/api-1.0/libusb_mtasync.html:110
+#: source/api-1.0/libusb_mtasync.html:128
 msgid "<span class=\"keywordflow\">if</span> (poll indicates activity)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:72 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:111
+#: source/api-1.0/libusb_mtasync.html:72 source/api-1.0/libusb_mtasync.html:111
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout</a>(ctx, "
-"&amp;zero_tv);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout</"
+"a>(ctx, &amp;zero_tv);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:74 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:89 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:97
+#: source/api-1.0/libusb_mtasync.html:74 source/api-1.0/libusb_mtasync.html:89
+#: source/api-1.0/libusb_mtasync.html:97
 msgid "printf(<span class=\"stringliteral\">&quot;completed!&quot;</span>);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:75
+#: source/api-1.0/libusb_mtasync.html:75
 msgid "<span class=\"comment\">// other code here</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:77
+#: source/api-1.0/libusb_mtasync.html:77
 msgid ""
 "Here we are <em>serializing</em> completion of an asynchronous event against "
 "a condition - the condition being completion of a specific transfer. The "
@@ -232,21 +245,21 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:78
+#: source/api-1.0/libusb_mtasync.html:78
 msgid ""
 "If this is the only thread that is polling libusb's file descriptors, there "
 "is no problem: there is no danger that another thread will swallow up the "
 "event that we are interested in. On the other hand, if there is another "
 "thread polling the same descriptors, there is a chance that it will receive "
-"the event that we were interested in. In this situation, "
-"<code>myfunc()</code> will only realise that the transfer has completed on "
-"the next iteration of the loop, <em>up to 120 seconds later.</em> Clearly a "
-"two-minute delay is undesirable, and don't even think about using short "
-"timeouts to circumvent this issue!"
+"the event that we were interested in. In this situation, <code>myfunc()</"
+"code> will only realise that the transfer has completed on the next "
+"iteration of the loop, <em>up to 120 seconds later.</em> Clearly a two-"
+"minute delay is undesirable, and don't even think about using short timeouts "
+"to circumvent this issue!"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:79
+#: source/api-1.0/libusb_mtasync.html:79
 msgid ""
 "The solution here is to ensure that no two threads are ever polling the file "
 "descriptors at the same time. A naive implementation of this would impact "
@@ -255,47 +268,46 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:80
+#: source/api-1.0/libusb_mtasync.html:80
 msgid ""
 "Before we go any further, it is worth mentioning that all libusb-wrapped "
 "event handling procedures fully adhere to the scheme documented below. This "
-"includes <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
-"and its variants, and all the synchronous I/O functions - libusb hides this "
-"headache from you."
+"includes <a class=\"el\" href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> and its "
+"variants, and all the synchronous I/O functions - libusb hides this headache "
+"from you."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:81
+#: source/api-1.0/libusb_mtasync.html:81
 msgid ""
 "<a class=\"anchor\" id=\"Using\"></a> libusb_handle_events() from multiple "
 "threads"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:83
+#: source/api-1.0/libusb_mtasync.html:83
 msgid ""
-"Even when only using <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
-"and synchronous I/O functions, you can still have a race condition. You "
-"might be tempted to solve the above with <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
-"like so:"
+"Even when only using <a class=\"el\" href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> and "
+"synchronous I/O functions, you can still have a race condition. You might be "
+"tempted to solve the above with <a class=\"el\" href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> like so:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:87
+#: source/api-1.0/libusb_mtasync.html:87
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>(ctx);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>(ctx);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:90
+#: source/api-1.0/libusb_mtasync.html:90
 msgid ""
-"This however has a race between the checking of completed and <a "
-"class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
+"This however has a race between the checking of completed and <a class=\"el"
+"\" href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
 "acquiring the events lock, so another thread could have completed the "
 "transfer, resulting in this thread hanging until either a timeout or another "
 "event occurs. See also commit 6696512aade99bb15d6792af90ae329af270eba6 which "
@@ -303,30 +315,31 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:91
+#: source/api-1.0/libusb_mtasync.html:91
 msgid ""
 "Fixing this race requires checking the variable completed only after taking "
 "the event lock, which defeats the concept of just calling <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
-"without worrying about locking. This is why libusb-1.0.9 introduces the new "
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga43e52b912a760b41a0cf8a4a472fbd5b\">libusb_handle_events_timeout_completed()</a> "
-"and <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed()</a> "
-"functions, which handles doing the completion check for you after they have "
-"acquired the lock:"
+"href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> without "
+"worrying about locking. This is why libusb-1.0.9 introduces the new <a class="
+"\"el\" href=\"group__libusb__poll.html#ga43e52b912a760b41a0cf8a4a472fbd5b"
+"\">libusb_handle_events_timeout_completed()</a> and <a class=\"el\" href="
+"\"group__libusb__poll."
+"html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed()</"
+"a> functions, which handles doing the completion check for you after they "
+"have acquired the lock:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:95
+#: source/api-1.0/libusb_mtasync.html:95
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</a>(ctx, "
-"&amp;completed);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</"
+"a>(ctx, &amp;completed);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:98
+#: source/api-1.0/libusb_mtasync.html:98
 msgid ""
 "This nicely fixes the race in our example. Note that if all you want to do "
 "is submit a single transfer and wait for its completion, then using one of "
@@ -334,12 +347,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:99
+#: source/api-1.0/libusb_mtasync.html:99
 msgid "Note"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:99
+#: source/api-1.0/libusb_mtasync.html:99
 msgid ""
 "The <code>completed</code> variable must be modified while holding the event "
 "lock, otherwise a race condition can still exist. It is simplest to do so "
@@ -347,22 +360,22 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:100
+#: source/api-1.0/libusb_mtasync.html:100
 msgid "<a class=\"anchor\" id=\"eventlock\"></a> The events lock"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:102
+#: source/api-1.0/libusb_mtasync.html:102
 msgid ""
 "The problem is when we consider the fact that libusb exposes file "
 "descriptors to allow for you to integrate asynchronous USB I/O into existing "
-"main loops, effectively allowing you to do some work behind libusb's "
-"back. If you do take libusb's file descriptors and pass them to "
-"poll()/select() yourself, you need to be aware of the associated issues."
+"main loops, effectively allowing you to do some work behind libusb's back. "
+"If you do take libusb's file descriptors and pass them to poll()/select() "
+"yourself, you need to be aware of the associated issues."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:103
+#: source/api-1.0/libusb_mtasync.html:103
 msgid ""
 "The first concept to be introduced is the events lock. The events lock is "
 "used to serialize threads that want to handle events, such that only one "
@@ -370,46 +383,48 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:104
+#: source/api-1.0/libusb_mtasync.html:104
 msgid ""
 "You must take the events lock before polling libusb file descriptors, using "
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef\">libusb_lock_events()</a>. "
-"You must release the lock as soon as you have aborted your poll()/select() "
-"loop, using <a class=\"el\" "
-"href=\"group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events()</a>."
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#gaa72153938dc4f34decfacbc6cc6237ef\">libusb_lock_events()</a>. You must "
+"release the lock as soon as you have aborted your poll()/select() loop, "
+"using <a class=\"el\" href=\"group__libusb__poll."
+"html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events()</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h1>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:105
+#: source/api-1.0/libusb_mtasync.html:105
 msgid ""
 "<a class=\"anchor\" id=\"threadwait\"></a> Letting other threads do the work "
 "for you"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:107
+#: source/api-1.0/libusb_mtasync.html:107
 msgid ""
 "Although the events lock is a critical part of the solution, it is not "
 "enough on it's own. You might wonder if the following is sufficient..."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:107
+#: source/api-1.0/libusb_mtasync.html:107
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef\">libusb_lock_events</a>(ctx);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#gaa72153938dc4f34decfacbc6cc6237ef\">libusb_lock_events</a>(ctx);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:113 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:124 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:131
+#: source/api-1.0/libusb_mtasync.html:113
+#: source/api-1.0/libusb_mtasync.html:124
+#: source/api-1.0/libusb_mtasync.html:131
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events</a>(ctx);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events</a>(ctx);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:114
+#: source/api-1.0/libusb_mtasync.html:114
 msgid ""
 "...and the answer is that it is not. This is because the transfer in the "
 "code shown above may take a long time (say 30 seconds) to complete, and the "
@@ -417,7 +432,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:115
+#: source/api-1.0/libusb_mtasync.html:115
 msgid ""
 "Another thread with similar code that wants to do event handling may be "
 "working with a transfer that completes after a few milliseconds. Despite "
@@ -427,7 +442,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:116
+#: source/api-1.0/libusb_mtasync.html:116
 msgid ""
 "To solve this, libusb offers you a mechanism to determine when another "
 "thread is handling events. It also offers a mechanism to block your thread "
@@ -436,168 +451,174 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:117
+#: source/api-1.0/libusb_mtasync.html:117
 msgid ""
 "After determining that another thread is currently handling events, you "
-"obtain the <em>event waiters</em> lock using <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters()</a>. "
+"obtain the <em>event waiters</em> lock using <a class=\"el\" href="
+"\"group__libusb__poll."
+"html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters()</a>. "
 "You then re-check that some other thread is still handling events, and if "
-"so, you call <a class=\"el\" "
-"href=\"group__libusb__poll.html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a>."
+"so, you call <a class=\"el\" href=\"group__libusb__poll."
+"html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:118
+#: source/api-1.0/libusb_mtasync.html:118
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a> "
-"puts your application to sleep until an event occurs, or until a thread "
-"releases the events lock. When either of these things happen, your thread is "
-"woken up, and should re-check the condition it was waiting on. It should "
-"also re-check that another thread is handling events, and if not, it should "
-"start handling events itself."
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a> puts "
+"your application to sleep until an event occurs, or until a thread releases "
+"the events lock. When either of these things happen, your thread is woken "
+"up, and should re-check the condition it was waiting on. It should also re-"
+"check that another thread is handling events, and if not, it should start "
+"handling events itself."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:119
+#: source/api-1.0/libusb_mtasync.html:119
 msgid "This looks like the following, as pseudo-code:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:119
+#: source/api-1.0/libusb_mtasync.html:119
 msgid "retry:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:120
+#: source/api-1.0/libusb_mtasync.html:120
 msgid ""
-"<span class=\"keywordflow\">if</span> (<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events</a>(ctx) "
-"== 0) {"
+"<span class=\"keywordflow\">if</span> (<a class=\"code\" href="
+"\"group__libusb__poll."
+"html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events</a>(ctx) == "
+"0) {"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:121
+#: source/api-1.0/libusb_mtasync.html:121
 msgid ""
 "<span class=\"comment\">// we obtained the event lock: do our own event "
 "handling</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:123
+#: source/api-1.0/libusb_mtasync.html:123
 msgid ""
-"<span class=\"keywordflow\">if</span> (!<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok</a>(ctx)) "
+"<span class=\"keywordflow\">if</span> (!<a class=\"code\" href="
+"\"group__libusb__poll."
+"html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok</a>(ctx)) "
 "{"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:125 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:144
+#: source/api-1.0/libusb_mtasync.html:125
+#: source/api-1.0/libusb_mtasync.html:144
 msgid "<span class=\"keywordflow\">goto</span> retry;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:129
+#: source/api-1.0/libusb_mtasync.html:129
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f\">libusb_handle_events_locked</a>(ctx, "
-"0);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#ga71da081f97afa3bf68aed8e372254e8f\">libusb_handle_events_locked</"
+"a>(ctx, 0);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:132
+#: source/api-1.0/libusb_mtasync.html:132
 msgid "} <span class=\"keywordflow\">else</span> {"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:133
+#: source/api-1.0/libusb_mtasync.html:133
 msgid ""
 "<span class=\"comment\">// another thread is doing event handling. wait for "
 "it to signal us that</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:134
+#: source/api-1.0/libusb_mtasync.html:134
 msgid "<span class=\"comment\">// an event has completed</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:135
+#: source/api-1.0/libusb_mtasync.html:135
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters</a>(ctx);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters</a>(ctx);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:138
+#: source/api-1.0/libusb_mtasync.html:138
 msgid ""
 "<span class=\"comment\">// now that we have the event waiters lock, double "
 "check that another</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:139
+#: source/api-1.0/libusb_mtasync.html:139
 msgid ""
 "<span class=\"comment\">// thread is still handling events for us. (it may "
 "have ceased handling</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:140
+#: source/api-1.0/libusb_mtasync.html:140
 msgid ""
 "<span class=\"comment\">// events in the time it took us to reach this "
 "point)</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:141
+#: source/api-1.0/libusb_mtasync.html:141
 msgid ""
-"<span class=\"keywordflow\">if</span> (!<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active</a>(ctx)) "
-"{"
+"<span class=\"keywordflow\">if</span> (!<a class=\"code\" href="
+"\"group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf"
+"\">libusb_event_handler_active</a>(ctx)) {"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:142
+#: source/api-1.0/libusb_mtasync.html:142
 msgid ""
 "<span class=\"comment\">// whoever was handling events is no longer doing "
 "so, try again</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:143 ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:149
+#: source/api-1.0/libusb_mtasync.html:143
+#: source/api-1.0/libusb_mtasync.html:149
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed\">libusb_unlock_event_waiters</a>(ctx);"
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#ga41d7716458c11ee02d0deb19a31233ed\">libusb_unlock_event_waiters</"
+"a>(ctx);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:147
+#: source/api-1.0/libusb_mtasync.html:147
 msgid ""
-"<a class=\"code\" "
-"href=\"group__libusb__poll.html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event</a>(ctx, "
+"<a class=\"code\" href=\"group__libusb__poll."
+"html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event</a>(ctx, "
 "NULL);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:151
+#: source/api-1.0/libusb_mtasync.html:151
 msgid "printf(<span class=\"stringliteral\">&quot;completed!\\n&quot;</span>);"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:152
+#: source/api-1.0/libusb_mtasync.html:152
 msgid ""
 "A naive look at the above code may suggest that this can only support one "
 "event waiter (hence a total of 2 competing threads, the other doing event "
 "handling), because the event waiter seems to have taken the event waiters "
 "lock while waiting for an event. However, the system does support multiple "
-"event waiters, because <a class=\"el\" "
-"href=\"group__libusb__poll.html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a> "
+"event waiters, because <a class=\"el\" href=\"group__libusb__poll."
+"html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a> "
 "actually drops the lock while waiting, and reacquires it before continuing."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:153
+#: source/api-1.0/libusb_mtasync.html:153
 msgid ""
 "We have now implemented code which can dynamically handle situations where "
 "nobody is handling events (so we should do it ourselves), and it can also "
@@ -609,77 +630,79 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:154
+#: source/api-1.0/libusb_mtasync.html:154
 msgid ""
 "Four functions were introduced in the above pseudo-code. Their importance "
 "should be apparent from the code shown above."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:155
+#: source/api-1.0/libusb_mtasync.html:155
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a> "
-"is a non-blocking function which attempts to acquire the events lock but "
-"returns a failure code if it is contended."
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a> is a "
+"non-blocking function which attempts to acquire the events lock but returns "
+"a failure code if it is contended."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:156
+#: source/api-1.0/libusb_mtasync.html:156
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a> "
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a> "
 "checks that libusb is still happy for your thread to be performing event "
 "handling. Sometimes, libusb needs to interrupt the event handler, and this "
 "is how you can check if you have been interrupted. If this function returns "
 "0, the correct behaviour is for you to give up the event handling lock, and "
-"then to repeat the cycle. The following <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a> "
-"will fail, so you will become an events waiter. For more information on "
-"this, read <a class=\"el\" href=\"libusb_mtasync.html#fullstory\">The full "
-"story</a> below."
+"then to repeat the cycle. The following <a class=\"el\" href="
+"\"group__libusb__poll."
+"html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a> will "
+"fail, so you will become an events waiter. For more information on this, "
+"read <a class=\"el\" href=\"libusb_mtasync.html#fullstory\">The full story</"
+"a> below."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:157
+#: source/api-1.0/libusb_mtasync.html:157
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f\">libusb_handle_events_locked()</a> "
-"is a variant of <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout()</a> "
-"that you can call while holding the events lock. <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout()</a> "
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga71da081f97afa3bf68aed8e372254e8f\">libusb_handle_events_locked()</a> "
+"is a variant of <a class=\"el\" href=\"group__libusb__poll."
+"html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout()</a> "
+"that you can call while holding the events lock. <a class=\"el\" href="
+"\"group__libusb__poll."
+"html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout()</a> "
 "itself implements similar logic to the above, so be sure not to call it when "
 "you are \"working behind libusb's back\", as is the case here."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:158
+#: source/api-1.0/libusb_mtasync.html:158
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active()</a> "
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active()</a> "
 "determines if someone is currently holding the events lock"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:160
+#: source/api-1.0/libusb_mtasync.html:160
 msgid ""
 "You might be wondering why there is no function to wake up all threads "
-"blocked on <a class=\"el\" "
-"href=\"group__libusb__poll.html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a>. "
-"This is because libusb can do this internally: it will wake up all such "
-"threads when someone calls <a class=\"el\" "
-"href=\"group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events()</a> "
-"or when a transfer completes (at the point after its callback has returned)."
+"blocked on <a class=\"el\" href=\"group__libusb__poll."
+"html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event()</a>. This "
+"is because libusb can do this internally: it will wake up all such threads "
+"when someone calls <a class=\"el\" href=\"group__libusb__poll."
+"html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events()</a> or when "
+"a transfer completes (at the point after its callback has returned)."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:161
+#: source/api-1.0/libusb_mtasync.html:161
 msgid "<a class=\"anchor\" id=\"fullstory\"></a> The full story"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:163
+#: source/api-1.0/libusb_mtasync.html:163
 msgid ""
 "The above explanation should be enough to get you going, but if you're "
 "really thinking through the issues then you may be left with some more "
@@ -688,7 +711,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:164
+#: source/api-1.0/libusb_mtasync.html:164
 msgid ""
 "The immediate question that may spring to mind is: what if one thread "
 "modifies the set of file descriptors that need to be polled while another "
@@ -696,114 +719,111 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:165
+#: source/api-1.0/libusb_mtasync.html:165
 msgid "There are 2 situations in which this may happen."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:166
+#: source/api-1.0/libusb_mtasync.html:166
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
-"will add another file descriptor to the poll set, therefore it is desirable "
-"to interrupt the event handler so that it restarts, picking up the new "
-"descriptor."
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> will add another "
+"file descriptor to the poll set, therefore it is desirable to interrupt the "
+"event handler so that it restarts, picking up the new descriptor."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:167
+#: source/api-1.0/libusb_mtasync.html:167
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> "
-"will remove a file descriptor from the poll set. There are all kinds of race "
-"conditions that could arise here, so it is important that nobody is doing "
-"event handling at this time."
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> will remove a "
+"file descriptor from the poll set. There are all kinds of race conditions "
+"that could arise here, so it is important that nobody is doing event "
+"handling at this time."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:169
+#: source/api-1.0/libusb_mtasync.html:169
 msgid ""
 "libusb handles these issues internally, so application developers do not "
 "have to stop their event handlers while opening/closing devices. Here's how "
-"it works, focusing on the <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> "
-"situation first:"
+"it works, focusing on the <a class=\"el\" href=\"group__libusb__dev."
+"html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> situation first:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:171
+#: source/api-1.0/libusb_mtasync.html:171
 msgid ""
 "During initialization, libusb opens an internal pipe, and it adds the read "
 "end of this pipe to the set of file descriptors to be polled."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:172
+#: source/api-1.0/libusb_mtasync.html:172
 msgid ""
-"During <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>, "
-"libusb writes some dummy data on this event pipe. This immediately "
-"interrupts the event handler. libusb also records internally that it is "
-"trying to interrupt event handlers for this high-priority event."
+"During <a class=\"el\" href=\"group__libusb__dev."
+"html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>, libusb writes "
+"some dummy data on this event pipe. This immediately interrupts the event "
+"handler. libusb also records internally that it is trying to interrupt event "
+"handlers for this high-priority event."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:173
+#: source/api-1.0/libusb_mtasync.html:173
 msgid ""
 "At this point, some of the functions described above start behaving "
 "differently:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:174
+#: source/api-1.0/libusb_mtasync.html:174
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a> "
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a> "
 "starts returning 1, indicating that it is NOT OK for event handling to "
 "continue."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:175
+#: source/api-1.0/libusb_mtasync.html:175
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a> "
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events()</a> "
 "starts returning 1, indicating that another thread holds the event handling "
 "lock, even if the lock is uncontended."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:176
+#: source/api-1.0/libusb_mtasync.html:176
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active()</a> "
+"<a class=\"el\" href=\"group__libusb__poll."
+"html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active()</a> "
 "starts returning 1, indicating that another thread is doing event handling, "
 "even if that is not true."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:179
+#: source/api-1.0/libusb_mtasync.html:179
 msgid ""
 "The above changes in behaviour result in the event handler stopping and "
-"giving up the events lock very quickly, giving the high-priority <a "
-"class=\"el\" "
-"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> "
-"operation a \"free ride\" to acquire the events lock. All threads that are "
-"competing to do event handling become event waiters."
+"giving up the events lock very quickly, giving the high-priority <a class="
+"\"el\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e"
+"\">libusb_close()</a> operation a \"free ride\" to acquire the events lock. "
+"All threads that are competing to do event handling become event waiters."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:180
+#: source/api-1.0/libusb_mtasync.html:180
 msgid ""
-"With the events lock held inside <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>, "
-"libusb can safely remove a file descriptor from the poll set, in the safety "
-"of knowledge that nobody is polling those descriptors or trying to access "
-"the poll set."
+"With the events lock held inside <a class=\"el\" href=\"group__libusb__dev."
+"html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>, libusb can "
+"safely remove a file descriptor from the poll set, in the safety of "
+"knowledge that nobody is polling those descriptors or trying to access the "
+"poll set."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:181
+#: source/api-1.0/libusb_mtasync.html:181
 msgid ""
 "After obtaining the events lock, the close operation completes very quickly "
 "(usually a matter of milliseconds) and then immediately releases the events "
@@ -811,71 +831,73 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:182
+#: source/api-1.0/libusb_mtasync.html:182
 msgid ""
-"At the same time, the behaviour of <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a> "
-"and friends reverts to the original, documented behaviour."
+"At the same time, the behaviour of <a class=\"el\" href="
+"\"group__libusb__poll."
+"html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a> and "
+"friends reverts to the original, documented behaviour."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:183
+#: source/api-1.0/libusb_mtasync.html:183
 msgid ""
 "The release of the events lock causes the threads that are waiting for "
-"events to be woken up and to start competing to become event handlers "
-"again. One of them will succeed; it will then re-obtain the list of poll "
+"events to be woken up and to start competing to become event handlers again. "
+"One of them will succeed; it will then re-obtain the list of poll "
 "descriptors, and USB I/O will then continue as normal."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:185
+#: source/api-1.0/libusb_mtasync.html:185
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
-"is similar, and is actually a more simplistic case. Upon a call to <a "
-"class=\"el\" "
-"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>:"
+"<a class=\"el\" href=\"group__libusb__dev."
+"html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> is similar, and "
+"is actually a more simplistic case. Upon a call to <a class=\"el\" href="
+"\"group__libusb__dev."
+"html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:187
+#: source/api-1.0/libusb_mtasync.html:187
 msgid "The device is opened and a file descriptor is added to the poll set."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:188
+#: source/api-1.0/libusb_mtasync.html:188
 msgid ""
 "libusb sends some dummy data on the event pipe, and records that it is "
 "trying to modify the poll descriptor set."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:189
+#: source/api-1.0/libusb_mtasync.html:189
 msgid ""
 "The event handler is interrupted, and the same behaviour change as for <a "
-"class=\"el\" "
-"href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> "
-"takes effect, causing all event handling threads to become event waiters."
+"class=\"el\" href=\"group__libusb__dev."
+"html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> takes effect, "
+"causing all event handling threads to become event waiters."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:190
+#: source/api-1.0/libusb_mtasync.html:190
 msgid ""
-"The <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
-"implementation takes its free ride to the events lock."
+"The <a class=\"el\" href=\"group__libusb__dev."
+"html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> implementation "
+"takes its free ride to the events lock."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:191
+#: source/api-1.0/libusb_mtasync.html:191
 msgid ""
 "Happy that it has successfully paused the events handler, <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> "
-"releases the events lock."
+"href=\"group__libusb__dev."
+"html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> releases the "
+"events lock."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:192
+#: source/api-1.0/libusb_mtasync.html:192
 msgid ""
 "The event waiter threads are all woken up and compete to become event "
 "handlers again. The one that succeeds will obtain the list of poll "
@@ -883,12 +905,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:194
+#: source/api-1.0/libusb_mtasync.html:194
 msgid "<a class=\"anchor\" id=\"concl\"></a> Closing remarks"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:196
+#: source/api-1.0/libusb_mtasync.html:196
 msgid ""
 "The above may seem a little complicated, but hopefully I have made it clear "
 "why such complications are necessary. Also, do not forget that this only "
@@ -897,7 +919,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:197
+#: source/api-1.0/libusb_mtasync.html:197
 msgid ""
 "You may decide that it is OK for your multi-threaded application to ignore "
 "some of the rules and locks detailed above, because you don't think that two "
@@ -914,106 +936,107 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:198
+#: source/api-1.0/libusb_mtasync.html:198
 msgid ""
 "If you do have a dedicated thread doing event handling, it is perfectly "
 "legal for it to take the event handling lock for long periods of time. Any "
 "synchronous I/O functions you call from other threads will transparently "
 "fall back to the \"event waiters\" mechanism detailed above. The only "
 "consideration that your event handling thread must apply is the one related "
-"to <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a>: "
+"to <a class=\"el\" href=\"group__libusb__poll."
+"html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok()</a>: "
 "you must call this before every poll(), and give up the events lock if "
 "instructed."
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:201
+#: source/api-1.0/libusb_mtasync.html:201
 msgid ""
-"<a "
-"href=\"group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba940484c16d44bdfc6eccc2de7a9ffcb2\">LIBUSB_ENDPOINT_OUT</a>"
+"<a href=\"group__libusb__desc."
+"html#gga86c880af878493aa8f805c2aba654b8ba940484c16d44bdfc6eccc2de7a9ffcb2\">LIBUSB_ENDPOINT_OUT</"
+"a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:201
+#: source/api-1.0/libusb_mtasync.html:201
 msgid "@ LIBUSB_ENDPOINT_OUT"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:201
+#: source/api-1.0/libusb_mtasync.html:201
 msgid "Out: host-to-device."
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:201
+#: source/api-1.0/libusb_mtasync.html:201
 msgid "<b>Definition:</b> libusb.h:319"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:202
+#: source/api-1.0/libusb_mtasync.html:202
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf\">libusb_event_handler_active</a>"
+"<a href=\"group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf"
+"\">libusb_event_handler_active</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:202
+#: source/api-1.0/libusb_mtasync.html:202
 msgid "int libusb_event_handler_active(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:202
-msgid "<b>Definition:</b> io.c:1888"
+#: source/api-1.0/libusb_mtasync.html:202
+msgid "<b>Definition:</b> io.c:1887"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:203
+#: source/api-1.0/libusb_mtasync.html:203
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>"
+"<a href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:203
+#: source/api-1.0/libusb_mtasync.html:203
 msgid "int libusb_handle_events(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:203
-msgid "<b>Definition:</b> io.c:2411"
+#: source/api-1.0/libusb_mtasync.html:203
+msgid "<b>Definition:</b> io.c:2407"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:204
+#: source/api-1.0/libusb_mtasync.html:204
 msgid ""
-"<a "
-"href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea\">libusb_transfer::buffer</a>"
+"<a href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea"
+"\">libusb_transfer::buffer</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:204
+#: source/api-1.0/libusb_mtasync.html:204
 msgid "unsigned char * buffer"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:204
+#: source/api-1.0/libusb_mtasync.html:204
 msgid "Data buffer."
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:204
+#: source/api-1.0/libusb_mtasync.html:204
 msgid "<b>Definition:</b> libusb.h:1273"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:205
+#: source/api-1.0/libusb_mtasync.html:205
 msgid ""
-"<a "
-"href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup</a>"
+"<a href=\"group__libusb__asyncio."
+"html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:205
+#: source/api-1.0/libusb_mtasync.html:205
 msgid ""
 "static void libusb_fill_control_setup(unsigned char *buffer, uint8_t "
 "bmRequestType, uint8_t bRequest, uint16_t wValue, uint16_t wIndex, uint16_t "
@@ -1021,277 +1044,280 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:205
-msgid "<b>Definition:</b> libusb.h:1519"
+#: source/api-1.0/libusb_mtasync.html:205
+msgid "<b>Definition:</b> libusb.h:1525"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:206
+#: source/api-1.0/libusb_mtasync.html:206
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events</a>"
+"<a href=\"group__libusb__poll."
+"html#gacefbeabdd3409490dc4678f00779c165\">libusb_unlock_events</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:206
+#: source/api-1.0/libusb_mtasync.html:206
 msgid "void libusb_unlock_events(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:206
-msgid "<b>Definition:</b> io.c:1824"
+#: source/api-1.0/libusb_mtasync.html:206
+msgid "<b>Definition:</b> io.c:1823"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:207
+#: source/api-1.0/libusb_mtasync.html:207
 msgid ""
-"<a "
-"href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer</a>"
+"<a href=\"group__libusb__asyncio."
+"html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:207
+#: source/api-1.0/libusb_mtasync.html:207
 msgid "struct libusb_transfer * libusb_alloc_transfer(int iso_packets)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:207
-msgid "<b>Definition:</b> io.c:1286"
+#: source/api-1.0/libusb_mtasync.html:207
+msgid "<b>Definition:</b> io.c:1285"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:208
+#: source/api-1.0/libusb_mtasync.html:208
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</a>"
+"<a href=\"group__libusb__poll."
+"html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:208
+#: source/api-1.0/libusb_mtasync.html:208
 msgid "int libusb_handle_events_completed(libusb_context *ctx, int *completed)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:208
-msgid "<b>Definition:</b> io.c:2433"
+#: source/api-1.0/libusb_mtasync.html:208
+msgid "<b>Definition:</b> io.c:2429"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:209
+#: source/api-1.0/libusb_mtasync.html:209
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed\">libusb_unlock_event_waiters</a>"
+"<a href=\"group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed"
+"\">libusb_unlock_event_waiters</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:209
+#: source/api-1.0/libusb_mtasync.html:209
 msgid "void libusb_unlock_event_waiters(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:209
-msgid "<b>Definition:</b> io.c:1964"
+#: source/api-1.0/libusb_mtasync.html:209
+msgid "<b>Definition:</b> io.c:1963"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:210
+#: source/api-1.0/libusb_mtasync.html:210
 msgid ""
-"<a "
-"href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer</a>"
+"<a href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce"
+"\">libusb_submit_transfer</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:210
+#: source/api-1.0/libusb_mtasync.html:210
 msgid "int libusb_submit_transfer(struct libusb_transfer *transfer)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:210
-msgid "<b>Definition:</b> io.c:1490"
+#: source/api-1.0/libusb_mtasync.html:210
+msgid "<b>Definition:</b> io.c:1489"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:211
+#: source/api-1.0/libusb_mtasync.html:211
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters</a>"
+"<a href=\"group__libusb__poll."
+"html#ga150865a3f35c38173d688efa7ee52929\">libusb_lock_event_waiters</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:211
+#: source/api-1.0/libusb_mtasync.html:211
 msgid "void libusb_lock_event_waiters(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:211
-msgid "<b>Definition:</b> io.c:1953"
+#: source/api-1.0/libusb_mtasync.html:211
+msgid "<b>Definition:</b> io.c:1952"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:212
+#: source/api-1.0/libusb_mtasync.html:212
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef\">libusb_lock_events</a>"
+"<a href=\"group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef"
+"\">libusb_lock_events</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:212
+#: source/api-1.0/libusb_mtasync.html:212
 msgid "void libusb_lock_events(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:212
-msgid "<b>Definition:</b> io.c:1809"
+#: source/api-1.0/libusb_mtasync.html:212
+msgid "<b>Definition:</b> io.c:1808"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:213
+#: source/api-1.0/libusb_mtasync.html:213
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok</a>"
+"<a href=\"group__libusb__poll."
+"html#ga63592b28c265185d9469d1e6920d8373\">libusb_event_handling_ok</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:213
+#: source/api-1.0/libusb_mtasync.html:213
 msgid "int libusb_event_handling_ok(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:213
-msgid "<b>Definition:</b> io.c:1859"
+#: source/api-1.0/libusb_mtasync.html:213
+msgid "<b>Definition:</b> io.c:1858"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:214
+#: source/api-1.0/libusb_mtasync.html:214
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout</a>"
+"<a href=\"group__libusb__poll."
+"html#ga6deff4c7d3a6c04bb9ec9fd259b48933\">libusb_handle_events_timeout</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:214
-msgid "int libusb_handle_events_timeout(libusb_context *ctx, struct timeval *tv)"
-msgstr ""
-
-#. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:214
-msgid "<b>Definition:</b> io.c:2391"
-msgstr ""
-
-#. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:215
+#: source/api-1.0/libusb_mtasync.html:214
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event</a>"
+"int libusb_handle_events_timeout(libusb_context *ctx, struct timeval *tv)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:215
+#: source/api-1.0/libusb_mtasync.html:214
+msgid "<b>Definition:</b> io.c:2387"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: source/api-1.0/libusb_mtasync.html:215
+msgid ""
+"<a href=\"group__libusb__poll."
+"html#gae22755d523560be2867be7d09034ca50\">libusb_wait_for_event</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: source/api-1.0/libusb_mtasync.html:215
 msgid "int libusb_wait_for_event(libusb_context *ctx, struct timeval *tv)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:215
-msgid "<b>Definition:</b> io.c:1996"
+#: source/api-1.0/libusb_mtasync.html:215
+msgid "<b>Definition:</b> io.c:1995"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:216
+#: source/api-1.0/libusb_mtasync.html:216
 msgid "<a href=\"structlibusb__transfer.html\">libusb_transfer</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:216
+#: source/api-1.0/libusb_mtasync.html:216
 msgid "<b>Definition:</b> libusb.h:1222"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:217
+#: source/api-1.0/libusb_mtasync.html:217
 msgid ""
-"<a "
-"href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b\">libusb_transfer::user_data</a>"
+"<a href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b"
+"\">libusb_transfer::user_data</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:217
+#: source/api-1.0/libusb_mtasync.html:217
 msgid "void * user_data"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:217
+#: source/api-1.0/libusb_mtasync.html:217
 msgid "User context data."
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:217
+#: source/api-1.0/libusb_mtasync.html:217
 msgid "<b>Definition:</b> libusb.h:1270"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:218
+#: source/api-1.0/libusb_mtasync.html:218
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f\">libusb_handle_events_locked</a>"
+"<a href=\"group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f"
+"\">libusb_handle_events_locked</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:218
-msgid "int libusb_handle_events_locked(libusb_context *ctx, struct timeval *tv)"
-msgstr ""
-
-#. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:218
-msgid "<b>Definition:</b> io.c:2461"
-msgstr ""
-
-#. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:219
+#: source/api-1.0/libusb_mtasync.html:218
 msgid ""
-"<a "
-"href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\">LIBUSB_REQUEST_TYPE_VENDOR</a>"
+"int libusb_handle_events_locked(libusb_context *ctx, struct timeval *tv)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:219
+#: source/api-1.0/libusb_mtasync.html:218
+msgid "<b>Definition:</b> io.c:2457"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: source/api-1.0/libusb_mtasync.html:219
+msgid ""
+"<a href=\"group__libusb__misc."
+"html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\">LIBUSB_REQUEST_TYPE_VENDOR</"
+"a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: source/api-1.0/libusb_mtasync.html:219
 msgid "@ LIBUSB_REQUEST_TYPE_VENDOR"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:219
+#: source/api-1.0/libusb_mtasync.html:219
 msgid "Vendor."
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:219
+#: source/api-1.0/libusb_mtasync.html:219
 msgid "<b>Definition:</b> libusb.h:405"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:220
+#: source/api-1.0/libusb_mtasync.html:220
 msgid ""
-"<a "
-"href=\"group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events</a>"
+"<a href=\"group__libusb__poll."
+"html#ga6e5a116d5c9498ca4a0e29587fec1a05\">libusb_try_lock_events</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:220
+#: source/api-1.0/libusb_mtasync.html:220
 msgid "int libusb_try_lock_events(libusb_context *ctx)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:220
-msgid "<b>Definition:</b> io.c:1766"
+#: source/api-1.0/libusb_mtasync.html:220
+msgid "<b>Definition:</b> io.c:1765"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:221
+#: source/api-1.0/libusb_mtasync.html:221
 msgid ""
-"<a "
-"href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer</a>"
+"<a href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e"
+"\">libusb_fill_control_transfer</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:221
+#: source/api-1.0/libusb_mtasync.html:221
 msgid ""
 "static void libusb_fill_control_transfer(struct libusb_transfer *transfer, "
 "libusb_device_handle *dev_handle, unsigned char *buffer, "
@@ -1299,23 +1325,23 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:221
-msgid "<b>Definition:</b> libusb.h:1568"
+#: source/api-1.0/libusb_mtasync.html:221
+msgid "<b>Definition:</b> libusb.h:1574"
 msgstr ""
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:223
+#: source/api-1.0/libusb_mtasync.html:223
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:225
+#: source/api-1.0/libusb_mtasync.html:225
 msgid "doxygen"
 msgstr ""
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/libusb_mtasync.html:226
+#: source/api-1.0/libusb_mtasync.html:226
 msgid "</a> 1.8.17 </small>"
 msgstr ""

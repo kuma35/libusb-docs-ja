@@ -1,397 +1,422 @@
+# -*- coding: utf-8 -*-
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR libusb
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:09+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:8
+#: source/api-1.0/group__libusb__hotplug.html:8
 msgid "libusb: Device hotplug event notification"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:20
+#: source/api-1.0/group__libusb__hotplug.html:20
 msgid "Logo"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:22
+#: source/api-1.0/group__libusb__hotplug.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:25
+#: source/api-1.0/group__libusb__hotplug.html:25
 msgid "A cross-platform user library to access USB devices"
 msgstr ""
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:36
+#: source/api-1.0/group__libusb__hotplug.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:45
+#: source/api-1.0/group__libusb__hotplug.html:45
 msgid ""
-"<a href=\"group__libusb__hotplug.html#define-members\">Macros</a> &#124; <a "
-"href=\"group__libusb__hotplug.html#typedef-members\">Typedefs</a> &#124; <a "
-"href=\"group__libusb__hotplug.html#enum-members\">Enumerations</a> &#124; <a "
-"href=\"group__libusb__hotplug.html#func-members\">Functions</a>"
+"<a href=\"#define-members\">Macros</a> &#124; <a href=\"#typedef-members"
+"\">Typedefs</a> &#124; <a href=\"#enum-members\">Enumerations</a> &#124; <a "
+"href=\"#func-members\">Functions</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:50
+#: source/api-1.0/group__libusb__hotplug.html:50
 msgid "Device hotplug event notification"
 msgstr ""
 
 #. type: Content of: <html><body><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:54
+#: source/api-1.0/group__libusb__hotplug.html:54
 msgid ""
 "This page details how to use the libusb hotplug interface, where available.  "
-"<a href=\"group__libusb__hotplug.html#details\">More...</a>"
+"<a href=\"#details\">More...</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:57
+#: source/api-1.0/group__libusb__hotplug.html:57
 msgid "<a name=\"define-members\"></a> Macros"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:59 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:61
+#: source/api-1.0/group__libusb__hotplug.html:59
+#: source/api-1.0/group__libusb__hotplug.html:61
 msgid "#define&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:59
+#: source/api-1.0/group__libusb__hotplug.html:59
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga477938f3054724f16d9c34bc1e26d9bd\">LIBUSB_HOTPLUG_NO_FLAGS</a>&#160;&#160;&#160;0"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga477938f3054724f16d9c34bc1e26d9bd\">LIBUSB_HOTPLUG_NO_FLAGS</a>&#160;"
+"&#160;&#160;0"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:60 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:62 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:67 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:69 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:76 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:79 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:84 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:86 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:88
+#: source/api-1.0/group__libusb__hotplug.html:60
+#: source/api-1.0/group__libusb__hotplug.html:62
+#: source/api-1.0/group__libusb__hotplug.html:67
+#: source/api-1.0/group__libusb__hotplug.html:69
+#: source/api-1.0/group__libusb__hotplug.html:76
+#: source/api-1.0/group__libusb__hotplug.html:79
+#: source/api-1.0/group__libusb__hotplug.html:84
+#: source/api-1.0/group__libusb__hotplug.html:86
+#: source/api-1.0/group__libusb__hotplug.html:88
 msgid "&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:61
+#: source/api-1.0/group__libusb__hotplug.html:61
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>&#160;&#160;&#160;-1"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>&#160;"
+"&#160;&#160;-1"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:64
+#: source/api-1.0/group__libusb__hotplug.html:64
 msgid "<a name=\"typedef-members\"></a> Typedefs"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:66
+#: source/api-1.0/group__libusb__hotplug.html:66
 msgid "typedef int&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:66
+#: source/api-1.0/group__libusb__hotplug.html:66
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a>"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:68
+#: source/api-1.0/group__libusb__hotplug.html:68
 msgid "typedef int(*&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:68
+#: source/api-1.0/group__libusb__hotplug.html:68
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga3d45c3fdf4d2e47a007fe2d9463b3f7f\">libusb_hotplug_callback_fn</a>) "
-"(<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
-"*ctx, <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
-"*device, <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> "
-"event, void *user_data)"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga3d45c3fdf4d2e47a007fe2d9463b3f7f\">libusb_hotplug_callback_fn</a>) "
+"(<a class=\"el\" href=\"group__libusb__lib."
+"html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <a class="
+"\"el\" href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b"
+"\">libusb_device</a> *device, <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> event, "
+"void *user_data)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:71
+#: source/api-1.0/group__libusb__hotplug.html:71
 msgid "<a name=\"enum-members\"></a> Enumerations"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:73 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:77
+#: source/api-1.0/group__libusb__hotplug.html:73
+#: source/api-1.0/group__libusb__hotplug.html:77
 msgid "enum &#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:73
+#: source/api-1.0/group__libusb__hotplug.html:73
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> "
-"{ <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</a> "
-"= (1 &lt;&lt; 0), <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</a> "
-"= (1 &lt;&lt; 1)  }"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> { <a "
+"class=\"el\" href=\"group__libusb__hotplug."
+"html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</"
+"a> = (1 &lt;&lt; 0), <a class=\"el\" href=\"group__libusb__hotplug."
+"html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</"
+"a> = (1 &lt;&lt; 1)  }"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:77
+#: source/api-1.0/group__libusb__hotplug.html:77
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga95ce2ec85dec177854c423cea2853c52\">libusb_hotplug_flag</a> "
-"{ <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b\">LIBUSB_HOTPLUG_ENUMERATE</a> "
-"= (1 &lt;&lt; 0)  }"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga95ce2ec85dec177854c423cea2853c52\">libusb_hotplug_flag</a> { <a class="
+"\"el\" href=\"group__libusb__hotplug."
+"html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b"
+"\">LIBUSB_HOTPLUG_ENUMERATE</a> = (1 &lt;&lt; 0)  }"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:81
+#: source/api-1.0/group__libusb__hotplug.html:81
 msgid "<a name=\"func-members\"></a> Functions"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:83 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:232 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:238 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:244 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:250 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:256
+#: source/api-1.0/group__libusb__hotplug.html:83
+#: source/api-1.0/group__libusb__hotplug.html:232
+#: source/api-1.0/group__libusb__hotplug.html:238
+#: source/api-1.0/group__libusb__hotplug.html:244
+#: source/api-1.0/group__libusb__hotplug.html:250
+#: source/api-1.0/group__libusb__hotplug.html:256
 msgid "int&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:83
+#: source/api-1.0/group__libusb__hotplug.html:83
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback</a> "
-"(<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
-"*ctx, int events, int flags, int vendor_id, int product_id, int dev_class, "
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga3d45c3fdf4d2e47a007fe2d9463b3f7f\">libusb_hotplug_callback_fn</a> "
-"cb_fn, void *user_data, <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback</"
+"a> (<a class=\"el\" href=\"group__libusb__lib."
+"html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, int "
+"events, int flags, int vendor_id, int product_id, int dev_class, <a class="
+"\"el\" href=\"group__libusb__hotplug.html#ga3d45c3fdf4d2e47a007fe2d9463b3f7f"
+"\">libusb_hotplug_callback_fn</a> cb_fn, void *user_data, <a class=\"el\" "
+"href=\"group__libusb__hotplug."
+"html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
 "*callback_handle)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:85
+#: source/api-1.0/group__libusb__hotplug.html:85
 msgid "void&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:85
+#: source/api-1.0/group__libusb__hotplug.html:85
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback</a> "
-"(<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
-"*ctx, <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga8110f57eab2064375934f1449b2602bc"
+"\">libusb_hotplug_deregister_callback</a> (<a class=\"el\" href="
+"\"group__libusb__lib."
+"html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <a class="
+"\"el\" href=\"group__libusb__hotplug."
+"html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
 "callback_handle)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:87 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:268
+#: source/api-1.0/group__libusb__hotplug.html:87
+#: source/api-1.0/group__libusb__hotplug.html:268
 msgid "void *&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:87
+#: source/api-1.0/group__libusb__hotplug.html:87
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#gab9ee06a89df25976301f82421a30a581\">libusb_hotplug_get_user_data</a> "
-"(<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
-"*ctx, <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#gab9ee06a89df25976301f82421a30a581\">libusb_hotplug_get_user_data</a> "
+"(<a class=\"el\" href=\"group__libusb__lib."
+"html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <a class="
+"\"el\" href=\"group__libusb__hotplug."
+"html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
 "callback_handle)"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:90
+#: source/api-1.0/group__libusb__hotplug.html:90
 msgid "<a name=\"details\" id=\"details\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:90
+#: source/api-1.0/group__libusb__hotplug.html:90
 msgid "Detailed Description"
 msgstr ""
 
 #. type: Content of: <html><body><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:91
-msgid "This page details how to use the libusb hotplug interface, where available."
+#: source/api-1.0/group__libusb__hotplug.html:91
+msgid ""
+"This page details how to use the libusb hotplug interface, where available."
 msgstr ""
 
 #. type: Content of: <html><body><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:92
+#: source/api-1.0/group__libusb__hotplug.html:92
 msgid ""
 "Be mindful that not all platforms currently implement hotplug notification "
-"and that you should first call on <a class=\"el\" "
-"href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> "
-"with parameter <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\">LIBUSB_CAP_HAS_HOTPLUG</a> "
-"to confirm that hotplug support is available."
+"and that you should first call on <a class=\"el\" href=\"group__libusb__misc."
+"html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> with "
+"parameter <a class=\"el\" href=\"group__libusb__misc."
+"html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\">LIBUSB_CAP_HAS_HOTPLUG</"
+"a> to confirm that hotplug support is available."
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:93
+#: source/api-1.0/group__libusb__hotplug.html:93
 msgid "Macro Definition Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:94
+#: source/api-1.0/group__libusb__hotplug.html:94
 msgid "<a id=\"ga477938f3054724f16d9c34bc1e26d9bd\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:95
+#: source/api-1.0/group__libusb__hotplug.html:95
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga477938f3054724f16d9c34bc1e26d9bd\">&#9670;&nbsp;</a></span>LIBUSB_HOTPLUG_NO_FLAGS"
+"<span class=\"permalink\"><a href=\"#ga477938f3054724f16d9c34bc1e26d9bd"
+"\">&#9670;&nbsp;</a></span>LIBUSB_HOTPLUG_NO_FLAGS"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:101
+#: source/api-1.0/group__libusb__hotplug.html:101
 msgid "#define LIBUSB_HOTPLUG_NO_FLAGS&#160;&#160;&#160;0"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:105
+#: source/api-1.0/group__libusb__hotplug.html:105
 msgid "Convenience macro when not using any flags"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:109
+#: source/api-1.0/group__libusb__hotplug.html:109
 msgid "<a id=\"ga6d4f5e524a3b7ab4a25b751073335d4c\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:110
+#: source/api-1.0/group__libusb__hotplug.html:110
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c\">&#9670;&nbsp;</a></span>LIBUSB_HOTPLUG_MATCH_ANY"
+"<span class=\"permalink\"><a href=\"#ga6d4f5e524a3b7ab4a25b751073335d4c"
+"\">&#9670;&nbsp;</a></span>LIBUSB_HOTPLUG_MATCH_ANY"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:116
+#: source/api-1.0/group__libusb__hotplug.html:116
 msgid "#define LIBUSB_HOTPLUG_MATCH_ANY&#160;&#160;&#160;-1"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:120
+#: source/api-1.0/group__libusb__hotplug.html:120
 msgid "Wildcard matching for hotplug events"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:124
+#: source/api-1.0/group__libusb__hotplug.html:124
 msgid "Typedef Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:125
+#: source/api-1.0/group__libusb__hotplug.html:125
 msgid "<a id=\"ga4868157346bbf2c70b6af0cb0a6c0094\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:126
+#: source/api-1.0/group__libusb__hotplug.html:126
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">&#9670;&nbsp;</a></span>libusb_hotplug_callback_handle"
+"<span class=\"permalink\"><a href="
+"\"#ga4868157346bbf2c70b6af0cb0a6c0094\">&#9670;&nbsp;</a></"
+"span>libusb_hotplug_callback_handle"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:132
+#: source/api-1.0/group__libusb__hotplug.html:132
 msgid ""
-"typedef int <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a>"
+"typedef int <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:136
+#: source/api-1.0/group__libusb__hotplug.html:136
 msgid "Callback handle."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:137
+#: source/api-1.0/group__libusb__hotplug.html:137
 msgid ""
-"Callbacks handles are generated by <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a> "
-"and can be used to deregister callbacks. Callback handles are unique per "
-"libusb_context and it is safe to call <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback()</a> "
-"on an already deregistered callback."
+"Callbacks handles are generated by <a class=\"el\" href="
+"\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab"
+"\">libusb_hotplug_register_callback()</a> and can be used to deregister "
+"callbacks. Callback handles are unique per libusb_context and it is safe to "
+"call <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga8110f57eab2064375934f1449b2602bc"
+"\">libusb_hotplug_deregister_callback()</a> on an already deregistered "
+"callback."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:138 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:158 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:184 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:207 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:287 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:333
+#: source/api-1.0/group__libusb__hotplug.html:138
+#: source/api-1.0/group__libusb__hotplug.html:158
+#: source/api-1.0/group__libusb__hotplug.html:184
+#: source/api-1.0/group__libusb__hotplug.html:207
+#: source/api-1.0/group__libusb__hotplug.html:287
+#: source/api-1.0/group__libusb__hotplug.html:333
 msgid ""
-"Since version 1.0.16, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> "
-"&gt;= 0x01000102"
+"Since version 1.0.16, <a class=\"el\" href=\"group__libusb__misc."
+"html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
+"0x01000102"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:139
+#: source/api-1.0/group__libusb__hotplug.html:139
 msgid ""
-"For more information, see <a class=\"el\" "
-"href=\"libusb_hotplug.html\">Device hotplug event notification</a>."
+"For more information, see <a class=\"el\" href=\"libusb_hotplug.html"
+"\">Device hotplug event notification</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:143
+#: source/api-1.0/group__libusb__hotplug.html:143
 msgid "<a id=\"ga3d45c3fdf4d2e47a007fe2d9463b3f7f\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:144
+#: source/api-1.0/group__libusb__hotplug.html:144
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga3d45c3fdf4d2e47a007fe2d9463b3f7f\">&#9670;&nbsp;</a></span>libusb_hotplug_callback_fn"
+"<span class=\"permalink\"><a href=\"#ga3d45c3fdf4d2e47a007fe2d9463b3f7f"
+"\">&#9670;&nbsp;</a></span>libusb_hotplug_callback_fn"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:150
+#: source/api-1.0/group__libusb__hotplug.html:150
 msgid ""
-"typedef int( * libusb_hotplug_callback_fn) (<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
-"*ctx, <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> "
-"*device, <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> "
-"event, void *user_data)"
+"typedef int( * libusb_hotplug_callback_fn) (<a class=\"el\" href="
+"\"group__libusb__lib."
+"html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <a class="
+"\"el\" href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b"
+"\">libusb_device</a> *device, <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> event, "
+"void *user_data)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:154
+#: source/api-1.0/group__libusb__hotplug.html:154
 msgid ""
 "Hotplug callback function type. When requesting hotplug event notifications, "
 "you pass a pointer to a callback function of this type."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:155
+#: source/api-1.0/group__libusb__hotplug.html:155
 msgid ""
 "This callback may be called by an internal event thread and as such it is "
 "recommended the callback do minimal processing before returning."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:156
+#: source/api-1.0/group__libusb__hotplug.html:156
 msgid ""
 "libusb will call this function later, when a matching event had happened on "
 "a matching device. See <a class=\"el\" href=\"libusb_hotplug.html\">Device "
@@ -399,132 +424,143 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:157
+#: source/api-1.0/group__libusb__hotplug.html:157
 msgid ""
-"It is safe to call either <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a> "
-"or <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback()</a> "
-"from within a callback function."
+"It is safe to call either <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga5ab3955e2110a3099497a66256fb7fab"
+"\">libusb_hotplug_register_callback()</a> or <a class=\"el\" href="
+"\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc"
+"\">libusb_hotplug_deregister_callback()</a> from within a callback function."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:159 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:288 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:334 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:371
+#: source/api-1.0/group__libusb__hotplug.html:159
+#: source/api-1.0/group__libusb__hotplug.html:288
+#: source/api-1.0/group__libusb__hotplug.html:334
+#: source/api-1.0/group__libusb__hotplug.html:371
 msgid "Parameters"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:161 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:290 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:336 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:373
+#: source/api-1.0/group__libusb__hotplug.html:161
+#: source/api-1.0/group__libusb__hotplug.html:290
+#: source/api-1.0/group__libusb__hotplug.html:336
+#: source/api-1.0/group__libusb__hotplug.html:373
 msgid "ctx"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:161
+#: source/api-1.0/group__libusb__hotplug.html:161
 msgid "context of this notification"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:162
+#: source/api-1.0/group__libusb__hotplug.html:162
 msgid "device"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:162
+#: source/api-1.0/group__libusb__hotplug.html:162
 msgid "libusb_device this event occurred on"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:163
+#: source/api-1.0/group__libusb__hotplug.html:163
 msgid "event"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:163
+#: source/api-1.0/group__libusb__hotplug.html:163
 msgid "event that occurred"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:164 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:297
+#: source/api-1.0/group__libusb__hotplug.html:164
+#: source/api-1.0/group__libusb__hotplug.html:297
 msgid "user_data"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:164
+#: source/api-1.0/group__libusb__hotplug.html:164
 msgid "user data provided when this callback was registered"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:168 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:302
+#: source/api-1.0/group__libusb__hotplug.html:168
+#: source/api-1.0/group__libusb__hotplug.html:302
 msgid "Returns"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:168
+#: source/api-1.0/group__libusb__hotplug.html:168
 msgid ""
 "bool whether this callback is finished processing events. returning 1 will "
 "cause this callback to be deregistered"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:172
+#: source/api-1.0/group__libusb__hotplug.html:172
 msgid "Enumeration Type Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:173
+#: source/api-1.0/group__libusb__hotplug.html:173
 msgid "<a id=\"ga556d598ca379618a41bbec3597f55dcf\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:174
+#: source/api-1.0/group__libusb__hotplug.html:174
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">&#9670;&nbsp;</a></span>libusb_hotplug_event"
+"<span class=\"permalink\"><a href=\"#ga556d598ca379618a41bbec3597f55dcf"
+"\">&#9670;&nbsp;</a></span>libusb_hotplug_event"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:180
+#: source/api-1.0/group__libusb__hotplug.html:180
 msgid ""
-"enum <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a>"
+"enum <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:185
+#: source/api-1.0/group__libusb__hotplug.html:185
 msgid "Hotplug events"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><th>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:187 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:210
+#: source/api-1.0/group__libusb__hotplug.html:187
+#: source/api-1.0/group__libusb__hotplug.html:210
 msgid "Enumerator"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:187
+#: source/api-1.0/group__libusb__hotplug.html:187
 msgid ""
-"<a "
-"id=\"gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\"></a>LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED&#160;"
+"<a id="
+"\"gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\"></"
+"a>LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:187
+#: source/api-1.0/group__libusb__hotplug.html:187
 msgid "A device has been plugged in and is ready to use."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:189
+#: source/api-1.0/group__libusb__hotplug.html:189
 msgid ""
-"<a "
-"id=\"gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\"></a>LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT&#160;"
+"<a id="
+"\"gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\"></"
+"a>LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:189
+#: source/api-1.0/group__libusb__hotplug.html:189
 msgid "A device has left and is no longer available."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:190
+#: source/api-1.0/group__libusb__hotplug.html:190
 msgid ""
 "It is the user's responsibility to call libusb_close on any handle "
 "associated with a disconnected device. It is safe to call "
@@ -532,381 +568,414 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:196
+#: source/api-1.0/group__libusb__hotplug.html:196
 msgid "<a id=\"ga95ce2ec85dec177854c423cea2853c52\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:197
+#: source/api-1.0/group__libusb__hotplug.html:197
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga95ce2ec85dec177854c423cea2853c52\">&#9670;&nbsp;</a></span>libusb_hotplug_flag"
+"<span class=\"permalink\"><a href="
+"\"#ga95ce2ec85dec177854c423cea2853c52\">&#9670;&nbsp;</a></"
+"span>libusb_hotplug_flag"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:203
+#: source/api-1.0/group__libusb__hotplug.html:203
 msgid ""
-"enum <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga95ce2ec85dec177854c423cea2853c52\">libusb_hotplug_flag</a>"
+"enum <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga95ce2ec85dec177854c423cea2853c52\">libusb_hotplug_flag</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:208
+#: source/api-1.0/group__libusb__hotplug.html:208
 msgid "Hotplug flags"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:210
+#: source/api-1.0/group__libusb__hotplug.html:210
 msgid ""
-"<a "
-"id=\"gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b\"></a>LIBUSB_HOTPLUG_ENUMERATE&#160;"
+"<a id=\"gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b"
+"\"></a>LIBUSB_HOTPLUG_ENUMERATE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:210
-msgid "Arm the callback and fire it for all matching currently attached devices."
+#: source/api-1.0/group__libusb__hotplug.html:210
+msgid ""
+"Arm the callback and fire it for all matching currently attached devices."
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:216
+#: source/api-1.0/group__libusb__hotplug.html:216
 msgid "Function Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:217
+#: source/api-1.0/group__libusb__hotplug.html:217
 msgid "<a id=\"ga5ab3955e2110a3099497a66256fb7fab\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:218
+#: source/api-1.0/group__libusb__hotplug.html:218
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">&#9670;&nbsp;</a></span>libusb_hotplug_register_callback()"
+"<span class=\"permalink\"><a href=\"#ga5ab3955e2110a3099497a66256fb7fab"
+"\">&#9670;&nbsp;</a></span>libusb_hotplug_register_callback()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:224
+#: source/api-1.0/group__libusb__hotplug.html:224
 msgid "int libusb_hotplug_register_callback"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:225 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:314 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:352
+#: source/api-1.0/group__libusb__hotplug.html:225
+#: source/api-1.0/group__libusb__hotplug.html:314
+#: source/api-1.0/group__libusb__hotplug.html:352
 msgid "("
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:226 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:315 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:353
+#: source/api-1.0/group__libusb__hotplug.html:226
+#: source/api-1.0/group__libusb__hotplug.html:315
+#: source/api-1.0/group__libusb__hotplug.html:353
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> "
-"*&#160;"
+"<a class=\"el\" href=\"group__libusb__lib."
+"html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:227 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:316 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:354
+#: source/api-1.0/group__libusb__hotplug.html:227
+#: source/api-1.0/group__libusb__hotplug.html:316
+#: source/api-1.0/group__libusb__hotplug.html:354
 msgid "<em>ctx</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:233
+#: source/api-1.0/group__libusb__hotplug.html:233
 msgid "<em>events</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:239
+#: source/api-1.0/group__libusb__hotplug.html:239
 msgid "<em>flags</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:245
+#: source/api-1.0/group__libusb__hotplug.html:245
 msgid "<em>vendor_id</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:251
+#: source/api-1.0/group__libusb__hotplug.html:251
 msgid "<em>product_id</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:257
+#: source/api-1.0/group__libusb__hotplug.html:257
 msgid "<em>dev_class</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:262
+#: source/api-1.0/group__libusb__hotplug.html:262
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga3d45c3fdf4d2e47a007fe2d9463b3f7f\">libusb_hotplug_callback_fn</a>&#160;"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga3d45c3fdf4d2e47a007fe2d9463b3f7f\">libusb_hotplug_callback_fn</"
+"a>&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:263
+#: source/api-1.0/group__libusb__hotplug.html:263
 msgid "<em>cb_fn</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:269
+#: source/api-1.0/group__libusb__hotplug.html:269
 msgid "<em>user_data</em>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:274
+#: source/api-1.0/group__libusb__hotplug.html:274
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
 "*&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:275 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:322 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:360
+#: source/api-1.0/group__libusb__hotplug.html:275
+#: source/api-1.0/group__libusb__hotplug.html:322
+#: source/api-1.0/group__libusb__hotplug.html:360
 msgid "<em>callback_handle</em>&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:279 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:326 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:364
+#: source/api-1.0/group__libusb__hotplug.html:279
+#: source/api-1.0/group__libusb__hotplug.html:326
+#: source/api-1.0/group__libusb__hotplug.html:364
 msgid ")"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:284
+#: source/api-1.0/group__libusb__hotplug.html:284
 msgid "Register a hotplug callback function"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:285
+#: source/api-1.0/group__libusb__hotplug.html:285
 msgid ""
 "Register a callback with the libusb_context. The callback will fire when a "
 "matching event occurs on a matching device. The callback is armed until "
-"either it is deregistered with <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback()</a> "
-"or the supplied callback returns 1 to indicate it is finished processing "
-"events."
+"either it is deregistered with <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga8110f57eab2064375934f1449b2602bc"
+"\">libusb_hotplug_deregister_callback()</a> or the supplied callback returns "
+"1 to indicate it is finished processing events."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:286
+#: source/api-1.0/group__libusb__hotplug.html:286
 msgid ""
-"If the <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b\">LIBUSB_HOTPLUG_ENUMERATE</a> "
-"is passed the callback will be called with a <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</a> "
-"for all devices already plugged into the machine. Note that libusb modifies "
-"its internal device list from a separate thread, while calling hotplug "
-"callbacks from <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a>, "
-"so it is possible for a device to already be present on, or removed from, "
-"its internal device list, while the hotplug callbacks still need to be "
-"dispatched. This means that when using <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b\">LIBUSB_HOTPLUG_ENUMERATE</a>, "
-"your callback may be called twice for the arrival of the same device, once "
-"from <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a> "
-"and once from <a class=\"el\" "
-"href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a>; "
-"and/or your callback may be called for the removal of a device for which an "
-"arrived call was never made."
+"If the <a class=\"el\" href=\"group__libusb__hotplug."
+"html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b"
+"\">LIBUSB_HOTPLUG_ENUMERATE</a> is passed the callback will be called with a "
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</"
+"a> for all devices already plugged into the machine. Note that libusb "
+"modifies its internal device list from a separate thread, while calling "
+"hotplug callbacks from <a class=\"el\" href=\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a>, so it "
+"is possible for a device to already be present on, or removed from, its "
+"internal device list, while the hotplug callbacks still need to be "
+"dispatched. This means that when using <a class=\"el\" href="
+"\"group__libusb__hotplug."
+"html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b"
+"\">LIBUSB_HOTPLUG_ENUMERATE</a>, your callback may be called twice for the "
+"arrival of the same device, once from <a class=\"el\" href="
+"\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab"
+"\">libusb_hotplug_register_callback()</a> and once from <a class=\"el\" href="
+"\"group__libusb__poll."
+"html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a>; and/or "
+"your callback may be called for the removal of a device for which an arrived "
+"call was never made."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:290 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:291 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:292 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:293 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:294 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:295 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:296 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:297 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:336 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:337 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:373 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:374
+#: source/api-1.0/group__libusb__hotplug.html:290
+#: source/api-1.0/group__libusb__hotplug.html:291
+#: source/api-1.0/group__libusb__hotplug.html:292
+#: source/api-1.0/group__libusb__hotplug.html:293
+#: source/api-1.0/group__libusb__hotplug.html:294
+#: source/api-1.0/group__libusb__hotplug.html:295
+#: source/api-1.0/group__libusb__hotplug.html:296
+#: source/api-1.0/group__libusb__hotplug.html:297
+#: source/api-1.0/group__libusb__hotplug.html:336
+#: source/api-1.0/group__libusb__hotplug.html:337
+#: source/api-1.0/group__libusb__hotplug.html:373
+#: source/api-1.0/group__libusb__hotplug.html:374
 msgid "[in]"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:290
+#: source/api-1.0/group__libusb__hotplug.html:290
 msgid "context to register this callback with"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:291
+#: source/api-1.0/group__libusb__hotplug.html:291
 msgid "events"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:291
+#: source/api-1.0/group__libusb__hotplug.html:291
 msgid ""
-"bitwise or of hotplug events that will trigger this callback. See <a "
-"class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a>"
+"bitwise or of hotplug events that will trigger this callback. See <a class="
+"\"el\" href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf"
+"\">libusb_hotplug_event</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:292
+#: source/api-1.0/group__libusb__hotplug.html:292
 msgid "flags"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:292
+#: source/api-1.0/group__libusb__hotplug.html:292
 msgid ""
 "bitwise or of hotplug flags that affect registration. See <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga95ce2ec85dec177854c423cea2853c52\">libusb_hotplug_flag</a>"
+"href=\"group__libusb__hotplug."
+"html#ga95ce2ec85dec177854c423cea2853c52\">libusb_hotplug_flag</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:293
+#: source/api-1.0/group__libusb__hotplug.html:293
 msgid "vendor_id"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:293
+#: source/api-1.0/group__libusb__hotplug.html:293
 msgid ""
-"the vendor id to match or <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
+"the vendor id to match or <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:294
+#: source/api-1.0/group__libusb__hotplug.html:294
 msgid "product_id"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:294
+#: source/api-1.0/group__libusb__hotplug.html:294
 msgid ""
-"the product id to match or <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
+"the product id to match or <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:295
+#: source/api-1.0/group__libusb__hotplug.html:295
 msgid "dev_class"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:295
+#: source/api-1.0/group__libusb__hotplug.html:295
 msgid ""
-"the device class to match or <a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
+"the device class to match or <a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:296
+#: source/api-1.0/group__libusb__hotplug.html:296
 msgid "cb_fn"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:296
+#: source/api-1.0/group__libusb__hotplug.html:296
 msgid "the function to be invoked on a matching event/device"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:297
+#: source/api-1.0/group__libusb__hotplug.html:297
 msgid "user data to pass to the callback function"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:298
+#: source/api-1.0/group__libusb__hotplug.html:298
 msgid "[out]"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:298 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:337 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:374
+#: source/api-1.0/group__libusb__hotplug.html:298
+#: source/api-1.0/group__libusb__hotplug.html:337
+#: source/api-1.0/group__libusb__hotplug.html:374
 msgid "callback_handle"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:298
+#: source/api-1.0/group__libusb__hotplug.html:298
 msgid "pointer to store the handle of the allocated callback (can be NULL)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:302
+#: source/api-1.0/group__libusb__hotplug.html:302
 msgid "LIBUSB_SUCCESS on success LIBUSB_ERROR code on failure"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:306
+#: source/api-1.0/group__libusb__hotplug.html:306
 msgid "<a id=\"ga8110f57eab2064375934f1449b2602bc\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:307
+#: source/api-1.0/group__libusb__hotplug.html:307
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">&#9670;&nbsp;</a></span>libusb_hotplug_deregister_callback()"
+"<span class=\"permalink\"><a href=\"#ga8110f57eab2064375934f1449b2602bc"
+"\">&#9670;&nbsp;</a></span>libusb_hotplug_deregister_callback()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:313
+#: source/api-1.0/group__libusb__hotplug.html:313
 msgid "void libusb_hotplug_deregister_callback"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:321 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:359
+#: source/api-1.0/group__libusb__hotplug.html:321
+#: source/api-1.0/group__libusb__hotplug.html:359
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a>&#160;"
+"<a class=\"el\" href=\"group__libusb__hotplug."
+"html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</"
+"a>&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:331
+#: source/api-1.0/group__libusb__hotplug.html:331
 msgid "Deregisters a hotplug callback."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:332
+#: source/api-1.0/group__libusb__hotplug.html:332
 msgid ""
 "Deregister a callback from a libusb_context. This function is safe to call "
 "from within a hotplug callback."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:336 ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:373
+#: source/api-1.0/group__libusb__hotplug.html:336
+#: source/api-1.0/group__libusb__hotplug.html:373
 msgid "context this callback is registered with"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:337
+#: source/api-1.0/group__libusb__hotplug.html:337
 msgid "the handle of the callback to deregister"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:344
+#: source/api-1.0/group__libusb__hotplug.html:344
 msgid "<a id=\"gab9ee06a89df25976301f82421a30a581\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:345
+#: source/api-1.0/group__libusb__hotplug.html:345
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__hotplug.html#gab9ee06a89df25976301f82421a30a581\">&#9670;&nbsp;</a></span>libusb_hotplug_get_user_data()"
+"<span class=\"permalink\"><a href="
+"\"#gab9ee06a89df25976301f82421a30a581\">&#9670;&nbsp;</a></"
+"span>libusb_hotplug_get_user_data()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:351
+#: source/api-1.0/group__libusb__hotplug.html:351
 msgid "void* libusb_hotplug_get_user_data"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:369
+#: source/api-1.0/group__libusb__hotplug.html:369
 msgid "Gets the user_data associated with a hotplug callback."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:370
+#: source/api-1.0/group__libusb__hotplug.html:370
 msgid ""
-"Since version v1.0.24 <a class=\"el\" "
-"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> "
-"&gt;= 0x01000108"
+"Since version v1.0.24 <a class=\"el\" href=\"group__libusb__misc."
+"html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
+"0x01000108"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:374
+#: source/api-1.0/group__libusb__hotplug.html:374
 msgid "the handle of the callback to get the user_data of"
 msgstr ""
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:383
+#: source/api-1.0/group__libusb__hotplug.html:383
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:385
+#: source/api-1.0/group__libusb__hotplug.html:385
 msgid "doxygen"
 msgstr ""
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__hotplug.html:386
+#: source/api-1.0/group__libusb__hotplug.html:386
 msgid "</a> 1.8.17 </small>"
 msgstr ""

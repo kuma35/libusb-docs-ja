@@ -1,425 +1,456 @@
+# -*- coding: utf-8 -*-
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR libusb
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:11+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:8
+#: source/api-1.0/group__libusb__misc.html:8
 msgid "libusb: Miscellaneous"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:20
+#: source/api-1.0/group__libusb__misc.html:20
 msgid "Logo"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:22
+#: source/api-1.0/group__libusb__misc.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:25
+#: source/api-1.0/group__libusb__misc.html:25
 msgid "A cross-platform user library to access USB devices"
 msgstr ""
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:36
+#: source/api-1.0/group__libusb__misc.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:45
+#: source/api-1.0/group__libusb__misc.html:45
 msgid ""
-"<a href=\"group__libusb__misc.html#define-members\">Macros</a> &#124; <a "
-"href=\"group__libusb__misc.html#enum-members\">Enumerations</a> &#124; <a "
-"href=\"group__libusb__misc.html#func-members\">Functions</a> &#124; <a "
-"href=\"group__libusb__misc.html#var-members\">Variables</a>"
+"<a href=\"#define-members\">Macros</a> &#124; <a href=\"#enum-members"
+"\">Enumerations</a> &#124; <a href=\"#func-members\">Functions</a> &#124; <a "
+"href=\"#var-members\">Variables</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:50
+#: source/api-1.0/group__libusb__misc.html:50
 msgid "Miscellaneous"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:54
+#: source/api-1.0/group__libusb__misc.html:54
 msgid "<a name=\"define-members\"></a> Macros"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:56 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:58 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:60
+#: source/api-1.0/group__libusb__misc.html:56
+#: source/api-1.0/group__libusb__misc.html:58
+#: source/api-1.0/group__libusb__misc.html:60
 msgid "#define&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:56
+#: source/api-1.0/group__libusb__misc.html:56
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gaa7d6035eb2692d455d27144560a0f68d\">LIBUSB_CALL</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gaa7d6035eb2692d455d27144560a0f68d\">LIBUSB_CALL</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:57 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:59 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:61 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:84 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:90 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:96 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:117 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:123 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:128 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:130 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:132 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:134 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:136 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:138 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:143
+#: source/api-1.0/group__libusb__misc.html:57
+#: source/api-1.0/group__libusb__misc.html:59
+#: source/api-1.0/group__libusb__misc.html:61
+#: source/api-1.0/group__libusb__misc.html:84
+#: source/api-1.0/group__libusb__misc.html:90
+#: source/api-1.0/group__libusb__misc.html:96
+#: source/api-1.0/group__libusb__misc.html:117
+#: source/api-1.0/group__libusb__misc.html:123
+#: source/api-1.0/group__libusb__misc.html:128
+#: source/api-1.0/group__libusb__misc.html:130
+#: source/api-1.0/group__libusb__misc.html:132
+#: source/api-1.0/group__libusb__misc.html:134
+#: source/api-1.0/group__libusb__misc.html:136
+#: source/api-1.0/group__libusb__misc.html:138
+#: source/api-1.0/group__libusb__misc.html:143
 msgid "&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:58
+#: source/api-1.0/group__libusb__misc.html:58
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a>&#160;&#160;&#160;0x01000108"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a>&#160;&#160;"
+"&#160;0x01000108"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:60
+#: source/api-1.0/group__libusb__misc.html:60
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga22961bb8cb0d6a9b22c88079efb59b8b\">libusb_le16_to_cpu</a>&#160;&#160;&#160;<a "
-"class=\"el\" "
-"href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a>"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga22961bb8cb0d6a9b22c88079efb59b8b\">libusb_le16_to_cpu</a>&#160;&#160;"
+"&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:63
+#: source/api-1.0/group__libusb__misc.html:63
 msgid "<a name=\"enum-members\"></a> Enumerations"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:65 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:85 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:91 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:97 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:118
+#: source/api-1.0/group__libusb__misc.html:65
+#: source/api-1.0/group__libusb__misc.html:85
+#: source/api-1.0/group__libusb__misc.html:91
+#: source/api-1.0/group__libusb__misc.html:97
+#: source/api-1.0/group__libusb__misc.html:118
 msgid "enum &#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:65
+#: source/api-1.0/group__libusb__misc.html:65
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a> "
-"{"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a> {"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:66
+#: source/api-1.0/group__libusb__misc.html:66
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa42f2eefbbd7a5c5cce68ca5989a02a7a\">LIBUSB_REQUEST_GET_STATUS</a> "
-"= 0x00, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa0b0f3b3ac6e8ebca120bf3581c5505de\">LIBUSB_REQUEST_CLEAR_FEATURE</a> "
-"= 0x01, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa6059966cdfccc4db0cccaab22a6d9a83\">LIBUSB_REQUEST_SET_FEATURE</a> "
-"= 0x03, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d\">LIBUSB_REQUEST_SET_ADDRESS</a> "
-"= 0x05,"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa42f2eefbbd7a5c5cce68ca5989a02a7a"
+"\">LIBUSB_REQUEST_GET_STATUS</a> = 0x00, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa0b0f3b3ac6e8ebca120bf3581c5505de"
+"\">LIBUSB_REQUEST_CLEAR_FEATURE</a> = 0x01, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa6059966cdfccc4db0cccaab22a6d9a83\">LIBUSB_REQUEST_SET_FEATURE</"
+"a> = 0x03, <a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d"
+"\">LIBUSB_REQUEST_SET_ADDRESS</a> = 0x05,"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:71
+#: source/api-1.0/group__libusb__misc.html:71
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa3ebb19fe897a2a36e90b2e8193b88b0f\">LIBUSB_REQUEST_GET_DESCRIPTOR</a> "
-"= 0x06, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa40ad5a26219379bbbeab2137b21dcb74\">LIBUSB_REQUEST_SET_DESCRIPTOR</a> "
-"= 0x07, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa7e33754fe6c088b94905c387155a8586\">LIBUSB_REQUEST_GET_CONFIGURATION</a> "
-"= 0x08, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\">LIBUSB_REQUEST_SET_CONFIGURATION</a> "
-"= 0x09,"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa3ebb19fe897a2a36e90b2e8193b88b0f"
+"\">LIBUSB_REQUEST_GET_DESCRIPTOR</a> = 0x06, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa40ad5a26219379bbbeab2137b21dcb74\">LIBUSB_REQUEST_SET_DESCRIPTOR</"
+"a> = 0x07, <a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa7e33754fe6c088b94905c387155a8586\">LIBUSB_REQUEST_GET_CONFIGURATION</"
+"a> = 0x08, <a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\">LIBUSB_REQUEST_SET_CONFIGURATION</"
+"a> = 0x09,"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:76
+#: source/api-1.0/group__libusb__misc.html:76
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf61d8c\">LIBUSB_REQUEST_GET_INTERFACE</a> "
-"= 0x0a, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de6061\">LIBUSB_REQUEST_SET_INTERFACE</a> "
-"= 0x0b, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfab4244333798720a3664e59187819f2d5\">LIBUSB_REQUEST_SYNCH_FRAME</a> "
-"= 0x0c, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b\">LIBUSB_REQUEST_SET_SEL</a> "
-"= 0x30,"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf61d8c"
+"\">LIBUSB_REQUEST_GET_INTERFACE</a> = 0x0a, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de6061\">LIBUSB_REQUEST_SET_INTERFACE</"
+"a> = 0x0b, <a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfab4244333798720a3664e59187819f2d5\">LIBUSB_REQUEST_SYNCH_FRAME</"
+"a> = 0x0c, <a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b"
+"\">LIBUSB_REQUEST_SET_SEL</a> = 0x30,"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:81
+#: source/api-1.0/group__libusb__misc.html:81
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\">LIBUSB_SET_ISOCH_DELAY</a> "
-"= 0x31"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\">LIBUSB_SET_ISOCH_DELAY</"
+"a> = 0x31"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:83 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:116
+#: source/api-1.0/group__libusb__misc.html:83
+#: source/api-1.0/group__libusb__misc.html:116
 msgid "}"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:85
+#: source/api-1.0/group__libusb__misc.html:85
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a> "
-"{ <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\">LIBUSB_REQUEST_TYPE_STANDARD</a> "
-"= (0x00 &lt;&lt; 5), <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a43f45ae56bf339e3f984a4182fdd85f0\">LIBUSB_REQUEST_TYPE_CLASS</a> "
-"= (0x01 &lt;&lt; 5), <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\">LIBUSB_REQUEST_TYPE_VENDOR</a> "
-"= (0x02 &lt;&lt; 5), <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\">LIBUSB_REQUEST_TYPE_RESERVED</a> "
-"= (0x03 &lt;&lt; 5)  }"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a> { <a class="
+"\"el\" href=\"group__libusb__misc."
+"html#gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\">LIBUSB_REQUEST_TYPE_STANDARD</"
+"a> = (0x00 &lt;&lt; 5), <a class=\"el\" href=\"group__libusb__misc."
+"html#gga0b0933ae70744726cde11254c39fac91a43f45ae56bf339e3f984a4182fdd85f0\">LIBUSB_REQUEST_TYPE_CLASS</"
+"a> = (0x01 &lt;&lt; 5), <a class=\"el\" href=\"group__libusb__misc."
+"html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\">LIBUSB_REQUEST_TYPE_VENDOR</"
+"a> = (0x02 &lt;&lt; 5), <a class=\"el\" href=\"group__libusb__misc."
+"html#gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\">LIBUSB_REQUEST_TYPE_RESERVED</"
+"a> = (0x03 &lt;&lt; 5)  }"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:91
+#: source/api-1.0/group__libusb__misc.html:91
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a> "
-"{ <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaeaf39ffde2a586d565a817bfd591f2dc33\">LIBUSB_RECIPIENT_DEVICE</a> "
-"= 0x00, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaea9e5f9678cb9b301ccc07a247d350aadc\">LIBUSB_RECIPIENT_INTERFACE</a> "
-"= 0x01, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaea6873e84c5a1ae0160891ebab16e5d93b\">LIBUSB_RECIPIENT_ENDPOINT</a> "
-"= 0x02, <a class=\"el\" "
-"href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb\">LIBUSB_RECIPIENT_OTHER</a> "
-"= 0x03 }"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a> { <a "
+"class=\"el\" href=\"group__libusb__misc."
+"html#gga20a4e8a729aa543fa742a5086596cbaeaf39ffde2a586d565a817bfd591f2dc33\">LIBUSB_RECIPIENT_DEVICE</"
+"a> = 0x00, <a class=\"el\" href=\"group__libusb__misc."
+"html#gga20a4e8a729aa543fa742a5086596cbaea9e5f9678cb9b301ccc07a247d350aadc"
+"\">LIBUSB_RECIPIENT_INTERFACE</a> = 0x01, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gga20a4e8a729aa543fa742a5086596cbaea6873e84c5a1ae0160891ebab16e5d93b"
+"\">LIBUSB_RECIPIENT_ENDPOINT</a> = 0x02, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb"
+"\">LIBUSB_RECIPIENT_OTHER</a> = 0x03 }"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:97
+#: source/api-1.0/group__libusb__misc.html:97
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> "
-"{"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> {"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:98
+#: source/api-1.0/group__libusb__misc.html:98
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\">LIBUSB_SUCCESS</a> "
-"= 0, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa790feab8b45d8c323038f4d7d15eceec\">LIBUSB_ERROR_IO</a> "
-"= -1, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\">LIBUSB_ERROR_INVALID_PARAM</a> "
-"= -2, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f\">LIBUSB_ERROR_ACCESS</a> "
-"= -3,"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\">LIBUSB_SUCCESS</"
+"a> = 0, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa790feab8b45d8c323038f4d7d15eceec"
+"\">LIBUSB_ERROR_IO</a> = -1, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\">LIBUSB_ERROR_INVALID_PARAM</"
+"a> = -2, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f"
+"\">LIBUSB_ERROR_ACCESS</a> = -3,"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:103
+#: source/api-1.0/group__libusb__misc.html:103
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efaf8d98f464314a8e202507a0e5c67336f\">LIBUSB_ERROR_NO_DEVICE</a> "
-"= -4, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa28214194dc4399e51777408b2c27f03f\">LIBUSB_ERROR_NOT_FOUND</a> "
-"= -5, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa34ede1140a8a16022f730ac80875ed3b\">LIBUSB_ERROR_BUSY</a> "
-"= -6, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd\">LIBUSB_ERROR_TIMEOUT</a> "
-"= -7,"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efaf8d98f464314a8e202507a0e5c67336f"
+"\">LIBUSB_ERROR_NO_DEVICE</a> = -4, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa28214194dc4399e51777408b2c27f03f"
+"\">LIBUSB_ERROR_NOT_FOUND</a> = -5, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa34ede1140a8a16022f730ac80875ed3b"
+"\">LIBUSB_ERROR_BUSY</a> = -6, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd"
+"\">LIBUSB_ERROR_TIMEOUT</a> = -7,"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:108
+#: source/api-1.0/group__libusb__misc.html:108
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efaf00ae4b8772fda64263ae6e4d6569af0\">LIBUSB_ERROR_OVERFLOW</a> "
-"= -8, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa1406e98370900156484f5fe609270837\">LIBUSB_ERROR_PIPE</a> "
-"= -9, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa39c9284a18fb3277696d84d65f50dbea\">LIBUSB_ERROR_INTERRUPTED</a> "
-"= -10, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec\">LIBUSB_ERROR_NO_MEM</a> "
-"= -11,"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efaf00ae4b8772fda64263ae6e4d6569af0\">LIBUSB_ERROR_OVERFLOW</"
+"a> = -8, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa1406e98370900156484f5fe609270837\">LIBUSB_ERROR_PIPE</"
+"a> = -9, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa39c9284a18fb3277696d84d65f50dbea"
+"\">LIBUSB_ERROR_INTERRUPTED</a> = -10, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec"
+"\">LIBUSB_ERROR_NO_MEM</a> = -11,"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:113
+#: source/api-1.0/group__libusb__misc.html:113
 msgid ""
-"&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa01b43115484f435627be755d5dc9509b\">LIBUSB_ERROR_NOT_SUPPORTED</a> "
-"= -12, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e\">LIBUSB_ERROR_OTHER</a> "
-"= -99"
+"&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa01b43115484f435627be755d5dc9509b"
+"\">LIBUSB_ERROR_NOT_SUPPORTED</a> = -12, <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e"
+"\">LIBUSB_ERROR_OTHER</a> = -99"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:118
+#: source/api-1.0/group__libusb__misc.html:118
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a> "
-"{ <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a24b79436d4bd088d169f9d1edb4b9649\">LIBUSB_CAP_HAS_CAPABILITY</a> "
-"= 0x0000U, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\">LIBUSB_CAP_HAS_HOTPLUG</a> "
-"= 0x0001U, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5aa74726ef0af0e42d2d56532f82e873a5\">LIBUSB_CAP_HAS_HID_ACCESS</a> "
-"= 0x0100U, <a class=\"el\" "
-"href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc\">LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER</a> "
-"= 0x0101U }"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a> { <a class="
+"\"el\" href=\"group__libusb__misc."
+"html#ggaab1b3fa0728c06fafbee897795889bd5a24b79436d4bd088d169f9d1edb4b9649\">LIBUSB_CAP_HAS_CAPABILITY</"
+"a> = 0x0000U, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\">LIBUSB_CAP_HAS_HOTPLUG</"
+"a> = 0x0001U, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggaab1b3fa0728c06fafbee897795889bd5aa74726ef0af0e42d2d56532f82e873a5\">LIBUSB_CAP_HAS_HID_ACCESS</"
+"a> = 0x0100U, <a class=\"el\" href=\"group__libusb__misc."
+"html#ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc"
+"\">LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER</a> = 0x0101U }"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:125
+#: source/api-1.0/group__libusb__misc.html:125
 msgid "<a name=\"func-members\"></a> Functions"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:127 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:135 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:408 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:522
+#: source/api-1.0/group__libusb__misc.html:127
+#: source/api-1.0/group__libusb__misc.html:135
+#: source/api-1.0/group__libusb__misc.html:408
+#: source/api-1.0/group__libusb__misc.html:522
 msgid "int&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:127
+#: source/api-1.0/group__libusb__misc.html:127
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability</a> "
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability</a> "
 "(uint32_t capability)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:129 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:137 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:486
+#: source/api-1.0/group__libusb__misc.html:129
+#: source/api-1.0/group__libusb__misc.html:137
+#: source/api-1.0/group__libusb__misc.html:486
 msgid "const char *&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:129
+#: source/api-1.0/group__libusb__misc.html:129
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name</a> "
-"(int error_code)"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name</a> (int "
+"error_code)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:131
+#: source/api-1.0/group__libusb__misc.html:131
 msgid ""
-"const struct <a class=\"el\" "
-"href=\"structlibusb__version.html\">libusb_version</a> *&#160;"
+"const struct <a class=\"el\" href=\"structlibusb__version.html"
+"\">libusb_version</a> *&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:131
+#: source/api-1.0/group__libusb__misc.html:131
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga61d07b01404fdea080cd16c1ed8be93d\">libusb_get_version</a> "
-"(void)"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga61d07b01404fdea080cd16c1ed8be93d\">libusb_get_version</a> (void)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:133
+#: source/api-1.0/group__libusb__misc.html:133
 msgid "static uint16_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:133
+#: source/api-1.0/group__libusb__misc.html:133
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a> "
-"(const uint16_t x)"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a> (const "
+"uint16_t x)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:135
+#: source/api-1.0/group__libusb__misc.html:135
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale</a> "
-"(const char *locale)"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale</a> (const char "
+"*locale)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:137
+#: source/api-1.0/group__libusb__misc.html:137
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror</a> "
-"(int errcode)"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror</a> (int errcode)"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:140
+#: source/api-1.0/group__libusb__misc.html:140
 msgid "<a name=\"var-members\"></a> Variables"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:142
+#: source/api-1.0/group__libusb__misc.html:142
 msgid "static const char *const&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:142
+#: source/api-1.0/group__libusb__misc.html:142
 msgid ""
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a> "
-"[] = { &quot;en&quot;, &quot;nl&quot;, &quot;fr&quot;, &quot;ru&quot;, "
-"&quot;de&quot;, &quot;hu&quot; }"
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a> [] = "
+"{ &quot;en&quot;, &quot;nl&quot;, &quot;fr&quot;, &quot;ru&quot;, &quot;"
+"de&quot;, &quot;hu&quot; }"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:145
+#: source/api-1.0/group__libusb__misc.html:145
 msgid "<a name=\"details\" id=\"details\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:145
+#: source/api-1.0/group__libusb__misc.html:145
 msgid "Detailed Description"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:146
+#: source/api-1.0/group__libusb__misc.html:146
 msgid "Macro Definition Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:147
+#: source/api-1.0/group__libusb__misc.html:147
 msgid "<a id=\"gaa7d6035eb2692d455d27144560a0f68d\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:148
+#: source/api-1.0/group__libusb__misc.html:148
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gaa7d6035eb2692d455d27144560a0f68d\">&#9670;&nbsp;</a></span>LIBUSB_CALL"
+"<span class=\"permalink\"><a href=\"#gaa7d6035eb2692d455d27144560a0f68d"
+"\">&#9670;&nbsp;</a></span>LIBUSB_CALL"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:154
+#: source/api-1.0/group__libusb__misc.html:154
 msgid "#define LIBUSB_CALL"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:158
+#: source/api-1.0/group__libusb__misc.html:158
 msgid "libusb's Windows calling convention."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:159
+#: source/api-1.0/group__libusb__misc.html:159
 msgid ""
 "Under Windows, the selection of available compilers and configurations means "
-"that, unlike other platforms, there is not <em>one true calling "
-"convention</em> (calling convention: the manner in which parameters are "
-"passed to functions in the generated assembly code)."
+"that, unlike other platforms, there is not <em>one true calling convention</"
+"em> (calling convention: the manner in which parameters are passed to "
+"functions in the generated assembly code)."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:160
+#: source/api-1.0/group__libusb__misc.html:160
 msgid ""
 "Matching the Windows API itself, libusb uses the WINAPI convention (which "
 "translates to the <code>stdcall</code> convention) and guarantees that the "
@@ -430,46 +461,45 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:161
+#: source/api-1.0/group__libusb__misc.html:161
 msgid ""
 "The one consideration that you must apply in your software is to mark all "
 "functions which you use as libusb callbacks with this LIBUSB_CALL "
-"annotation, so that they too get compiled for the correct calling "
-"convention."
+"annotation, so that they too get compiled for the correct calling convention."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:162
+#: source/api-1.0/group__libusb__misc.html:162
 msgid ""
 "On non-Windows operating systems, this macro is defined as nothing. This "
-"means that you can apply it to your code without worrying about "
-"cross-platform compatibility."
+"means that you can apply it to your code without worrying about cross-"
+"platform compatibility."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:166
+#: source/api-1.0/group__libusb__misc.html:166
 msgid "<a id=\"gaabe4bc36a83358685d36a6c853cbb4de\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:167
+#: source/api-1.0/group__libusb__misc.html:167
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">&#9670;&nbsp;</a></span>LIBUSB_API_VERSION"
+"<span class=\"permalink\"><a href=\"#gaabe4bc36a83358685d36a6c853cbb4de"
+"\">&#9670;&nbsp;</a></span>LIBUSB_API_VERSION"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:173
+#: source/api-1.0/group__libusb__misc.html:173
 msgid "#define LIBUSB_API_VERSION&#160;&#160;&#160;0x01000108"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:177
+#: source/api-1.0/group__libusb__misc.html:177
 msgid "libusb's API version."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:178
+#: source/api-1.0/group__libusb__misc.html:178
 msgid ""
 "Since version 1.0.13, to help with feature detection, libusb defines a "
 "LIBUSB_API_VERSION macro that gets increased every time there is a "
@@ -479,57 +509,58 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:179
+#: source/api-1.0/group__libusb__misc.html:179
 msgid "The macro is typically used in an application as follows:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:179
+#: source/api-1.0/group__libusb__misc.html:179
 msgid ""
 "<span class=\"preprocessor\">#if defined(LIBUSB_API_VERSION) &amp;&amp; "
 "(LIBUSB_API_VERSION &gt;= 0x01001234)</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:180
+#: source/api-1.0/group__libusb__misc.html:180
 msgid ""
 "<span class=\"comment\">// Use one of the newer features from the libusb "
 "API</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:181
+#: source/api-1.0/group__libusb__misc.html:181
 msgid "<span class=\"preprocessor\">#endif</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:182
+#: source/api-1.0/group__libusb__misc.html:182
 msgid ""
 "Internally, LIBUSB_API_VERSION is defined as follows: (libusb major &lt;&lt; "
 "24) | (libusb minor &lt;&lt; 16) | (16 bit incremental)"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:186
+#: source/api-1.0/group__libusb__misc.html:186
 msgid "<a id=\"ga22961bb8cb0d6a9b22c88079efb59b8b\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:187
+#: source/api-1.0/group__libusb__misc.html:187
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#ga22961bb8cb0d6a9b22c88079efb59b8b\">&#9670;&nbsp;</a></span>libusb_le16_to_cpu"
+"<span class=\"permalink\"><a href=\"#ga22961bb8cb0d6a9b22c88079efb59b8b"
+"\">&#9670;&nbsp;</a></span>libusb_le16_to_cpu"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:193
+#: source/api-1.0/group__libusb__misc.html:193
 msgid ""
-"#define libusb_le16_to_cpu&#160;&#160;&#160;<a class=\"el\" "
-"href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a>"
+"#define libusb_le16_to_cpu&#160;&#160;&#160;<a class=\"el\" href="
+"\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda"
+"\">libusb_cpu_to_le16</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:197
+#: source/api-1.0/group__libusb__misc.html:197
 msgid ""
 "Convert a 16-bit value from little-endian to host-endian format. On little "
 "endian systems, this function does nothing. On big endian systems, the bytes "
@@ -537,754 +568,802 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:197 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:389 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:415 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:467 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:497 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:531
+#: source/api-1.0/group__libusb__misc.html:197
+#: source/api-1.0/group__libusb__misc.html:389
+#: source/api-1.0/group__libusb__misc.html:415
+#: source/api-1.0/group__libusb__misc.html:467
+#: source/api-1.0/group__libusb__misc.html:497
+#: source/api-1.0/group__libusb__misc.html:531
 msgid "Parameters"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:199 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:469
+#: source/api-1.0/group__libusb__misc.html:199
+#: source/api-1.0/group__libusb__misc.html:469
 msgid "x"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:199
+#: source/api-1.0/group__libusb__misc.html:199
 msgid "the little-endian value to convert"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:203 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:395 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:421 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:473 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:503 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:537
+#: source/api-1.0/group__libusb__misc.html:203
+#: source/api-1.0/group__libusb__misc.html:395
+#: source/api-1.0/group__libusb__misc.html:421
+#: source/api-1.0/group__libusb__misc.html:473
+#: source/api-1.0/group__libusb__misc.html:503
+#: source/api-1.0/group__libusb__misc.html:537
 msgid "Returns"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:203
+#: source/api-1.0/group__libusb__misc.html:203
 msgid "the value in host-endian byte order"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:207
+#: source/api-1.0/group__libusb__misc.html:207
 msgid "Enumeration Type Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:208
+#: source/api-1.0/group__libusb__misc.html:208
 msgid "<a id=\"ga5b5912057c2d7e23b3ed5aa0c20236df\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:209
+#: source/api-1.0/group__libusb__misc.html:209
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">&#9670;&nbsp;</a></span>libusb_standard_request"
+"<span class=\"permalink\"><a href=\"#ga5b5912057c2d7e23b3ed5aa0c20236df"
+"\">&#9670;&nbsp;</a></span>libusb_standard_request"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:215
+#: source/api-1.0/group__libusb__misc.html:215
 msgid ""
-"enum <a class=\"el\" "
-"href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>"
+"enum <a class=\"el\" href=\"group__libusb__misc."
+"html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:219
-msgid "Standard requests, as defined in table 9-5 of the USB 3.0 specifications"
+#: source/api-1.0/group__libusb__misc.html:219
+msgid ""
+"Standard requests, as defined in table 9-5 of the USB 3.0 specifications"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><th>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:221 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:264 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:289 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:314 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:359
+#: source/api-1.0/group__libusb__misc.html:221
+#: source/api-1.0/group__libusb__misc.html:264
+#: source/api-1.0/group__libusb__misc.html:289
+#: source/api-1.0/group__libusb__misc.html:314
+#: source/api-1.0/group__libusb__misc.html:359
 msgid "Enumerator"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:221
+#: source/api-1.0/group__libusb__misc.html:221
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa42f2eefbbd7a5c5cce68ca5989a02a7a\"></a>LIBUSB_REQUEST_GET_STATUS&#160;"
+"<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa42f2eefbbd7a5c5cce68ca5989a02a7a"
+"\"></a>LIBUSB_REQUEST_GET_STATUS&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:221
+#: source/api-1.0/group__libusb__misc.html:221
 msgid "Request status of the specific recipient."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:223
+#: source/api-1.0/group__libusb__misc.html:223
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa0b0f3b3ac6e8ebca120bf3581c5505de\"></a>LIBUSB_REQUEST_CLEAR_FEATURE&#160;"
+"<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa0b0f3b3ac6e8ebca120bf3581c5505de"
+"\"></a>LIBUSB_REQUEST_CLEAR_FEATURE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:223
+#: source/api-1.0/group__libusb__misc.html:223
 msgid "Clear or disable a specific feature."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:225
+#: source/api-1.0/group__libusb__misc.html:225
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa6059966cdfccc4db0cccaab22a6d9a83\"></a>LIBUSB_REQUEST_SET_FEATURE&#160;"
+"<a id="
+"\"gga5b5912057c2d7e23b3ed5aa0c20236dfa6059966cdfccc4db0cccaab22a6d9a83\"></"
+"a>LIBUSB_REQUEST_SET_FEATURE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:225
+#: source/api-1.0/group__libusb__misc.html:225
 msgid "Set or enable a specific feature."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:227
+#: source/api-1.0/group__libusb__misc.html:227
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d\"></a>LIBUSB_REQUEST_SET_ADDRESS&#160;"
+"<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d"
+"\"></a>LIBUSB_REQUEST_SET_ADDRESS&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:227
+#: source/api-1.0/group__libusb__misc.html:227
 msgid "Set device address for all future accesses."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:229
+#: source/api-1.0/group__libusb__misc.html:229
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa3ebb19fe897a2a36e90b2e8193b88b0f\"></a>LIBUSB_REQUEST_GET_DESCRIPTOR&#160;"
+"<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa3ebb19fe897a2a36e90b2e8193b88b0f"
+"\"></a>LIBUSB_REQUEST_GET_DESCRIPTOR&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:229
+#: source/api-1.0/group__libusb__misc.html:229
 msgid "Get the specified descriptor."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:231
+#: source/api-1.0/group__libusb__misc.html:231
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa40ad5a26219379bbbeab2137b21dcb74\"></a>LIBUSB_REQUEST_SET_DESCRIPTOR&#160;"
+"<a id="
+"\"gga5b5912057c2d7e23b3ed5aa0c20236dfa40ad5a26219379bbbeab2137b21dcb74\"></"
+"a>LIBUSB_REQUEST_SET_DESCRIPTOR&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:231
+#: source/api-1.0/group__libusb__misc.html:231
 msgid "Used to update existing descriptors or add new descriptors."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:233
+#: source/api-1.0/group__libusb__misc.html:233
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7e33754fe6c088b94905c387155a8586\"></a>LIBUSB_REQUEST_GET_CONFIGURATION&#160;"
+"<a id="
+"\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7e33754fe6c088b94905c387155a8586\"></"
+"a>LIBUSB_REQUEST_GET_CONFIGURATION&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:233
+#: source/api-1.0/group__libusb__misc.html:233
 msgid "Get the current device configuration value."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:235
+#: source/api-1.0/group__libusb__misc.html:235
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\"></a>LIBUSB_REQUEST_SET_CONFIGURATION&#160;"
+"<a id="
+"\"gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\"></"
+"a>LIBUSB_REQUEST_SET_CONFIGURATION&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:235
+#: source/api-1.0/group__libusb__misc.html:235
 msgid "Set device configuration."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:237
+#: source/api-1.0/group__libusb__misc.html:237
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf61d8c\"></a>LIBUSB_REQUEST_GET_INTERFACE&#160;"
+"<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf61d8c"
+"\"></a>LIBUSB_REQUEST_GET_INTERFACE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:237
+#: source/api-1.0/group__libusb__misc.html:237
 msgid "Return the selected alternate setting for the specified interface."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:239
+#: source/api-1.0/group__libusb__misc.html:239
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de6061\"></a>LIBUSB_REQUEST_SET_INTERFACE&#160;"
+"<a id="
+"\"gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de6061\"></"
+"a>LIBUSB_REQUEST_SET_INTERFACE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:239
+#: source/api-1.0/group__libusb__misc.html:239
 msgid "Select an alternate interface for the specified interface."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:241
+#: source/api-1.0/group__libusb__misc.html:241
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfab4244333798720a3664e59187819f2d5\"></a>LIBUSB_REQUEST_SYNCH_FRAME&#160;"
+"<a id="
+"\"gga5b5912057c2d7e23b3ed5aa0c20236dfab4244333798720a3664e59187819f2d5\"></"
+"a>LIBUSB_REQUEST_SYNCH_FRAME&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:241
+#: source/api-1.0/group__libusb__misc.html:241
 msgid "Set then report an endpoint's synchronization frame."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:243
+#: source/api-1.0/group__libusb__misc.html:243
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b\"></a>LIBUSB_REQUEST_SET_SEL&#160;"
+"<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b"
+"\"></a>LIBUSB_REQUEST_SET_SEL&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:243
+#: source/api-1.0/group__libusb__misc.html:243
 msgid "Sets both the U1 and U2 Exit Latency."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:245
+#: source/api-1.0/group__libusb__misc.html:245
 msgid ""
-"<a "
-"id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\"></a>LIBUSB_SET_ISOCH_DELAY&#160;"
+"<a id="
+"\"gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\"></"
+"a>LIBUSB_SET_ISOCH_DELAY&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:245
+#: source/api-1.0/group__libusb__misc.html:245
 msgid ""
 "Delay from the time a host transmits a packet to the time it is received by "
 "the device."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:251
+#: source/api-1.0/group__libusb__misc.html:251
 msgid "<a id=\"ga0b0933ae70744726cde11254c39fac91\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:252
+#: source/api-1.0/group__libusb__misc.html:252
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">&#9670;&nbsp;</a></span>libusb_request_type"
+"<span class=\"permalink\"><a href="
+"\"#ga0b0933ae70744726cde11254c39fac91\">&#9670;&nbsp;</a></"
+"span>libusb_request_type"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:258
+#: source/api-1.0/group__libusb__misc.html:258
 msgid ""
-"enum <a class=\"el\" "
-"href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a>"
+"enum <a class=\"el\" href=\"group__libusb__misc."
+"html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:262
+#: source/api-1.0/group__libusb__misc.html:262
 msgid ""
-"Request type bits of the <a class=\"el\" "
-"href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> "
-"field in control transfers."
+"Request type bits of the <a class=\"el\" href=\"structlibusb__control__setup."
+"html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> field in control "
+"transfers."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:264
+#: source/api-1.0/group__libusb__misc.html:264
 msgid ""
-"<a "
-"id=\"gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\"></a>LIBUSB_REQUEST_TYPE_STANDARD&#160;"
+"<a id="
+"\"gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\"></"
+"a>LIBUSB_REQUEST_TYPE_STANDARD&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:264
+#: source/api-1.0/group__libusb__misc.html:264
 msgid "Standard."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:266
+#: source/api-1.0/group__libusb__misc.html:266
 msgid ""
-"<a "
-"id=\"gga0b0933ae70744726cde11254c39fac91a43f45ae56bf339e3f984a4182fdd85f0\"></a>LIBUSB_REQUEST_TYPE_CLASS&#160;"
+"<a id="
+"\"gga0b0933ae70744726cde11254c39fac91a43f45ae56bf339e3f984a4182fdd85f0\"></"
+"a>LIBUSB_REQUEST_TYPE_CLASS&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:266
+#: source/api-1.0/group__libusb__misc.html:266
 msgid "Class."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:268
+#: source/api-1.0/group__libusb__misc.html:268
 msgid ""
-"<a "
-"id=\"gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\"></a>LIBUSB_REQUEST_TYPE_VENDOR&#160;"
+"<a id="
+"\"gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\"></"
+"a>LIBUSB_REQUEST_TYPE_VENDOR&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:268
+#: source/api-1.0/group__libusb__misc.html:268
 msgid "Vendor."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:270
+#: source/api-1.0/group__libusb__misc.html:270
 msgid ""
-"<a "
-"id=\"gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\"></a>LIBUSB_REQUEST_TYPE_RESERVED&#160;"
+"<a id="
+"\"gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\"></"
+"a>LIBUSB_REQUEST_TYPE_RESERVED&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:270
+#: source/api-1.0/group__libusb__misc.html:270
 msgid "Reserved."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:276
+#: source/api-1.0/group__libusb__misc.html:276
 msgid "<a id=\"ga20a4e8a729aa543fa742a5086596cbae\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:277
+#: source/api-1.0/group__libusb__misc.html:277
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">&#9670;&nbsp;</a></span>libusb_request_recipient"
+"<span class=\"permalink\"><a href=\"#ga20a4e8a729aa543fa742a5086596cbae"
+"\">&#9670;&nbsp;</a></span>libusb_request_recipient"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:283
+#: source/api-1.0/group__libusb__misc.html:283
 msgid ""
-"enum <a class=\"el\" "
-"href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a>"
+"enum <a class=\"el\" href=\"group__libusb__misc."
+"html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:287
+#: source/api-1.0/group__libusb__misc.html:287
 msgid ""
-"Recipient bits of the <a class=\"el\" "
-"href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> "
-"field in control transfers. Values 4 through 31 are reserved."
+"Recipient bits of the <a class=\"el\" href=\"structlibusb__control__setup."
+"html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> field in control "
+"transfers. Values 4 through 31 are reserved."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:289
+#: source/api-1.0/group__libusb__misc.html:289
 msgid ""
-"<a "
-"id=\"gga20a4e8a729aa543fa742a5086596cbaeaf39ffde2a586d565a817bfd591f2dc33\"></a>LIBUSB_RECIPIENT_DEVICE&#160;"
+"<a id="
+"\"gga20a4e8a729aa543fa742a5086596cbaeaf39ffde2a586d565a817bfd591f2dc33\"></"
+"a>LIBUSB_RECIPIENT_DEVICE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:289
+#: source/api-1.0/group__libusb__misc.html:289
 msgid "Device."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:291
+#: source/api-1.0/group__libusb__misc.html:291
 msgid ""
-"<a "
-"id=\"gga20a4e8a729aa543fa742a5086596cbaea9e5f9678cb9b301ccc07a247d350aadc\"></a>LIBUSB_RECIPIENT_INTERFACE&#160;"
+"<a id=\"gga20a4e8a729aa543fa742a5086596cbaea9e5f9678cb9b301ccc07a247d350aadc"
+"\"></a>LIBUSB_RECIPIENT_INTERFACE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:291
+#: source/api-1.0/group__libusb__misc.html:291
 msgid "Interface."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:293
+#: source/api-1.0/group__libusb__misc.html:293
 msgid ""
-"<a "
-"id=\"gga20a4e8a729aa543fa742a5086596cbaea6873e84c5a1ae0160891ebab16e5d93b\"></a>LIBUSB_RECIPIENT_ENDPOINT&#160;"
+"<a id=\"gga20a4e8a729aa543fa742a5086596cbaea6873e84c5a1ae0160891ebab16e5d93b"
+"\"></a>LIBUSB_RECIPIENT_ENDPOINT&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:293
+#: source/api-1.0/group__libusb__misc.html:293
 msgid "Endpoint."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:295
+#: source/api-1.0/group__libusb__misc.html:295
 msgid ""
-"<a "
-"id=\"gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb\"></a>LIBUSB_RECIPIENT_OTHER&#160;"
+"<a id=\"gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb"
+"\"></a>LIBUSB_RECIPIENT_OTHER&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:295
+#: source/api-1.0/group__libusb__misc.html:295
 msgid "Other."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:301
+#: source/api-1.0/group__libusb__misc.html:301
 msgid "<a id=\"gab2323aa0f04bc22038e7e1740b2f29ef\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:302
+#: source/api-1.0/group__libusb__misc.html:302
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">&#9670;&nbsp;</a></span>libusb_error"
+"<span class=\"permalink\"><a href=\"#gab2323aa0f04bc22038e7e1740b2f29ef"
+"\">&#9670;&nbsp;</a></span>libusb_error"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:308
+#: source/api-1.0/group__libusb__misc.html:308
 msgid ""
-"enum <a class=\"el\" "
-"href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a>"
+"enum <a class=\"el\" href=\"group__libusb__misc."
+"html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:312
+#: source/api-1.0/group__libusb__misc.html:312
 msgid ""
 "Error codes. Most libusb functions return 0 on success or one of these codes "
-"on failure. You can call <a class=\"el\" "
-"href=\"group__libusb__misc.html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name()</a> "
-"to retrieve a string representation of an error code or <a class=\"el\" "
-"href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> "
-"to get an end-user suitable description of an error code."
+"on failure. You can call <a class=\"el\" href=\"group__libusb__misc."
+"html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name()</a> to "
+"retrieve a string representation of an error code or <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> to get an "
+"end-user suitable description of an error code."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:314
+#: source/api-1.0/group__libusb__misc.html:314
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\"></a>LIBUSB_SUCCESS&#160;"
+"<a id="
+"\"ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\"></"
+"a>LIBUSB_SUCCESS&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:314
+#: source/api-1.0/group__libusb__misc.html:314
 msgid "Success (no error)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:316
+#: source/api-1.0/group__libusb__misc.html:316
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa790feab8b45d8c323038f4d7d15eceec\"></a>LIBUSB_ERROR_IO&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa790feab8b45d8c323038f4d7d15eceec"
+"\"></a>LIBUSB_ERROR_IO&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:316
+#: source/api-1.0/group__libusb__misc.html:316
 msgid "Input/output error."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:318
+#: source/api-1.0/group__libusb__misc.html:318
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\"></a>LIBUSB_ERROR_INVALID_PARAM&#160;"
+"<a id="
+"\"ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\"></"
+"a>LIBUSB_ERROR_INVALID_PARAM&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:318
+#: source/api-1.0/group__libusb__misc.html:318
 msgid "Invalid parameter."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:320
+#: source/api-1.0/group__libusb__misc.html:320
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f\"></a>LIBUSB_ERROR_ACCESS&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f"
+"\"></a>LIBUSB_ERROR_ACCESS&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:320
+#: source/api-1.0/group__libusb__misc.html:320
 msgid "Access denied (insufficient permissions)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:322
+#: source/api-1.0/group__libusb__misc.html:322
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efaf8d98f464314a8e202507a0e5c67336f\"></a>LIBUSB_ERROR_NO_DEVICE&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efaf8d98f464314a8e202507a0e5c67336f"
+"\"></a>LIBUSB_ERROR_NO_DEVICE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:322
+#: source/api-1.0/group__libusb__misc.html:322
 msgid "No such device (it may have been disconnected)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:324
+#: source/api-1.0/group__libusb__misc.html:324
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa28214194dc4399e51777408b2c27f03f\"></a>LIBUSB_ERROR_NOT_FOUND&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa28214194dc4399e51777408b2c27f03f"
+"\"></a>LIBUSB_ERROR_NOT_FOUND&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:324
+#: source/api-1.0/group__libusb__misc.html:324
 msgid "Entity not found."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:326
+#: source/api-1.0/group__libusb__misc.html:326
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa34ede1140a8a16022f730ac80875ed3b\"></a>LIBUSB_ERROR_BUSY&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa34ede1140a8a16022f730ac80875ed3b"
+"\"></a>LIBUSB_ERROR_BUSY&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:326
+#: source/api-1.0/group__libusb__misc.html:326
 msgid "Resource busy."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:328
+#: source/api-1.0/group__libusb__misc.html:328
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd\"></a>LIBUSB_ERROR_TIMEOUT&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd"
+"\"></a>LIBUSB_ERROR_TIMEOUT&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:328
+#: source/api-1.0/group__libusb__misc.html:328
 msgid "Operation timed out."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:330
+#: source/api-1.0/group__libusb__misc.html:330
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efaf00ae4b8772fda64263ae6e4d6569af0\"></a>LIBUSB_ERROR_OVERFLOW&#160;"
+"<a id="
+"\"ggab2323aa0f04bc22038e7e1740b2f29efaf00ae4b8772fda64263ae6e4d6569af0\"></"
+"a>LIBUSB_ERROR_OVERFLOW&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:330
+#: source/api-1.0/group__libusb__misc.html:330
 msgid "Overflow."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:332
+#: source/api-1.0/group__libusb__misc.html:332
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa1406e98370900156484f5fe609270837\"></a>LIBUSB_ERROR_PIPE&#160;"
+"<a id="
+"\"ggab2323aa0f04bc22038e7e1740b2f29efa1406e98370900156484f5fe609270837\"></"
+"a>LIBUSB_ERROR_PIPE&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:332
+#: source/api-1.0/group__libusb__misc.html:332
 msgid "Pipe error."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:334
+#: source/api-1.0/group__libusb__misc.html:334
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa39c9284a18fb3277696d84d65f50dbea\"></a>LIBUSB_ERROR_INTERRUPTED&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa39c9284a18fb3277696d84d65f50dbea"
+"\"></a>LIBUSB_ERROR_INTERRUPTED&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:334
+#: source/api-1.0/group__libusb__misc.html:334
 msgid "System call interrupted (perhaps due to signal)"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:336
+#: source/api-1.0/group__libusb__misc.html:336
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec\"></a>LIBUSB_ERROR_NO_MEM&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec"
+"\"></a>LIBUSB_ERROR_NO_MEM&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:336
+#: source/api-1.0/group__libusb__misc.html:336
 msgid "Insufficient memory."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:338
+#: source/api-1.0/group__libusb__misc.html:338
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa01b43115484f435627be755d5dc9509b\"></a>LIBUSB_ERROR_NOT_SUPPORTED&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa01b43115484f435627be755d5dc9509b"
+"\"></a>LIBUSB_ERROR_NOT_SUPPORTED&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:338
+#: source/api-1.0/group__libusb__misc.html:338
 msgid "Operation not supported or unimplemented on this platform."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:340
+#: source/api-1.0/group__libusb__misc.html:340
 msgid ""
-"<a "
-"id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e\"></a>LIBUSB_ERROR_OTHER&#160;"
+"<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e"
+"\"></a>LIBUSB_ERROR_OTHER&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:340
+#: source/api-1.0/group__libusb__misc.html:340
 msgid "Other error."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:346
+#: source/api-1.0/group__libusb__misc.html:346
 msgid "<a id=\"gaab1b3fa0728c06fafbee897795889bd5\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:347
+#: source/api-1.0/group__libusb__misc.html:347
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">&#9670;&nbsp;</a></span>libusb_capability"
+"<span class=\"permalink\"><a href="
+"\"#gaab1b3fa0728c06fafbee897795889bd5\">&#9670;&nbsp;</a></"
+"span>libusb_capability"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:353
+#: source/api-1.0/group__libusb__misc.html:353
 msgid ""
-"enum <a class=\"el\" "
-"href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a>"
+"enum <a class=\"el\" href=\"group__libusb__misc."
+"html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:357
+#: source/api-1.0/group__libusb__misc.html:357
 msgid ""
 "Capabilities supported by an instance of libusb on the current running "
 "platform. Test if the loaded library supports a given capability by calling "
-"<a class=\"el\" "
-"href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a>."
+"<a class=\"el\" href=\"group__libusb__misc."
+"html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:359
+#: source/api-1.0/group__libusb__misc.html:359
 msgid ""
-"<a "
-"id=\"ggaab1b3fa0728c06fafbee897795889bd5a24b79436d4bd088d169f9d1edb4b9649\"></a>LIBUSB_CAP_HAS_CAPABILITY&#160;"
+"<a id="
+"\"ggaab1b3fa0728c06fafbee897795889bd5a24b79436d4bd088d169f9d1edb4b9649\"></"
+"a>LIBUSB_CAP_HAS_CAPABILITY&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:359
+#: source/api-1.0/group__libusb__misc.html:359
 msgid ""
-"The <a class=\"el\" "
-"href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> "
-"API is available."
+"The <a class=\"el\" href=\"group__libusb__misc."
+"html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> API is "
+"available."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:361
+#: source/api-1.0/group__libusb__misc.html:361
 msgid ""
-"<a "
-"id=\"ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\"></a>LIBUSB_CAP_HAS_HOTPLUG&#160;"
+"<a id="
+"\"ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\"></"
+"a>LIBUSB_CAP_HAS_HOTPLUG&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:361
+#: source/api-1.0/group__libusb__misc.html:361
 msgid "Hotplug support is available on this platform."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:363
+#: source/api-1.0/group__libusb__misc.html:363
 msgid ""
-"<a "
-"id=\"ggaab1b3fa0728c06fafbee897795889bd5aa74726ef0af0e42d2d56532f82e873a5\"></a>LIBUSB_CAP_HAS_HID_ACCESS&#160;"
+"<a id="
+"\"ggaab1b3fa0728c06fafbee897795889bd5aa74726ef0af0e42d2d56532f82e873a5\"></"
+"a>LIBUSB_CAP_HAS_HID_ACCESS&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:363
+#: source/api-1.0/group__libusb__misc.html:363
 msgid "The library can access HID devices without requiring user intervention."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:364
+#: source/api-1.0/group__libusb__misc.html:364
 msgid ""
 "Note that before being able to actually access an HID device, you may still "
-"have to call additional libusb functions such as <a class=\"el\" "
-"href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>."
+"have to call additional libusb functions such as <a class=\"el\" href="
+"\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a"
+"\">libusb_detach_kernel_driver()</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:366
+#: source/api-1.0/group__libusb__misc.html:366
 msgid ""
-"<a "
-"id=\"ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc\"></a>LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER&#160;"
+"<a id=\"ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc"
+"\"></a>LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:366
+#: source/api-1.0/group__libusb__misc.html:366
 msgid ""
-"The library supports detaching of the default USB driver, using <a "
-"class=\"el\" "
-"href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>, "
-"if one is set by the OS kernel."
+"The library supports detaching of the default USB driver, using <a class=\"el"
+"\" href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a"
+"\">libusb_detach_kernel_driver()</a>, if one is set by the OS kernel."
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:372
+#: source/api-1.0/group__libusb__misc.html:372
 msgid "Function Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:373
+#: source/api-1.0/group__libusb__misc.html:373
 msgid "<a id=\"ga9b8e324d28c624cd0b8e7ba21607b8db\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:374
+#: source/api-1.0/group__libusb__misc.html:374
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">&#9670;&nbsp;</a></span>libusb_has_capability()"
+"<span class=\"permalink\"><a href=\"#ga9b8e324d28c624cd0b8e7ba21607b8db"
+"\">&#9670;&nbsp;</a></span>libusb_has_capability()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:380
+#: source/api-1.0/group__libusb__misc.html:380
 msgid "int libusb_has_capability"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:381 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:407 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:433 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:455 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:485 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:521
+#: source/api-1.0/group__libusb__misc.html:381
+#: source/api-1.0/group__libusb__misc.html:407
+#: source/api-1.0/group__libusb__misc.html:433
+#: source/api-1.0/group__libusb__misc.html:455
+#: source/api-1.0/group__libusb__misc.html:485
+#: source/api-1.0/group__libusb__misc.html:521
 msgid "("
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:382
+#: source/api-1.0/group__libusb__misc.html:382
 msgid "uint32_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:383
+#: source/api-1.0/group__libusb__misc.html:383
 msgid "<em>capability</em>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:383 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:409 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:435 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:457 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:487 ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:523
+#: source/api-1.0/group__libusb__misc.html:383
+#: source/api-1.0/group__libusb__misc.html:409
+#: source/api-1.0/group__libusb__misc.html:435
+#: source/api-1.0/group__libusb__misc.html:457
+#: source/api-1.0/group__libusb__misc.html:487
+#: source/api-1.0/group__libusb__misc.html:523
 msgid ")"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:388
+#: source/api-1.0/group__libusb__misc.html:388
 msgid ""
 "Check at runtime if the loaded library has a given capability. This call "
-"should be performed after <a class=\"el\" "
-"href=\"group__libusb__lib.html#ga9517c37281bba0b51cc62eba728be48b\">libusb_init()</a>, "
-"to ensure the backend has updated its capability set."
+"should be performed after <a class=\"el\" href=\"group__libusb__lib."
+"html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a>, to ensure the "
+"backend has updated its capability set."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:391
+#: source/api-1.0/group__libusb__misc.html:391
 msgid "capability"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:391
+#: source/api-1.0/group__libusb__misc.html:391
 msgid ""
-"the <a class=\"el\" "
-"href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a> "
-"to check for"
+"the <a class=\"el\" href=\"group__libusb__misc."
+"html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a> to check for"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:395
+#: source/api-1.0/group__libusb__misc.html:395
 msgid "nonzero if the running library has the capability, 0 otherwise"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:399
+#: source/api-1.0/group__libusb__misc.html:399
 msgid "<a id=\"gacf319b823a1a1a25cc934d80db2f28c7\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:400
+#: source/api-1.0/group__libusb__misc.html:400
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gacf319b823a1a1a25cc934d80db2f28c7\">&#9670;&nbsp;</a></span>libusb_error_name()"
+"<span class=\"permalink\"><a href="
+"\"#gacf319b823a1a1a25cc934d80db2f28c7\">&#9670;&nbsp;</a></"
+"span>libusb_error_name()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:406
+#: source/api-1.0/group__libusb__misc.html:406
 msgid "const char* libusb_error_name"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:409
+#: source/api-1.0/group__libusb__misc.html:409
 msgid "<em>error_code</em>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:414
+#: source/api-1.0/group__libusb__misc.html:414
 msgid ""
 "Returns a constant NULL-terminated string with the ASCII name of a libusb "
 "error or transfer status code. The caller must not free() the returned "
@@ -1292,93 +1371,93 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:417
+#: source/api-1.0/group__libusb__misc.html:417
 msgid "error_code"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:417
+#: source/api-1.0/group__libusb__misc.html:417
 msgid ""
-"The <a class=\"el\" "
-"href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> "
-"or libusb_transfer_status code to return the name of."
+"The <a class=\"el\" href=\"group__libusb__misc."
+"html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> or "
+"libusb_transfer_status code to return the name of."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:421
+#: source/api-1.0/group__libusb__misc.html:421
 msgid ""
 "The error name, or the string <b>UNKNOWN</b> if the value of error_code is "
 "not a known error / status code."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:425
+#: source/api-1.0/group__libusb__misc.html:425
 msgid "<a id=\"ga61d07b01404fdea080cd16c1ed8be93d\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:426
+#: source/api-1.0/group__libusb__misc.html:426
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#ga61d07b01404fdea080cd16c1ed8be93d\">&#9670;&nbsp;</a></span>libusb_get_version()"
+"<span class=\"permalink\"><a href=\"#ga61d07b01404fdea080cd16c1ed8be93d"
+"\">&#9670;&nbsp;</a></span>libusb_get_version()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:432
+#: source/api-1.0/group__libusb__misc.html:432
 msgid ""
-"const struct <a class=\"el\" "
-"href=\"structlibusb__version.html\">libusb_version</a>* libusb_get_version"
+"const struct <a class=\"el\" href=\"structlibusb__version.html"
+"\">libusb_version</a>* libusb_get_version"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:434
+#: source/api-1.0/group__libusb__misc.html:434
 msgid "void&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:440
+#: source/api-1.0/group__libusb__misc.html:440
 msgid ""
-"Returns a pointer to const struct <a class=\"el\" "
-"href=\"structlibusb__version.html\">libusb_version</a> with the version "
-"(major, minor, micro, nano and rc) of the running library."
+"Returns a pointer to const struct <a class=\"el\" href="
+"\"structlibusb__version.html\">libusb_version</a> with the version (major, "
+"minor, micro, nano and rc) of the running library."
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:444
+#: source/api-1.0/group__libusb__misc.html:444
 msgid "<a id=\"gae3b1162b8e69b49bbf74dcbbdeeadbda\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:445
+#: source/api-1.0/group__libusb__misc.html:445
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">&#9670;&nbsp;</a></span>libusb_cpu_to_le16()"
+"<span class=\"permalink\"><a href=\"#gae3b1162b8e69b49bbf74dcbbdeeadbda"
+"\">&#9670;&nbsp;</a></span>libusb_cpu_to_le16()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:454
+#: source/api-1.0/group__libusb__misc.html:454
 msgid "static uint16_t libusb_cpu_to_le16"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:456
+#: source/api-1.0/group__libusb__misc.html:456
 msgid "const uint16_t&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:457
+#: source/api-1.0/group__libusb__misc.html:457
 msgid "<em>x</em>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:463
+#: source/api-1.0/group__libusb__misc.html:463
 msgid ""
-"<span class=\"mlabels\"><span class=\"mlabel\">inline</span><span "
-"class=\"mlabel\">static</span></span>"
+"<span class=\"mlabels\"><span class=\"mlabel\">inline</span><span class="
+"\"mlabel\">static</span></span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:467
+#: source/api-1.0/group__libusb__misc.html:467
 msgid ""
 "Convert a 16-bit value from host-endian to little-endian format. On little "
 "endian systems, this function does nothing. On big endian systems, the bytes "
@@ -1386,46 +1465,47 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:469
+#: source/api-1.0/group__libusb__misc.html:469
 msgid "the host-endian value to convert"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:473
+#: source/api-1.0/group__libusb__misc.html:473
 msgid "the value in little-endian byte order"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:477
+#: source/api-1.0/group__libusb__misc.html:477
 msgid "<a id=\"ga0badebde406e5f1874fb72ec6d1b60f4\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:478
+#: source/api-1.0/group__libusb__misc.html:478
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">&#9670;&nbsp;</a></span>libusb_setlocale()"
+"<span class=\"permalink\"><a href="
+"\"#ga0badebde406e5f1874fb72ec6d1b60f4\">&#9670;&nbsp;</a></"
+"span>libusb_setlocale()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:484
+#: source/api-1.0/group__libusb__misc.html:484
 msgid "int libusb_setlocale"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:487
+#: source/api-1.0/group__libusb__misc.html:487
 msgid "<em>locale</em>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:492
+#: source/api-1.0/group__libusb__misc.html:492
 msgid ""
 "Set the language, and only the language, not the encoding! used for "
 "translatable libusb messages."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:493
+#: source/api-1.0/group__libusb__misc.html:493
 msgid ""
 "This takes a locale string in the default setlocale format: lang[-region] or "
 "lang[_country_region][.codeset]. Only the lang part of the string is used, "
@@ -1436,25 +1516,26 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:494
+#: source/api-1.0/group__libusb__misc.html:494
 msgid ""
-"If <a class=\"el\" "
-"href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a> "
-"is not called, all messages will be in English."
+"If <a class=\"el\" href=\"group__libusb__misc."
+"html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a> is not "
+"called, all messages will be in English."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:495
+#: source/api-1.0/group__libusb__misc.html:495
 msgid ""
-"The following functions return translatable strings: <a class=\"el\" "
-"href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a>. "
-"Note that the libusb log messages controlled through <a class=\"el\" "
-"href=\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a\">libusb_set_debug()</a> "
-"are not translated, they are always in English."
+"The following functions return translatable strings: <a class=\"el\" href="
+"\"group__libusb__misc."
+"html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a>. Note that "
+"the libusb log messages controlled through <a class=\"el\" href="
+"\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a"
+"\">libusb_set_debug()</a> are not translated, they are always in English."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:496
+#: source/api-1.0/group__libusb__misc.html:496
 msgid ""
 "For POSIX UTF-8 environments if you want libusb to follow the standard "
 "locale settings, call libusb_setlocale(setlocale(LC_MESSAGES, NULL)), after "
@@ -1462,278 +1543,277 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:499
+#: source/api-1.0/group__libusb__misc.html:499
 msgid "locale"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:499
+#: source/api-1.0/group__libusb__misc.html:499
 msgid ""
-"locale-string in the form of lang[_country_region][.codeset] or "
-"lang[-region], where lang is a 2 letter ISO 639-1 code"
+"locale-string in the form of lang[_country_region][.codeset] or lang[-"
+"region], where lang is a 2 letter ISO 639-1 code"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:503
+#: source/api-1.0/group__libusb__misc.html:503
 msgid "LIBUSB_SUCCESS on success"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:505
+#: source/api-1.0/group__libusb__misc.html:505
 msgid "LIBUSB_ERROR_INVALID_PARAM if the locale doesn't meet the requirements"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:507
+#: source/api-1.0/group__libusb__misc.html:507
 msgid "LIBUSB_ERROR_NOT_FOUND if the requested language is not supported"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:509
+#: source/api-1.0/group__libusb__misc.html:509
 msgid "a LIBUSB_ERROR code on other errors"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:513
+#: source/api-1.0/group__libusb__misc.html:513
 msgid "<a id=\"gadee87eb940a5417429fe105de9e3b273\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:514
+#: source/api-1.0/group__libusb__misc.html:514
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">&#9670;&nbsp;</a></span>libusb_strerror()"
+"<span class=\"permalink\"><a href="
+"\"#gadee87eb940a5417429fe105de9e3b273\">&#9670;&nbsp;</a></"
+"span>libusb_strerror()"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:520
+#: source/api-1.0/group__libusb__misc.html:520
 msgid "const char* libusb_strerror"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:523
+#: source/api-1.0/group__libusb__misc.html:523
 msgid "<em>errcode</em>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:528
+#: source/api-1.0/group__libusb__misc.html:528
 msgid ""
 "Returns a constant string with a short description of the given error code, "
 "this description is intended for displaying to the end user and will be in "
-"the language set by <a class=\"el\" "
-"href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a>."
+"the language set by <a class=\"el\" href=\"group__libusb__misc."
+"html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a>."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:529
+#: source/api-1.0/group__libusb__misc.html:529
 msgid "The returned string is encoded in UTF-8."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:530
+#: source/api-1.0/group__libusb__misc.html:530
 msgid ""
 "The messages always start with a capital letter and end without any dot. The "
 "caller must not free() the returned string."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:533
+#: source/api-1.0/group__libusb__misc.html:533
 msgid "errcode"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:533
+#: source/api-1.0/group__libusb__misc.html:533
 msgid "the error code whose description is desired"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:537
+#: source/api-1.0/group__libusb__misc.html:537
 msgid "a short description of the error code in UTF-8 encoding"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:541
+#: source/api-1.0/group__libusb__misc.html:541
 msgid "Variable Documentation"
 msgstr ""
 
 #. type: Content of: <html><body><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:542
+#: source/api-1.0/group__libusb__misc.html:542
 msgid "<a id=\"gaaa50c37efa6f776907c5b407708c9d42\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><h2>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:543
+#: source/api-1.0/group__libusb__misc.html:543
 msgid ""
-"<span class=\"permalink\"><a "
-"href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">&#9670;&nbsp;</a></span>usbi_locale_supported"
+"<span class=\"permalink\"><a href="
+"\"#gaaa50c37efa6f776907c5b407708c9d42\">&#9670;&nbsp;</a></"
+"span>usbi_locale_supported"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:552
+#: source/api-1.0/group__libusb__misc.html:552
 msgid ""
-"const char* const usbi_locale_supported[] = { &quot;en&quot;, "
-"&quot;nl&quot;, &quot;fr&quot;, &quot;ru&quot;, &quot;de&quot;, "
-"&quot;hu&quot; }"
+"const char* const usbi_locale_supported[] = { &quot;en&quot;, &quot;"
+"nl&quot;, &quot;fr&quot;, &quot;ru&quot;, &quot;de&quot;, &quot;hu&quot; }"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:557
+#: source/api-1.0/group__libusb__misc.html:557
 msgid "<span class=\"mlabels\"><span class=\"mlabel\">static</span></span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><p>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:561
+#: source/api-1.0/group__libusb__misc.html:561
 msgid ""
-"How to add a new <a class=\"el\" "
-"href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> "
-"translation:"
+"How to add a new <a class=\"el\" href=\"group__libusb__misc."
+"html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> translation:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:563
+#: source/api-1.0/group__libusb__misc.html:563
 msgid "Download the latest <code>strerror.c</code> from:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:564
+#: source/api-1.0/group__libusb__misc.html:564
 msgid ""
-"<a "
-"href=\"https://raw.github.com/libusb/libusb/master/libusb/strerror.c\">https://raw.github.com/libusb/libusb/master/libusb/strerror.c</a>"
+"<a href=\"https://raw.github.com/libusb/libusb/master/libusb/strerror.c"
+"\">https://raw.github.com/libusb/libusb/master/libusb/strerror.c</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:566
+#: source/api-1.0/group__libusb__misc.html:566
 msgid "Open the file in an UTF-8 capable editor"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:568
+#: source/api-1.0/group__libusb__misc.html:568
 msgid ""
-"Add the 2 letter <a "
-"href=\"http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes\">ISO 639-1</a> "
-"code for your locale at the end of <code>usbi_locale_supported</code>[]"
+"Add the 2 letter <a href=\"http://en.wikipedia.org/wiki/"
+"List_of_ISO_639-1_codes\">ISO 639-1</a> code for your locale at the end of "
+"<code>usbi_locale_supported</code>[]"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:569
+#: source/api-1.0/group__libusb__misc.html:569
 msgid "Eg. for Chinese, you would add \"zh\" so that:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:569
+#: source/api-1.0/group__libusb__misc.html:569
 msgid ""
-"... <a class=\"code\" "
-"href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>[] "
-"= { <span class=\"stringliteral\">&quot;en&quot;</span>, <span "
-"class=\"stringliteral\">&quot;nl&quot;</span>, <span "
-"class=\"stringliteral\">&quot;fr&quot;</span> };"
+"... <a class=\"code\" href=\"group__libusb__misc."
+"html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>[] = "
+"{ <span class=\"stringliteral\">&quot;en&quot;</span>, <span class="
+"\"stringliteral\">&quot;nl&quot;</span>, <span class=\"stringliteral\">&quot;"
+"fr&quot;</span> };"
 msgstr ""
 
 #.  fragment 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:570
+#: source/api-1.0/group__libusb__misc.html:570
 msgid "becomes:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:570
+#: source/api-1.0/group__libusb__misc.html:570
 msgid ""
-"... <a class=\"code\" "
-"href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>[] "
-"= { <span class=\"stringliteral\">&quot;en&quot;</span>, <span "
-"class=\"stringliteral\">&quot;nl&quot;</span>, <span "
-"class=\"stringliteral\">&quot;fr&quot;</span>, <span "
-"class=\"stringliteral\">&quot;zh&quot;</span> };"
+"... <a class=\"code\" href=\"group__libusb__misc."
+"html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>[] = "
+"{ <span class=\"stringliteral\">&quot;en&quot;</span>, <span class="
+"\"stringliteral\">&quot;nl&quot;</span>, <span class=\"stringliteral\">&quot;"
+"fr&quot;</span>, <span class=\"stringliteral\">&quot;zh&quot;</span> };"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:573
+#: source/api-1.0/group__libusb__misc.html:573
 msgid ""
 "Copy the <code>{ / * English (en) * / ... }</code> section and add it at the "
 "end of <code>usbi_localized_errors</code>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:574
+#: source/api-1.0/group__libusb__misc.html:574
 msgid ""
 "Eg. for Chinese, the last section of <code>usbi_localized_errors</code> "
 "could look like:"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:574
+#: source/api-1.0/group__libusb__misc.html:574
 msgid "}, { / * Chinese (zh) * /"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:575
+#: source/api-1.0/group__libusb__misc.html:575
 msgid "<span class=\"stringliteral\">&quot;Success&quot;</span>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:576
+#: source/api-1.0/group__libusb__misc.html:576
 msgid "..."
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:577
+#: source/api-1.0/group__libusb__misc.html:577
 msgid "<span class=\"stringliteral\">&quot;Other error&quot;</span>,"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:578
+#: source/api-1.0/group__libusb__misc.html:578
 msgid "},"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:579
+#: source/api-1.0/group__libusb__misc.html:579
 msgid "};"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:582
+#: source/api-1.0/group__libusb__misc.html:582
 msgid ""
 "Translate each of the English messages from the section you copied into your "
 "language"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div><ol><li>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:584
+#: source/api-1.0/group__libusb__misc.html:584
 msgid ""
-"Save the file (in UTF-8 format) and send it to "
-"<code>libusb-devel@lists.sourceforge.net</code>"
+"Save the file (in UTF-8 format) and send it to <code>libusb-devel@lists."
+"sourceforge.net</code>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:590
+#: source/api-1.0/group__libusb__misc.html:590
 msgid ""
-"<a "
-"href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>"
+"<a href=\"group__libusb__misc."
+"html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:590
+#: source/api-1.0/group__libusb__misc.html:590
 msgid "static const char *const usbi_locale_supported[]"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:590
+#: source/api-1.0/group__libusb__misc.html:590
 msgid "<b>Definition:</b> strerror.c:51"
 msgstr ""
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:592
+#: source/api-1.0/group__libusb__misc.html:592
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:594
+#: source/api-1.0/group__libusb__misc.html:594
 msgid "doxygen"
 msgstr ""
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/group__libusb__misc.html:595
+#: source/api-1.0/group__libusb__misc.html:595
 msgid "</a> 1.8.17 </small>"
 msgstr ""

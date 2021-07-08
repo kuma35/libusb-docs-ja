@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: 2021-07-08 08:23+0900\n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:55+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -17,179 +17,225 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:8
+#: source/api-1.0/modules.html:8
 msgid "libusb: Modules"
 msgstr "libusb: モジュール群"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:20
+#: source/api-1.0/modules.html:20
 msgid "Logo"
 msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:22
+#: source/api-1.0/modules.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:25
+#: source/api-1.0/modules.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
+msgstr ""
+"USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:36
+#: source/api-1.0/modules.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
-msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
+msgstr ""
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:45
+#: source/api-1.0/modules.html:45
 msgid "Modules"
 msgstr "モジュール群"
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:48
+#: source/api-1.0/modules.html:48
 msgid "Here is a list of all modules:"
 msgstr "ここに全てのモジュールのリストがあります:"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:50
+#: source/api-1.0/modules.html:50
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__lib.html\" target=\"_self\">Library "
-"initialization/deinitialization</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__lib.html\" target=\"_self\">ライブラリの利用準備/後片付け</a>"
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__lib.html\" target=\"_self\">Library initialization/"
+"deinitialization</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__lib.html\" target=\"_self\">ライブラリの利用準備/後"
+"片付け</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:50
+#: source/api-1.0/modules.html:50
 msgid ""
 "This page details how to initialize and deinitialize libusb. Initialization "
 "must be performed before using any libusb functionality, and similarly you "
 "must not call any libusb functions after deinitialization"
-msgstr "このページでは、libusbの利用準備(initialize)と後片付け(deinitialize)する方法について詳しく説明します。 libusb機能を使用する前に利用準備を行う必要があります。また、後片付け後にはlibusb関数を呼び出さないでください。"
+msgstr ""
+"このページでは、libusbの利用準備(initialize)と後片付け(deinitialize)する方法"
+"について詳しく説明します。 libusb機能を使用する前に利用準備を行う必要がありま"
+"す。また、後片付け後にはlibusb関数を呼び出さないでください。"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:51
+#: source/api-1.0/modules.html:51
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__dev.html\" target=\"_self\">Device "
-"handling and enumeration</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__dev.html\" target=\"_self\">デバイスの処理と列挙</a>"
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__dev.html\" target=\"_self\">Device handling and "
+"enumeration</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__dev.html\" target=\"_self\">デバイスの処理と列挙</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:51
+#: source/api-1.0/modules.html:51
 msgid ""
 "The functionality documented below is designed to help with the following "
 "operations:"
 msgstr "各機能は、各行に記述の操作を支援するように設計されています:"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:52
+#: source/api-1.0/modules.html:52
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__misc.html\" "
-"target=\"_self\">Miscellaneous</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__misc.html\" target=\"_self\">その他もろもろ</a>"
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__misc.html\" target=\"_self\">Miscellaneous</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__misc.html\" target=\"_self\">その他もろもろ</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:53
+#: source/api-1.0/modules.html:53
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__desc.html\" target=\"_self\">USB "
-"descriptors</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__desc.html\" target=\"_self\">USBデスクリプター</a>"
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__desc.html\" target=\"_self\">USB descriptors</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__desc.html\" target=\"_self\">USBデスクリプター</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:53
+#: source/api-1.0/modules.html:53
 msgid ""
 "This page details how to examine the various standard USB descriptors for "
 "detected devices"
-msgstr "このページでは、検出されたデバイスのさまざまな標準USBデスクリプターを調べる方法について詳しく説明します。"
+msgstr ""
+"このページでは、検出されたデバイスのさまざまな標準USBデスクリプターを調べる方"
+"法について詳しく説明します。"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:54
+#: source/api-1.0/modules.html:54
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__hotplug.html\" target=\"_self\">Device "
-"hotplug event notification</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__hotplug.html\" target=\"_self\">デバイス活線挿抜イベント通知</a>"
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__hotplug.html\" target=\"_self\">Device hotplug "
+"event notification</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__hotplug.html\" target=\"_self\">デバイス活線挿抜イベ"
+"ント通知</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:54
-msgid "This page details how to use the libusb hotplug interface, where available"
-msgstr "このページでは、libusb活線挿抜(hotplug)インターフェイスの使用方法について詳しく説明します(利用可能な場合)。"
-
-#. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:55
+#: source/api-1.0/modules.html:54
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__asyncio.html\" "
-"target=\"_self\">Asynchronous device I/O</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__asyncio.html\" target=\"_self\">非同期デバイス入出力</a>"
+"This page details how to use the libusb hotplug interface, where available"
+msgstr ""
+"このページでは、libusb活線挿抜(hotplug)インターフェイスの使用方法について詳し"
+"く説明します(利用可能な場合)。"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:55
+#: source/api-1.0/modules.html:55
 msgid ""
-"This page details libusb's asynchronous (non-blocking) API for USB device "
-"I/O. This interface is very powerful but is also quite complex - you will "
-"need to read this page carefully to understand the necessary considerations "
-"and issues surrounding use of this interface. Simplistic applications may "
-"wish to consider the <a class=\"el\" "
-"href=\"group__libusb__syncio.html\">synchronous I/O API</a> instead"
-msgstr "このページでは、USBデバイス入出力用のlibusbの非同期(asynchronous)(非ブロッキング)APIについて詳しく説明します。このインターフェイスは非常に強力ですが、非常に複雑でもあります。このページを注意深く読んで、このインターフェイスの使用に関する必要な考慮事項と問題を理解する必要があります。 単純なアプリケーションでは、代わりに<a class=\"el\" href=\"group__libusb__syncio.html\">同期(synchronous)入出力API</a>を検討することをお勧めします。"
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__asyncio.html\" target=\"_self\">Asynchronous device "
+"I/O</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__asyncio.html\" target=\"_self\">非同期デバイス入出力"
+"</a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:56
+#: source/api-1.0/modules.html:55
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__poll.html\" target=\"_self\">Polling and "
-"timing</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__poll.html\" target=\"_self\">ポーリングとタイミング</a>"
+"This page details libusb's asynchronous (non-blocking) API for USB device I/"
+"O. This interface is very powerful but is also quite complex - you will need "
+"to read this page carefully to understand the necessary considerations and "
+"issues surrounding use of this interface. Simplistic applications may wish "
+"to consider the <a class=\"el\" href=\"group__libusb__syncio.html"
+"\">synchronous I/O API</a> instead"
+msgstr ""
+"このページでは、USBデバイス入出力用のlibusbの非同期(asynchronous)(非ブロッキ"
+"ング)APIについて詳しく説明します。このインターフェイスは非常に強力ですが、非"
+"常に複雑でもあります。このページを注意深く読んで、このインターフェイスの使用"
+"に関する必要な考慮事項と問題を理解する必要があります。 単純なアプリケーション"
+"では、代わりに<a class=\"el\" href=\"group__libusb__syncio.html\">同期"
+"(synchronous)入出力API</a>を検討することをお勧めします。"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:56
+#: source/api-1.0/modules.html:56
+msgid ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__poll.html\" target=\"_self\">Polling and timing</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__poll.html\" target=\"_self\">ポーリングとタイミング"
+"</a>"
+
+#. type: Content of: <html><body><div><div><table><tr><td>
+#: source/api-1.0/modules.html:56
 msgid ""
 "This page documents libusb's functions for polling events and timing. These "
-"functions are only necessary for users of the <a class=\"el\" "
-"href=\"group__libusb__asyncio.html\">asynchronous API</a>. If you are only "
-"using the simpler <a class=\"el\" "
-"href=\"group__libusb__syncio.html\">synchronous API</a> then you do not need "
-"to ever call these functions"
-msgstr "このページでは、イベントとタイミングをポーリングするためのlibusbの機能について説明します。これらの関数は、<a class=\"el\" href=\"group__libusb__asyncio.html\">非同期API</a>のユーザーのみ必要です。より単純な<a class=\"el\" href=\"group__libusb__syncio.html\">同期API</a>のみを使用している場合は、これらの関数を呼び出す必要はありません。"
+"functions are only necessary for users of the <a class=\"el\" href="
+"\"group__libusb__asyncio.html\">asynchronous API</a>. If you are only using "
+"the simpler <a class=\"el\" href=\"group__libusb__syncio.html\">synchronous "
+"API</a> then you do not need to ever call these functions"
+msgstr ""
+"このページでは、イベントとタイミングをポーリングするためのlibusbの機能につい"
+"て説明します。これらの関数は、<a class=\"el\" href=\"group__libusb__asyncio."
+"html\">非同期API</a>のユーザーのみ必要です。より単純な<a class=\"el\" href="
+"\"group__libusb__syncio.html\">同期API</a>のみを使用している場合は、これらの"
+"関数を呼び出す必要はありません。"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:57
+#: source/api-1.0/modules.html:57
 msgid ""
-"<span style=\"width:16px;display:inline-block;\">&#160;</span><a "
-"class=\"el\" href=\"group__libusb__syncio.html\" "
-"target=\"_self\">Synchronous device I/O</a>"
-msgstr "<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el\" href=\"group__libusb__syncio.html\" target=\"_self\">同期デバイス入出力</a>"
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__syncio.html\" target=\"_self\">Synchronous device I/"
+"O</a>"
+msgstr ""
+"<span style=\"width:16px;display:inline-block;\">&#160;</span><a class=\"el"
+"\" href=\"group__libusb__syncio.html\" target=\"_self\">同期デバイス入出力</"
+"a>"
 
 #. type: Content of: <html><body><div><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:57
+#: source/api-1.0/modules.html:57
 msgid ""
-"This page documents libusb's synchronous (blocking) API for USB device "
-"I/O. This interface is easy to use but has some limitations. More advanced "
-"users may wish to consider using the <a class=\"el\" "
-"href=\"group__libusb__asyncio.html\">asynchronous I/O API</a> instead"
-msgstr "このページでは、USBデバイス入出力用のlibusbの同期(synchronous)(ブロッキング)APIについて説明します。このインターフェースは使いやすいですが、いくつかの制限があります。上級ユーザーは、代わりに<a class=\"el\" href=\"group__libusb__asyncio.html\">非同期(asynchronous)入出力API</a>の使用を検討することをお勧めします。"
+"This page documents libusb's synchronous (blocking) API for USB device I/O. "
+"This interface is easy to use but has some limitations. More advanced users "
+"may wish to consider using the <a class=\"el\" href=\"group__libusb__asyncio."
+"html\">asynchronous I/O API</a> instead"
+msgstr ""
+"このページでは、USBデバイス入出力用のlibusbの同期(synchronous)(ブロッキン"
+"グ)APIについて説明します。このインターフェースは使いやすいですが、いくつかの"
+"制限があります。上級ユーザーは、代わりに<a class=\"el\" href="
+"\"group__libusb__asyncio.html\">非同期(asynchronous)入出力API</a>の使用を検討"
+"することをお勧めします。"
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:62
+#: source/api-1.0/modules.html:62
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
-msgstr "<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
+msgstr ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:64
+#: source/api-1.0/modules.html:64
 msgid "doxygen"
 msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/modules.html:65
+#: source/api-1.0/modules.html:65
 msgid "</a> 1.8.17 </small>"
 msgstr "</a> 1.8.17 </small>"

@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:01+0900\n"
-"PO-Revision-Date: 2021-07-08 08:28+0900\n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 02:56+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -17,59 +17,64 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:8
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:8
 msgid "libusb: libusb Directory Reference"
 msgstr "libusb: libusbディレクトリ・リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:20
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:20
 msgid "Logo"
 msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:22
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:25
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
+msgstr ""
+"USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:36
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
-msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
+msgstr ""
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div><ul><li>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:44
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:44
 msgid ""
-"<a class=\"el\" "
-"href=\"dir_6560186179ae86ab3fbed805e7cb86e4.html\">libusb</a>"
-msgstr "<a class=\"el\" href=\"dir_6560186179ae86ab3fbed805e7cb86e4.html\">libusb</a>"
+"<a class=\"el\" href=\"dir_6560186179ae86ab3fbed805e7cb86e4.html\">libusb</a>"
+msgstr ""
+"<a class=\"el\" href=\"dir_6560186179ae86ab3fbed805e7cb86e4.html\">libusb</a>"
 
 #. type: Content of: <html><body><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:49
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:49
 msgid "libusb Directory Reference"
 msgstr "libusb ディレクトリ・リファレンス"
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:54
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:54
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
-msgstr "<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
+msgstr ""
+"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:56
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:56
 msgid "doxygen"
 msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:57
+#: source/api-1.0/dir_6560186179ae86ab3fbed805e7cb86e4.html:57
 msgid "</a> 1.8.17 </small>"
 msgstr "</a> 1.8.17 </small>"

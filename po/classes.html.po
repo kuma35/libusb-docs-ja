@@ -1,195 +1,194 @@
+# -*- coding: utf-8 -*-
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR libusb
 # This file is distributed under the same license as the libusb package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: libusb 0.0\n"
-"POT-Creation-Date: 2021-07-07 16:02+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: libusb-api-doc 1.0\n"
+"POT-Creation-Date: 2021-07-09 02:36+0900\n"
+"PO-Revision-Date: 2021-07-09 01:55+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Content of: <html><head><title>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:8
+#: source/api-1.0/classes.html:8
 msgid "libusb: Data Structure Index"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:20
+#: source/api-1.0/classes.html:20
 msgid "Logo"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:22
+#: source/api-1.0/classes.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:25
+#: source/api-1.0/classes.html:25
 msgid "A cross-platform user library to access USB devices"
 msgstr ""
 
 #. type: Content of: <html><body><div><script>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:36
+#: source/api-1.0/classes.html:36
 msgid ""
-"/* @license "
-"magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt "
-"GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); "
-"/* @license-end */"
+"/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
+"dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
+"php','Search'); }); /* @license-end */"
 msgstr ""
 
 #. type: Content of: <html><body><div><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:45
+#: source/api-1.0/classes.html:45
 msgid "Data Structure Index"
 msgstr ""
 
 #. type: Content of: <html><body><div><div>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:48 ./source/libusb.sourceforge.io/api-1.0/classes.html:74
-msgid "<a class=\"qindex\" href=\"classes.html#letter_l\">l</a>"
+#: source/api-1.0/classes.html:48 source/api-1.0/classes.html:74
+msgid "<a class=\"qindex\" href=\"#letter_l\">l</a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:50
+#: source/api-1.0/classes.html:50
 msgid "<a name=\"letter_l\"></a>"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td><table><tr><td><div>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:50
+#: source/api-1.0/classes.html:50
 msgid "&#160;&#160;l&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:52
+#: source/api-1.0/classes.html:52
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__config__descriptor.html\">libusb_config_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__config__descriptor.html"
+"\">libusb_config_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:53
+#: source/api-1.0/classes.html:53
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__endpoint__descriptor.html\">libusb_endpoint_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__endpoint__descriptor.html"
+"\">libusb_endpoint_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:54
+#: source/api-1.0/classes.html:54
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__pollfd.html\">libusb_pollfd</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__pollfd.html\">libusb_pollfd</a>&#160;"
+"&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:55
+#: source/api-1.0/classes.html:55
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__usb__2__0__extension__descriptor.html\">libusb_usb_2_0_extension_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html"
+"\">libusb_usb_2_0_extension_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:57
+#: source/api-1.0/classes.html:57
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__container__id__descriptor.html\">libusb_container_id_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__container__id__descriptor.html"
+"\">libusb_container_id_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:58
+#: source/api-1.0/classes.html:58
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__interface.html\">libusb_interface</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__interface.html\">libusb_interface</"
+"a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:59
+#: source/api-1.0/classes.html:59
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__endpoint__companion__descriptor.html\">libusb_ss_endpoint_companion_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html"
+"\">libusb_ss_endpoint_companion_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:60
+#: source/api-1.0/classes.html:60
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__version.html\">libusb_version</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>&#160;"
+"&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:62
+#: source/api-1.0/classes.html:62
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__bos__descriptor.html\">libusb_bos_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__bos__descriptor.html"
+"\">libusb_bos_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:63
+#: source/api-1.0/classes.html:63
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__control__setup.html\">libusb_control_setup</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__control__setup.html"
+"\">libusb_control_setup</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:64
+#: source/api-1.0/classes.html:64
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__interface__descriptor.html\">libusb_interface_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__interface__descriptor.html"
+"\">libusb_interface_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:65
+#: source/api-1.0/classes.html:65
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__ss__usb__device__capability__descriptor.html\">libusb_ss_usb_device_capability_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
+"html\">libusb_ss_usb_device_capability_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:67
+#: source/api-1.0/classes.html:67
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__bos__dev__capability__descriptor.html\">libusb_bos_dev_capability_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html"
+"\">libusb_bos_dev_capability_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:68
+#: source/api-1.0/classes.html:68
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__device__descriptor.html\">libusb_device_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__device__descriptor.html"
+"\">libusb_device_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:69
+#: source/api-1.0/classes.html:69
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__iso__packet__descriptor.html\">libusb_iso_packet_descriptor</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html"
+"\">libusb_iso_packet_descriptor</a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><div><table><tr><td>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:70
+#: source/api-1.0/classes.html:70
 msgid ""
-"<a class=\"el\" "
-"href=\"structlibusb__transfer.html\">libusb_transfer</a>&#160;&#160;&#160;"
+"<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</"
+"a>&#160;&#160;&#160;"
 msgstr ""
 
 #. type: Content of: <html><body><address><small><a>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:77
+#: source/api-1.0/classes.html:77
 msgid ""
-"<small> Generated on Thu Dec 10 2020 11:03:33 for libusb by &#160;<a "
-"href=\"http://www.doxygen.org/index.html\">"
+"<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
+"\"http://www.doxygen.org/index.html\">"
 msgstr ""
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:79
+#: source/api-1.0/classes.html:79
 msgid "doxygen"
 msgstr ""
 
 #. type: Content of: <html><body><address>
-#: ./source/libusb.sourceforge.io/api-1.0/classes.html:80
+#: source/api-1.0/classes.html:80
 msgid "</a> 1.8.17 </small>"
 msgstr ""
