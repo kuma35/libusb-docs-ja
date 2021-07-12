@@ -2,28 +2,27 @@
 
 # libusb-docs-ja
 
-libusb 1.0 document translate to Japanese.
+libusb document translate to Japanese.
 
 # License
 
-2.1 of the GNU Lesser General Public License (LGPL).
+libusbに準ずる。
 
 # Setup
 
-- libusb from github
-- sudo apt-install doxygen
-- sudo apt-install libudev-dev
+- githubからlibusbを持ってきます。
+- sudo apt-install doxygen (ubuntu 20.04)
+- sudo apt-install libudev-dev (ubuntu 20.04)
 - autogen.sh
 - cd doc
 - make
-- documents in doc/api-1.0 folder
+- 文書が doc/api-1.0 にできています。
 
 ## folder
 
 - source: wget soruce files
-- po:
-- target: translated files
-
+- po: po files
+- docs: translated files
 
 # Usage
 

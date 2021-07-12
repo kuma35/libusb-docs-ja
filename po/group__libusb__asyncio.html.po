@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 01:59+0900\n"
+"PO-Revision-Date: 2021-07-12 16:18+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/group__libusb__asyncio.html:8
 msgid "libusb: Asynchronous device I/O"
-msgstr ""
+msgstr "libusb: 非同期デバイス入出力"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/group__libusb__asyncio.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/group__libusb__asyncio.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/group__libusb__asyncio.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/group__libusb__asyncio.html:36
@@ -42,7 +42,7 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:45
@@ -50,12 +50,12 @@ msgid ""
 "<a href=\"#nested-classes\">Data Structures</a> &#124; <a href=\"#typedef-"
 "members\">Typedefs</a> &#124; <a href=\"#enum-members\">Enumerations</a> "
 "&#124; <a href=\"#func-members\">Functions</a>"
-msgstr ""
+msgstr "<a href=\"#nested-classes\">Data Structures</a> &#124; <a href=\"#typedef-members\">Typedefs</a> &#124; <a href=\"#enum-members\">列挙型</a> &#124; <a href=\"#func-members\">Functions</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:50
 msgid "Asynchronous device I/O"
-msgstr ""
+msgstr "非同期デバイス入出力"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:54
@@ -66,26 +66,26 @@ msgid ""
 "issues surrounding use of this interface. Simplistic applications may wish "
 "to consider the <a class=\"el\" href=\"group__libusb__syncio.html"
 "\">synchronous I/O API</a> instead.  <a href=\"#details\">More...</a>"
-msgstr ""
+msgstr "このページでは、USBデバイス入出力用のlibusbの非同期(非ブロッキング)APIについて詳しく説明します。 このインターフェイスは非常に強力ですが、非常に複雑でもあります。このページを注意深く読んで、このインターフェイスの使用に関する必要な考慮事項と問題を理解する必要があります。単純なアプリケーションでは、代わりに <a class=\"el\" href=\"group__libusb__syncio.html\">同期入出力API</a> を検討することをお勧めします。<a href=\"#details\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__asyncio.html:57
 msgid "<a name=\"nested-classes\"></a> Data Structures"
-msgstr ""
+msgstr "<a name=\"nested-classes\"></a> データ構造"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:59
 #: source/api-1.0/group__libusb__asyncio.html:61
 #: source/api-1.0/group__libusb__asyncio.html:63
 msgid "struct &#160;"
-msgstr ""
+msgstr "struct &#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:59
 msgid ""
 "<a class=\"el\" href=\"structlibusb__control__setup.html"
 "\">libusb_control_setup</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:60
@@ -117,30 +117,30 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:143
 #: source/api-1.0/group__libusb__asyncio.html:145
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:61
 msgid ""
 "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html"
 "\">libusb_iso_packet_descriptor</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html\">libusb_iso_packet_descriptor</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:63
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__asyncio.html:66
 msgid "<a name=\"typedef-members\"></a> Typedefs"
-msgstr ""
+msgstr "<a name=\"typedef-members\"></a> Typedef"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:68
 msgid "typedef void(*&#160;"
-msgstr ""
+msgstr "typedef void(*&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:68
@@ -149,26 +149,26 @@ msgid ""
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>) (struct "
 "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> "
 "*transfer)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>) (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__asyncio.html:71
 msgid "<a name=\"enum-members\"></a> Enumerations"
-msgstr ""
+msgstr "<a name=\"enum-members\"></a> 列挙型"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:73
 #: source/api-1.0/group__libusb__asyncio.html:83
 #: source/api-1.0/group__libusb__asyncio.html:95
 msgid "enum &#160;"
-msgstr ""
+msgstr "enum &#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:73
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a> {"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a> {"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:74
@@ -182,7 +182,7 @@ msgid ""
 "a> = 2U, <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c"
 "\">LIBUSB_TRANSFER_TYPE_INTERRUPT</a> = 3U,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a4c89624658c783ef9b2a2f08091bc7d7\">LIBUSB_TRANSFER_TYPE_CONTROL</a> = 0U, <a class=\"el\" href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300\">LIBUSB_TRANSFER_TYPE_ISOCHRONOUS</a> = 1U, <a class=\"el\" href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a7bdfa2fc5dadbaaa0e9262e1b4a228e2\">LIBUSB_TRANSFER_TYPE_BULK</a> = 2U, <a class=\"el\" href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c\">LIBUSB_TRANSFER_TYPE_INTERRUPT</a> = 3U,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:79
@@ -190,7 +190,7 @@ msgid ""
 "&#160;&#160;<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3\">LIBUSB_TRANSFER_TYPE_BULK_STREAM</"
 "a> = 4U"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3\">LIBUSB_TRANSFER_TYPE_BULK_STREAM</a> = 4U"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:81
@@ -199,14 +199,14 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:310
 #: source/api-1.0/group__libusb__asyncio.html:317
 msgid "}"
-msgstr ""
+msgstr "}"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:83
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a> {"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a> {"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:84
@@ -221,7 +221,7 @@ msgid ""
 "\"group__libusb__asyncio."
 "html#gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b"
 "\">LIBUSB_TRANSFER_CANCELLED</a>,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363\">LIBUSB_TRANSFER_COMPLETED</a>, <a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\">LIBUSB_TRANSFER_ERROR</a>, <a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856ac2b7626d7b51cb980f83933b6ada1ddf\">LIBUSB_TRANSFER_TIMED_OUT</a>, <a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b\">LIBUSB_TRANSFER_CANCELLED</a>,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:89
@@ -233,7 +233,7 @@ msgid ""
 "a>, <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14\">LIBUSB_TRANSFER_OVERFLOW</"
 "a>"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a23cdfd929f5fe82cca9654f8075eeebb\">LIBUSB_TRANSFER_STALL</a>, <a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856ab7dcb24f313ace407e0c070d6b2c5f13\">LIBUSB_TRANSFER_NO_DEVICE</a>, <a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14\">LIBUSB_TRANSFER_OVERFLOW</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:95
@@ -249,12 +249,12 @@ msgid ""
 "a> = (1U &lt;&lt; 2), <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f"
 "\">LIBUSB_TRANSFER_ADD_ZERO_PACKET</a> = (1U &lt;&lt; 3)  }"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a> { <a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276\">LIBUSB_TRANSFER_SHORT_NOT_OK</a> = (1U &lt;&lt; 0), <a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</a> = (1U &lt;&lt; 1), <a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\">LIBUSB_TRANSFER_FREE_TRANSFER</a> = (1U &lt;&lt; 2), <a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f\">LIBUSB_TRANSFER_ADD_ZERO_PACKET</a> = (1U &lt;&lt; 3)  }"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__asyncio.html:102
 msgid "<a name=\"func-members\"></a> Functions"
-msgstr ""
+msgstr "<a name=\"func-members\"></a> 関数"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:104
@@ -271,7 +271,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1329
 #: source/api-1.0/group__libusb__asyncio.html:1335
 msgid "int&#160;"
-msgstr ""
+msgstr "int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:104
@@ -282,7 +282,7 @@ msgid ""
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
 "*dev_handle, uint32_t num_streams, unsigned char *endpoints, int "
 "num_endpoints)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams</a> (<a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, uint32_t num_streams, unsigned char *endpoints, int num_endpoints)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:106
@@ -292,7 +292,7 @@ msgid ""
 "\"el\" href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
 "*dev_handle, unsigned char *endpoints, int num_endpoints)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gab068de0fd203ccef5c620a8143526acb\">libusb_free_streams</a> (<a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, unsigned char *endpoints, int num_endpoints)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:108
@@ -306,7 +306,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1237
 #: source/api-1.0/group__libusb__asyncio.html:1323
 msgid "unsigned char *&#160;"
-msgstr ""
+msgstr "unsigned char *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:108
@@ -316,7 +316,7 @@ msgid ""
 "\"el\" href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
 "*dev_handle, size_t length)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc</a> (<a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, size_t length)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:110
@@ -326,7 +326,7 @@ msgid ""
 "\"el\" href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
 "*dev_handle, unsigned char *buffer, size_t length)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62\">libusb_dev_mem_free</a> (<a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, unsigned char *buffer, size_t length)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:112
@@ -348,7 +348,7 @@ msgstr ""
 msgid ""
 "struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</"
 "a> *&#160;"
-msgstr ""
+msgstr "struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:112
@@ -356,13 +356,13 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer</a> (int "
 "iso_packets)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer</a> (int iso_packets)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:114
 #: source/api-1.0/group__libusb__asyncio.html:120
 msgid "void&#160;"
-msgstr ""
+msgstr "void&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:114
@@ -371,7 +371,7 @@ msgid ""
 "html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer</a> (struct "
 "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> "
 "*transfer)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:116
@@ -380,7 +380,7 @@ msgid ""
 "html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer</a> (struct "
 "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> "
 "*transfer)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:118
@@ -389,7 +389,7 @@ msgid ""
 "html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer</a> (struct "
 "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> "
 "*transfer)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:120
@@ -398,7 +398,7 @@ msgid ""
 "html#gaeae2db23b9de811af317483afdeb230f\">libusb_transfer_set_stream_id</a> "
 "(struct <a class=\"el\" href=\"structlibusb__transfer.html"
 "\">libusb_transfer</a> *transfer, uint32_t stream_id)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gaeae2db23b9de811af317483afdeb230f\">libusb_transfer_set_stream_id</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, uint32_t stream_id)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:122
@@ -406,7 +406,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:755
 #: source/api-1.0/group__libusb__asyncio.html:1143
 msgid "uint32_t&#160;"
-msgstr ""
+msgstr "uint32_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:122
@@ -415,14 +415,14 @@ msgid ""
 "html#ga631653487273f3306925131cdc0a3ffc\">libusb_transfer_get_stream_id</a> "
 "(struct <a class=\"el\" href=\"structlibusb__transfer.html"
 "\">libusb_transfer</a> *transfer)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga631653487273f3306925131cdc0a3ffc\">libusb_transfer_get_stream_id</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:124
 #: source/api-1.0/group__libusb__asyncio.html:142
 #: source/api-1.0/group__libusb__asyncio.html:144
 msgid "static unsigned char *&#160;"
-msgstr ""
+msgstr "static unsigned char *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:124
@@ -431,14 +431,14 @@ msgid ""
 "html#gadf9c633586dde54ce62a3d66a4d7554c\">libusb_control_transfer_get_data</"
 "a> (struct <a class=\"el\" href=\"structlibusb__transfer.html"
 "\">libusb_transfer</a> *transfer)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gadf9c633586dde54ce62a3d66a4d7554c\">libusb_control_transfer_get_data</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:126
 msgid ""
 "static struct <a class=\"el\" href=\"structlibusb__control__setup.html"
 "\">libusb_control_setup</a> *&#160;"
-msgstr ""
+msgstr "static struct <a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a> *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:126
@@ -447,7 +447,7 @@ msgid ""
 "html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup</"
 "a> (struct <a class=\"el\" href=\"structlibusb__transfer.html"
 "\">libusb_transfer</a> *transfer)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:128
@@ -458,7 +458,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:138
 #: source/api-1.0/group__libusb__asyncio.html:140
 msgid "static void&#160;"
-msgstr ""
+msgstr "static void&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:128
@@ -467,7 +467,7 @@ msgid ""
 "html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup</a> "
 "(unsigned char *buffer, uint8_t bmRequestType, uint8_t bRequest, uint16_t "
 "wValue, uint16_t wIndex, uint16_t wLength)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup</a> (unsigned char *buffer, uint8_t bmRequestType, uint8_t bRequest, uint16_t wValue, uint16_t wIndex, uint16_t wLength)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:130
@@ -481,7 +481,7 @@ msgid ""
 "\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
 "callback, void *user_data, unsigned int timeout)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, unsigned char *buffer, <a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> callback, void *user_data, unsigned int timeout)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:132
@@ -495,7 +495,7 @@ msgid ""
 "class=\"el\" href=\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
 "callback, void *user_data, unsigned int timeout)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, unsigned char endpoint, unsigned char *buffer, int length, <a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> callback, void *user_data, unsigned int timeout)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:134
@@ -509,7 +509,7 @@ msgid ""
 "*buffer, int length, <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
 "callback, void *user_data, unsigned int timeout)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, unsigned char endpoint, uint32_t stream_id, unsigned char *buffer, int length, <a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> callback, void *user_data, unsigned int timeout)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:136
@@ -523,7 +523,7 @@ msgid ""
 "class=\"el\" href=\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
 "callback, void *user_data, unsigned int timeout)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, unsigned char endpoint, unsigned char *buffer, int length, <a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> callback, void *user_data, unsigned int timeout)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:138
@@ -537,7 +537,7 @@ msgid ""
 "num_iso_packets, <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
 "callback, void *user_data, unsigned int timeout)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga30fdce8c461e851f0aa4c851014e1aa7\">libusb_fill_iso_transfer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, <a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle, unsigned char endpoint, unsigned char *buffer, int length, int num_iso_packets, <a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> callback, void *user_data, unsigned int timeout)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:140
@@ -546,7 +546,7 @@ msgid ""
 "html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths</a> "
 "(struct <a class=\"el\" href=\"structlibusb__transfer.html"
 "\">libusb_transfer</a> *transfer, unsigned int length)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, unsigned int length)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:142
@@ -555,7 +555,7 @@ msgid ""
 "html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer</a> "
 "(struct <a class=\"el\" href=\"structlibusb__transfer.html"
 "\">libusb_transfer</a> *transfer, unsigned int packet)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, unsigned int packet)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:144
@@ -565,17 +565,17 @@ msgid ""
 "\">libusb_get_iso_packet_buffer_simple</a> (struct <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, unsigned int "
 "packet)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple</a> (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer, unsigned int packet)"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:147
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:147
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:148
@@ -586,7 +586,7 @@ msgid ""
 "issues surrounding use of this interface. Simplistic applications may wish "
 "to consider the <a class=\"el\" href=\"group__libusb__syncio.html"
 "\">synchronous I/O API</a> instead."
-msgstr ""
+msgstr "このページでは、USBデバイス入出力O用のlibusbの非同期(非ブロッキング)APIについて詳しく説明します。 このインターフェイスは非常に強力ですが、非常に複雑でもあります。このページを注意深く読んで、このインターフェイスの使用に関する必要な考慮事項と問題を理解する必要があります。 単純なアプリケーションでは、代わりに <a class=\"el\" href=\"group__libusb__syncio.html\">同期入出力API</a> を検討することをお勧めします。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:149
@@ -597,12 +597,12 @@ msgid ""
 "submission and completion, however the asynchronous submission function is "
 "non-blocking so will return control to your application during that "
 "potentially long delay."
-msgstr ""
+msgstr "非同期インターフェースは、転送の送信と転送の完了の処理を分離するという考えに基づいて構築されています(同期モデルはこれらの両方を1つに結合します)。 送信から完了までに長い遅延が発生する可能性がありますが、非同期送信機能は非ブロッキングであるため、その潜在的に長い遅延の間にアプリケーションに制御を戻します。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:150
 msgid "<a class=\"anchor\" id=\"asyncabstraction\"></a> Transfer abstraction"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncabstraction\"></a> 転送の抽象化"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:152
@@ -611,31 +611,31 @@ msgid ""
 "transfer entity for all types of I/O (control, bulk, interrupt, "
 "isochronous). The generic transfer object must be treated slightly "
 "differently depending on which type of I/O you are performing with it."
-msgstr ""
+msgstr "非同期入出力の場合、libusbは、すべてのタイプの入出力(制御、バルク、割り込み、アイソクロナス)の汎用転送エンティティの概念を実装します。汎用転送オブジェクトは、それを使用して実行している入出力のタイプに応じて、多少異なる方法で処理する必要があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:153
 msgid ""
 "This is represented by the public <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> structure type."
-msgstr ""
+msgstr "これは、 public <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> 構造体タイプで表されます。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:154
 msgid "<a class=\"anchor\" id=\"asynctrf\"></a> Asynchronous transfers"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asynctrf\"></a> 非同期転送"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:156
 msgid "We can view asynchronous I/O as a 5 step process:"
-msgstr ""
+msgstr "非同期入出力は5ステップのプロセスと見なすことができます:"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:157
 msgid ""
 "<b>Allocation</b>: allocate a <a class=\"el\" href=\"structlibusb__transfer."
 "html\">libusb_transfer</a>"
-msgstr ""
+msgstr "<b>割り当て</b>: <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> を割り当てます"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:158
@@ -643,29 +643,29 @@ msgid ""
 "<b>Filling</b>: populate the <a class=\"el\" href=\"structlibusb__transfer."
 "html\">libusb_transfer</a> instance with information about the transfer you "
 "wish to perform"
-msgstr ""
+msgstr "<b>情報入力</b>: その <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> インスタンスに実行したい転送に関する情報を入力します"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:159
 msgid "<b>Submission</b>: ask libusb to submit the transfer"
-msgstr ""
+msgstr "<b>送信</b>: libusbに送信(submit)を依頼する"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:160
 msgid ""
 "<b>Completion handling</b>: examine transfer results in the <a class=\"el\" "
 "href=\"structlibusb__transfer.html\">libusb_transfer</a> structure"
-msgstr ""
+msgstr "<b>完了処理</b>: <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> 構造体で転送結果を調べます"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:161
 msgid "<b>Deallocation</b>: clean up resources"
-msgstr ""
+msgstr "<b>割り当て解除</b>: リソースをクリーンアップします"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:163
 msgid "<a class=\"anchor\" id=\"asyncalloc\"></a> Allocation"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncalloc\"></a> 割り当て"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:165
@@ -673,7 +673,7 @@ msgid ""
 "This step involves allocating memory for a USB transfer. This is the generic "
 "transfer object mentioned above. At this stage, the transfer is \"blank\" "
 "with no details about what type of I/O it will be used for."
-msgstr ""
+msgstr "このステップには、USB転送用のメモリの割り当てが含まれます。 これは、前述した一般的な転送オブジェクトです。この段階では、転送は「空白」であり、使用される入出力タイプに関する詳細はありません。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:166
@@ -682,12 +682,12 @@ msgid ""
 "html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> "
 "function. You must use this function rather than allocating your own "
 "transfers."
-msgstr ""
+msgstr "割り当ては、 <a class=\"el\" href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> 関数を使用して行われます。 あなた独自の転送の割り当てではなく、この関数を使用する必要があります。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:167
 msgid "<a class=\"anchor\" id=\"asyncfill\"></a> Filling"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncfill\"></a> 情報入力"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:169
@@ -695,7 +695,7 @@ msgid ""
 "This step is where you take a previously allocated transfer and fill it with "
 "information to determine the message type and direction, data buffer, "
 "callback function, etc."
-msgstr ""
+msgstr "このステップでは、先程割り当てられた転送を取得し、メッセージ・タイプと方向(訳注:入力か出力か)、データ・バッファー、コールバック関数などの情報を入力します。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:170
@@ -708,12 +708,12 @@ msgid ""
 "and <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer()</"
 "a>."
-msgstr ""
+msgstr "あなたは必要なフィールドに自分で入力するか、ヘルパー関数を使用できます: <a class=\"el\" href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a> と <a class=\"el\" href=\"group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer()</a> と <a class=\"el\" href=\"group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer()</a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:171
 msgid "<a class=\"anchor\" id=\"asyncsubmit\"></a> Submission"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncsubmit\"></a> 送信"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:173
@@ -723,40 +723,40 @@ msgid ""
 "html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a>. This "
 "function returns immediately but can be regarded as firing off the I/O "
 "request in the background."
-msgstr ""
+msgstr "転送を割り当て、入力したら、 <a class=\"el\" href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a> を使用して送信できます。この関数はすぐに戻りますが、バックグラウンドで入出力要求を実行しています。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:174
 msgid "<a class=\"anchor\" id=\"asynccomplete\"></a> Completion handling"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asynccomplete\"></a> 完了処理"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:176
 msgid ""
 "After a transfer has been submitted, one of four things can happen to it:"
-msgstr ""
+msgstr "転送データを送信開始した後、次の4つのいずれかが発生する可能性があります:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:178
 msgid "The transfer completes (i.e. some data was transferred)"
-msgstr ""
+msgstr "転送が完了しました(つまり、いくつかのデータが転送されました)"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:179
 msgid ""
 "The transfer has a timeout and the timeout expires before all data is "
 "transferred"
-msgstr ""
+msgstr "転送にはタイムアウトがあり、すべてのデータが転送される前にタイムアウトが期限切れになる事があります"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:180
 msgid "The transfer fails due to an error"
-msgstr ""
+msgstr "エラーが原因で転送が失敗"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:181
 msgid "The transfer is cancelled"
-msgstr ""
+msgstr "転送処理がキャンセルされた"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:183
@@ -764,7 +764,7 @@ msgid ""
 "Each of these will cause the user-specified transfer callback function to be "
 "invoked. It is up to the callback function to determine which of the above "
 "actually happened and to act accordingly."
-msgstr ""
+msgstr "これらそれぞれに対してユーザー指定の転送コールバック関数が呼び出されます。上記のどれが実際に起こったかを判断し、それに応じて行動するのはコールバック関数次第です。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:184
@@ -776,7 +776,7 @@ msgid ""
 "number of bytes of data transferred, etc. See the <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> structure documentation "
 "for more information."
-msgstr ""
+msgstr "ユーザー指定のコールバックには、転送の情報入力時と送信時に使用された <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> 構造体へのポインタが渡されます。 完了時にlibusbはこの構造体に転送の結果(成功または失敗の理由、転送されたデータのバイト数など)を入力します。詳細については、 <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> 構造体の文書を参照してください。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:185
@@ -787,12 +787,12 @@ msgid ""
 "functions are any listed in the <a class=\"el\" href=\"group__libusb__syncio."
 "html\">synchronous API</a> and any of the blocking functions that retrieve "
 "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>."
-msgstr ""
+msgstr "<b>重要</b>: ユーザー指定のコールバックは、イベント処理コンテキストから呼び出されます。したがって、イベント処理を実行しようとするlibusbへの呼び出しが行われないことが重要です。このような関数の例としては、 <a class=\"el\" href=\"group__libusb__syncio.html\">同期API</a> にリストされているものや、 <a class=\"el\" href=\"group__libusb__desc.html\">USBデスクリプター</a> を取得するブロッキング関数があります。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:186
 msgid "<a class=\"anchor\" id=\"Deallocation\"></a> Deallocation"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"Deallocation\"></a> 割り当て解除"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:188
@@ -802,17 +802,17 @@ msgid ""
 "below). Transfers are deallocated with <a class=\"el\" href="
 "\"group__libusb__asyncio."
 "html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>."
-msgstr ""
+msgstr "転送が完了したら(つまり、コールバック関数が呼び出されたら)、その転送を解放することをお勧めします(再送信する場合を除き、以下を参照してください)。 転送は、 <a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> で割り当て解除されます。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:189
 msgid "It is undefined behaviour to free a transfer which has not completed."
-msgstr ""
+msgstr "完了していない転送を解放することは未定義の動作です。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:190
 msgid "<a class=\"anchor\" id=\"asyncresubmit\"></a> Resubmission"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncresubmit\"></a> 再送信"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:192
@@ -820,7 +820,7 @@ msgid ""
 "You may be wondering why allocation, filling, and submission are all "
 "separated above where they could reasonably be combined into a single "
 "operation."
-msgstr ""
+msgstr "これらを1つの操作に合理的に組み合わせることができるのに、割り当て・情報入力・送信がすべて分離されているのはなぜか疑問に思われるかもしれません。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:193
@@ -830,12 +830,12 @@ msgid ""
 "situations dealing with interrupt endpoints - you allocate one transfer, "
 "fill and submit it, and when it returns with results you just resubmit it "
 "for the next interrupt."
-msgstr ""
+msgstr "分離してある理由は、毎回新しい転送を割り当てることなく、転送を再送信できるようにするためです。 これは、割り込みエンドポイントを扱う一般的な状況で特に役立ちます。1つの転送を割り当て、それを入力して送信し、結果が返されたら、次の割り込みのために再送信するだけです。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:194
 msgid "<a class=\"anchor\" id=\"asynccancel\"></a> Cancellation"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asynccancel\"></a> キャンセル"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:196
@@ -845,7 +845,7 @@ msgid ""
 "calling the <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer()</a> "
 "function."
-msgstr ""
+msgstr "非同期インターフェースを使用するもう1つの利点は、まだ完了していない転送をキャンセルできることです。 これは、 <a class=\"el\" href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer()</a> 関数を呼び出すことで実行されます。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:197
@@ -856,19 +856,19 @@ msgid ""
 "completes, the transfer's callback function will be invoked, and the "
 "callback function should check the transfer status to determine that it was "
 "cancelled."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54\">libusb_cancel_transfer()</a> それ自体が非同期/非ブロッキングです。 キャンセルが実際に完了すると、転送のコールバック関数が呼び出され、コールバック関数は転送ステータスをチェックして、キャンセルされたことを確認する必要があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:198
 msgid ""
 "Freeing the transfer after it has been cancelled but before cancellation has "
 "completed will result in undefined behaviour."
-msgstr ""
+msgstr "キャンセル後、キャンセルが完了する前に転送を解放すると、未定義の動作が発生します。"
 
 #. type: Content of: <html><body><div><dl><dt>
 #: source/api-1.0/group__libusb__asyncio.html:199
 msgid "Attention"
-msgstr ""
+msgstr "注意"
 
 #. type: Content of: <html><body><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:199
@@ -876,14 +876,14 @@ msgid ""
 "When a transfer is cancelled, some of the data may have been transferred. "
 "libusb will communicate this to you in the transfer callback. <b>Do not "
 "assume that no data was transferred.</b>"
-msgstr ""
+msgstr "転送がキャンセルされた場合、一部のデータが転送された可能性があります。 libusbは、転送コールバックでこれを通知します。 <b>転送されたデータ無かったという想定はしないでください。</ b>"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:200
 msgid ""
 "<a class=\"anchor\" id=\"asyncpartial\"></a> Partial data transfer resulting "
 "from cancellation"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncpartial\"></a> キャンセルによる部分的なデータ転送"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:202
@@ -897,7 +897,7 @@ msgid ""
 "transfer is cancelled while the device is transferring data, a subset of "
 "these frames may be descheduled from the host controller before the device "
 "has the opportunity to finish transferring data to the host."
-msgstr ""
+msgstr "上記のように、一部のデータは転送がキャンセルされたときに既に転送された可能性があります。 パケット・サイズが64バイトのエンドポイントへの一括転送を検討する場合、これがどのように可能であるかを確認すると役立ちます。このエンドポイントに512バイトの転送を送信すると、オペレーティング・システムは、この転送を8つの個別の64バイトフレームに分割し、ホスト・コントローラーがデバイスがデータを転送するようにスケジュールします。 デバイスがデータを転送しているときにこの転送がキャンセルされた場合、デバイスがホストへのデータの転送を完了する前に、これらのフレームの部分がホスト・コントローラーからスケジュール解除される可能性があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:203
@@ -907,24 +907,24 @@ msgid ""
 "application. The data that was successfully transferred should be considered "
 "entirely valid, but your application must decide what to do with the "
 "remaining data that was not transferred. Some possible actions to take are:"
-msgstr ""
+msgstr "部分的なデータ転送でアプリケーションが行うべきことは、ポリシーの決定です。 すべてのアプリケーションの需要を満たす単一の答えはありません。 正常に転送されたデータは完全に有効であると見なす必要があります。しかし、アプリケーションは、転送されなかった残りのデータをどう処理するかを決定する必要があります。実行できる行動は以下のとおりです:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:204
 msgid ""
 "Resubmit another transfer for the remaining data, possibly with a shorter "
 "timeout"
-msgstr ""
+msgstr "残りのデータの別の転送を再送信します。タイムアウトを短くすることもできます"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:205
 msgid "Discard the partially transferred data and report an error"
-msgstr ""
+msgstr "部分的に転送されたデータを破棄し、エラーを報告します"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:207
 msgid "<a class=\"anchor\" id=\"asynctimeout\"></a> Timeouts"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asynctimeout\"></a> タイムアウト"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:209
@@ -935,14 +935,14 @@ msgid ""
 "some of the data may actually have been transferred. Your application should "
 "<b>always</b> check how much data was actually transferred once the transfer "
 "completes and act accordingly."
-msgstr ""
+msgstr "転送がタイムアウトすると、libusbはこれを内部的に記録し、転送をキャンセルしようとします。 <a class=\"el\" href=\"group__libusb__asyncio.html#asyncpartial\">上述e</a>されているように、一部のデータは実際に転送された可能性があります。アプリケーションは、転送が完了したら、<b>常に</b>実際に転送されたデータの量を確認し、それに応じて動作する必要があります。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:210
 msgid ""
 "<a class=\"anchor\" id=\"bulk_overflows\"></a> Overflows on device-to-host "
 "bulk/interrupt endpoints"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"bulk_overflows\"> デバイスからホスト方向のバルクまたは割り込みエンドポイントでのオーバーフロー"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:212
@@ -953,14 +953,14 @@ msgid ""
 "this will cause an overflow, which is a nasty condition to deal with. See "
 "the <a class=\"el\" href=\"libusb_packetoverflow.html\">Packets and "
 "overflows</a> page for discussion."
-msgstr ""
+msgstr "デバイスに推測可能な転送サイズがない場合(またはデバイスが誤動作する場合)、アプリケーションは、デバイスが送信したいデータよりも小さいINエンドポイントでデータの要求を送信する場合があります。状況によっては、これによりオーバーフローが発生し、対処するのが厄介な状態になります。この議論については、 <a class=\"el\" href=\"libusb_packetoverflow.html\">パケットとオーバーフロー</a> ページを参照してください。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:213
 msgid ""
 "<a class=\"anchor\" id=\"asyncctrl\"></a> Considerations for control "
 "transfers"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncctrl\"></a> 制御転送に関する考慮"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:215
@@ -968,7 +968,7 @@ msgid ""
 "The <code><a class=\"el\" href=\"structlibusb__transfer.html"
 "\">libusb_transfer</a></code> structure is generic and hence does not "
 "include specific fields for the control-specific setup packet structure."
-msgstr ""
+msgstr "<code><a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a></code> 構造は汎用であるため、制御転送固有のセットアップ・パケット構造体の特定のフィールドは含まれていません。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:216
@@ -979,7 +979,7 @@ msgid ""
 "\"structlibusb__control__setup.html\">libusb_control_setup</a>, or you can "
 "use the helper function <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a>."
-msgstr ""
+msgstr "制御転送を実行するには、8バイトのセットアップ・パケットをデータ・バッファの先頭に配置する必要があります。これを単純化するために、バッファ・ポインタを型 struct  にキャストするか、ヘルパー関数 <a class=\"el\" href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> を使用できます。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:217
@@ -991,19 +991,19 @@ msgid ""
 "\">libusb_transfer</a> object must be the length of the data buffer - i.e. "
 "it should be wLength <em>plus</em> the size of the setup packet "
 "(LIBUSB_CONTROL_SETUP_SIZE)."
-msgstr ""
+msgstr "セットアップ・パケットに配置されるwLengthフィールドは、セットアップ・パケットで送信されると予想される長さ、つまり後続のペイロードの長さ(または受信すると予想される最大バイト数)である必要があります。 ただし、 <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> オブジェクトのlengthフィールドは、データ・バッファの長さである必要があります。つまり、wLengthにセットアップ・パケットのサイズを<em>加えた</em>ものである必要があります(LIBUSB_CONTROL_SETUP_SIZE)。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:218
 msgid "If you use the helper functions, this is simplified for you:"
-msgstr ""
+msgstr "ヘルパー関数を使用する場合、これは以下のように単純化されます:"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:219
 msgid ""
 "Allocate a buffer of size LIBUSB_CONTROL_SETUP_SIZE plus the size of the "
 "data you are sending/requesting."
-msgstr ""
+msgstr "サイズ値LIBUSB_CONTROL_SETUP_SIZEに、送信/要求するデータのサイズを加えて、バッファーを割り当てます。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:220
@@ -1012,14 +1012,14 @@ msgid ""
 "html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> on "
 "the data buffer, using the transfer request size as the wLength value (i.e. "
 "do not include the extra space you allocated for the control setup)."
-msgstr ""
+msgstr "転送要求のサイズをwLength値として使用して、データ・バッファーで <a class=\"el\" href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> を呼び出します(つまり、制御転送セットアップに割り当てた余分なスペースを含めないでください)。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:221
 msgid ""
 "If this is a host-to-device transfer, place the data to be transferred in "
 "the data buffer, starting at offset LIBUSB_CONTROL_SETUP_SIZE."
-msgstr ""
+msgstr "これがホストからデバイス方向の転送である場合は、オフセットLIBUSB_CONTROL_SETUP_SIZEから開始して、転送するデータをデータ・バッファーに配置します。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:222
@@ -1028,19 +1028,19 @@ msgid ""
 "html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a> "
 "to associate the data buffer with the transfer (and to set the remaining "
 "details such as callback and timeout)."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a> を呼び出して、データ・バッファーを転送に関連付けます(そして、コールバックやタイムアウトなどの残りの詳細を設定します)。"
 
 #. type: Content of: <html><body><div><ol><li><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:223
 msgid ""
 "Note that there is no parameter to set the length field of the transfer. The "
 "length is automatically inferred from the wLength field of the setup packet."
-msgstr ""
+msgstr "注意: 転送の長さフィールドを設定するパラメータがないことに注意してください。 長さは、セットアップ・パケットのwLengthフィールドから自動的に推測されます。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:226
 msgid "Submit the transfer."
-msgstr ""
+msgstr "その転送を送信する。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:228
@@ -1051,28 +1051,28 @@ msgid ""
 "\"group__libusb__asyncio."
 "html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> "
 "which is documented to accept host-endian values."
-msgstr ""
+msgstr "マルチバイト制御セットアップ・フィールド( wValue と wIndex と wLength )は、リトル・エンディアンのバイト順序(USBバスのエンディアン)で指定する必要があります。エンディアン変換は、ホスト・エンディアン値を受け入れるように文書化されている <a class=\"el\" href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> によって透過的に処理されます。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:229
 msgid ""
 "Further considerations are needed when handling transfer completion in your "
 "callback function:"
-msgstr ""
+msgstr "コールバック関数で転送の完了を処理する場合は、さらに考慮が必要です。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:230
 msgid ""
 "As you might expect, the setup packet will still be sitting at the start of "
 "the data buffer."
-msgstr ""
+msgstr "ご存知のとおり、セットアップ・パケットはデータ・バッファの先頭にあります。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:231
 msgid ""
 "If this was a device-to-host transfer, the received data will be sitting at "
 "offset LIBUSB_CONTROL_SETUP_SIZE into the buffer."
-msgstr ""
+msgstr "これがデバイスからホスト方向への転送であった場合、受信したデータはオフセットLIBUSB_CONTROL_SETUP_SIZE位置からバッファーに格納されます。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:232
@@ -1082,7 +1082,7 @@ msgid ""
 "wLength was 4, your transfer's <code>length</code> was 12, then you should "
 "expect an <code>actual_length</code> of 4 to indicate that the data was "
 "transferred in entirety."
-msgstr ""
+msgstr "転送構造体のactual_lengthフィールドは、データ・バッファのサイズではなく、セットアップ・パケットのwLengthに関連しています。 したがって、wLengthが4の場合、転送の <code>length</code> は12であり、データが完全に転送されたことを示す <code>actual_length</code> が4であると予想する必要があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:234
@@ -1094,7 +1094,7 @@ msgid ""
 "\"group__libusb__asyncio."
 "html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup()</"
 "a> functions within your transfer callback."
-msgstr ""
+msgstr "セットアップパケットの解析と正しいオフセットからのデータの取得を簡素化するために、転送コールバック内で <a class=\"el\" href=\"group__libusb__asyncio.html#gadf9c633586dde54ce62a3d66a4d7554c\">libusb_control_transfer_get_data()</a> 関数と <a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab02f15e11b5b03b1174fbd7c3bc061\">libusb_control_transfer_get_setup()</a> 関数を使用することをお勧めします。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:235
@@ -1102,35 +1102,35 @@ msgid ""
 "Even though control endpoints do not halt, a completed control transfer may "
 "have a LIBUSB_TRANSFER_STALL status code. This indicates the control request "
 "was not supported."
-msgstr ""
+msgstr "制御エンドポイントが停止しない場合でも、完了した制御転送にはLIBUSB_TRANSFER_STALLステータス・コードが含まれる場合があります。これは、制御要求がサポートされていなかったことを示します。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:236
 msgid ""
 "<a class=\"anchor\" id=\"asyncintr\"></a> Considerations for interrupt "
 "transfers"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncintr\"></a> 割り込み転送に関する考慮"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:238
 msgid ""
 "All interrupt transfers are performed using the polling interval presented "
 "by the bInterval value of the endpoint descriptor."
-msgstr ""
+msgstr "すべての割り込み転送は、エンドポイント・デスクリプターのbInterval値によって示されるポーリング間隔を使用して実行されます。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:239
 msgid ""
 "<a class=\"anchor\" id=\"asynciso\"></a> Considerations for isochronous "
 "transfers"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asynciso\"></a> アイソクロナス転送に関する考慮"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:241
 msgid ""
 "Isochronous transfers are more complicated than transfers to non-isochronous "
 "endpoints."
-msgstr ""
+msgstr "アイソクロナス転送は、非アイソクロナス・エンドポイントへの転送よりも更に複雑です。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:242
@@ -1139,7 +1139,7 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> with "
 "an appropriate number of isochronous packets."
-msgstr ""
+msgstr "アイソクロナス・エンドポイントへの入出力を実行するには、適切な数のアイソクロナス・パケットを使用して <a class=\"el\" href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> を呼び出して転送を割り当てます。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:243
@@ -1155,7 +1155,7 @@ msgid ""
 "html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> does "
 "not set either of these fields for you, given that you might not even use "
 "the transfer on an isochronous endpoint."
-msgstr ""
+msgstr "情報入力で、 <a class=\"el\" href=\"structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1\">type</a> に <a class=\"el\" href=\"group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300\">LIBUSB_TRANSFER_TYPE_ISOCHRONOUS</a> をセットし、 <a class=\"el\" href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">num_iso_packets</a> に割り当て中に要求したパケット数以下の値をセットします。 <a class=\"el\" href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> は、アイソクロナス・エンドポイントで転送を使用しない可能性があるため、これらのフィールドのどちらも設定しません。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:244
@@ -1166,7 +1166,7 @@ msgid ""
 "5.6.3 of the USB2 specifications describe how the maximum isochronous packet "
 "length is determined by the wMaxPacketSize field in the endpoint descriptor. "
 "Two functions can help you here:"
-msgstr ""
+msgstr "次に、 <a class=\"el\" href=\"structlibusb__transfer.html#a3b72ef736d32b94a7097798612741644\">iso_packet_desc</a> 配列の最初のnum_iso_packetsエントリのlengthフィールドに入力します。 USB2仕様の5.6.3節(Section 5.6.3 of the USB2 specifications)では、エンドポイント・デスクリプターのwMaxPacketSizeフィールドによって最大アイソクロナス・パケット長がどのように決定されるかについて説明しています。ここで以下の2つの機能が役に立ちます:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:246
@@ -1178,7 +1178,7 @@ msgid ""
 "of bytes that can be transmitted in a single microframe, therefore this "
 "function multiplies the maximum number of bytes per transaction by the "
 "number of transaction opportunities per microframe."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size()</a> は、アイソクロナス・エンドポイントの最大パケット・サイズを決定する簡単な方法です。最大パケットサイズは、実際には1つのマイクロ・フレームで送信できる最大バイト数であるため、この関数は、トランザクションあたりの最大バイト数にマイクロフレームあたりの取引機会の数(number of transaction opportunities)を掛けることに注意してください。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:247
@@ -1187,7 +1187,7 @@ msgid ""
 "html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</"
 "a> assigns the same length to all packets within a transfer, which is "
 "usually what you want."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</a> は、転送内のすべてのパケットに同じ長さを割り当てます。これは通常、あなたが必要としている事です。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:249
@@ -1196,7 +1196,7 @@ msgid ""
 "packet descriptors in hope that all the data gets transferred. For incoming "
 "transfers, you must ensure the buffer has sufficient capacity for the "
 "situation where all packets transfer the full amount of requested data."
-msgstr ""
+msgstr "こちらから相手への発信する転送の場合、すべてのデータが転送されることを期待して、あなたは確実にバッファを埋め、パケット・デスクリプターを入力します。逆に着信転送の場合、すべてのパケットが要求されたデータの全量を転送する状況に対して、バッファーに十分な容量があることを確認する必要があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:250
@@ -1208,7 +1208,7 @@ msgid ""
 "to the <a class=\"el\" href=\"structlibusb__iso__packet__descriptor."
 "html#a03fa4f4eaf8a8b4e5c05931809581a32\">actual_length</a> field of each "
 "individual packet."
-msgstr ""
+msgstr "完了処理には、追加の考慮事項が必要です。 転送の <a class=\"el\" href=\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">actual_length</a> フィールドは無意味であるため、調べる必要はありません。 代わりに、個々のパケットの <a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32\">actual_length</a> フィールドを参照する必要があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:251
@@ -1216,7 +1216,7 @@ msgid ""
 "The <a class=\"el\" href=\"structlibusb__transfer."
 "html#a64b2e70e76d52a7cd23daa3cd4fb397e\">status</a> field of the transfer is "
 "also a little misleading:"
-msgstr ""
+msgstr "転送の <a class=\"el\" href=\"structlibusb__transfer.html#a64b2e70e76d52a7cd23daa3cd4fb397e\">status</a> フィールドも少々誤解を招く可能性があります:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:252
@@ -1231,7 +1231,7 @@ msgid ""
 "\"structlibusb__iso__packet__descriptor."
 "html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a> field of each individual "
 "packet to determine packet failures."
-msgstr ""
+msgstr "パケットが送信され、アイソクロナス・データ・マイクロ・フレームが正常に完了した場合、 status の値は <a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363\">LIBUSB_TRANSFER_COMPLETED</a> になります。 バス・エラーと、ソフトウェアで発生した遅延は、転送エラーとしてカウントされないことに注意してください。 transfer.status フィールドは、パケットの一部またはすべてが失敗した場合でも COMPLETED を示す場合があります。 個々のパケットの <a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a> フィールドを参照して、パケットの障害を特定します。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:253
@@ -1240,12 +1240,12 @@ msgid ""
 "\"group__libusb__asyncio."
 "html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\">LIBUSB_TRANSFER_ERROR</"
 "a> only when serious errors were encountered."
-msgstr ""
+msgstr "status フィールドの値は、重大なエラーが発生した場合にのみ <a class=\"el\" href=\"group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\">LIBUSB_TRANSFER_ERROR</a> になります。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:254
 msgid "Other transfer status codes occur with normal behaviour."
-msgstr ""
+msgstr "その他の転送ステータス・コードは、通常の動作で発生します。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:256
@@ -1257,12 +1257,12 @@ msgid ""
 "and <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga3df9a28c4f5c8f1850181ddb5efd12fd"
 "\">libusb_get_iso_packet_buffer_simple()</a> functions may help you here."
-msgstr ""
+msgstr "各パケットのデータは、その直前のパケットが完全に完了したはずの位置で見つかります。 <a class=\"el\" href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer()</a> 関数と <a class=\"el\" href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple()</a> 関数が役に立つ事でしょう。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:257
 msgid "<a class=\"anchor\" id=\"asynclimits\"></a> Transfer length limitations"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asynclimits\"></a> 転送長さ制限"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:259
@@ -1277,29 +1277,29 @@ msgid ""
 "\"group__libusb__misc."
 "html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\">LIBUSB_ERROR_INVALID_PARAM</"
 "a>."
-msgstr ""
+msgstr "一部のオペレーティング・システムでは、転送データ・バッファの長さ、またはアイソクロナス転送の場合は個々のアイソクロナス・パケットの長さに制限を課す場合があります。このような制限はlibusbが検出するのが難しい場合があるため、ほとんどの場合、ライブラリはユーザーが設定した転送で送信しようとします。転送が大きすぎるために送信に失敗した場合、 <a class=\"el\" href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a> は <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\">LIBUSB_ERROR_INVALID_PARAM</a> を返します。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:260
 msgid ""
 "The following are known limits for control transfer lengths. Note that this "
 "length includes the 8-byte setup packet."
-msgstr ""
+msgstr "以下は、制御転送長の既知の制限です。この長さには、8バイトのセットアップ・パケットが含まれていることに注意してください。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:261
 msgid "Linux (4,096 bytes)"
-msgstr ""
+msgstr "Linux (4,096 bytes)"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:262
 msgid "Windows (4,096 bytes)"
-msgstr ""
+msgstr "Windows (4,096 bytes)"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:264
 msgid "<a class=\"anchor\" id=\"asyncmem\"></a> Memory caveats"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncmem\"></a> メモリに関する警告"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:266
@@ -1309,7 +1309,7 @@ msgid ""
 "transfer may return before libusb has finished using the buffer, and when "
 "the function returns it's stack gets destroyed. This is true for both host-"
 "to-device and device-to-host transfers."
-msgstr ""
+msgstr "ほとんどの場合、転送バッファにスタック・メモリを使用することは安全ではありません。これは、非同期転送を開始した関数が、libusbがバッファーの使用を終了する前に戻る可能性があり、関数が戻ると、そのスタックは破棄されるためです。これは、ホストからデバイスへの転送とデバイスからホストへの転送の両方に当てはまります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:267
@@ -1318,12 +1318,12 @@ msgid ""
 "guarantee that the function owning the stack space for the buffer does not "
 "return until after the transfer's callback function has completed. In every "
 "other case, you need to use heap memory instead."
-msgstr ""
+msgstr "スタック・メモリを安全に使用できる唯一のケースは、バッファのスタック・スペースを所有する関数が、転送のコールバック関数が完了するまで戻らないことを保証できる場合です。それ以外の場合は、代わりにヒープ・メモリを使用する必要があります。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:268
 msgid "<a class=\"anchor\" id=\"asyncflags\"></a> Fine control"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncflags\"></a> 繊細な制御"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:270
@@ -1331,7 +1331,7 @@ msgid ""
 "Through using this asynchronous interface, you may find yourself repeating a "
 "few simple operations many times. You can apply a bitwise OR of certain "
 "flags to a transfer to simplify certain things:"
-msgstr ""
+msgstr "この非同期インターフェースを使用すると、いくつかの簡単な操作を何度も繰り返すことに気付くかもしれません。転送でflagの特定のビットごとのORをセットして、特定の操作を単純化できます:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:271
@@ -1342,7 +1342,7 @@ msgid ""
 "data being marked with status <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\">LIBUSB_TRANSFER_ERROR</"
 "a> (they would normally be regarded as COMPLETED)"
-msgstr ""
+msgstr "LIBUSB_TRANSFER_SHORT_NOT_OKは、要求された量より少ないデータしか転送しなかった場合で、 statusがLIBUSB_TRANSFER_ERRORの場合にセットされる事があります(通常は完了(COMPLETED)と見なされます)。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:272
@@ -1351,7 +1351,7 @@ msgid ""
 "html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</"
 "a> allows you to ask libusb to free the transfer buffer when freeing the "
 "transfer."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</a> を使用すると、転送を解放するときにlibusbに転送バッファーを解放するように要求できます。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/group__libusb__asyncio.html:273
@@ -1360,12 +1360,12 @@ msgid ""
 "html#gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\">LIBUSB_TRANSFER_FREE_TRANSFER</"
 "a> causes libusb to automatically free the transfer after the transfer "
 "callback returns."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\">LIBUSB_TRANSFER_FREE_TRANSFER</a> により、libusbは転送後に転送を自動的に解放します。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:275
 msgid "<a class=\"anchor\" id=\"asyncevent\"></a> Event handling"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"asyncevent\"></a> イベント処理"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:277
@@ -1373,8 +1373,9 @@ msgid ""
 "An asynchronous model requires that libusb perform work at various points in "
 "time - namely processing the results of previously-submitted transfers and "
 "invoking the user-supplied callback function."
-msgstr ""
+msgstr "非同期モデルでは、libusbがさまざまな時点で作業を実行する必要があります。つまり、以前に送信された転送の結果を処理し、ユーザーが指定したコールバック関数を呼び出します。"
 
+# ?? raiseがいまいちわからん
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:278
 msgid ""
@@ -1383,12 +1384,12 @@ msgid ""
 "function which your application must call into when libusb has work do to. "
 "This gives libusb the opportunity to reap pending transfers, invoke "
 "callbacks, etc."
-msgstr ""
+msgstr "これにより、libusbが機能するときにあなたのアプリケーションが呼び出す必要のある <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> 関数が生起されます。これにより、libusbは保留中の転送を取得したり、コールバックを呼び出したりすることができます。"
 
 #. type: Content of: <html><body><div><dl><dt>
 #: source/api-1.0/group__libusb__asyncio.html:279
 msgid "Note"
-msgstr ""
+msgstr "注意"
 
 #. type: Content of: <html><body><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:279
@@ -1401,7 +1402,7 @@ msgid ""
 "class=\"el\" href=\"group__libusb__poll."
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
 "function."
-msgstr ""
+msgstr "すべてのイベント処理は、 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> 関数を呼び出すスレッドによって実行されます。 libusbは、このコンテキスト以外でコールバックを呼び出しません。したがって、コールバックはすべて、 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> 関数を呼び出すスレッドで実行されます。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:280
@@ -1410,7 +1411,7 @@ msgid ""
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> "
 "function depends on which model your application decides to use. The 2 "
 "different approaches:"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> 関数をいつ呼び出すかは、あなたのアプリケーションが使用することを決定したモデルによって異なります。2つの異なるアプローチがあります:"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:282
@@ -1418,14 +1419,14 @@ msgid ""
 "Repeatedly call <a class=\"el\" href=\"group__libusb__poll."
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> in "
 "blocking mode from a dedicated thread."
-msgstr ""
+msgstr "専用スレッドからブロッキング・モードで繰り返し <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> を呼び出します。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:283
 msgid ""
 "Integrate libusb with your application's main event loop. libusb exposes a "
 "set of file descriptors which allow you to do this."
-msgstr ""
+msgstr "libusbをアプリケーションのメイン・イベント・ループと統合します。 libusbは、これを可能にする一連のファイル・デスクリプターを公開します。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:285
@@ -1436,7 +1437,7 @@ msgid ""
 "approach, see the <a class=\"el\" href=\"group__libusb__asyncio."
 "html#eventthread\">Using an event handling thread</a> section below for "
 "details."
-msgstr ""
+msgstr "最初のアプローチには、選択/ポーリング統合用のlibusbのポーリングAPIが利用できない場合にWindowsでも機能するという大きな利点があります。 したがって、Windowsをサポートして非同期APIを使用する場合は、このアプローチを使用する必要があります。詳細については、以下の <a class=\"el\" href=\"group__libusb__asyncio.html#eventthread\">イベント処理スレッドの利用</a> を参照してください。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:286
@@ -1445,13 +1446,13 @@ msgid ""
 "see the <a class=\"el\" href=\"group__libusb__poll.html\">polling and "
 "timing</a> section for how to integrate libusb into your application's main "
 "event loop."
-msgstr ""
+msgstr "単一の中央イベント・ループを使用するシングル・スレッド・アプローチが必要な場合は、libusbをアプリケーションのメイン・イベント・ループに統合する方法について、 <a class=\"el\" href=\"group__libusb__poll.html\">ポーリングとタイミング</a> の節を参照してください。"
 
 #. type: Content of: <html><body><div><h1>
 #: source/api-1.0/group__libusb__asyncio.html:287
 msgid ""
 "<a class=\"anchor\" id=\"eventthread\"></a> Using an event handling thread"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"eventthread\"></a> 単一のイベント処理スレッドの使用"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:289
@@ -1459,45 +1460,45 @@ msgid ""
 "Lets begin with stating the obvious: If you're going to use a separate "
 "thread for libusb event handling, your callback functions MUST be thread-"
 "safe."
-msgstr ""
+msgstr "まず、明白であることから言うと、libusbイベント処理に別のスレッドを使用する場合、コールバック関数はスレッド・セーフでなければなりません。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:290
 msgid ""
 "Other then that doing event handling from a separate thread, is mostly "
 "simple. You can use an event thread function as follows:"
-msgstr ""
+msgstr "それ以外の場合、別のスレッドからイベント処理を行うのは割と簡単です。イベント・スレッド関数は以下のように使用できます:"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:290
 msgid ""
 "<span class=\"keywordtype\">void</span> *event_thread_func(<span class="
 "\"keywordtype\">void</span> *ctx)"
-msgstr ""
+msgstr "<span class=\"keywordtype\">void</span> *event_thread_func(<span class=\"keywordtype\">void</span> *ctx)"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:291
 #: source/api-1.0/group__libusb__asyncio.html:300
 #: source/api-1.0/group__libusb__asyncio.html:312
 msgid "{"
-msgstr ""
+msgstr "{"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:292
 msgid "<span class=\"keywordflow\">while</span> (event_thread_run)"
-msgstr ""
+msgstr "<span class=\"keywordflow\">while</span> (event_thread_run)"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:293
 msgid ""
 "<a class=\"code\" href=\"group__libusb__poll."
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>(ctx);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>(ctx);"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:295
 msgid "<span class=\"keywordflow\">return</span> NULL;"
-msgstr ""
+msgstr "<span class=\"keywordflow\">return</span> NULL;"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:297
@@ -1510,7 +1511,7 @@ msgid ""
 "class=\"el\" href=\"group__libusb__poll."
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> will "
 "not return."
-msgstr ""
+msgstr "ただし、注意点が1つあります。このスレッドを停止するには、event_thread_run変数を0に設定する必要があります。その後、 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> は制御をevent_thread_funcに戻す必要があります。 ただし、何らかのイベントが発生しない限り、 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> は処理を返しません。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:298
@@ -1518,7 +1519,7 @@ msgid ""
 "There are 2 different ways of dealing with this, depending on if your "
 "application uses libusb' <a class=\"el\" href=\"libusb_hotplug.html"
 "\">hotplug</a> support or not."
-msgstr ""
+msgstr "アプリケーションがlibusbの <a class=\"el\" href=\"libusb_hotplug.html\">活線挿抜(hotplug)</a> サポートを使用しているかどうかに応じて、これに対処する2つの異なる方法があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:299
@@ -1528,7 +1529,7 @@ msgid ""
 "\"group__libusb__dev."
 "html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>, and should stop "
 "the thread when closing the last open device as follows:"
-msgstr ""
+msgstr "活線挿抜(hotplug)サポートを使用しないアプリケーションは、 <a class=\"el\" href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> を最初に呼び出した直後まで、イベント・スレッドを開始しないでください。また、以下のように最後、オープンしていたデバイスをクローズしたときにスレッドを停止する必要があります:"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:299
@@ -1538,19 +1539,19 @@ msgid ""
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *<a class="
 "\"code\" href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a"
 "\">dev_handle</a>)"
-msgstr ""
+msgstr "<span class=\"keywordtype\">void</span> my_close_handle(<a class=\"code\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *<a class=\"code\" href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">dev_handle</a>)"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:301
 #: source/api-1.0/group__libusb__asyncio.html:306
 msgid "<span class=\"keywordflow\">if</span> (open_devs == 1)"
-msgstr ""
+msgstr "<span class=\"keywordflow\">if</span> (open_devs == 1)"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:302
 #: source/api-1.0/group__libusb__asyncio.html:313
 msgid "event_thread_run = 0;"
-msgstr ""
+msgstr "event_thread_run = 0;"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:304
@@ -1560,18 +1561,18 @@ msgid ""
 "href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a"
 "\">dev_handle</a>); <span class=\"comment\">// This wakes up "
 "libusb_handle_events()</span>"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a>(<a class=\"code\" href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">dev_handle</a>); <span class=\"comment\">// This wakes up libusb_handle_events()</span>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:307
 #: source/api-1.0/group__libusb__asyncio.html:315
 msgid "pthread_join(event_thread);"
-msgstr ""
+msgstr "pthread_join(event_thread);"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:309
 msgid "open_devs--;"
-msgstr ""
+msgstr "open_devs--;"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:311
@@ -1581,14 +1582,14 @@ msgid ""
 "\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab"
 "\">libusb_hotplug_register_callback()</a>, and should stop the thread at "
 "program exit as follows:"
-msgstr ""
+msgstr "活線挿抜サポートを使用するアプリケーションは、 <a class=\"el\" href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a> を正常に呼び出した後、プログラムのinitでスレッドを開始し、以下のとおりプログラムの終了時にスレッドを停止する必要があります:"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:311
 msgid ""
 "<span class=\"keywordtype\">void</span> my_libusb_exit(<span class="
 "\"keywordtype\">void</span>)"
-msgstr ""
+msgstr "<span class=\"keywordtype\">void</span> my_libusb_exit(<span class=\"keywordtype\">void</span>)"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:314
@@ -1597,24 +1598,24 @@ msgid ""
 "html#ga8110f57eab2064375934f1449b2602bc"
 "\">libusb_hotplug_deregister_callback</a>(ctx, hotplug_cb_handle); <span "
 "class=\"comment\">// This wakes up libusb_handle_events()</span>"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback</a>(ctx, hotplug_cb_handle); <span class=\"comment\">// This wakes up libusb_handle_events()</span>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:316
 msgid ""
 "<a class=\"code\" href=\"group__libusb__lib."
 "html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>(ctx);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>(ctx);"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:318
 msgid "Typedef Documentation"
-msgstr ""
+msgstr "Typedef解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:319
 msgid "<a id=\"gac74874519794cd7aa40c0814702b0c88\"></a>"
-msgstr ""
+msgstr "<a id=\"gac74874519794cd7aa40c0814702b0c88\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:320
@@ -1622,14 +1623,14 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gac74874519794cd7aa40c0814702b0c88\">&#9670;&nbsp;</a></"
 "span>libusb_transfer_cb_fn"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gac74874519794cd7aa40c0814702b0c88\">&#9670;&nbsp;</a></span>libusb_transfer_cb_fn"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:326
 msgid ""
 "typedef void( * libusb_transfer_cb_fn) (struct <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
-msgstr ""
+msgstr "typedef void( * libusb_transfer_cb_fn) (struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> *transfer)"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:330
@@ -1642,7 +1643,7 @@ msgid ""
 "libusb will call this function later, when the transfer has completed or "
 "failed. See <a class=\"el\" href=\"group__libusb__asyncio.html"
 "\">Asynchronous device I/O</a> for more information."
-msgstr ""
+msgstr "非同期転送コールバック関数型。非同期転送を送信するときは、 <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> 構造体の <a class=\"el\" href=\"structlibusb__transfer.html#a69c6df011ec23ff3e481cc98bfff0623\">callback</a> メンバーを介してこのタイプのコールバック関数へのポインタを渡します。 libusbは、転送が完了または失敗したときに、後でこの関数を呼び出します。 詳細については、 <a class=\"el\" href=\"group__libusb__asyncio.html\">非同期デバイス入出力</a> を参照してください。"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__asyncio.html:330
@@ -1668,8 +1669,9 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1466
 #: source/api-1.0/group__libusb__asyncio.html:1514
 msgid "Parameters"
-msgstr ""
+msgstr "パラメーター"
 
+# transfer型
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:332
 #: source/api-1.0/group__libusb__asyncio.html:667
@@ -1688,24 +1690,24 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1468
 #: source/api-1.0/group__libusb__asyncio.html:1516
 msgid "transfer"
-msgstr ""
+msgstr "transfer"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:332
 msgid ""
 "The <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> "
 "struct the callback function is being notified about."
-msgstr ""
+msgstr "The <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> 構造体は、コールバック関数に通知されます。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:339
 msgid "Enumeration Type Documentation"
-msgstr ""
+msgstr "列挙型解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:340
 msgid "<a id=\"gacb52027036a07de6ecc6c2bf07d07c71\"></a>"
-msgstr ""
+msgstr "<a id=\"gacb52027036a07de6ecc6c2bf07d07c71\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:341
@@ -1713,26 +1715,26 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gacb52027036a07de6ecc6c2bf07d07c71\">&#9670;&nbsp;</a></"
 "span>libusb_transfer_type"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gacb52027036a07de6ecc6c2bf07d07c71\">&#9670;&nbsp;</a></span>libusb_transfer_type"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:347
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:351
 msgid "Transfer type"
-msgstr ""
+msgstr "転送タイプ"
 
 #. type: Content of: <html><body><div><div><div><table><tr><th>
 #: source/api-1.0/group__libusb__asyncio.html:353
 #: source/api-1.0/group__libusb__asyncio.html:380
 #: source/api-1.0/group__libusb__asyncio.html:413
 msgid "Enumerator"
-msgstr ""
+msgstr "列挙型"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:353
@@ -1740,12 +1742,12 @@ msgid ""
 "<a id="
 "\"ggacb52027036a07de6ecc6c2bf07d07c71a4c89624658c783ef9b2a2f08091bc7d7\"></"
 "a>LIBUSB_TRANSFER_TYPE_CONTROL&#160;"
-msgstr ""
+msgstr "<a id=\"ggacb52027036a07de6ecc6c2bf07d07c71a4c89624658c783ef9b2a2f08091bc7d7\"></a>LIBUSB_TRANSFER_TYPE_CONTROL&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:353
 msgid "Control transfer."
-msgstr ""
+msgstr "制御転送。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:355
@@ -1753,12 +1755,12 @@ msgid ""
 "<a id="
 "\"ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300\"></"
 "a>LIBUSB_TRANSFER_TYPE_ISOCHRONOUS&#160;"
-msgstr ""
+msgstr "<a id=\"ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300\"></a>LIBUSB_TRANSFER_TYPE_ISOCHRONOUS&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:355
 msgid "Isochronous transfer."
-msgstr ""
+msgstr "アイソクロナス転送。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:357
@@ -1766,24 +1768,24 @@ msgid ""
 "<a id="
 "\"ggacb52027036a07de6ecc6c2bf07d07c71a7bdfa2fc5dadbaaa0e9262e1b4a228e2\"></"
 "a>LIBUSB_TRANSFER_TYPE_BULK&#160;"
-msgstr ""
+msgstr "<a id=\"ggacb52027036a07de6ecc6c2bf07d07c71a7bdfa2fc5dadbaaa0e9262e1b4a228e2\"></a>LIBUSB_TRANSFER_TYPE_BULK&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:357
 msgid "Bulk transfer."
-msgstr ""
+msgstr "バルク転送。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:359
 msgid ""
 "<a id=\"ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c"
 "\"></a>LIBUSB_TRANSFER_TYPE_INTERRUPT&#160;"
-msgstr ""
+msgstr "<a id=\"ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c\"></a>LIBUSB_TRANSFER_TYPE_INTERRUPT&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:359
 msgid "Interrupt transfer."
-msgstr ""
+msgstr "割り込み転送。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:361
@@ -1791,17 +1793,17 @@ msgid ""
 "<a id="
 "\"ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3\"></"
 "a>LIBUSB_TRANSFER_TYPE_BULK_STREAM&#160;"
-msgstr ""
+msgstr "<a id=\"ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3\"></a>LIBUSB_TRANSFER_TYPE_BULK_STREAM&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:361
 msgid "Bulk stream transfer."
-msgstr ""
+msgstr "バルク・ストリーム転送"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:367
 msgid "<a id=\"ga9fcb2aa23d342060ebda1d0cf7478856\"></a>"
-msgstr ""
+msgstr "<a id=\"ga9fcb2aa23d342060ebda1d0cf7478856\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:368
@@ -1809,19 +1811,19 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga9fcb2aa23d342060ebda1d0cf7478856\">&#9670;&nbsp;</a></"
 "span>libusb_transfer_status"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga9fcb2aa23d342060ebda1d0cf7478856\">&#9670;&nbsp;</a></span>libusb_transfer_status"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:374
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:378
 msgid "Transfer status codes"
-msgstr ""
+msgstr "転送ステータス・コード"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:380
@@ -1829,19 +1831,19 @@ msgid ""
 "<a id="
 "\"gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363\"></"
 "a>LIBUSB_TRANSFER_COMPLETED&#160;"
-msgstr ""
+msgstr "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363\"></a>LIBUSB_TRANSFER_COMPLETED&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:380
 msgid "Transfer completed without error."
-msgstr ""
+msgstr "エラー無しで転送が完了した。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:381
 msgid ""
 "Note that this does not indicate that the entire amount of requested data "
 "was transferred."
-msgstr ""
+msgstr "注意: これは、要求されたデータの全量が転送されたことを示すものではないことに注意してください。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:383
@@ -1849,54 +1851,54 @@ msgid ""
 "<a id="
 "\"gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\"></"
 "a>LIBUSB_TRANSFER_ERROR&#160;"
-msgstr ""
+msgstr "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398\"></a>LIBUSB_TRANSFER_ERROR&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:383
 msgid "Transfer failed."
-msgstr ""
+msgstr "転送が失敗した。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:385
 msgid ""
 "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856ac2b7626d7b51cb980f83933b6ada1ddf"
 "\"></a>LIBUSB_TRANSFER_TIMED_OUT&#160;"
-msgstr ""
+msgstr "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856ac2b7626d7b51cb980f83933b6ada1ddf\"></a>LIBUSB_TRANSFER_TIMED_OUT&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:385
 msgid "Transfer timed out."
-msgstr ""
+msgstr "転送タイムアウト。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:387
 msgid ""
 "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b"
 "\"></a>LIBUSB_TRANSFER_CANCELLED&#160;"
-msgstr ""
+msgstr "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b\"></a>LIBUSB_TRANSFER_CANCELLED&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:387
 msgid "Transfer was cancelled."
-msgstr ""
+msgstr "転送がキャンセルされた。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:389
 msgid ""
 "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856a23cdfd929f5fe82cca9654f8075eeebb"
 "\"></a>LIBUSB_TRANSFER_STALL&#160;"
-msgstr ""
+msgstr "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856a23cdfd929f5fe82cca9654f8075eeebb\"></a>LIBUSB_TRANSFER_STALL&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:389
 msgid ""
 "For bulk/interrupt endpoints: halt condition detected (endpoint stalled)."
-msgstr ""
+msgstr "バルク/割り込みエンドポイントの場合: 停止(halt)状態が検出されました(エンドポイントがストール(stall)しました)。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:390
 msgid "For control endpoints: control request not supported."
-msgstr ""
+msgstr "制御エンドポイントの場合: その制御要求はサポートされていません。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:392
@@ -1904,12 +1906,12 @@ msgid ""
 "<a id="
 "\"gga9fcb2aa23d342060ebda1d0cf7478856ab7dcb24f313ace407e0c070d6b2c5f13\"></"
 "a>LIBUSB_TRANSFER_NO_DEVICE&#160;"
-msgstr ""
+msgstr "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856ab7dcb24f313ace407e0c070d6b2c5f13\"></a>LIBUSB_TRANSFER_NO_DEVICE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:392
 msgid "Device was disconnected."
-msgstr ""
+msgstr "デバイスが切断された。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:394
@@ -1917,31 +1919,31 @@ msgid ""
 "<a id="
 "\"gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14\"></"
 "a>LIBUSB_TRANSFER_OVERFLOW&#160;"
-msgstr ""
+msgstr "<a id=\"gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14\"></a>LIBUSB_TRANSFER_OVERFLOW&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:394
 msgid "Device sent more data than requested."
-msgstr ""
+msgstr "デバイスが要求よりも多いデータを送信した。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:400
 msgid "<a id=\"ga1fb47dd0f7c209b60a3609ff0c03d56d\"></a>"
-msgstr ""
+msgstr "<a id=\"ga1fb47dd0f7c209b60a3609ff0c03d56d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:401
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga1fb47dd0f7c209b60a3609ff0c03d56d"
 "\">&#9670;&nbsp;</a></span>libusb_transfer_flags"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga1fb47dd0f7c209b60a3609ff0c03d56d\">&#9670;&nbsp;</a></span>libusb_transfer_flags"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:407
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:411
@@ -1949,7 +1951,7 @@ msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#ae26c063df30c2e29835212aad98c6e06\" title=\"A bitwise OR combination of "
 "libusb_transfer_flags.\">libusb_transfer.flags</a> values"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#ae26c063df30c2e29835212aad98c6e06\" title=\"libusb_transfer_flagsのビットORの組み合わせ\">libusb_transfer.flags</a> values"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:413
@@ -1957,12 +1959,12 @@ msgid ""
 "<a id="
 "\"gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276\"></"
 "a>LIBUSB_TRANSFER_SHORT_NOT_OK&#160;"
-msgstr ""
+msgstr "<a id=\"gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276\"></a>LIBUSB_TRANSFER_SHORT_NOT_OK&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:413
 msgid "Report short frames as errors."
-msgstr ""
+msgstr "短いフレームをエラーとして報告します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:415
@@ -1970,7 +1972,7 @@ msgid ""
 "<a id="
 "\"gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\"></"
 "a>LIBUSB_TRANSFER_FREE_BUFFER&#160;"
-msgstr ""
+msgstr "<a id=\"gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\"></a>LIBUSB_TRANSFER_FREE_BUFFER&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:415
@@ -1978,7 +1980,7 @@ msgid ""
 "Automatically free() transfer buffer during <a class=\"el\" href="
 "\"group__libusb__asyncio."
 "html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> 中に転送バッファを自動的に free() します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:416
@@ -1988,7 +1990,7 @@ msgid ""
 "html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a> should "
 "not be attempted freed in this way, since free() is not an appropriate way "
 "to release such memory."
-msgstr ""
+msgstr "注意: <a class=\"el\" href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a> で割り当てたバッファは、この方法で解放しようとしないでください。 free() はそのようなメモリを解放する適切な方法ではないためです。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:418
@@ -1996,7 +1998,7 @@ msgid ""
 "<a id="
 "\"gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\"></"
 "a>LIBUSB_TRANSFER_FREE_TRANSFER&#160;"
-msgstr ""
+msgstr "<a id=\"gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1\"></a>LIBUSB_TRANSFER_FREE_TRANSFER&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:418
@@ -2004,7 +2006,7 @@ msgid ""
 "Automatically call <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> after "
 "callback returns."
-msgstr ""
+msgstr "コールバックから戻った後、 <a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> を自動的に呼び出します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:419
@@ -2014,21 +2016,21 @@ msgid ""
 "html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> from "
 "your transfer callback, as this will result in a double-free when this flag "
 "is acted upon."
-msgstr ""
+msgstr "このフラグが設定されている場合、転送のコールバックから <a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> を呼び出すことは違法です。これは、このフラグが実行されたときに二重開放になるためです。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:421
 msgid ""
 "<a id=\"gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f"
 "\"></a>LIBUSB_TRANSFER_ADD_ZERO_PACKET&#160;"
-msgstr ""
+msgstr "<a id=\"gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f\"></a>LIBUSB_TRANSFER_ADD_ZERO_PACKET&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:421
 msgid ""
 "Terminate transfers that are a multiple of the endpoint's wMaxPacketSize "
 "with an extra zero length packet."
-msgstr ""
+msgstr "エンドポイントのwMaxPacketSizeの倍数である転送を、長さがゼロの余分なパケットで終了します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:422
@@ -2036,14 +2038,14 @@ msgid ""
 "This is useful when a device protocol mandates that each logical request is "
 "terminated by an incomplete packet (i.e. the logical requests are not "
 "separated by other means)."
-msgstr ""
+msgstr "これは、デバイスのプロトコルが、各論理要求を不完全なパケットで終了することを要求している場合に役立ちます(つまり、論理要求が他の手段で分離されていない場合)。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:423
 msgid ""
 "This flag only affects host-to-device transfers to bulk and interrupt "
 "endpoints. In other situations, it is ignored."
-msgstr ""
+msgstr "このフラグは、バルク・エンドポイントと割り込みエンドポイントの、ホストからデバイスへの方向の転送にのみ影響します。 他の状況では、これは無視されます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:424
@@ -2054,7 +2056,7 @@ msgid ""
 "whenever the end of the logical request falls on a packet boundary, then it "
 "is sensible to set this flag on <em>every</em> transfer (you do not have to "
 "worry about only setting it on transfers that end on the boundary)."
-msgstr ""
+msgstr "このフラグは、エンドポイントのwMaxPacketSizeの倍数である長さの転送にのみ影響します。 他の長さの転送では、このフラグは効果がありません。 したがって、論理要求の終わりがパケット境界に達するたびにZLPを必要とするデバイスを使用している場合は、<em>全ての</em>転送でこのフラグを設定するのが賢明です(境界で終了する転送にのみ設定する事を考慮する必要はありません)。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:425
@@ -2063,22 +2065,22 @@ msgid ""
 "\"el\" href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce"
 "\">libusb_submit_transfer()</a> will return LIBUSB_ERROR_NOT_SUPPORTED for "
 "every transfer where this flag is set."
-msgstr ""
+msgstr "このフラグは現在、Linuxでのみサポートされています。 他のシステムでは、 <a class=\"el\" href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a> は、このフラグが設定されているすべての転送に対してLIBUSB_ERROR_NOT_SUPPORTEDを返します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__asyncio.html:426
 msgid "Available since libusb-1.0.9."
-msgstr ""
+msgstr "libusb-1.0.9以降で使用できます。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:432
 msgid "Function Documentation"
-msgstr ""
+msgstr "関数解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:433
 msgid "<a id=\"gad7e786c1bedd4a668887564465101981\"></a>"
-msgstr ""
+msgstr "<a id=\"gad7e786c1bedd4a668887564465101981\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:434
@@ -2086,12 +2088,12 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gad7e786c1bedd4a668887564465101981\">&#9670;&nbsp;</a></"
 "span>libusb_alloc_streams()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gad7e786c1bedd4a668887564465101981\">&#9670;&nbsp;</a></span>libusb_alloc_streams()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:440
 msgid "int libusb_alloc_streams"
-msgstr ""
+msgstr "int libusb_alloc_streams"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:441
@@ -2116,7 +2118,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1442
 #: source/api-1.0/group__libusb__asyncio.html:1489
 msgid "("
-msgstr ""
+msgstr "("
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:442
@@ -2131,7 +2133,7 @@ msgstr ""
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:443
@@ -2144,24 +2146,24 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1226
 #: source/api-1.0/group__libusb__asyncio.html:1312
 msgid "<em>dev_handle</em>,"
-msgstr ""
+msgstr "<em>dev_handle</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:449
 msgid "<em>num_streams</em>,"
-msgstr ""
+msgstr "<em>num_streams</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:455
 #: source/api-1.0/group__libusb__asyncio.html:503
 msgid "<em>endpoints</em>,"
-msgstr ""
+msgstr "<em>endpoints</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:461
 #: source/api-1.0/group__libusb__asyncio.html:509
 msgid "<em>num_endpoints</em>&#160;"
-msgstr ""
+msgstr "<em>num_endpoints</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:465
@@ -2186,7 +2188,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1454
 #: source/api-1.0/group__libusb__asyncio.html:1501
 msgid ")"
-msgstr ""
+msgstr ")"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:470
@@ -2195,7 +2197,7 @@ msgid ""
 "function takes an array of endpoints rather then a single endpoint because "
 "some protocols require that endpoints are setup with similar stream ids. All "
 "endpoints passed in must belong to the same interface."
-msgstr ""
+msgstr "指定のエンドポイントにnum_streams個のUSBバルク・ストリームを割り当てます。一部のプロトコルではエンドポイントを同じストリームIDでセットアップする必要があるため、この関数は単一のエンドポイントではなくエンドポイントの配列を取ります。渡されるすべてのエンドポイントは、同じインターフェースに属している必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:471
@@ -2203,7 +2205,7 @@ msgid ""
 "Note this function may return less streams then requested. Also note that "
 "the same number of streams are allocated for each endpoint in the endpoint "
 "array."
-msgstr ""
+msgstr "注意: この関数は、要求よりも少ない数のストリームを返す可能性があることに注意してください。 また、エンドポイント配列の各エンドポイントにそれぞれ同じ数のストリームが割り当てられることに注意してください。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:472
@@ -2212,7 +2214,7 @@ msgid ""
 "If <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a> returns "
 "with a value of N, you may use stream ids 1 to N."
-msgstr ""
+msgstr "ストリームID 0 は予約済のため、デバイスとの通信には使用しないでください。 <a class=\"el\" href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a> が値Nを返した場合、ストリームID 1〜N を使用できます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:473
@@ -2224,7 +2226,7 @@ msgid ""
 "Since version 1.0.19, <a class=\"el\" href=\"group__libusb__misc."
 "html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
 "0x01000103"
-msgstr ""
+msgstr "バージョン1.0.19以降。 <a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= 0x01000103"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:476
@@ -2237,7 +2239,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1280
 #: source/api-1.0/group__libusb__asyncio.html:1372
 msgid "dev_handle"
-msgstr ""
+msgstr "dev_handle"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:476
@@ -2245,40 +2247,40 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:564
 #: source/api-1.0/group__libusb__asyncio.html:607
 msgid "a device handle"
-msgstr ""
+msgstr "デバイス・ハンドル"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:477
 msgid "num_streams"
-msgstr ""
+msgstr "num_streams"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:477
 msgid "number of streams to try to allocate"
-msgstr ""
+msgstr "割り当てを試みるストリームの数"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:478
 #: source/api-1.0/group__libusb__asyncio.html:524
 msgid "endpoints"
-msgstr ""
+msgstr "endpoints"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:478
 msgid "array of endpoints to allocate streams on"
-msgstr ""
+msgstr "ストリームを割り当てるエンドポイントの配列"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:479
 #: source/api-1.0/group__libusb__asyncio.html:525
 msgid "num_endpoints"
-msgstr ""
+msgstr "num_endpoints"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:479
 #: source/api-1.0/group__libusb__asyncio.html:525
 msgid "length of the endpoints array"
-msgstr ""
+msgstr "エンドポイント配列のサイズ"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__asyncio.html:483
@@ -2294,29 +2296,29 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1473
 #: source/api-1.0/group__libusb__asyncio.html:1521
 msgid "Returns"
-msgstr ""
+msgstr "戻り値"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:483
 msgid "number of streams allocated, or a LIBUSB_ERROR code on failure"
-msgstr ""
+msgstr "割り当てられたストリームの数、また、失敗した場合はLIBUSB_ERRORコード"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:487
 msgid "<a id=\"gab068de0fd203ccef5c620a8143526acb\"></a>"
-msgstr ""
+msgstr "<a id=\"gab068de0fd203ccef5c620a8143526acb\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:488
 msgid ""
 "<span class=\"permalink\"><a href=\"#gab068de0fd203ccef5c620a8143526acb"
 "\">&#9670;&nbsp;</a></span>libusb_free_streams()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gab068de0fd203ccef5c620a8143526acb\">&#9670;&nbsp;</a></span>libusb_free_streams()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:494
 msgid "int libusb_free_streams"
-msgstr ""
+msgstr "int libusb_free_streams"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:518
@@ -2324,28 +2326,28 @@ msgid ""
 "Free usb bulk streams allocated with <a class=\"el\" href="
 "\"group__libusb__asyncio."
 "html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a>."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a> で割り当てられたUSBバルク・ストリームを解放します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:519
 msgid "Note streams are automatically free-ed when releasing an interface."
-msgstr ""
+msgstr "注意: インターフェイスを解放すると、ストリームは自動的に解放されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:524
 msgid "array of endpoints to free streams on"
-msgstr ""
+msgstr "ストリームを開放したいエンドポイントの配列"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:529
 #: source/api-1.0/group__libusb__asyncio.html:613
 msgid "LIBUSB_SUCCESS, or a LIBUSB_ERROR code on failure"
-msgstr ""
+msgstr "LIBUSB_SUCCESS、または、失敗の場合はLIBUSB_ERRORコード"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:533
 msgid "<a id=\"ga47c492e750197f1a28874c7a0dee40e3\"></a>"
-msgstr ""
+msgstr "<a id=\"ga47c492e750197f1a28874c7a0dee40e3\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:534
@@ -2353,25 +2355,25 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga47c492e750197f1a28874c7a0dee40e3\">&#9670;&nbsp;</a></"
 "span>libusb_dev_mem_alloc()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga47c492e750197f1a28874c7a0dee40e3\">&#9670;&nbsp;</a></span>libusb_dev_mem_alloc()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:540
 msgid "unsigned char* libusb_dev_mem_alloc"
-msgstr ""
+msgstr "unsigned char* libusb_dev_mem_alloc"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:548
 #: source/api-1.0/group__libusb__asyncio.html:594
 msgid "size_t&#160;"
-msgstr ""
+msgstr "size_t&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:549
 #: source/api-1.0/group__libusb__asyncio.html:595
 #: source/api-1.0/group__libusb__asyncio.html:1405
 msgid "<em>length</em>&#160;"
-msgstr ""
+msgstr "<em>length</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:558
@@ -2383,7 +2385,7 @@ msgid ""
 "Using this memory instead of regular memory means that the host controller "
 "can use DMA directly into the buffer to increase performance, and also that "
 "transfers can no longer fail due to kernel memory fragmentation."
-msgstr ""
+msgstr "特定のデバイスに対する転送に適した永続的なDMAメモリのブロックを割り当てようとします。 成功すると、このデバイスに対する <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> の \"バッファ\" として使用するのに適したメモリ・ブロックが返されます。通常のメモリの代わりにこのメモリを使用すると、ホスト・コントローラはDMAを直接バッファに使用してパフォーマンスを向上させることができ、カーネル・メモリの断片化が原因で転送が失敗することもなくなります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:559
@@ -2391,7 +2393,7 @@ msgid ""
 "Note that this means you should not modify this memory (or even data on the "
 "same cache lines) when a transfer is in progress, although it is legal to "
 "have several transfers going on within the same memory block."
-msgstr ""
+msgstr "注意:これは、転送の進行中にこのメモリ(または同じキャッシュ・ライン上のデータ)を変更してはならないことを意味しますが、同じメモリブロック内で複数の転送を実行することは合法です。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:560
@@ -2404,7 +2406,7 @@ msgid ""
 "\"group__libusb__asyncio."
 "html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</"
 "a> cannot be used to free memory allocated with this function."
-msgstr ""
+msgstr "失敗するとNULLを返します。多くのシステムはそのようなゼロ・コピーをサポートしておらず、常にNULLを返します。この関数で割り当てられたメモリは、 <a class=\"el\" href=\"group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62\">libusb_dev_mem_free</a> で解放する必要があります。 具体的には、これは、フラグLIBUSB_TRANSFER_FREE_BUFFERを使用して、この関数で割り当てられたメモリを解放できないことを意味します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:561
@@ -2412,7 +2414,7 @@ msgid ""
 "Since version 1.0.21, <a class=\"el\" href=\"group__libusb__misc."
 "html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
 "0x01000105"
-msgstr ""
+msgstr "Since version 1.0.21, <a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= 0x01000105"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:565
@@ -2423,22 +2425,22 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1375
 #: source/api-1.0/group__libusb__asyncio.html:1423
 msgid "length"
-msgstr ""
+msgstr "length"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:565
 msgid "size of desired data buffer"
-msgstr ""
+msgstr "必要なデータ・バッファのサイズ"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:569
 msgid "a pointer to the newly allocated memory, or NULL on failure"
-msgstr ""
+msgstr "新しく割り当てられたメモリへのポインタ、または失敗した場合はNULL"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:573
 msgid "<a id=\"gad7575ff325f0159a5b74b7c0ee64eb62\"></a>"
-msgstr ""
+msgstr "<a id=\"gad7575ff325f0159a5b74b7c0ee64eb62\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:574
@@ -2446,12 +2448,12 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gad7575ff325f0159a5b74b7c0ee64eb62\">&#9670;&nbsp;</a></"
 "span>libusb_dev_mem_free()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gad7575ff325f0159a5b74b7c0ee64eb62\">&#9670;&nbsp;</a></span>libusb_dev_mem_free()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:580
 msgid "int libusb_dev_mem_free"
-msgstr ""
+msgstr "int libusb_dev_mem_free"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:589
@@ -2462,7 +2464,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1238
 #: source/api-1.0/group__libusb__asyncio.html:1324
 msgid "<em>buffer</em>,"
-msgstr ""
+msgstr "<em>buffer</em>,"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:604
@@ -2470,7 +2472,7 @@ msgid ""
 "Free device memory allocated with <a class=\"el\" href="
 "\"group__libusb__asyncio."
 "html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a>."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3\">libusb_dev_mem_alloc()</a> で割り当てられたデバイス・メモリを解放します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:608
@@ -2481,22 +2483,22 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1282
 #: source/api-1.0/group__libusb__asyncio.html:1374
 msgid "buffer"
-msgstr ""
+msgstr "buffer"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:608
 msgid "pointer to the previously allocated memory"
-msgstr ""
+msgstr "以前に割り当てられたメモリへのポインタ"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:609
 msgid "size of previously allocated memory"
-msgstr ""
+msgstr "以前に割り当てられたメモリのサイズ"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:617
 msgid "<a id=\"ga13cc69ea40c702181c430c950121c000\"></a>"
-msgstr ""
+msgstr "<a id=\"ga13cc69ea40c702181c430c950121c000\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:618
@@ -2504,19 +2506,19 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga13cc69ea40c702181c430c950121c000\">&#9670;&nbsp;</a></"
 "span>libusb_alloc_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga13cc69ea40c702181c430c950121c000\">&#9670;&nbsp;</a></span>libusb_alloc_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:624
 msgid ""
 "struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</"
 "a>* libusb_alloc_transfer"
-msgstr ""
+msgstr "struct <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a>* libusb_alloc_transfer"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:627
 msgid "<em>iso_packets</em>"
-msgstr ""
+msgstr "<em>iso_packets</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:632
@@ -2526,14 +2528,14 @@ msgid ""
 "transfer is no longer needed, it should be freed with <a class=\"el\" href="
 "\"group__libusb__asyncio."
 "html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a>."
-msgstr ""
+msgstr "指定された数のアイソクロナス・パケット・デスクリプターを使用してlibusb転送を割り当てます。返される転送は事前に初期化されています。最早新しい転送が不要になったら、 <a class=\"el\" href=\"group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6\">libusb_free_transfer()</a> で解放する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:633
 msgid ""
 "Transfers intended for non-isochronous endpoints (e.g. control, bulk, "
 "interrupt) should specify an iso_packets count of zero."
-msgstr ""
+msgstr "非アイソクロナス・エンドポイント(制御、バルク、割り込みなど)を対象とした転送では、iso_packetsカウントをゼロに指定すべきです。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:634
@@ -2545,7 +2547,7 @@ msgid ""
 "html#a87d725a5521c26832fdc13611220014d\">num_iso_packets</a> and <a class="
 "\"el\" href=\"structlibusb__transfer."
 "html#a7c9fa575986fe9f23bbecb26b766dff1\">type</a> fields accordingly."
-msgstr ""
+msgstr "アイソクロナス・エンドポイントを対象とした転送の場合、その転送の一部として割り当てられる適切な数のパケット・デスクリプターを指定します。 その戻される転送は、アイソクロナス入出力用に特別に初期化されてはいません。それでも、それに応じて <a class=\"el\" href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">num_iso_packets</a> フィールドと <a class=\"el\" href=\"structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1\">type</a> フィールドを設定する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:635
@@ -2553,28 +2555,28 @@ msgid ""
 "It is safe to allocate a transfer with some isochronous packets and then use "
 "it on a non-isochronous endpoint. If you do this, ensure that at time of "
 "submission, num_iso_packets is 0 and that type is set appropriately."
-msgstr ""
+msgstr "いくつかのアイソクロナス・パケットを使用して転送を割り当て、それを非アイソクロナス・エンドポイントで使用するのが安全です。これを行う場合は、送信時にnum_iso_packetsが0であり、そのtypeが適切に設定されていることを確認してください。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:638
 msgid "iso_packets"
-msgstr ""
+msgstr "iso_packets"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:638
 msgid ""
 "number of isochronous packet descriptors to allocate. Must be non-negative."
-msgstr ""
+msgstr "割り当てるアイソクロナス・パケット・デスクリプターの数。負でない数値である必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:642
 msgid "a newly allocated transfer, or NULL on error"
-msgstr ""
+msgstr "新しく割り当てられた転送、またはエラーの場合はNULL"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:646
 msgid "<a id=\"ga6ab8b2cff4de9091298a06b2f4b86cd6\"></a>"
-msgstr ""
+msgstr "<a id=\"ga6ab8b2cff4de9091298a06b2f4b86cd6\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:647
@@ -2582,12 +2584,12 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga6ab8b2cff4de9091298a06b2f4b86cd6\">&#9670;&nbsp;</a></"
 "span>libusb_free_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga6ab8b2cff4de9091298a06b2f4b86cd6\">&#9670;&nbsp;</a></span>libusb_free_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:653
 msgid "void libusb_free_transfer"
-msgstr ""
+msgstr "void libusb_free_transfer"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:656
@@ -2597,7 +2599,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:818
 #: source/api-1.0/group__libusb__asyncio.html:853
 msgid "<em>transfer</em>"
-msgstr ""
+msgstr "<em>transfer</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:661
@@ -2605,7 +2607,7 @@ msgid ""
 "Free a transfer structure. This should be called for all transfers allocated "
 "with <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a>."
-msgstr ""
+msgstr "転送構造体を解放します。これは、 <a class=\"el\" href=\"group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000\">libusb_alloc_transfer()</a> で割り当てられたすべての転送に対して呼び出す必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:662
@@ -2615,78 +2617,78 @@ msgid ""
 "a> flag is set and the transfer buffer is non-NULL, this function will also "
 "free the transfer buffer using the standard system memory allocator (e.g. "
 "free())."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86\">LIBUSB_TRANSFER_FREE_BUFFER</a> フラグが設定されていて、そして転送バッファーがNULL以外の場合、この関数は標準のシステム・メモリ割り当て機構(例: free() )を使用して転送バッファーも解放します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:663
 msgid ""
 "It is legal to call this function with a NULL transfer. In this case, the "
 "function will simply return safely."
-msgstr ""
+msgstr "NULL転送でこの関数を呼び出すことは合法です。この場合、関数は単に安全に戻ります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:664
 msgid ""
 "It is not legal to free an active transfer (one which has been submitted and "
 "has not yet completed)."
-msgstr ""
+msgstr "アクティブな転送(送信(submit)され、まだ完了していない転送)を解放することは違法です。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:667
 msgid "the transfer to free"
-msgstr ""
+msgstr "開放したい転送"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:674
 msgid "<a id=\"gabb0932601f2c7dad2fee4b27962848ce\"></a>"
-msgstr ""
+msgstr "<a id=\"gabb0932601f2c7dad2fee4b27962848ce\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:675
 msgid ""
 "<span class=\"permalink\"><a href=\"#gabb0932601f2c7dad2fee4b27962848ce"
 "\">&#9670;&nbsp;</a></span>libusb_submit_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gabb0932601f2c7dad2fee4b27962848ce\">&#9670;&nbsp;</a></span>libusb_submit_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:681
 msgid "int libusb_submit_transfer"
-msgstr ""
+msgstr "int libusb_submit_transfer"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:689
 msgid ""
 "Submit a transfer. This function will fire off the USB transfer and then "
 "return immediately."
-msgstr ""
+msgstr "転送を送信します。この関数は、USB転送を開始し、すぐに戻ります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:692
 msgid "the transfer to submit"
-msgstr ""
+msgstr "送信する転送"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:696
 #: source/api-1.0/group__libusb__asyncio.html:732
 msgid "0 on success"
-msgstr ""
+msgstr "0ならば成功"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:698
 msgid "LIBUSB_ERROR_NO_DEVICE if the device has been disconnected"
-msgstr ""
+msgstr "LIBUSB_ERROR_NO_DEVICE: デバイスが切断されていた"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:700
 msgid "LIBUSB_ERROR_BUSY if the transfer has already been submitted."
-msgstr ""
+msgstr "LIBUSB_ERROR_BUSY: その転送がすでに送信されている(submitted)場合。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:702
 msgid ""
 "LIBUSB_ERROR_NOT_SUPPORTED if the transfer flags are not supported by the "
 "operating system."
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_SUPPORTED: その転送フラグがオペレーティング・システムでサポートされていない場合。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:704
@@ -2694,17 +2696,17 @@ msgid ""
 "LIBUSB_ERROR_INVALID_PARAM if the transfer size is larger than the operating "
 "system and/or hardware can support (see <a class=\"el\" href="
 "\"group__libusb__asyncio.html#asynclimits\">Transfer length limitations</a>)"
-msgstr ""
+msgstr "LIBUSB_ERROR_INVALID_PARAM: 転送サイズがオペレーティング・システムやハードウェアでサポートできるサイズよりも大きい場合(<a class=\"el\" href=\"group__libusb__asyncio.html#asynclimits\">転送の長さの制限</a> を参照)。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:706
 msgid "another LIBUSB_ERROR code on other failure"
-msgstr ""
+msgstr "LIBUSB_ERRORコード: その他の障害"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:710
 msgid "<a id=\"ga685eb7731f9a0593f75beb99727bbe54\"></a>"
-msgstr ""
+msgstr "<a id=\"ga685eb7731f9a0593f75beb99727bbe54\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:711
@@ -2712,12 +2714,12 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga685eb7731f9a0593f75beb99727bbe54\">&#9670;&nbsp;</a></"
 "span>libusb_cancel_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga685eb7731f9a0593f75beb99727bbe54\">&#9670;&nbsp;</a></span>libusb_cancel_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:717
 msgid "int libusb_cancel_transfer"
-msgstr ""
+msgstr "int libusb_cancel_transfer"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:725
@@ -2728,41 +2730,41 @@ msgid ""
 "of <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b"
 "\">LIBUSB_TRANSFER_CANCELLED.</a>"
-msgstr ""
+msgstr "以前に送信された転送を非同期的にキャンセルします。この関数はすぐに戻りますが、それはキャンセルが完了したことを示すものではありません。後で、転送ステータスLIBUSB_TRANSFER_CANCELLEDでコールバック関数が呼び出されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:728
 msgid "the transfer to cancel"
-msgstr ""
+msgstr "キャンセルしたい転送"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:734
 msgid ""
 "LIBUSB_ERROR_NOT_FOUND if the transfer is not in progress, already complete, "
 "or already cancelled."
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND 転送が現在進行中でないか、または既に完了したか、または既にキャンセルされた場合。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:736
 msgid "a LIBUSB_ERROR code on failure"
-msgstr ""
+msgstr "LIBUSB_ERRORコード: 失敗の場合。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:740
 msgid "<a id=\"gaeae2db23b9de811af317483afdeb230f\"></a>"
-msgstr ""
+msgstr "<a id=\"gaeae2db23b9de811af317483afdeb230f\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:741
 msgid ""
 "<span class=\"permalink\"><a href=\"#gaeae2db23b9de811af317483afdeb230f"
 "\">&#9670;&nbsp;</a></span>libusb_transfer_set_stream_id()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gaeae2db23b9de811af317483afdeb230f\">&#9670;&nbsp;</a></span>libusb_transfer_set_stream_id()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:747
 msgid "void libusb_transfer_set_stream_id"
-msgstr ""
+msgstr "void libusb_transfer_set_stream_id"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:750
@@ -2775,12 +2777,12 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1444
 #: source/api-1.0/group__libusb__asyncio.html:1491
 msgid "<em>transfer</em>,"
-msgstr ""
+msgstr "<em>transfer</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:756
 msgid "<em>stream_id</em>&#160;"
-msgstr ""
+msgstr "<em>stream_id</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:765
@@ -2789,23 +2791,23 @@ msgid ""
 "\" href=\"group__libusb__asyncio."
 "html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer()</"
 "a> instead of calling this function directly."
-msgstr ""
+msgstr "転送バルク・ストリームIDを設定します。この関数を直接呼び出すのではなく、 <a class=\"el\" href=\"group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer()</a> を使用することをお勧めします。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:769
 msgid "the transfer to set the stream id for"
-msgstr ""
+msgstr "ストリームIDをセットしたい転送"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:770
 #: source/api-1.0/group__libusb__asyncio.html:1195
 msgid "stream_id"
-msgstr ""
+msgstr "stream_id"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:770
 msgid "the stream id to set"
-msgstr ""
+msgstr "セットしたいストリームID"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__asyncio.html:774
@@ -2813,63 +2815,63 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1474
 #: source/api-1.0/group__libusb__asyncio.html:1522
 msgid "See also"
-msgstr ""
+msgstr "これも参照下さい"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:774
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981\">libusb_alloc_streams()</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:778
 msgid "<a id=\"ga631653487273f3306925131cdc0a3ffc\"></a>"
-msgstr ""
+msgstr "<a id=\"ga631653487273f3306925131cdc0a3ffc\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:779
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga631653487273f3306925131cdc0a3ffc"
 "\">&#9670;&nbsp;</a></span>libusb_transfer_get_stream_id()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga631653487273f3306925131cdc0a3ffc\">&#9670;&nbsp;</a></span>libusb_transfer_get_stream_id()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:785
 msgid "uint32_t libusb_transfer_get_stream_id"
-msgstr ""
+msgstr "uint32_t libusb_transfer_get_stream_id"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:793
 msgid "Get a transfers bulk stream id."
-msgstr ""
+msgstr "転送バルク・ストリームIDを取得します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:797
 msgid "the transfer to get the stream id for"
-msgstr ""
+msgstr "ストリームIDを取得したい転送"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:801
 msgid "the stream id for the transfer"
-msgstr ""
+msgstr "その転送のストリームID"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:805
 msgid "<a id=\"gadf9c633586dde54ce62a3d66a4d7554c\"></a>"
-msgstr ""
+msgstr "<a id=\"gadf9c633586dde54ce62a3d66a4d7554c\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:806
 msgid ""
 "<span class=\"permalink\"><a href=\"#gadf9c633586dde54ce62a3d66a4d7554c"
 "\">&#9670;&nbsp;</a></span>libusb_control_transfer_get_data()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gadf9c633586dde54ce62a3d66a4d7554c\">&#9670;&nbsp;</a></span>libusb_control_transfer_get_data()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:815
 msgid "static unsigned char* libusb_control_transfer_get_data"
-msgstr ""
+msgstr "static unsigned char* libusb_control_transfer_get_data"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:824
@@ -2886,7 +2888,7 @@ msgstr ""
 msgid ""
 "<span class=\"mlabels\"><span class=\"mlabel\">inline</span><span class="
 "\"mlabel\">static</span></span>"
-msgstr ""
+msgstr "<span class=\"mlabels\"><span class=\"mlabel\">inline</span><span class=\"mlabel\">static</span></span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:828
@@ -2894,7 +2896,7 @@ msgid ""
 "Get the data section of a control transfer. This convenience function is "
 "here to remind you that the data does not start until 8 bytes into the "
 "actual buffer, as the setup packet comes first."
-msgstr ""
+msgstr "制御転送のデータ・セクションを取得します。この便利な関数は、セットアップ・パケットが最初に来るため、実際のバッファに8バイト入るまでデータが開始されないことを思い出させるためにここにあります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:829
@@ -2903,7 +2905,7 @@ msgid ""
 "Calling this function only makes sense from a transfer callback function, or "
 "situations where you have already allocated a suitably sized buffer at "
 "transfer-&gt;buffer."
-msgstr ""
+msgstr "この関数の呼び出しは、転送コールバック関数、または transfer-＆gt; buffer で適切なサイズのバッファをすでに割り当てている状況からのみ意味があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:832
@@ -2912,17 +2914,17 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1468
 #: source/api-1.0/group__libusb__asyncio.html:1516
 msgid "a transfer"
-msgstr ""
+msgstr "とある一つの転送"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:836
 msgid "pointer to the first byte of the data section"
-msgstr ""
+msgstr "データ・セクションの最初のバイトへのポインタ"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:840
 msgid "<a id=\"ga6ab02f15e11b5b03b1174fbd7c3bc061\"></a>"
-msgstr ""
+msgstr "<a id=\"ga6ab02f15e11b5b03b1174fbd7c3bc061\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:841
@@ -2930,14 +2932,14 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga6ab02f15e11b5b03b1174fbd7c3bc061\">&#9670;&nbsp;</a></"
 "span>libusb_control_transfer_get_setup()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga6ab02f15e11b5b03b1174fbd7c3bc061\">&#9670;&nbsp;</a></span>libusb_control_transfer_get_setup()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:850
 msgid ""
 "static struct <a class=\"el\" href=\"structlibusb__control__setup.html"
 "\">libusb_control_setup</a>* libusb_control_transfer_get_setup"
-msgstr ""
+msgstr "static struct <a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a>* libusb_control_transfer_get_setup"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:863
@@ -2945,17 +2947,17 @@ msgid ""
 "Get the control setup packet of a control transfer. This convenience "
 "function is here to remind you that the control setup occupies the first 8 "
 "bytes of the transfer data buffer."
-msgstr ""
+msgstr "制御転送の制御セットアップ・パケットを取得します。 この便利な関数は、制御セットアップが転送データ・バッファの最初の8バイトを占めることを思い出させるためにここにあります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:871
 msgid "a casted pointer to the start of the transfer data buffer"
-msgstr ""
+msgstr "転送データバッファの開始へのキャストされたポインタ"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:875
 msgid "<a id=\"ga5447311149ec2bd954b5f1a640a8e231\"></a>"
-msgstr ""
+msgstr "<a id=\"ga5447311149ec2bd954b5f1a640a8e231\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:876
@@ -2963,50 +2965,50 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga5447311149ec2bd954b5f1a640a8e231\">&#9670;&nbsp;</a></"
 "span>libusb_fill_control_setup()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga5447311149ec2bd954b5f1a640a8e231\">&#9670;&nbsp;</a></span>libusb_fill_control_setup()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:885
 msgid "static void libusb_fill_control_setup"
-msgstr ""
+msgstr "static void libusb_fill_control_setup"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:893
 #: source/api-1.0/group__libusb__asyncio.html:899
 msgid "uint8_t&#160;"
-msgstr ""
+msgstr "uint8_t&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:894
 msgid "<em>bmRequestType</em>,"
-msgstr ""
+msgstr "<em>bmRequestType</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:900
 msgid "<em>bRequest</em>,"
-msgstr ""
+msgstr "<em>bRequest</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:905
 #: source/api-1.0/group__libusb__asyncio.html:911
 #: source/api-1.0/group__libusb__asyncio.html:917
 msgid "uint16_t&#160;"
-msgstr ""
+msgstr "uint16_t&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:906
 msgid "<em>wValue</em>,"
-msgstr ""
+msgstr "<em>wValue</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:912
 msgid "<em>wIndex</em>,"
-msgstr ""
+msgstr "<em>wIndex</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:918
 msgid "<em>wLength</em>&#160;"
-msgstr ""
+msgstr "<em>wLength</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:932
@@ -3014,19 +3016,19 @@ msgid ""
 "Helper function to populate the setup packet (first 8 bytes of the data "
 "buffer) for a control transfer. The wIndex, wValue and wLength values should "
 "be given in host-endian byte order."
-msgstr ""
+msgstr "制御転送用のセットアップ・パケット(データ・バッファの最初の8バイト)を設定するヘルパー関数。 wIndexとwValueとwLengthの値は、ホスト・エンディアンのバイト順序で指定する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:935
 msgid ""
 "buffer to output the setup packet into This pointer must be aligned to at "
 "least 2 bytes boundary."
-msgstr ""
+msgstr "セットアップ・パケットを出力するバッファこのポインタは、少なくとも2バイト境界に揃える必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:936
 msgid "bmRequestType"
-msgstr ""
+msgstr "bmRequestType"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:936
@@ -3034,12 +3036,12 @@ msgid ""
 "see the <a class=\"el\" href=\"structlibusb__control__setup."
 "html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> field of <a class="
 "\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a> の <a class=\"el\" href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> フィールドを参照してください"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:937
 msgid "bRequest"
-msgstr ""
+msgstr "bRequest"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:937
@@ -3047,12 +3049,12 @@ msgid ""
 "see the <a class=\"el\" href=\"structlibusb__control__setup."
 "html#a1b80a28b8d4e8586fc54358194e70087\">bRequest</a> field of <a class=\"el"
 "\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a> の <a class=\"el\" href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">bRequest</a> フィールドを参照して下さい"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:938
 msgid "wValue"
-msgstr ""
+msgstr "wValue"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:938
@@ -3060,12 +3062,12 @@ msgid ""
 "see the <a class=\"el\" href=\"structlibusb__control__setup."
 "html#abbb6daa01fe4b6a05dc43492e4e53a7d\">wValue</a> field of <a class=\"el\" "
 "href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a> の <a class=\"el\" href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">wValue</a> フィールドを参照して下さい"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:939
 msgid "wIndex"
-msgstr ""
+msgstr "wIndex"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:939
@@ -3073,12 +3075,12 @@ msgid ""
 "see the <a class=\"el\" href=\"structlibusb__control__setup."
 "html#a70c2ae456344b200a19d434ace85ae2b\">wIndex</a> field of <a class=\"el\" "
 "href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a> の <a class=\"el\" href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">wIndex</a> フィールドを参照して下さい"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:940
 msgid "wLength"
-msgstr ""
+msgstr "wLength"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:940
@@ -3086,24 +3088,24 @@ msgid ""
 "see the <a class=\"el\" href=\"structlibusb__control__setup."
 "html#a3c442c64fd7619b43b782367235766cc\">wLength</a> field of <a class=\"el"
 "\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a> の <a class=\"el\" href=\"structlibusb__control__setup.html#a3c442c64fd7619b43b782367235766cc\">wLength</a> フィールドを参照して下さい"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:947
 msgid "<a id=\"ga3a8513ed87229fe2c9771ef0bf17206e\"></a>"
-msgstr ""
+msgstr "<a id=\"ga3a8513ed87229fe2c9771ef0bf17206e\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:948
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga3a8513ed87229fe2c9771ef0bf17206e"
 "\">&#9670;&nbsp;</a></span>libusb_fill_control_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga3a8513ed87229fe2c9771ef0bf17206e\">&#9670;&nbsp;</a></span>libusb_fill_control_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:957
 msgid "static void libusb_fill_control_transfer"
-msgstr ""
+msgstr "static void libusb_fill_control_transfer"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:977
@@ -3114,7 +3116,7 @@ msgstr ""
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:978
@@ -3123,7 +3125,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1250
 #: source/api-1.0/group__libusb__asyncio.html:1342
 msgid "<em>callback</em>,"
-msgstr ""
+msgstr "<em>callback</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:983
@@ -3132,7 +3134,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1255
 #: source/api-1.0/group__libusb__asyncio.html:1347
 msgid "void *&#160;"
-msgstr ""
+msgstr "void *&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:984
@@ -3141,7 +3143,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1256
 #: source/api-1.0/group__libusb__asyncio.html:1348
 msgid "<em>user_data</em>,"
-msgstr ""
+msgstr "<em>user_data</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:989
@@ -3153,7 +3155,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1449
 #: source/api-1.0/group__libusb__asyncio.html:1496
 msgid "unsigned int&#160;"
-msgstr ""
+msgstr "unsigned int&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:990
@@ -3162,7 +3164,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1262
 #: source/api-1.0/group__libusb__asyncio.html:1354
 msgid "<em>timeout</em>&#160;"
-msgstr ""
+msgstr "<em>timeout</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1004
@@ -3170,7 +3172,7 @@ msgid ""
 "Helper function to populate the required <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> fields for a control "
 "transfer."
-msgstr ""
+msgstr "制御転送に必要な <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> フィールドに情報を入力するヘルパー関数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1005
@@ -3180,39 +3182,39 @@ msgid ""
 "automatically populate the <a class=\"el\" href=\"structlibusb__transfer."
 "html#a68c023e1f40b50aa8604a2495b6a391e\">length</a> field of the transfer. "
 "Therefore the recommended approach is:"
-msgstr ""
+msgstr "この関数に転送バッファーを渡すと、最初の8バイトが制御セットアップ・パケットとして解釈され、wLengthフィールドを使用して転送の <a class=\"el\" href=\"structlibusb__transfer.html#a68c023e1f40b50aa8604a2495b6a391e\">length</a> フィールドに自動的に入力されます。したがって、推奨されるアプローチは以下のとおりです:"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:1006
 msgid ""
 "Allocate a suitably sized data buffer (including space for control setup)"
-msgstr ""
+msgstr "(制御セットアップ用のスペースを含む)適切なサイズのデータ・バッファを割り当てます"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:1007
 msgid ""
 "Call <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231\">libusb_fill_control_setup()</a> を呼び出します"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:1008
 msgid ""
 "If this is a host-to-device transfer with a data stage, put the data in "
 "place after the setup packet"
-msgstr ""
+msgstr "これがデータ・ステージを使用したホストからデバイスへの転送である場合は、セットアップ・パケットの後ろにデータを配置します"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:1009
 msgid "Call this function"
-msgstr ""
+msgstr "この関数を呼び出します"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__asyncio.html:1010
 msgid ""
 "Call <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce\">libusb_submit_transfer()</a> を呼び出します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1012
@@ -3220,7 +3222,7 @@ msgid ""
 "It is also legal to pass a NULL buffer to this function, in which case this "
 "function will not attempt to populate the length field. Remember that you "
 "must then populate the buffer and length fields later."
-msgstr ""
+msgstr "この関数にNULLバッファーを渡すことも合法です。この場合、この関数はlengthフィールドにデータを入力しようとしません。 後でバッファ・フィールドとlengthフィールドにデータを入力する必要があることに注意してください。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1015
@@ -3229,7 +3231,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1279
 #: source/api-1.0/group__libusb__asyncio.html:1371
 msgid "the transfer to populate"
-msgstr ""
+msgstr "入力対象の転送"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1016
@@ -3238,7 +3240,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1280
 #: source/api-1.0/group__libusb__asyncio.html:1372
 msgid "handle of the device that will handle the transfer"
-msgstr ""
+msgstr "転送を処理するデバイスのハンドル"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1017
@@ -3246,7 +3248,7 @@ msgid ""
 "data buffer. If provided, this function will interpret the first 8 bytes as "
 "a setup packet and infer the transfer length from that. This pointer must be "
 "aligned to at least 2 bytes boundary."
-msgstr ""
+msgstr "データ・バッファ。 指定されている場合、この関数は最初の8バイトをセットアップ・パケットとして解釈し、そこから転送長を推測します。このポインタは、少なくとも2バイト境界に揃える必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1018
@@ -3255,7 +3257,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1284
 #: source/api-1.0/group__libusb__asyncio.html:1377
 msgid "callback"
-msgstr ""
+msgstr "callback"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1018
@@ -3264,7 +3266,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1284
 #: source/api-1.0/group__libusb__asyncio.html:1377
 msgid "callback function to be invoked on transfer completion"
-msgstr ""
+msgstr "転送完了時に呼び出されるコールバック関数"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1019
@@ -3273,7 +3275,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1285
 #: source/api-1.0/group__libusb__asyncio.html:1378
 msgid "user_data"
-msgstr ""
+msgstr "user_data"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1019
@@ -3282,7 +3284,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1285
 #: source/api-1.0/group__libusb__asyncio.html:1378
 msgid "user data to pass to callback function"
-msgstr ""
+msgstr "コールバック関数に渡すユーザー・データ"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1020
@@ -3291,7 +3293,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1286
 #: source/api-1.0/group__libusb__asyncio.html:1379
 msgid "timeout"
-msgstr ""
+msgstr "timeout"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1020
@@ -3300,12 +3302,12 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1286
 #: source/api-1.0/group__libusb__asyncio.html:1379
 msgid "timeout for the transfer in milliseconds"
-msgstr ""
+msgstr "転送のタイムアウト(ミリ秒単位)"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:1027
 msgid "<a id=\"gad4ddb1a5c6c7fefc979a44d7300b95d7\"></a>"
-msgstr ""
+msgstr "<a id=\"gad4ddb1a5c6c7fefc979a44d7300b95d7\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:1028
@@ -3313,12 +3315,12 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gad4ddb1a5c6c7fefc979a44d7300b95d7\">&#9670;&nbsp;</a></"
 "span>libusb_fill_bulk_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gad4ddb1a5c6c7fefc979a44d7300b95d7\">&#9670;&nbsp;</a></span>libusb_fill_bulk_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1037
 msgid "static void libusb_fill_bulk_transfer"
-msgstr ""
+msgstr "static void libusb_fill_bulk_transfer"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1051
@@ -3326,7 +3328,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1231
 #: source/api-1.0/group__libusb__asyncio.html:1317
 msgid "unsigned char&#160;"
-msgstr ""
+msgstr "unsigned char&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1052
@@ -3334,7 +3336,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1232
 #: source/api-1.0/group__libusb__asyncio.html:1318
 msgid "<em>endpoint</em>,"
-msgstr ""
+msgstr "<em>endpoint</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1064
@@ -3342,7 +3344,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1244
 #: source/api-1.0/group__libusb__asyncio.html:1330
 msgid "<em>length</em>,"
-msgstr ""
+msgstr "<em>length</em>,"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1096
@@ -3350,7 +3352,7 @@ msgid ""
 "Helper function to populate the required <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> fields for a bulk "
 "transfer."
-msgstr ""
+msgstr "バルク転送に必要な <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> のフィールド群にデータを入力するヘルパー関数。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1101
@@ -3358,7 +3360,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1281
 #: source/api-1.0/group__libusb__asyncio.html:1373
 msgid "endpoint"
-msgstr ""
+msgstr "endpoint"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1101
@@ -3366,7 +3368,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1281
 #: source/api-1.0/group__libusb__asyncio.html:1373
 msgid "address of the endpoint where this transfer will be sent"
-msgstr ""
+msgstr "この転送を送るエンドポイントのアドレス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1102
@@ -3374,7 +3376,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1282
 #: source/api-1.0/group__libusb__asyncio.html:1374
 msgid "data buffer"
-msgstr ""
+msgstr "データ・バッファ"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1103
@@ -3382,12 +3384,12 @@ msgstr ""
 #: source/api-1.0/group__libusb__asyncio.html:1283
 #: source/api-1.0/group__libusb__asyncio.html:1375
 msgid "length of data buffer"
-msgstr ""
+msgstr "データ・バッファの長さ"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:1113
 msgid "<a id=\"gac2e84d8fb9218d3c67e6a4fd4ade5b10\"></a>"
-msgstr ""
+msgstr "<a id=\"gac2e84d8fb9218d3c67e6a4fd4ade5b10\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:1114
@@ -3395,17 +3397,17 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">&#9670;&nbsp;</a></"
 "span>libusb_fill_bulk_stream_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">&#9670;&nbsp;</a></span>libusb_fill_bulk_stream_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1123
 msgid "static void libusb_fill_bulk_stream_transfer"
-msgstr ""
+msgstr "static void libusb_fill_bulk_stream_transfer"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1144
 msgid "<em>stream_id</em>,"
-msgstr ""
+msgstr "<em>stream_id</em>,"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1188
@@ -3413,17 +3415,17 @@ msgid ""
 "Helper function to populate the required <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> fields for a bulk "
 "transfer using bulk streams."
-msgstr ""
+msgstr "バルク・ストリームを使用したバルク転送に必要な <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> のフィールド群にデータを入力するヘルパー関数。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1195
 msgid "bulk stream id for this transfer"
-msgstr ""
+msgstr "この転送のバルク・ストリームID"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:1207
 msgid "<a id=\"ga90f53cea1124a7566df1aa1202b77510\"></a>"
-msgstr ""
+msgstr "<a id=\"ga90f53cea1124a7566df1aa1202b77510\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:1208
@@ -3431,12 +3433,12 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga90f53cea1124a7566df1aa1202b77510\">&#9670;&nbsp;</a></"
 "span>libusb_fill_interrupt_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga90f53cea1124a7566df1aa1202b77510\">&#9670;&nbsp;</a></span>libusb_fill_interrupt_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1217
 msgid "static void libusb_fill_interrupt_transfer"
-msgstr ""
+msgstr "static void libusb_fill_interrupt_transfer"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1276
@@ -3444,12 +3446,12 @@ msgid ""
 "Helper function to populate the required <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> fields for an interrupt "
 "transfer."
-msgstr ""
+msgstr "割り込み転送に必要な <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> のフィールド群にデータを入力するヘルパー関数。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:1293
 msgid "<a id=\"ga30fdce8c461e851f0aa4c851014e1aa7\"></a>"
-msgstr ""
+msgstr "<a id=\"ga30fdce8c461e851f0aa4c851014e1aa7\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:1294
@@ -3457,17 +3459,17 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga30fdce8c461e851f0aa4c851014e1aa7\">&#9670;&nbsp;</a></"
 "span>libusb_fill_iso_transfer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga30fdce8c461e851f0aa4c851014e1aa7\">&#9670;&nbsp;</a></span>libusb_fill_iso_transfer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1303
 msgid "static void libusb_fill_iso_transfer"
-msgstr ""
+msgstr "static void libusb_fill_iso_transfer"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1336
 msgid "<em>num_iso_packets</em>,"
-msgstr ""
+msgstr "<em>num_iso_packets</em>,"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1368
@@ -3475,22 +3477,22 @@ msgid ""
 "Helper function to populate the required <a class=\"el\" href="
 "\"structlibusb__transfer.html\">libusb_transfer</a> fields for an "
 "isochronous transfer."
-msgstr ""
+msgstr "アイソクロナス転送に必要な <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> のフィールド群にデータを入力するヘルパー関数。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1376
 msgid "num_iso_packets"
-msgstr ""
+msgstr "num_iso_packets"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1376
 msgid "the number of isochronous packets"
-msgstr ""
+msgstr "アイソクロナス・パケットの数"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:1386
 msgid "<a id=\"gacbdecd6f50093f0c1d0e72ee35ace274\"></a>"
-msgstr ""
+msgstr "<a id=\"gacbdecd6f50093f0c1d0e72ee35ace274\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:1387
@@ -3498,36 +3500,36 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gacbdecd6f50093f0c1d0e72ee35ace274\">&#9670;&nbsp;</a></"
 "span>libusb_set_iso_packet_lengths()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gacbdecd6f50093f0c1d0e72ee35ace274\">&#9670;&nbsp;</a></span>libusb_set_iso_packet_lengths()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1396
 msgid "static void libusb_set_iso_packet_lengths"
-msgstr ""
+msgstr "static void libusb_set_iso_packet_lengths"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1419
 msgid ""
 "Convenience function to set the length of all packets in an isochronous "
 "transfer, based on the num_iso_packets field in the transfer structure."
-msgstr ""
+msgstr "転送構造構造体のnum_iso_packetsフィールドに基づいて、アイソクロナス転送でのすべてのパケットの長さを設定する便利な関数。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1423
 msgid "the length to set in each isochronous packet descriptor"
-msgstr ""
+msgstr "各アイソクロナス・パケット・デスクリプターに設定する長さ"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:1427
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#gac81968047e262409e78f3fe24321b604\">libusb_get_max_packet_size()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#gac81968047e262409e78f3fe24321b604\">libusb_get_max_packet_size()</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:1431
 msgid "<a id=\"ga7f6ea0eb35a216d19d984977e454a7b3\"></a>"
-msgstr ""
+msgstr "<a id=\"ga7f6ea0eb35a216d19d984977e454a7b3\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:1432
@@ -3535,25 +3537,25 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga7f6ea0eb35a216d19d984977e454a7b3\">&#9670;&nbsp;</a></"
 "span>libusb_get_iso_packet_buffer()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga7f6ea0eb35a216d19d984977e454a7b3\">&#9670;&nbsp;</a></span>libusb_get_iso_packet_buffer()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1441
 msgid "static unsigned char* libusb_get_iso_packet_buffer"
-msgstr ""
+msgstr "static unsigned char* libusb_get_iso_packet_buffer"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1450
 #: source/api-1.0/group__libusb__asyncio.html:1497
 msgid "<em>packet</em>&#160;"
-msgstr ""
+msgstr "<em>packet</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1464
 msgid ""
 "Convenience function to locate the position of an isochronous packet within "
 "the buffer of an isochronous transfer."
-msgstr ""
+msgstr "アイソクロナス転送のバッファ内でアイソクロナス・パケットの位置を特定するための便利な関数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1465
@@ -3564,19 +3566,20 @@ msgid ""
 "hence the above method is sub-optimal. You may wish to use <a class=\"el\" "
 "href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd"
 "\">libusb_get_iso_packet_buffer_simple()</a> instead."
-msgstr ""
+msgstr "これは、先行するすべてのパケットに対して繰り返し作業を行い、それらの長さを足しこんで指定されたパケットの位置を見つける完全な関数です。通常、転送では各パケットに同じ長さを割り当てるため、この方法は最適とは言えません。代わりに <a class=\"el\" href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple()</a> を使用することをお勧めします。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1469
 #: source/api-1.0/group__libusb__asyncio.html:1517
 msgid "packet"
-msgstr ""
+msgstr "packet"
 
+# パケットNo.の件はlibusb.h で確認。
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1469
 #: source/api-1.0/group__libusb__asyncio.html:1517
 msgid "the packet to return the address of"
-msgstr ""
+msgstr "アドレスを知りたいパケット(訳注:パケットNo. 0〜)"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:1473
@@ -3584,7 +3587,7 @@ msgstr ""
 msgid ""
 "the base address of the packet buffer inside the transfer buffer, or NULL if "
 "the packet does not exist."
-msgstr ""
+msgstr "転送バッファ内のパケット・バッファのベース・アドレス。パケットが存在しない場合はNULL。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:1474
@@ -3592,24 +3595,24 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga3df9a28c4f5c8f1850181ddb5efd12fd"
 "\">libusb_get_iso_packet_buffer_simple()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd\">libusb_get_iso_packet_buffer_simple()</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__asyncio.html:1478
 msgid "<a id=\"ga3df9a28c4f5c8f1850181ddb5efd12fd\"></a>"
-msgstr ""
+msgstr "<a id=\"ga3df9a28c4f5c8f1850181ddb5efd12fd\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__asyncio.html:1479
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga3df9a28c4f5c8f1850181ddb5efd12fd"
 "\">&#9670;&nbsp;</a></span>libusb_get_iso_packet_buffer_simple()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga3df9a28c4f5c8f1850181ddb5efd12fd\">&#9670;&nbsp;</a></span>libusb_get_iso_packet_buffer_simple()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__asyncio.html:1488
 msgid "static unsigned char* libusb_get_iso_packet_buffer_simple"
-msgstr ""
+msgstr "static unsigned char* libusb_get_iso_packet_buffer_simple"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1511
@@ -3617,7 +3620,7 @@ msgid ""
 "Convenience function to locate the position of an isochronous packet within "
 "the buffer of an isochronous transfer, for transfers where each packet is of "
 "identical size."
-msgstr ""
+msgstr "各パケットが同じサイズの転送の場合、アイソクロナス転送のバッファ内でアイソクロナス・パケットの位置を特定するための便利な関数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1512
@@ -3626,144 +3629,144 @@ msgid ""
 "is of identical size to the first packet. Calculating the location of the "
 "packet buffer is then just a simple calculation: <code>buffer + (packet_size "
 "* packet)</code>"
-msgstr ""
+msgstr "この関数は、その転送内のすべてのパケットが最初のパケットと同じサイズであるという仮定に依存しています。パケット・バッファの位置の計算は <code>buffer + (packet_size * packet)</code> という単純な計算です。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__asyncio.html:1513
 msgid ""
 "Do not use this function on transfers other than those that have identical "
 "packet lengths for each packet."
-msgstr ""
+msgstr "各パケットのパケット長が同じである転送以外の転送では、この関数を使用しないでください。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__asyncio.html:1522
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3\">libusb_get_iso_packet_buffer()</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1527
 msgid ""
 "<a href=\"group__libusb__poll."
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1527
 msgid "int libusb_handle_events(libusb_context *ctx)"
-msgstr ""
+msgstr "int libusb_handle_events(libusb_context *ctx)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1527
 msgid "<b>Definition:</b> io.c:2407"
-msgstr ""
+msgstr "<b>定義:</b> io.c:2407"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1528
 msgid ""
 "<a href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d"
 "\">libusb_exit</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1528
 msgid "void libusb_exit(libusb_context *ctx)"
-msgstr ""
+msgstr "void libusb_exit(libusb_context *ctx)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1528
 msgid "<b>Definition:</b> core.c:2385"
-msgstr ""
+msgstr "<b>定義:</b> core.c:2385"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1529
 msgid ""
 "<a href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a"
 "\">libusb_transfer::dev_handle</a>"
-msgstr ""
+msgstr "<a href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">libusb_transfer::dev_handle</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1529
 msgid "libusb_device_handle * dev_handle"
-msgstr ""
+msgstr "libusb_device_handle * dev_handle"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1529
 msgid "Handle of the device that this transfer will be submitted to."
-msgstr ""
+msgstr "この転送が送信されるデバイスのハンドル。"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1529
 msgid "<b>Definition:</b> libusb.h:1224"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1224"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1530
 msgid ""
 "<a href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc"
 "\">libusb_hotplug_deregister_callback</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1530
 msgid ""
 "void libusb_hotplug_deregister_callback(libusb_context *ctx, "
 "libusb_hotplug_callback_handle callback_handle)"
-msgstr ""
+msgstr "void libusb_hotplug_deregister_callback(libusb_context *ctx, libusb_hotplug_callback_handle callback_handle)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1530
 msgid "<b>Definition:</b> hotplug.c:404"
-msgstr ""
+msgstr "<b>定義:</b> hotplug.c:404"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1531
 msgid ""
 "<a href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e"
 "\">libusb_close</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1531
 msgid "void libusb_close(libusb_device_handle *dev_handle)"
-msgstr ""
+msgstr "void libusb_close(libusb_device_handle *dev_handle)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1531
 msgid "<b>Definition:</b> core.c:1446"
-msgstr ""
+msgstr "<b>定義:</b> core.c:1446"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1532
 msgid ""
 "<a href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1532
 msgid "struct libusb_device_handle libusb_device_handle"
-msgstr ""
+msgstr "struct libusb_device_handle libusb_device_handle"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__asyncio.html:1532
 msgid "<b>Definition:</b> libusb.h:1015"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1015"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/group__libusb__asyncio.html:1534
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/group__libusb__asyncio.html:1536
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/group__libusb__asyncio.html:1537
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"

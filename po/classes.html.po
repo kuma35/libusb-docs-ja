@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 01:55+0900\n"
+"PO-Revision-Date: 2021-07-10 04:16+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/classes.html:8
 msgid "libusb: Data Structure Index"
-msgstr ""
+msgstr "libusb: データ構造索引"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/classes.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/classes.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/classes.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/classes.html:36
@@ -42,153 +42,153 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/classes.html:45
 msgid "Data Structure Index"
-msgstr ""
+msgstr "データ構造索引"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/classes.html:48 source/api-1.0/classes.html:74
 msgid "<a class=\"qindex\" href=\"#letter_l\">l</a>"
-msgstr ""
+msgstr "<a class=\"qindex\" href=\"#letter_l\">l</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:50
 msgid "<a name=\"letter_l\"></a>"
-msgstr ""
+msgstr "<a name=\"letter_l\"></a>"
 
 #. type: Content of: <html><body><div><table><tr><td><table><tr><td><div>
 #: source/api-1.0/classes.html:50
 msgid "&#160;&#160;l&#160;&#160;"
-msgstr ""
+msgstr "&#160;&#160;l&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:52
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor.html"
 "\">libusb_config_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html\">libusb_config_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:53
 msgid ""
 "<a class=\"el\" href=\"structlibusb__endpoint__descriptor.html"
 "\">libusb_endpoint_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__endpoint__descriptor.html\">libusb_endpoint_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:54
 msgid ""
 "<a class=\"el\" href=\"structlibusb__pollfd.html\">libusb_pollfd</a>&#160;"
 "&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__pollfd.html\">libusb_pollfd</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:55
 msgid ""
 "<a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html"
 "\">libusb_usb_2_0_extension_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__usb__2__0__extension__descriptor.html\">libusb_usb_2_0_extension_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:57
 msgid ""
 "<a class=\"el\" href=\"structlibusb__container__id__descriptor.html"
 "\">libusb_container_id_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__container__id__descriptor.html\">libusb_container_id_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:58
 msgid ""
 "<a class=\"el\" href=\"structlibusb__interface.html\">libusb_interface</"
 "a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__interface.html\">libusb_interface</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:59
 msgid ""
 "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html"
 "\">libusb_ss_endpoint_companion_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html\">libusb_ss_endpoint_companion_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:60
 msgid ""
 "<a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>&#160;"
 "&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:62
 msgid ""
 "<a class=\"el\" href=\"structlibusb__bos__descriptor.html"
 "\">libusb_bos_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__bos__descriptor.html\">libusb_bos_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:63
 msgid ""
 "<a class=\"el\" href=\"structlibusb__control__setup.html"
 "\">libusb_control_setup</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html\">libusb_control_setup</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:64
 msgid ""
 "<a class=\"el\" href=\"structlibusb__interface__descriptor.html"
 "\">libusb_interface_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__interface__descriptor.html\">libusb_interface_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:65
 msgid ""
 "<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor."
 "html\">libusb_ss_usb_device_capability_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__ss__usb__device__capability__descriptor.html\">libusb_ss_usb_device_capability_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:67
 msgid ""
 "<a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html"
 "\">libusb_bos_dev_capability_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__bos__dev__capability__descriptor.html\">libusb_bos_dev_capability_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:68
 msgid ""
 "<a class=\"el\" href=\"structlibusb__device__descriptor.html"
 "\">libusb_device_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__device__descriptor.html\">libusb_device_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:69
 msgid ""
 "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html"
 "\">libusb_iso_packet_descriptor</a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html\">libusb_iso_packet_descriptor</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/classes.html:70
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</"
 "a>&#160;&#160;&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a>&#160;&#160;&#160;"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/classes.html:77
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/classes.html:79
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/classes.html:80
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"

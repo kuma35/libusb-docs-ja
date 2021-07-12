@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: Asynchronous device I/O</title>
+<title>libusb: 非同期デバイス入出力</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -45,24 +45,20 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124; <a
-href="#typedef-members">Typedefs</a> &#124; <a
-href="#enum-members">Enumerations</a> &#124; <a
-href="#func-members">Functions</a>  </div>
+href="#typedef-members">Typedefs</a> &#124; <a href="#enum-members">列挙型</a>
+&#124; <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Asynchronous device I/O</div>  </div>
+<div class="title">非同期デバイス入出力</div>  </div>
 </div>
 <!--header-->
 <div class="contents">
 
-<p>This page details libusb's asynchronous (non-blocking) API for USB device
-I/O. This interface is very powerful but is also quite complex - you will
-need to read this page carefully to understand the necessary considerations
-and issues surrounding use of this interface. Simplistic applications may
-wish to consider the <a class="el"
-href="group__libusb__syncio.html">synchronous I/O API</a> instead.  <a
-href="#details">More...</a></p>
+<p>このページでは、USBデバイス入出力用のlibusbの非同期(非ブロッキング)APIについて詳しく説明します。
+このインターフェイスは非常に強力ですが、非常に複雑でもあります。このページを注意深く読んで、このインターフェイスの使用に関する必要な考慮事項と問題を理解する必要があります。単純なアプリケーションでは、代わりに
+<a class="el" href="group__libusb__syncio.html">同期入出力API</a>
+を検討することをお勧めします。<a href="#details">詳細はコチラ</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a> Data Structures</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a> データ構造</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__control__setup.html">libusb_control_setup</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -72,14 +68,14 @@ href="structlibusb__iso__packet__descriptor.html">libusb_iso_packet_descriptor</
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibusb__transfer.html">libusb_transfer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a> Typedefs</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a> Typedef</h2></td></tr>
 <tr class="memitem:gac74874519794cd7aa40c0814702b0c88"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88">libusb_transfer_cb_fn</a>)
 (struct <a class="el" href="structlibusb__transfer.html">libusb_transfer</a>
 *transfer)</td></tr>
 <tr class="separator:gac74874519794cd7aa40c0814702b0c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a> Enumerations</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a> 列挙型</h2></td></tr>
 <tr class="memitem:gacb52027036a07de6ecc6c2bf07d07c71"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71">libusb_transfer_type</a>
 { <br />
@@ -133,7 +129,7 @@ href="group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6
 = (1U &lt;&lt; 3)  }</td></tr>
 <tr class="separator:ga1fb47dd0f7c209b60a3609ff0c03d56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a> Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a> 関数</h2></td></tr>
 <tr class="memitem:gad7e786c1bedd4a668887564465101981"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981">libusb_alloc_streams</a>
 (<a class="el"
@@ -270,378 +266,257 @@ href="group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd">libusb_get
 *transfer, unsigned int packet)</td></tr>
 <tr class="separator:ga3df9a28c4f5c8f1850181ddb5efd12fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>This page details libusb's asynchronous (non-blocking) API for USB device
-I/O. This interface is very powerful but is also quite complex - you will
-need to read this page carefully to understand the necessary considerations
-and issues surrounding use of this interface. Simplistic applications may
-wish to consider the <a class="el"
-href="group__libusb__syncio.html">synchronous I/O API</a> instead. </p>
-<p>The asynchronous interface is built around the idea of separating transfer
-submission and handling of transfer completion (the synchronous model
-combines both of these into one). There may be a long delay between
-submission and completion, however the asynchronous submission function is
-non-blocking so will return control to your application during that
-potentially long delay.</p>
-<h1><a class="anchor" id="asyncabstraction"></a> Transfer abstraction</h1>
-<p>For the asynchronous I/O, libusb implements the concept of a generic
-transfer entity for all types of I/O (control, bulk, interrupt,
-isochronous). The generic transfer object must be treated slightly
-differently depending on which type of I/O you are performing with it.</p>
-<p>This is represented by the public <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> structure type.</p>
-<h1><a class="anchor" id="asynctrf"></a> Asynchronous transfers</h1>
-<p>We can view asynchronous I/O as a 5 step process:</p><ol type="1">
-<li><b>Allocation</b>: allocate a <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a></li>
-<li><b>Filling</b>: populate the <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> instance with
-information about the transfer you wish to perform</li>
-<li><b>Submission</b>: ask libusb to submit the transfer</li>
-<li><b>Completion handling</b>: examine transfer results in the <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> structure</li>
-<li><b>Deallocation</b>: clean up resources</li>
+<a name="details" id="details"></a><h2 class="groupheader">詳細</h2>
+<p>このページでは、USBデバイス入出力O用のlibusbの非同期(非ブロッキング)APIについて詳しく説明します。
+このインターフェイスは非常に強力ですが、非常に複雑でもあります。このページを注意深く読んで、このインターフェイスの使用に関する必要な考慮事項と問題を理解する必要があります。
+単純なアプリケーションでは、代わりに <a class="el"
+href="group__libusb__syncio.html">同期入出力API</a> を検討することをお勧めします。 </p>
+<p>非同期インターフェースは、転送の送信と転送の完了の処理を分離するという考えに基づいて構築されています(同期モデルはこれらの両方を1つに結合します)。
+送信から完了までに長い遅延が発生する可能性がありますが、非同期送信機能は非ブロッキングであるため、その潜在的に長い遅延の間にアプリケーションに制御を戻します。</p>
+<h1><a class="anchor" id="asyncabstraction"></a> 転送の抽象化</h1>
+<p>非同期入出力の場合、libusbは、すべてのタイプの入出力(制御、バルク、割り込み、アイソクロナス)の汎用転送エンティティの概念を実装します。汎用転送オブジェクトは、それを使用して実行している入出力のタイプに応じて、多少異なる方法で処理する必要があります。</p>
+<p>これは、 public <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a> 構造体タイプで表されます。</p>
+<h1><a class="anchor" id="asynctrf"></a> 非同期転送</h1>
+<p>非同期入出力は5ステップのプロセスと見なすことができます:</p><ol type="1">
+<li><b>割り当て</b>: <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a> を割り当てます</li>
+<li><b>情報入力</b>: その <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a>
+インスタンスに実行したい転送に関する情報を入力します</li>
+<li><b>送信</b>: libusbに送信(submit)を依頼する</li>
+<li><b>完了処理</b>: <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a> 構造体で転送結果を調べます</li>
+<li><b>割り当て解除</b>: リソースをクリーンアップします</li>
 </ol>
-<h2><a class="anchor" id="asyncalloc"></a> Allocation</h2>
-<p>This step involves allocating memory for a USB transfer. This is the generic
-transfer object mentioned above. At this stage, the transfer is "blank" with
-no details about what type of I/O it will be used for.</p>
-<p>Allocation is done with the <a class="el"
+<h2><a class="anchor" id="asyncalloc"></a> 割り当て</h2>
+<p>このステップには、USB転送用のメモリの割り当てが含まれます。
+これは、前述した一般的な転送オブジェクトです。この段階では、転送は「空白」であり、使用される入出力タイプに関する詳細はありません。</p>
+<p>割り当ては、 <a class="el"
 href="group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000">libusb_alloc_transfer()</a>
-function. You must use this function rather than allocating your own
-transfers.</p>
-<h2><a class="anchor" id="asyncfill"></a> Filling</h2>
-<p>This step is where you take a previously allocated transfer and fill it with
-information to determine the message type and direction, data buffer,
-callback function, etc.</p>
-<p>You can either fill the required fields yourself or you can use the helper
-functions: <a class="el"
-href="group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e">libusb_fill_control_transfer()</a>,
-<a class="el"
+関数を使用して行われます。 あなた独自の転送の割り当てではなく、この関数を使用する必要があります。</p>
+<h2><a class="anchor" id="asyncfill"></a> 情報入力</h2>
+<p>このステップでは、先程割り当てられた転送を取得し、メッセージ・タイプと方向(訳注:入力か出力か)、データ・バッファー、コールバック関数などの情報を入力します。</p>
+<p>あなたは必要なフィールドに自分で入力するか、ヘルパー関数を使用できます: <a class="el"
+href="group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e">libusb_fill_control_transfer()</a>
+と <a class="el"
 href="group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7">libusb_fill_bulk_transfer()</a>
-and <a class="el"
-href="group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510">libusb_fill_interrupt_transfer()</a>.</p>
-<h2><a class="anchor" id="asyncsubmit"></a> Submission</h2>
-<p>When you have allocated a transfer and filled it, you can submit it using <a
-class="el"
-href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer()</a>.
-This function returns immediately but can be regarded as firing off the I/O
-request in the background.</p>
-<h2><a class="anchor" id="asynccomplete"></a> Completion handling</h2>
-<p>After a transfer has been submitted, one of four things can happen to it:</p>
+と <a class="el"
+href="group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510">libusb_fill_interrupt_transfer()</a></p>
+<h2><a class="anchor" id="asyncsubmit"></a> 送信</h2>
+<p>転送を割り当て、入力したら、 <a class="el"
+href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer()</a>
+を使用して送信できます。この関数はすぐに戻りますが、バックグラウンドで入出力要求を実行しています。</p>
+<h2><a class="anchor" id="asynccomplete"></a> 完了処理</h2>
+<p>転送データを送信開始した後、次の4つのいずれかが発生する可能性があります:</p>
 <ul>
-<li>The transfer completes (i.e. some data was transferred)</li>
-<li>The transfer has a timeout and the timeout expires before all data is
-transferred</li>
-<li>The transfer fails due to an error</li>
-<li>The transfer is cancelled</li>
+<li>転送が完了しました(つまり、いくつかのデータが転送されました)</li>
+<li>転送にはタイムアウトがあり、すべてのデータが転送される前にタイムアウトが期限切れになる事があります</li>
+<li>エラーが原因で転送が失敗</li>
+<li>転送処理がキャンセルされた</li>
 </ul>
-<p>Each of these will cause the user-specified transfer callback function to be
-invoked. It is up to the callback function to determine which of the above
-actually happened and to act accordingly.</p>
-<p>The user-specified callback is passed a pointer to the <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> structure which was
-used to setup and submit the transfer. At completion time, libusb has
-populated this structure with results of the transfer: success or failure
-reason, number of bytes of data transferred, etc. See the <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> structure
-documentation for more information.</p>
-<p><b>Important Note</b>: The user-specified callback is called from an event
-handling context. It is therefore important that no calls are made into
-libusb that will attempt to perform any event handling. Examples of such
-functions are any listed in the <a class="el"
-href="group__libusb__syncio.html">synchronous API</a> and any of the
-blocking functions that retrieve <a class="el"
-href="group__libusb__desc.html">USB descriptors</a>.</p>
-<h2><a class="anchor" id="Deallocation"></a> Deallocation</h2>
-<p>When a transfer has completed (i.e. the callback function has been invoked),
-you are advised to free the transfer (unless you wish to resubmit it, see
-below). Transfers are deallocated with <a class="el"
-href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>.</p>
-<p>It is undefined behaviour to free a transfer which has not completed.</p>
-<h1><a class="anchor" id="asyncresubmit"></a> Resubmission</h1>
-<p>You may be wondering why allocation, filling, and submission are all
-separated above where they could reasonably be combined into a single
-operation.</p>
-<p>The reason for separation is to allow you to resubmit transfers without
-having to allocate new ones every time. This is especially useful for common
-situations dealing with interrupt endpoints - you allocate one transfer,
-fill and submit it, and when it returns with results you just resubmit it
-for the next interrupt.</p>
-<h1><a class="anchor" id="asynccancel"></a> Cancellation</h1>
-<p>Another advantage of using the asynchronous interface is that you have the
-ability to cancel transfers which have not yet completed. This is done by
-calling the <a class="el"
+<p>これらそれぞれに対してユーザー指定の転送コールバック関数が呼び出されます。上記のどれが実際に起こったかを判断し、それに応じて行動するのはコールバック関数次第です。</p>
+<p>ユーザー指定のコールバックには、転送の情報入力時と送信時に使用された <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a> 構造体へのポインタが渡されます。
+完了時にlibusbはこの構造体に転送の結果(成功または失敗の理由、転送されたデータのバイト数など)を入力します。詳細については、 <a
+class="el" href="structlibusb__transfer.html">libusb_transfer</a>
+構造体の文書を参照してください。</p>
+<p><b>重要</b>:
+ユーザー指定のコールバックは、イベント処理コンテキストから呼び出されます。したがって、イベント処理を実行しようとするlibusbへの呼び出しが行われないことが重要です。このような関数の例としては、
+<a class="el" href="group__libusb__syncio.html">同期API</a> にリストされているものや、 <a
+class="el" href="group__libusb__desc.html">USBデスクリプター</a>
+を取得するブロッキング関数があります。</p>
+<h2><a class="anchor" id="Deallocation"></a> 割り当て解除</h2>
+<p>転送が完了したら(つまり、コールバック関数が呼び出されたら)、その転送を解放することをお勧めします(再送信する場合を除き、以下を参照してください)。
+転送は、 <a class="el"
+href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>
+で割り当て解除されます。</p>
+<p>完了していない転送を解放することは未定義の動作です。</p>
+<h1><a class="anchor" id="asyncresubmit"></a> 再送信</h1>
+<p>これらを1つの操作に合理的に組み合わせることができるのに、割り当て・情報入力・送信がすべて分離されているのはなぜか疑問に思われるかもしれません。</p>
+<p>分離してある理由は、毎回新しい転送を割り当てることなく、転送を再送信できるようにするためです。
+これは、割り込みエンドポイントを扱う一般的な状況で特に役立ちます。1つの転送を割り当て、それを入力して送信し、結果が返されたら、次の割り込みのために再送信するだけです。</p>
+<h1><a class="anchor" id="asynccancel"></a> キャンセル</h1>
+<p>非同期インターフェースを使用するもう1つの利点は、まだ完了していない転送をキャンセルできることです。 これは、 <a class="el"
 href="group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54">libusb_cancel_transfer()</a>
-function.</p>
+関数を呼び出すことで実行されます。</p>
 <p><a class="el"
 href="group__libusb__asyncio.html#ga685eb7731f9a0593f75beb99727bbe54">libusb_cancel_transfer()</a>
-is asynchronous/non-blocking in itself. When the cancellation actually
-completes, the transfer's callback function will be invoked, and the
-callback function should check the transfer status to determine that it was
-cancelled.</p>
-<p>Freeing the transfer after it has been cancelled but before cancellation has
-completed will result in undefined behaviour.</p>
-<dl class="section attention"><dt>Attention</dt><dd>When a transfer is cancelled, some of the data may have been
-transferred. libusb will communicate this to you in the transfer
-callback. <b>Do not assume that no data was transferred.</b></dd></dl>
-<h1><a class="anchor" id="asyncpartial"></a> Partial data transfer resulting
-from cancellation</h1>
-<p>As noted above, some of the data may have been transferred at the time a
-transfer is cancelled. It is helpful to see how this is possible if you
-consider a bulk transfer to an endpoint with a packet size of 64
-bytes. Supposing you submit a 512-byte transfer to this endpoint, the
-operating system will divide this transfer up into 8 separate 64-byte frames
-that the host controller will schedule for the device to transfer data. If
-this transfer is cancelled while the device is transferring data, a subset
-of these frames may be descheduled from the host controller before the
-device has the opportunity to finish transferring data to the host.</p>
-<p>What your application should do with a partial data transfer is a policy
-decision; there is no single answer that satisfies the needs of every
-application. The data that was successfully transferred should be considered
-entirely valid, but your application must decide what to do with the
-remaining data that was not transferred. Some possible actions to take are:</p><ul>
-<li>Resubmit another transfer for the remaining data, possibly with a shorter
-timeout</li>
-<li>Discard the partially transferred data and report an error</li>
+それ自体が非同期/非ブロッキングです。
+キャンセルが実際に完了すると、転送のコールバック関数が呼び出され、コールバック関数は転送ステータスをチェックして、キャンセルされたことを確認する必要があります。</p>
+<p>キャンセル後、キャンセルが完了する前に転送を解放すると、未定義の動作が発生します。</p>
+<dl class="section attention"><dt>注意</dt><dd>転送がキャンセルされた場合、一部のデータが転送された可能性があります。 libusbは、転送コールバックでこれを通知します。
+<b>転送されたデータ無かったという想定はしないでください。</ b></dd></dl>
+<h1><a class="anchor" id="asyncpartial"></a> キャンセルによる部分的なデータ転送</h1>
+<p>上記のように、一部のデータは転送がキャンセルされたときに既に転送された可能性があります。
+パケット・サイズが64バイトのエンドポイントへの一括転送を検討する場合、これがどのように可能であるかを確認すると役立ちます。このエンドポイントに512バイトの転送を送信すると、オペレーティング・システムは、この転送を8つの個別の64バイトフレームに分割し、ホスト・コントローラーがデバイスがデータを転送するようにスケジュールします。
+デバイスがデータを転送しているときにこの転送がキャンセルされた場合、デバイスがホストへのデータの転送を完了する前に、これらのフレームの部分がホスト・コントローラーからスケジュール解除される可能性があります。</p>
+<p>部分的なデータ転送でアプリケーションが行うべきことは、ポリシーの決定です。 すべてのアプリケーションの需要を満たす単一の答えはありません。
+正常に転送されたデータは完全に有効であると見なす必要があります。しかし、アプリケーションは、転送されなかった残りのデータをどう処理するかを決定する必要があります。実行できる行動は以下のとおりです:</p><ul>
+<li>残りのデータの別の転送を再送信します。タイムアウトを短くすることもできます</li>
+<li>部分的に転送されたデータを破棄し、エラーを報告します</li>
 </ul>
-<h1><a class="anchor" id="asynctimeout"></a> Timeouts</h1>
-<p>When a transfer times out, libusb internally notes this and attempts to
-cancel the transfer. As noted in <a class="el"
-href="group__libusb__asyncio.html#asyncpartial">above</a>, it is possible
-that some of the data may actually have been transferred. Your application
-should <b>always</b> check how much data was actually transferred once the
-transfer completes and act accordingly.</p>
-<h1><a class="anchor" id="bulk_overflows"></a> Overflows on device-to-host
-bulk/interrupt endpoints</h1>
-<p>If your device does not have predictable transfer sizes (or it misbehaves),
-your application may submit a request for data on an IN endpoint which is
-smaller than the data that the device wishes to send. In some circumstances
-this will cause an overflow, which is a nasty condition to deal with. See
-the <a class="el" href="libusb_packetoverflow.html">Packets and
-overflows</a> page for discussion.</p>
-<h1><a class="anchor" id="asyncctrl"></a> Considerations for control transfers</h1>
-<p>The <code><a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a></code> structure is
-generic and hence does not include specific fields for the control-specific
-setup packet structure.</p>
-<p>In order to perform a control transfer, you must place the 8-byte setup
-packet at the start of the data buffer. To simplify this, you could cast the
-buffer pointer to type struct <a class="el"
-href="structlibusb__control__setup.html">libusb_control_setup</a>, or you
-can use the helper function <a class="el"
-href="group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231">libusb_fill_control_setup()</a>.</p>
-<p>The wLength field placed in the setup packet must be the length you would
-expect to be sent in the setup packet: the length of the payload that
-follows (or the expected maximum number of bytes to receive). However, the
-length field of the <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> object must be the
-length of the data buffer - i.e. it should be wLength <em>plus</em> the size
-of the setup packet (LIBUSB_CONTROL_SETUP_SIZE).</p>
-<p>If you use the helper functions, this is simplified for you:</p><ol type="1">
-<li>Allocate a buffer of size LIBUSB_CONTROL_SETUP_SIZE plus the size of the
-data you are sending/requesting.</li>
-<li>Call <a class="el"
+<h1><a class="anchor" id="asynctimeout"></a> タイムアウト</h1>
+<p>転送がタイムアウトすると、libusbはこれを内部的に記録し、転送をキャンセルしようとします。 <a class="el"
+href="group__libusb__asyncio.html#asyncpartial">上述e</a>されているように、一部のデータは実際に転送された可能性があります。アプリケーションは、転送が完了したら、<b>常に</b>実際に転送されたデータの量を確認し、それに応じて動作する必要があります。</p>
+<h1><a class="anchor" id="bulk_overflows">
+デバイスからホスト方向のバルクまたは割り込みエンドポイントでのオーバーフロー</h1>
+<p>デバイスに推測可能な転送サイズがない場合(またはデバイスが誤動作する場合)、アプリケーションは、デバイスが送信したいデータよりも小さいINエンドポイントでデータの要求を送信する場合があります。状況によっては、これによりオーバーフローが発生し、対処するのが厄介な状態になります。この議論については、
+<a class="el" href="libusb_packetoverflow.html">パケットとオーバーフロー</a>
+ページを参照してください。</p>
+<h1><a class="anchor" id="asyncctrl"></a> 制御転送に関する考慮</h1>
+<p><code><a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a></code>
+構造は汎用であるため、制御転送固有のセットアップ・パケット構造体の特定のフィールドは含まれていません。</p>
+<p>制御転送を実行するには、8バイトのセットアップ・パケットをデータ・バッファの先頭に配置する必要があります。これを単純化するために、バッファ・ポインタを型
+struct  にキャストするか、ヘルパー関数 <a class="el"
 href="group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231">libusb_fill_control_setup()</a>
-on the data buffer, using the transfer request size as the wLength value
-(i.e. do not include the extra space you allocated for the control setup).</li>
-<li>If this is a host-to-device transfer, place the data to be transferred in
-the data buffer, starting at offset LIBUSB_CONTROL_SETUP_SIZE.</li>
-<li>Call <a class="el"
+を使用できます。</p>
+<p>セットアップ・パケットに配置されるwLengthフィールドは、セットアップ・パケットで送信されると予想される長さ、つまり後続のペイロードの長さ(または受信すると予想される最大バイト数)である必要があります。
+ただし、 <a class="el" href="structlibusb__transfer.html">libusb_transfer</a>
+オブジェクトのlengthフィールドは、データ・バッファの長さである必要があります。つまり、wLengthにセットアップ・パケットのサイズを<em>加えた</em>ものである必要があります(LIBUSB_CONTROL_SETUP_SIZE)。</p>
+<p>ヘルパー関数を使用する場合、これは以下のように単純化されます:</p><ol type="1">
+<li>サイズ値LIBUSB_CONTROL_SETUP_SIZEに、送信/要求するデータのサイズを加えて、バッファーを割り当てます。</li>
+<li>転送要求のサイズをwLength値として使用して、データ・バッファーで <a class="el"
+href="group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231">libusb_fill_control_setup()</a>
+を呼び出します(つまり、制御転送セットアップに割り当てた余分なスペースを含めないでください)。</li>
+<li>これがホストからデバイス方向の転送である場合は、オフセットLIBUSB_CONTROL_SETUP_SIZEから開始して、転送するデータをデータ・バッファーに配置します。</li>
+<li><a class="el"
 href="group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e">libusb_fill_control_transfer()</a>
-to associate the data buffer with the transfer (and to set the remaining
-details such as callback and timeout).<ul>
-<li>Note that there is no parameter to set the length field of the transfer. The
-length is automatically inferred from the wLength field of the setup packet.</li>
+を呼び出して、データ・バッファーを転送に関連付けます(そして、コールバックやタイムアウトなどの残りの詳細を設定します)。<ul>
+<li>注意: 転送の長さフィールドを設定するパラメータがないことに注意してください。
+長さは、セットアップ・パケットのwLengthフィールドから自動的に推測されます。</li>
 </ul>
 </li>
-<li>Submit the transfer.</li>
+<li>その転送を送信する。</li>
 </ol>
-<p>The multi-byte control setup fields (wValue, wIndex and wLength) must be
-given in little-endian byte order (the endianness of the USB
-bus). Endianness conversion is transparently handled by <a class="el"
+<p>マルチバイト制御セットアップ・フィールド( wValue と wIndex と wLength
+)は、リトル・エンディアンのバイト順序(USBバスのエンディアン)で指定する必要があります。エンディアン変換は、ホスト・エンディアン値を受け入れるように文書化されている
+<a class="el"
 href="group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231">libusb_fill_control_setup()</a>
-which is documented to accept host-endian values.</p>
-<p>Further considerations are needed when handling transfer completion in your
-callback function:</p><ul>
-<li>As you might expect, the setup packet will still be sitting at the start of
-the data buffer.</li>
-<li>If this was a device-to-host transfer, the received data will be sitting at
-offset LIBUSB_CONTROL_SETUP_SIZE into the buffer.</li>
-<li>The actual_length field of the transfer structure is relative to the wLength
-of the setup packet, rather than the size of the data buffer. So, if your
-wLength was 4, your transfer's <code>length</code> was 12, then you should
-expect an <code>actual_length</code> of 4 to indicate that the data was
-transferred in entirety.</li>
+によって透過的に処理されます。</p>
+<p>コールバック関数で転送の完了を処理する場合は、さらに考慮が必要です。</p><ul>
+<li>ご存知のとおり、セットアップ・パケットはデータ・バッファの先頭にあります。</li>
+<li>これがデバイスからホスト方向への転送であった場合、受信したデータはオフセットLIBUSB_CONTROL_SETUP_SIZE位置からバッファーに格納されます。</li>
+<li>転送構造体のactual_lengthフィールドは、データ・バッファのサイズではなく、セットアップ・パケットのwLengthに関連しています。
+したがって、wLengthが4の場合、転送の <code>length</code> は12であり、データが完全に転送されたことを示す
+<code>actual_length</code> が4であると予想する必要があります。</li>
 </ul>
-<p>To simplify parsing of setup packets and obtaining the data from the correct
-offset, you may wish to use the <a class="el"
+<p>セットアップパケットの解析と正しいオフセットからのデータの取得を簡素化するために、転送コールバック内で <a class="el"
 href="group__libusb__asyncio.html#gadf9c633586dde54ce62a3d66a4d7554c">libusb_control_transfer_get_data()</a>
-and <a class="el"
+関数と <a class="el"
 href="group__libusb__asyncio.html#ga6ab02f15e11b5b03b1174fbd7c3bc061">libusb_control_transfer_get_setup()</a>
-functions within your transfer callback.</p>
-<p>Even though control endpoints do not halt, a completed control transfer may
-have a LIBUSB_TRANSFER_STALL status code. This indicates the control request
-was not supported.</p>
-<h1><a class="anchor" id="asyncintr"></a> Considerations for interrupt transfers</h1>
-<p>All interrupt transfers are performed using the polling interval presented
-by the bInterval value of the endpoint descriptor.</p>
-<h1><a class="anchor" id="asynciso"></a> Considerations for isochronous
-transfers</h1>
-<p>Isochronous transfers are more complicated than transfers to non-isochronous
-endpoints.</p>
-<p>To perform I/O to an isochronous endpoint, allocate the transfer by calling
-<a class="el"
+関数を使用することをお勧めします。</p>
+<p>制御エンドポイントが停止しない場合でも、完了した制御転送にはLIBUSB_TRANSFER_STALLステータス・コードが含まれる場合があります。これは、制御要求がサポートされていなかったことを示します。</p>
+<h1><a class="anchor" id="asyncintr"></a> 割り込み転送に関する考慮</h1>
+<p>すべての割り込み転送は、エンドポイント・デスクリプターのbInterval値によって示されるポーリング間隔を使用して実行されます。</p>
+<h1><a class="anchor" id="asynciso"></a> アイソクロナス転送に関する考慮</h1>
+<p>アイソクロナス転送は、非アイソクロナス・エンドポイントへの転送よりも更に複雑です。</p>
+<p>アイソクロナス・エンドポイントへの入出力を実行するには、適切な数のアイソクロナス・パケットを使用して <a class="el"
 href="group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000">libusb_alloc_transfer()</a>
-with an appropriate number of isochronous packets.</p>
-<p>During filling, set <a class="el"
+を呼び出して転送を割り当てます。</p>
+<p>情報入力で、 <a class="el"
 href="structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1">type</a>
-to <a class="el"
-href="group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300">LIBUSB_TRANSFER_TYPE_ISOCHRONOUS</a>,
-and set <a class="el"
+に <a class="el"
+href="group__libusb__asyncio.html#ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300">LIBUSB_TRANSFER_TYPE_ISOCHRONOUS</a>
+をセットし、 <a class="el"
 href="structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d">num_iso_packets</a>
-to a value less than or equal to the number of packets you requested during
-allocation. <a class="el"
+に割り当て中に要求したパケット数以下の値をセットします。 <a class="el"
 href="group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000">libusb_alloc_transfer()</a>
-does not set either of these fields for you, given that you might not even
-use the transfer on an isochronous endpoint.</p>
-<p>Next, populate the length field for the first num_iso_packets entries in the
-<a class="el"
+は、アイソクロナス・エンドポイントで転送を使用しない可能性があるため、これらのフィールドのどちらも設定しません。</p>
+<p>次に、 <a class="el"
 href="structlibusb__transfer.html#a3b72ef736d32b94a7097798612741644">iso_packet_desc</a>
-array. Section 5.6.3 of the USB2 specifications describe how the maximum
-isochronous packet length is determined by the wMaxPacketSize field in the
-endpoint descriptor. Two functions can help you here:</p>
+配列の最初のnum_iso_packetsエントリのlengthフィールドに入力します。 USB2仕様の5.6.3節(Section 5.6.3 of
+the USB2
+specifications)では、エンドポイント・デスクリプターのwMaxPacketSizeフィールドによって最大アイソクロナス・パケット長がどのように決定されるかについて説明しています。ここで以下の2つの機能が役に立ちます:</p>
 <ul>
 <li><a class="el"
 href="group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0">libusb_get_max_iso_packet_size()</a>
-is an easy way to determine the max packet size for an isochronous
-endpoint. Note that the maximum packet size is actually the maximum number
-of bytes that can be transmitted in a single microframe, therefore this
-function multiplies the maximum number of bytes per transaction by the
-number of transaction opportunities per microframe.</li>
+は、アイソクロナス・エンドポイントの最大パケット・サイズを決定する簡単な方法です。最大パケットサイズは、実際には1つのマイクロ・フレームで送信できる最大バイト数であるため、この関数は、トランザクションあたりの最大バイト数にマイクロフレームあたりの取引機会の数(number
+of transaction opportunities)を掛けることに注意してください。</li>
 <li><a class="el"
 href="group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274">libusb_set_iso_packet_lengths()</a>
-assigns the same length to all packets within a transfer, which is usually
-what you want.</li>
+は、転送内のすべてのパケットに同じ長さを割り当てます。これは通常、あなたが必要としている事です。</li>
 </ul>
-<p>For outgoing transfers, you'll obviously fill the buffer and populate the
-packet descriptors in hope that all the data gets transferred. For incoming
-transfers, you must ensure the buffer has sufficient capacity for the
-situation where all packets transfer the full amount of requested data.</p>
-<p>Completion handling requires some extra consideration. The <a class="el"
+<p>こちらから相手への発信する転送の場合、すべてのデータが転送されることを期待して、あなたは確実にバッファを埋め、パケット・デスクリプターを入力します。逆に着信転送の場合、すべてのパケットが要求されたデータの全量を転送する状況に対して、バッファーに十分な容量があることを確認する必要があります。</p>
+<p>完了処理には、追加の考慮事項が必要です。 転送の <a class="el"
 href="structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607">actual_length</a>
-field of the transfer is meaningless and should not be examined; instead you
-must refer to the <a class="el"
+フィールドは無意味であるため、調べる必要はありません。 代わりに、個々のパケットの <a class="el"
 href="structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32">actual_length</a>
-field of each individual packet.</p>
-<p>The <a class="el"
+フィールドを参照する必要があります。</p>
+<p>転送の <a class="el"
 href="structlibusb__transfer.html#a64b2e70e76d52a7cd23daa3cd4fb397e">status</a>
-field of the transfer is also a little misleading:</p><ul>
-<li>If the packets were submitted and the isochronous data microframes completed
-normally, status will have value <a class="el"
-href="group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363">LIBUSB_TRANSFER_COMPLETED</a>.
-Note that bus errors and software-incurred delays are not counted as
-transfer errors; the transfer.status field may indicate COMPLETED even if
-some or all of the packets failed. Refer to the <a class="el"
+フィールドも少々誤解を招く可能性があります:</p><ul>
+<li>パケットが送信され、アイソクロナス・データ・マイクロ・フレームが正常に完了した場合、 status の値は <a class="el"
+href="group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363">LIBUSB_TRANSFER_COMPLETED</a>
+になります。 バス・エラーと、ソフトウェアで発生した遅延は、転送エラーとしてカウントされないことに注意してください。 transfer.status
+フィールドは、パケットの一部またはすべてが失敗した場合でも COMPLETED を示す場合があります。 個々のパケットの <a class="el"
 href="structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371">status</a>
-field of each individual packet to determine packet failures.</li>
-<li>The status field will have value <a class="el"
+フィールドを参照して、パケットの障害を特定します。</li>
+<li>status フィールドの値は、重大なエラーが発生した場合にのみ <a class="el"
 href="group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398">LIBUSB_TRANSFER_ERROR</a>
-only when serious errors were encountered.</li>
-<li>Other transfer status codes occur with normal behaviour.</li>
+になります。</li>
+<li>その他の転送ステータス・コードは、通常の動作で発生します。</li>
 </ul>
-<p>The data for each packet will be found at an offset into the buffer that can
-be calculated as if each prior packet completed in full. The <a class="el"
+<p>各パケットのデータは、その直前のパケットが完全に完了したはずの位置で見つかります。 <a class="el"
 href="group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3">libusb_get_iso_packet_buffer()</a>
-and <a class="el"
+関数と <a class="el"
 href="group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd">libusb_get_iso_packet_buffer_simple()</a>
-functions may help you here.</p>
-<h1><a class="anchor" id="asynclimits"></a> Transfer length limitations</h1>
-<p>Some operating systems may impose limits on the length of the transfer data
-buffer or, in the case of isochronous transfers, the length of individual
-isochronous packets. Such limits can be difficult for libusb to detect, so
-in most cases the library will simply try and submit the transfer as set up
-by you. If the transfer fails to submit because it is too large, <a
-class="el"
+関数が役に立つ事でしょう。</p>
+<h1><a class="anchor" id="asynclimits"></a> 転送長さ制限</h1>
+<p>一部のオペレーティング・システムでは、転送データ・バッファの長さ、またはアイソクロナス転送の場合は個々のアイソクロナス・パケットの長さに制限を課す場合があります。このような制限はlibusbが検出するのが難しい場合があるため、ほとんどの場合、ライブラリはユーザーが設定した転送で送信しようとします。転送が大きすぎるために送信に失敗した場合、
+<a class="el"
 href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer()</a>
-will return <a class="el"
-href="group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062">LIBUSB_ERROR_INVALID_PARAM</a>.</p>
-<p>The following are known limits for control transfer lengths. Note that this
-length includes the 8-byte setup packet.</p><ul>
+は <a class="el"
+href="group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062">LIBUSB_ERROR_INVALID_PARAM</a>
+を返します。</p>
+<p>以下は、制御転送長の既知の制限です。この長さには、8バイトのセットアップ・パケットが含まれていることに注意してください。</p><ul>
 <li>Linux (4,096 bytes)</li>
 <li>Windows (4,096 bytes)</li>
 </ul>
-<h1><a class="anchor" id="asyncmem"></a> Memory caveats</h1>
-<p>In most circumstances, it is not safe to use stack memory for transfer
-buffers. This is because the function that fired off the asynchronous
-transfer may return before libusb has finished using the buffer, and when
-the function returns it's stack gets destroyed. This is true for both
-host-to-device and device-to-host transfers.</p>
-<p>The only case in which it is safe to use stack memory is where you can
-guarantee that the function owning the stack space for the buffer does not
-return until after the transfer's callback function has completed. In every
-other case, you need to use heap memory instead.</p>
-<h1><a class="anchor" id="asyncflags"></a> Fine control</h1>
-<p>Through using this asynchronous interface, you may find yourself repeating a
-few simple operations many times. You can apply a bitwise OR of certain
-flags to a transfer to simplify certain things:</p><ul>
-<li><a class="el"
-href="group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276">LIBUSB_TRANSFER_SHORT_NOT_OK</a>
-results in transfers which transferred less than the requested amount of
-data being marked with status <a class="el"
-href="group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398">LIBUSB_TRANSFER_ERROR</a>
-(they would normally be regarded as COMPLETED)</li>
+<h1><a class="anchor" id="asyncmem"></a> メモリに関する警告</h1>
+<p>ほとんどの場合、転送バッファにスタック・メモリを使用することは安全ではありません。これは、非同期転送を開始した関数が、libusbがバッファーの使用を終了する前に戻る可能性があり、関数が戻ると、そのスタックは破棄されるためです。これは、ホストからデバイスへの転送とデバイスからホストへの転送の両方に当てはまります。</p>
+<p>スタック・メモリを安全に使用できる唯一のケースは、バッファのスタック・スペースを所有する関数が、転送のコールバック関数が完了するまで戻らないことを保証できる場合です。それ以外の場合は、代わりにヒープ・メモリを使用する必要があります。</p>
+<h1><a class="anchor" id="asyncflags"></a> 繊細な制御</h1>
+<p>この非同期インターフェースを使用すると、いくつかの簡単な操作を何度も繰り返すことに気付くかもしれません。転送でflagの特定のビットごとのORをセットして、特定の操作を単純化できます:</p><ul>
+<li>LIBUSB_TRANSFER_SHORT_NOT_OKは、要求された量より少ないデータしか転送しなかった場合で、
+statusがLIBUSB_TRANSFER_ERRORの場合にセットされる事があります(通常は完了(COMPLETED)と見なされます)。</li>
 <li><a class="el"
 href="group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86">LIBUSB_TRANSFER_FREE_BUFFER</a>
-allows you to ask libusb to free the transfer buffer when freeing the
-transfer.</li>
+を使用すると、転送を解放するときにlibusbに転送バッファーを解放するように要求できます。</li>
 <li><a class="el"
 href="group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1">LIBUSB_TRANSFER_FREE_TRANSFER</a>
-causes libusb to automatically free the transfer after the transfer callback
-returns.</li>
+により、libusbは転送後に転送を自動的に解放します。</li>
 </ul>
-<h1><a class="anchor" id="asyncevent"></a> Event handling</h1>
-<p>An asynchronous model requires that libusb perform work at various points in
-time - namely processing the results of previously-submitted transfers and
-invoking the user-supplied callback function.</p>
-<p>This gives rise to the <a class="el"
+<h1><a class="anchor" id="asyncevent"></a> イベント処理</h1>
+<p>非同期モデルでは、libusbがさまざまな時点で作業を実行する必要があります。つまり、以前に送信された転送の結果を処理し、ユーザーが指定したコールバック関数を呼び出します。</p>
+<p>これにより、libusbが機能するときにあなたのアプリケーションが呼び出す必要のある <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-function which your application must call into when libusb has work do
-to. This gives libusb the opportunity to reap pending transfers, invoke
-callbacks, etc.</p>
-<dl class="section note"><dt>Note</dt><dd>All event handling is performed by whichever thread calls the <a class="el"
+関数が生起されます。これにより、libusbは保留中の転送を取得したり、コールバックを呼び出したりすることができます。</p>
+<dl class="section note"><dt>注意</dt><dd>すべてのイベント処理は、 <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-function. libusb does not invoke any callbacks outside of this
-context. Consequently, any callbacks will be run on the thread that calls
-the <a class="el"
+関数を呼び出すスレッドによって実行されます。 libusbは、このコンテキスト以外でコールバックを呼び出しません。したがって、コールバックはすべて、
+<a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-function.</dd></dl>
-<p>When to call the <a class="el"
+関数を呼び出すスレッドで実行されます。</dd></dl>
+<p><a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-function depends on which model your application decides to use. The 2
-different approaches:</p>
+関数をいつ呼び出すかは、あなたのアプリケーションが使用することを決定したモデルによって異なります。2つの異なるアプローチがあります:</p>
 <ol type="1">
-<li>Repeatedly call <a class="el"
+<li>専用スレッドからブロッキング・モードで繰り返し <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-in blocking mode from a dedicated thread.</li>
-<li>Integrate libusb with your application's main event loop. libusb exposes a
-set of file descriptors which allow you to do this.</li>
+を呼び出します。</li>
+<li>libusbをアプリケーションのメイン・イベント・ループと統合します。 libusbは、これを可能にする一連のファイル・デスクリプターを公開します。</li>
 </ol>
-<p>The first approach has the big advantage that it will also work on Windows
-were libusb' poll API for select / poll integration is not available. So if
-you want to support Windows and use the async API, you must use this
-approach, see the <a class="el"
-href="group__libusb__asyncio.html#eventthread">Using an event handling
-thread</a> section below for details.</p>
-<p>If you prefer a single threaded approach with a single central event loop,
-see the <a class="el" href="group__libusb__poll.html">polling and timing</a>
-section for how to integrate libusb into your application's main event loop.</p>
-<h1><a class="anchor" id="eventthread"></a> Using an event handling thread</h1>
-<p>Lets begin with stating the obvious: If you're going to use a separate
-thread for libusb event handling, your callback functions MUST be
-thread-safe.</p>
-<p>Other then that doing event handling from a separate thread, is mostly
-simple. You can use an event thread function as follows: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> *event_thread_func(<span
+<p>最初のアプローチには、選択/ポーリング統合用のlibusbのポーリングAPIが利用できない場合にWindowsでも機能するという大きな利点があります。
+したがって、Windowsをサポートして非同期APIを使用する場合は、このアプローチを使用する必要があります。詳細については、以下の <a
+class="el" href="group__libusb__asyncio.html#eventthread">イベント処理スレッドの利用</a>
+を参照してください。</p>
+<p>単一の中央イベント・ループを使用するシングル・スレッド・アプローチが必要な場合は、libusbをアプリケーションのメイン・イベント・ループに統合する方法について、
+<a class="el" href="group__libusb__poll.html">ポーリングとタイミング</a> の節を参照してください。</p>
+<h1><a class="anchor" id="eventthread"></a> 単一のイベント処理スレッドの使用</h1>
+<p>まず、明白であることから言うと、libusbイベント処理に別のスレッドを使用する場合、コールバック関数はスレッド・セーフでなければなりません。</p>
+<p>それ以外の場合、別のスレッドからイベント処理を行うのは割と簡単です。イベント・スレッド関数は以下のように使用できます: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> *event_thread_func(<span
 class="keywordtype">void</span> *ctx)</div>
 <div class="line">{</div>
 <div class="line">    <span class="keywordflow">while</span> (event_thread_run)</div>
@@ -651,20 +526,17 @@ href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle
 <div class="line">    <span class="keywordflow">return</span> NULL;</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p>There is one caveat though, stopping this thread requires setting the
-event_thread_run variable to 0, and after that <a class="el"
+<p>ただし、注意点が1つあります。このスレッドを停止するには、event_thread_run変数を0に設定する必要があります。その後、 <a
+class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-needs to return control to event_thread_func. But unless some event happens,
-<a class="el"
+は制御をevent_thread_funcに戻す必要があります。 ただし、何らかのイベントが発生しない限り、 <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-will not return.</p>
-<p>There are 2 different ways of dealing with this, depending on if your
-application uses libusb' <a class="el"
-href="libusb_hotplug.html">hotplug</a> support or not.</p>
-<p>Applications which do not use hotplug support, should not start the event
-thread until after their first call to <a class="el"
-href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>,
-and should stop the thread when closing the last open device as follows: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> my_close_handle(<a class="code"
+は処理を返しません。</p>
+<p>アプリケーションがlibusbの <a class="el" href="libusb_hotplug.html">活線挿抜(hotplug)</a>
+サポートを使用しているかどうかに応じて、これに対処する2つの異なる方法があります。</p>
+<p>活線挿抜(hotplug)サポートを使用しないアプリケーションは、 <a class="el"
+href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>
+を最初に呼び出した直後まで、イベント・スレッドを開始しないでください。また、以下のように最後、オープンしていたデバイスをクローズしたときにスレッドを停止する必要があります: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> my_close_handle(<a class="code"
 href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_handle</a>
 *<a class="code"
 href="structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a">dev_handle</a>)</div>
@@ -684,10 +556,9 @@ href="structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a">dev_handle<
 <div class="line">    open_devs--;</div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p>Applications using hotplug support should start the thread at program init,
-after having successfully called <a class="el"
-href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback()</a>,
-and should stop the thread at program exit as follows: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> my_libusb_exit(<span
+<p>活線挿抜サポートを使用するアプリケーションは、 <a class="el"
+href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback()</a>
+を正常に呼び出した後、プログラムのinitでスレッドを開始し、以下のとおりプログラムの終了時にスレッドを停止する必要があります: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> my_libusb_exit(<span
 class="keywordtype">void</span>)</div>
 <div class="line">{</div>
 <div class="line">    event_thread_run = 0;</div>
@@ -700,7 +571,7 @@ libusb_handle_events()</span></div>
 href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit</a>(ctx);</div>
 <div class="line">}</div>
 </div> <!-- fragment -->
-<h2 class="groupheader">Typedef Documentation</h2>
+<h2 class="groupheader">Typedef解説</h2>
 <a id="gac74874519794cd7aa40c0814702b0c88"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#gac74874519794cd7aa40c0814702b0c88">&#9670;&nbsp;</a></span>libusb_transfer_cb_fn</h2>
@@ -714,25 +585,22 @@ href="structlibusb__transfer.html">libusb_transfer</a> *transfer)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Asynchronous transfer callback function type. When submitting asynchronous
-transfers, you pass a pointer to a callback function of this type via the <a
-class="el"
+<p>非同期転送コールバック関数型。非同期転送を送信するときは、 <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a> 構造体の <a class="el"
 href="structlibusb__transfer.html#a69c6df011ec23ff3e481cc98bfff0623">callback</a>
-member of the <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> structure. libusb
-will call this function later, when the transfer has completed or
-failed. See <a class="el" href="group__libusb__asyncio.html">Asynchronous
-device I/O</a> for more information. </p><dl class="params"><dt>Parameters</dt><dd>
+メンバーを介してこのタイプのコールバック関数へのポインタを渡します。 libusbは、転送が完了または失敗したときに、後でこの関数を呼び出します。
+詳細については、 <a class="el" href="group__libusb__asyncio.html">非同期デバイス入出力</a>
+を参照してください。 </p><dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
     <tr><td class="paramname">transfer</td><td>The <a class="el" href="structlibusb__transfer.html">libusb_transfer</a>
-struct the callback function is being notified about. </td></tr>
+構造体は、コールバック関数に通知されます。 </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
+<h2 class="groupheader">列挙型解説</h2>
 <a id="gacb52027036a07de6ecc6c2bf07d07c71"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#gacb52027036a07de6ecc6c2bf07d07c71">&#9670;&nbsp;</a></span>libusb_transfer_type</h2>
@@ -746,22 +614,22 @@ href="group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71">libusb_tra
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Transfer type </p>
+<p>転送タイプ </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
-id="ggacb52027036a07de6ecc6c2bf07d07c71a4c89624658c783ef9b2a2f08091bc7d7"></a>LIBUSB_TRANSFER_TYPE_CONTROL&#160;</td><td class="fielddoc"><p>Control transfer. </p>
+<tr><th colspan="2">列挙型</th></tr><tr><td class="fieldname"><a
+id="ggacb52027036a07de6ecc6c2bf07d07c71a4c89624658c783ef9b2a2f08091bc7d7"></a>LIBUSB_TRANSFER_TYPE_CONTROL&#160;</td><td class="fielddoc"><p>制御転送。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300"></a>LIBUSB_TRANSFER_TYPE_ISOCHRONOUS&#160;</td><td class="fielddoc"><p>Isochronous transfer. </p>
+id="ggacb52027036a07de6ecc6c2bf07d07c71a40de9889554fc1785d784b3c31333300"></a>LIBUSB_TRANSFER_TYPE_ISOCHRONOUS&#160;</td><td class="fielddoc"><p>アイソクロナス転送。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="ggacb52027036a07de6ecc6c2bf07d07c71a7bdfa2fc5dadbaaa0e9262e1b4a228e2"></a>LIBUSB_TRANSFER_TYPE_BULK&#160;</td><td class="fielddoc"><p>Bulk transfer. </p>
+id="ggacb52027036a07de6ecc6c2bf07d07c71a7bdfa2fc5dadbaaa0e9262e1b4a228e2"></a>LIBUSB_TRANSFER_TYPE_BULK&#160;</td><td class="fielddoc"><p>バルク転送。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c"></a>LIBUSB_TRANSFER_TYPE_INTERRUPT&#160;</td><td class="fielddoc"><p>Interrupt transfer. </p>
+id="ggacb52027036a07de6ecc6c2bf07d07c71aefb0e07862c0eed894ec9c2f957a7e3c"></a>LIBUSB_TRANSFER_TYPE_INTERRUPT&#160;</td><td class="fielddoc"><p>割り込み転送。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3"></a>LIBUSB_TRANSFER_TYPE_BULK_STREAM&#160;</td><td class="fielddoc"><p>Bulk stream transfer. </p>
+id="ggacb52027036a07de6ecc6c2bf07d07c71a3b26ee40f9c586ece75f8de822d974e3"></a>LIBUSB_TRANSFER_TYPE_BULK_STREAM&#160;</td><td class="fielddoc"><p>バルク・ストリーム転送 </p>
 </td></tr>
 </table>
 
@@ -780,31 +648,30 @@ href="group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856">libusb_tra
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Transfer status codes </p>
+<p>転送ステータス・コード </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
-id="gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363"></a>LIBUSB_TRANSFER_COMPLETED&#160;</td><td class="fielddoc"><p>Transfer completed without error. </p>
-<p>Note that this does not indicate that the entire amount of requested data
-was transferred. </p>
+<tr><th colspan="2">列挙型</th></tr><tr><td class="fieldname"><a
+id="gga9fcb2aa23d342060ebda1d0cf7478856a4595f6532aab12352a58a0fd4ce48363"></a>LIBUSB_TRANSFER_COMPLETED&#160;</td><td class="fielddoc"><p>エラー無しで転送が完了した。 </p>
+<p>注意: これは、要求されたデータの全量が転送されたことを示すものではないことに注意してください。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398"></a>LIBUSB_TRANSFER_ERROR&#160;</td><td class="fielddoc"><p>Transfer failed. </p>
+id="gga9fcb2aa23d342060ebda1d0cf7478856aa8852ed719d03c2a3cc6f0312d919398"></a>LIBUSB_TRANSFER_ERROR&#160;</td><td class="fielddoc"><p>転送が失敗した。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga9fcb2aa23d342060ebda1d0cf7478856ac2b7626d7b51cb980f83933b6ada1ddf"></a>LIBUSB_TRANSFER_TIMED_OUT&#160;</td><td class="fielddoc"><p>Transfer timed out. </p>
+id="gga9fcb2aa23d342060ebda1d0cf7478856ac2b7626d7b51cb980f83933b6ada1ddf"></a>LIBUSB_TRANSFER_TIMED_OUT&#160;</td><td class="fielddoc"><p>転送タイムアウト。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b"></a>LIBUSB_TRANSFER_CANCELLED&#160;</td><td class="fielddoc"><p>Transfer was cancelled. </p>
+id="gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b"></a>LIBUSB_TRANSFER_CANCELLED&#160;</td><td class="fielddoc"><p>転送がキャンセルされた。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga9fcb2aa23d342060ebda1d0cf7478856a23cdfd929f5fe82cca9654f8075eeebb"></a>LIBUSB_TRANSFER_STALL&#160;</td><td class="fielddoc"><p>For bulk/interrupt endpoints: halt condition detected (endpoint stalled). </p>
-<p>For control endpoints: control request not supported. </p>
+id="gga9fcb2aa23d342060ebda1d0cf7478856a23cdfd929f5fe82cca9654f8075eeebb"></a>LIBUSB_TRANSFER_STALL&#160;</td><td class="fielddoc"><p>バルク/割り込みエンドポイントの場合: 停止(halt)状態が検出されました(エンドポイントがストール(stall)しました)。 </p>
+<p>制御エンドポイントの場合: その制御要求はサポートされていません。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga9fcb2aa23d342060ebda1d0cf7478856ab7dcb24f313ace407e0c070d6b2c5f13"></a>LIBUSB_TRANSFER_NO_DEVICE&#160;</td><td class="fielddoc"><p>Device was disconnected. </p>
+id="gga9fcb2aa23d342060ebda1d0cf7478856ab7dcb24f313ace407e0c070d6b2c5f13"></a>LIBUSB_TRANSFER_NO_DEVICE&#160;</td><td class="fielddoc"><p>デバイスが切断された。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14"></a>LIBUSB_TRANSFER_OVERFLOW&#160;</td><td class="fielddoc"><p>Device sent more data than requested. </p>
+id="gga9fcb2aa23d342060ebda1d0cf7478856ab1b9cbcb1de27a8fbeceb3427fb2fb14"></a>LIBUSB_TRANSFER_OVERFLOW&#160;</td><td class="fielddoc"><p>デバイスが要求よりも多いデータを送信した。 </p>
 </td></tr>
 </table>
 
@@ -825,55 +692,43 @@ href="group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d">libusb_tra
 </div><div class="memdoc">
 <p><a class="el"
 href="structlibusb__transfer.html#ae26c063df30c2e29835212aad98c6e06"
-title="A bitwise OR combination of
-libusb_transfer_flags.">libusb_transfer.flags</a> values </p>
+title="libusb_transfer_flagsのビットORの組み合わせ">libusb_transfer.flags</a> values </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
-id="gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276"></a>LIBUSB_TRANSFER_SHORT_NOT_OK&#160;</td><td class="fielddoc"><p>Report short frames as errors. </p>
+<tr><th colspan="2">列挙型</th></tr><tr><td class="fieldname"><a
+id="gga1fb47dd0f7c209b60a3609ff0c03d56dae4c0697c266819c51c1734b3456e7276"></a>LIBUSB_TRANSFER_SHORT_NOT_OK&#160;</td><td class="fielddoc"><p>短いフレームをエラーとして報告します。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86"></a>LIBUSB_TRANSFER_FREE_BUFFER&#160;</td><td class="fielddoc"><p>Automatically free() transfer buffer during <a class="el"
-href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>. </p>
-<p>Note that buffers allocated with <a class="el"
+id="gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86"></a>LIBUSB_TRANSFER_FREE_BUFFER&#160;</td><td class="fielddoc"><p><a class="el"
+href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>
+中に転送バッファを自動的に free() します。 </p>
+<p>注意: <a class="el"
 href="group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3">libusb_dev_mem_alloc()</a>
-should not be attempted freed in this way, since free() is not an
-appropriate way to release such memory. </p>
+で割り当てたバッファは、この方法で解放しようとしないでください。 free() はそのようなメモリを解放する適切な方法ではないためです。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1"></a>LIBUSB_TRANSFER_FREE_TRANSFER&#160;</td><td class="fielddoc"><p>Automatically call <a class="el"
+id="gga1fb47dd0f7c209b60a3609ff0c03d56dacf3f064997b283a14097c9f4d6f8ccc1"></a>LIBUSB_TRANSFER_FREE_TRANSFER&#160;</td><td class="fielddoc"><p>コールバックから戻った後、 <a class="el"
 href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>
-after callback returns. </p>
-<p>If this flag is set, it is illegal to call <a class="el"
+を自動的に呼び出します。 </p>
+<p>このフラグが設定されている場合、転送のコールバックから <a class="el"
 href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>
-from your transfer callback, as this will result in a double-free when this
-flag is acted upon. </p>
+を呼び出すことは違法です。これは、このフラグが実行されたときに二重開放になるためです。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f"></a>LIBUSB_TRANSFER_ADD_ZERO_PACKET&#160;</td><td class="fielddoc"><p>Terminate transfers that are a multiple of the endpoint's wMaxPacketSize
-with an extra zero length packet. </p>
-<p>This is useful when a device protocol mandates that each logical request is
-terminated by an incomplete packet (i.e. the logical requests are not
-separated by other means).</p>
-<p>This flag only affects host-to-device transfers to bulk and interrupt
-endpoints. In other situations, it is ignored.</p>
-<p>This flag only affects transfers with a length that is a multiple of the
-endpoint's wMaxPacketSize. On transfers of other lengths, this flag has no
-effect. Therefore, if you are working with a device that needs a ZLP
-whenever the end of the logical request falls on a packet boundary, then it
-is sensible to set this flag on <em>every</em> transfer (you do not have to
-worry about only setting it on transfers that end on the boundary).</p>
-<p>This flag is currently only supported on Linux. On other systems, <a
-class="el"
+id="gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f"></a>LIBUSB_TRANSFER_ADD_ZERO_PACKET&#160;</td><td class="fielddoc"><p>エンドポイントのwMaxPacketSizeの倍数である転送を、長さがゼロの余分なパケットで終了します。 </p>
+<p>これは、デバイスのプロトコルが、各論理要求を不完全なパケットで終了することを要求している場合に役立ちます(つまり、論理要求が他の手段で分離されていない場合)。</p>
+<p>このフラグは、バルク・エンドポイントと割り込みエンドポイントの、ホストからデバイスへの方向の転送にのみ影響します。 他の状況では、これは無視されます。</p>
+<p>このフラグは、エンドポイントのwMaxPacketSizeの倍数である長さの転送にのみ影響します。 他の長さの転送では、このフラグは効果がありません。
+したがって、論理要求の終わりがパケット境界に達するたびにZLPを必要とするデバイスを使用している場合は、<em>全ての</em>転送でこのフラグを設定するのが賢明です(境界で終了する転送にのみ設定する事を考慮する必要はありません)。</p>
+<p>このフラグは現在、Linuxでのみサポートされています。 他のシステムでは、 <a class="el"
 href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer()</a>
-will return LIBUSB_ERROR_NOT_SUPPORTED for every transfer where this flag is
-set.</p>
-<p>Available since libusb-1.0.9. </p>
+は、このフラグが設定されているすべての転送に対してLIBUSB_ERROR_NOT_SUPPORTEDを返します。</p>
+<p>libusb-1.0.9以降で使用できます。 </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
+<h2 class="groupheader">関数解説</h2>
 <a id="gad7e786c1bedd4a668887564465101981"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#gad7e786c1bedd4a668887564465101981">&#9670;&nbsp;</a></span>libusb_alloc_streams()</h2>
@@ -914,30 +769,25 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Allocate up to num_streams usb bulk streams on the specified endpoints. This
-function takes an array of endpoints rather then a single endpoint because
-some protocols require that endpoints are setup with similar stream ids. All
-endpoints passed in must belong to the same interface.</p>
-<p>Note this function may return less streams then requested. Also note that
-the same number of streams are allocated for each endpoint in the endpoint
-array.</p>
-<p>Stream id 0 is reserved, and should not be used to communicate with
-devices. If <a class="el"
+<p>指定のエンドポイントにnum_streams個のUSBバルク・ストリームを割り当てます。一部のプロトコルではエンドポイントを同じストリームIDでセットアップする必要があるため、この関数は単一のエンドポイントではなくエンドポイントの配列を取ります。渡されるすべてのエンドポイントは、同じインターフェースに属している必要があります。</p>
+<p>注意: この関数は、要求よりも少ない数のストリームを返す可能性があることに注意してください。
+また、エンドポイント配列の各エンドポイントにそれぞれ同じ数のストリームが割り当てられることに注意してください。</p>
+<p>ストリームID 0 は予約済のため、デバイスとの通信には使用しないでください。 <a class="el"
 href="group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981">libusb_alloc_streams()</a>
-returns with a value of N, you may use stream ids 1 to N.</p>
-<p>Since version 1.0.19, <a class="el"
+が値Nを返した場合、ストリームID 1〜N を使用できます。</p>
+<p>バージョン1.0.19以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000103</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dev_handle</td><td>a device handle </td></tr>
-    <tr><td class="paramname">num_streams</td><td>number of streams to try to allocate </td></tr>
-    <tr><td class="paramname">endpoints</td><td>array of endpoints to allocate streams on </td></tr>
-    <tr><td class="paramname">num_endpoints</td><td>length of the endpoints array </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>デバイス・ハンドル </td></tr>
+    <tr><td class="paramname">num_streams</td><td>割り当てを試みるストリームの数 </td></tr>
+    <tr><td class="paramname">endpoints</td><td>ストリームを割り当てるエンドポイントの配列 </td></tr>
+    <tr><td class="paramname">num_endpoints</td><td>エンドポイント配列のサイズ </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>number of streams allocated, or a LIBUSB_ERROR code on failure </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>割り当てられたストリームの数、また、失敗した場合はLIBUSB_ERRORコード </dd></dl>
 
 </div>
 </div>
@@ -975,21 +825,22 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Free usb bulk streams allocated with <a class="el"
-href="group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981">libusb_alloc_streams()</a>.</p>
-<p>Note streams are automatically free-ed when releasing an interface.</p>
-<p>Since version 1.0.19, <a class="el"
+<p><a class="el"
+href="group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981">libusb_alloc_streams()</a>
+で割り当てられたUSBバルク・ストリームを解放します。</p>
+<p>注意: インターフェイスを解放すると、ストリームは自動的に解放されます。</p>
+<p>バージョン1.0.19以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000103</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dev_handle</td><td>a device handle </td></tr>
-    <tr><td class="paramname">endpoints</td><td>array of endpoints to free streams on </td></tr>
-    <tr><td class="paramname">num_endpoints</td><td>length of the endpoints array </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>デバイス・ハンドル </td></tr>
+    <tr><td class="paramname">endpoints</td><td>ストリームを開放したいエンドポイントの配列 </td></tr>
+    <tr><td class="paramname">num_endpoints</td><td>エンドポイント配列のサイズ </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LIBUSB_SUCCESS, or a LIBUSB_ERROR code on failure </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>LIBUSB_SUCCESS、または、失敗の場合はLIBUSB_ERRORコード </dd></dl>
 
 </div>
 </div>
@@ -1021,34 +872,26 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Attempts to allocate a block of persistent DMA memory suitable for transfers
-against the given device. If successful, will return a block of memory that
-is suitable for use as "buffer" in <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> against this
-device. Using this memory instead of regular memory means that the host
-controller can use DMA directly into the buffer to increase performance, and
-also that transfers can no longer fail due to kernel memory fragmentation.</p>
-<p>Note that this means you should not modify this memory (or even data on the
-same cache lines) when a transfer is in progress, although it is legal to
-have several transfers going on within the same memory block.</p>
-<p>Will return NULL on failure. Many systems do not support such zero-copy and
-will always return NULL. Memory allocated with this function must be freed
-with <a class="el"
-href="group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62">libusb_dev_mem_free</a>.
-Specifically, this means that the flag <a class="el"
-href="group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86">LIBUSB_TRANSFER_FREE_BUFFER</a>
-cannot be used to free memory allocated with this function.</p>
+<p>特定のデバイスに対する転送に適した永続的なDMAメモリのブロックを割り当てようとします。 成功すると、このデバイスに対する <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a> の "バッファ"
+として使用するのに適したメモリ・ブロックが返されます。通常のメモリの代わりにこのメモリを使用すると、ホスト・コントローラはDMAを直接バッファに使用してパフォーマンスを向上させることができ、カーネル・メモリの断片化が原因で転送が失敗することもなくなります。</p>
+<p>注意:これは、転送の進行中にこのメモリ(または同じキャッシュ・ライン上のデータ)を変更してはならないことを意味しますが、同じメモリブロック内で複数の転送を実行することは合法です。</p>
+<p>失敗するとNULLを返します。多くのシステムはそのようなゼロ・コピーをサポートしておらず、常にNULLを返します。この関数で割り当てられたメモリは、
+<a class="el"
+href="group__libusb__asyncio.html#gad7575ff325f0159a5b74b7c0ee64eb62">libusb_dev_mem_free</a>
+で解放する必要があります。
+具体的には、これは、フラグLIBUSB_TRANSFER_FREE_BUFFERを使用して、この関数で割り当てられたメモリを解放できないことを意味します。</p>
 <p>Since version 1.0.21, <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000105</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dev_handle</td><td>a device handle </td></tr>
-    <tr><td class="paramname">length</td><td>size of desired data buffer </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>デバイス・ハンドル </td></tr>
+    <tr><td class="paramname">length</td><td>必要なデータ・バッファのサイズ </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a pointer to the newly allocated memory, or NULL on failure </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>新しく割り当てられたメモリへのポインタ、または失敗した場合はNULL </dd></dl>
 
 </div>
 </div>
@@ -1086,17 +929,18 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Free device memory allocated with <a class="el"
-href="group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3">libusb_dev_mem_alloc()</a>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p><a class="el"
+href="group__libusb__asyncio.html#ga47c492e750197f1a28874c7a0dee40e3">libusb_dev_mem_alloc()</a>
+で割り当てられたデバイス・メモリを解放します。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dev_handle</td><td>a device handle </td></tr>
-    <tr><td class="paramname">buffer</td><td>pointer to the previously allocated memory </td></tr>
-    <tr><td class="paramname">length</td><td>size of previously allocated memory </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>デバイス・ハンドル </td></tr>
+    <tr><td class="paramname">buffer</td><td>以前に割り当てられたメモリへのポインタ </td></tr>
+    <tr><td class="paramname">length</td><td>以前に割り当てられたメモリのサイズ </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LIBUSB_SUCCESS, or a LIBUSB_ERROR code on failure </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>LIBUSB_SUCCESS、または、失敗の場合はLIBUSB_ERRORコード </dd></dl>
 
 </div>
 </div>
@@ -1117,30 +961,25 @@ libusb_alloc_transfer </td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Allocate a libusb transfer with a specified number of isochronous packet
-descriptors. The returned transfer is pre-initialized for you. When the new
-transfer is no longer needed, it should be freed with <a class="el"
-href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>.</p>
-<p>Transfers intended for non-isochronous endpoints (e.g. control, bulk,
-interrupt) should specify an iso_packets count of zero.</p>
-<p>For transfers intended for isochronous endpoints, specify an appropriate
-number of packet descriptors to be allocated as part of the transfer. The
-returned transfer is not specially initialized for isochronous I/O; you are
-still required to set the <a class="el"
+<p>指定された数のアイソクロナス・パケット・デスクリプターを使用してlibusb転送を割り当てます。返される転送は事前に初期化されています。最早新しい転送が不要になったら、
+<a class="el"
+href="group__libusb__asyncio.html#ga6ab8b2cff4de9091298a06b2f4b86cd6">libusb_free_transfer()</a>
+で解放する必要があります。</p>
+<p>非アイソクロナス・エンドポイント(制御、バルク、割り込みなど)を対象とした転送では、iso_packetsカウントをゼロに指定すべきです。</p>
+<p>アイソクロナス・エンドポイントを対象とした転送の場合、その転送の一部として割り当てられる適切な数のパケット・デスクリプターを指定します。
+その戻される転送は、アイソクロナス入出力用に特別に初期化されてはいません。それでも、それに応じて <a class="el"
 href="structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d">num_iso_packets</a>
-and <a class="el"
+フィールドと <a class="el"
 href="structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1">type</a>
-fields accordingly.</p>
-<p>It is safe to allocate a transfer with some isochronous packets and then use
-it on a non-isochronous endpoint. If you do this, ensure that at time of
-submission, num_iso_packets is 0 and that type is set appropriately.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+フィールドを設定する必要があります。</p>
+<p>いくつかのアイソクロナス・パケットを使用して転送を割り当て、それを非アイソクロナス・エンドポイントで使用するのが安全です。これを行う場合は、送信時にnum_iso_packetsが0であり、そのtypeが適切に設定されていることを確認してください。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">iso_packets</td><td>number of isochronous packet descriptors to allocate. Must be non-negative. </td></tr>
+    <tr><td class="paramname">iso_packets</td><td>割り当てるアイソクロナス・パケット・デスクリプターの数。負でない数値である必要があります。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a newly allocated transfer, or NULL on error </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>新しく割り当てられた転送、またはエラーの場合はNULL </dd></dl>
 
 </div>
 </div>
@@ -1161,21 +1000,18 @@ href="#ga6ab8b2cff4de9091298a06b2f4b86cd6">&#9670;&nbsp;</a></span>libusb_free_t
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Free a transfer structure. This should be called for all transfers allocated
-with <a class="el"
-href="group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000">libusb_alloc_transfer()</a>.</p>
-<p>If the <a class="el"
+<p>転送構造体を解放します。これは、 <a class="el"
+href="group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000">libusb_alloc_transfer()</a>
+で割り当てられたすべての転送に対して呼び出す必要があります。</p>
+<p><a class="el"
 href="group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56dae993a26f495ac9949118e23eafa19e86">LIBUSB_TRANSFER_FREE_BUFFER</a>
-flag is set and the transfer buffer is non-NULL, this function will also
-free the transfer buffer using the standard system memory allocator
-(e.g. free()).</p>
-<p>It is legal to call this function with a NULL transfer. In this case, the
-function will simply return safely.</p>
-<p>It is not legal to free an active transfer (one which has been submitted and
-has not yet completed).</p>
-<dl class="params"><dt>Parameters</dt><dd>
+フラグが設定されていて、そして転送バッファーがNULL以外の場合、この関数は標準のシステム・メモリ割り当て機構(例: free()
+)を使用して転送バッファーも解放します。</p>
+<p>NULL転送でこの関数を呼び出すことは合法です。この場合、関数は単に安全に戻ります。</p>
+<p>アクティブな転送(送信(submit)され、まだ完了していない転送)を解放することは違法です。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to free </td></tr>
+    <tr><td class="paramname">transfer</td><td>開放したい転送 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1199,29 +1035,25 @@ href="#gabb0932601f2c7dad2fee4b27962848ce">&#9670;&nbsp;</a></span>libusb_submit
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Submit a transfer. This function will fire off the USB transfer and then
-return immediately.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>転送を送信します。この関数は、USB転送を開始し、すぐに戻ります。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to submit </td></tr>
+    <tr><td class="paramname">transfer</td><td>送信する転送 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dl class="section return"><dt>戻り値</dt><dd>0ならば成功 </dd>
 <dd>
-LIBUSB_ERROR_NO_DEVICE if the device has been disconnected </dd>
+LIBUSB_ERROR_NO_DEVICE: デバイスが切断されていた </dd>
 <dd>
-LIBUSB_ERROR_BUSY if the transfer has already been submitted. </dd>
+LIBUSB_ERROR_BUSY: その転送がすでに送信されている(submitted)場合。 </dd>
 <dd>
-LIBUSB_ERROR_NOT_SUPPORTED if the transfer flags are not supported by the
-operating system. </dd>
+LIBUSB_ERROR_NOT_SUPPORTED: その転送フラグがオペレーティング・システムでサポートされていない場合。 </dd>
 <dd>
-LIBUSB_ERROR_INVALID_PARAM if the transfer size is larger than the operating
-system and/or hardware can support (see <a class="el"
-href="group__libusb__asyncio.html#asynclimits">Transfer length
-limitations</a>) </dd>
+LIBUSB_ERROR_INVALID_PARAM: 転送サイズがオペレーティング・システムやハードウェアでサポートできるサイズよりも大きい場合(<a
+class="el" href="group__libusb__asyncio.html#asynclimits">転送の長さの制限</a> を参照)。 </dd>
 <dd>
-another LIBUSB_ERROR code on other failure </dd></dl>
+LIBUSB_ERRORコード: その他の障害 </dd></dl>
 
 </div>
 </div>
@@ -1242,23 +1074,18 @@ href="#ga685eb7731f9a0593f75beb99727bbe54">&#9670;&nbsp;</a></span>libusb_cancel
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Asynchronously cancel a previously submitted transfer. This function returns
-immediately, but this does not indicate cancellation is complete. Your
-callback function will be invoked at some later time with a transfer status
-of <a class="el"
-href="group__libusb__asyncio.html#gga9fcb2aa23d342060ebda1d0cf7478856a8af1f19e46cccafdcf3feadce47e880b">LIBUSB_TRANSFER_CANCELLED.</a></p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>以前に送信された転送を非同期的にキャンセルします。この関数はすぐに戻りますが、それはキャンセルが完了したことを示すものではありません。後で、転送ステータスLIBUSB_TRANSFER_CANCELLEDでコールバック関数が呼び出されます。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to cancel </td></tr>
+    <tr><td class="paramname">transfer</td><td>キャンセルしたい転送 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dl class="section return"><dt>戻り値</dt><dd>0ならば成功 </dd>
 <dd>
-LIBUSB_ERROR_NOT_FOUND if the transfer is not in progress, already complete,
-or already cancelled. </dd>
+LIBUSB_ERROR_NOT_FOUND 転送が現在進行中でないか、または既に完了したか、または既にキャンセルされた場合。 </dd>
 <dd>
-a LIBUSB_ERROR code on failure </dd></dl>
+LIBUSB_ERRORコード: 失敗の場合。 </dd></dl>
 
 </div>
 </div>
@@ -1289,20 +1116,20 @@ href="#gaeae2db23b9de811af317483afdeb230f">&#9670;&nbsp;</a></span>libusb_transf
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set a transfers bulk stream id. Note users are advised to use <a class="el"
+<p>転送バルク・ストリームIDを設定します。この関数を直接呼び出すのではなく、 <a class="el"
 href="group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10">libusb_fill_bulk_stream_transfer()</a>
-instead of calling this function directly.</p>
-<p>Since version 1.0.19, <a class="el"
+を使用することをお勧めします。</p>
+<p>バージョン1.0.19以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000103</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to set the stream id for </td></tr>
-    <tr><td class="paramname">stream_id</td><td>the stream id to set </td></tr>
+    <tr><td class="paramname">transfer</td><td>ストリームIDをセットしたい転送 </td></tr>
+    <tr><td class="paramname">stream_id</td><td>セットしたいストリームID </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el"
+<dl class="section see"><dt>これも参照下さい</dt><dd><a class="el"
 href="group__libusb__asyncio.html#gad7e786c1bedd4a668887564465101981">libusb_alloc_streams()</a> </dd></dl>
 
 </div>
@@ -1324,17 +1151,17 @@ href="#ga631653487273f3306925131cdc0a3ffc">&#9670;&nbsp;</a></span>libusb_transf
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get a transfers bulk stream id.</p>
-<p>Since version 1.0.19, <a class="el"
+<p>転送バルク・ストリームIDを取得します。</p>
+<p>バージョン1.0.19以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000103</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to get the stream id for </td></tr>
+    <tr><td class="paramname">transfer</td><td>ストリームIDを取得したい転送 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the stream id for the transfer </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>その転送のストリームID </dd></dl>
 
 </div>
 </div>
@@ -1364,19 +1191,16 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the data section of a control transfer. This convenience function is
-here to remind you that the data does not start until 8 bytes into the
-actual buffer, as the setup packet comes first.</p>
-<p>Calling this function only makes sense from a transfer callback function, or
-situations where you have already allocated a suitably sized buffer at
-transfer-&gt;buffer.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>制御転送のデータ・セクションを取得します。この便利な関数は、セットアップ・パケットが最初に来るため、実際のバッファに8バイト入るまでデータが開始されないことを思い出させるためにここにあります。</p>
+<p>この関数の呼び出しは、転送コールバック関数、または transfer-＆gt; buffer
+で適切なサイズのバッファをすでに割り当てている状況からのみ意味があります。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>a transfer </td></tr>
+    <tr><td class="paramname">transfer</td><td>とある一つの転送 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>pointer to the first byte of the data section </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>データ・セクションの最初のバイトへのポインタ </dd></dl>
 
 </div>
 </div>
@@ -1408,19 +1232,17 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the control setup packet of a control transfer. This convenience
-function is here to remind you that the control setup occupies the first 8
-bytes of the transfer data buffer.</p>
-<p>Calling this function only makes sense from a transfer callback function, or
-situations where you have already allocated a suitably sized buffer at
-transfer-&gt;buffer.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>制御転送の制御セットアップ・パケットを取得します。
+この便利な関数は、制御セットアップが転送データ・バッファの最初の8バイトを占めることを思い出させるためにここにあります。</p>
+<p>この関数の呼び出しは、転送コールバック関数、または transfer-＆gt; buffer
+で適切なサイズのバッファをすでに割り当てている状況からのみ意味があります。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>a transfer </td></tr>
+    <tr><td class="paramname">transfer</td><td>とある一つの転送 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a casted pointer to the start of the transfer data buffer </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>転送データバッファの開始へのキャストされたポインタ </dd></dl>
 
 </div>
 </div>
@@ -1483,33 +1305,36 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to populate the setup packet (first 8 bytes of the data
-buffer) for a control transfer. The wIndex, wValue and wLength values should
-be given in host-endian byte order.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>制御転送用のセットアップ・パケット(データ・バッファの最初の8バイト)を設定するヘルパー関数。
+wIndexとwValueとwLengthの値は、ホスト・エンディアンのバイト順序で指定する必要があります。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>buffer to output the setup packet into This pointer must be aligned to at
-least 2 bytes boundary. </td></tr>
-    <tr><td class="paramname">bmRequestType</td><td>see the <a class="el"
+    <tr><td class="paramname">buffer</td><td>セットアップ・パケットを出力するバッファこのポインタは、少なくとも2バイト境界に揃える必要があります。 </td></tr>
+    <tr><td class="paramname">bmRequestType</td><td><a class="el"
+href="structlibusb__control__setup.html">libusb_control_setup</a> の <a
+class="el"
 href="structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf">bmRequestType</a>
-field of <a class="el"
-href="structlibusb__control__setup.html">libusb_control_setup</a> </td></tr>
-    <tr><td class="paramname">bRequest</td><td>see the <a class="el"
+フィールドを参照してください </td></tr>
+    <tr><td class="paramname">bRequest</td><td><a class="el"
+href="structlibusb__control__setup.html">libusb_control_setup</a> の <a
+class="el"
 href="structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087">bRequest</a>
-field of <a class="el"
-href="structlibusb__control__setup.html">libusb_control_setup</a> </td></tr>
-    <tr><td class="paramname">wValue</td><td>see the <a class="el"
+フィールドを参照して下さい </td></tr>
+    <tr><td class="paramname">wValue</td><td><a class="el"
+href="structlibusb__control__setup.html">libusb_control_setup</a> の <a
+class="el"
 href="structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d">wValue</a>
-field of <a class="el"
-href="structlibusb__control__setup.html">libusb_control_setup</a> </td></tr>
-    <tr><td class="paramname">wIndex</td><td>see the <a class="el"
+フィールドを参照して下さい </td></tr>
+    <tr><td class="paramname">wIndex</td><td><a class="el"
+href="structlibusb__control__setup.html">libusb_control_setup</a> の <a
+class="el"
 href="structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b">wIndex</a>
-field of <a class="el"
-href="structlibusb__control__setup.html">libusb_control_setup</a> </td></tr>
-    <tr><td class="paramname">wLength</td><td>see the <a class="el"
+フィールドを参照して下さい </td></tr>
+    <tr><td class="paramname">wLength</td><td><a class="el"
+href="structlibusb__control__setup.html">libusb_control_setup</a> の <a
+class="el"
 href="structlibusb__control__setup.html#a3c442c64fd7619b43b782367235766cc">wLength</a>
-field of <a class="el"
-href="structlibusb__control__setup.html">libusb_control_setup</a> </td></tr>
+フィールドを参照して下さい </td></tr>
   </table>
   </dd>
 </dl>
@@ -1579,36 +1404,33 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to populate the required <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> fields for a control
-transfer.</p>
-<p>If you pass a transfer buffer to this function, the first 8 bytes will be
-interpreted as a control setup packet, and the wLength field will be used to
-automatically populate the <a class="el"
+<p>制御転送に必要な <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a> フィールドに情報を入力するヘルパー関数。</p>
+<p>この関数に転送バッファーを渡すと、最初の8バイトが制御セットアップ・パケットとして解釈され、wLengthフィールドを使用して転送の <a
+class="el"
 href="structlibusb__transfer.html#a68c023e1f40b50aa8604a2495b6a391e">length</a>
-field of the transfer. Therefore the recommended approach is:</p><ol type="1">
-<li>Allocate a suitably sized data buffer (including space for control setup)</li>
-<li>Call <a class="el"
-href="group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231">libusb_fill_control_setup()</a></li>
-<li>If this is a host-to-device transfer with a data stage, put the data in
-place after the setup packet</li>
-<li>Call this function</li>
-<li>Call <a class="el"
-href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer()</a></li>
+フィールドに自動的に入力されます。したがって、推奨されるアプローチは以下のとおりです:</p><ol type="1">
+<li>(制御セットアップ用のスペースを含む)適切なサイズのデータ・バッファを割り当てます</li>
+<li><a class="el"
+href="group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231">libusb_fill_control_setup()</a>
+を呼び出します</li>
+<li>これがデータ・ステージを使用したホストからデバイスへの転送である場合は、セットアップ・パケットの後ろにデータを配置します</li>
+<li>この関数を呼び出します</li>
+<li><a class="el"
+href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer()</a>
+を呼び出します。</li>
 </ol>
-<p>It is also legal to pass a NULL buffer to this function, in which case this
-function will not attempt to populate the length field. Remember that you
-must then populate the buffer and length fields later.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>この関数にNULLバッファーを渡すことも合法です。この場合、この関数はlengthフィールドにデータを入力しようとしません。
+後でバッファ・フィールドとlengthフィールドにデータを入力する必要があることに注意してください。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to populate </td></tr>
-    <tr><td class="paramname">dev_handle</td><td>handle of the device that will handle the transfer </td></tr>
-    <tr><td class="paramname">buffer</td><td>data buffer. If provided, this function will interpret the first 8 bytes as
-a setup packet and infer the transfer length from that. This pointer must be
-aligned to at least 2 bytes boundary. </td></tr>
-    <tr><td class="paramname">callback</td><td>callback function to be invoked on transfer completion </td></tr>
-    <tr><td class="paramname">user_data</td><td>user data to pass to callback function </td></tr>
-    <tr><td class="paramname">timeout</td><td>timeout for the transfer in milliseconds </td></tr>
+    <tr><td class="paramname">transfer</td><td>入力対象の転送 </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>転送を処理するデバイスのハンドル </td></tr>
+    <tr><td class="paramname">buffer</td><td>データ・バッファ。
+指定されている場合、この関数は最初の8バイトをセットアップ・パケットとして解釈し、そこから転送長を推測します。このポインタは、少なくとも2バイト境界に揃える必要があります。 </td></tr>
+    <tr><td class="paramname">callback</td><td>転送完了時に呼び出されるコールバック関数 </td></tr>
+    <tr><td class="paramname">user_data</td><td>コールバック関数に渡すユーザー・データ </td></tr>
+    <tr><td class="paramname">timeout</td><td>転送のタイムアウト(ミリ秒単位) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1690,19 +1512,19 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to populate the required <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> fields for a bulk
-transfer.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>バルク転送に必要な <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a>
+のフィールド群にデータを入力するヘルパー関数。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to populate </td></tr>
-    <tr><td class="paramname">dev_handle</td><td>handle of the device that will handle the transfer </td></tr>
-    <tr><td class="paramname">endpoint</td><td>address of the endpoint where this transfer will be sent </td></tr>
-    <tr><td class="paramname">buffer</td><td>data buffer </td></tr>
-    <tr><td class="paramname">length</td><td>length of data buffer </td></tr>
-    <tr><td class="paramname">callback</td><td>callback function to be invoked on transfer completion </td></tr>
-    <tr><td class="paramname">user_data</td><td>user data to pass to callback function </td></tr>
-    <tr><td class="paramname">timeout</td><td>timeout for the transfer in milliseconds </td></tr>
+    <tr><td class="paramname">transfer</td><td>入力対象の転送 </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>転送を処理するデバイスのハンドル </td></tr>
+    <tr><td class="paramname">endpoint</td><td>この転送を送るエンドポイントのアドレス </td></tr>
+    <tr><td class="paramname">buffer</td><td>データ・バッファ </td></tr>
+    <tr><td class="paramname">length</td><td>データ・バッファの長さ </td></tr>
+    <tr><td class="paramname">callback</td><td>転送完了時に呼び出されるコールバック関数 </td></tr>
+    <tr><td class="paramname">user_data</td><td>コールバック関数に渡すユーザー・データ </td></tr>
+    <tr><td class="paramname">timeout</td><td>転送のタイムアウト(ミリ秒単位) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1790,23 +1612,23 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to populate the required <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> fields for a bulk
-transfer using bulk streams.</p>
-<p>Since version 1.0.19, <a class="el"
+<p>バルク・ストリームを使用したバルク転送に必要な <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a>
+のフィールド群にデータを入力するヘルパー関数。</p>
+<p>バージョン1.0.19以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000103</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to populate </td></tr>
-    <tr><td class="paramname">dev_handle</td><td>handle of the device that will handle the transfer </td></tr>
-    <tr><td class="paramname">endpoint</td><td>address of the endpoint where this transfer will be sent </td></tr>
-    <tr><td class="paramname">stream_id</td><td>bulk stream id for this transfer </td></tr>
-    <tr><td class="paramname">buffer</td><td>data buffer </td></tr>
-    <tr><td class="paramname">length</td><td>length of data buffer </td></tr>
-    <tr><td class="paramname">callback</td><td>callback function to be invoked on transfer completion </td></tr>
-    <tr><td class="paramname">user_data</td><td>user data to pass to callback function </td></tr>
-    <tr><td class="paramname">timeout</td><td>timeout for the transfer in milliseconds </td></tr>
+    <tr><td class="paramname">transfer</td><td>入力対象の転送 </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>転送を処理するデバイスのハンドル </td></tr>
+    <tr><td class="paramname">endpoint</td><td>この転送を送るエンドポイントのアドレス </td></tr>
+    <tr><td class="paramname">stream_id</td><td>この転送のバルク・ストリームID </td></tr>
+    <tr><td class="paramname">buffer</td><td>データ・バッファ </td></tr>
+    <tr><td class="paramname">length</td><td>データ・バッファの長さ </td></tr>
+    <tr><td class="paramname">callback</td><td>転送完了時に呼び出されるコールバック関数 </td></tr>
+    <tr><td class="paramname">user_data</td><td>コールバック関数に渡すユーザー・データ </td></tr>
+    <tr><td class="paramname">timeout</td><td>転送のタイムアウト(ミリ秒単位) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1888,19 +1710,19 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to populate the required <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> fields for an
-interrupt transfer.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>割り込み転送に必要な <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a>
+のフィールド群にデータを入力するヘルパー関数。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to populate </td></tr>
-    <tr><td class="paramname">dev_handle</td><td>handle of the device that will handle the transfer </td></tr>
-    <tr><td class="paramname">endpoint</td><td>address of the endpoint where this transfer will be sent </td></tr>
-    <tr><td class="paramname">buffer</td><td>data buffer </td></tr>
-    <tr><td class="paramname">length</td><td>length of data buffer </td></tr>
-    <tr><td class="paramname">callback</td><td>callback function to be invoked on transfer completion </td></tr>
-    <tr><td class="paramname">user_data</td><td>user data to pass to callback function </td></tr>
-    <tr><td class="paramname">timeout</td><td>timeout for the transfer in milliseconds </td></tr>
+    <tr><td class="paramname">transfer</td><td>入力対象の転送 </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>転送を処理するデバイスのハンドル </td></tr>
+    <tr><td class="paramname">endpoint</td><td>この転送を送るエンドポイントのアドレス </td></tr>
+    <tr><td class="paramname">buffer</td><td>データ・バッファ </td></tr>
+    <tr><td class="paramname">length</td><td>データ・バッファの長さ </td></tr>
+    <tr><td class="paramname">callback</td><td>転送完了時に呼び出されるコールバック関数 </td></tr>
+    <tr><td class="paramname">user_data</td><td>コールバック関数に渡すユーザー・データ </td></tr>
+    <tr><td class="paramname">timeout</td><td>転送のタイムアウト(ミリ秒単位) </td></tr>
   </table>
   </dd>
 </dl>
@@ -1988,20 +1810,20 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Helper function to populate the required <a class="el"
-href="structlibusb__transfer.html">libusb_transfer</a> fields for an
-isochronous transfer.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>アイソクロナス転送に必要な <a class="el"
+href="structlibusb__transfer.html">libusb_transfer</a>
+のフィールド群にデータを入力するヘルパー関数。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>the transfer to populate </td></tr>
-    <tr><td class="paramname">dev_handle</td><td>handle of the device that will handle the transfer </td></tr>
-    <tr><td class="paramname">endpoint</td><td>address of the endpoint where this transfer will be sent </td></tr>
-    <tr><td class="paramname">buffer</td><td>data buffer </td></tr>
-    <tr><td class="paramname">length</td><td>length of data buffer </td></tr>
-    <tr><td class="paramname">num_iso_packets</td><td>the number of isochronous packets </td></tr>
-    <tr><td class="paramname">callback</td><td>callback function to be invoked on transfer completion </td></tr>
-    <tr><td class="paramname">user_data</td><td>user data to pass to callback function </td></tr>
-    <tr><td class="paramname">timeout</td><td>timeout for the transfer in milliseconds </td></tr>
+    <tr><td class="paramname">transfer</td><td>入力対象の転送 </td></tr>
+    <tr><td class="paramname">dev_handle</td><td>転送を処理するデバイスのハンドル </td></tr>
+    <tr><td class="paramname">endpoint</td><td>この転送を送るエンドポイントのアドレス </td></tr>
+    <tr><td class="paramname">buffer</td><td>データ・バッファ </td></tr>
+    <tr><td class="paramname">length</td><td>データ・バッファの長さ </td></tr>
+    <tr><td class="paramname">num_iso_packets</td><td>アイソクロナス・パケットの数 </td></tr>
+    <tr><td class="paramname">callback</td><td>転送完了時に呼び出されるコールバック関数 </td></tr>
+    <tr><td class="paramname">user_data</td><td>コールバック関数に渡すユーザー・データ </td></tr>
+    <tr><td class="paramname">timeout</td><td>転送のタイムアウト(ミリ秒単位) </td></tr>
   </table>
   </dd>
 </dl>
@@ -2044,16 +1866,15 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Convenience function to set the length of all packets in an isochronous
-transfer, based on the num_iso_packets field in the transfer structure.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>転送構造構造体のnum_iso_packetsフィールドに基づいて、アイソクロナス転送でのすべてのパケットの長さを設定する便利な関数。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>a transfer </td></tr>
-    <tr><td class="paramname">length</td><td>the length to set in each isochronous packet descriptor </td></tr>
+    <tr><td class="paramname">transfer</td><td>とある一つの転送 </td></tr>
+    <tr><td class="paramname">length</td><td>各アイソクロナス・パケット・デスクリプターに設定する長さ </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el"
+<dl class="section see"><dt>これも参照下さい</dt><dd><a class="el"
 href="group__libusb__dev.html#gac81968047e262409e78f3fe24321b604">libusb_get_max_packet_size()</a> </dd></dl>
 
 </div>
@@ -2094,25 +1915,20 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Convenience function to locate the position of an isochronous packet within
-the buffer of an isochronous transfer.</p>
-<p>This is a thorough function which loops through all preceding packets,
-accumulating their lengths to find the position of the specified
-packet. Typically you will assign equal lengths to each packet in the
-transfer, and hence the above method is sub-optimal. You may wish to use <a
-class="el"
+<p>アイソクロナス転送のバッファ内でアイソクロナス・パケットの位置を特定するための便利な関数。</p>
+<p>これは、先行するすべてのパケットに対して繰り返し作業を行い、それらの長さを足しこんで指定されたパケットの位置を見つける完全な関数です。通常、転送では各パケットに同じ長さを割り当てるため、この方法は最適とは言えません。代わりに
+<a class="el"
 href="group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd">libusb_get_iso_packet_buffer_simple()</a>
-instead.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+を使用することをお勧めします。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>a transfer </td></tr>
-    <tr><td class="paramname">packet</td><td>the packet to return the address of </td></tr>
+    <tr><td class="paramname">transfer</td><td>とある一つの転送 </td></tr>
+    <tr><td class="paramname">packet</td><td>アドレスを知りたいパケット(訳注:パケットNo. 0〜) </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the base address of the packet buffer inside the transfer buffer, or NULL if
-the packet does not exist. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el"
+<dl class="section return"><dt>戻り値</dt><dd>転送バッファ内のパケット・バッファのベース・アドレス。パケットが存在しない場合はNULL。 </dd></dl>
+<dl class="section see"><dt>これも参照下さい</dt><dd><a class="el"
 href="group__libusb__asyncio.html#ga3df9a28c4f5c8f1850181ddb5efd12fd">libusb_get_iso_packet_buffer_simple()</a> </dd></dl>
 
 </div>
@@ -2153,25 +1969,19 @@ class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Convenience function to locate the position of an isochronous packet within
-the buffer of an isochronous transfer, for transfers where each packet is of
-identical size.</p>
-<p>This function relies on the assumption that every packet within the transfer
-is of identical size to the first packet. Calculating the location of the
-packet buffer is then just a simple calculation: <code>buffer + (packet_size
-* packet)</code></p>
-<p>Do not use this function on transfers other than those that have identical
-packet lengths for each packet.</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>各パケットが同じサイズの転送の場合、アイソクロナス転送のバッファ内でアイソクロナス・パケットの位置を特定するための便利な関数。</p>
+<p>この関数は、その転送内のすべてのパケットが最初のパケットと同じサイズであるという仮定に依存しています。パケット・バッファの位置の計算は
+<code>buffer + (packet_size * packet)</code> という単純な計算です。</p>
+<p>各パケットのパケット長が同じである転送以外の転送では、この関数を使用しないでください。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">transfer</td><td>a transfer </td></tr>
-    <tr><td class="paramname">packet</td><td>the packet to return the address of </td></tr>
+    <tr><td class="paramname">transfer</td><td>とある一つの転送 </td></tr>
+    <tr><td class="paramname">packet</td><td>アドレスを知りたいパケット(訳注:パケットNo. 0〜) </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the base address of the packet buffer inside the transfer buffer, or NULL if
-the packet does not exist. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el"
+<dl class="section return"><dt>戻り値</dt><dd>転送バッファ内のパケット・バッファのベース・アドレス。パケットが存在しない場合はNULL。 </dd></dl>
+<dl class="section see"><dt>これも参照下さい</dt><dd><a class="el"
 href="group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3">libusb_get_iso_packet_buffer()</a> </dd></dl>
 
 </div>
@@ -2179,18 +1989,18 @@ href="group__libusb__asyncio.html#ga7f6ea0eb35a216d19d984977e454a7b3">libusb_get
 </div>
 <!-- contents -->
 <div class="ttc" id="agroup__libusb__poll_html_ga4989086e3f0327f3886a4c474ec7c327"><div class="ttname"><a
-href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events</a></div><div class="ttdeci">int libusb_handle_events(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:2407</div></div>
+href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events</a></div><div class="ttdeci">int libusb_handle_events(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:2407</div></div>
 <div class="ttc" id="agroup__libusb__lib_html_gadc174de608932caeb2fc15d94fa0844d"><div class="ttname"><a
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit</a></div><div class="ttdeci">void libusb_exit(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> core.c:2385</div></div>
+href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit</a></div><div class="ttdeci">void libusb_exit(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> core.c:2385</div></div>
 <div class="ttc" id="astructlibusb__transfer_html_adaaf06aeb5ab2a8819e75310ec253f7a"><div class="ttname"><a
-href="structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a">libusb_transfer::dev_handle</a></div><div class="ttdeci">libusb_device_handle * dev_handle</div><div class="ttdoc">Handle of the device that this transfer will be submitted to.</div><div class="ttdef"><b>Definition:</b> libusb.h:1224</div></div>
+href="structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a">libusb_transfer::dev_handle</a></div><div class="ttdeci">libusb_device_handle * dev_handle</div><div class="ttdoc">この転送が送信されるデバイスのハンドル。</div><div class="ttdef"><b>定義:</b> libusb.h:1224</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_ga8110f57eab2064375934f1449b2602bc"><div class="ttname"><a
 href="group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc">libusb_hotplug_deregister_callback</a></div><div class="ttdeci">void libusb_hotplug_deregister_callback(libusb_context *ctx,
-libusb_hotplug_callback_handle callback_handle)</div><div class="ttdef"><b>Definition:</b> hotplug.c:404</div></div>
+libusb_hotplug_callback_handle callback_handle)</div><div class="ttdef"><b>定義:</b> hotplug.c:404</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga779bc4f1316bdb0ac383bddbd538620e"><div class="ttname"><a
-href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close</a></div><div class="ttdeci">void libusb_close(libusb_device_handle *dev_handle)</div><div class="ttdef"><b>Definition:</b> core.c:1446</div></div>
+href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close</a></div><div class="ttdeci">void libusb_close(libusb_device_handle *dev_handle)</div><div class="ttdef"><b>定義:</b> core.c:1446</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga7df95821d20d27b5597f1d783749d6a4"><div class="ttname"><a
-href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_handle</a></div><div class="ttdeci">struct libusb_device_handle libusb_device_handle</div><div class="ttdef"><b>Definition:</b> libusb.h:1015</div></div>
+href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_handle</a></div><div class="ttdeci">struct libusb_device_handle libusb_device_handle</div><div class="ttdef"><b>定義:</b> libusb.h:1015</div></div>
 
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a
