@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: Library initialization/deinitialization</title>
+<title>libusb: ライブラリの利用準備と後片付け</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,26 +44,24 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124; <a
-href="#typedef-members">Typedefs</a> &#124; <a
-href="#enum-members">Enumerations</a> &#124; <a
-href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">データ構造体</a> &#124; <a
+href="#typedef-members">Typedef</a> &#124; <a href="#enum-members">列挙型</a>
+&#124; <a href="#func-members">関数</a>  </div>
   <div class="headertitle">
-<div class="title">Library initialization/deinitialization</div>  </div>
+<div class="title">ライブラリの利用準備と後片付け</div>  </div>
 </div>
 <!--header-->
 <div class="contents">
 
-<p>This page details how to initialize and deinitialize libusb. Initialization
-must be performed before using any libusb functionality, and similarly you
-must not call any libusb functions after deinitialization.  <a
-href="#details">More...</a></p>
+<p>このページでは、libusbを利用準備(initialize)および後片付け(deinitialize)する方法について詳しく説明します。
+libusb機能を使用する前に利用準備を実行する必要があります。同様に、後片付け後にlibusb関数を呼び出さないでください。 <a
+href="#details">詳細説明へ</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a> Data Structures</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a> データ構造体</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structlibusb__version.html">libusb_version</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a> Typedefs</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a> Typedef</h2></td></tr>
 <tr class="memitem:ga4ec088aa7b79c4a9599e39bf36a72833"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el"
 href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context</a></td></tr>
@@ -77,7 +75,7 @@ href="group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2">libusb_log_lev
 level, const char *str)</td></tr>
 <tr class="separator:ga968e4c2133a5db1ab5b22b09fcbf9cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a> Enumerations</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a> 列挙型</h2></td></tr>
 <tr class="memitem:ga2d6144203f0fc6d373677f6e2e89d2d2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2">libusb_log_level</a>
 { <br />
@@ -116,7 +114,7 @@ href="group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6
 = 2, <b>LIBUSB_OPTION_MAX</b> = 3 }</td></tr>
 <tr class="separator:ga07d4ec54cf575d672ba94c72b3c0de7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a> Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a> 関数</h2></td></tr>
 <tr class="memitem:ga5f8376b7a863a5a8d5b8824feb8a427a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a">libusb_set_debug</a>
 (<a class="el"
@@ -152,11 +150,10 @@ href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context
 *ctx)</td></tr>
 <tr class="separator:gadc174de608932caeb2fc15d94fa0844d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>This page details how to initialize and deinitialize libusb. Initialization
-must be performed before using any libusb functionality, and similarly you
-must not call any libusb functions after deinitialization. </p>
-<h2 class="groupheader">Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳細説明</h2>
+<p>このページでは、libusbを利用準備(initialize)および後片付け(deinitialize)する方法について詳しく説明します。
+libusb機能を使用する前に利用準備(initialization)を実行する必要があります。同様に、後片付け(deinitialization)後にlibusb関数を呼び出さないでください。 </p>
+<h2 class="groupheader">Typedef解説</h2>
 <a id="ga4ec088aa7b79c4a9599e39bf36a72833"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#ga4ec088aa7b79c4a9599e39bf36a72833">&#9670;&nbsp;</a></span>libusb_context</h2>
@@ -172,23 +169,20 @@ href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Structure representing a libusb session. The concept of individual libusb
-sessions allows for your program to use two libraries (or dynamically load
-two modules) which both independently use libusb. This will prevent
-interference between the individual libusb users - for example <a class="el"
+<p>libusbセッションを表す構造体。
+個々の独立したlibusbセッションの概念により、プログラムで2つのライブラリを使用する(または2つのモジュールを動的にロードする)ことができます。これらは両方とも独立してlibusbを使用します。これにより、個々のlibusbユーザー間の干渉が防止されます。たとえば
+<a class="el"
 href="group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8">libusb_set_option()</a>
-will not affect the other user of the library, and <a class="el"
+はライブラリの他のユーザーに影響を与えず、 <a class="el"
 href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>
-will not destroy resources that the other user is still using.</p>
-<p>Sessions are created by <a class="el"
+は他のユーザーがまだ使用しているリソースを破壊しません。</p>
+<p>セッションは <a class="el"
 href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
-and destroyed through <a class="el"
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>.
-If your application is guaranteed to only ever include a single libusb user
-(i.e. you), you do not have to worry about contexts: pass NULL in every
-function call where a context is required. The default context will be used.</p>
-<p>For more information, see <a class="el"
-href="libusb_contexts.html">Contexts</a>. </p>
+によって作成され、 <a class="el"
+href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>
+によって破棄されます。
+アプリケーションに単一のlibusbユーザー(つまり、あなただけ)のみが含まれることが保証されている場合は、コンテキストについて心配する必要はありません。あなたはコンテキストが必要なすべての関数呼び出しでNULLを渡して下さい。デフォルトのコンテキストが使用されます。</p>
+<p>詳細については、 <a class="el" href="libusb_contexts.html">コンテキスト</a> を参照してください。 </p>
 
 </div>
 </div>
@@ -208,26 +202,25 @@ level, const char *str)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Callback function for handling log messages. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>ログ・メッセージを処理するためのコールバック関数。 </p><dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ctx</td><td>the context which is related to the log message, or NULL if it is a global
-log message </td></tr>
-    <tr><td class="paramname">level</td><td>the log level, see <a class="el"
+    <tr><td class="paramname">ctx</td><td>ログ・メッセージに関連するコンテキスト。NULLの場合はグローバル・ログ・メッセージ </td></tr>
+    <tr><td class="paramname">level</td><td>ログ・レベル。 <a class="el"
 href="group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2">libusb_log_level</a>
-for a description </td></tr>
-    <tr><td class="paramname">str</td><td>the log message</td></tr>
+に説明があります。 </td></tr>
+    <tr><td class="paramname">str</td><td>ログ・メッセージ</td></tr>
   </table>
   </dd>
 </dl>
-<p>Since version 1.0.23, <a class="el"
+<p>バージョン 1.0.23 以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000107</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el"
+<dl class="section see"><dt>以下もご覧下さい</dt><dd><a class="el"
 href="group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20">libusb_set_log_cb()</a> </dd></dl>
 
 </div>
 </div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
+<h2 class="groupheader">列挙型解説</h2>
 <a id="ga2d6144203f0fc6d373677f6e2e89d2d2"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#ga2d6144203f0fc6d373677f6e2e89d2d2">&#9670;&nbsp;</a></span>libusb_log_level</h2>
@@ -241,22 +234,22 @@ href="group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2">libusb_log_lev
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Log message levels. </p>
+<p>ログ・レベル。 </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
-id="gga2d6144203f0fc6d373677f6e2e89d2d2af431dbe84c85599526cc0103f8178270"></a>LIBUSB_LOG_LEVEL_NONE&#160;</td><td class="fielddoc"><p>(0) : No messages ever emitted by the library (default) </p>
+<tr><th colspan="2">列挙型</th></tr><tr><td class="fieldname"><a
+id="gga2d6144203f0fc6d373677f6e2e89d2d2af431dbe84c85599526cc0103f8178270"></a>LIBUSB_LOG_LEVEL_NONE&#160;</td><td class="fielddoc"><p>(0) : ライブラリからメッセージが出されることはありません(デフォルト) </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2d6144203f0fc6d373677f6e2e89d2d2ace959b4b99f6c460dfa929b6152e49a8"></a>LIBUSB_LOG_LEVEL_ERROR&#160;</td><td class="fielddoc"><p>(1) : Error messages are emitted </p>
+id="gga2d6144203f0fc6d373677f6e2e89d2d2ace959b4b99f6c460dfa929b6152e49a8"></a>LIBUSB_LOG_LEVEL_ERROR&#160;</td><td class="fielddoc"><p>(1) : (ERROR)エラーメッセージを出します </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2d6144203f0fc6d373677f6e2e89d2d2a1d141f7a981d9fcd4bc12e41a1a14e78"></a>LIBUSB_LOG_LEVEL_WARNING&#160;</td><td class="fielddoc"><p>(2) : Warning and error messages are emitted </p>
+id="gga2d6144203f0fc6d373677f6e2e89d2d2a1d141f7a981d9fcd4bc12e41a1a14e78"></a>LIBUSB_LOG_LEVEL_WARNING&#160;</td><td class="fielddoc"><p>(2) : 警告(WARNING)とエラー(ERROR)メッセージを出します </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07"></a>LIBUSB_LOG_LEVEL_INFO&#160;</td><td class="fielddoc"><p>(3) : Informational, warning and error messages are emitted </p>
+id="gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07"></a>LIBUSB_LOG_LEVEL_INFO&#160;</td><td class="fielddoc"><p>(3) : 通知(INFO)と警告(WARNING)とエラー(ERROR)メッセージを出します。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c"></a>LIBUSB_LOG_LEVEL_DEBUG&#160;</td><td class="fielddoc"><p>(4) : All messages are emitted </p>
+id="gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c"></a>LIBUSB_LOG_LEVEL_DEBUG&#160;</td><td class="fielddoc"><p>(4) : 全てのメッセージを出します </p>
 </td></tr>
 </table>
 
@@ -275,18 +268,18 @@ href="group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310">libusb_log_cb_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Log callback mode.</p>
-<p>Since version 1.0.23, <a class="el"
+<p>ログ・コールバック・モード。</p>
+<p>バージョン 1.0.23 以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000107</p>
-<dl class="section see"><dt>See also</dt><dd><a class="el"
+<dl class="section see"><dt>以下もご覧下さい</dt><dd><a class="el"
 href="group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20">libusb_set_log_cb()</a> </dd></dl>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
-id="gga20e11f6f5a3b5a075fdf44969f3a9310a3baf6e9e1909f47fa8fce3f4155fbf5e"></a>LIBUSB_LOG_CB_GLOBAL&#160;</td><td class="fielddoc"><p>Callback function handling all log messages. </p>
+<tr><th colspan="2">列挙型</th></tr><tr><td class="fieldname"><a
+id="gga20e11f6f5a3b5a075fdf44969f3a9310a3baf6e9e1909f47fa8fce3f4155fbf5e"></a>LIBUSB_LOG_CB_GLOBAL&#160;</td><td class="fielddoc"><p>すべてのログ・メッセージを処理するコールバック関数。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15"></a>LIBUSB_LOG_CB_CONTEXT&#160;</td><td class="fielddoc"><p>Callback function handling context related log messages. </p>
+id="gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15"></a>LIBUSB_LOG_CB_CONTEXT&#160;</td><td class="fielddoc"><p>コンテキスト関連のログ・メッセージを処理するコールバック関数。 </p>
 </td></tr>
 </table>
 
@@ -305,51 +298,44 @@ href="group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c">libusb_option<
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Available option values for <a class="el"
-href="group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8">libusb_set_option()</a>. </p>
+<p><a class="el"
+href="group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8">libusb_set_option()</a>
+で使用可能なオプション値。 </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a
-id="gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d"></a>LIBUSB_OPTION_LOG_LEVEL&#160;</td><td class="fielddoc"><p>Set the log message verbosity. </p>
-<p>The default level is LIBUSB_LOG_LEVEL_NONE, which means no messages are ever
-printed. If you choose to increase the message verbosity level, ensure that
-your application does not close the stderr file descriptor.</p>
-<p>You are advised to use level LIBUSB_LOG_LEVEL_WARNING. libusb is
-conservative with its message logging and most of the time, will only log
-messages that explain error conditions and other oddities. This will help
-you debug your software.</p>
-<p>If the LIBUSB_DEBUG environment variable was set when libusb was
-initialized, this function does nothing: the message verbosity is fixed to
-the value in the environment variable.</p>
-<p>If libusb was compiled without any message logging, this function does
-nothing: you'll never get any messages.</p>
-<p>If libusb was compiled with verbose debug message logging, this function
-does nothing: you'll always get messages from all levels. </p>
+<tr><th colspan="2">列挙型</th></tr><tr><td class="fieldname"><a
+id="gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d"></a>LIBUSB_OPTION_LOG_LEVEL&#160;</td><td class="fielddoc"><p>ログ・メッセージを冗舌(verbosity)に設定する。 </p>
+<p>デフォルトのレベルはLIBUSB_LOG_LEVEL_NONEです。これは、メッセージが出力されないことを意味します。メッセージの詳細レベルを上げることを選択した場合は、アプリケーションでstderrファイル・デスクリプターを閉じないようにしてください。</p>
+<p>レベルLIBUSB_LOG_LEVEL_WARNINGを使用することをお勧めします。libusbはメッセージのログ記録を控えめにしており、ほとんどの場合、エラー状態やその他の異常を説明するメッセージのみをログに記録します。これは、ソフトウェアのデバッグに役立ちます。</p>
+<p>libusbの使用準備(initialize)時にLIBUSB_DEBUG環境変数が設定されている場合、この関数は何も実行しません。メッセージの詳細度は環境変数の値に固定されます。</p>
+<p>libusbがメッセージ・ロギングなしでコンパイルされた場合、この関数は何もしません。あなたがメッセージを受け取ることはありません。</p>
+<p>libusbが詳細なデバッグ・メッセージ・ロギングを使用してコンパイルされている場合、この関数は何もしません。常にすべてのレベルのメッセージを出します。 </p>
 </td></tr>
 <tr><td class="fieldname"><a
-id="gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6"></a>LIBUSB_OPTION_USE_USBDK&#160;</td><td class="fielddoc"><p>Use the UsbDk backend for a specific context, if available. </p>
-<p>This option should be set immediately after calling <a class="el"
-href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>,
-otherwise unspecified behavior may occur.</p>
-<p>Only valid on Windows. </p>
-</td></tr>
-<tr><td class="fieldname"><a
-id="gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d"></a>LIBUSB_OPTION_WEAK_AUTHORITY&#160;</td><td class="fielddoc"><p>Flag that libusb has weak authority. </p>
-<p>With this option set, libusb will skip scanning devices in <a class="el"
-href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>.</p>
-<p>This option should be set before calling <a class="el"
-href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>,
-otherwise <a class="el"
+id="gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6"></a>LIBUSB_OPTION_USE_USBDK&#160;</td><td class="fielddoc"><p>可能な場合は、指定のコンテキストにUsbDkバックエンドを使用します。 </p>
+<p>このオプションは、 <a class="el"
 href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
-might fail. The option is typically needed on Android and used together with
-<a class="el"
-href="group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c">libusb_wrap_sys_device()</a>.</p>
-<p>Only valid on Linux. </p>
+を呼び出した直後に設定する必要があります。そうしないと、不特定の動作が発生する可能性があります。</p>
+<p>Windowsでのみ有効です。 </p>
+</td></tr>
+<tr><td class="fieldname"><a
+id="gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d"></a>LIBUSB_OPTION_WEAK_AUTHORITY&#160;</td><td class="fielddoc"><p>libusbの権限が弱い事を示すフラグ。 </p>
+<p>このオプションを設定すると、libusbは <a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
+内でのデバイスのスキャンをスキップします。</p>
+<p>このオプションは、 <a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
+を呼び出す前に設定する必要があります。そうしないと、 <a class="el"
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init()</a>
+が失敗する可能性があります。 このオプションは通常Androidで必要であり、 <a class="el"
+href="group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c">libusb_wrap_sys_device()</a>
+と一緒に使用されます。</p>
+<p>Linuxでのみ有効です。 </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
+<h2 class="groupheader">関数解説</h2>
 <a id="ga5f8376b7a863a5a8d5b8824feb8a427a"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#ga5f8376b7a863a5a8d5b8824feb8a427a">&#9670;&nbsp;</a></span>libusb_set_debug()</h2>
@@ -378,12 +364,11 @@ href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="deprecated"><dt><b><a class="el"
-href="deprecated.html#_deprecated000002">Deprecated:</a></b></dt><dd>Use <a class="el"
-href="group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8">libusb_set_option()</a>
-instead using the <a class="el"
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000002">非推奨:</a></b></dt><dd>代わりに、 <a class="el"
 href="group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d">LIBUSB_OPTION_LOG_LEVEL</a>
-option. </dd></dl>
+オプションを使用して <a class="el"
+href="group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8">libusb_set_option()</a>
+を使用してください。 </dd></dl>
 
 </div>
 </div>
@@ -422,31 +407,25 @@ href="group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7">libusb_log_cb<
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set log handler.</p>
-<p>libusb will redirect its log messages to the provided callback
-function. libusb supports redirection of per context and global log
-messages. Log messages sent to the context will be sent to the global log
-handler too.</p>
-<p>If libusb is compiled without message logging or USE_SYSTEM_LOGGING_FACILITY
-is defined then global callback function will never be called. If
-ENABLE_DEBUG_LOGGING is defined then per context callback function will
-never be called.</p>
-<p>Since version 1.0.23, <a class="el"
+<p>ログ・ハンドラーをセットする。</p>
+<p>libusbは、ログ・メッセージを提供されたコールバック関数にリダイレクトします。
+libusbは、コンテキストごとのリダイレクトとグローバル・ログ・メッセージをサポートします。コンテキストに送信されたログ・メッセージは、グローバル・ログ・ハンドラーにも送信されます。</p>
+<p>libusbがメッセージ・ロギングなしでコンパイルされているか、USE_SYSTEM_LOGGING_FACILITYが定義されている場合、グローバル・コールバック関数は呼び出されません。ENABLE_DEBUG_LOGGINGが定義されている場合、コンテキストごとのコールバック関数は呼び出されません。</p>
+<p>バージョン 1.0.23 以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000107</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ctx</td><td>context on which to assign log handler, or NULL for the default
-context. Parameter ignored if only LIBUSB_LOG_CB_GLOBAL mode is requested. </td></tr>
-    <tr><td class="paramname">cb</td><td>pointer to the callback function, or NULL to stop log messages redirection </td></tr>
-    <tr><td class="paramname">mode</td><td>mode of callback function operation. Several modes can be selected for a
-single callback function, see <a class="el"
+    <tr><td class="paramname">ctx</td><td>ログ・ハンドラーを割り当てるコンテキスト、またはデフォルト・コンテキストの場合はNULL。
+LIBUSB_LOG_CB_GLOBALモードのみが要求された場合、パラメーターは無視されます。 </td></tr>
+    <tr><td class="paramname">cb</td><td>コールバック関数へのポインタ。ログ・メッセージのリダイレクトを停止する場合はNULL </td></tr>
+    <tr><td class="paramname">mode</td><td>コールバック関数操作のモード。 1つのコールバック関数に対して複数のモードを選択できます。 <a class="el"
 href="group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310">libusb_log_cb_mode</a>
-for a description. </td></tr>
+に説明があります。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el"
+<dl class="section see"><dt>以下もご覧下さい</dt><dd><a class="el"
 href="group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7">libusb_log_cb</a>,
 <a class="el"
 href="group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310">libusb_log_cb_mode</a> </dd></dl>
@@ -488,30 +467,28 @@ href="group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c">libusb_option<
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set an option in the library.</p>
-<p>Use this function to configure a specific option within the library.</p>
-<p>Some options require one or more arguments to be provided. Consult each
-option's documentation for specific requirements.</p>
-<p>Since version 1.0.22, <a class="el"
+<p>ライブラリにオプションを設定します。</p>
+<p>この関数を使用して、ライブラリ内の特定のオプションを構成します。</p>
+<p>一部のオプションでは、1つ以上の引数を指定する必要があります。特定の要件については、各オプションの説明を参照してください。</p>
+<p>バージョン 1.0.22 以降。 <a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
 &gt;= 0x01000106</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ctx</td><td>context on which to operate </td></tr>
-    <tr><td class="paramname">option</td><td>which option to set </td></tr>
-    <tr><td class="paramname">...</td><td>any required arguments for the specified option</td></tr>
+    <tr><td class="paramname">ctx</td><td>操作したいコンテキスト </td></tr>
+    <tr><td class="paramname">option</td><td>どのオプションを設定するか </td></tr>
+    <tr><td class="paramname">...</td><td>指定のオプションに必要な引数</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>LIBUSB_SUCCESS on success </dd>
+<dl class="section return"><dt>戻り値</dt><dd>LIBUSB_SUCCESS ならば成功 </dd>
 <dd>
-LIBUSB_ERROR_INVALID_PARAM if the option or arguments are invalid </dd>
+LIBUSB_ERROR_INVALID_PARAM オプションまたは引数が無効な場合 </dd>
 <dd>
-LIBUSB_ERROR_NOT_SUPPORTED if the option is valid but not supported on this
-platform </dd>
+LIBUSB_ERROR_NOT_SUPPORTED オプションが有効であるがこのプラットフォームでサポートされていない場合 </dd>
 <dd>
-LIBUSB_ERROR_NOT_FOUND if LIBUSB_OPTION_USE_USBDK is valid on this platform
-but UsbDk is not available </dd></dl>
+LIBUSB_ERROR_NOT_FOUND :
+LIBUSB_OPTION_USE_USBDKがこのプラットフォームで有効であるが、UsbDkが使用できない場合 </dd></dl>
 
 </div>
 </div>
@@ -533,19 +510,17 @@ href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Initialize libusb. This function must be called before calling any other
-libusb function.</p>
-<p>If you do not provide an output location for a context pointer, a default
-context will be created. If there was already a default context, it will be
-reused (and nothing will be initialized/reinitialized).</p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>libusbの利用準備(initialize)をします。 この関数は、他のlibusb関数を呼び出す前に呼び出す必要があります。</p>
+<p>コンテキスト・ポインタの出力場所を指定しない場合、デフォルトのコンテキストが作成されます。
+デフォルトのコンテキストがすでに存在する場合、それは再利用されます(そして、何も利用準備(initialize)/再利用準備(reinitialize)しません)。</p>
+<dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ctx</td><td>Optional output location for context pointer. Only valid on return code 0. </td></tr>
+    <tr><td class="paramname">ctx</td><td>コンテキスト・ポインタのオプションの出力場所。 戻り値が0の時だけ有効です。 </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>0 on success, or a LIBUSB_ERROR code on failure </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>libusb_contexts </dd></dl>
+<dl class="section return"><dt>戻り値</dt><dd>0 ならば成功。LIBUSB_ERROR ならば失敗 </dd></dl>
+<dl class="section see"><dt>以下もご覧下さい</dt><dd>libusb_contexts </dd></dl>
 
 </div>
 </div>
@@ -567,10 +542,9 @@ href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Deinitialize libusb. Should be called after closing all open devices and
-before your application terminates. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>libusbを後片付け(deinitialize)します。開いているすべてのデバイスをクローズした後、アプリケーションが終了する前に呼び出す必要があります。 </p><dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ctx</td><td>the context to deinitialize, or NULL for the default context </td></tr>
+    <tr><td class="paramname">ctx</td><td>後片付け(deinitialize)するコンテキスト、またはデフォルトのコンテキストの場合はNULL </td></tr>
   </table>
   </dd>
 </dl>

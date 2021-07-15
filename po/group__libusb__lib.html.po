@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:10+0900\n"
+"PO-Revision-Date: 2021-07-16 08:17+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/group__libusb__lib.html:8
 msgid "libusb: Library initialization/deinitialization"
-msgstr ""
+msgstr "libusb: ライブラリの利用準備と後片付け"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/group__libusb__lib.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/group__libusb__lib.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/group__libusb__lib.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/group__libusb__lib.html:36
@@ -42,7 +42,7 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__lib.html:45
@@ -50,12 +50,12 @@ msgid ""
 "<a href=\"#nested-classes\">Data Structures</a> &#124; <a href=\"#typedef-"
 "members\">Typedefs</a> &#124; <a href=\"#enum-members\">Enumerations</a> "
 "&#124; <a href=\"#func-members\">Functions</a>"
-msgstr ""
+msgstr "<a href=\"#nested-classes\">データ構造体</a> &#124; <a href=\"#typedef-members\">Typedef</a> &#124; <a href=\"#enum-members\">列挙型</a> &#124; <a href=\"#func-members\">関数</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__lib.html:50
 msgid "Library initialization/deinitialization"
-msgstr ""
+msgstr "ライブラリの利用準備と後片付け"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__lib.html:54
@@ -64,22 +64,22 @@ msgid ""
 "must be performed before using any libusb functionality, and similarly you "
 "must not call any libusb functions after deinitialization.  <a href="
 "\"#details\">More...</a>"
-msgstr ""
+msgstr "このページでは、libusbを利用準備(initialize)および後片付け(deinitialize)する方法について詳しく説明します。 libusb機能を使用する前に利用準備を実行する必要があります。同様に、後片付け後にlibusb関数を呼び出さないでください。 <a href=\"#details\">詳細説明へ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__lib.html:57
 msgid "<a name=\"nested-classes\"></a> Data Structures"
-msgstr ""
+msgstr "<a name=\"nested-classes\"></a> データ構造体"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:59
 msgid "struct &#160;"
-msgstr ""
+msgstr "struct &#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:59
 msgid "<a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:60
@@ -95,31 +95,31 @@ msgstr ""
 #: source/api-1.0/group__libusb__lib.html:103
 #: source/api-1.0/group__libusb__lib.html:331
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__lib.html:62
 msgid "<a name=\"typedef-members\"></a> Typedefs"
-msgstr ""
+msgstr "<a name=\"typedef-members\"></a> Typedef"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:64
 msgid ""
 "typedef struct <a class=\"el\" href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>&#160;"
-msgstr ""
+msgstr "typedef struct <a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:64
 msgid ""
 "<a class=\"el\" href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:66
 msgid "typedef void(*&#160;"
-msgstr ""
+msgstr "typedef void(*&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:66
@@ -131,26 +131,26 @@ msgid ""
 "class=\"el\" href=\"group__libusb__lib."
 "html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> level, const "
 "char *str)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>) (<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, enum <a class=\"el\" href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> level, const char *str)"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__lib.html:69
 msgid "<a name=\"enum-members\"></a> Enumerations"
-msgstr ""
+msgstr "<a name=\"enum-members\"></a> 列挙型"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:71
 #: source/api-1.0/group__libusb__lib.html:81
 #: source/api-1.0/group__libusb__lib.html:85
 msgid "enum &#160;"
-msgstr ""
+msgstr "enum &#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:71
 msgid ""
 "<a class=\"el\" href=\"group__libusb__lib."
 "html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> {"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> {"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:72
@@ -164,7 +164,7 @@ msgid ""
 "a> = 2, <a class=\"el\" href=\"group__libusb__lib."
 "html#gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07\">LIBUSB_LOG_LEVEL_INFO</"
 "a> = 3,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2af431dbe84c85599526cc0103f8178270\">LIBUSB_LOG_LEVEL_NONE</a> = 0, <a class=\"el\" href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2ace959b4b99f6c460dfa929b6152e49a8\">LIBUSB_LOG_LEVEL_ERROR</a> = 1, <a class=\"el\" href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2a1d141f7a981d9fcd4bc12e41a1a14e78\">LIBUSB_LOG_LEVEL_WARNING</a> = 2, <a class=\"el\" href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07\">LIBUSB_LOG_LEVEL_INFO</a> = 3,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:77
@@ -172,12 +172,12 @@ msgid ""
 "&#160;&#160;<a class=\"el\" href=\"group__libusb__lib."
 "html#gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c"
 "\">LIBUSB_LOG_LEVEL_DEBUG</a> = 4"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__lib.html#gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c\">LIBUSB_LOG_LEVEL_DEBUG</a> = 4"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:79
 msgid "}"
-msgstr ""
+msgstr "}"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:81
@@ -190,7 +190,7 @@ msgid ""
 "\"group__libusb__lib."
 "html#gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15\">LIBUSB_LOG_CB_CONTEXT</"
 "a> = (1 &lt;&lt; 1)  }"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a> { <a class=\"el\" href=\"group__libusb__lib.html#gga20e11f6f5a3b5a075fdf44969f3a9310a3baf6e9e1909f47fa8fce3f4155fbf5e\">LIBUSB_LOG_CB_GLOBAL</a> = (1 &lt;&lt; 0), <a class=\"el\" href=\"group__libusb__lib.html#gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15\">LIBUSB_LOG_CB_CONTEXT</a> = (1 &lt;&lt; 1)  }"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:85
@@ -205,19 +205,19 @@ msgid ""
 "a> = 1, <a class=\"el\" href=\"group__libusb__lib."
 "html#gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d"
 "\">LIBUSB_OPTION_WEAK_AUTHORITY</a> = 2, <b>LIBUSB_OPTION_MAX</b> = 3 }"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a> { <a class=\"el\" href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d\">LIBUSB_OPTION_LOG_LEVEL</a> = 0, <a class=\"el\" href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6\">LIBUSB_OPTION_USE_USBDK</a> = 1, <a class=\"el\" href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d\">LIBUSB_OPTION_WEAK_AUTHORITY</a> = 2, <b>LIBUSB_OPTION_MAX</b> = 3 }"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__lib.html:92
 msgid "<a name=\"func-members\"></a> Functions"
-msgstr ""
+msgstr "<a name=\"func-members\"></a> 関数"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:94
 #: source/api-1.0/group__libusb__lib.html:96
 #: source/api-1.0/group__libusb__lib.html:102
 msgid "void&#160;"
-msgstr ""
+msgstr "void&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:94
@@ -226,7 +226,7 @@ msgid ""
 "html#ga5f8376b7a863a5a8d5b8824feb8a427a\">libusb_set_debug</a> (<a class=\"el"
 "\" href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, int level)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a\">libusb_set_debug</a> (<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, int level)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:96
@@ -237,7 +237,7 @@ msgid ""
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <a class="
 "\"el\" href=\"group__libusb__lib."
 "html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a> cb, int mode)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb</a> (<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <a class=\"el\" href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a> cb, int mode)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:98
@@ -245,7 +245,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__lib.html:249
 #: source/api-1.0/group__libusb__lib.html:284
 msgid "int&#160;"
-msgstr ""
+msgstr "int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:98
@@ -256,7 +256,7 @@ msgid ""
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, enum <a "
 "class=\"el\" href=\"group__libusb__lib."
 "html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a> option,...)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option</a> (<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, enum <a class=\"el\" href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a> option,...)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:100
@@ -265,7 +265,7 @@ msgid ""
 "html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init</a> (<a class=\"el\" "
 "href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> **ctx)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init</a> (<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> **ctx)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:102
@@ -274,17 +274,17 @@ msgid ""
 "html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a> (<a class=\"el\" "
 "href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a> (<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx)"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:105
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:105
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__lib.html:106
@@ -292,17 +292,17 @@ msgid ""
 "This page details how to initialize and deinitialize libusb. Initialization "
 "must be performed before using any libusb functionality, and similarly you "
 "must not call any libusb functions after deinitialization."
-msgstr ""
+msgstr "このページでは、libusbを利用準備(initialize)および後片付け(deinitialize)する方法について詳しく説明します。 libusb機能を使用する前に利用準備(initialization)を実行する必要があります。同様に、後片付け(deinitialization)後にlibusb関数を呼び出さないでください。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:107
 msgid "Typedef Documentation"
-msgstr ""
+msgstr "Typedef解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:108
 msgid "<a id=\"ga4ec088aa7b79c4a9599e39bf36a72833\"></a>"
-msgstr ""
+msgstr "<a id=\"ga4ec088aa7b79c4a9599e39bf36a72833\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:109
@@ -310,7 +310,7 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga4ec088aa7b79c4a9599e39bf36a72833\">&#9670;&nbsp;</a></"
 "span>libusb_context"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga4ec088aa7b79c4a9599e39bf36a72833\">&#9670;&nbsp;</a></span>libusb_context"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:115
@@ -319,7 +319,7 @@ msgid ""
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> <a class=\"el\" "
 "href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
-msgstr ""
+msgstr "typedef struct <a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> <a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:119
@@ -334,7 +334,7 @@ msgid ""
 "\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d"
 "\">libusb_exit()</a> will not destroy resources that the other user is still "
 "using."
-msgstr ""
+msgstr "libusbセッションを表す構造体。 個々の独立したlibusbセッションの概念により、プログラムで2つのライブラリを使用する(または2つのモジュールを動的にロードする)ことができます。これらは両方とも独立してlibusbを使用します。これにより、個々のlibusbユーザー間の干渉が防止されます。たとえば <a class=\"el\" href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a> はライブラリの他のユーザーに影響を与えず、 <a class=\"el\" href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a> は他のユーザーがまだ使用しているリソースを破壊しません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:120
@@ -346,26 +346,26 @@ msgid ""
 "application is guaranteed to only ever include a single libusb user (i.e. "
 "you), you do not have to worry about contexts: pass NULL in every function "
 "call where a context is required. The default context will be used."
-msgstr ""
+msgstr "セッションは <a class=\"el\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a> によって作成され、 <a class=\"el\" href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a> によって破棄されます。 アプリケーションに単一のlibusbユーザー(つまり、あなただけ)のみが含まれることが保証されている場合は、コンテキストについて心配する必要はありません。あなたはコンテキストが必要なすべての関数呼び出しでNULLを渡して下さい。デフォルトのコンテキストが使用されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:121
 msgid ""
 "For more information, see <a class=\"el\" href=\"libusb_contexts.html"
 "\">Contexts</a>."
-msgstr ""
+msgstr "詳細については、 <a class=\"el\" href=\"libusb_contexts.html\">コンテキスト</a> を参照してください。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:125
 msgid "<a id=\"ga968e4c2133a5db1ab5b22b09fcbf9cb7\"></a>"
-msgstr ""
+msgstr "<a id=\"ga968e4c2133a5db1ab5b22b09fcbf9cb7\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:126
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">&#9670;&nbsp;</a></span>libusb_log_cb"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">&#9670;&nbsp;</a></span>libusb_log_cb"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:132
@@ -375,12 +375,12 @@ msgid ""
 "class=\"el\" href=\"group__libusb__lib."
 "html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> level, const "
 "char *str)"
-msgstr ""
+msgstr "typedef void( * libusb_log_cb) (<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, enum <a class=\"el\" href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> level, const char *str)"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:136
 msgid "Callback function for handling log messages."
-msgstr ""
+msgstr "ログ・メッセージを処理するためのコールバック関数。"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__lib.html:136
@@ -389,7 +389,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__lib.html:380
 #: source/api-1.0/group__libusb__lib.html:406
 msgid "Parameters"
-msgstr ""
+msgstr "パラメーター"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:138
@@ -398,19 +398,19 @@ msgstr ""
 #: source/api-1.0/group__libusb__lib.html:382
 #: source/api-1.0/group__libusb__lib.html:408
 msgid "ctx"
-msgstr ""
+msgstr "ctx"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:138
 msgid ""
 "the context which is related to the log message, or NULL if it is a global "
 "log message"
-msgstr ""
+msgstr "ログ・メッセージに関連するコンテキスト。NULLの場合はグローバル・ログ・メッセージ"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:139
 msgid "level"
-msgstr ""
+msgstr "level"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:139
@@ -418,17 +418,17 @@ msgid ""
 "the log level, see <a class=\"el\" href=\"group__libusb__lib."
 "html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> for a "
 "description"
-msgstr ""
+msgstr "ログ・レベル。 <a class=\"el\" href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a> に説明があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:140
 msgid "str"
-msgstr ""
+msgstr "str"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:140
 msgid "the log message"
-msgstr ""
+msgstr "ログ・メッセージ"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:144
@@ -438,7 +438,7 @@ msgid ""
 "Since version 1.0.23, <a class=\"el\" href=\"group__libusb__misc."
 "html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
 "0x01000107"
-msgstr ""
+msgstr "バージョン 1.0.23 以降。 <a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= 0x01000107"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__lib.html:145
@@ -446,7 +446,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__lib.html:306
 #: source/api-1.0/group__libusb__lib.html:387
 msgid "See also"
-msgstr ""
+msgstr "以下もご覧下さい"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:145
@@ -454,17 +454,17 @@ msgstr ""
 msgid ""
 "<a class=\"el\" href=\"group__libusb__lib."
 "html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb()</a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:149
 msgid "Enumeration Type Documentation"
-msgstr ""
+msgstr "列挙型解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:150
 msgid "<a id=\"ga2d6144203f0fc6d373677f6e2e89d2d2\"></a>"
-msgstr ""
+msgstr "<a id=\"ga2d6144203f0fc6d373677f6e2e89d2d2\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:151
@@ -472,26 +472,26 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga2d6144203f0fc6d373677f6e2e89d2d2\">&#9670;&nbsp;</a></"
 "span>libusb_log_level"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga2d6144203f0fc6d373677f6e2e89d2d2\">&#9670;&nbsp;</a></span>libusb_log_level"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:157
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__lib."
 "html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__lib.html#ga2d6144203f0fc6d373677f6e2e89d2d2\">libusb_log_level</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:161
 msgid "Log message levels."
-msgstr ""
+msgstr "ログ・レベル。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><th>
 #: source/api-1.0/group__libusb__lib.html:163
 #: source/api-1.0/group__libusb__lib.html:192
 #: source/api-1.0/group__libusb__lib.html:213
 msgid "Enumerator"
-msgstr ""
+msgstr "列挙型"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:163
@@ -499,12 +499,12 @@ msgid ""
 "<a id="
 "\"gga2d6144203f0fc6d373677f6e2e89d2d2af431dbe84c85599526cc0103f8178270\"></"
 "a>LIBUSB_LOG_LEVEL_NONE&#160;"
-msgstr ""
+msgstr "<a id=\"gga2d6144203f0fc6d373677f6e2e89d2d2af431dbe84c85599526cc0103f8178270\"></a>LIBUSB_LOG_LEVEL_NONE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:163
 msgid "(0) : No messages ever emitted by the library (default)"
-msgstr ""
+msgstr "(0) : ライブラリからメッセージが出されることはありません(デフォルト)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:165
@@ -512,12 +512,12 @@ msgid ""
 "<a id="
 "\"gga2d6144203f0fc6d373677f6e2e89d2d2ace959b4b99f6c460dfa929b6152e49a8\"></"
 "a>LIBUSB_LOG_LEVEL_ERROR&#160;"
-msgstr ""
+msgstr "<a id=\"gga2d6144203f0fc6d373677f6e2e89d2d2ace959b4b99f6c460dfa929b6152e49a8\"></a>LIBUSB_LOG_LEVEL_ERROR&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:165
 msgid "(1) : Error messages are emitted"
-msgstr ""
+msgstr "(1) : (ERROR)エラーメッセージを出します"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:167
@@ -525,12 +525,12 @@ msgid ""
 "<a id="
 "\"gga2d6144203f0fc6d373677f6e2e89d2d2a1d141f7a981d9fcd4bc12e41a1a14e78\"></"
 "a>LIBUSB_LOG_LEVEL_WARNING&#160;"
-msgstr ""
+msgstr "<a id=\"gga2d6144203f0fc6d373677f6e2e89d2d2a1d141f7a981d9fcd4bc12e41a1a14e78\"></a>LIBUSB_LOG_LEVEL_WARNING&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:167
 msgid "(2) : Warning and error messages are emitted"
-msgstr ""
+msgstr "(2) : 警告(WARNING)とエラー(ERROR)メッセージを出します"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:169
@@ -538,29 +538,29 @@ msgid ""
 "<a id="
 "\"gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07\"></"
 "a>LIBUSB_LOG_LEVEL_INFO&#160;"
-msgstr ""
+msgstr "<a id=\"gga2d6144203f0fc6d373677f6e2e89d2d2ab942d780c83ba4f30b9dd2e338002a07\"></a>LIBUSB_LOG_LEVEL_INFO&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:169
 msgid "(3) : Informational, warning and error messages are emitted"
-msgstr ""
+msgstr "(3) : 通知(INFO)と警告(WARNING)とエラー(ERROR)メッセージを出します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:171
 msgid ""
 "<a id=\"gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c"
 "\"></a>LIBUSB_LOG_LEVEL_DEBUG&#160;"
-msgstr ""
+msgstr "<a id=\"gga2d6144203f0fc6d373677f6e2e89d2d2afabee6826e913933f5d6fe4040bd7b9c\"></a>LIBUSB_LOG_LEVEL_DEBUG&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:171
 msgid "(4) : All messages are emitted"
-msgstr ""
+msgstr "(4) : 全てのメッセージを出します"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:177
 msgid "<a id=\"ga20e11f6f5a3b5a075fdf44969f3a9310\"></a>"
-msgstr ""
+msgstr "<a id=\"ga20e11f6f5a3b5a075fdf44969f3a9310\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:178
@@ -568,31 +568,31 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga20e11f6f5a3b5a075fdf44969f3a9310\">&#9670;&nbsp;</a></"
 "span>libusb_log_cb_mode"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga20e11f6f5a3b5a075fdf44969f3a9310\">&#9670;&nbsp;</a></span>libusb_log_cb_mode"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:184
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__lib."
 "html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:188
 msgid "Log callback mode."
-msgstr ""
+msgstr "ログ・コールバック・モード。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:192
 msgid ""
 "<a id=\"gga20e11f6f5a3b5a075fdf44969f3a9310a3baf6e9e1909f47fa8fce3f4155fbf5e"
 "\"></a>LIBUSB_LOG_CB_GLOBAL&#160;"
-msgstr ""
+msgstr "<a id=\"gga20e11f6f5a3b5a075fdf44969f3a9310a3baf6e9e1909f47fa8fce3f4155fbf5e\"></a>LIBUSB_LOG_CB_GLOBAL&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:192
 msgid "Callback function handling all log messages."
-msgstr ""
+msgstr "すべてのログ・メッセージを処理するコールバック関数。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:194
@@ -600,50 +600,50 @@ msgid ""
 "<a id="
 "\"gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15\"></"
 "a>LIBUSB_LOG_CB_CONTEXT&#160;"
-msgstr ""
+msgstr "<a id=\"gga20e11f6f5a3b5a075fdf44969f3a9310aa82c77f3902eca38eb87b727baa77f15\"></a>LIBUSB_LOG_CB_CONTEXT&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:194
 msgid "Callback function handling context related log messages."
-msgstr ""
+msgstr "コンテキスト関連のログ・メッセージを処理するコールバック関数。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:200
 msgid "<a id=\"ga07d4ec54cf575d672ba94c72b3c0de7c\"></a>"
-msgstr ""
+msgstr "<a id=\"ga07d4ec54cf575d672ba94c72b3c0de7c\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:201
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga07d4ec54cf575d672ba94c72b3c0de7c"
 "\">&#9670;&nbsp;</a></span>libusb_option"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga07d4ec54cf575d672ba94c72b3c0de7c\">&#9670;&nbsp;</a></span>libusb_option"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:207
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__lib."
 "html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:211
 msgid ""
 "Available option values for <a class=\"el\" href=\"group__libusb__lib."
 "html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a>."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a> で使用可能なオプション値。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:213
 msgid ""
 "<a id=\"gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d"
 "\"></a>LIBUSB_OPTION_LOG_LEVEL&#160;"
-msgstr ""
+msgstr "<a id=\"gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d\"></a>LIBUSB_OPTION_LOG_LEVEL&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:213
 msgid "Set the log message verbosity."
-msgstr ""
+msgstr "ログ・メッセージを冗舌(verbosity)に設定する。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:214
@@ -651,7 +651,7 @@ msgid ""
 "The default level is LIBUSB_LOG_LEVEL_NONE, which means no messages are ever "
 "printed. If you choose to increase the message verbosity level, ensure that "
 "your application does not close the stderr file descriptor."
-msgstr ""
+msgstr "デフォルトのレベルはLIBUSB_LOG_LEVEL_NONEです。これは、メッセージが出力されないことを意味します。メッセージの詳細レベルを上げることを選択した場合は、アプリケーションでstderrファイル・デスクリプターを閉じないようにしてください。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:215
@@ -660,7 +660,7 @@ msgid ""
 "conservative with its message logging and most of the time, will only log "
 "messages that explain error conditions and other oddities. This will help "
 "you debug your software."
-msgstr ""
+msgstr "レベルLIBUSB_LOG_LEVEL_WARNINGを使用することをお勧めします。libusbはメッセージのログ記録を控えめにしており、ほとんどの場合、エラー状態やその他の異常を説明するメッセージのみをログに記録します。これは、ソフトウェアのデバッグに役立ちます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:216
@@ -668,21 +668,21 @@ msgid ""
 "If the LIBUSB_DEBUG environment variable was set when libusb was "
 "initialized, this function does nothing: the message verbosity is fixed to "
 "the value in the environment variable."
-msgstr ""
+msgstr "libusbの使用準備(initialize)時にLIBUSB_DEBUG環境変数が設定されている場合、この関数は何も実行しません。メッセージの詳細度は環境変数の値に固定されます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:217
 msgid ""
 "If libusb was compiled without any message logging, this function does "
 "nothing: you'll never get any messages."
-msgstr ""
+msgstr "libusbがメッセージ・ロギングなしでコンパイルされた場合、この関数は何もしません。あなたがメッセージを受け取ることはありません。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:218
 msgid ""
 "If libusb was compiled with verbose debug message logging, this function "
 "does nothing: you'll always get messages from all levels."
-msgstr ""
+msgstr "libusbが詳細なデバッグ・メッセージ・ロギングを使用してコンパイルされている場合、この関数は何もしません。常にすべてのレベルのメッセージを出します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:220
@@ -690,12 +690,12 @@ msgid ""
 "<a id="
 "\"gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6\"></"
 "a>LIBUSB_OPTION_USE_USBDK&#160;"
-msgstr ""
+msgstr "<a id=\"gga07d4ec54cf575d672ba94c72b3c0de7ca95e60ef92c1da58829d830db38829aa6\"></a>LIBUSB_OPTION_USE_USBDK&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:220
 msgid "Use the UsbDk backend for a specific context, if available."
-msgstr ""
+msgstr "可能な場合は、指定のコンテキストにUsbDkバックエンドを使用します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:221
@@ -704,24 +704,24 @@ msgid ""
 "\"group__libusb__lib."
 "html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a>, otherwise "
 "unspecified behavior may occur."
-msgstr ""
+msgstr "このオプションは、 <a class=\"el\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a> を呼び出した直後に設定する必要があります。そうしないと、不特定の動作が発生する可能性があります。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:222
 msgid "Only valid on Windows."
-msgstr ""
+msgstr "Windowsでのみ有効です。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:224
 msgid ""
 "<a id=\"gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d"
 "\"></a>LIBUSB_OPTION_WEAK_AUTHORITY&#160;"
-msgstr ""
+msgstr "<a id=\"gga07d4ec54cf575d672ba94c72b3c0de7caf0a3e1f021e4f6e4ecad83921440997d\"></a>LIBUSB_OPTION_WEAK_AUTHORITY&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:224
 msgid "Flag that libusb has weak authority."
-msgstr ""
+msgstr "libusbの権限が弱い事を示すフラグ。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:225
@@ -729,7 +729,7 @@ msgid ""
 "With this option set, libusb will skip scanning devices in <a class=\"el\" "
 "href=\"group__libusb__lib."
 "html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a>."
-msgstr ""
+msgstr "このオプションを設定すると、libusbは <a class=\"el\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a> 内でのデバイスのスキャンをスキップします。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:226
@@ -742,34 +742,34 @@ msgid ""
 "option is typically needed on Android and used together with <a class=\"el\" "
 "href=\"group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c"
 "\">libusb_wrap_sys_device()</a>."
-msgstr ""
+msgstr "このオプションは、 <a class=\"el\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a> を呼び出す前に設定する必要があります。そうしないと、 <a class=\"el\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a> が失敗する可能性があります。 このオプションは通常Androidで必要であり、 <a class=\"el\" href=\"group__libusb__dev.html#ga98f783e115ceff4eaf88a60e6439563c\">libusb_wrap_sys_device()</a> と一緒に使用されます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__lib.html:227
 msgid "Only valid on Linux."
-msgstr ""
+msgstr "Linuxでのみ有効です。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:233
 msgid "Function Documentation"
-msgstr ""
+msgstr "関数解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:234
 msgid "<a id=\"ga5f8376b7a863a5a8d5b8824feb8a427a\"></a>"
-msgstr ""
+msgstr "<a id=\"ga5f8376b7a863a5a8d5b8824feb8a427a\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:235
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga5f8376b7a863a5a8d5b8824feb8a427a"
 "\">&#9670;&nbsp;</a></span>libusb_set_debug()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga5f8376b7a863a5a8d5b8824feb8a427a\">&#9670;&nbsp;</a></span>libusb_set_debug()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:241
 msgid "void libusb_set_debug"
-msgstr ""
+msgstr "void libusb_set_debug"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:242
@@ -778,7 +778,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__lib.html:371
 #: source/api-1.0/group__libusb__lib.html:399
 msgid "("
-msgstr ""
+msgstr "("
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:243
@@ -788,19 +788,19 @@ msgstr ""
 msgid ""
 "<a class=\"el\" href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:244
 #: source/api-1.0/group__libusb__lib.html:273
 #: source/api-1.0/group__libusb__lib.html:320
 msgid "<em>ctx</em>,"
-msgstr ""
+msgstr "<em>ctx</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:250
 msgid "<em>level</em>&#160;"
-msgstr ""
+msgstr "<em>level</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:254
@@ -809,14 +809,14 @@ msgstr ""
 #: source/api-1.0/group__libusb__lib.html:373
 #: source/api-1.0/group__libusb__lib.html:401
 msgid ")"
-msgstr ""
+msgstr ")"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__lib.html:259
 msgid ""
 "<b><a class=\"el\" href=\"deprecated.html#_deprecated000002\">Deprecated:</"
 "a></b>"
-msgstr ""
+msgstr "<b><a class=\"el\" href=\"deprecated.html#_deprecated000002\">非推奨:</a></b>"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:259
@@ -826,12 +826,12 @@ msgid ""
 "using the <a class=\"el\" href=\"group__libusb__lib."
 "html#gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d"
 "\">LIBUSB_OPTION_LOG_LEVEL</a> option."
-msgstr ""
+msgstr "代わりに、 <a class=\"el\" href=\"group__libusb__lib.html#gga07d4ec54cf575d672ba94c72b3c0de7ca8fbcdda276e0c49402c209c25a35cd4d\">LIBUSB_OPTION_LOG_LEVEL</a> オプションを使用して <a class=\"el\" href=\"group__libusb__lib.html#gaf6ce5db28dac96b1680877a123da4fa8\">libusb_set_option()</a> を使用してください。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:263
 msgid "<a id=\"ga2efb66b8f16ffb0851f3907794c06e20\"></a>"
-msgstr ""
+msgstr "<a id=\"ga2efb66b8f16ffb0851f3907794c06e20\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:264
@@ -839,34 +839,34 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga2efb66b8f16ffb0851f3907794c06e20\">&#9670;&nbsp;</a></"
 "span>libusb_set_log_cb()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga2efb66b8f16ffb0851f3907794c06e20\">&#9670;&nbsp;</a></span>libusb_set_log_cb()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:270
 msgid "void libusb_set_log_cb"
-msgstr ""
+msgstr "void libusb_set_log_cb"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:278
 msgid ""
 "<a class=\"el\" href=\"group__libusb__lib."
 "html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:279
 msgid "<em>cb</em>,"
-msgstr ""
+msgstr "<em>cb</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:285
 msgid "<em>mode</em>&#160;"
-msgstr ""
+msgstr "<em>mode</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:294
 msgid "Set log handler."
-msgstr ""
+msgstr "ログ・ハンドラーをセットする。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:295
@@ -874,7 +874,7 @@ msgid ""
 "libusb will redirect its log messages to the provided callback function. "
 "libusb supports redirection of per context and global log messages. Log "
 "messages sent to the context will be sent to the global log handler too."
-msgstr ""
+msgstr "libusbは、ログ・メッセージを提供されたコールバック関数にリダイレクトします。 libusbは、コンテキストごとのリダイレクトとグローバル・ログ・メッセージをサポートします。コンテキストに送信されたログ・メッセージは、グローバル・ログ・ハンドラーにも送信されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:296
@@ -883,30 +883,30 @@ msgid ""
 "is defined then global callback function will never be called. If "
 "ENABLE_DEBUG_LOGGING is defined then per context callback function will "
 "never be called."
-msgstr ""
+msgstr "libusbがメッセージ・ロギングなしでコンパイルされているか、USE_SYSTEM_LOGGING_FACILITYが定義されている場合、グローバル・コールバック関数は呼び出されません。ENABLE_DEBUG_LOGGINGが定義されている場合、コンテキストごとのコールバック関数は呼び出されません。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:300
 msgid ""
 "context on which to assign log handler, or NULL for the default context. "
 "Parameter ignored if only LIBUSB_LOG_CB_GLOBAL mode is requested."
-msgstr ""
+msgstr "ログ・ハンドラーを割り当てるコンテキスト、またはデフォルト・コンテキストの場合はNULL。 LIBUSB_LOG_CB_GLOBALモードのみが要求された場合、パラメーターは無視されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:301
 msgid "cb"
-msgstr ""
+msgstr "cb"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:301
 msgid ""
 "pointer to the callback function, or NULL to stop log messages redirection"
-msgstr ""
+msgstr "コールバック関数へのポインタ。ログ・メッセージのリダイレクトを停止する場合はNULL"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:302
 msgid "mode"
-msgstr ""
+msgstr "mode"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:302
@@ -915,7 +915,7 @@ msgid ""
 "single callback function, see <a class=\"el\" href=\"group__libusb__lib."
 "html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a> for a "
 "description."
-msgstr ""
+msgstr "コールバック関数操作のモード。 1つのコールバック関数に対して複数のモードを選択できます。 <a class=\"el\" href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a> に説明があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:306
@@ -924,12 +924,12 @@ msgid ""
 "html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>, <a class=\"el\" "
 "href=\"group__libusb__lib."
 "html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga968e4c2133a5db1ab5b22b09fcbf9cb7\">libusb_log_cb</a>, <a class=\"el\" href=\"group__libusb__lib.html#ga20e11f6f5a3b5a075fdf44969f3a9310\">libusb_log_cb_mode</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:310
 msgid "<a id=\"gaf6ce5db28dac96b1680877a123da4fa8\"></a>"
-msgstr ""
+msgstr "<a id=\"gaf6ce5db28dac96b1680877a123da4fa8\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:311
@@ -937,46 +937,46 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gaf6ce5db28dac96b1680877a123da4fa8\">&#9670;&nbsp;</a></"
 "span>libusb_set_option()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gaf6ce5db28dac96b1680877a123da4fa8\">&#9670;&nbsp;</a></span>libusb_set_option()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:317
 msgid "int libusb_set_option"
-msgstr ""
+msgstr "int libusb_set_option"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:325
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__lib."
 "html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>&#160;"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__lib.html#ga07d4ec54cf575d672ba94c72b3c0de7c\">libusb_option</a>&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:326
 msgid "<em>option</em>,"
-msgstr ""
+msgstr "<em>option</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:332
 msgid "<em>...</em>&#160;"
-msgstr ""
+msgstr "<em>...</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:341
 msgid "Set an option in the library."
-msgstr ""
+msgstr "ライブラリにオプションを設定します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:342
 msgid "Use this function to configure a specific option within the library."
-msgstr ""
+msgstr "この関数を使用して、ライブラリ内の特定のオプションを構成します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:343
 msgid ""
 "Some options require one or more arguments to be provided. Consult each "
 "option's documentation for specific requirements."
-msgstr ""
+msgstr "一部のオプションでは、1つ以上の引数を指定する必要があります。特定の要件については、各オプションの説明を参照してください。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:344
@@ -984,99 +984,99 @@ msgid ""
 "Since version 1.0.22, <a class=\"el\" href=\"group__libusb__misc."
 "html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
 "0x01000106"
-msgstr ""
+msgstr "バージョン 1.0.22 以降。 <a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= 0x01000106"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:347
 msgid "context on which to operate"
-msgstr ""
+msgstr "操作したいコンテキスト"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:348
 msgid "option"
-msgstr ""
+msgstr "option"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:348
 msgid "which option to set"
-msgstr ""
+msgstr "どのオプションを設定するか"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:349
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:349
 msgid "any required arguments for the specified option"
-msgstr ""
+msgstr "指定のオプションに必要な引数"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__lib.html:353
 #: source/api-1.0/group__libusb__lib.html:386
 msgid "Returns"
-msgstr ""
+msgstr "戻り値"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:353
 msgid "LIBUSB_SUCCESS on success"
-msgstr ""
+msgstr "LIBUSB_SUCCESS ならば成功"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:355
 msgid "LIBUSB_ERROR_INVALID_PARAM if the option or arguments are invalid"
-msgstr ""
+msgstr "LIBUSB_ERROR_INVALID_PARAM オプションまたは引数が無効な場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:357
 msgid ""
 "LIBUSB_ERROR_NOT_SUPPORTED if the option is valid but not supported on this "
 "platform"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_SUPPORTED オプションが有効であるがこのプラットフォームでサポートされていない場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:359
 msgid ""
 "LIBUSB_ERROR_NOT_FOUND if LIBUSB_OPTION_USE_USBDK is valid on this platform "
 "but UsbDk is not available"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND : LIBUSB_OPTION_USE_USBDKがこのプラットフォームで有効であるが、UsbDkが使用できない場合"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:363
 msgid "<a id=\"ga7deaef521cfb1a5b3f8d6c01be11a795\"></a>"
-msgstr ""
+msgstr "<a id=\"ga7deaef521cfb1a5b3f8d6c01be11a795\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:364
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga7deaef521cfb1a5b3f8d6c01be11a795\">&#9670;&nbsp;</a></span>libusb_init()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga7deaef521cfb1a5b3f8d6c01be11a795\">&#9670;&nbsp;</a></span>libusb_init()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:370
 msgid "int libusb_init"
-msgstr ""
+msgstr "int libusb_init"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:372
 msgid ""
 "<a class=\"el\" href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> **&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> **&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:373
 #: source/api-1.0/group__libusb__lib.html:401
 msgid "<em>ctx</em>"
-msgstr ""
+msgstr "<em>ctx</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:378
 msgid ""
 "Initialize libusb. This function must be called before calling any other "
 "libusb function."
-msgstr ""
+msgstr "libusbの利用準備(initialize)をします。 この関数は、他のlibusb関数を呼び出す前に呼び出す必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:379
@@ -1084,66 +1084,66 @@ msgid ""
 "If you do not provide an output location for a context pointer, a default "
 "context will be created. If there was already a default context, it will be "
 "reused (and nothing will be initialized/reinitialized)."
-msgstr ""
+msgstr "コンテキスト・ポインタの出力場所を指定しない場合、デフォルトのコンテキストが作成されます。 デフォルトのコンテキストがすでに存在する場合、それは再利用されます(そして、何も利用準備(initialize)/再利用準備(reinitialize)しません)。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:382
 msgid ""
 "Optional output location for context pointer. Only valid on return code 0."
-msgstr ""
+msgstr "コンテキスト・ポインタのオプションの出力場所。 戻り値が0の時だけ有効です。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:386
 msgid "0 on success, or a LIBUSB_ERROR code on failure"
-msgstr ""
+msgstr "0 ならば成功。LIBUSB_ERROR ならば失敗"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__lib.html:387
 msgid "libusb_contexts"
-msgstr ""
+msgstr "libusb_contexts"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__lib.html:391
 msgid "<a id=\"gadc174de608932caeb2fc15d94fa0844d\"></a>"
-msgstr ""
+msgstr "<a id=\"gadc174de608932caeb2fc15d94fa0844d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__lib.html:392
 msgid ""
 "<span class=\"permalink\"><a href=\"#gadc174de608932caeb2fc15d94fa0844d"
 "\">&#9670;&nbsp;</a></span>libusb_exit()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gadc174de608932caeb2fc15d94fa0844d\">&#9670;&nbsp;</a></span>libusb_exit()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:398
 msgid "void libusb_exit"
-msgstr ""
+msgstr "void libusb_exit"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__lib.html:406
 msgid ""
 "Deinitialize libusb. Should be called after closing all open devices and "
 "before your application terminates."
-msgstr ""
+msgstr "libusbを後片付け(deinitialize)します。開いているすべてのデバイスをクローズした後、アプリケーションが終了する前に呼び出す必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__lib.html:408
 msgid "the context to deinitialize, or NULL for the default context"
-msgstr ""
+msgstr "後片付け(deinitialize)するコンテキスト、またはデフォルトのコンテキストの場合はNULL"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/group__libusb__lib.html:417
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/group__libusb__lib.html:419
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/group__libusb__lib.html:420
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
