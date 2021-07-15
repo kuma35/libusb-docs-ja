@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 03:07+0900\n"
+"PO-Revision-Date: 2021-07-15 15:47+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -1171,7 +1171,7 @@ msgstr ""
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:202
 msgid "Typedef Documentation"
-msgstr "Typedef 文書"
+msgstr "Typedef解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:203
@@ -1574,7 +1574,7 @@ msgid ""
 "html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> can "
 "unref all the devices for you. Be careful not to unreference a device you "
 "are about to open until after you have opened it."
-msgstr ""
+msgstr "使い終わったら、すべてのデバイスの参照を解除し、 <a class=\"el\" href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> を使用してリストを解放する必要があります。注意: <a class=\"el\" href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> すべてのデバイスの参照を取り消すことができることに注意してください。 これから開こうとしているデバイスをオープンする前に参照を解除しないように注意して下さい。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:294
@@ -1582,7 +1582,7 @@ msgid ""
 "This return value of this function indicates the number of devices in the "
 "resultant list. The list is actually one element larger, as it is NULL-"
 "terminated."
-msgstr ""
+msgstr "この関数のこの戻り値は、結果のリスト内のデバイスの数を示します。リストはNULLで終了するため、実際には1要素大きくなります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__dev.html:295
@@ -1614,27 +1614,27 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1343
 #: source/api-1.0/group__libusb__dev.html:1395
 msgid "Parameters"
-msgstr ""
+msgstr "パラメーター"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:297
 #: source/api-1.0/group__libusb__dev.html:731
 #: source/api-1.0/group__libusb__dev.html:831
 msgid "ctx"
-msgstr ""
+msgstr "ctx"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:297
 #: source/api-1.0/group__libusb__dev.html:731
 #: source/api-1.0/group__libusb__dev.html:831
 msgid "the context to operate on, or NULL for the default context"
-msgstr ""
+msgstr "操作するコンテキスト。デフォルトのコンテキストの場合はNULL"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:298
 #: source/api-1.0/group__libusb__dev.html:333
 msgid "list"
-msgstr ""
+msgstr "list"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:298
@@ -1642,7 +1642,7 @@ msgid ""
 "output location for a list of devices. Must be later freed with <a class=\"el"
 "\" href=\"group__libusb__dev."
 "html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a>."
-msgstr ""
+msgstr "デバイスのリストの出力場所。 後で <a class=\"el\" href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> を使用して解放する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__dev.html:302
@@ -1671,20 +1671,21 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1350
 #: source/api-1.0/group__libusb__dev.html:1402
 msgid "Returns"
-msgstr ""
+msgstr "戻り値"
 
+# 原文が分かりにくいので多少意訳した。
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:302
 msgid ""
 "the number of devices in the outputted list, or any <a class=\"el\" href="
 "\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef"
 "\">libusb_error</a> according to errors encountered by the backend."
-msgstr ""
+msgstr "出力リスト内のデバイスの数、またはバックエンドで発生したエラーに応じた <a class=\"el\" href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> 列挙型の値のいずれか。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:306
 msgid "<a id=\"gad3b8561d064bb3e1b8851ddeed3cd7d6\"></a>"
-msgstr ""
+msgstr "<a id=\"gad3b8561d064bb3e1b8851ddeed3cd7d6\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:307
@@ -1697,24 +1698,24 @@ msgstr "<span class=\"permalink\"><a href=\"#gad3b8561d064bb3e1b8851ddeed3cd7d6\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:313
 msgid "void libusb_free_device_list"
-msgstr ""
+msgstr "void libusb_free_device_list"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:315
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> **&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> **&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:316
 msgid "<em>list</em>,"
-msgstr ""
+msgstr "<em>list</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:322
 msgid "<em>unref_devices</em>&#160;"
-msgstr ""
+msgstr "<em>unref_devices</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:331
@@ -1724,27 +1725,27 @@ msgid ""
 "html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a>. If "
 "the unref_devices parameter is set, the reference count of each device in "
 "the list is decremented by 1."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> を使用して以前に検出されたデバイスのリストを解放します。unref_devicesパラメーターが0以外にセットされている場合、リスト内の各デバイスの参照カウントは1ずつ減少します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:333
 msgid "the list to free"
-msgstr ""
+msgstr "開放したいリスト"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:334
 msgid "unref_devices"
-msgstr ""
+msgstr "unref_devices"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:334
 msgid "whether to unref the devices in the list"
-msgstr ""
+msgstr "リスト内のデバイスをunrefするかどうか(訳注:0以外ならunrefする)"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:341
 msgid "<a id=\"gaf2718609d50c8ded2704e4051b3d2925\"></a>"
-msgstr ""
+msgstr "<a id=\"gaf2718609d50c8ded2704e4051b3d2925\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:342
@@ -1757,7 +1758,7 @@ msgstr "<span class=\"permalink\"><a href=\"#gaf2718609d50c8ded2704e4051b3d2925\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:348
 msgid "uint8_t libusb_get_bus_number"
-msgstr ""
+msgstr "uint8_t libusb_get_bus_number"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:351
@@ -1768,12 +1769,12 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:652
 #: source/api-1.0/group__libusb__dev.html:677
 msgid "<em>dev</em>"
-msgstr ""
+msgstr "<em>dev</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:356
 msgid "Get the number of the bus that a device is connected to."
-msgstr ""
+msgstr "デバイスが接続されているバス番号を取得する。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:358
@@ -1788,7 +1789,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:684
 #: source/api-1.0/group__libusb__dev.html:779
 msgid "dev"
-msgstr ""
+msgstr "dev"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:358
@@ -1800,17 +1801,17 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:584
 #: source/api-1.0/group__libusb__dev.html:629
 msgid "a device"
-msgstr ""
+msgstr "デバイス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:362
 msgid "the bus number"
-msgstr ""
+msgstr "バス番号"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:366
 msgid "<a id=\"ga14879a0ea7daccdcddb68852d86c00c4\"></a>"
-msgstr ""
+msgstr "<a id=\"ga14879a0ea7daccdcddb68852d86c00c4\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:367
@@ -1823,7 +1824,7 @@ msgstr "<span class=\"permalink\"><a href=\"#ga14879a0ea7daccdcddb68852d86c00c4\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:373
 msgid "uint8_t libusb_get_port_number"
-msgstr ""
+msgstr "uint8_t libusb_get_port_number"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:381
@@ -1833,7 +1834,7 @@ msgid ""
 "number returned by this call is usually guaranteed to be uniquely tied to a "
 "physical port, meaning that different devices plugged on the same physical "
 "port should return the same port number."
-msgstr ""
+msgstr "デバイスが接続されているポートの番号を取得します。OSが何かファンキーなことをしたり、USB拡張カードを活線挿抜(hot-plugging)したりしない限り、この呼び出しによって返されるポート番号は通常、物理ポートに一意に関連付けられていることが保証されます。つまり、同じ物理ポートに接続された異なるデバイスは同じポート番号を返す必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:382
@@ -1841,17 +1842,17 @@ msgid ""
 "But outside of this, there is no guarantee that the port number returned by "
 "this call will remain the same, or even match the order in which ports have "
 "been numbered by the HUB/HCD manufacturer."
-msgstr ""
+msgstr "ただし、これ以外では、この呼び出しによって返されるポート番号が同じままである、またはHUB/HCDメーカーによってポートに番号が付けられた順序と一致するという保証はありません。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:389
 msgid "the port number (0 if not available)"
-msgstr ""
+msgstr "ポート番号(使用できない場合は0)"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:393
 msgid "<a id=\"gaa4b7b2b50a9ce2aa396b0af2b979544d\"></a>"
-msgstr ""
+msgstr "<a id=\"gaa4b7b2b50a9ce2aa396b0af2b979544d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:394
@@ -1863,7 +1864,7 @@ msgstr "<span class=\"permalink\"><a href=\"#gaa4b7b2b50a9ce2aa396b0af2b979544d\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:400
 msgid "int libusb_get_port_numbers"
-msgstr ""
+msgstr "int libusb_get_port_numbers"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:403
@@ -1872,30 +1873,30 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:607
 #: source/api-1.0/group__libusb__dev.html:759
 msgid "<em>dev</em>,"
-msgstr ""
+msgstr "<em>dev</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:408
 #: source/api-1.0/group__libusb__dev.html:460
 msgid "uint8_t *&#160;"
-msgstr ""
+msgstr "uint8_t *&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:409
 #: source/api-1.0/group__libusb__dev.html:461
 msgid "<em>port_numbers</em>,"
-msgstr ""
+msgstr "<em>port_numbers</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:415
 #: source/api-1.0/group__libusb__dev.html:467
 msgid "<em>port_numbers_len</em>&#160;"
-msgstr ""
+msgstr "<em>port_numbers_len</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:424
 msgid "Get the list of all port numbers from root for the specified device"
-msgstr ""
+msgstr "指定されたデバイスのルート(root)からすべてのポート番号のリストを取得する"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:425
@@ -1903,44 +1904,44 @@ msgid ""
 "Since version 1.0.16, <a class=\"el\" href=\"group__libusb__misc."
 "html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
 "0x01000102"
-msgstr ""
+msgstr "バージョン 1.0.16 以降。<a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= 0x01000102"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:428
 msgid "port_numbers"
-msgstr ""
+msgstr "port_numbers"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:428
 msgid "the array that should contain the port numbers"
-msgstr ""
+msgstr "ポート番号達が入る配列"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:429
 msgid "port_numbers_len"
-msgstr ""
+msgstr "port_numbers_len"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:429
 msgid ""
 "the maximum length of the array. As per the USB 3.0 specs, the current "
 "maximum limit for the depth is 7."
-msgstr ""
+msgstr "配列の最大長。 USB 3.0の仕様によると、深さの現在の最大制限は7です。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:433
 msgid "the number of elements filled"
-msgstr ""
+msgstr "充填された要素の数"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:435
 msgid "LIBUSB_ERROR_OVERFLOW if the array is too small"
-msgstr ""
+msgstr "LIBUSB_ERROR_OVERFLOW 得られる個数より配列のサイズが小さい場合"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:439
 msgid "<a id=\"ga9d392b8dff7abf5e475c72fd071c3c34\"></a>"
-msgstr ""
+msgstr "<a id=\"ga9d392b8dff7abf5e475c72fd071c3c34\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:440
@@ -1953,14 +1954,14 @@ msgstr "<span class=\"permalink\"><a href=\"#ga9d392b8dff7abf5e475c72fd071c3c34\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:446
 msgid "int libusb_get_port_path"
-msgstr ""
+msgstr "int libusb_get_port_path"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__dev.html:476
 msgid ""
 "<b><a class=\"el\" href=\"deprecated.html#_deprecated000001\">Deprecated:</"
 "a></b>"
-msgstr ""
+msgstr "<b><a class=\"el\" href=\"deprecated.html#_deprecated000001\">非推奨:</a></b>"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:476
@@ -1968,12 +1969,12 @@ msgid ""
 "Please use <a class=\"el\" href=\"group__libusb__dev."
 "html#gaa4b7b2b50a9ce2aa396b0af2b979544d\">libusb_get_port_numbers()</a> "
 "instead."
-msgstr ""
+msgstr "代わりに <a class=\"el\" href=\"group__libusb__dev.html#gaa4b7b2b50a9ce2aa396b0af2b979544d\">libusb_get_port_numbers()</a> を使って下さい。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:480
 msgid "<a id=\"ga97bb4dfff6bbb897ed9dfd6fa1a1deed\"></a>"
-msgstr ""
+msgstr "<a id=\"ga97bb4dfff6bbb897ed9dfd6fa1a1deed\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:481
@@ -1988,12 +1989,12 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* "
 "libusb_get_parent"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* libusb_get_parent"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:495
 msgid "Get the the parent from the specified device."
-msgstr ""
+msgstr "指定されたデバイスからその親(parent)を取得します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:501
@@ -2011,12 +2012,12 @@ msgid ""
 "class=\"el\" href=\"group__libusb__dev."
 "html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> "
 "block."
-msgstr ""
+msgstr "デバイスの親。使用できない場合はNULL。この関数を呼び出す前に <a class=\"el\" href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> を発行し、かつ、 <a class=\"el\" href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> を発行する前に親にのみアクセスすることを確認する必要があります。その理由は、現在libusbはデバイス・インスタンスの永続的なリストを維持していないため、親が <a class=\"el\" href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> 〜 <a class=\"el\" href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list()</a> ブロック内で完全にインスタンス化されることを保証することしかできないためです。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:505
 msgid "<a id=\"gab6d4e39ac483ebaeb108f2954715305d\"></a>"
-msgstr ""
+msgstr "<a id=\"gab6d4e39ac483ebaeb108f2954715305d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:506
@@ -2028,22 +2029,22 @@ msgstr "<span class=\"permalink\"><a href=\"#gab6d4e39ac483ebaeb108f2954715305d\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:512
 msgid "uint8_t libusb_get_device_address"
-msgstr ""
+msgstr "uint8_t libusb_get_device_address"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:520
 msgid "Get the address of the device on the bus it is connected to."
-msgstr ""
+msgstr "接続されているバス上のデバイスのアドレスを取得します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:526
 msgid "the device address"
-msgstr ""
+msgstr "デバイス・アドレス"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:530
 msgid "<a id=\"ga58c4e448ecd5cd4782f2b896ec40b22b\"></a>"
-msgstr ""
+msgstr "<a id=\"ga58c4e448ecd5cd4782f2b896ec40b22b\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:531
@@ -2055,12 +2056,12 @@ msgstr "<span class=\"permalink\"><a href=\"#ga58c4e448ecd5cd4782f2b896ec40b22b\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:537
 msgid "int libusb_get_device_speed"
-msgstr ""
+msgstr "int libusb_get_device_speed"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:545
 msgid "Get the negotiated connection speed for a device."
-msgstr ""
+msgstr "デバイスのネゴされた接続速度を取得します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:551
@@ -2069,12 +2070,12 @@ msgid ""
 "html#ga2959abf1184f87b2ce06fe90db6ce614\">libusb_speed</a> code, where "
 "LIBUSB_SPEED_UNKNOWN means that the OS doesn't know or doesn't support "
 "returning the negotiated speed."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga2959abf1184f87b2ce06fe90db6ce614\">libusb_speed</a> コード。ここで、LIBUSB_SPEED_UNKNOWNは、OSがネゴシエートされた速度を返すことを認識していないかサポートしていないことを意味します。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:555
 msgid "<a id=\"gac81968047e262409e78f3fe24321b604\"></a>"
-msgstr ""
+msgstr "<a id=\"gac81968047e262409e78f3fe24321b604\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:556
@@ -2087,28 +2088,28 @@ msgstr "<span class=\"permalink\"><a href=\"#gac81968047e262409e78f3fe24321b604\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:562
 msgid "int libusb_get_max_packet_size"
-msgstr ""
+msgstr "int libusb_get_max_packet_size"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:570
 #: source/api-1.0/group__libusb__dev.html:612
 #: source/api-1.0/group__libusb__dev.html:1157
 msgid "unsigned char&#160;"
-msgstr ""
+msgstr "unsigned char&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:571
 #: source/api-1.0/group__libusb__dev.html:613
 #: source/api-1.0/group__libusb__dev.html:1158
 msgid "<em>endpoint</em>&#160;"
-msgstr ""
+msgstr "<em>endpoint</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:580
 msgid ""
 "Convenience function to retrieve the wMaxPacketSize value for a particular "
 "endpoint in the active device configuration."
-msgstr ""
+msgstr "アクティブなデバイス構成の特定のエンドポイントのwMaxPacketSize値を取得するための便利な関数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:581
@@ -2120,43 +2121,43 @@ msgid ""
 "class=\"el\" href=\"group__libusb__dev."
 "html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size()</"
 "a> instead."
-msgstr ""
+msgstr "この関数は、もともとアイソクロナス転送を設定する際に役立つことを目的としていましたが、設計ミスにより、代わりにこの関数が発生しました。内容を考慮せずに、単にwMaxPacketSize値を返します。アイソクロナス転送を処理している場合は、代わりに <a class=\"el\" href=\"group__libusb__dev.html#gaec10b71c7209760db55ee0f8768bb4f0\">libusb_get_max_iso_packet_size()</a> が必要になる可能性があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:585
 #: source/api-1.0/group__libusb__dev.html:630
 #: source/api-1.0/group__libusb__dev.html:1173
 msgid "endpoint"
-msgstr ""
+msgstr "endpoint"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:585
 #: source/api-1.0/group__libusb__dev.html:630
 msgid "address of the endpoint in question"
-msgstr ""
+msgstr "問い合わせのエンドポイントのアドレス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:589
 msgid "the wMaxPacketSize value"
-msgstr ""
+msgstr "wMaxPacketSizeの値"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:591
 #: source/api-1.0/group__libusb__dev.html:636
 #: source/api-1.0/group__libusb__dev.html:1179
 msgid "LIBUSB_ERROR_NOT_FOUND if the endpoint does not exist"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND そのエンドポイントが存在しない場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:593
 #: source/api-1.0/group__libusb__dev.html:638
 msgid "LIBUSB_ERROR_OTHER on other failure"
-msgstr ""
+msgstr "LIBUSB_ERROR_OTHER その他の失敗"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:597
 msgid "<a id=\"gaec10b71c7209760db55ee0f8768bb4f0\"></a>"
-msgstr ""
+msgstr "<a id=\"gaec10b71c7209760db55ee0f8768bb4f0\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:598
@@ -2169,14 +2170,14 @@ msgstr "<span class=\"permalink\"><a href=\"#gaec10b71c7209760db55ee0f8768bb4f0\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:604
 msgid "int libusb_get_max_iso_packet_size"
-msgstr ""
+msgstr "int libusb_get_max_iso_packet_size"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:622
 msgid ""
 "Calculate the maximum packet size which a specific endpoint is capable is "
 "sending or receiving in the duration of 1 microframe"
-msgstr ""
+msgstr "特定のエンドポイントが1マイクロ・フレームの期間に送受信できる最大パケット・サイズを計算します"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:623
@@ -2184,7 +2185,7 @@ msgid ""
 "Only the active configuration is examined. The calculation is based on the "
 "wMaxPacketSize field in the endpoint descriptor as described in section "
 "9.6.6 in the USB 2.0 specifications."
-msgstr ""
+msgstr "アクティブな構成のみが検査されます。計算は、USB 2.0仕様のセクション9.6.6で説明されているように、エンドポイント・デスクリプターのwMaxPacketSizeフィールドに基づいています。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:624
@@ -2194,7 +2195,7 @@ msgid ""
 "microframe (determined by bits 11:12). Otherwise, this function just returns "
 "the numeric value found in bits 0:10. For USB 3.0 device, it will attempts "
 "to retrieve the Endpoint Companion Descriptor to return wBytesPerInterval."
-msgstr ""
+msgstr "アイソクロナス・エンドポイントまたは割り込みエンドポイントで動作する場合、この関数はビット 0:10 で見つかった値に、マイクロ・フレームあたりの取引数(ビット 11:12 で決定)を掛けます。それ以外の場合、この関数はビット 0:10 にある数値を返すだけです。 USB 3.0デバイスの場合、エンドポイント・コンパニオン・デスクリプターを取得してwBytesPerIntervalを返そうとします。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:625
@@ -2205,22 +2206,22 @@ msgid ""
 "html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</"
 "a> in order to set the length field of every isochronous packet in a "
 "transfer."
-msgstr ""
+msgstr "この関数は、アイソクロナス転送を設定する場合に役立ちます。たとえば、転送内のすべてのアイソクロナス・パケットのlengthフィールドを設定するために、この関数からの戻り値を <a class=\"el\" href=\"group__libusb__asyncio.html#gacbdecd6f50093f0c1d0e72ee35ace274\">libusb_set_iso_packet_lengths()</a> に渡すことができます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:626
 msgid "Since v1.0.3."
-msgstr ""
+msgstr "v1.0.3 以降。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:634
 msgid "the maximum packet size which can be sent/received on this endpoint"
-msgstr ""
+msgstr "このエンドポイントで送受信できる最大パケット・サイズ"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:642
 msgid "<a id=\"gaabaa4193adcabba1789cc1165ac41a03\"></a>"
-msgstr ""
+msgstr "<a id=\"gaabaa4193adcabba1789cc1165ac41a03\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:643
@@ -2236,27 +2237,27 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* "
 "libusb_ref_device"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* libusb_ref_device"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:657
 msgid "Increment the reference count of a device."
-msgstr ""
+msgstr "デバイスの参照カウンターをインクリメントする。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:659
 msgid "the device to reference"
-msgstr ""
+msgstr "対象のデバイス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:663
 msgid "the same device"
-msgstr ""
+msgstr "パラメーターで指定したデバイスをそのまま返す。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:667
 msgid "<a id=\"ga3cc62e6a191b7a9f213e62b81ec30f4d\"></a>"
-msgstr ""
+msgstr "<a id=\"ga3cc62e6a191b7a9f213e62b81ec30f4d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:668
@@ -2268,24 +2269,24 @@ msgstr "<span class=\"permalink\"><a href=\"#ga3cc62e6a191b7a9f213e62b81ec30f4d\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:674
 msgid "void libusb_unref_device"
-msgstr ""
+msgstr "void libusb_unref_device"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:682
 msgid ""
 "Decrement the reference count of a device. If the decrement operation causes "
 "the reference count to reach zero, the device shall be destroyed."
-msgstr ""
+msgstr "デバイスの参照カウンターをデクリメントします。 デクリメント操作によって参照カウンターがゼロに達した場合、デバイスは破棄されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:684
 msgid "the device to unreference"
-msgstr ""
+msgstr "参照カウンターをデクリメントしたいデバイス"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:691
 msgid "<a id=\"ga98f783e115ceff4eaf88a60e6439563c\"></a>"
-msgstr ""
+msgstr "<a id=\"ga98f783e115ceff4eaf88a60e6439563c\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:692
@@ -2297,17 +2298,17 @@ msgstr "<span class=\"permalink\"><a href=\"#ga98f783e115ceff4eaf88a60e6439563c\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:698
 msgid "int libusb_wrap_sys_device"
-msgstr ""
+msgstr "int libusb_wrap_sys_device"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:706
 msgid "intptr_t&#160;"
-msgstr ""
+msgstr "intptr_t&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:707
 msgid "<em>sys_dev</em>,"
-msgstr ""
+msgstr "<em>sys_dev</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:712
@@ -2315,13 +2316,13 @@ msgstr ""
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> **&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> **&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:713
 #: source/api-1.0/group__libusb__dev.html:765
 msgid "<em>dev_handle</em>&#160;"
-msgstr ""
+msgstr "<em>dev_handle</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:722
@@ -2329,21 +2330,21 @@ msgid ""
 "Wrap a platform-specific system device handle and obtain a libusb device "
 "handle for the underlying device. The handle allows you to use libusb to "
 "perform I/O on the device in question."
-msgstr ""
+msgstr "プラットフォーム固有のシステム・デバイス・ハンドルをラップし、基盤となるデバイスのlibusbデバイス・ハンドルを取得します。 ハンドルを使用すると、libusbを使用して問い合わせのデバイスで入出力を実行できます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:723
 msgid ""
 "Must call libusb_set_option(NULL, LIBUSB_OPTION_WEAK_AUTHORITY) before "
 "libusb_init if don't have authority to access the usb device directly."
-msgstr ""
+msgstr "USBデバイスに直接アクセスする権限がない場合は、libusb_initの前に libusb_set_option(NULL, LIBUSB_OPTION_WEAK_AUTHORITY) を呼び出す必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:724
 msgid ""
 "On Linux, the system device handle must be a valid file descriptor opened on "
 "the device node."
-msgstr ""
+msgstr "Linuxでは、システム・デバイス・ハンドルは、デバイス・ノードで開かれている有効なファイル・デスクリプターである必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:725
@@ -2353,7 +2354,7 @@ msgid ""
 "\">libusb_close()</a> is called. The system device handle will not be closed "
 "by <a class=\"el\" href=\"group__libusb__dev."
 "html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>."
-msgstr ""
+msgstr "システム・デバイス・ハンドルは、 <a class=\"el\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>  が呼び出されるまで開いたままにする必要があります。 システム・デバイス・ハンドルは、 <a class=\"el\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\"> によって閉じられません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:726
@@ -2365,14 +2366,14 @@ msgid ""
 "html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>. The device "
 "shall not be opened through <a class=\"el\" href=\"group__libusb__dev."
 "html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a>."
-msgstr ""
+msgstr "内部的に、この関数は一時的なデバイスを作成し、 <a class=\"el\" href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a> を介して利用できるようにします。 このデバイスは、 <a class=\"el\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> 中に破棄されます。 デバイスは、 <a class=\"el\" href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> を介して開かないでください。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:727
 #: source/api-1.0/group__libusb__dev.html:776
 #: source/api-1.0/group__libusb__dev.html:858
 msgid "This is a non-blocking function; no requests are sent over the bus."
-msgstr ""
+msgstr "これは非ブロッキング関数です。バスを介してリクエストは送信されません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:728
@@ -2380,17 +2381,17 @@ msgid ""
 "Since version 1.0.23, <a class=\"el\" href=\"group__libusb__misc."
 "html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= "
 "0x01000107"
-msgstr ""
+msgstr "バージョン 1.0.23以降。<a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= 0x01000107"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:732
 msgid "sys_dev"
-msgstr ""
+msgstr "sys_dev"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:732
 msgid "the platform-specific system device handle"
-msgstr ""
+msgstr "プラットフォーム固有のシステム・デバイス・ハンドル"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:733
@@ -2409,7 +2410,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1345
 #: source/api-1.0/group__libusb__dev.html:1397
 msgid "dev_handle"
-msgstr ""
+msgstr "dev_handle"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:733
@@ -2417,7 +2418,7 @@ msgstr ""
 msgid ""
 "output location for the returned device handle pointer. Only populated when "
 "the return code is 0."
-msgstr ""
+msgstr "返されたデバイス・ハンドル・ポインタの出力場所。戻りコードが0の場合にのみ入力されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:737
@@ -2432,25 +2433,25 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1301
 #: source/api-1.0/group__libusb__dev.html:1350
 msgid "0 on success"
-msgstr ""
+msgstr "0ならば成功"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:739
 #: source/api-1.0/group__libusb__dev.html:786
 msgid "LIBUSB_ERROR_NO_MEM on memory allocation failure"
-msgstr ""
+msgstr "LIBUSB_ERROR_NO_MEM メモリ割り当て失敗の場合。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:741
 #: source/api-1.0/group__libusb__dev.html:788
 msgid "LIBUSB_ERROR_ACCESS if the user has insufficient permissions"
-msgstr ""
+msgstr "LIBUSB_ERROR_ACCESS ユーザーの権限が不十分な場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:743
 msgid ""
 "LIBUSB_ERROR_NOT_SUPPORTED if the operation is not supported on this platform"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_SUPPORTED このプラットフォームでサポートされていない操作の場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:745
@@ -2465,12 +2466,12 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1311
 #: source/api-1.0/group__libusb__dev.html:1362
 msgid "another LIBUSB_ERROR code on other failure"
-msgstr ""
+msgstr "LIBUSB_ERRORコード その他の失敗"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:749
 msgid "<a id=\"ga3f184a8be4488a767b2e0ae07e76d1b0\"></a>"
-msgstr ""
+msgstr "<a id=\"ga3f184a8be4488a767b2e0ae07e76d1b0\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:750
@@ -2482,14 +2483,14 @@ msgstr "<span class=\"permalink\"><a href=\"#ga3f184a8be4488a767b2e0ae07e76d1b0\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:756
 msgid "int libusb_open"
-msgstr ""
+msgstr "int libusb_open"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:774
 msgid ""
 "Open a device and obtain a device handle. A handle allows you to perform I/O "
 "on the device in question."
-msgstr ""
+msgstr "デバイスを開き、デバイス・ハンドルを取得します。ハンドルを使用すると、問い合わせのデバイスで入出力Oを実行できます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:775
@@ -2499,12 +2500,12 @@ msgid ""
 "html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a>. This "
 "reference is removed during <a class=\"el\" href=\"group__libusb__dev."
 "html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>."
-msgstr ""
+msgstr "内部的に、この関数はデバイスへの参照を追加し、 <a class=\"el\" href=\"group__libusb__dev.html#gafe70b8a797893d4d16985980acec956a\">libusb_get_device()</a>  を介して使用できるようにします。 その参照は、 <a class=\"el\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> 中に削除されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:779
 msgid "the device to open"
-msgstr ""
+msgstr "オープンしたいデバイス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:790
@@ -2518,12 +2519,12 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1307
 #: source/api-1.0/group__libusb__dev.html:1356
 msgid "LIBUSB_ERROR_NO_DEVICE if the device has been disconnected"
-msgstr ""
+msgstr "LIBUSB_ERROR_NO_DEVICE デバイスが切断されている場合"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:796
 msgid "<a id=\"ga11ba48adb896b1492bbd3d0bf7e0f665\"></a>"
-msgstr ""
+msgstr "<a id=\"ga11ba48adb896b1492bbd3d0bf7e0f665\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:797
@@ -2539,23 +2540,23 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>* "
 "libusb_open_device_with_vid_pid"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>* libusb_open_device_with_vid_pid"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:811
 #: source/api-1.0/group__libusb__dev.html:817
 msgid "uint16_t&#160;"
-msgstr ""
+msgstr "uint16_t&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:812
 msgid "<em>vendor_id</em>,"
-msgstr ""
+msgstr "<em>vendor_id</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:818
 msgid "<em>product_id</em>&#160;"
-msgstr ""
+msgstr "<em>product_id</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:827
@@ -2567,7 +2568,7 @@ msgid ""
 "\"group__libusb__dev."
 "html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> and "
 "worrying about traversing/freeing the list."
-msgstr ""
+msgstr "特定の <code>idVendor</code> と <code>idProduct</code> の組み合わせを持つデバイスを見つけるための便利な機能。この関数は、libusbを使用してちょいと試しのアプリケーションをでっち上げる場合に使えます。これにより、 <a class=\"el\" href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list()</a> を呼び出したり、そのリストを辿ったり解放したりすることを心配する必要がなくなります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:828
@@ -2575,39 +2576,39 @@ msgid ""
 "This function has limitations and is hence not intended for use in real "
 "applications: if multiple devices have the same IDs it will only give you "
 "the first one, etc."
-msgstr ""
+msgstr "この機能には制限があるため、本番アプリケーションでの使用は想定されていません。複数のデバイスが同じIDを持っている場合、最初のだけが提供されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:832
 msgid "vendor_id"
-msgstr ""
+msgstr "vendor_id"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:832
 msgid "the idVendor value to search for"
-msgstr ""
+msgstr "探したいidVendor値"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:833
 msgid "product_id"
-msgstr ""
+msgstr "product_id"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:833
 msgid "the idProduct value to search for"
-msgstr ""
+msgstr "探したいidProduct値"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:837
 msgid ""
 "a device handle for the first found device, or NULL on error or if the "
 "device could not be found."
-msgstr ""
+msgstr "指定条件で最初に見つかったデバイスのデバイス・ハンドル。エラーの場合、またはデバイスが見つからなかった場合はNULL。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:841
 msgid "<a id=\"ga779bc4f1316bdb0ac383bddbd538620e\"></a>"
-msgstr ""
+msgstr "<a id=\"ga779bc4f1316bdb0ac383bddbd538620e\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:842
@@ -2619,21 +2620,21 @@ msgstr "<span class=\"permalink\"><a href=\"#ga779bc4f1316bdb0ac383bddbd538620e\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:848
 msgid "void libusb_close"
-msgstr ""
+msgstr "void libusb_close"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:851
 #: source/api-1.0/group__libusb__dev.html:878
 #: source/api-1.0/group__libusb__dev.html:1197
 msgid "<em>dev_handle</em>"
-msgstr ""
+msgstr "<em>dev_handle</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:856
 msgid ""
 "Close a device handle. Should be called on all open handles before your "
 "application exits."
-msgstr ""
+msgstr "デバイス・ハンドルをクローズします。アプリケーションが終了する前に、オープン中の全てのハンドルについて呼び出す必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:857
@@ -2642,17 +2643,17 @@ msgid ""
 "\"el\" href=\"group__libusb__dev."
 "html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> on the given "
 "device."
-msgstr ""
+msgstr "内部的に、この関数は、指定のデバイスで <a class=\"el\" href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open()</a> によって追加された参照を破棄します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:861
 msgid "the device handle to close"
-msgstr ""
+msgstr "クローズしたいデバイス・ハンドル"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:868
 msgid "<a id=\"gafe70b8a797893d4d16985980acec956a\"></a>"
-msgstr ""
+msgstr "<a id=\"gafe70b8a797893d4d16985980acec956a\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:869
@@ -2667,7 +2668,7 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* "
 "libusb_get_device"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>* libusb_get_device"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:883
@@ -2675,7 +2676,7 @@ msgid ""
 "Get the underlying device for a device handle. This function does not modify "
 "the reference count of the returned device, so do not feel compelled to "
 "unreference it when you are done."
-msgstr ""
+msgstr "デバイス・ハンドルの基になるデバイスを取得します。 この関数は、返されたデバイスの参照カウンターを変更しないため、完了時に参照を解除する必要はありません。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:885
@@ -2690,17 +2691,17 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1345
 #: source/api-1.0/group__libusb__dev.html:1397
 msgid "a device handle"
-msgstr ""
+msgstr "デバイス・ハンドル"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:889
 msgid "the underlying device"
-msgstr ""
+msgstr "基になるデバイス"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:893
 msgid "<a id=\"gae921014b888b105471a31d54c77c1c4d\"></a>"
-msgstr ""
+msgstr "<a id=\"gae921014b888b105471a31d54c77c1c4d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:894
@@ -2712,7 +2713,7 @@ msgstr "<span class=\"permalink\"><a href=\"#gae921014b888b105471a31d54c77c1c4d\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:900
 msgid "int libusb_get_configuration"
-msgstr ""
+msgstr "int libusb_get_configuration"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:903
@@ -2726,23 +2727,23 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1326
 #: source/api-1.0/group__libusb__dev.html:1377
 msgid "<em>dev_handle</em>,"
-msgstr ""
+msgstr "<em>dev_handle</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:908
 msgid "int *&#160;"
-msgstr ""
+msgstr "int *&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:909
 msgid "<em>config</em>&#160;"
-msgstr ""
+msgstr "<em>config</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:918
 msgid ""
 "Determine the bConfigurationValue of the currently active configuration."
-msgstr ""
+msgstr "現在アクティブな構成のbConfigurationValueを決定します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:919
@@ -2750,38 +2751,38 @@ msgid ""
 "You could formulate your own control request to obtain this information, but "
 "this function has the advantage that it may be able to retrieve the "
 "information from operating system caches (no I/O involved)."
-msgstr ""
+msgstr "あなたはこの情報を取得するために独自の制御要求を作成することもできますが、この関数には、オペレーティング・システムのキャッシュから情報を取得できる可能性があるという利点があります(入出力は含まれません)。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:920
 msgid ""
 "If the OS does not cache this information, then this function will block "
 "while a control transfer is submitted to retrieve the information."
-msgstr ""
+msgstr "OSがこの情報をキャッシュしない場合、情報を取得するために制御転送が送信されている間、この関数はブロックされます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:921
 msgid ""
 "This function will return a value of 0 in the <code>config</code> output "
 "parameter if the device is in unconfigured state."
-msgstr ""
+msgstr "この関数は、デバイスが未構成の状態の場合、 <code>config</code> 出力パラメーターに値0を返します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:925
 msgid "config"
-msgstr ""
+msgstr "config"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:925
 msgid ""
 "output location for the bConfigurationValue of the active configuration "
 "(only valid for return code 0)"
-msgstr ""
+msgstr "アクティブな構成のbConfigurationValueの出力場所(戻りコード0の場合のみ有効)"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:937
 msgid "<a id=\"ga785ddea63a2b9bcb879a614ca4867bed\"></a>"
-msgstr ""
+msgstr "<a id=\"ga785ddea63a2b9bcb879a614ca4867bed\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:938
@@ -2793,17 +2794,17 @@ msgstr "<span class=\"permalink\"><a href=\"#ga785ddea63a2b9bcb879a614ca4867bed\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:944
 msgid "int libusb_set_configuration"
-msgstr ""
+msgstr "int libusb_set_configuration"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:953
 msgid "<em>configuration</em>&#160;"
-msgstr ""
+msgstr "<em>configuration</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:962
 msgid "Set the active configuration for a device."
-msgstr ""
+msgstr "デバイスのアクティブな構成を設定します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:963
@@ -2812,7 +2813,7 @@ msgid ""
 "on the device. It is up to your application to ensure the correct "
 "configuration is selected before you attempt to claim interfaces and perform "
 "other operations."
-msgstr ""
+msgstr "オペレーティング・システムは、デバイスにアクティブな構成を設定している場合と設定していない場合があります。インターフェイスを要求して他の操作を実行する前に、正しい構成が選択されていることを確認するのはアプリケーションの責任です。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:964
@@ -2822,7 +2823,7 @@ msgid ""
 "will issue a SET_CONFIGURATION request using the current configuration, "
 "causing most USB-related device state to be reset (altsetting reset to zero, "
 "endpoint halts cleared, toggles reset)."
-msgstr ""
+msgstr "選択した構成ですでに構成されているデバイスでこの関数を呼び出すと、この関数は軽量なデバイスのリセットとして機能します。つまり、現在の構成を使用してSET_CONFIGURATION要求を発行し、ほとんどのUSB関連デバイスの状態をリセットします（altsettingをゼロにリセットすると、エンドポイントはクリアされて停止(halt)し、リセットを反転させます)。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:965
@@ -2831,7 +2832,7 @@ msgid ""
 "will be indicated by the return code LIBUSB_ERROR_NOT_SUPPORTED. As this "
 "suggests that the platform is handling the device configuration itself, this "
 "error should generally be safe to ignore."
-msgstr ""
+msgstr "すべてのバックエンドがユーザー空間からの構成の設定をサポートしているわけではありません。これは、戻りコードLIBUSB_ERROR_NOT_SUPPORTEDで示されます。この場合、プラットフォームがデバイス構成自体を処理していることを示唆しているため、このエラーは通常無視しても安全です。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:966
@@ -2839,7 +2840,7 @@ msgid ""
 "You cannot change/reset configuration if your application has claimed "
 "interfaces. It is advised to set the desired configuration before claiming "
 "interfaces."
-msgstr ""
+msgstr "アプリケーションがインターフェイスを要求している場合、構成を変更/リセットすることはできません。インターフェイスを要求する前に、必要な構成を設定することをお勧めします。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:967
@@ -2849,14 +2850,14 @@ msgid ""
 "first. Note if you do things this way you must ensure that "
 "auto_detach_kernel_driver for <code>dev</code> is 0, otherwise the kernel "
 "driver will be re-attached when you release the interface(s)."
-msgstr ""
+msgstr "または、最初に <a class=\"el\" href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a> を呼び出すこともできます。 この方法で行う場合は、<code>dev</code>のauto_detach_kernel_driverが0であることを確認する必要があります。そうしないと、インターフェイスを解放したときにカーネル・ドライバーが再接続されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:968
 msgid ""
 "You cannot change/reset configuration if other applications or drivers have "
 "claimed interfaces."
-msgstr ""
+msgstr "他のアプリケーションまたはドライバーがインターフェイスを要求している場合、構成を変更/リセットすることはできません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:969
@@ -2864,7 +2865,7 @@ msgid ""
 "A configuration value of -1 will put the device in unconfigured state. The "
 "USB specifications state that a configuration value of 0 does this, however "
 "buggy devices exist which actually have a configuration 0."
-msgstr ""
+msgstr "構成値が-1の場合、デバイスは未構成の状態になります。 USB仕様では、構成値0が未構成を表すと規定されていますが、実際にはバグって構成0があるデバイスが存在します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:970
@@ -2872,43 +2873,43 @@ msgid ""
 "You should always use this function rather than formulating your own "
 "SET_CONFIGURATION control request. This is because the underlying operating "
 "system needs to know when such changes happen."
-msgstr ""
+msgstr "独自のSET_CONFIGURATION制御要求を作成するのではなく、常にこの関数を使用する必要があります。これは、基盤となるオペレーティング・システム側ではそのような変更がいつ発生するかを知る必要があるためです。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:971
 #: source/api-1.0/group__libusb__dev.html:1123
 #: source/api-1.0/group__libusb__dev.html:1169
 msgid "This is a blocking function."
-msgstr ""
+msgstr "これはブロッキング関数です。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:975
 msgid "configuration"
-msgstr ""
+msgstr "configuration"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:975
 msgid ""
 "the bConfigurationValue of the configuration you wish to activate, or -1 if "
 "you wish to put the device in an unconfigured state"
-msgstr ""
+msgstr "あなたがアクティブにたい構成のbConfigurationValue。デバイスを未構成の状態にする場合は-1を指定する。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:981
 msgid "LIBUSB_ERROR_NOT_FOUND if the requested configuration does not exist"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND 要求した構成が存在しない場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:983
 msgid "LIBUSB_ERROR_BUSY if interfaces are currently claimed"
-msgstr ""
+msgstr "LIBUSB_ERROR_BUSY インターフェイスが現在要求されている場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:985
 msgid ""
 "LIBUSB_ERROR_NOT_SUPPORTED if setting or changing the configuration is not "
 "supported by the backend"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_SUPPORTED 構成の設定または変更がバックエンドでサポートされていない場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__dev.html:990
@@ -2919,7 +2920,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1363
 #: source/api-1.0/group__libusb__dev.html:1405
 msgid "See also"
-msgstr ""
+msgstr "以下も参照して下さい"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:990
@@ -2929,12 +2930,12 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#gac35b26fef01271eba65c60b2b3ce1cbf"
 "\">libusb_set_auto_detach_kernel_driver()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#gac35b26fef01271eba65c60b2b3ce1cbf\">libusb_set_auto_detach_kernel_driver()</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:994
 msgid "<a id=\"gaee5076addf5de77c7962138397fd5b1a\"></a>"
-msgstr ""
+msgstr "<a id=\"gaee5076addf5de77c7962138397fd5b1a\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:995
@@ -2946,7 +2947,7 @@ msgstr "<span class=\"permalink\"><a href=\"#gaee5076addf5de77c7962138397fd5b1a\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1001
 msgid "int libusb_claim_interface"
-msgstr ""
+msgstr "int libusb_claim_interface"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1010
@@ -2955,21 +2956,21 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1282
 #: source/api-1.0/group__libusb__dev.html:1332
 msgid "<em>interface_number</em>&#160;"
-msgstr ""
+msgstr "<em>interface_number</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1019
 msgid ""
 "Claim an interface on a given device handle. You must claim the interface "
 "you wish to use before you can perform I/O on any of its endpoints."
-msgstr ""
+msgstr "指定のデバイス・ハンドルでインターフェイスを要求します。エンドポイントのいずれかで入出力を実行する前に、使用するインターフェイスを要求する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1020
 msgid ""
 "It is legal to attempt to claim an already-claimed interface, in which case "
 "libusb just returns 0 without doing anything."
-msgstr ""
+msgstr "すでに要求されているインターフェイスを要求しようとすることは合法です。その場合、libusbは何もせずに0を返します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1021
@@ -2977,7 +2978,7 @@ msgid ""
 "If auto_detach_kernel_driver is set to 1 for <code>dev</code>, the kernel "
 "driver will be detached if necessary, on failure the detach error is "
 "returned."
-msgstr ""
+msgstr "<code>dev</code>のauto_detach_kernel_driverが1に設定されている場合、カーネル・ドライバーは必要に応じて取り外され、失敗すると取り外しエラー(detach error)が返されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1022
@@ -2986,12 +2987,12 @@ msgid ""
 "requests to be sent over the bus. Interface claiming is used to instruct the "
 "underlying operating system that your application wishes to take ownership "
 "of the interface."
-msgstr ""
+msgstr "インターフェイスの要求は、純粋に論理的な操作です。バスを介してリクエストが送信されることはありません。インターフェイス要求は、アプリケーションがインターフェイスの所有権を取得することを決まりとしている、オペレーティングシステムに指示を出すために使用されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1023
 msgid "This is a non-blocking function."
-msgstr ""
+msgstr "これはブロッキング関数です。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1027
@@ -3001,33 +3002,33 @@ msgstr ""
 #: source/api-1.0/group__libusb__dev.html:1297
 #: source/api-1.0/group__libusb__dev.html:1346
 msgid "interface_number"
-msgstr ""
+msgstr "interface_number"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1027
 msgid "the <code>bInterfaceNumber</code> of the interface you wish to claim"
-msgstr ""
+msgstr "あなたが要求したいインターフェイスの <code>bInterfaceNumber</code> "
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1033
 msgid "LIBUSB_ERROR_NOT_FOUND if the requested interface does not exist"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND 要求したインターフェイスが存在しない場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1035
 msgid ""
 "LIBUSB_ERROR_BUSY if another program or driver has claimed the interface"
-msgstr ""
+msgstr "LIBUSB_ERROR_BUSY 別のプログラムまたはドライバーがインターフェイスを要求してた場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1039
 msgid "a LIBUSB_ERROR code on other failure"
-msgstr ""
+msgstr "LIBUSB_ERROR その他エラー"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1044
 msgid "<a id=\"ga49b5cb0d894f6807cd1693ef29aecbfa\"></a>"
-msgstr ""
+msgstr "<a id=\"ga49b5cb0d894f6807cd1693ef29aecbfa\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1045
@@ -3039,7 +3040,7 @@ msgstr "<span class=\"permalink\"><a href=\"#ga49b5cb0d894f6807cd1693ef29aecbfa\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1051
 msgid "int libusb_release_interface"
-msgstr ""
+msgstr "int libusb_release_interface"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1069
@@ -3048,37 +3049,37 @@ msgid ""
 "\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a"
 "\">libusb_claim_interface()</a>. You should release all claimed interfaces "
 "before closing a device handle."
-msgstr ""
+msgstr "以前に <a class=\"el\" href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a> で要求されたインターフェイスを解放します。デバイス・ハンドルを閉じる前に、要求されたすべてのインターフェイスを解放する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1070
 msgid ""
 "This is a blocking function. A SET_INTERFACE control request will be sent to "
 "the device, resetting interface state to the first alternate setting."
-msgstr ""
+msgstr "これはブロッキング関数です。 SET_INTERFACE制御要求がデバイスに送信され、インターフェイスの状態が最初の代替設定にリセットされます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1071
 msgid ""
 "If auto_detach_kernel_driver is set to 1 for <code>dev</code>, the kernel "
 "driver will be re-attached after releasing the interface."
-msgstr ""
+msgstr "<code>dev</code>のauto_detach_kernel_driverが1に設定されている場合、カーネル・ドライバーは、インターフェイスを解放した後に再接続されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1075
 #: source/api-1.0/group__libusb__dev.html:1127
 msgid "the <code>bInterfaceNumber</code> of the previously-claimed interface"
-msgstr ""
+msgstr "以前要求したインターフェイスの <code>bInterfaceNumber</code>"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1081
 msgid "LIBUSB_ERROR_NOT_FOUND if the interface was not claimed"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND そのインターフェイスは要求されていない"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1090
 msgid "<a id=\"ga4858ad4f0f58fd1dc0afaead1fe6479a\"></a>"
-msgstr ""
+msgstr "<a id=\"ga4858ad4f0f58fd1dc0afaead1fe6479a\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1091
@@ -3090,17 +3091,17 @@ msgstr "<span class=\"permalink\"><a href=\"#ga4858ad4f0f58fd1dc0afaead1fe6479a\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1097
 msgid "int libusb_set_interface_alt_setting"
-msgstr ""
+msgstr "int libusb_set_interface_alt_setting"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1106
 msgid "<em>interface_number</em>,"
-msgstr ""
+msgstr "<em>interface_number</em>,"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1112
 msgid "<em>alternate_setting</em>&#160;"
-msgstr ""
+msgstr "<em>alternate_setting</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1121
@@ -3108,7 +3109,7 @@ msgid ""
 "Activate an alternate setting for an interface. The interface must have been "
 "previously claimed with <a class=\"el\" href=\"group__libusb__dev."
 "html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>."
-msgstr ""
+msgstr "インターフェイスの代替設定をアクティブにします。 インターフェイスは、 <a class=\"el\" href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a> で事前に要求されている必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1122
@@ -3116,29 +3117,29 @@ msgid ""
 "You should always use this function rather than formulating your own "
 "SET_INTERFACE control request. This is because the underlying operating "
 "system needs to know when such changes happen."
-msgstr ""
+msgstr "独自のSET_INTERFACE制御要求を作成するのではなく、常にこの関数を使用する必要があります。 これは、基盤となるオペレーティング・システムがそのような変更がいつ発生したかを知る必要があるためです。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1128
 msgid "alternate_setting"
-msgstr ""
+msgstr "alternate_setting"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1128
 msgid "the <code>bAlternateSetting</code> of the alternate setting to activate"
-msgstr ""
+msgstr "アクティブにしたいだいたい設定の <code>bAlternateSetting</code>"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1134
 msgid ""
 "LIBUSB_ERROR_NOT_FOUND if the interface was not claimed, or the requested "
 "alternate setting does not exist"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND 指定のインターフェイスが要求されていなかった場合、または要求した代替設定が存在していなかった場合"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1142
 msgid "<a id=\"gab794bbc0b055d140f186f5a4d39c0891\"></a>"
-msgstr ""
+msgstr "<a id=\"gab794bbc0b055d140f186f5a4d39c0891\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1143
@@ -3151,31 +3152,31 @@ msgstr "<span class=\"permalink\"><a href=\"#gab794bbc0b055d140f186f5a4d39c0891\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1149
 msgid "int libusb_clear_halt"
-msgstr ""
+msgstr "int libusb_clear_halt"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1167
 msgid ""
 "Clear the halt/stall condition for an endpoint. Endpoints with halt status "
 "are unable to receive or transmit data until the halt condition is stalled."
-msgstr ""
+msgstr "エンドポイントの停止(halt)/ストール(stall)状態をクリアします。停止(halt)ステータスのエンドポイントは、停止(halt)状態が終わるまでデータを送受信できません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1168
 msgid ""
 "You should cancel all pending transfers before attempting to clear the halt "
 "condition."
-msgstr ""
+msgstr "停止状態をクリアする前に、保留中の転送をすべてキャンセルする必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1173
 msgid "the endpoint to clear halt status"
-msgstr ""
+msgstr "停止状態をクリアしたいエンドポイント"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1187
 msgid "<a id=\"gafee9c4638f1713ca5faa867948878111\"></a>"
-msgstr ""
+msgstr "<a id=\"gafee9c4638f1713ca5faa867948878111\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1188
@@ -3188,7 +3189,7 @@ msgstr "<span class=\"permalink\"><a href=\"#gafee9c4638f1713ca5faa867948878111\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1194
 msgid "int libusb_reset_device"
-msgstr ""
+msgstr "int libusb_reset_device"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1202
@@ -3196,7 +3197,7 @@ msgid ""
 "Perform a USB port reset to reinitialize a device. The system will attempt "
 "to restore the previous configuration and alternate settings after the reset "
 "has completed."
-msgstr ""
+msgstr "USBポートのリセットを実行して、デバイスを再初期化します。リセットが完了した後、システムは以前の構成と代替設定の復元を試みます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1203
@@ -3206,29 +3207,29 @@ msgid ""
 "means that the device handle is no longer valid (you should close it) and "
 "rediscover the device. A return code of LIBUSB_ERROR_NOT_FOUND indicates "
 "when this is the case."
-msgstr ""
+msgstr "リセットが失敗した場合、デスクリプターが変更された場合、または前の状態を復元できない場合、デバイスは切断されて再接続されたように見えます。これは、デバイス・ハンドルが無効になり(クローズする必要があります)、デバイスを再検出することを意味します。 この場合、戻り値はLIBUSB_ERROR_NOT_FOUNDです。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1204
 msgid "This is a blocking function which usually incurs a noticeable delay."
-msgstr ""
+msgstr "これはブロッキング関数であり、通常は顕著な遅延が発生します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1207
 msgid "a handle of the device to reset"
-msgstr ""
+msgstr "リセットしたいデバイスのハンドル"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1213
 msgid ""
 "LIBUSB_ERROR_NOT_FOUND if re-enumeration is required, or if the device has "
 "been disconnected"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND 再列挙が必要な場合、またはデバイスが切断されている場合"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1219
 msgid "<a id=\"ga1cabd4660a274f715eeb82de112e0779\"></a>"
-msgstr ""
+msgstr "<a id=\"ga1cabd4660a274f715eeb82de112e0779\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1220
@@ -3241,7 +3242,7 @@ msgstr "<span class=\"permalink\"><a href=\"#ga1cabd4660a274f715eeb82de112e0779\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1226
 msgid "int libusb_kernel_driver_active"
-msgstr ""
+msgstr "int libusb_kernel_driver_active"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1244
@@ -3249,29 +3250,29 @@ msgid ""
 "Determine if a kernel driver is active on an interface. If a kernel driver "
 "is active, you cannot claim the interface, and libusb will be unable to "
 "perform I/O."
-msgstr ""
+msgstr "カーネル・ドライバーがインターフェイスでアクティブかどうかを確認します。カーネル・ドライバーがアクティブな場合、インターフェイスを要求することはできず、libusbは入出力を実行できません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1245
 #: source/api-1.0/group__libusb__dev.html:1292
 #: source/api-1.0/group__libusb__dev.html:1342
 msgid "This functionality is not available on Windows."
-msgstr ""
+msgstr "この機能はWindowsでは使用できません。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1249
 msgid "the interface to check"
-msgstr ""
+msgstr "チェックしたいインターフェイス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1253
 msgid "0 if no kernel driver is active"
-msgstr ""
+msgstr "0ならばアクティブなカーネル・ドライバーは無い"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1255
 msgid "1 if a kernel driver is active"
-msgstr ""
+msgstr "1ならばカーネル・ドライバーがアクティブ。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1259
@@ -3281,19 +3282,19 @@ msgstr ""
 msgid ""
 "LIBUSB_ERROR_NOT_SUPPORTED on platforms where the functionality is not "
 "available"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_SUPPORTED この機能が利用できないプラットフォームの場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1262
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1266
 msgid "<a id=\"ga5e0cc1d666097e915748593effdc634a\"></a>"
-msgstr ""
+msgstr "<a id=\"ga5e0cc1d666097e915748593effdc634a\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1267
@@ -3305,14 +3306,14 @@ msgstr "<span class=\"permalink\"><a href=\"#ga5e0cc1d666097e915748593effdc634a\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1273
 msgid "int libusb_detach_kernel_driver"
-msgstr ""
+msgstr "int libusb_detach_kernel_driver"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1291
 msgid ""
 "Detach a kernel driver from an interface. If successful, you will then be "
 "able to claim the interface and perform I/O."
-msgstr ""
+msgstr "インターフェイスからカーネル・ドライバを取り外します。成功すると、インターフェイスを要求して入出力を実行できるようになります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1293
@@ -3320,24 +3321,24 @@ msgid ""
 "Note that libusb itself also talks to the device through a special kernel "
 "driver, if this driver is already attached to the device, this call will not "
 "detach it and return LIBUSB_ERROR_NOT_FOUND."
-msgstr ""
+msgstr "libusb自体も特別なカーネル・ドライバーを介してデバイスと通信することに注意してください。このドライバーが既にデバイスに接続されている場合、この呼び出しはデバイスを取り外しせず、LIBUSB_ERROR_NOT_FOUNDを返します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1297
 msgid "the interface to detach the driver from"
-msgstr ""
+msgstr "ドライバーを取り外したいインターフェイス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1303
 #: source/api-1.0/group__libusb__dev.html:1352
 msgid "LIBUSB_ERROR_NOT_FOUND if no kernel driver was active"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND アクティブなカーネル・ドライバーが無い"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1305
 #: source/api-1.0/group__libusb__dev.html:1354
 msgid "LIBUSB_ERROR_INVALID_PARAM if the interface does not exist"
-msgstr ""
+msgstr "LIBUSB_ERROR_INVALID_PARAM そのインターフェイスは存在しない"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1312
@@ -3345,12 +3346,12 @@ msgstr ""
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga1cabd4660a274f715eeb82de112e0779\">libusb_kernel_driver_active()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga1cabd4660a274f715eeb82de112e0779\">libusb_kernel_driver_active()</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1316
 msgid "<a id=\"gadeba36e900db663c0b7cf1b164a20d02\"></a>"
-msgstr ""
+msgstr "<a id=\"gadeba36e900db663c0b7cf1b164a20d02\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1317
@@ -3363,7 +3364,7 @@ msgstr "<span class=\"permalink\"><a href=\"#gadeba36e900db663c0b7cf1b164a20d02\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1323
 msgid "int libusb_attach_kernel_driver"
-msgstr ""
+msgstr "int libusb_attach_kernel_driver"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1341
@@ -3371,24 +3372,24 @@ msgid ""
 "Re-attach an interface's kernel driver, which was previously detached using "
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>."
-msgstr "Re-attach an interface's kernel driver, which was previously detached using <a class=\"el\" href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a>."
+msgstr "以前に <a class=\"el\" href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a> を使用して取り外したインターフェイスのカーネル・ドライバーを再取り付けします。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1346
 msgid "the interface to attach the driver from"
-msgstr ""
+msgstr "ドライバーを取り付けたいインターフェイス"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1360
 msgid ""
 "LIBUSB_ERROR_BUSY if the driver cannot be attached because the interface is "
 "claimed by a program or driver"
-msgstr ""
+msgstr "LIBUSB_ERROR_BUSY インターフェイスがプログラムまたはドライバーによって要求されているために、ドライバーを接続できない場合"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1367
 msgid "<a id=\"gac35b26fef01271eba65c60b2b3ce1cbf\"></a>"
-msgstr ""
+msgstr "<a id=\"gac35b26fef01271eba65c60b2b3ce1cbf\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__dev.html:1368
@@ -3400,12 +3401,12 @@ msgstr "<span class=\"permalink\"><a href=\"#gac35b26fef01271eba65c60b2b3ce1cbf\
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1374
 msgid "int libusb_set_auto_detach_kernel_driver"
-msgstr ""
+msgstr "int libusb_set_auto_detach_kernel_driver"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1383
 msgid "<em>enable</em>&#160;"
-msgstr ""
+msgstr "<em>enable</em>&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1392
@@ -3413,158 +3414,174 @@ msgid ""
 "Enable/disable libusb's automatic kernel driver detachment. When this is "
 "enabled libusb will automatically detach the kernel driver on an interface "
 "when claiming the interface, and attach it when releasing the interface."
-msgstr ""
+msgstr "libusbの自動カーネル・ドライバー取り外しを有効/無効にします。これを有効にすると、libusbは、インターフェイスを要求するときにインターフェイスス上のカーネル・ドライバーを自動的に切り離し、インターフェイスを解放するときにそれを接続します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1393
 msgid ""
 "Automatic kernel driver detachment is disabled on newly opened device "
 "handles by default."
-msgstr ""
+msgstr "新しくオープンしたデバイス・ハンドルでは、カーネル・ドライバーの自動取り外しはデフォルトで無効になっています。"
 
+# libusbi.h
+# struct usbi_os_backend {
+# ...
+# 	/* Binary mask for backend specific capabilities */
+# 	uint32_t caps;
+# ...
+# }
+# extern const struct usbi_os_backend usbi_backend;
+#
+# enum libusb_capability {
+# ...
+# 	/** The library supports detaching of the default USB driver, using
+# 	 * \ref libusb_detach_kernel_driver(), if one is set by the OS kernel */
+# 	LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER = 0x0101U
+# ...
+# };
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1394
 msgid ""
 "On platforms which do not have LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER this "
 "function will return LIBUSB_ERROR_NOT_SUPPORTED, and libusb will continue as "
 "if this function was never called."
-msgstr ""
+msgstr "LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVERがないプラットフォーム(訳注:libusb_has_capability(libusb_capability.LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER)が0を返す)では、この関数はLIBUSB_ERROR_NOT_SUPPORTEDを返し、libusbはこの関数が呼び出されなかったかのように続行します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1398
 msgid "enable"
-msgstr ""
+msgstr "enable"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__dev.html:1398
 msgid "whether to enable or disable auto kernel driver detachment"
-msgstr ""
+msgstr "自動カーネル・ドライバー取り外しを有効にするか無効にするか"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1402
 msgid "LIBUSB_SUCCESS on success"
-msgstr ""
+msgstr "LIBUSB_SUCCESS 成功の場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1405
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1407
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a>"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__dev.html:1409
 msgid ""
 "<a class=\"el\" href=\"group__libusb__dev."
 "html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1414
 msgid ""
 "<a href=\"group__libusb__dev."
 "html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#gac0fe4b65914c5ed036e6cbec61cb0b97\">libusb_get_device_list</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1414
 msgid ""
 "ssize_t libusb_get_device_list(libusb_context *ctx, libusb_device ***list)"
-msgstr ""
+msgstr "ssize_t libusb_get_device_list(libusb_context *ctx, libusb_device ***list)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1414
 msgid "<b>Definition:</b> core.c:812"
-msgstr ""
+msgstr "<b>定義:</b> core.c:812"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1415
 msgid ""
 "<a href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b"
 "\">libusb_device</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1415
 msgid "struct libusb_device libusb_device"
-msgstr ""
+msgstr "struct libusb_device libusb_device"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1415
 msgid "<b>Definition:</b> libusb.h:1004"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1004"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1416
 msgid ""
 "<a href=\"group__libusb__dev."
 "html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1416
 msgid "int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)"
-msgstr ""
+msgstr "int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1416
 msgid "<b>Definition:</b> core.c:1291"
-msgstr ""
+msgstr "<b>定義:</b> core.c:1291"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1417
 msgid ""
 "<a href=\"group__libusb__dev."
 "html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#gad3b8561d064bb3e1b8851ddeed3cd7d6\">libusb_free_device_list</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1417
 msgid "void libusb_free_device_list(libusb_device **list, int unref_devices)"
-msgstr ""
+msgstr "void libusb_free_device_list(libusb_device **list, int unref_devices)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1417
 msgid "<b>Definition:</b> core.c:882"
-msgstr ""
+msgstr "<b>定義:</b> core.c:882"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1418
 msgid ""
 "<a href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1418
 msgid "struct libusb_device_handle libusb_device_handle"
-msgstr ""
+msgstr "struct libusb_device_handle libusb_device_handle"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__dev.html:1418
 msgid "<b>Definition:</b> libusb.h:1015"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1015"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/group__libusb__dev.html:1420
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/group__libusb__dev.html:1422
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/group__libusb__dev.html:1423
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
