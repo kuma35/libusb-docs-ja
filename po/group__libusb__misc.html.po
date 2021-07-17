@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:11+0900\n"
+"PO-Revision-Date: 2021-07-17 09:34+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/group__libusb__misc.html:8
 msgid "libusb: Miscellaneous"
-msgstr ""
+msgstr "libusb: その他"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/group__libusb__misc.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/group__libusb__misc.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/group__libusb__misc.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/group__libusb__misc.html:36
@@ -42,7 +42,7 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__misc.html:45
@@ -50,31 +50,31 @@ msgid ""
 "<a href=\"#define-members\">Macros</a> &#124; <a href=\"#enum-members"
 "\">Enumerations</a> &#124; <a href=\"#func-members\">Functions</a> &#124; <a "
 "href=\"#var-members\">Variables</a>"
-msgstr ""
+msgstr "<a href=\"#define-members\">マクロ</a> &#124; <a href=\"#enum-members\">列挙型</a> &#124; <a href=\"#func-members\">関数</a> &#124; <a href=\"#var-members\">変数</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/group__libusb__misc.html:50
 msgid "Miscellaneous"
-msgstr ""
+msgstr "その他"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__misc.html:54
 msgid "<a name=\"define-members\"></a> Macros"
-msgstr ""
+msgstr "<a name=\"define-members\"></a> マクロ"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:56
 #: source/api-1.0/group__libusb__misc.html:58
 #: source/api-1.0/group__libusb__misc.html:60
 msgid "#define&#160;"
-msgstr ""
+msgstr "#define&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:56
 msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#gaa7d6035eb2692d455d27144560a0f68d\">LIBUSB_CALL</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gaa7d6035eb2692d455d27144560a0f68d\">LIBUSB_CALL</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:57
@@ -93,7 +93,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:138
 #: source/api-1.0/group__libusb__misc.html:143
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:58
@@ -101,7 +101,7 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a>&#160;&#160;"
 "&#160;0x01000108"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a>&#160;&#160;&#160;0x01000108"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:60
@@ -110,12 +110,12 @@ msgid ""
 "html#ga22961bb8cb0d6a9b22c88079efb59b8b\">libusb_le16_to_cpu</a>&#160;&#160;"
 "&#160;<a class=\"el\" href=\"group__libusb__misc."
 "html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga22961bb8cb0d6a9b22c88079efb59b8b\">libusb_le16_to_cpu</a>&#160;&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__misc.html:63
 msgid "<a name=\"enum-members\"></a> Enumerations"
-msgstr ""
+msgstr "<a name=\"enum-members\"></a> 列挙型"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:65
@@ -124,14 +124,14 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:97
 #: source/api-1.0/group__libusb__misc.html:118
 msgid "enum &#160;"
-msgstr ""
+msgstr "enum &#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:65
 msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a> {"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a> {"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:66
@@ -147,7 +147,7 @@ msgid ""
 "a> = 0x03, <a class=\"el\" href=\"group__libusb__misc."
 "html#gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d"
 "\">LIBUSB_REQUEST_SET_ADDRESS</a> = 0x05,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa42f2eefbbd7a5c5cce68ca5989a02a7a\">LIBUSB_REQUEST_GET_STATUS</a> = 0x00, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa0b0f3b3ac6e8ebca120bf3581c5505de\">LIBUSB_REQUEST_CLEAR_FEATURE</a> = 0x01, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa6059966cdfccc4db0cccaab22a6d9a83\">LIBUSB_REQUEST_SET_FEATURE</a> = 0x03, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d\">LIBUSB_REQUEST_SET_ADDRESS</a> = 0x05,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:71
@@ -162,7 +162,7 @@ msgid ""
 "a> = 0x08, <a class=\"el\" href=\"group__libusb__misc."
 "html#gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\">LIBUSB_REQUEST_SET_CONFIGURATION</"
 "a> = 0x09,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa3ebb19fe897a2a36e90b2e8193b88b0f\">LIBUSB_REQUEST_GET_DESCRIPTOR</a> = 0x06, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa40ad5a26219379bbbeab2137b21dcb74\">LIBUSB_REQUEST_SET_DESCRIPTOR</a> = 0x07, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa7e33754fe6c088b94905c387155a8586\">LIBUSB_REQUEST_GET_CONFIGURATION</a> = 0x08, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\">LIBUSB_REQUEST_SET_CONFIGURATION</a> = 0x09,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:76
@@ -177,7 +177,7 @@ msgid ""
 "a> = 0x0c, <a class=\"el\" href=\"group__libusb__misc."
 "html#gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b"
 "\">LIBUSB_REQUEST_SET_SEL</a> = 0x30,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf61d8c\">LIBUSB_REQUEST_GET_INTERFACE</a> = 0x0a, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de6061\">LIBUSB_REQUEST_SET_INTERFACE</a> = 0x0b, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfab4244333798720a3664e59187819f2d5\">LIBUSB_REQUEST_SYNCH_FRAME</a> = 0x0c, <a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b\">LIBUSB_REQUEST_SET_SEL</a> = 0x30,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:81
@@ -185,13 +185,13 @@ msgid ""
 "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc."
 "html#gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\">LIBUSB_SET_ISOCH_DELAY</"
 "a> = 0x31"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\">LIBUSB_SET_ISOCH_DELAY</a> = 0x31"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:83
 #: source/api-1.0/group__libusb__misc.html:116
 msgid "}"
-msgstr ""
+msgstr "}"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:85
@@ -207,7 +207,7 @@ msgid ""
 "a> = (0x02 &lt;&lt; 5), <a class=\"el\" href=\"group__libusb__misc."
 "html#gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\">LIBUSB_REQUEST_TYPE_RESERVED</"
 "a> = (0x03 &lt;&lt; 5)  }"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a> { <a class=\"el\" href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\">LIBUSB_REQUEST_TYPE_STANDARD</a> = (0x00 &lt;&lt; 5), <a class=\"el\" href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a43f45ae56bf339e3f984a4182fdd85f0\">LIBUSB_REQUEST_TYPE_CLASS</a> = (0x01 &lt;&lt; 5), <a class=\"el\" href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\">LIBUSB_REQUEST_TYPE_VENDOR</a> = (0x02 &lt;&lt; 5), <a class=\"el\" href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\">LIBUSB_REQUEST_TYPE_RESERVED</a> = (0x03 &lt;&lt; 5)  }"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:91
@@ -225,14 +225,14 @@ msgid ""
 "\"group__libusb__misc."
 "html#gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb"
 "\">LIBUSB_RECIPIENT_OTHER</a> = 0x03 }"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a> { <a class=\"el\" href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaeaf39ffde2a586d565a817bfd591f2dc33\">LIBUSB_RECIPIENT_DEVICE</a> = 0x00, <a class=\"el\" href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaea9e5f9678cb9b301ccc07a247d350aadc\">LIBUSB_RECIPIENT_INTERFACE</a> = 0x01, <a class=\"el\" href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaea6873e84c5a1ae0160891ebab16e5d93b\">LIBUSB_RECIPIENT_ENDPOINT</a> = 0x02, <a class=\"el\" href=\"group__libusb__misc.html#gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb\">LIBUSB_RECIPIENT_OTHER</a> = 0x03 }"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:97
 msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> {"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> {"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:98
@@ -246,7 +246,7 @@ msgid ""
 "a> = -2, <a class=\"el\" href=\"group__libusb__misc."
 "html#ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f"
 "\">LIBUSB_ERROR_ACCESS</a> = -3,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\">LIBUSB_SUCCESS</a> = 0, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa790feab8b45d8c323038f4d7d15eceec\">LIBUSB_ERROR_IO</a> = -1, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\">LIBUSB_ERROR_INVALID_PARAM</a> = -2, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f\">LIBUSB_ERROR_ACCESS</a> = -3,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:103
@@ -262,7 +262,7 @@ msgid ""
 "\">LIBUSB_ERROR_BUSY</a> = -6, <a class=\"el\" href=\"group__libusb__misc."
 "html#ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd"
 "\">LIBUSB_ERROR_TIMEOUT</a> = -7,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efaf8d98f464314a8e202507a0e5c67336f\">LIBUSB_ERROR_NO_DEVICE</a> = -4, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa28214194dc4399e51777408b2c27f03f\">LIBUSB_ERROR_NOT_FOUND</a> = -5, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa34ede1140a8a16022f730ac80875ed3b\">LIBUSB_ERROR_BUSY</a> = -6, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd\">LIBUSB_ERROR_TIMEOUT</a> = -7,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:108
@@ -277,7 +277,7 @@ msgid ""
 "\"group__libusb__misc."
 "html#ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec"
 "\">LIBUSB_ERROR_NO_MEM</a> = -11,"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efaf00ae4b8772fda64263ae6e4d6569af0\">LIBUSB_ERROR_OVERFLOW</a> = -8, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa1406e98370900156484f5fe609270837\">LIBUSB_ERROR_PIPE</a> = -9, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa39c9284a18fb3277696d84d65f50dbea\">LIBUSB_ERROR_INTERRUPTED</a> = -10, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec\">LIBUSB_ERROR_NO_MEM</a> = -11,"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:113
@@ -288,7 +288,7 @@ msgid ""
 "\"group__libusb__misc."
 "html#ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e"
 "\">LIBUSB_ERROR_OTHER</a> = -99"
-msgstr ""
+msgstr "&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa01b43115484f435627be755d5dc9509b\">LIBUSB_ERROR_NOT_SUPPORTED</a> = -12, <a class=\"el\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e\">LIBUSB_ERROR_OTHER</a> = -99"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:118
@@ -304,12 +304,12 @@ msgid ""
 "a> = 0x0100U, <a class=\"el\" href=\"group__libusb__misc."
 "html#ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc"
 "\">LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER</a> = 0x0101U }"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a> { <a class=\"el\" href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a24b79436d4bd088d169f9d1edb4b9649\">LIBUSB_CAP_HAS_CAPABILITY</a> = 0x0000U, <a class=\"el\" href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\">LIBUSB_CAP_HAS_HOTPLUG</a> = 0x0001U, <a class=\"el\" href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5aa74726ef0af0e42d2d56532f82e873a5\">LIBUSB_CAP_HAS_HID_ACCESS</a> = 0x0100U, <a class=\"el\" href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc\">LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER</a> = 0x0101U }"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__misc.html:125
 msgid "<a name=\"func-members\"></a> Functions"
-msgstr ""
+msgstr "<a name=\"func-members\"></a> 関数"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:127
@@ -317,7 +317,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:408
 #: source/api-1.0/group__libusb__misc.html:522
 msgid "int&#160;"
-msgstr ""
+msgstr "int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:127
@@ -325,14 +325,14 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability</a> "
 "(uint32_t capability)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability</a> (uint32_t capability)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:129
 #: source/api-1.0/group__libusb__misc.html:137
 #: source/api-1.0/group__libusb__misc.html:486
 msgid "const char *&#160;"
-msgstr ""
+msgstr "const char *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:129
@@ -340,26 +340,26 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name</a> (int "
 "error_code)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name</a> (int error_code)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:131
 msgid ""
 "const struct <a class=\"el\" href=\"structlibusb__version.html"
 "\">libusb_version</a> *&#160;"
-msgstr ""
+msgstr "const struct <a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a> *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:131
 msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#ga61d07b01404fdea080cd16c1ed8be93d\">libusb_get_version</a> (void)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga61d07b01404fdea080cd16c1ed8be93d\">libusb_get_version</a> (void)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:133
 msgid "static uint16_t&#160;"
-msgstr ""
+msgstr "static uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:133
@@ -367,7 +367,7 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a> (const "
 "uint16_t x)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a> (const uint16_t x)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:135
@@ -375,24 +375,24 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale</a> (const char "
 "*locale)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale</a> (const char *locale)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:137
 msgid ""
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror</a> (int errcode)"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror</a> (int errcode)"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/group__libusb__misc.html:140
 msgid "<a name=\"var-members\"></a> Variables"
-msgstr ""
+msgstr "<a name=\"var-members\"></a> 変数"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:142
 msgid "static const char *const&#160;"
-msgstr ""
+msgstr "static const char *const&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:142
@@ -401,44 +401,44 @@ msgid ""
 "html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a> [] = "
 "{ &quot;en&quot;, &quot;nl&quot;, &quot;fr&quot;, &quot;ru&quot;, &quot;"
 "de&quot;, &quot;hu&quot; }"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a> [] = { &quot;en&quot;, &quot;nl&quot;, &quot;fr&quot;, &quot;ru&quot;, &quot;de&quot;, &quot;hu&quot; }"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:145
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:145
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:146
 msgid "Macro Definition Documentation"
-msgstr ""
+msgstr "マクロ定義説明"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:147
 msgid "<a id=\"gaa7d6035eb2692d455d27144560a0f68d\"></a>"
-msgstr ""
+msgstr "<a id=\"gaa7d6035eb2692d455d27144560a0f68d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:148
 msgid ""
 "<span class=\"permalink\"><a href=\"#gaa7d6035eb2692d455d27144560a0f68d"
 "\">&#9670;&nbsp;</a></span>LIBUSB_CALL"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gaa7d6035eb2692d455d27144560a0f68d\">&#9670;&nbsp;</a></span>LIBUSB_CALL"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:154
 msgid "#define LIBUSB_CALL"
-msgstr ""
+msgstr "#define LIBUSB_CALL"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:158
 msgid "libusb's Windows calling convention."
-msgstr ""
+msgstr "libusbのWindows呼び出し規約。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:159
@@ -447,7 +447,7 @@ msgid ""
 "that, unlike other platforms, there is not <em>one true calling convention</"
 "em> (calling convention: the manner in which parameters are passed to "
 "functions in the generated assembly code)."
-msgstr ""
+msgstr "Windowsでは、使用可能なコンパイラと構成を選択できるので、他のプラットフォームとは異なり、<em>ただ唯一の呼び出し規約</em>(生成されたアセンブリ・コードでパラメーターを関数に渡す方法)でないことを意味します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:160
@@ -458,7 +458,7 @@ msgid ""
 "appropriate annotations so that your own software will use the right "
 "convention, even if another convention is being used by default within your "
 "codebase."
-msgstr ""
+msgstr "libusbは、Windows API自体と一致するWINAPI規則(<code>stdcall</code>呼び出し規則に変換されます)を使用し、ライブラリがこの方法でコンパイルされることを保証します。 パブリック・ヘッダー・ファイルには適切なアノテーションも含まれているため、コード・ベース内でデフォルトで別の規則が使用されている場合でも、あなたのソフトウェアは正しい規則を使用します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:161
@@ -466,7 +466,7 @@ msgid ""
 "The one consideration that you must apply in your software is to mark all "
 "functions which you use as libusb callbacks with this LIBUSB_CALL "
 "annotation, so that they too get compiled for the correct calling convention."
-msgstr ""
+msgstr "ソフトウェアに適用する必要がある1つの考慮事項は、libusbコールバックとして使用するすべての関数にこのLIBUSB_CALLアノテーションを付けて、それらも正しい呼び出し規約に合わせてコンパイルされるようにすることです。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:162
@@ -474,29 +474,29 @@ msgid ""
 "On non-Windows operating systems, this macro is defined as nothing. This "
 "means that you can apply it to your code without worrying about cross-"
 "platform compatibility."
-msgstr ""
+msgstr "Windows以外のオペレーティング・システムでは、このマクロは何も定義されていません。 これは、クロス・プラットフォームの互換性を気にせずにコードに適用できることを意味します。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:166
 msgid "<a id=\"gaabe4bc36a83358685d36a6c853cbb4de\"></a>"
-msgstr ""
+msgstr "<a id=\"gaabe4bc36a83358685d36a6c853cbb4de\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:167
 msgid ""
 "<span class=\"permalink\"><a href=\"#gaabe4bc36a83358685d36a6c853cbb4de"
 "\">&#9670;&nbsp;</a></span>LIBUSB_API_VERSION"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gaabe4bc36a83358685d36a6c853cbb4de\">&#9670;&nbsp;</a></span>LIBUSB_API_VERSION"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:173
 msgid "#define LIBUSB_API_VERSION&#160;&#160;&#160;0x01000108"
-msgstr ""
+msgstr "#define LIBUSB_API_VERSION&#160;&#160;&#160;0x01000108"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:177
 msgid "libusb's API version."
-msgstr ""
+msgstr "libusbのAPIバージョン。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:178
@@ -506,50 +506,50 @@ msgid ""
 "significant change to the API, such as the introduction of a new call, the "
 "definition of a new macro/enum member, or any other element that libusb "
 "applications may want to detect at compilation time."
-msgstr ""
+msgstr "バージョン1.0.13以降、機能の検出を支援するために、libusbはLIBUSB_API_VERSIONマクロを定義します。このマクロは、新しい呼び出しの導入、新しいマクロ/列挙型メンバーの定義など、APIに大幅な変更が加えられるたび、または、libusbアプリケーションがコンパイル時に検出する可能性のあるその他の要素のたびに増加します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:179
 msgid "The macro is typically used in an application as follows:"
-msgstr ""
+msgstr "マクロは通常、アプリケーションで以下のように使用されます:"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/group__libusb__misc.html:179
 msgid ""
 "<span class=\"preprocessor\">#if defined(LIBUSB_API_VERSION) &amp;&amp; "
 "(LIBUSB_API_VERSION &gt;= 0x01001234)</span>"
-msgstr ""
+msgstr "<span class=\"preprocessor\">#if defined(LIBUSB_API_VERSION) &amp;&amp; (LIBUSB_API_VERSION &gt;= 0x01001234)</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/group__libusb__misc.html:180
 msgid ""
 "<span class=\"comment\">// Use one of the newer features from the libusb "
 "API</span>"
-msgstr ""
+msgstr "<span class=\"comment\">// Use one of the newer features from the libusb API</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/group__libusb__misc.html:181
 msgid "<span class=\"preprocessor\">#endif</span>"
-msgstr ""
+msgstr "<span class=\"preprocessor\">#endif</span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:182
 msgid ""
 "Internally, LIBUSB_API_VERSION is defined as follows: (libusb major &lt;&lt; "
 "24) | (libusb minor &lt;&lt; 16) | (16 bit incremental)"
-msgstr ""
+msgstr "内部的にはLIBUSB_API_VERSIONは次のように定義されています: (libusb major &lt;&lt; 24) | (libusb minor &lt;&lt; 16) | (16 bit incremental)"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:186
 msgid "<a id=\"ga22961bb8cb0d6a9b22c88079efb59b8b\"></a>"
-msgstr ""
+msgstr "<a id=\"ga22961bb8cb0d6a9b22c88079efb59b8b\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:187
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga22961bb8cb0d6a9b22c88079efb59b8b"
 "\">&#9670;&nbsp;</a></span>libusb_le16_to_cpu"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga22961bb8cb0d6a9b22c88079efb59b8b\">&#9670;&nbsp;</a></span>libusb_le16_to_cpu"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:193
@@ -557,7 +557,7 @@ msgid ""
 "#define libusb_le16_to_cpu&#160;&#160;&#160;<a class=\"el\" href="
 "\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda"
 "\">libusb_cpu_to_le16</a>"
-msgstr ""
+msgstr "#define libusb_le16_to_cpu&#160;&#160;&#160;<a class=\"el\" href=\"group__libusb__misc.html#gae3b1162b8e69b49bbf74dcbbdeeadbda\">libusb_cpu_to_le16</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:197
@@ -565,7 +565,7 @@ msgid ""
 "Convert a 16-bit value from little-endian to host-endian format. On little "
 "endian systems, this function does nothing. On big endian systems, the bytes "
 "are swapped."
-msgstr ""
+msgstr "16ビット値をリトル・エンディアンからホスト・エンディアン形式に変換します。リトル・エンディアン・システムでは、この関数は何もしません。ビッグ・エンディアンシステムでは、バイトが交換されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__misc.html:197
@@ -575,18 +575,18 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:497
 #: source/api-1.0/group__libusb__misc.html:531
 msgid "Parameters"
-msgstr ""
+msgstr "パラメーター"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:199
 #: source/api-1.0/group__libusb__misc.html:469
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:199
 msgid "the little-endian value to convert"
-msgstr ""
+msgstr "変換したいリトル・エンディアンの値"
 
 #. type: Content of: <html><body><div><div><div><dl><dt>
 #: source/api-1.0/group__libusb__misc.html:203
@@ -596,42 +596,42 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:503
 #: source/api-1.0/group__libusb__misc.html:537
 msgid "Returns"
-msgstr ""
+msgstr "戻り値"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:203
 msgid "the value in host-endian byte order"
-msgstr ""
+msgstr "ホスト・エンディアンのバイト並びの値"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:207
 msgid "Enumeration Type Documentation"
-msgstr ""
+msgstr "列挙型解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:208
 msgid "<a id=\"ga5b5912057c2d7e23b3ed5aa0c20236df\"></a>"
-msgstr ""
+msgstr "<a id=\"ga5b5912057c2d7e23b3ed5aa0c20236df\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:209
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga5b5912057c2d7e23b3ed5aa0c20236df"
 "\">&#9670;&nbsp;</a></span>libusb_standard_request"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga5b5912057c2d7e23b3ed5aa0c20236df\">&#9670;&nbsp;</a></span>libusb_standard_request"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:215
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__misc."
 "html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:219
 msgid ""
 "Standard requests, as defined in table 9-5 of the USB 3.0 specifications"
-msgstr ""
+msgstr "USB3.0仕様の表9-5で定義されている標準要求"
 
 #. type: Content of: <html><body><div><div><div><table><tr><th>
 #: source/api-1.0/group__libusb__misc.html:221
@@ -640,31 +640,31 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:314
 #: source/api-1.0/group__libusb__misc.html:359
 msgid "Enumerator"
-msgstr ""
+msgstr "列挙型"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:221
 msgid ""
 "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa42f2eefbbd7a5c5cce68ca5989a02a7a"
 "\"></a>LIBUSB_REQUEST_GET_STATUS&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa42f2eefbbd7a5c5cce68ca5989a02a7a\"></a>LIBUSB_REQUEST_GET_STATUS&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:221
 msgid "Request status of the specific recipient."
-msgstr ""
+msgstr "指定の受信側のステータスを要求します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:223
 msgid ""
 "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa0b0f3b3ac6e8ebca120bf3581c5505de"
 "\"></a>LIBUSB_REQUEST_CLEAR_FEATURE&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa0b0f3b3ac6e8ebca120bf3581c5505de\"></a>LIBUSB_REQUEST_CLEAR_FEATURE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:223
 msgid "Clear or disable a specific feature."
-msgstr ""
+msgstr "指定の機能をクリアまたは無効にします。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:225
@@ -672,36 +672,36 @@ msgid ""
 "<a id="
 "\"gga5b5912057c2d7e23b3ed5aa0c20236dfa6059966cdfccc4db0cccaab22a6d9a83\"></"
 "a>LIBUSB_REQUEST_SET_FEATURE&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa6059966cdfccc4db0cccaab22a6d9a83\"></a>LIBUSB_REQUEST_SET_FEATURE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:225
 msgid "Set or enable a specific feature."
-msgstr ""
+msgstr "指定の機能を設定または有効にします。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:227
 msgid ""
 "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d"
 "\"></a>LIBUSB_REQUEST_SET_ADDRESS&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7c69aef99e548d128bc1f9e18c539c1d\"></a>LIBUSB_REQUEST_SET_ADDRESS&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:227
 msgid "Set device address for all future accesses."
-msgstr ""
+msgstr "今後のアクセス全てのためにデバイス・アドレスを設定します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:229
 msgid ""
 "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa3ebb19fe897a2a36e90b2e8193b88b0f"
 "\"></a>LIBUSB_REQUEST_GET_DESCRIPTOR&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa3ebb19fe897a2a36e90b2e8193b88b0f\"></a>LIBUSB_REQUEST_GET_DESCRIPTOR&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:229
 msgid "Get the specified descriptor."
-msgstr ""
+msgstr "指定のデスクリプターを取得します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:231
@@ -709,12 +709,12 @@ msgid ""
 "<a id="
 "\"gga5b5912057c2d7e23b3ed5aa0c20236dfa40ad5a26219379bbbeab2137b21dcb74\"></"
 "a>LIBUSB_REQUEST_SET_DESCRIPTOR&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa40ad5a26219379bbbeab2137b21dcb74\"></a>LIBUSB_REQUEST_SET_DESCRIPTOR&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:231
 msgid "Used to update existing descriptors or add new descriptors."
-msgstr ""
+msgstr "既存のデスクリプターを更新したり、新しいデスクリプターを追加したりするために使用されます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:233
@@ -722,12 +722,12 @@ msgid ""
 "<a id="
 "\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7e33754fe6c088b94905c387155a8586\"></"
 "a>LIBUSB_REQUEST_GET_CONFIGURATION&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa7e33754fe6c088b94905c387155a8586\"></a>LIBUSB_REQUEST_GET_CONFIGURATION&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:233
 msgid "Get the current device configuration value."
-msgstr ""
+msgstr "現在のデバイス構成値を取得します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:235
@@ -735,24 +735,24 @@ msgid ""
 "<a id="
 "\"gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\"></"
 "a>LIBUSB_REQUEST_SET_CONFIGURATION&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfaefcadf8a4b1f0d1dadd79764486b2cb3\"></a>LIBUSB_REQUEST_SET_CONFIGURATION&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:235
 msgid "Set device configuration."
-msgstr ""
+msgstr "デバイス構成を設定します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:237
 msgid ""
 "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf61d8c"
 "\"></a>LIBUSB_REQUEST_GET_INTERFACE&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf61d8c\"></a>LIBUSB_REQUEST_GET_INTERFACE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:237
 msgid "Return the selected alternate setting for the specified interface."
-msgstr ""
+msgstr "指定のインターフェイスの選択された代替設定を返します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:239
@@ -760,12 +760,12 @@ msgid ""
 "<a id="
 "\"gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de6061\"></"
 "a>LIBUSB_REQUEST_SET_INTERFACE&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de6061\"></a>LIBUSB_REQUEST_SET_INTERFACE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:239
 msgid "Select an alternate interface for the specified interface."
-msgstr ""
+msgstr "指定のインターフェイスの代替インターフェイスを選択します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:241
@@ -773,24 +773,24 @@ msgid ""
 "<a id="
 "\"gga5b5912057c2d7e23b3ed5aa0c20236dfab4244333798720a3664e59187819f2d5\"></"
 "a>LIBUSB_REQUEST_SYNCH_FRAME&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfab4244333798720a3664e59187819f2d5\"></a>LIBUSB_REQUEST_SYNCH_FRAME&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:241
 msgid "Set then report an endpoint's synchronization frame."
-msgstr ""
+msgstr "エンドポイントの同期フレームを設定して報告します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:243
 msgid ""
 "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b"
 "\"></a>LIBUSB_REQUEST_SET_SEL&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa8fc0213fcc23566ec28e88bee216777b\"></a>LIBUSB_REQUEST_SET_SEL&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:243
 msgid "Sets both the U1 and U2 Exit Latency."
-msgstr ""
+msgstr "U1とU2の両方の出口待ち時間(Exit Latency)を設定します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:245
@@ -798,19 +798,19 @@ msgid ""
 "<a id="
 "\"gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\"></"
 "a>LIBUSB_SET_ISOCH_DELAY&#160;"
-msgstr ""
+msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfaa280efe17cdd0be55d528b9932142376\"></a>LIBUSB_SET_ISOCH_DELAY&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:245
 msgid ""
 "Delay from the time a host transmits a packet to the time it is received by "
 "the device."
-msgstr ""
+msgstr "ホストがパケットを送信してからデバイスがパケットを受信するまでの遅延。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:251
 msgid "<a id=\"ga0b0933ae70744726cde11254c39fac91\"></a>"
-msgstr ""
+msgstr "<a id=\"ga0b0933ae70744726cde11254c39fac91\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:252
@@ -818,14 +818,14 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga0b0933ae70744726cde11254c39fac91\">&#9670;&nbsp;</a></"
 "span>libusb_request_type"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga0b0933ae70744726cde11254c39fac91\">&#9670;&nbsp;</a></span>libusb_request_type"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:258
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__misc."
 "html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:262
@@ -833,7 +833,7 @@ msgid ""
 "Request type bits of the <a class=\"el\" href=\"structlibusb__control__setup."
 "html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> field in control "
 "transfers."
-msgstr ""
+msgstr "制御転送の <a class=\"el\" href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> フィールドの要求タイプビット。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:264
@@ -841,12 +841,12 @@ msgid ""
 "<a id="
 "\"gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\"></"
 "a>LIBUSB_REQUEST_TYPE_STANDARD&#160;"
-msgstr ""
+msgstr "<a id=\"gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\"></a>LIBUSB_REQUEST_TYPE_STANDARD&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:264
 msgid "Standard."
-msgstr ""
+msgstr "標準。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:266
@@ -854,12 +854,12 @@ msgid ""
 "<a id="
 "\"gga0b0933ae70744726cde11254c39fac91a43f45ae56bf339e3f984a4182fdd85f0\"></"
 "a>LIBUSB_REQUEST_TYPE_CLASS&#160;"
-msgstr ""
+msgstr "<a id=\"gga0b0933ae70744726cde11254c39fac91a43f45ae56bf339e3f984a4182fdd85f0\"></a>LIBUSB_REQUEST_TYPE_CLASS&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:266
 msgid "Class."
-msgstr ""
+msgstr "クラス。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:268
@@ -867,12 +867,12 @@ msgid ""
 "<a id="
 "\"gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\"></"
 "a>LIBUSB_REQUEST_TYPE_VENDOR&#160;"
-msgstr ""
+msgstr "<a id=\"gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345\"></a>LIBUSB_REQUEST_TYPE_VENDOR&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:268
 msgid "Vendor."
-msgstr ""
+msgstr "ベンダー。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:270
@@ -880,31 +880,31 @@ msgid ""
 "<a id="
 "\"gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\"></"
 "a>LIBUSB_REQUEST_TYPE_RESERVED&#160;"
-msgstr ""
+msgstr "<a id=\"gga0b0933ae70744726cde11254c39fac91a8e2a1b00f9bcf05d3303c75c9e9cda69\"></a>LIBUSB_REQUEST_TYPE_RESERVED&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:270
 msgid "Reserved."
-msgstr ""
+msgstr "予約済。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:276
 msgid "<a id=\"ga20a4e8a729aa543fa742a5086596cbae\"></a>"
-msgstr ""
+msgstr "<a id=\"ga20a4e8a729aa543fa742a5086596cbae\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:277
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga20a4e8a729aa543fa742a5086596cbae"
 "\">&#9670;&nbsp;</a></span>libusb_request_recipient"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga20a4e8a729aa543fa742a5086596cbae\">&#9670;&nbsp;</a></span>libusb_request_recipient"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:283
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__misc."
 "html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:287
@@ -912,7 +912,7 @@ msgid ""
 "Recipient bits of the <a class=\"el\" href=\"structlibusb__control__setup."
 "html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> field in control "
 "transfers. Values 4 through 31 are reserved."
-msgstr ""
+msgstr "制御転送の <a class=\"el\" href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a> フィールドの受信側ビット。値4〜31は予約済です。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:289
@@ -920,67 +920,67 @@ msgid ""
 "<a id="
 "\"gga20a4e8a729aa543fa742a5086596cbaeaf39ffde2a586d565a817bfd591f2dc33\"></"
 "a>LIBUSB_RECIPIENT_DEVICE&#160;"
-msgstr ""
+msgstr "<a id=\"gga20a4e8a729aa543fa742a5086596cbaeaf39ffde2a586d565a817bfd591f2dc33\"></a>LIBUSB_RECIPIENT_DEVICE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:289
 msgid "Device."
-msgstr ""
+msgstr "デバイス。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:291
 msgid ""
 "<a id=\"gga20a4e8a729aa543fa742a5086596cbaea9e5f9678cb9b301ccc07a247d350aadc"
 "\"></a>LIBUSB_RECIPIENT_INTERFACE&#160;"
-msgstr ""
+msgstr "<a id=\"gga20a4e8a729aa543fa742a5086596cbaea9e5f9678cb9b301ccc07a247d350aadc\"></a>LIBUSB_RECIPIENT_INTERFACE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:291
 msgid "Interface."
-msgstr ""
+msgstr "インターフェイス。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:293
 msgid ""
 "<a id=\"gga20a4e8a729aa543fa742a5086596cbaea6873e84c5a1ae0160891ebab16e5d93b"
 "\"></a>LIBUSB_RECIPIENT_ENDPOINT&#160;"
-msgstr ""
+msgstr "<a id=\"gga20a4e8a729aa543fa742a5086596cbaea6873e84c5a1ae0160891ebab16e5d93b\"></a>LIBUSB_RECIPIENT_ENDPOINT&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:293
 msgid "Endpoint."
-msgstr ""
+msgstr "エンドポイント。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:295
 msgid ""
 "<a id=\"gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb"
 "\"></a>LIBUSB_RECIPIENT_OTHER&#160;"
-msgstr ""
+msgstr "<a id=\"gga20a4e8a729aa543fa742a5086596cbaeae6f863cf9e2122d2194916876e9477eb\"></a>LIBUSB_RECIPIENT_OTHER&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:295
 msgid "Other."
-msgstr ""
+msgstr "その他。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:301
 msgid "<a id=\"gab2323aa0f04bc22038e7e1740b2f29ef\"></a>"
-msgstr ""
+msgstr "<a id=\"gab2323aa0f04bc22038e7e1740b2f29ef\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:302
 msgid ""
 "<span class=\"permalink\"><a href=\"#gab2323aa0f04bc22038e7e1740b2f29ef"
 "\">&#9670;&nbsp;</a></span>libusb_error"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gab2323aa0f04bc22038e7e1740b2f29ef\">&#9670;&nbsp;</a></span>libusb_error"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:308
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__misc."
 "html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:312
@@ -992,7 +992,7 @@ msgid ""
 "\"group__libusb__misc."
 "html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> to get an "
 "end-user suitable description of an error code."
-msgstr ""
+msgstr "エラー・コード。 ほとんどのlibusb関数は、成功すると0を返し、失敗するとこれらのコードの1つを返します。 <a class=\"el\" href=\"group__libusb__misc.html#gacf319b823a1a1a25cc934d80db2f28c7\">libusb_error_name()</a> を呼び出してエラー・コードの文字列表現を取得するか、 <a class=\"el\" href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> を呼び出してエンド・ユーザーに適切なエラー・コードの説明を取得できます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:314
@@ -1000,24 +1000,24 @@ msgid ""
 "<a id="
 "\"ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\"></"
 "a>LIBUSB_SUCCESS&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\"></a>LIBUSB_SUCCESS&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:314
 msgid "Success (no error)"
-msgstr ""
+msgstr "成功(エラー無し)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:316
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa790feab8b45d8c323038f4d7d15eceec"
 "\"></a>LIBUSB_ERROR_IO&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa790feab8b45d8c323038f4d7d15eceec\"></a>LIBUSB_ERROR_IO&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:316
 msgid "Input/output error."
-msgstr ""
+msgstr "入力/出力 エラー。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:318
@@ -1025,72 +1025,72 @@ msgid ""
 "<a id="
 "\"ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\"></"
 "a>LIBUSB_ERROR_INVALID_PARAM&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa680e4bf39b66a36be3182be3ebf58062\"></a>LIBUSB_ERROR_INVALID_PARAM&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:318
 msgid "Invalid parameter."
-msgstr ""
+msgstr "不正なパラメーター。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:320
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f"
 "\"></a>LIBUSB_ERROR_ACCESS&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa131f3c2f6f2bb40bc6fb60ccb6f3152f\"></a>LIBUSB_ERROR_ACCESS&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:320
 msgid "Access denied (insufficient permissions)"
-msgstr ""
+msgstr "アクセスが拒否されました(権限が不十分です)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:322
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efaf8d98f464314a8e202507a0e5c67336f"
 "\"></a>LIBUSB_ERROR_NO_DEVICE&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efaf8d98f464314a8e202507a0e5c67336f\"></a>LIBUSB_ERROR_NO_DEVICE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:322
 msgid "No such device (it may have been disconnected)"
-msgstr ""
+msgstr "そのようなデバイスはありません(おそらく切断されています)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:324
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa28214194dc4399e51777408b2c27f03f"
 "\"></a>LIBUSB_ERROR_NOT_FOUND&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa28214194dc4399e51777408b2c27f03f\"></a>LIBUSB_ERROR_NOT_FOUND&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:324
 msgid "Entity not found."
-msgstr ""
+msgstr "エンティティが見つかりません。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:326
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa34ede1140a8a16022f730ac80875ed3b"
 "\"></a>LIBUSB_ERROR_BUSY&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa34ede1140a8a16022f730ac80875ed3b\"></a>LIBUSB_ERROR_BUSY&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:326
 msgid "Resource busy."
-msgstr ""
+msgstr "リソースがビジーです。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:328
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd"
 "\"></a>LIBUSB_ERROR_TIMEOUT&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9b000ac2e6dc4ac864c59579dd08c8bd\"></a>LIBUSB_ERROR_TIMEOUT&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:328
 msgid "Operation timed out."
-msgstr ""
+msgstr "操作タイムアウト。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:330
@@ -1098,12 +1098,12 @@ msgid ""
 "<a id="
 "\"ggab2323aa0f04bc22038e7e1740b2f29efaf00ae4b8772fda64263ae6e4d6569af0\"></"
 "a>LIBUSB_ERROR_OVERFLOW&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efaf00ae4b8772fda64263ae6e4d6569af0\"></a>LIBUSB_ERROR_OVERFLOW&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:330
 msgid "Overflow."
-msgstr ""
+msgstr "オーバーフロー。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:332
@@ -1111,65 +1111,65 @@ msgid ""
 "<a id="
 "\"ggab2323aa0f04bc22038e7e1740b2f29efa1406e98370900156484f5fe609270837\"></"
 "a>LIBUSB_ERROR_PIPE&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa1406e98370900156484f5fe609270837\"></a>LIBUSB_ERROR_PIPE&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:332
 msgid "Pipe error."
-msgstr ""
+msgstr "パイプ・エラー。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:334
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa39c9284a18fb3277696d84d65f50dbea"
 "\"></a>LIBUSB_ERROR_INTERRUPTED&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa39c9284a18fb3277696d84d65f50dbea\"></a>LIBUSB_ERROR_INTERRUPTED&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:334
 msgid "System call interrupted (perhaps due to signal)"
-msgstr ""
+msgstr "システムコールが中断されました(おそらくシグナルが原因です)"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:336
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec"
 "\"></a>LIBUSB_ERROR_NO_MEM&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efaff885c8ef4522f22f6673059c7b9edec\"></a>LIBUSB_ERROR_NO_MEM&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:336
 msgid "Insufficient memory."
-msgstr ""
+msgstr "メモリーが不十分です。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:338
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa01b43115484f435627be755d5dc9509b"
 "\"></a>LIBUSB_ERROR_NOT_SUPPORTED&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa01b43115484f435627be755d5dc9509b\"></a>LIBUSB_ERROR_NOT_SUPPORTED&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:338
 msgid "Operation not supported or unimplemented on this platform."
-msgstr ""
+msgstr "このプラットフォームでは、操作がサポートされていないか、実装されていません。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:340
 msgid ""
 "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e"
 "\"></a>LIBUSB_ERROR_OTHER&#160;"
-msgstr ""
+msgstr "<a id=\"ggab2323aa0f04bc22038e7e1740b2f29efa9705eb232d1a5e249926d4e76599672e\"></a>LIBUSB_ERROR_OTHER&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:340
 msgid "Other error."
-msgstr ""
+msgstr "その他のエラー。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:346
 msgid "<a id=\"gaab1b3fa0728c06fafbee897795889bd5\"></a>"
-msgstr ""
+msgstr "<a id=\"gaab1b3fa0728c06fafbee897795889bd5\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:347
@@ -1177,14 +1177,14 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gaab1b3fa0728c06fafbee897795889bd5\">&#9670;&nbsp;</a></"
 "span>libusb_capability"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gaab1b3fa0728c06fafbee897795889bd5\">&#9670;&nbsp;</a></span>libusb_capability"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:353
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__misc."
 "html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a>"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:357
@@ -1193,7 +1193,7 @@ msgid ""
 "platform. Test if the loaded library supports a given capability by calling "
 "<a class=\"el\" href=\"group__libusb__misc."
 "html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a>."
-msgstr ""
+msgstr "現在実行中のプラットフォーム上のlibusbのインスタンスによってサポートされる機能。 <a class=\"el\" href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> を呼び出して、ロードされたライブラリが指定の機能をサポートしているかどうかをテストします。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:359
@@ -1201,7 +1201,7 @@ msgid ""
 "<a id="
 "\"ggaab1b3fa0728c06fafbee897795889bd5a24b79436d4bd088d169f9d1edb4b9649\"></"
 "a>LIBUSB_CAP_HAS_CAPABILITY&#160;"
-msgstr ""
+msgstr "<a id=\"ggaab1b3fa0728c06fafbee897795889bd5a24b79436d4bd088d169f9d1edb4b9649\"></a>LIBUSB_CAP_HAS_CAPABILITY&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:359
@@ -1209,7 +1209,7 @@ msgid ""
 "The <a class=\"el\" href=\"group__libusb__misc."
 "html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> API is "
 "available."
-msgstr ""
+msgstr "The <a class=\"el\" href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> API is available."
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:361
@@ -1217,12 +1217,12 @@ msgid ""
 "<a id="
 "\"ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\"></"
 "a>LIBUSB_CAP_HAS_HOTPLUG&#160;"
-msgstr ""
+msgstr "<a id=\"ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\"></a>LIBUSB_CAP_HAS_HOTPLUG&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:361
 msgid "Hotplug support is available on this platform."
-msgstr ""
+msgstr "このプラットフォームでは、活線挿抜(hotplug)のサポートを利用できます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:363
@@ -1230,12 +1230,12 @@ msgid ""
 "<a id="
 "\"ggaab1b3fa0728c06fafbee897795889bd5aa74726ef0af0e42d2d56532f82e873a5\"></"
 "a>LIBUSB_CAP_HAS_HID_ACCESS&#160;"
-msgstr ""
+msgstr "<a id=\"ggaab1b3fa0728c06fafbee897795889bd5aa74726ef0af0e42d2d56532f82e873a5\"></a>LIBUSB_CAP_HAS_HID_ACCESS&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:363
 msgid "The library can access HID devices without requiring user intervention."
-msgstr ""
+msgstr "ライブラリは、ユーザーの介入を必要とせずにHIDデバイスにアクセスできます。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:364
@@ -1244,14 +1244,14 @@ msgid ""
 "have to call additional libusb functions such as <a class=\"el\" href="
 "\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a"
 "\">libusb_detach_kernel_driver()</a>."
-msgstr ""
+msgstr "注意: 実際にHIDデバイスにアクセスする前に、 <a class=\"el\" href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a> などの追加のlibusb関数を呼び出す必要がある場合があることに注意してください。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:366
 msgid ""
 "<a id=\"ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc"
 "\"></a>LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER&#160;"
-msgstr ""
+msgstr "<a id=\"ggaab1b3fa0728c06fafbee897795889bd5ad15a06b1aede635004f08bdc0fe561cc\"></a>LIBUSB_CAP_SUPPORTS_DETACH_KERNEL_DRIVER&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:366
@@ -1259,29 +1259,29 @@ msgid ""
 "The library supports detaching of the default USB driver, using <a class=\"el"
 "\" href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a"
 "\">libusb_detach_kernel_driver()</a>, if one is set by the OS kernel."
-msgstr ""
+msgstr "ライブラリは、OSカーネルによって設定されている場合、 <a class=\"el\" href=\"group__libusb__dev.html#ga5e0cc1d666097e915748593effdc634a\">libusb_detach_kernel_driver()</a> を使用したデフォルトのUSBドライバーの取り外しをサポートします。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:372
 msgid "Function Documentation"
-msgstr ""
+msgstr "関数解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:373
 msgid "<a id=\"ga9b8e324d28c624cd0b8e7ba21607b8db\"></a>"
-msgstr ""
+msgstr "<a id=\"ga9b8e324d28c624cd0b8e7ba21607b8db\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:374
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga9b8e324d28c624cd0b8e7ba21607b8db"
 "\">&#9670;&nbsp;</a></span>libusb_has_capability()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga9b8e324d28c624cd0b8e7ba21607b8db\">&#9670;&nbsp;</a></span>libusb_has_capability()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:380
 msgid "int libusb_has_capability"
-msgstr ""
+msgstr "int libusb_has_capability"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:381
@@ -1291,17 +1291,17 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:485
 #: source/api-1.0/group__libusb__misc.html:521
 msgid "("
-msgstr ""
+msgstr "("
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:382
 msgid "uint32_t&#160;"
-msgstr ""
+msgstr "uint32_t&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:383
 msgid "<em>capability</em>"
-msgstr ""
+msgstr "<em>capability</em>"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:383
@@ -1311,7 +1311,7 @@ msgstr ""
 #: source/api-1.0/group__libusb__misc.html:487
 #: source/api-1.0/group__libusb__misc.html:523
 msgid ")"
-msgstr ""
+msgstr ")"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:388
@@ -1320,29 +1320,29 @@ msgid ""
 "should be performed after <a class=\"el\" href=\"group__libusb__lib."
 "html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a>, to ensure the "
 "backend has updated its capability set."
-msgstr ""
+msgstr "ロードされたライブラリに指定の機能があるかどうかを実行時に確認します。 この呼び出しは、<a class=\"el\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init()</a> の後に実行して、バックエンドが機能セットを更新したことを確認する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:391
 msgid "capability"
-msgstr ""
+msgstr "機能"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:391
 msgid ""
 "the <a class=\"el\" href=\"group__libusb__misc."
 "html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a> to check for"
-msgstr ""
+msgstr "the <a class=\"el\" href=\"group__libusb__misc.html#gaab1b3fa0728c06fafbee897795889bd5\">libusb_capability</a> to check for"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:395
 msgid "nonzero if the running library has the capability, 0 otherwise"
-msgstr ""
+msgstr "ゼロ以外の値の場合、実行中のライブラリに指定の機能があります。それ以外の場合は0です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:399
 msgid "<a id=\"gacf319b823a1a1a25cc934d80db2f28c7\"></a>"
-msgstr ""
+msgstr "<a id=\"gacf319b823a1a1a25cc934d80db2f28c7\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:400
@@ -1350,17 +1350,17 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gacf319b823a1a1a25cc934d80db2f28c7\">&#9670;&nbsp;</a></"
 "span>libusb_error_name()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gacf319b823a1a1a25cc934d80db2f28c7\">&#9670;&nbsp;</a></span>libusb_error_name()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:406
 msgid "const char* libusb_error_name"
-msgstr ""
+msgstr "const char* libusb_error_name"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:409
 msgid "<em>error_code</em>"
-msgstr ""
+msgstr "<em>error_code</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:414
@@ -1368,12 +1368,12 @@ msgid ""
 "Returns a constant NULL-terminated string with the ASCII name of a libusb "
 "error or transfer status code. The caller must not free() the returned "
 "string."
-msgstr ""
+msgstr "libusbエラーまたは転送ステータ・スコードのASCII名を含むNULLで終了する定数文字列を返します。呼び出し元は、返された文字列を free() してはいけません。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:417
 msgid "error_code"
-msgstr ""
+msgstr "error_code"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:417
@@ -1381,38 +1381,38 @@ msgid ""
 "The <a class=\"el\" href=\"group__libusb__misc."
 "html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> or "
 "libusb_transfer_status code to return the name of."
-msgstr ""
+msgstr "名前を返す <a class=\"el\" href=\"group__libusb__misc.html#gab2323aa0f04bc22038e7e1740b2f29ef\">libusb_error</a> または libusb_transfer_status コード。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:421
 msgid ""
 "The error name, or the string <b>UNKNOWN</b> if the value of error_code is "
 "not a known error / status code."
-msgstr ""
+msgstr "エラー名、またはerror_codeの値が既知のエラーコードまたはステータスコードでない場合は文字列 <b>UNKNOWN</b> です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:425
 msgid "<a id=\"ga61d07b01404fdea080cd16c1ed8be93d\"></a>"
-msgstr ""
+msgstr "<a id=\"ga61d07b01404fdea080cd16c1ed8be93d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:426
 msgid ""
 "<span class=\"permalink\"><a href=\"#ga61d07b01404fdea080cd16c1ed8be93d"
 "\">&#9670;&nbsp;</a></span>libusb_get_version()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga61d07b01404fdea080cd16c1ed8be93d\">&#9670;&nbsp;</a></span>libusb_get_version()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:432
 msgid ""
 "const struct <a class=\"el\" href=\"structlibusb__version.html"
 "\">libusb_version</a>* libusb_get_version"
-msgstr ""
+msgstr "const struct <a class=\"el\" href=\"structlibusb__version.html\">libusb_version</a>* libusb_get_version"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:434
 msgid "void&#160;"
-msgstr ""
+msgstr "void&#160;"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:440
@@ -1420,41 +1420,41 @@ msgid ""
 "Returns a pointer to const struct <a class=\"el\" href="
 "\"structlibusb__version.html\">libusb_version</a> with the version (major, "
 "minor, micro, nano and rc) of the running library."
-msgstr ""
+msgstr "実行中のライブラリのバージョン(major、 minor、 micro、 nano、 rc)を含む <a class=\"el\" href=\"structlibusb__version.html\"> へのポインタを返します。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:444
 msgid "<a id=\"gae3b1162b8e69b49bbf74dcbbdeeadbda\"></a>"
-msgstr ""
+msgstr "<a id=\"gae3b1162b8e69b49bbf74dcbbdeeadbda\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:445
 msgid ""
 "<span class=\"permalink\"><a href=\"#gae3b1162b8e69b49bbf74dcbbdeeadbda"
 "\">&#9670;&nbsp;</a></span>libusb_cpu_to_le16()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gae3b1162b8e69b49bbf74dcbbdeeadbda\">&#9670;&nbsp;</a></span>libusb_cpu_to_le16()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:454
 msgid "static uint16_t libusb_cpu_to_le16"
-msgstr ""
+msgstr "static uint16_t libusb_cpu_to_le16"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:456
 msgid "const uint16_t&#160;"
-msgstr ""
+msgstr "const uint16_t&#160;"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:457
 msgid "<em>x</em>"
-msgstr ""
+msgstr "<em>x</em>"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:463
 msgid ""
 "<span class=\"mlabels\"><span class=\"mlabel\">inline</span><span class="
 "\"mlabel\">static</span></span>"
-msgstr ""
+msgstr "<span class=\"mlabels\"><span class=\"mlabel\">inline</span><span class=\"mlabel\">static</span></span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:467
@@ -1462,22 +1462,22 @@ msgid ""
 "Convert a 16-bit value from host-endian to little-endian format. On little "
 "endian systems, this function does nothing. On big endian systems, the bytes "
 "are swapped."
-msgstr ""
+msgstr "16ビット値をホスト・エンディアン形式からリトル・エンディアン形式に変換します。リトル・エンディアン・システムでは、この関数は何もしません。ビッグ・エンディアン・システムでは、バイトが交換されます。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:469
 msgid "the host-endian value to convert"
-msgstr ""
+msgstr "変換したいホスト・エンドポイント値"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:473
 msgid "the value in little-endian byte order"
-msgstr ""
+msgstr "リトル・エンディアンのバイト順の値"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:477
 msgid "<a id=\"ga0badebde406e5f1874fb72ec6d1b60f4\"></a>"
-msgstr ""
+msgstr "<a id=\"ga0badebde406e5f1874fb72ec6d1b60f4\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:478
@@ -1485,24 +1485,24 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#ga0badebde406e5f1874fb72ec6d1b60f4\">&#9670;&nbsp;</a></"
 "span>libusb_setlocale()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ga0badebde406e5f1874fb72ec6d1b60f4\">&#9670;&nbsp;</a></span>libusb_setlocale()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:484
 msgid "int libusb_setlocale"
-msgstr ""
+msgstr "int libusb_setlocale"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:487
 msgid "<em>locale</em>"
-msgstr ""
+msgstr "<em>locale</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:492
 msgid ""
 "Set the language, and only the language, not the encoding! used for "
 "translatable libusb messages."
-msgstr ""
+msgstr "言語を設定します。エンコーディングではなく言語のみを設定してください！翻訳可能なlibusbメッセージに使用されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:493
@@ -1513,7 +1513,7 @@ msgid ""
 "optional region, country_region or codeset parts are ignored. This means "
 "that functions which return translatable strings will NOT honor the "
 "specified encoding. All strings returned are encoded as UTF-8 strings."
-msgstr ""
+msgstr "これは、デフォルトのsetlocale形式のロケール文字列を取ります。lang[-region] または lang[_country_region][.codeset] です。文字列のlang部分のみが使用され、 \"de\" などの2文字の ISO 639-1 コードのみが受け入れられます。 オプションのregion、country_region、codesetの部分は無視されます。 これは、翻訳可能な文字列を返す関数が指定したエンコーディングを尊重しないことを意味します。返されるすべての文字列は、UTF-8文字列としてエンコードされます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:494
@@ -1521,7 +1521,7 @@ msgid ""
 "If <a class=\"el\" href=\"group__libusb__misc."
 "html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a> is not "
 "called, all messages will be in English."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a> が呼び出されない場合、すべてのメッセージは英語になります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:495
@@ -1532,7 +1532,7 @@ msgid ""
 "the libusb log messages controlled through <a class=\"el\" href="
 "\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a"
 "\">libusb_set_debug()</a> are not translated, they are always in English."
-msgstr ""
+msgstr "次の関数は翻訳可能な文字列を返します: <a class=\"el\" href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a>  注意: <a class=\"el\" href=\"group__libusb__lib.html#ga5f8376b7a863a5a8d5b8824feb8a427a\">libusb_set_debug()</a> を介して制御されるlibusbログ・メッセージは翻訳されておらず、常に英語であることに注意してください。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:496
@@ -1540,44 +1540,44 @@ msgid ""
 "For POSIX UTF-8 environments if you want libusb to follow the standard "
 "locale settings, call libusb_setlocale(setlocale(LC_MESSAGES, NULL)), after "
 "your app has done its locale setup."
-msgstr ""
+msgstr "POSIX UTF-8環境で、libusbを標準のロケール設定に準拠させたい場合は、アプリがロケール設定を行った後、 libusb_setlocale(setlocale(LC_MESSAGES, NULL))  を呼び出します。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:499
 msgid "locale"
-msgstr ""
+msgstr "locale"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:499
 msgid ""
 "locale-string in the form of lang[_country_region][.codeset] or lang[-"
 "region], where lang is a 2 letter ISO 639-1 code"
-msgstr ""
+msgstr "lang[_country_region][.codeset] または lang[-region]lang [_country_region] 形式のロケール文字列。ここで、langは2文字の ISO 639-1 コードです。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:503
 msgid "LIBUSB_SUCCESS on success"
-msgstr ""
+msgstr "LIBUSB_SUCCESS ならば成功"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:505
 msgid "LIBUSB_ERROR_INVALID_PARAM if the locale doesn't meet the requirements"
-msgstr ""
+msgstr "LIBUSB_ERROR_INVALID_PARAM ロケールが要件を満たしていない場合は"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:507
 msgid "LIBUSB_ERROR_NOT_FOUND if the requested language is not supported"
-msgstr ""
+msgstr "LIBUSB_ERROR_NOT_FOUND 要求された言語がサポートされていない場合"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:509
 msgid "a LIBUSB_ERROR code on other errors"
-msgstr ""
+msgstr "LIBUSB_ERROR ならば他のエラー"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:513
 msgid "<a id=\"gadee87eb940a5417429fe105de9e3b273\"></a>"
-msgstr ""
+msgstr "<a id=\"gadee87eb940a5417429fe105de9e3b273\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:514
@@ -1585,17 +1585,17 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gadee87eb940a5417429fe105de9e3b273\">&#9670;&nbsp;</a></"
 "span>libusb_strerror()"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gadee87eb940a5417429fe105de9e3b273\">&#9670;&nbsp;</a></span>libusb_strerror()"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:520
 msgid "const char* libusb_strerror"
-msgstr ""
+msgstr "const char* libusb_strerror"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:523
 msgid "<em>errcode</em>"
-msgstr ""
+msgstr "<em>errcode</em>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:528
@@ -1604,44 +1604,44 @@ msgid ""
 "this description is intended for displaying to the end user and will be in "
 "the language set by <a class=\"el\" href=\"group__libusb__misc."
 "html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a>."
-msgstr ""
+msgstr "指定されたエラー・コードの簡単な説明を含む文字列定数を返します。この説明はエンド・ユーザーに表示することを目的としており <a class=\"el\" href=\"group__libusb__misc.html#ga0badebde406e5f1874fb72ec6d1b60f4\">libusb_setlocale()</a> によって設定された言語になります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:529
 msgid "The returned string is encoded in UTF-8."
-msgstr ""
+msgstr "返される文字列はUTF-8でエンコードされます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:530
 msgid ""
 "The messages always start with a capital letter and end without any dot. The "
 "caller must not free() the returned string."
-msgstr ""
+msgstr "メッセージは常に大文字で始まり、ピリオドなしで終わります。呼び出し元は返された文字列を free() してはいけません。"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:533
 msgid "errcode"
-msgstr ""
+msgstr "errcode"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:533
 msgid "the error code whose description is desired"
-msgstr ""
+msgstr "説明が必要なエラー・コード"
 
 #. type: Content of: <html><body><div><div><div><dl><dd>
 #: source/api-1.0/group__libusb__misc.html:537
 msgid "a short description of the error code in UTF-8 encoding"
-msgstr ""
+msgstr "UTF-8エンコーディングされた、エラー・コードの簡単な説明"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:541
 msgid "Variable Documentation"
-msgstr ""
+msgstr "変数解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__misc.html:542
 msgid "<a id=\"gaaa50c37efa6f776907c5b407708c9d42\"></a>"
-msgstr ""
+msgstr "<a id=\"gaaa50c37efa6f776907c5b407708c9d42\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/group__libusb__misc.html:543
@@ -1649,43 +1649,43 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#gaaa50c37efa6f776907c5b407708c9d42\">&#9670;&nbsp;</a></"
 "span>usbi_locale_supported"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#gaaa50c37efa6f776907c5b407708c9d42\">&#9670;&nbsp;</a></span>usbi_locale_supported"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:552
 msgid ""
 "const char* const usbi_locale_supported[] = { &quot;en&quot;, &quot;"
 "nl&quot;, &quot;fr&quot;, &quot;ru&quot;, &quot;de&quot;, &quot;hu&quot; }"
-msgstr ""
+msgstr "const char* const usbi_locale_supported[] = { &quot;en&quot;, &quot;nl&quot;, &quot;fr&quot;, &quot;ru&quot;, &quot;de&quot;, &quot;hu&quot; }"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:557
 msgid "<span class=\"mlabels\"><span class=\"mlabel\">static</span></span>"
-msgstr ""
+msgstr "<span class=\"mlabels\"><span class=\"mlabel\">static</span></span>"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__misc.html:561
 msgid ""
 "How to add a new <a class=\"el\" href=\"group__libusb__misc."
 "html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> translation:"
-msgstr ""
+msgstr "新しい <a class=\"el\" href=\"group__libusb__misc.html#gadee87eb940a5417429fe105de9e3b273\">libusb_strerror()</a> 翻訳を追加する方法:"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:563
 msgid "Download the latest <code>strerror.c</code> from:"
-msgstr ""
+msgstr "最新の <code>strerror.c</code> を以下からダウンロードします:"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:564
 msgid ""
 "<a href=\"https://raw.github.com/libusb/libusb/master/libusb/strerror.c"
 "\">https://raw.github.com/libusb/libusb/master/libusb/strerror.c</a>"
-msgstr ""
+msgstr "<a href=\"https://raw.github.com/libusb/libusb/master/libusb/strerror.c\">https://raw.github.com/libusb/libusb/master/libusb/strerror.c</a>"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:566
 msgid "Open the file in an UTF-8 capable editor"
-msgstr ""
+msgstr "UTF-8対応のエディターでファイルを開きます"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:568
@@ -1693,12 +1693,12 @@ msgid ""
 "Add the 2 letter <a href=\"http://en.wikipedia.org/wiki/"
 "List_of_ISO_639-1_codes\">ISO 639-1</a> code for your locale at the end of "
 "<code>usbi_locale_supported</code>[]"
-msgstr ""
+msgstr "<code>usbi_locale_supported</code>[] の最後に、ロケールの2文字の <a href=\"http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes\">ISO 639-1</a> コードを追加します。"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:569
 msgid "Eg. for Chinese, you would add \"zh\" so that:"
-msgstr ""
+msgstr "例えば、中国語の場合、次のように \"zh\" を追加します:"
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:569
@@ -1708,13 +1708,13 @@ msgid ""
 "{ <span class=\"stringliteral\">&quot;en&quot;</span>, <span class="
 "\"stringliteral\">&quot;nl&quot;</span>, <span class=\"stringliteral\">&quot;"
 "fr&quot;</span> };"
-msgstr ""
+msgstr "... <a class=\"code\" href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>[] = { <span class=\"stringliteral\">&quot;en&quot;</span>, <span class=\"stringliteral\">&quot;nl&quot;</span>, <span class=\"stringliteral\">&quot;fr&quot;</span> };"
 
 #.  fragment 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:570
 msgid "becomes:"
-msgstr ""
+msgstr "これに以下のように追加します:"
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:570
@@ -1724,96 +1724,97 @@ msgid ""
 "{ <span class=\"stringliteral\">&quot;en&quot;</span>, <span class="
 "\"stringliteral\">&quot;nl&quot;</span>, <span class=\"stringliteral\">&quot;"
 "fr&quot;</span>, <span class=\"stringliteral\">&quot;zh&quot;</span> };"
-msgstr ""
+msgstr "... <a class=\"code\" href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>[] = { <span class=\"stringliteral\">&quot;en&quot;</span>, <span class=\"stringliteral\">&quot;nl&quot;</span>, <span class=\"stringliteral\">&quot;fr&quot;</span>, <span class=\"stringliteral\">&quot;zh&quot;</span> };"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:573
 msgid ""
 "Copy the <code>{ / * English (en) * / ... }</code> section and add it at the "
 "end of <code>usbi_localized_errors</code>"
-msgstr ""
+msgstr "<code>{ / * English (en) * / ... }</code> 部分をコピって、<code>usbi_localized_errors</code> の最後に追加します"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:574
 msgid ""
 "Eg. for Chinese, the last section of <code>usbi_localized_errors</code> "
 "could look like:"
-msgstr ""
+msgstr "例えば、中国語の場合、 <code>usbi_localized_errors</code> の最後の部分は以下のようになります:"
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:574
 msgid "}, { / * Chinese (zh) * /"
-msgstr ""
+msgstr "}, { / * Chinese (zh) * /"
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:575
 msgid "<span class=\"stringliteral\">&quot;Success&quot;</span>,"
-msgstr ""
+msgstr "<span class=\"stringliteral\">&quot;Success&quot;</span>,"
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:576
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:577
 msgid "<span class=\"stringliteral\">&quot;Other error&quot;</span>,"
-msgstr ""
+msgstr "<span class=\"stringliteral\">&quot;Other error&quot;</span>,"
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:578
 msgid "},"
-msgstr ""
+msgstr "},"
 
 #. type: Content of: <html><body><div><div><div><ol><li><div><div>
 #: source/api-1.0/group__libusb__misc.html:579
 msgid "};"
-msgstr ""
+msgstr "};"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:582
 msgid ""
 "Translate each of the English messages from the section you copied into your "
 "language"
-msgstr ""
+msgstr "コピった部分の各英語メッセージを自分の言語に翻訳します"
 
+# リポジトリがgithubにあるのでプルリクでええんちゃうか？
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/group__libusb__misc.html:584
 msgid ""
 "Save the file (in UTF-8 format) and send it to <code>libusb-devel@lists."
 "sourceforge.net</code>"
-msgstr ""
+msgstr "ファイルを(UTF-8形式で)保存し、 <code>libusb-devel@lists.sourceforge.net</code> に送信します。"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__misc.html:590
 msgid ""
 "<a href=\"group__libusb__misc."
 "html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__misc.html#gaaa50c37efa6f776907c5b407708c9d42\">usbi_locale_supported</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__misc.html:590
 msgid "static const char *const usbi_locale_supported[]"
-msgstr ""
+msgstr "static const char *const usbi_locale_supported[]"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/group__libusb__misc.html:590
 msgid "<b>Definition:</b> strerror.c:51"
-msgstr ""
+msgstr "<b>定義:</b> strerror.c:51"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/group__libusb__misc.html:592
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/group__libusb__misc.html:594
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/group__libusb__misc.html:595
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
