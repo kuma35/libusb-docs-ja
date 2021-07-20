@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 04:09+0900\n"
+"PO-Revision-Date: 2021-07-20 12:43+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -76,7 +76,7 @@ msgid ""
 "html#ga18d2b08a065857ff7ae4f3f719c115cc\">libusb_free_config_descriptor()</"
 "a>) should not be called concurrently on the same resource. This is no "
 "different than concurrently calling free() on the same allocated pointer."
-msgstr ""
+msgstr "リソースを解放する関数(<a class=\"el\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a>、 <a class=\"el\" href=\"group__libusb__desc.html#ga18d2b08a065857ff7ae4f3f719c115cc\">libusb_free_config_descriptor()</a>など)の呼び出しは、同じリソースで同時に呼び出さないでください。 これは、割り当てられたポインタに複数の free() を呼び出すのと同じです。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:54
@@ -89,7 +89,7 @@ msgid ""
 "from multiple threads. The results will likely not be what you want unless "
 "the input parameters are all the same, but its best to avoid this situation "
 "entirely."
-msgstr ""
+msgstr "個々の <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> は、単一のスレッドで準備する必要があります。 つまり、 <a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> のフィールドに2つのスレッドが同時に入力することはできません。 これは、複数のスレッドから同じ宛先バッファーを使用して sprintf() を呼び出すことに例えることができます。 入力パラメーターがすべて同じでない限り、結果は希望どおりにならない可能性があります。しかし、そもそも、この状況を完全に回避するのがいちばん良い方法です。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:55
@@ -99,7 +99,7 @@ msgid ""
 "be accessed between the time the transfer is submitted and the time the "
 "completion callback is invoked. You can think of \"ownership\" of these "
 "things as being transferred to libusb while the transfer is active."
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html\">libusb_transfer</a> 構造体とそれに関連するデータ・バッファの両方に、転送が送信されてから完了コールバックが呼び出されるまでの間はアクセスしないでください。これら構造体やデータ・バッファの \"所有権\" も、転送がアクティブな間はlibusbに転送されていると考えることができます。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:56
@@ -112,19 +112,19 @@ msgid ""
 "should not be called concurrently on the resource. Though doing so will not "
 "lead to any undefined behavior, it will likely produce results that the "
 "application does not expect."
-msgstr ""
+msgstr "さまざまな \"セッター\"(setter) 関数(<a class=\"el\" href=\"group__libusb__lib.html#ga2efb66b8f16ffb0851f3907794c06e20\">libusb_set_log_cb()</a>、 <a class=\"el\" href=\"group__libusb__poll.html#ga1b7b2deb193f2e9ffda5e727361d7e67\">libusb_set_pollfd_notifiers()</a> など)をそのリソースで同時に呼び出すことはできません。そうすることで未定義の動作が発生することはありませんが、アプリケーションで予期しない結果が生じる可能性があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:58
 msgid ""
 "Rules for multiple threads and asynchronous I/O are detailed <a class=\"el\" "
 "href=\"libusb_mtasync.html\">here</a>."
-msgstr ""
+msgstr "複数のスレッドと非同期入出力のルールについては、<a class=\"el\"href=\"libusb_mtasync.html\">マルチ・スレッド・アプリケーションと非同期入出力</a> で詳しく説明しています。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_caveats.html:59
 msgid "<a class=\"anchor\" id=\"fork\"></a> Fork considerations"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"fork\"></a> フォーク(fork)に関する考慮"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:61
@@ -137,7 +137,7 @@ msgid ""
 "process's <a class=\"el\" href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> to get into an "
 "inconsistent state."
-msgstr ""
+msgstr "libusbは、fork() 呼び出しが全体で機能するように<em>設計されていません</em>。 プラットフォームによっては、子プロセスが利用できないリソースが親プロセスにある場合があります(Linuxの活線挿抜監視スレッドなど)。 さらに、親プロセスと子プロセスはlibusbの内部ファイル・デスクリプターを共有するため、子プロセスから何らかの方法でlibusbを使用すると、親プロセスの <a class=\"el\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> が不整合な状態になる可能性があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:62
@@ -147,12 +147,12 @@ msgid ""
 "process needing to clean up state or having access to these file "
 "descriptors. Other platforms may not be so forgiving, so consider yourself "
 "warned!"
-msgstr ""
+msgstr "Linuxでは、libusbのファイル・デスクリプターはCLOEXECとしてマークされます。これは、子プロセスが状態をクリーン・アップする必要があることや、これらのファイル・デスクリプターにアクセスすることを心配せずに、 fork() および exec() を安全に実行できることを意味します。 他のプラットフォームはそれほど寛容ではないかもしれないので、各自ご注意下さい！"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_caveats.html:63
 msgid "<a class=\"anchor\" id=\"devresets\"></a> Device resets"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"devresets\"></a> デバイス・リセット"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:65
@@ -162,7 +162,7 @@ msgid ""
 "allows you to reset a device. If your program has to call such a function, "
 "it should obviously be aware that the reset will cause device state to "
 "change (e.g. register values may be reset)."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#gafee9c4638f1713ca5faa867948878111\">libusb_reset_device()</a> 関数を使用すると、デバイスをリセットできます。 プログラムがそのような関数を呼び出さなければならない場合、リセットによってデバイスの状態が変化することをちゃんと認識しておく必要があります(たとえば、レジスタ値がリセットされる可能性があります)。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:66
@@ -171,7 +171,7 @@ msgid ""
 "working with, at any time. libusb does not offer a mechanism to inform you "
 "when this has happened, so if someone else resets your device it will not be "
 "clear to your own program why the device state has changed."
-msgstr ""
+msgstr "問題は、他のプログラムが、そのプログラムが動作しているデバイスをいつでもリセットする可能性があることです。 libusbは、これが発生したときに通知するメカニズムを提供していないため、他の誰かがデバイスをリセットした場合、そのデバイスの状態が変更された理由は自分のプログラムでは明確ではありません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:67
@@ -182,12 +182,12 @@ msgid ""
 "Linux kernel USB stack allows such reset notifications to be delivered to in-"
 "kernel USB drivers, but it is not clear how such notifications could be "
 "delivered to second-class drivers that live in user space."
-msgstr ""
+msgstr "つまり、これはユーザー空間でのドライバーの書き込みの制限です。基盤となるカーネルのUSBスタックから分離すると、オペレーティング・システムがそのような通知をプログラムに配信することが困難になります。LinuxカーネルのUSBスタックでは、このようなリセット通知をカーネル内のUSBドライバーに配信できますが、ユーザー空間に存在するセカンド・クラスのドライバーにこのような通知を配信する方法は明確にはありません。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_caveats.html:68
 msgid "<a class=\"anchor\" id=\"blockonly\"></a> Blocking-only functionality"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"blockonly\"></a> ブロッキングのみの機能"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:70
@@ -195,14 +195,14 @@ msgid ""
 "The functionality listed below is only available through synchronous, "
 "blocking functions. There are no asynchronous/non-blocking alternatives, and "
 "no clear ways of implementing these."
-msgstr ""
+msgstr "以下にリストされている機能は、同期のブロック機能を介してのみ使用できます。 非同期/非ブロッキングの代替手段はなく、これらを実装する明確な方法もありません。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:72
 msgid ""
 "Configuration activation (<a class=\"el\" href=\"group__libusb__dev."
 "html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a>)"
-msgstr ""
+msgstr "構成のアクティブ化(<a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a>)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:73
@@ -210,35 +210,35 @@ msgid ""
 "Interface/alternate setting activation (<a class=\"el\" href="
 "\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a"
 "\">libusb_set_interface_alt_setting()</a>)"
-msgstr ""
+msgstr "インターフェイス/代替設定 のアクティブ化(<a class=\"el\" href=\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a\">libusb_set_interface_alt_setting()</a>)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:74
 msgid ""
 "Releasing of interfaces (<a class=\"el\" href=\"group__libusb__dev."
 "html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a>)"
-msgstr ""
+msgstr "インターフェイスの解放(<a class=\"el\" href=\"group__libusb__dev.html#ga49b5cb0d894f6807cd1693ef29aecbfa\">libusb_release_interface()</a>)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:75
 msgid ""
 "Clearing of halt/stall condition (<a class=\"el\" href=\"group__libusb__dev."
 "html#gab794bbc0b055d140f186f5a4d39c0891\">libusb_clear_halt()</a>)"
-msgstr ""
+msgstr "停止(halt)/失速(stall)状態のクリア(<a class=\"el\" href=\"group__libusb__dev.html#gab794bbc0b055d140f186f5a4d39c0891\">libusb_clear_halt()</a>)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:76
 msgid ""
 "Device resets (<a class=\"el\" href=\"group__libusb__dev."
 "html#gafee9c4638f1713ca5faa867948878111\">libusb_reset_device()</a>)"
-msgstr ""
+msgstr "デバイス・リセット(<a class=\"el\" href=\"group__libusb__dev.html#gafee9c4638f1713ca5faa867948878111\">libusb_reset_device()</a>)"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_caveats.html:78
 msgid ""
 "<a class=\"anchor\" id=\"configsel\"></a> Configuration selection and "
 "handling"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"configsel\"></a> 構成(configuration)の選択と処理"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:80
@@ -247,7 +247,7 @@ msgid ""
 "that the corresponding device may be in unconfigured state. For devices with "
 "multiple configurations, there is also a chance that the configuration "
 "currently selected is not the one that the application wants to use."
-msgstr ""
+msgstr "libusbがデバイス・ハンドルをアプリケーションに提示すると、対応するデバイスが未構成の状態になる可能性があります。複数の構成を持つデバイスの場合、現在選択されている構成がアプリケーションで使用したい構成ではない可能性もあります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:81
@@ -256,7 +256,7 @@ msgid ""
 "\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed"
 "\">libusb_set_configuration()</a> early on during your device initialization "
 "routines, but there are caveats to be aware of:"
-msgstr ""
+msgstr "明らかな解決策は、デバイスの初期化ルーチンの早い段階で <a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a> への呼び出しを追加することですが、以下の注意事項があります:"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_caveats.html:82
@@ -265,7 +265,7 @@ msgid ""
 "\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed"
 "\">libusb_set_configuration()</a> using the same configuration value will "
 "cause a lightweight device reset. This may not be desirable behaviour."
-msgstr ""
+msgstr "デバイスがすでに目的の構成である場合、同じ構成値を使用して <a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a> を呼び出すと、軽量デバイス(lightweight device)がリセットされます。これは望ましい動作ではない場合があります。"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_caveats.html:83
@@ -279,7 +279,7 @@ msgid ""
 "device reset, so <a class=\"el\" href=\"group__libusb__dev."
 "html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a> "
 "will fail. (Luckily the device in question only has a single configuration.)"
-msgstr ""
+msgstr "目的の構成がすでにアクティブになっている場合、libusbは軽量デバイスのリセットを実行することさえできない場合があります。たとえば、指紋リーダー付きのUSBキーボードを考えてみましょう。libusbを介して指紋リーダー・インターフェイスを駆動することに興味がありますが、カーネルのUSB-HIDドライバーはほとんどの場合キーボード・インターフェイスを要求します。カーネルがインターフェイスを要求しているため、軽量デバイス(lightweight device)のリセットを実行することさえできず、 <a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a> は失敗します。 (幸いなことに、問題のデバイスはの1つの構成だけを持ちます。）"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_caveats.html:84
@@ -289,7 +289,7 @@ msgid ""
 "be detached from all the interfaces before <a class=\"el\" href="
 "\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed"
 "\">libusb_set_configuration()</a> may succeed."
-msgstr ""
+msgstr "他のプログラムまたはドライバーがインターフェイスを要求している場合、libusbは構成を設定できません。 特に、これは、 <a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a> が成功する前に、カーネル・ドライバーをすべてのインターフェイスから切り離す必要があることを意味します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:86
@@ -297,12 +297,12 @@ msgid ""
 "One solution to some of the above problems is to consider the currently "
 "active configuration. If the configuration we want is already active, then "
 "we don't have to select any configuration:"
-msgstr ""
+msgstr "上記の問題のいくつかに対する1つの解決策は、現在アクティブな構成を調べることです。必要な構成がすでにアクティブになっている場合は、構成を選択する必要はありません:"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_caveats.html:86
 msgid "cfg = -1;"
-msgstr ""
+msgstr "cfg = -1;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_caveats.html:87
@@ -310,12 +310,12 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__dev."
 "html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration</a>(dev, "
 "&amp;cfg);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration</a>(dev, &amp;cfg);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_caveats.html:88
 msgid "<span class=\"keywordflow\">if</span> (cfg != desired)"
-msgstr ""
+msgstr "<span class=\"keywordflow\">if</span> (cfg != desired)"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_caveats.html:89
@@ -323,7 +323,7 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__dev."
 "html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration</a>(dev, "
 "desired);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration</a>(dev, desired);"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:90
@@ -333,7 +333,7 @@ msgid ""
 "<em>after</em> the <a class=\"el\" href=\"group__libusb__dev."
 "html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration()</a> "
 "call."
-msgstr ""
+msgstr "これはおそらくほとんどのシナリオに適していますが、本質的に際どいものです。なぜなら、 <a class=\"el\" href=\"group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration()</a> の<em>呼び出し後</em>に、別のアプリケーションまたはドライバーが選択した構成を変更する場合があるからです。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:91
@@ -344,52 +344,52 @@ msgid ""
 "configuration after your application calls <a class=\"el\" href="
 "\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed"
 "\">libusb_set_configuration()</a>."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a> が成功した場合でも、あなたのアプリケーションが <a class=\"el\" href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration()</a> を呼び出した後、他のアプリケーションまたはドライバーが構成を変更する可能性があることを考慮してください。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:92
 msgid ""
 "One possible way to lock your device into a specific configuration is as "
 "follows:"
-msgstr ""
+msgstr "デバイスを特定の構成にロックする方法の一つは以下のとおりです:"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_caveats.html:93
 msgid ""
 "Set the desired configuration (or use the logic above to realise that it is "
 "already in the desired configuration)"
-msgstr ""
+msgstr "目的の構成を設定します(または上記のロジックを使用して、既に目的の構成になっていることを確認します)"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_caveats.html:94
 msgid "Claim the interface that you wish to use"
-msgstr ""
+msgstr "あなたが使用したいインターフェイスを要求する"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_caveats.html:95
 msgid ""
 "Check that the currently active configuration is the one that you want to "
 "use."
-msgstr ""
+msgstr "現在アクティブな構成が、あなたが使用したい構成であることを確認してください。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:97
 msgid ""
 "The above method works because once an interface is claimed, no application "
 "or driver is able to select another configuration."
-msgstr ""
+msgstr "上記の方法が機能するのは、インターフェイスが要求されると、アプリケーションまたはドライバーは別の構成を選択できないためです。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_caveats.html:98
 msgid "<a class=\"anchor\" id=\"earlycomp\"></a> Early transfer completion"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"earlycomp\"></a> 転送の早期完了"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:100
 msgid ""
 "NOTE: This section is currently Linux-centric. I am not sure if any of these "
 "considerations apply to Darwin or other platforms."
-msgstr ""
+msgstr "注意: この節は現在Linuxを主眼に記述されています。これらの考慮事項のいずれがDarwinまたは他のプラットフォームに適用されるかどうかはわかりません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:101
@@ -398,7 +398,7 @@ msgid ""
 "one packet than the transfer buffer allows for) then libusb is designed to "
 "terminate the transfer immediately, not transferring or receiving any more "
 "data unless other transfers have been queued by the user."
-msgstr ""
+msgstr "転送が早期に完了すると(つまり、転送バッファーで許可されるよりも少ないデータが1つのパケットで送受信される場合)、libusbは転送をすぐに終了するように設計されており、他の転送がユーザーによってキューに入れられていない限り、それ以上データを転送または受信しません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_caveats.html:102
@@ -410,19 +410,19 @@ msgid ""
 "added to the buffer. Still, this is not a nice solution because it loses the "
 "information about the end of the short packet, and the user probably wanted "
 "that surplus data to arrive in the next logical transfer."
-msgstr ""
+msgstr "旧来のプラットフォームでは、libusbはすべての状況でこれを実行できるわけではありません。不完全なパケットが発生した後、\"余剰\" データが転送される場合があります。 libusbの最近のバージョンでは、この情報が保持され(転送のデータ長が更新されます)、デバイスからホストへの転送では、余分なデータがバッファーに追加されました。それでも、これは短いパケットの終わりに関する情報を失うため、良い解決策ではありません。ユーザーは、余ったデータが次の論理転送で到着することを望んでいた可能性があります。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_caveats.html:103
 msgid "<a class=\"anchor\" id=\"zlp\"></a> Zero length packets"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"zlp\"></a> 長さゼロのパケット"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:106
 msgid ""
 "libusb is able to send a packet of zero length to an endpoint simply by "
 "submitting a transfer of zero length."
-msgstr ""
+msgstr "libusbでは長さゼロの転送を送信すれば、長さがゼロのパケットをエンドポイントに送信できます。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:107
@@ -431,44 +431,44 @@ msgid ""
 "html#gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f"
 "\">LIBUSB_TRANSFER_ADD_ZERO_PACKET</a> flag is currently only supported on "
 "Linux."
-msgstr ""
+msgstr "The <a class=\"el\" href=\"group__libusb__asyncio.html#gga1fb47dd0f7c209b60a3609ff0c03d56da26b66334b6ec0537c49841ca623d901f\">LIBUSB_TRANSFER_ADD_ZERO_PACKET</a> フラグは現在、Linuxのみでサポートされます。"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_caveats.html:111
 msgid ""
 "<a href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed"
 "\">libusb_set_configuration</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed\">libusb_set_configuration</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_caveats.html:111
 msgid ""
 "int libusb_set_configuration(libusb_device_handle *dev_handle, int "
 "configuration)"
-msgstr ""
+msgstr "int libusb_set_configuration(libusb_device_handle *dev_handle, int configuration)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_caveats.html:111
 msgid "<b>Definition:</b> core.c:1619"
-msgstr ""
+msgstr "<b>定義:</b> core.c:1619"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_caveats.html:112
 msgid ""
 "<a href=\"group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d"
 "\">libusb_get_configuration</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#gae921014b888b105471a31d54c77c1c4d\">libusb_get_configuration</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_caveats.html:112
 msgid ""
 "int libusb_get_configuration(libusb_device_handle *dev_handle, int *config)"
-msgstr ""
+msgstr "int libusb_get_configuration(libusb_device_handle *dev_handle, int *config)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_caveats.html:112
 msgid "<b>Definition:</b> core.c:1533"
-msgstr ""
+msgstr "<b>定義:</b> core.c:1533"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/libusb_caveats.html:114
