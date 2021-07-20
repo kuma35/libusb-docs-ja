@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: libusb_pollfd Struct Reference</title>
+<title>libusb: libusb_pollfd 構造体リファレンス</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,9 +44,9 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">データ・フィールド</a>  </div>
   <div class="headertitle">
-<div class="title">libusb_pollfd Struct Reference<div class="ingroups"><a class="el" href="group__libusb__poll.html">Polling and timing</a></div></div>  </div>
+<div class="title">libusb_pollfd 構造体リファレンス<div class="ingroups"><a class="el" href="group__libusb__poll.html">ポーリングとタイミング</a></div></div>  </div>
 </div>
 <!--header-->
 <div class="contents">
@@ -54,20 +54,20 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <p><code>#include &lt;<a class="el"
 href="libusb_8h_source.html">libusb.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> Data Fields</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> データ・フィールド</h2></td></tr>
 <tr class="memitem:a6bf9823709974cfb204e008eae7d451a"><td class="memItemLeft" align="right" valign="top"><a id="a6bf9823709974cfb204e008eae7d451a"></a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__pollfd.html#a6bf9823709974cfb204e008eae7d451a">fd</a></td></tr>
-<tr class="memdesc:a6bf9823709974cfb204e008eae7d451a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Numeric file descriptor. <br /></td></tr>
+<tr class="memdesc:a6bf9823709974cfb204e008eae7d451a"><td class="mdescLeft">&#160;</td><td class="mdescRight">数値(numeric)ファイル・デスクリプター <br /></td></tr>
 <tr class="separator:a6bf9823709974cfb204e008eae7d451a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e6391383c132343ecd2f34b78ca017e"><td class="memItemLeft" align="right" valign="top">short&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__pollfd.html#a5e6391383c132343ecd2f34b78ca017e">events</a></td></tr>
-<tr class="memdesc:a5e6391383c132343ecd2f34b78ca017e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event flags to poll for from &lt;poll.h&gt;.  <a
-href="structlibusb__pollfd.html#a5e6391383c132343ecd2f34b78ca017e">More...</a><br /></td></tr>
+<tr class="memdesc:a5e6391383c132343ecd2f34b78ca017e"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt;poll.h&gt; からポーリングするイベント・フラグ。<a
+href="structlibusb__pollfd.html#a5e6391383c132343ecd2f34b78ca017e">さらに…</a><br /></td></tr>
 <tr class="separator:a5e6391383c132343ecd2f34b78ca017e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>File descriptor for polling </p>
-</div><h2 class="groupheader">Field Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳細説明</h2>
+<div class="textblock"><p>ポーリングの為のファイル・デスクリプター </p>
+</div><h2 class="groupheader">フィールド解説</h2>
 <a id="a5e6391383c132343ecd2f34b78ca017e"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#a5e6391383c132343ecd2f34b78ca017e">&#9670;&nbsp;</a></span>events</h2>
@@ -81,14 +81,12 @@ href="#a5e6391383c132343ecd2f34b78ca017e">&#9670;&nbsp;</a></span>events</h2>
       </table>
 </div><div class="memdoc">
 
-<p>Event flags to poll for from &lt;poll.h&gt;. </p>
-<p>POLLIN indicates that you should monitor this file descriptor for becoming
-ready to read from, and POLLOUT indicates that you should monitor this file
-descriptor for nonblocking write readiness. </p>
+<p>&lt;poll.h&gt; からポーリングするイベント・フラグ。 </p>
+<p>POLLINは、読み取りの準備ができているかどうかこのファイル・デスクリプターを監視する必要があることを示し、POLLOUTは、非ブロッキング書き込みの準備ができているかどうかこのファイル・デスクリプターを監視する必要があることを示します。 </p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>この構造体の文書は、以下のファイルから生成されました:<ul>
 <li><a class="el" href="libusb_8h_source.html">libusb.h</a></li>
 </ul>
 </div>

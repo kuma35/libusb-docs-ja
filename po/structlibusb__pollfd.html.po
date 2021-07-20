@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:31+0900\n"
+"PO-Revision-Date: 2021-07-20 10:52+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__pollfd.html:8
 msgid "libusb: libusb_pollfd Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_pollfd 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__pollfd.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__pollfd.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__pollfd.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__pollfd.html:36
@@ -42,47 +42,47 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__pollfd.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__pollfd.html:47
 msgid "libusb_pollfd Struct Reference"
-msgstr ""
+msgstr "libusb_pollfd 構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__pollfd.html:47
 msgid ""
 "<a class=\"el\" href=\"group__libusb__poll.html\">Polling and timing</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__poll.html\">ポーリングとタイミング</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__pollfd.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__pollfd.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:55
 msgid "<a id=\"a6bf9823709974cfb204e008eae7d451a\"></a> int&#160;"
-msgstr ""
+msgstr "<a id=\"a6bf9823709974cfb204e008eae7d451a\"></a> int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:56
 msgid ""
 "<a class=\"el\" href=\"structlibusb__pollfd."
 "html#a6bf9823709974cfb204e008eae7d451a\">fd</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__pollfd.html#a6bf9823709974cfb204e008eae7d451a\">fd</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:57
@@ -90,73 +90,73 @@ msgstr ""
 #: source/api-1.0/structlibusb__pollfd.html:60
 #: source/api-1.0/structlibusb__pollfd.html:61
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:57
 msgid "Numeric file descriptor."
-msgstr ""
+msgstr "数値(numeric)ファイル・デスクリプター"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:59
 msgid "short&#160;"
-msgstr ""
+msgstr "short&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:59
 msgid ""
 "<a class=\"el\" href=\"structlibusb__pollfd."
 "html#a5e6391383c132343ecd2f34b78ca017e\">events</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__pollfd.html#a5e6391383c132343ecd2f34b78ca017e\">events</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:60
 msgid ""
 "Event flags to poll for from &lt;poll.h&gt;.  <a href=\"structlibusb__pollfd."
 "html#a5e6391383c132343ecd2f34b78ca017e\">More...</a>"
-msgstr ""
+msgstr "&lt;poll.h&gt; からポーリングするイベント・フラグ。<a href=\"structlibusb__pollfd.html#a5e6391383c132343ecd2f34b78ca017e\">さらに…</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__pollfd.html:63
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__pollfd.html:63
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__pollfd.html:64
 msgid "File descriptor for polling"
-msgstr ""
+msgstr "ポーリングの為のファイル・デスクリプター"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__pollfd.html:65
 msgid "Field Documentation"
-msgstr ""
+msgstr "フィールド解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__pollfd.html:66
 msgid "<a id=\"a5e6391383c132343ecd2f34b78ca017e\"></a>"
-msgstr ""
+msgstr "<a id=\"a5e6391383c132343ecd2f34b78ca017e\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__pollfd.html:67
 msgid ""
 "<span class=\"permalink\"><a href=\"#a5e6391383c132343ecd2f34b78ca017e"
 "\">&#9670;&nbsp;</a></span>events"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a5e6391383c132343ecd2f34b78ca017e\">&#9670;&nbsp;</a></span>events"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__pollfd.html:73
 msgid "short libusb_pollfd::events"
-msgstr ""
+msgstr "short libusb_pollfd::events"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__pollfd.html:78
 msgid "Event flags to poll for from &lt;poll.h&gt;."
-msgstr ""
+msgstr "&lt;poll.h&gt; からポーリングするイベント・フラグ。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__pollfd.html:79
@@ -164,32 +164,32 @@ msgid ""
 "POLLIN indicates that you should monitor this file descriptor for becoming "
 "ready to read from, and POLLOUT indicates that you should monitor this file "
 "descriptor for nonblocking write readiness."
-msgstr ""
+msgstr "POLLINは、読み取りの準備ができているかどうかこのファイル・デスクリプターを監視する必要があることを示し、POLLOUTは、非ブロッキング書き込みの準備ができているかどうかこのファイル・デスクリプターを監視する必要があることを示します。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__pollfd.html:83
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この構造体の文書は、以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__pollfd.html:84
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__pollfd.html:88
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__pollfd.html:90
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__pollfd.html:91
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
