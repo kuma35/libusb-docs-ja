@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:23+0900\n"
+"PO-Revision-Date: 2021-07-21 02:10+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/libusb_io.html:8
 msgid "libusb: Synchronous and asynchronous device I/O"
-msgstr ""
+msgstr "libusb: 同期・非同期デバイス入出力"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/libusb_io.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/libusb_io.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/libusb_io.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/libusb_io.html:36
@@ -42,24 +42,24 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/libusb_io.html:45
 msgid "Synchronous and asynchronous device I/O"
-msgstr ""
+msgstr "同期・非同期デバイス入出力"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_io.html:48
 msgid "<a class=\"anchor\" id=\"io_intro\"></a> Introduction"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"io_intro\"></a> はじめに"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:50
 msgid ""
 "If you're using libusb in your application, you're probably wanting to "
 "perform I/O with devices - you want to perform USB data transfers."
-msgstr ""
+msgstr "アプリケーションでlibusbを使用している場合は、あなたはおそらくデバイスで入出力を実行したい、あなたはUSBデータ転送を実行したいと思うでしょう。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:51
@@ -68,67 +68,67 @@ msgid ""
 "introduce the two in order to help you decide which one is more suitable for "
 "your application. You can also choose to use both interfaces in your "
 "application by considering each transfer on a case-by-case basis."
-msgstr ""
+msgstr "libusbは、デバイス入出力用に2つの別個のインターフェースを提供します。 このページは、どちらがアプリケーションに適しているかを判断するのに役立つように、その2つを紹介することを目的としています。ケース・バイ・ケースで各転送を検討することにより、アプリケーションで両方のインターフェイスの使用を選択することもできます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:52
 msgid ""
 "Once you have read through the following discussion, you should consult the "
 "detailed API documentation pages for the details:"
-msgstr ""
+msgstr "以下の説明を読み終えたら、詳細については詳細なAPI文書を参照してください:"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_io.html:53
 msgid ""
 "<a class=\"el\" href=\"group__libusb__syncio.html\">Synchronous device I/O</"
 "a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__syncio.html\">同期デバイス入出力</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_io.html:54
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device I/"
 "O</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html\">非同期デバイス入出力</a>"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_io.html:56
 msgid "<a class=\"anchor\" id=\"theory\"></a> Transfers at a logical level"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"theory\"></a> 論理レベルで転送"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:58
 msgid ""
 "At a logical level, USB transfers typically happen in two parts. For "
 "example, when reading data from a endpoint:"
-msgstr ""
+msgstr "論理レベルでは、USB転送は通常2つの部分で行われます。たとえば、エンドポイントからデータを読み取る場合:"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_io.html:59
 msgid "A request for data is sent to the device"
-msgstr ""
+msgstr "データの要求がデバイスに送信されます"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_io.html:60
 msgid "Some time later, the incoming data is received by the host"
-msgstr ""
+msgstr "しばらくして、受信データがホストによって受信されます"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:62
 msgid "or when writing data to an endpoint:"
-msgstr ""
+msgstr "またはエンドポイントにデータを書き込む場合:"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_io.html:64
 msgid "The data is sent to the device"
-msgstr ""
+msgstr "データはデバイスに送信されます"
 
 #. type: Content of: <html><body><div><div><div><ol><li>
 #: source/api-1.0/libusb_io.html:65
 msgid ""
 "Some time later, the host receives acknowledgement from the device that the "
 "data has been transferred."
-msgstr ""
+msgstr "しばらくして、ホストはデータが転送されたという確認応答をデバイスから受信します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:67
@@ -139,7 +139,7 @@ msgid ""
 "read data on a bulk or interrupt endpoint and wait for data to arrive. Data "
 "will arrive when the button is pressed by the user, which is potentially "
 "hours later."
-msgstr ""
+msgstr "2つのステップの間に無期限の遅延がある場合があります。ユーザーが押すことができるボタンを備えた架空のUSB入力デバイスについて考えてみます。ボタンがいつ押されたかを判断するために、バルク・エンドポイントまたは割り込みエンドポイントでデータを読み取り、データが到着するのを待つ要求を送信する可能性があります。ユーザーがボタンを押すとデータが到着しますが、これは数時間後になる可能性があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:68
@@ -148,12 +148,12 @@ msgid ""
 "USB transfers. The main difference is that the synchronous interface "
 "combines both steps indicated above into a single function call, whereas the "
 "asynchronous interface separates them."
-msgstr ""
+msgstr "libusbは、USB転送を実行するための同期インターフェイスと非同期インターフェイスの両方を提供します。主な違いは、同期インターフェイスが上記の両方のステップを1つの関数呼び出しに結合するのに対し、非同期インターフェイスはそれらを分離することです。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_io.html:69
 msgid "<a class=\"anchor\" id=\"sync\"></a> The synchronous interface"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"sync\"></a> 同期インターフェイス"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:71
@@ -161,33 +161,33 @@ msgid ""
 "The synchronous I/O interface allows you to perform a USB transfer with a "
 "single function call. When the function call returns, the transfer has "
 "completed and you can parse the results."
-msgstr ""
+msgstr "同期入出力インターフェイスを使用すると、1回の関数呼び出しでUSB転送を実行できます。関数呼び出しが戻ると、転送が完了し、結果をパースできます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:72
 msgid ""
 "If you have used the libusb-0.1 before, this I/O style will seem familiar to "
 "you. libusb-0.1 only offered a synchronous interface."
-msgstr ""
+msgstr "あなたが以前にlibusb-0.1を使用したことがある場合、この入出力スタイルはおなじみのだと思います。libusb-0.1は同期インターフェイスのみを提供していました。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:73
 msgid ""
 "In our input device example, to read button presses you might write code in "
 "the following style:"
-msgstr ""
+msgstr "我々の入力デバイスの例では、ボタンの押下を読み取るために、以下のスタイルでコードを記述できます:"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:73
 msgid ""
 "<span class=\"keywordtype\">unsigned</span> <span class=\"keywordtype"
 "\">char</span> data[4];"
-msgstr ""
+msgstr "<span class=\"keywordtype\">unsigned</span> <span class=\"keywordtype\">char</span> data[4];"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:74
 msgid "<span class=\"keywordtype\">int</span> actual_length;"
-msgstr ""
+msgstr "<span class=\"keywordtype\">int</span> actual_length;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:75
@@ -199,49 +199,49 @@ msgid ""
 "html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</"
 "a>, data, <span class=\"keyword\">sizeof</span>(data), &amp;actual_length, "
 "0);"
-msgstr ""
+msgstr "<span class=\"keywordtype\">int</span> r = <a class=\"code\" href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer</a>(dev_handle, <a class=\"code\" href=\"group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</a>, data, <span class=\"keyword\">sizeof</span>(data), &amp;actual_length, 0);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:76
 msgid ""
 "<span class=\"keywordflow\">if</span> (r == 0 &amp;&amp; actual_length == "
 "<span class=\"keyword\">sizeof</span>(data)) {"
-msgstr ""
+msgstr "<span class=\"keywordflow\">if</span> (r == 0 &amp;&amp; actual_length == <span class=\"keyword\">sizeof</span>(data)) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:77
 msgid ""
 "<span class=\"comment\">// results of the transaction can now be found in "
 "the data buffer</span>"
-msgstr ""
+msgstr "<span class=\"comment\">// 取引(transaction)の結果はそのデータ・バッファに現れます</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:78
 msgid ""
 "<span class=\"comment\">// parse them here and report button press</span>"
-msgstr ""
+msgstr "<span class=\"comment\">// データ・バッファをパースしボタン押下を報告します</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:79
 msgid "} <span class=\"keywordflow\">else</span> {"
-msgstr ""
+msgstr "} <span class=\"keywordflow\">else</span> {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:80
 msgid "error();"
-msgstr ""
+msgstr "error();"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_io.html:81
 msgid "}"
-msgstr ""
+msgstr "}"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:82
 msgid ""
 "The main advantage of this model is simplicity: you did everything with a "
 "single simple function call."
-msgstr ""
+msgstr "このモデルの主な利点は単純さです。1回の単純な関数呼び出しですべてを実行できます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:83
@@ -253,7 +253,7 @@ msgid ""
 "button, your application will be sleeping for that long. Execution will be "
 "tied up inside the library - the entire thread will be useless for that "
 "duration."
-msgstr ""
+msgstr "けれども、このインターフェイスには制限があります。アプリケーションは、取引がが完了するまで <a class=\"el\" href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer()</a> 内でスリープします。ユーザーがボタンを押すのに3時間かかる場合、アプリケーションはその3時間スリープします。実行はライブラリ内で束縛されます。つまり、その間、スレッド全体は役に立たなくなります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:84
@@ -262,33 +262,33 @@ msgid ""
 "there is no possibility of performing I/O with multiple endpoints and/or "
 "multiple devices simultaneously, unless you resort to creating one thread "
 "per transaction."
-msgstr ""
+msgstr "もう1つの問題として、スレッドをその単一の取引に結び付けることにより、取引ごとに1つのスレッドを作成しない限り、複数のエンドポイントや複数のデバイスで入出力を同時に実行することが不可能なことです。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:85
 msgid ""
 "Additionally, there is no opportunity to cancel the transfer after the "
 "request has been submitted."
-msgstr ""
+msgstr "加えて、要求(request)の送信(submit)後に転送をキャンセルすることはできません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:86
 msgid ""
 "For details on how to use the synchronous API, see the <a class=\"el\" href="
 "\"group__libusb__syncio.html\">synchronous I/O API documentation</a> pages."
-msgstr ""
+msgstr "同期APIの使用方法の詳細については <a class=\"el\" href=\"group__libusb__syncio.html\">同期入出力API解説</a> を参照してください。"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_io.html:87
 msgid "<a class=\"anchor\" id=\"async\"></a> The asynchronous interface"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"async\"></a> 非同期インターフェイス"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:89
 msgid ""
 "Asynchronous I/O is the most significant new feature in libusb-1.0. Although "
 "it is a more complex interface, it solves all the issues detailed above."
-msgstr ""
+msgstr "非同期入出力は、libusb-1.0の最も重要な新機能です。これはより複雑なインターフェイスですが、上記のすべての問題を解決します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:90
@@ -298,14 +298,14 @@ msgid ""
 "a transfer and then return immediately. Your application passes a callback "
 "function pointer to this non-blocking function, which libusb will call with "
 "the results of the transaction when it has completed."
-msgstr ""
+msgstr "入出力が完了するまでブロックする関数を提供する代わりに、libusbの非同期インターフェイスは、転送を開始してすぐに戻る非ブロック関数を提供します。アプリケーションは、この非ブロッキング関数へのコールバック関数ポインタを渡します。libusbは、取引が完了すると、取引の結果と共にこのコールバック関数を呼び出します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:91
 msgid ""
 "Transfers which have been submitted through the non-blocking functions can "
 "be cancelled with a separate function call."
-msgstr ""
+msgstr "非ブロッキング関数を介して送信(submit)された転送は、別の関数呼び出しでキャンセルできます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:92
@@ -313,12 +313,12 @@ msgid ""
 "The non-blocking nature of this interface allows you to be simultaneously "
 "performing I/O to multiple endpoints on multiple devices, without having to "
 "use threads."
-msgstr ""
+msgstr "このインターフェイスのノン・ブロッキングの性質により、スレッドを使用せずに、複数のデバイス上の複数のエンドポイントに対して同時に入出力を実行できます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:93
 msgid "This added flexibility does come with some complications though:"
-msgstr ""
+msgstr "ただし、この追加された柔軟性には、いくつかの問題が伴います。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_io.html:94
@@ -328,14 +328,14 @@ msgid ""
 "application must call into libusb from it's main loop when events are ready "
 "to be handled, or you must use some other scheme to allow libusb to "
 "undertake whatever work needs to be done."
-msgstr ""
+msgstr "軽量(lightweight)ライブラリであるために、libusbはスレッドを作成せず、アプリケーションがそれを呼び出しているときにのみ動作できます。イベントを処理する準備ができたら、アプリケーションはメイン・ループからlibusbを呼び出す必要があります。または、他の仕組みを使用して、libusbが必要な作業を実行できるようにする必要があります。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_io.html:95
 msgid ""
 "libusb also needs to be called into at certain fixed points in time in order "
 "to accurately handle transfer timeouts."
-msgstr ""
+msgstr "libusbは、転送タイムアウトを正確に処理するために、特定の固定箇所で呼び出す必要もあります。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_io.html:96
@@ -343,7 +343,7 @@ msgid ""
 "Memory handling becomes more complex. You cannot use stack memory unless the "
 "function with that stack is guaranteed not to return until the transfer "
 "callback has finished executing."
-msgstr ""
+msgstr "メモリ処理はより複雑になります。スタックを持つ関数が転送コールバックの実行が終了するまで戻らないことが保証されていない限り、スタック・メモリを使用することはできません。"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_io.html:97
@@ -352,28 +352,28 @@ msgid ""
 "transfer request is done in a separate function from where the transfer "
 "results are handled. This becomes particularly obvious when you want to "
 "submit a second transfer based on the results of an earlier transfer."
-msgstr ""
+msgstr "転送要求の送信は転送結果が処理される場所とは別の関数で行われるため、通常、ソース・コードの流れからある程度の線形性が失われます。 これは、以前の転送の結果に基づいて2番目の転送を送信する場合に特に明白になります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:99
 msgid ""
 "Internally, libusb's synchronous interface is expressed in terms of function "
 "calls to the asynchronous interface."
-msgstr ""
+msgstr "内部的には、libusbの同期インターフェイスは、非同期インターフェイスへの関数呼び出しの観点から表現されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_io.html:100
 msgid ""
 "For details on how to use the asynchronous API, see the <a class=\"el\" href="
 "\"group__libusb__asyncio.html\">asynchronous I/O API</a> documentation pages."
-msgstr ""
+msgstr "非同期APIの使用方法の詳細については、 <a class=\"el\" href=\"group__libusb__asyncio.html\">非同期入出力API</a> を参照してください。"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_io.html:103
 msgid ""
 "<a href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c"
 "\">libusb_bulk_transfer</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__syncio.html#ga2f90957ccc1285475ae96ad2ceb1f58c\">libusb_bulk_transfer</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_io.html:103
@@ -381,12 +381,12 @@ msgid ""
 "int libusb_bulk_transfer(libusb_device_handle *dev_handle, unsigned char "
 "endpoint, unsigned char *data, int length, int *actual_length, unsigned int "
 "timeout)"
-msgstr ""
+msgstr "int libusb_bulk_transfer(libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *data, int length, int *actual_length, unsigned int timeout)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_io.html:103
 msgid "<b>Definition:</b> sync.c:274"
-msgstr ""
+msgstr "<b>定義:</b> sync.c:274"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_io.html:104
@@ -394,36 +394,36 @@ msgid ""
 "<a href=\"group__libusb__desc."
 "html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</"
 "a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba3829979c66e5344367f32f4a31d43613\">LIBUSB_ENDPOINT_IN</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_io.html:104
 msgid "@ LIBUSB_ENDPOINT_IN"
-msgstr ""
+msgstr "@ LIBUSB_ENDPOINT_IN"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_io.html:104
 msgid "In: device-to-host."
-msgstr ""
+msgstr "In: デバイスからホスト。"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_io.html:104
 msgid "<b>Definition:</b> libusb.h:322"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:322"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/libusb_io.html:106
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/libusb_io.html:108
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/libusb_io.html:109
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
