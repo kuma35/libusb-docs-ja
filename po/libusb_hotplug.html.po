@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:23+0900\n"
+"PO-Revision-Date: 2021-07-20 15:47+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/libusb_hotplug.html:8
 msgid "libusb: Device hotplug event notification"
-msgstr ""
+msgstr "libusb: デバイス活線挿抜イベント通知"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/libusb_hotplug.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/libusb_hotplug.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/libusb_hotplug.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/libusb_hotplug.html:36
@@ -42,17 +42,17 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:45
 msgid "Device hotplug event notification"
-msgstr ""
+msgstr "デバイス活線挿抜イベント通知"
 
 #. type: Content of: <html><body><div><div><div><h1>
 #: source/api-1.0/libusb_hotplug.html:48
 msgid "<a class=\"anchor\" id=\"hotplug_intro\"></a> Introduction"
-msgstr ""
+msgstr "<a class=\"anchor\" id=\"hotplug_intro\"></a> はじめに"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:50
@@ -66,14 +66,14 @@ msgid ""
 "parameter <a class=\"el\" href=\"group__libusb__misc."
 "html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\">LIBUSB_CAP_HAS_HOTPLUG</"
 "a>)."
-msgstr ""
+msgstr "バージョン1.0.16(<a class=\"el\" href=\"group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de\">LIBUSB_API_VERSION</a> &gt;= 0x01000102)は、一部のプラットフォームで活線挿抜イベントのサポートを追加しました(パラメーター <a class=\"el\" href=\"group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438\">LIBUSB_CAP_HAS_HOTPLUG</a> を指定して <a class=\"el\" href=\"group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db\">libusb_has_capability()</a> を呼び出し、あなたのプラットフォームが活線挿抜通知をサポートするかどうかをテストする必要があります)。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:51
 msgid ""
 "This interface allows you to request notification for the arrival and "
 "departure of matching USB devices."
-msgstr ""
+msgstr "このインターフェイスを使用すると、一致するUSBデバイスの到着と出発の通知を要求できます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:52
@@ -84,7 +84,7 @@ msgid ""
 "return a callback handle that can be passed to <a class=\"el\" href="
 "\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc"
 "\">libusb_hotplug_deregister_callback()</a>."
-msgstr ""
+msgstr "活線挿抜通知を受信するには、 <a class=\"el\" href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a> を呼び出してコールバックを登録します。 この関数は、オプションで、 <a class=\"el\" href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback()</a> に渡すことができるコールバック・ハンドルを返します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:53
@@ -102,7 +102,7 @@ msgid ""
 "1 when it is called from <a class=\"el\" href=\"group__libusb__hotplug."
 "html#ga5ab3955e2110a3099497a66256fb7fab"
 "\">libusb_hotplug_register_callback()</a>."
-msgstr ""
+msgstr "コールバック関数は、コールバックが追加のイベントを予期しているかどうかを示す整数(0または1)を返す必要があります。0を返すとコールバックが再度イベント待ちに入り、1を返すとコールバックの登録が解除されます。 <a class=\"el\" href=\"group__libusb__hotplug.html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b\">LIBUSB_HOTPLUG_ENUMERATE</a> フラグが原因で <a class=\"el\" href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a> からコールバックが呼び出された場合、コールバックの戻り値は無視されることに注意してください。つまり、 <a class=\"el\" href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback()</a> から呼び出されたときに1を返すことによって、コールバックの登録を解除することはできません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:54
@@ -110,30 +110,30 @@ msgid ""
 "Callbacks for a particular context are automatically deregistered by <a "
 "class=\"el\" href=\"group__libusb__lib."
 "html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a>."
-msgstr ""
+msgstr "特定のコンテキストのコールバックは、 <a class=\"el\" href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit()</a> によって自動的に登録解除されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:55
 msgid "As of 1.0.16 there are two supported hotplug events:"
-msgstr ""
+msgstr "1.0.16の時点で、サポートされている活線挿抜イベントは以下の2つです:"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_hotplug.html:56
 msgid ""
 "LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED: A device has arrived and is ready to use"
-msgstr ""
+msgstr "LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED: デバイスが装着済で使用する準備ができています"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_hotplug.html:57
 msgid ""
 "LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT: A device has left and is no longer "
 "available"
-msgstr ""
+msgstr "LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT: デバイスが取り去られて使用できなくなりました"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:59
 msgid "A hotplug event can listen for either or both of these events."
-msgstr ""
+msgstr "活線挿抜イベントは、これらのイベントのいずれかまたは両方をリッスンできます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:60
@@ -145,7 +145,7 @@ msgid ""
 "resources associated with the device. Once a device has left any "
 "libusb_device_handle associated with the device are invalid and will remain "
 "so even if the device comes back."
-msgstr ""
+msgstr "注意: デバイスが取り去られたという通知を受け取った時、デバイスのlibusb_device_handlesがある場合は、各デバイス・ハンドルで <a class=\"el\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close()</a> を呼び出して、デバイスに関連付けられている残りのリソースを解放する必要があります。デバイスが取り去られると、そのデバイスに関連付けられているlibusb_device_handleは無効になり、後でそのデバイスが戻ってきても無効のままになります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:61
@@ -159,7 +159,7 @@ msgid ""
 "functions that retrieve various <a class=\"el\" href=\"group__libusb__desc."
 "html\">USB descriptors</a>. These functions must be used outside of the "
 "context of the hotplug callback."
-msgstr ""
+msgstr "LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVEDイベントを処理する場合、libusb_deviceを受け取るlibusb関数を呼び出すのが安全であると見なされます。 デバイスを開いて非同期転送を送信することも安全です。ただし、libusb_device_handleを使用する他のほとんどの関数は、安全に呼び出すことができません。 このような関数の例としては、さまざまな <a class=\"el\" href=\"group__libusb__desc.html\">USBデスクリプター</a> を取得する <a class=\"el\" href=\"group__libusb__syncio.html\">同期API</a> 関数またはブロッキング関数があります。これらの関数は、活線挿抜コールバックのコンテキスト外で使用する必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:62
@@ -167,40 +167,40 @@ msgid ""
 "When handling a LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT event the only safe "
 "function is <a class=\"el\" href=\"group__libusb__desc."
 "html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor()</a>."
-msgstr ""
+msgstr "LIBUSB_HOTPLUG_EVENT_DEVICE_LEFTイベントを処理する場合、安全な関数は <a class=\"el\" href=\"group__libusb__desc.html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor()</a> のみです。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/libusb_hotplug.html:63
 msgid ""
 "The following code provides an example of the usage of the hotplug interface:"
-msgstr ""
+msgstr "以下のコードは、活線挿抜インターフェイスの使用例を示しています:"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:63
 msgid "<span class=\"preprocessor\">#include &lt;stdio.h&gt;</span>"
-msgstr ""
+msgstr "<span class=\"preprocessor\">#include &lt;stdio.h&gt;</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:64
 msgid "<span class=\"preprocessor\">#include &lt;stdlib.h&gt;</span>"
-msgstr ""
+msgstr "<span class=\"preprocessor\">#include &lt;stdlib.h&gt;</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:65
 msgid "<span class=\"preprocessor\">#include &lt;time.h&gt;</span>"
-msgstr ""
+msgstr "<span class=\"preprocessor\">#include &lt;time.h&gt;</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:66
 msgid "<span class=\"preprocessor\">#include &lt;libusb.h&gt;</span>"
-msgstr ""
+msgstr "<span class=\"preprocessor\">#include &lt;libusb.h&gt;</span>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:68
 msgid ""
 "<span class=\"keyword\">static</span> <span class=\"keywordtype\">int</span> "
 "count = 0;"
-msgstr ""
+msgstr "<span class=\"keyword\">static</span> <span class=\"keywordtype\">int</span> count = 0;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:70
@@ -210,7 +210,7 @@ msgid ""
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <span "
 "class=\"keyword\">struct</span> <a class=\"code\" href=\"group__libusb__dev."
 "html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> *dev,"
-msgstr ""
+msgstr "<span class=\"keywordtype\">int</span> hotplug_callback(<span class=\"keyword\">struct</span> <a class=\"code\" href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a> *ctx, <span class=\"keyword\">struct</span> <a class=\"code\" href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a> *dev,"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:71
@@ -218,7 +218,7 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__hotplug."
 "html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> event, "
 "<span class=\"keywordtype\">void</span> *user_data) {"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a> event, <span class=\"keywordtype\">void</span> *user_data) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:72
@@ -227,19 +227,19 @@ msgid ""
 "\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> "
 "*dev_handle = NULL;"
-msgstr ""
+msgstr "<span class=\"keyword\">static</span> <a class=\"code\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *dev_handle = NULL;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:73
 msgid ""
 "<span class=\"keyword\">struct </span><a class=\"code\" href="
 "\"structlibusb__device__descriptor.html\">libusb_device_descriptor</a> desc;"
-msgstr ""
+msgstr "<span class=\"keyword\">struct </span><a class=\"code\" href=\"structlibusb__device__descriptor.html\">libusb_device_descriptor</a> desc;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:74 source/api-1.0/libusb_hotplug.html:98
 msgid "<span class=\"keywordtype\">int</span> rc;"
-msgstr ""
+msgstr "<span class=\"keywordtype\">int</span> rc;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:76
@@ -247,7 +247,7 @@ msgid ""
 "(void)<a class=\"code\" href=\"group__libusb__desc."
 "html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor</"
 "a>(dev, &amp;desc);"
-msgstr ""
+msgstr "(void)<a class=\"code\" href=\"group__libusb__desc.html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor</a>(dev, &amp;desc);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:78
@@ -256,7 +256,7 @@ msgid ""
 "\"group__libusb__hotplug."
 "html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</"
 "a> == event) {"
-msgstr ""
+msgstr "<span class=\"keywordflow\">if</span> (<a class=\"code\" href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</a> == event) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:79
@@ -264,7 +264,7 @@ msgid ""
 "rc = <a class=\"code\" href=\"group__libusb__dev."
 "html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>(dev, &amp;"
 "dev_handle);"
-msgstr ""
+msgstr "rc = <a class=\"code\" href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>(dev, &amp;dev_handle);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:80 source/api-1.0/libusb_hotplug.html:106
@@ -273,14 +273,14 @@ msgid ""
 "\"group__libusb__misc."
 "html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\">LIBUSB_SUCCESS</"
 "a> != rc) {"
-msgstr ""
+msgstr "<span class=\"keywordflow\">if</span> (<a class=\"code\" href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\">LIBUSB_SUCCESS</a> != rc) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:81
 msgid ""
 "printf(<span class=\"stringliteral\">&quot;Could not open USB device\\n&quot;"
 "</span>);"
-msgstr ""
+msgstr "printf(<span class=\"stringliteral\">&quot;Could not open USB device\\n&quot;</span>);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:82 source/api-1.0/libusb_hotplug.html:87
@@ -289,7 +289,7 @@ msgstr ""
 #: source/api-1.0/libusb_hotplug.html:115
 #: source/api-1.0/libusb_hotplug.html:121
 msgid "}"
-msgstr ""
+msgstr "}"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:83
@@ -298,53 +298,53 @@ msgid ""
 "span> (<a class=\"code\" href=\"group__libusb__hotplug."
 "html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</"
 "a> == event) {"
-msgstr ""
+msgstr "} <span class=\"keywordflow\">else</span> <span class=\"keywordflow\">if</span> (<a class=\"code\" href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</a> == event) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:84
 msgid "<span class=\"keywordflow\">if</span> (dev_handle) {"
-msgstr ""
+msgstr "<span class=\"keywordflow\">if</span> (dev_handle) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:85
 msgid ""
 "<a class=\"code\" href=\"group__libusb__dev."
 "html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a>(dev_handle);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a>(dev_handle);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:86
 msgid "dev_handle = NULL;"
-msgstr ""
+msgstr "dev_handle = NULL;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:88
 msgid "} <span class=\"keywordflow\">else</span> {"
-msgstr ""
+msgstr "} <span class=\"keywordflow\">else</span> {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:89
 msgid ""
 "printf(<span class=\"stringliteral\">&quot;Unhandled event %d\\n&quot;</"
 "span>, event);"
-msgstr ""
+msgstr "printf(<span class=\"stringliteral\">&quot;Unhandled event %d\\n&quot;</span>, event);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:91
 msgid "count++;"
-msgstr ""
+msgstr "count++;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:93 source/api-1.0/libusb_hotplug.html:120
 msgid "<span class=\"keywordflow\">return</span> 0;"
-msgstr ""
+msgstr "<span class=\"keywordflow\">return</span> 0;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:96
 msgid ""
 "<span class=\"keywordtype\">int</span> main (<span class=\"keywordtype"
 "\">void</span>) {"
-msgstr ""
+msgstr "<span class=\"keywordtype\">int</span> main (<span class=\"keywordtype\">void</span>) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:97
@@ -352,14 +352,14 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__hotplug."
 "html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> "
 "callback_handle;"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a> callback_handle;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:100
 msgid ""
 "<a class=\"code\" href=\"group__libusb__lib."
 "html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init</a>(NULL);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init</a>(NULL);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:102
@@ -369,7 +369,7 @@ msgid ""
 "a>(NULL, <a class=\"code\" href=\"group__libusb__hotplug."
 "html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</"
 "a> |"
-msgstr ""
+msgstr "rc = <a class=\"code\" href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback</a>(NULL, <a class=\"code\" href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</a> |"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:103
@@ -377,7 +377,7 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__hotplug."
 "html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</"
 "a>, 0, 0x045a, 0x5005,"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</a>, 0, 0x045a, 0x5005,"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:104
@@ -385,19 +385,19 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__hotplug."
 "html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>, "
 "hotplug_callback, NULL,"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>, hotplug_callback, NULL,"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:105
 msgid "&amp;callback_handle);"
-msgstr ""
+msgstr "&amp;callback_handle);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:107
 msgid ""
 "printf(<span class=\"stringliteral\">&quot;Error creating a hotplug callback"
 "\\n&quot;</span>);"
-msgstr ""
+msgstr "printf(<span class=\"stringliteral\">&quot;Error creating a hotplug callback\\n&quot;</span>);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:108
@@ -405,17 +405,17 @@ msgstr ""
 msgid ""
 "<a class=\"code\" href=\"group__libusb__lib."
 "html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>(NULL);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>(NULL);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:109
 msgid "<span class=\"keywordflow\">return</span> EXIT_FAILURE;"
-msgstr ""
+msgstr "<span class=\"keywordflow\">return</span> EXIT_FAILURE;"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:112
 msgid "<span class=\"keywordflow\">while</span> (count &lt; 2) {"
-msgstr ""
+msgstr "<span class=\"keywordflow\">while</span> (count &lt; 2) {"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:113
@@ -423,14 +423,14 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__poll."
 "html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</"
 "a>(NULL, NULL);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</a>(NULL, NULL);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:114
 msgid ""
 "nanosleep(&amp;(<span class=\"keyword\">struct</span> timespec){0, "
 "10000000UL}, NULL);"
-msgstr ""
+msgstr "nanosleep(&amp;(<span class=\"keyword\">struct</span> timespec){0, 10000000UL}, NULL);"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: source/api-1.0/libusb_hotplug.html:117
@@ -438,152 +438,152 @@ msgid ""
 "<a class=\"code\" href=\"group__libusb__hotplug."
 "html#ga8110f57eab2064375934f1449b2602bc"
 "\">libusb_hotplug_deregister_callback</a>(NULL, callback_handle);"
-msgstr ""
+msgstr "<a class=\"code\" href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback</a>(NULL, callback_handle);"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:124
 msgid ""
 "<a href=\"group__libusb__lib."
 "html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795\">libusb_init</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:124
 msgid "int libusb_init(libusb_context **ctx)"
-msgstr ""
+msgstr "int libusb_init(libusb_context **ctx)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:124
 msgid "<b>Definition:</b> core.c:2270"
-msgstr ""
+msgstr "<b>定義:</b> core.c:2270"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:125
 msgid ""
 "<a href=\"group__libusb__desc."
 "html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__desc.html#ga5e9ab08d490a7704cf3a9b0439f16f00\">libusb_get_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:125
 msgid ""
 "int libusb_get_device_descriptor(libusb_device *dev, struct "
 "libusb_device_descriptor *desc)"
-msgstr ""
+msgstr "int libusb_get_device_descriptor(libusb_device *dev, struct libusb_device_descriptor *desc)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:125
 msgid "<b>Definition:</b> descriptor.c:531"
-msgstr ""
+msgstr "<b>定義:</b> descriptor.c:531"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:126
 msgid ""
 "<a href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf"
 "\">libusb_hotplug_event</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf\">libusb_hotplug_event</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:126
 msgid "libusb_hotplug_event"
-msgstr ""
+msgstr "libusb_hotplug_event"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:126
 msgid "<b>Definition:</b> libusb.h:1946"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1946"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:127
 msgid ""
 "<a href=\"group__libusb__lib."
 "html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833\">libusb_context</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:127
 msgid "struct libusb_context libusb_context"
-msgstr ""
+msgstr "struct libusb_context libusb_context"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:127
 msgid "<b>Definition:</b> libusb.h:987"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:987"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:128
 msgid ""
 "<a href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c"
 "\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c\">LIBUSB_HOTPLUG_MATCH_ANY</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:128
 msgid "#define LIBUSB_HOTPLUG_MATCH_ANY"
-msgstr ""
+msgstr "#define LIBUSB_HOTPLUG_MATCH_ANY"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:128
 msgid "<b>Definition:</b> libusb.h:1972"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1972"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:129
 msgid ""
 "<a href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d"
 "\">libusb_exit</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d\">libusb_exit</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:129
 msgid "void libusb_exit(libusb_context *ctx)"
-msgstr ""
+msgstr "void libusb_exit(libusb_context *ctx)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:129
 msgid "<b>Definition:</b> core.c:2385"
-msgstr ""
+msgstr "<b>定義:</b> core.c:2385"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:130
 msgid ""
 "<a href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b"
 "\">libusb_device</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b\">libusb_device</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:130
 msgid "struct libusb_device libusb_device"
-msgstr ""
+msgstr "struct libusb_device libusb_device"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:130
 msgid "<b>Definition:</b> libusb.h:1004"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1004"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:131
 msgid ""
 "<a href=\"group__libusb__poll."
 "html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1\">libusb_handle_events_completed</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:131
 msgid "int libusb_handle_events_completed(libusb_context *ctx, int *completed)"
-msgstr ""
+msgstr "int libusb_handle_events_completed(libusb_context *ctx, int *completed)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:131
 msgid "<b>Definition:</b> io.c:2429"
-msgstr ""
+msgstr "<b>定義:</b> io.c:2429"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:132
 msgid ""
 "<a href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab"
 "\">libusb_hotplug_register_callback</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab\">libusb_hotplug_register_callback</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:132
@@ -592,29 +592,29 @@ msgid ""
 "flags, int vendor_id, int product_id, int dev_class, "
 "libusb_hotplug_callback_fn cb_fn, void *user_data, "
 "libusb_hotplug_callback_handle *callback_handle)"
-msgstr ""
+msgstr "int libusb_hotplug_register_callback(libusb_context *ctx, int events, int flags, int vendor_id, int product_id, int dev_class, libusb_hotplug_callback_fn cb_fn, void *user_data, libusb_hotplug_callback_handle *callback_handle)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:132
 msgid "<b>Definition:</b> hotplug.c:320"
-msgstr ""
+msgstr "<b>定義:</b> hotplug.c:320"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:133
 msgid ""
 "<a href=\"group__libusb__hotplug."
 "html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094\">libusb_hotplug_callback_handle</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:133
 msgid "int libusb_hotplug_callback_handle"
-msgstr ""
+msgstr "int libusb_hotplug_callback_handle"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:133
 msgid "<b>Definition:</b> libusb.h:1939"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1939"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:134
@@ -622,34 +622,34 @@ msgid ""
 "<a href=\"group__libusb__hotplug."
 "html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</"
 "a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27\">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:134
 msgid "@ LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT"
-msgstr ""
+msgstr "@ LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:134
 msgid "A device has left and is no longer available."
-msgstr ""
+msgstr "デバイスが取り去られて使用できなくなりました。"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:134
 msgid "<b>Definition:</b> libusb.h:1953"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1953"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:135
 msgid ""
 "<a href=\"structlibusb__device__descriptor.html\">libusb_device_descriptor</"
 "a>"
-msgstr ""
+msgstr "<a href=\"structlibusb__device__descriptor.html\">libusb_device_descriptor</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:135
 msgid "<b>Definition:</b> libusb.h:528"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:528"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:136
@@ -657,39 +657,39 @@ msgid ""
 "<a href=\"group__libusb__misc."
 "html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\">LIBUSB_SUCCESS</"
 "a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15\">LIBUSB_SUCCESS</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:136
 msgid "@ LIBUSB_SUCCESS"
-msgstr ""
+msgstr "@ LIBUSB_SUCCESS"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:136
 msgid "Success (no error)"
-msgstr ""
+msgstr "成功(エラー無し)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:136
 msgid "<b>Definition:</b> libusb.h:1049"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1049"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:137
 msgid ""
 "<a href=\"group__libusb__dev."
 "html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0\">libusb_open</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:137
 msgid "int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)"
-msgstr ""
+msgstr "int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:137
 msgid "<b>Definition:</b> core.c:1291"
-msgstr ""
+msgstr "<b>定義:</b> core.c:1291"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:138
@@ -697,89 +697,89 @@ msgid ""
 "<a href=\"group__libusb__hotplug."
 "html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</"
 "a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6\">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:138
 msgid "@ LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED"
-msgstr ""
+msgstr "@ LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:138
 msgid "A device has been plugged in and is ready to use."
-msgstr ""
+msgstr "デバイスが接続され使用できるようになりました。"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:138
 msgid "<b>Definition:</b> libusb.h:1948"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1948"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:139
 msgid ""
 "<a href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc"
 "\">libusb_hotplug_deregister_callback</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc\">libusb_hotplug_deregister_callback</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:139
 msgid ""
 "void libusb_hotplug_deregister_callback(libusb_context *ctx, "
 "libusb_hotplug_callback_handle callback_handle)"
-msgstr ""
+msgstr "void libusb_hotplug_deregister_callback(libusb_context *ctx, libusb_hotplug_callback_handle callback_handle)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:139
 msgid "<b>Definition:</b> hotplug.c:404"
-msgstr ""
+msgstr "<b>定義:</b> hotplug.c:404"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:140
 msgid ""
 "<a href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e"
 "\">libusb_close</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e\">libusb_close</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:140
 msgid "void libusb_close(libusb_device_handle *dev_handle)"
-msgstr ""
+msgstr "void libusb_close(libusb_device_handle *dev_handle)"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:140
 msgid "<b>Definition:</b> core.c:1446"
-msgstr ""
+msgstr "<b>定義:</b> core.c:1446"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:141
 msgid ""
 "<a href=\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
-msgstr ""
+msgstr "<a href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a>"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:141
 msgid "struct libusb_device_handle libusb_device_handle"
-msgstr ""
+msgstr "struct libusb_device_handle libusb_device_handle"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/libusb_hotplug.html:141
 msgid "<b>Definition:</b> libusb.h:1015"
-msgstr ""
+msgstr "<b>定義:</b> libusb.h:1015"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/libusb_hotplug.html:143
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/libusb_hotplug.html:145
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/libusb_hotplug.html:146
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"

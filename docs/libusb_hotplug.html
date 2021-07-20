@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: Device hotplug event notification</title>
+<title>libusb: デバイス活線挿抜イベント通知</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,68 +44,54 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Device hotplug event notification </div>  </div>
+<div class="title">デバイス活線挿抜イベント通知 </div>  </div>
 </div>
 <!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="hotplug_intro"></a> Introduction</h1>
-<p>Version 1.0.16, <a class="el"
+<div class="textblock"><h1><a class="anchor" id="hotplug_intro"></a> はじめに</h1>
+<p>バージョン1.0.16(<a class="el"
 href="group__libusb__misc.html#gaabe4bc36a83358685d36a6c853cbb4de">LIBUSB_API_VERSION</a>
-&gt;= 0x01000102, has added support for hotplug events on <b>some</b>
-platforms (you should test if your platform supports hotplug notification by
-calling <a class="el"
+&gt;= 0x01000102)は、一部のプラットフォームで活線挿抜イベントのサポートを追加しました(パラメーター <a class="el"
+href="group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438">LIBUSB_CAP_HAS_HOTPLUG</a>
+を指定して <a class="el"
 href="group__libusb__misc.html#ga9b8e324d28c624cd0b8e7ba21607b8db">libusb_has_capability()</a>
-with parameter <a class="el"
-href="group__libusb__misc.html#ggaab1b3fa0728c06fafbee897795889bd5a8b1bbccc648a6677cb9030a6ba827438">LIBUSB_CAP_HAS_HOTPLUG</a>).</p>
-<p>This interface allows you to request notification for the arrival and
-departure of matching USB devices.</p>
-<p>To receive hotplug notification you register a callback by calling <a
-class="el"
-href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback()</a>.
-This function will optionally return a callback handle that can be passed to
-<a class="el"
-href="group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc">libusb_hotplug_deregister_callback()</a>.</p>
-<p>A callback function must return an int (0 or 1) indicating whether the
-callback is expecting additional events. Returning 0 will rearm the callback
-and 1 will cause the callback to be deregistered. Note that when callbacks
-are called from <a class="el"
+を呼び出し、あなたのプラットフォームが活線挿抜通知をサポートするかどうかをテストする必要があります)。</p>
+<p>このインターフェイスを使用すると、一致するUSBデバイスの到着と出発の通知を要求できます。</p>
+<p>活線挿抜通知を受信するには、 <a class="el"
 href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback()</a>
-because of the <a class="el"
+を呼び出してコールバックを登録します。 この関数は、オプションで、 <a class="el"
+href="group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc">libusb_hotplug_deregister_callback()</a>
+に渡すことができるコールバック・ハンドルを返します。</p>
+<p>コールバック関数は、コールバックが追加のイベントを予期しているかどうかを示す整数(0または1)を返す必要があります。0を返すとコールバックが再度イベント待ちに入り、1を返すとコールバックの登録が解除されます。
+<a class="el"
 href="group__libusb__hotplug.html#gga95ce2ec85dec177854c423cea2853c52a01a1c0c9f4e6852cb6df713f2e8a7f6b">LIBUSB_HOTPLUG_ENUMERATE</a>
-flag, the callback return value is ignored. In other words, you cannot cause
-a callback to be deregistered by returning 1 when it is called from <a
-class="el"
-href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback()</a>.</p>
-<p>Callbacks for a particular context are automatically deregistered by <a
-class="el"
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>.</p>
-<p>As of 1.0.16 there are two supported hotplug events:</p><ul>
-<li>LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED: A device has arrived and is ready to
-use</li>
-<li>LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT: A device has left and is no longer
-available</li>
+フラグが原因で <a class="el"
+href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback()</a>
+からコールバックが呼び出された場合、コールバックの戻り値は無視されることに注意してください。つまり、 <a class="el"
+href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback()</a>
+から呼び出されたときに1を返すことによって、コールバックの登録を解除することはできません。</p>
+<p>特定のコンテキストのコールバックは、 <a class="el"
+href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit()</a>
+によって自動的に登録解除されます。</p>
+<p>1.0.16の時点で、サポートされている活線挿抜イベントは以下の2つです:</p><ul>
+<li>LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED: デバイスが装着済で使用する準備ができています</li>
+<li>LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT: デバイスが取り去られて使用できなくなりました</li>
 </ul>
-<p>A hotplug event can listen for either or both of these events.</p>
-<p>Note: If you receive notification that a device has left and you have any a
-libusb_device_handles for the device it is up to you to call <a class="el"
+<p>活線挿抜イベントは、これらのイベントのいずれかまたは両方をリッスンできます。</p>
+<p>注意: デバイスが取り去られたという通知を受け取った時、デバイスのlibusb_device_handlesがある場合は、各デバイス・ハンドルで <a
+class="el"
 href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
-on each device handle to free up any remaining resources associated with the
-device. Once a device has left any libusb_device_handle associated with the
-device are invalid and will remain so even if the device comes back.</p>
-<p>When handling a LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED event it is considered
-safe to call any libusb function that takes a libusb_device. It also safe to
-open a device and submit asynchronous transfers. However, most other
-functions that take a libusb_device_handle are <b>not</b> safe to
-call. Examples of such functions are any of the <a class="el"
-href="group__libusb__syncio.html">synchronous API</a> functions or the
-blocking functions that retrieve various <a class="el"
-href="group__libusb__desc.html">USB descriptors</a>. These functions must be
-used outside of the context of the hotplug callback.</p>
-<p>When handling a LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT event the only safe
-function is <a class="el"
-href="group__libusb__desc.html#ga5e9ab08d490a7704cf3a9b0439f16f00">libusb_get_device_descriptor()</a>.</p>
-<p>The following code provides an example of the usage of the hotplug
-interface: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+を呼び出して、デバイスに関連付けられている残りのリソースを解放する必要があります。デバイスが取り去られると、そのデバイスに関連付けられているlibusb_device_handleは無効になり、後でそのデバイスが戻ってきても無効のままになります。</p>
+<p>LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVEDイベントを処理する場合、libusb_deviceを受け取るlibusb関数を呼び出すのが安全であると見なされます。
+デバイスを開いて非同期転送を送信することも安全です。ただし、libusb_device_handleを使用する他のほとんどの関数は、安全に呼び出すことができません。
+このような関数の例としては、さまざまな <a class="el"
+href="group__libusb__desc.html">USBデスクリプター</a> を取得する <a class="el"
+href="group__libusb__syncio.html">同期API</a>
+関数またはブロッキング関数があります。これらの関数は、活線挿抜コールバックのコンテキスト外で使用する必要があります。</p>
+<p>LIBUSB_HOTPLUG_EVENT_DEVICE_LEFTイベントを処理する場合、安全な関数は <a class="el"
+href="group__libusb__desc.html#ga5e9ab08d490a7704cf3a9b0439f16f00">libusb_get_device_descriptor()</a>
+のみです。</p>
+<p>以下のコードは、活線挿抜インターフェイスの使用例を示しています: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;time.h&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;libusb.h&gt;</span></div>
@@ -218,45 +204,45 @@ href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit</a
 </div>
 <!-- PageDoc -->
 <div class="ttc" id="agroup__libusb__lib_html_ga7deaef521cfb1a5b3f8d6c01be11a795"><div class="ttname"><a
-href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init</a></div><div class="ttdeci">int libusb_init(libusb_context **ctx)</div><div class="ttdef"><b>Definition:</b> core.c:2270</div></div>
+href="group__libusb__lib.html#ga7deaef521cfb1a5b3f8d6c01be11a795">libusb_init</a></div><div class="ttdeci">int libusb_init(libusb_context **ctx)</div><div class="ttdef"><b>定義:</b> core.c:2270</div></div>
 <div class="ttc" id="agroup__libusb__desc_html_ga5e9ab08d490a7704cf3a9b0439f16f00"><div class="ttname"><a
 href="group__libusb__desc.html#ga5e9ab08d490a7704cf3a9b0439f16f00">libusb_get_device_descriptor</a></div><div class="ttdeci">int libusb_get_device_descriptor(libusb_device *dev, struct
-libusb_device_descriptor *desc)</div><div class="ttdef"><b>Definition:</b> descriptor.c:531</div></div>
+libusb_device_descriptor *desc)</div><div class="ttdef"><b>定義:</b> descriptor.c:531</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_ga556d598ca379618a41bbec3597f55dcf"><div class="ttname"><a
-href="group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf">libusb_hotplug_event</a></div><div class="ttdeci">libusb_hotplug_event</div><div class="ttdef"><b>Definition:</b> libusb.h:1946</div></div>
+href="group__libusb__hotplug.html#ga556d598ca379618a41bbec3597f55dcf">libusb_hotplug_event</a></div><div class="ttdeci">libusb_hotplug_event</div><div class="ttdef"><b>定義:</b> libusb.h:1946</div></div>
 <div class="ttc" id="agroup__libusb__lib_html_ga4ec088aa7b79c4a9599e39bf36a72833"><div class="ttname"><a
-href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context</a></div><div class="ttdeci">struct libusb_context libusb_context</div><div class="ttdef"><b>Definition:</b> libusb.h:987</div></div>
+href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context</a></div><div class="ttdeci">struct libusb_context libusb_context</div><div class="ttdef"><b>定義:</b> libusb.h:987</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_ga6d4f5e524a3b7ab4a25b751073335d4c"><div class="ttname"><a
-href="group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c">LIBUSB_HOTPLUG_MATCH_ANY</a></div><div class="ttdeci">#define LIBUSB_HOTPLUG_MATCH_ANY</div><div class="ttdef"><b>Definition:</b> libusb.h:1972</div></div>
+href="group__libusb__hotplug.html#ga6d4f5e524a3b7ab4a25b751073335d4c">LIBUSB_HOTPLUG_MATCH_ANY</a></div><div class="ttdeci">#define LIBUSB_HOTPLUG_MATCH_ANY</div><div class="ttdef"><b>定義:</b> libusb.h:1972</div></div>
 <div class="ttc" id="agroup__libusb__lib_html_gadc174de608932caeb2fc15d94fa0844d"><div class="ttname"><a
-href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit</a></div><div class="ttdeci">void libusb_exit(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> core.c:2385</div></div>
+href="group__libusb__lib.html#gadc174de608932caeb2fc15d94fa0844d">libusb_exit</a></div><div class="ttdeci">void libusb_exit(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> core.c:2385</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga77eedd00d01eb7569b880e861a971c2b"><div class="ttname"><a
-href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">libusb_device</a></div><div class="ttdeci">struct libusb_device libusb_device</div><div class="ttdef"><b>Definition:</b> libusb.h:1004</div></div>
+href="group__libusb__dev.html#ga77eedd00d01eb7569b880e861a971c2b">libusb_device</a></div><div class="ttdeci">struct libusb_device libusb_device</div><div class="ttdef"><b>定義:</b> libusb.h:1004</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga0bc99f39e4cf5ad393cd5936c36037d1"><div class="ttname"><a
-href="group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1">libusb_handle_events_completed</a></div><div class="ttdeci">int libusb_handle_events_completed(libusb_context *ctx, int *completed)</div><div class="ttdef"><b>Definition:</b> io.c:2429</div></div>
+href="group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1">libusb_handle_events_completed</a></div><div class="ttdeci">int libusb_handle_events_completed(libusb_context *ctx, int *completed)</div><div class="ttdef"><b>定義:</b> io.c:2429</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_ga5ab3955e2110a3099497a66256fb7fab"><div class="ttname"><a
 href="group__libusb__hotplug.html#ga5ab3955e2110a3099497a66256fb7fab">libusb_hotplug_register_callback</a></div><div class="ttdeci">int libusb_hotplug_register_callback(libusb_context *ctx, int events, int
 flags, int vendor_id, int product_id, int dev_class,
 libusb_hotplug_callback_fn cb_fn, void *user_data,
-libusb_hotplug_callback_handle *callback_handle)</div><div class="ttdef"><b>Definition:</b> hotplug.c:320</div></div>
+libusb_hotplug_callback_handle *callback_handle)</div><div class="ttdef"><b>定義:</b> hotplug.c:320</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_ga4868157346bbf2c70b6af0cb0a6c0094"><div class="ttname"><a
-href="group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094">libusb_hotplug_callback_handle</a></div><div class="ttdeci">int libusb_hotplug_callback_handle</div><div class="ttdef"><b>Definition:</b> libusb.h:1939</div></div>
+href="group__libusb__hotplug.html#ga4868157346bbf2c70b6af0cb0a6c0094">libusb_hotplug_callback_handle</a></div><div class="ttdeci">int libusb_hotplug_callback_handle</div><div class="ttdef"><b>定義:</b> libusb.h:1939</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27"><div class="ttname"><a
-href="group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</a></div><div class="ttdeci">@ LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</div><div class="ttdoc">A device has left and is no longer available.</div><div class="ttdef"><b>Definition:</b> libusb.h:1953</div></div>
-<div class="ttc" id="astructlibusb__device__descriptor_html"><div class="ttname"><a href="structlibusb__device__descriptor.html">libusb_device_descriptor</a></div><div class="ttdef"><b>Definition:</b> libusb.h:528</div></div>
+href="group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac8234e02b673893ed549329ef3180a27">LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</a></div><div class="ttdeci">@ LIBUSB_HOTPLUG_EVENT_DEVICE_LEFT</div><div class="ttdoc">デバイスが取り去られて使用できなくなりました。</div><div class="ttdef"><b>定義:</b> libusb.h:1953</div></div>
+<div class="ttc" id="astructlibusb__device__descriptor_html"><div class="ttname"><a href="structlibusb__device__descriptor.html">libusb_device_descriptor</a></div><div class="ttdef"><b>定義:</b> libusb.h:528</div></div>
 <div class="ttc" id="agroup__libusb__misc_html_ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15"><div class="ttname"><a
-href="group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15">LIBUSB_SUCCESS</a></div><div class="ttdeci">@ LIBUSB_SUCCESS</div><div class="ttdoc">Success (no error)</div><div class="ttdef"><b>Definition:</b> libusb.h:1049</div></div>
+href="group__libusb__misc.html#ggab2323aa0f04bc22038e7e1740b2f29efa576d8d63f6e24b2e57cb2ca63b304f15">LIBUSB_SUCCESS</a></div><div class="ttdeci">@ LIBUSB_SUCCESS</div><div class="ttdoc">成功(エラー無し)</div><div class="ttdef"><b>定義:</b> libusb.h:1049</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga3f184a8be4488a767b2e0ae07e76d1b0"><div class="ttname"><a
-href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open</a></div><div class="ttdeci">int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)</div><div class="ttdef"><b>Definition:</b> core.c:1291</div></div>
+href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open</a></div><div class="ttdeci">int libusb_open(libusb_device *dev, libusb_device_handle **dev_handle)</div><div class="ttdef"><b>定義:</b> core.c:1291</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6"><div class="ttname"><a
-href="group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</a></div><div class="ttdeci">@ LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</div><div class="ttdoc">A device has been plugged in and is ready to use.</div><div class="ttdef"><b>Definition:</b> libusb.h:1948</div></div>
+href="group__libusb__hotplug.html#gga556d598ca379618a41bbec3597f55dcfac012270cba6e08dafe7e3bec204dffd6">LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</a></div><div class="ttdeci">@ LIBUSB_HOTPLUG_EVENT_DEVICE_ARRIVED</div><div class="ttdoc">デバイスが接続され使用できるようになりました。</div><div class="ttdef"><b>定義:</b> libusb.h:1948</div></div>
 <div class="ttc" id="agroup__libusb__hotplug_html_ga8110f57eab2064375934f1449b2602bc"><div class="ttname"><a
 href="group__libusb__hotplug.html#ga8110f57eab2064375934f1449b2602bc">libusb_hotplug_deregister_callback</a></div><div class="ttdeci">void libusb_hotplug_deregister_callback(libusb_context *ctx,
-libusb_hotplug_callback_handle callback_handle)</div><div class="ttdef"><b>Definition:</b> hotplug.c:404</div></div>
+libusb_hotplug_callback_handle callback_handle)</div><div class="ttdef"><b>定義:</b> hotplug.c:404</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga779bc4f1316bdb0ac383bddbd538620e"><div class="ttname"><a
-href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close</a></div><div class="ttdeci">void libusb_close(libusb_device_handle *dev_handle)</div><div class="ttdef"><b>Definition:</b> core.c:1446</div></div>
+href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close</a></div><div class="ttdeci">void libusb_close(libusb_device_handle *dev_handle)</div><div class="ttdef"><b>定義:</b> core.c:1446</div></div>
 <div class="ttc" id="agroup__libusb__dev_html_ga7df95821d20d27b5597f1d783749d6a4"><div class="ttname"><a
-href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_handle</a></div><div class="ttdeci">struct libusb_device_handle libusb_device_handle</div><div class="ttdef"><b>Definition:</b> libusb.h:1015</div></div>
+href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_handle</a></div><div class="ttdeci">struct libusb_device_handle libusb_device_handle</div><div class="ttdef"><b>定義:</b> libusb.h:1015</div></div>
 
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a
