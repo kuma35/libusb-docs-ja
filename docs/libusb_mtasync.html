@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: Multi-threaded applications and asynchronous I/O</title>
+<title>libusb: マルチ・スレッド・アプリケーションと非同期入出力</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,29 +44,20 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Multi-threaded applications and asynchronous I/O </div>  </div>
+<div class="title">マルチ・スレッド・アプリケーションと非同期入出力 </div>  </div>
 </div>
 <!--header-->
 <div class="contents">
-<div class="textblock"><p>libusb is a thread-safe library, but extra considerations must be applied to
-applications which interact with libusb from multiple threads.</p>
-<p>The underlying issue that must be addressed is that all libusb I/O revolves
-around monitoring file descriptors through the poll()/select() system
-calls. This is directly exposed at the <a class="el"
-href="group__libusb__asyncio.html">asynchronous interface</a> but it is
-important to note that the <a class="el"
-href="group__libusb__syncio.html">synchronous interface</a> is implemented
-on top of the asynchronous interface, therefore the same considerations
-apply.</p>
-<p>The issue is that if two or more threads are concurrently calling poll() or
-select() on libusb's file descriptors then only one of those threads will be
-woken up when an event arrives. The others will be completely oblivious that
-anything has happened.</p>
-<p>Consider the following pseudo-code, which submits an asynchronous transfer
-then waits for its completion. This style is one way you could implement a
-synchronous interface on top of the asynchronous interface (and libusb does
-something similar, albeit more advanced due to the complications explained
-on this page).</p>
+<div class="textblock"><p>libusbはスレッド・セーフなライブラリですが、複数のスレッドからlibusbと対話するアプリケーションには追加の考慮事項を適用する必要があります。</p>
+<p>対処しなければならない根本的な問題は、すべてのlibusb入出力が poll()/select()
+システム・コールによるファイル・デスクリプターの監視を中心に展開していることです。これは <a class="el"
+href="group__libusb__asyncio.html">非同期インターフェイス</a> では剥き出しになっていますが、 <a
+class="el" href="group__libusb__syncio.html">同期インターフェイス</a>
+は非同期インターフェイスの上に実装されるため、同じ考慮事項が適用されることに重々注意してください。</p>
+<p>問題は、2つ以上のスレッドがlibusbのファイル記述子で poll() または select()
+を同時に呼び出している場合、イベントが到着したときにそれらのスレッドの1つだけがウェイク・アップされることです。
+他のスレッド達は何かが起こったことに全く気づかないでしょう。</p>
+<p>以下の擬似コードについて考えてみます。この擬似コードは、非同期転送を送信してから、その完了を待ちます。このスタイルは、非同期インターフェイスの上に同期インターフェイスを実装できる方法の一つです(このページで説明されている複雑さのために、より高度ですが、libusbは同様のことを行います)。</p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> cb(<span class="keyword">struct</span>
 <a class="code" href="structlibusb__transfer.html">libusb_transfer</a>
 *transfer)</div>
@@ -116,37 +107,23 @@ href="group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933">libusb_handle
 <div class="line">    <span class="comment">// other code here</span></div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p>Here we are <em>serializing</em> completion of an asynchronous event against
-a condition - the condition being completion of a specific transfer. The
-poll() loop has a long timeout to minimize CPU usage during situations when
-nothing is happening (it could reasonably be unlimited).</p>
-<p>If this is the only thread that is polling libusb's file descriptors, there
-is no problem: there is no danger that another thread will swallow up the
-event that we are interested in. On the other hand, if there is another
-thread polling the same descriptors, there is a chance that it will receive
-the event that we were interested in. In this situation,
-<code>myfunc()</code> will only realise that the transfer has completed on
-the next iteration of the loop, <em>up to 120 seconds later.</em> Clearly a
-two-minute delay is undesirable, and don't even think about using short
-timeouts to circumvent this issue!</p>
-<p>The solution here is to ensure that no two threads are ever polling the file
-descriptors at the same time. A naive implementation of this would impact
-the capabilities of the library, so libusb offers the scheme documented
-below to ensure no loss of functionality.</p>
-<p>Before we go any further, it is worth mentioning that all libusb-wrapped
-event handling procedures fully adhere to the scheme documented below. This
-includes <a class="el"
+<p>ここでは、条件に対して非同期イベントの完了を<em>直列化</em>しています。条件は特定の転送の完了です。 poll()
+ループには、何も起こらない状況でのCPU使用率を最小限に抑えるために、長いタイムアウトがあります(わりと無制限である可能性があります)。</p>
+<p>これがlibusbのファイル・デスクリプターをポーリングしている唯一のスレッドである場合、問題はありません。別のスレッドが関心のあるイベントを飲み込む危険はありません。一方、同じデスクリプターをポーリングしている別のスレッドがある場合
+、関心のあるイベントを受信する可能性があります。この状況では、 <code>myfunc()</code>
+は、<em>最大120秒後のループの次の反復で</em>転送が完了したことのみを認識します。明らかに2分の遅延は望ましくありませんが、だからと言って、この問題を回避するために短いタイムアウトを使用することは考えないでください。</p>
+<p>ここでの解決策は、2つのスレッドがファイル・デスクリプターを同時にポーリングしないようにすることです。
+これの単純な実装はライブラリの機能に影響を与えるため、libusbは、機能が失われないようにするために、以下に説明する仕組みを提供します。</p>
+<p>先に進む前に、libusbで覆われたすべてのイベント処理手順が以下に記載されている仕組みに完全に準拠していることに言及する価値があります。これには、
+<a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-and its variants, and all the synchronous I/O functions - libusb hides this
-headache from you.</p>
-<h1><a class="anchor" id="Using"></a> libusb_handle_events() from multiple
-threads</h1>
-<p>Even when only using <a class="el"
+とその変種、およびすべての同期入出力O関数が含まれます。libusbは、この頭痛の種をあなたから隠します。</p>
+<h1><a class="anchor" id="Using"></a> 複数スレッドからの libusb_handle_events() 呼び出し</h1>
+<p><a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-and synchronous I/O functions, you can still have a race condition. You
-might be tempted to solve the above with <a class="el"
+と同期入出力関数のみを使用している場合でも、競合状態が発生する可能性があります。以下のように <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-like so:</p>
+を使用して、上記を解決したくなるかもしれません:</p>
 <div class="fragment"><div class="line"><a class="code"
 href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer</a>(transfer);</div>
 <div class="line"> </div>
@@ -156,22 +133,19 @@ href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle
 <div class="line">}</div>
 <div class="line">printf(<span class="stringliteral">&quot;completed!&quot;</span>);</div>
 </div><!-- fragment -->
-<p>This however has a race between the checking of completed and <a class="el"
+<p>ただし、これには、完了のチェックと <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-acquiring the events lock, so another thread could have completed the
-transfer, resulting in this thread hanging until either a timeout or another
-event occurs. See also commit 6696512aade99bb15d6792af90ae329af270eba6 which
-fixes this in the synchronous API implementation of libusb.</p>
-<p>Fixing this race requires checking the variable completed only after taking
-the event lock, which defeats the concept of just calling <a class="el"
+によるイベント・ロック取得との間で競合があるため、別のスレッドが転送を完了し、タイムアウトまたは別のイベントが発生するまでこのスレッドがハングする可能性があります。libusbの同期API実装でこれを修正する
+commit 6696512aade99bb15d6792af90ae329af270eba6 も参照してください。</p>
+<p>この競合を修正するには、イベント・ロックを取得した後にのみ完了した変数をチェックする必要があります。つまり、ロックを気にせずに <a
+class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-without worrying about locking. This is why libusb-1.0.9 introduces the new
-<a class="el"
+を呼び出すという考え方は通用しなくなります。
+これが、libusb-1.0.9が新しい <a class="el"
 href="group__libusb__poll.html#ga43e52b912a760b41a0cf8a4a472fbd5b">libusb_handle_events_timeout_completed()</a>
-and <a class="el"
+関数と <a class="el"
 href="group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1">libusb_handle_events_completed()</a>
-functions, which handles doing the completion check for you after they have
-acquired the lock:</p>
+関数を導入した理由です。これらの関数は、ロックを取得した後に完了チェックを実行します。</p>
 <div class="fragment"><div class="line"><a class="code"
 href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer</a>(transfer);</div>
 <div class="line"> </div>
@@ -182,31 +156,20 @@ href="group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1">libusb_handle
 <div class="line">}</div>
 <div class="line">printf(<span class="stringliteral">&quot;completed!&quot;</span>);</div>
 </div><!-- fragment -->
-<p>This nicely fixes the race in our example. Note that if all you want to do
-is submit a single transfer and wait for its completion, then using one of
-the synchronous I/O functions is much easier.</p>
-<dl class="section note"><dt>Note</dt><dd>The <code>completed</code> variable must be modified while holding the event
-lock, otherwise a race condition can still exist. It is simplest to do so
-from within the transfer callback as shown above.</dd></dl>
-<h1><a class="anchor" id="eventlock"></a> The events lock</h1>
-<p>The problem is when we consider the fact that libusb exposes file
-descriptors to allow for you to integrate asynchronous USB I/O into existing
-main loops, effectively allowing you to do some work behind libusb's
-back. If you do take libusb's file descriptors and pass them to
-poll()/select() yourself, you need to be aware of the associated issues.</p>
-<p>The first concept to be introduced is the events lock. The events lock is
-used to serialize threads that want to handle events, such that only one
-thread is handling events at any one time.</p>
-<p>You must take the events lock before polling libusb file descriptors, using
-<a class="el"
-href="group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef">libusb_lock_events()</a>.
-You must release the lock as soon as you have aborted your poll()/select()
-loop, using <a class="el"
-href="group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165">libusb_unlock_events()</a>.</p>
-<h1><a class="anchor" id="threadwait"></a> Letting other threads do the work for
-you</h1>
-<p>Although the events lock is a critical part of the solution, it is not
-enough on it's own. You might wonder if the following is sufficient... </p><div class="fragment"><div class="line"><a class="code"
+<p>これにより、我々の例の競合がうまく修正されます。なお、単一の転送を送信してその完了を待つだけの場合は、同期入出力機能の1つを使用する方がはるかに簡単であることに注意してください。</p>
+<dl class="section note"><dt>注意</dt><dd><code>complete</code>変数は、イベント・ロックを保持しつつ変更する必要があります。そうしないと、競合状態が引き続き存在する可能性があります。上記のように転送コールバック内からこれを行うのが最も簡単です。</dd></dl>
+<h1><a class="anchor" id="eventlock"></a> イベント・ロック(lock)</h1>
+<p>問題は、libusbがファイル・デスクリプターを公開して、非同期USB入出力を既存のメイン・ループに統合できるようにし、libusbの背後で効果的に作業を行えるようにするという事実を考慮する場合です。libusbのファイル・デスクリプターを取得して、自分で
+poll()/select() に渡す場合は、関連する問題に注意する必要があります。</p>
+<p>導入される最初の概念は、イベント・ロックです。
+イベント・ロックは、イベントを処理するスレッド達を直列化するために使用されます。これにより、一度に1つのスレッドのみがイベントを処理します。</p>
+<p>あなたは、 <a class="el"
+href="group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef">libusb_lock_events()</a>
+を使用してlibusbファイル・デスクリプターをポーリングする前に、イベント・ロックを取得する必要があります。 <a class="el"
+href="group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165">libusb_unlock_events()</a>を使用して
+poll()/select() ループを中止したら、すぐにロックを解除する必要があります。</p>
+<h1><a class="anchor" id="threadwait"></a> 他のスレッドに作業を任せる</h1>
+<p>イベント・ロックは解決策の重要な部分ですが、それだけでは十分ではありません。 あなたは以下で十分かどうか疑問に思うかもしれません… </p><div class="fragment"><div class="line"><a class="code"
 href="group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef">libusb_lock_events</a>(ctx);</div>
 <div class="line"><span class="keywordflow">while</span> (!completed) {</div>
 <div class="line">    poll(libusb file descriptors, 120*1000);</div>
@@ -218,37 +181,23 @@ href="group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933">libusb_handle
 <div class="line"><a class="code"
 href="group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165">libusb_unlock_events</a>(ctx);</div>
 </div><!-- fragment -->
-<p> ...and the answer is that it is not. This is because the transfer in the
-code shown above may take a long time (say 30 seconds) to complete, and the
-lock is not released until the transfer is completed.</p>
-<p>Another thread with similar code that wants to do event handling may be
-working with a transfer that completes after a few milliseconds. Despite
-having such a quick completion time, the other thread cannot check that
-status of its transfer until the code above has finished (30 seconds later)
-due to contention on the lock.</p>
-<p>To solve this, libusb offers you a mechanism to determine when another
-thread is handling events. It also offers a mechanism to block your thread
-until the event handling thread has completed an event (and this mechanism
-does not involve polling of file descriptors).</p>
-<p>After determining that another thread is currently handling events, you
-obtain the <em>event waiters</em> lock using <a class="el"
-href="group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929">libusb_lock_event_waiters()</a>.
-You then re-check that some other thread is still handling events, and if
-so, you call <a class="el"
-href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event()</a>.</p>
+<p> …そして答えはこれではありません。なぜなら、これは、上記のコードの転送が完了するまでに長い時間(たとえば30秒)かかる場合があり、転送が完了するまでロックが解除されないためです。</p>
+<p>イベント処理を実行したい同様のコードを持つ別のスレッドが、数ミリ秒後に完了する転送で動作している可能性があります。完了までの時間が非常に短いにもかかわらず、他のスレッドは、ロックの競合のために上記のコードが終了するまで(30秒後まで)転送のステータスを確認できません。</p>
+<p>これを解決するために、libusbは、別のスレッドがいつイベントを処理しているかを判別するメカニズムを提供します。また、イベント処理スレッドがイベントを完了するまでスレッドをブロックするメカニズムも提供します(このメカニズムには、ファイル・デスクリプターのポーリングは含まれません)。</p>
+<p>別のスレッドが現在イベントを処理していることを確認した後、 あなたは <a class="el"
+href="group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929">libusb_lock_event_waiters()</a>
+を使用して<em>イベント待ちロック</em>を取得します。
+次に、あなたは、他のスレッドがまだイベントを処理していることを再確認し、処理している場合は、 <a class="el"
+href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event()</a>
+を呼び出します。</p>
 <p><a class="el"
 href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event()</a>
-puts your application to sleep until an event occurs, or until a thread
-releases the events lock. When either of these things happen, your thread is
-woken up, and should re-check the condition it was waiting on. It should
-also re-check that another thread is handling events, and if not, it should
-start handling events itself.</p>
-<p>This looks like the following, as pseudo-code: </p><div class="fragment"><div class="line">retry:</div>
+は、イベントが発生するまで、またはスレッドがイベント・ロックを解放するまで、あなたのアプリケーションをスリープ状態にします。これらのどれかが発生すると、スレッドがウェイクアップされるので、待機していた状態を再確認する必要があり、また、別のスレッドがイベントを処理していることを再確認する必要があります。そうでない場合は、イベント自体の処理を開始する必要があります。</p>
+<p>これは、擬似コードとして以下のようになります: </p><div class="fragment"><div class="line">retry:</div>
 <div class="line"><span class="keywordflow">if</span> (<a class="code"
 href="group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05">libusb_try_lock_events</a>(ctx)
 == 0) {</div>
-<div class="line">    <span class="comment">// we obtained the event lock: do our own event
-handling</span></div>
+<div class="line">    <span class="comment">// 我々はイベント・ロックを取得しました: 我々独自のイベント処理を行います</span></div>
 <div class="line">    <span class="keywordflow">while</span> (!completed) {</div>
 <div class="line">        <span class="keywordflow">if</span> (!<a class="code"
 href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok</a>(ctx))
@@ -266,24 +215,19 @@ href="group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f">libusb_handle
 <div class="line">    <a class="code"
 href="group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165">libusb_unlock_events</a>(ctx);</div>
 <div class="line">} <span class="keywordflow">else</span> {</div>
-<div class="line">    <span class="comment">// another thread is doing event handling. wait for it
-to signal us that</span></div>
-<div class="line">    <span class="comment">// an event has completed</span></div>
+<div class="line">    <span class="comment">// 別のスレッドがイベント処理を行っています。</span></div>
+<div class="line">    <span class="comment">// イベントが完了したことを我々に通知(signal)するのを待ちます</span></div>
 <div class="line">    <a class="code"
 href="group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929">libusb_lock_event_waiters</a>(ctx);</div>
 <div class="line"> </div>
 <div class="line">    <span class="keywordflow">while</span> (!completed) {</div>
-<div class="line">        <span class="comment">// now that we have the event waiters lock, double
-check that another</span></div>
-<div class="line">        <span class="comment">// thread is still handling events for us. (it may
-have ceased handling</span></div>
-<div class="line">        <span class="comment">// events in the time it took us to reach this
-point)</span></div>
+<div class="line">        <span class="comment">// 今やイベント待ちがロックされたので、</span></div>
+<div class="line">        <span class="comment">// ダブル・スレッドはまだイベントを処理しています。</span></div>
+<div class="line">        <span class="comment">// (この箇所に到達するまでにイベントの処理を停止した可能性があります)</span></div>
 <div class="line">        <span class="keywordflow">if</span> (!<a class="code"
 href="group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf">libusb_event_handler_active</a>(ctx))
 {</div>
-<div class="line">            <span class="comment">// whoever was handling events is no longer doing so,
-try again</span></div>
+<div class="line">            <span class="comment">// イベントを処理している者は誰も居ません。もう一度やり直してください</span></div>
 <div class="line">            <a class="code"
 href="group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed">libusb_unlock_event_waiters</a>(ctx);</div>
 <div class="line">            <span class="keywordflow">goto</span> retry;</div>
@@ -298,225 +242,159 @@ href="group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed">libusb_unlock
 <div class="line">}</div>
 <div class="line">printf(<span class="stringliteral">&quot;completed!\n&quot;</span>);</div>
 </div><!-- fragment -->
-<p>A naive look at the above code may suggest that this can only support one
-event waiter (hence a total of 2 competing threads, the other doing event
-handling), because the event waiter seems to have taken the event waiters
-lock while waiting for an event. However, the system does support multiple
-event waiters, because <a class="el"
+<p>上記のコードをざっと見ると、これは1つのイベント待ちしかサポートできない(したがって、合計2つの競合するスレッドで、もう1つはイベント処理を実行しています)、イベント待ちがイベントを待っている間にイベント待ちをロックしたように見えます。ただし、
+<a class="el"
 href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event()</a>
-actually drops the lock while waiting, and reacquires it before continuing.</p>
-<p>We have now implemented code which can dynamically handle situations where
-nobody is handling events (so we should do it ourselves), and it can also
-handle situations where another thread is doing event handling (so we can
-piggyback onto them). It is also equipped to handle a combination of the
-two, for example, another thread is doing event handling, but for whatever
-reason it stops doing so before our condition is met, so we take over the
-event handling.</p>
-<p>Four functions were introduced in the above pseudo-code. Their importance
-should be apparent from the code shown above.</p><ol type="1">
+は待機中に実際にロックを解除し、続行する前にロックを再取得するため、システムは複数のイベント待ちをサポートします。</p>
+<p>我々は、これで、誰もイベントを処理していない状況を動的に処理できるコードを実装しました(つまり、自分で処理する必要があります)。また、別のスレッドがイベント処理を実行している状況も処理できます(つまり、それらに便乗できます)。また、2つの組み合わせを処理する機能も備えています。たとえば、別のスレッドがイベント処理を実行していますが、何らかの理由で条件が満たされる前に処理を停止するため、イベント処理を引き継ぎます。</p>
+<p>上記の擬似コードでは、4つの関数が導入されました。 それらの重要性は、上記のコードから明らかです。</p><ol type="1">
 <li><a class="el"
 href="group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05">libusb_try_lock_events()</a>
-is a non-blocking function which attempts to acquire the events lock but
-returns a failure code if it is contended.</li>
+は、イベント・ロックを取得しようと試みますが、競合した場合は失敗コードを返す非ブロッキング関数です。</li>
 <li><a class="el"
 href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok()</a>
-checks that libusb is still happy for your thread to be performing event
-handling. Sometimes, libusb needs to interrupt the event handler, and this
-is how you can check if you have been interrupted. If this function returns
-0, the correct behaviour is for you to give up the event handling lock, and
-then to repeat the cycle. The following <a class="el"
+は、あなたのスレッドがイベント処理を実行することをlibusbがまだ不満を持っていないことを確認します。libusbがイベント・ハンドラーに割り込む必要がある場合があり、これにより、割り込まれたかどうかを確認できます。この関数が0を返す場合、正しい動作は、イベント処理ロックを放棄してから、サイクルを繰り返すことです。
+次の <a class="el"
 href="group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05">libusb_try_lock_events()</a>
-will fail, so you will become an events waiter. For more information on
-this, read <a class="el" href="libusb_mtasync.html#fullstory">The full
-story</a> below.</li>
+は失敗するため、イベント待ちになります。 詳細については、以下の <a class="el"
+href="libusb_mtasync.html#fullstory">全体の流れ</a> をお読みください。</li>
 <li><a class="el"
 href="group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f">libusb_handle_events_locked()</a>
-is a variant of <a class="el"
+は、イベント・ロックを保持しながら呼び出すことができる <a class="el"
 href="group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933">libusb_handle_events_timeout()</a>
-that you can call while holding the events lock. <a class="el"
+の変種です。 <a class="el"
 href="group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933">libusb_handle_events_timeout()</a>
-itself implements similar logic to the above, so be sure not to call it when
-you are "working behind libusb's back", as is the case here.</li>
+自体は上記と同様のロジックを実装しているため、ここでの場合のように、あなたが「libusbの背後で作業している」ときは呼び出さないでください。</li>
 <li><a class="el"
 href="group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf">libusb_event_handler_active()</a>
-determines if someone is currently holding the events lock</li>
+は、誰かが現在イベント・ロックを保持しているかどうかを判断します</li>
 </ol>
-<p>You might be wondering why there is no function to wake up all threads
-blocked on <a class="el"
-href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event()</a>.
-This is because libusb can do this internally: it will wake up all such
-threads when someone calls <a class="el"
+<p>あなたは <a class="el"
+href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event()</a>
+でブロックされたすべてのスレッドをウェイクアップする関数が無いのを疑問に思われるかもしれません。これは、libusbがこれを内部で実行できるためです。誰かが
+<a class="el"
 href="group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165">libusb_unlock_events()</a>
-or when a transfer completes (at the point after its callback has returned).</p>
-<h2><a class="anchor" id="fullstory"></a> The full story</h2>
-<p>The above explanation should be enough to get you going, but if you're
-really thinking through the issues then you may be left with some more
-questions regarding libusb's internals. If you're curious, read on, and if
-not, skip to the next section to avoid confusing yourself!</p>
-<p>The immediate question that may spring to mind is: what if one thread
-modifies the set of file descriptors that need to be polled while another
-thread is doing event handling?</p>
-<p>There are 2 situations in which this may happen.</p><ol type="1">
+を呼び出したとき、または転送が完了したとき(コールバックが戻った後の時点)で、そのようなすべてのスレッドをウェイクアップします。</p>
+<h2><a class="anchor" id="fullstory"></a> 全体の流れ</h2>
+<p>上記の説明で普通は十分ですが、あなたが問題についてさらに深く考察している場合、libusbの内部に関するいくつかの質問が残っているかもしれません。もし興味がある場合は以下を読み進めてください。そうでない場合は、混乱を避けるためにこの節は飛ばして構いません。</p>
+<p>まず頭に浮かぶ質問は、別のスレッドがイベント処理を行っている間に、あるスレッドがポーリングする必要のあるファイル・デスクリプターのセットを変更した場合はどうなるか？ということです。</p>
+<p>これが発生する可能性がある状況は2つあります。</p><ol type="1">
 <li><a class="el"
 href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>
-will add another file descriptor to the poll set, therefore it is desirable
-to interrupt the event handler so that it restarts, picking up the new
-descriptor.</li>
+は別のファイル・デスクリプターをポーリング・セットに追加するため、イベント・ハンドラーを中断して再起動し、新しいデスクリプターを取得することが望ましいです。</li>
 <li><a class="el"
 href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
-will remove a file descriptor from the poll set. There are all kinds of race
-conditions that could arise here, so it is important that nobody is doing
-event handling at this time.</li>
+は、ポーリング・セットからファイル・デスクリプターを削除します。ここではさまざまな競合状態が発生する可能性があるため、その時点では誰もイベント処理を行っていないことが重要です。</li>
 </ol>
-<p>libusb handles these issues internally, so application developers do not
-have to stop their event handlers while opening/closing devices. Here's how
-it works, focusing on the <a class="el"
+<p>libusbはこれらの問題を内部で処理するため、アプリケーション開発者はデバイスをオープンしたりクローズしたりするときにイベント・ハンドラーを停止する必要はありません。最初に
+<a class="el"
 href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
-situation first:</p>
+の状況に焦点を当てて、その仕組みを説明します:</p>
 <ol type="1">
-<li>During initialization, libusb opens an internal pipe, and it adds the read
-end of this pipe to the set of file descriptors to be polled.</li>
-<li>During <a class="el"
-href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>,
-libusb writes some dummy data on this event pipe. This immediately
-interrupts the event handler. libusb also records internally that it is
-trying to interrupt event handlers for this high-priority event.</li>
-<li>At this point, some of the functions described above start behaving
-differently:<ul>
+<li>利用準備(initialization)中に、libusbは内部パイプを開き、この内部パイプの読み取り端をポーリングされるファイル・デスクリプターのセットに追加します。</li>
+<li><a class="el"
+href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
+処理中に、libusbはこのイベント・パイプにダミー・データを書き込みます。これにより、イベント・ハンドラが直ちに中断されます。libusbは、この優先度の高いイベントのイベント・ハンドラーに割り込もうとしていることも内部的に記録します。</li>
+<li>この時点で、上記の関数の一部は異なる動作を開始します:<ul>
 <li><a class="el"
 href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok()</a>
-starts returning 1, indicating that it is NOT OK for event handling to
-continue.</li>
+は1を返し始め、イベント処理を続行しても問題がないことを示します。</li>
 <li><a class="el"
 href="group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05">libusb_try_lock_events()</a>
-starts returning 1, indicating that another thread holds the event handling
-lock, even if the lock is uncontended.</li>
+は1を返し始め、ロックが競合していない場合でも、別のスレッドがイベント処理ロックを保持していることを示します。</li>
 <li><a class="el"
 href="group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf">libusb_event_handler_active()</a>
-starts returning 1, indicating that another thread is doing event handling,
-even if that is not true.</li>
+は1を返し始め、それが真でない場合でも、別のスレッドがイベント処理を行っていることを示します。</li>
 </ul>
 </li>
-<li>The above changes in behaviour result in the event handler stopping and
-giving up the events lock very quickly, giving the high-priority <a
-class="el"
+<li>上記の振る舞いの変更により、イベント・ハンドラーはイベント・ロックを非常に迅速に停止および放棄し、優先度の高い <a class="el"
 href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
-operation a "free ride" to acquire the events lock. All threads that are
-competing to do event handling become event waiters.</li>
-<li>With the events lock held inside <a class="el"
-href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>,
-libusb can safely remove a file descriptor from the poll set, in the safety
-of knowledge that nobody is polling those descriptors or trying to access
-the poll set.</li>
-<li>After obtaining the events lock, the close operation completes very quickly
-(usually a matter of milliseconds) and then immediately releases the events
-lock.</li>
-<li>At the same time, the behaviour of <a class="el"
+操作にイベント・ロックを取得するための「タダ乗り」を提供します。イベント処理を行うために競合しているすべてのスレッドは、イベント待ちになります。</li>
+<li><a class="el"
+href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
+内にイベント・ロック達が保持されているので、libusbは、誰もそれらのデスクリプターをポーリングしたり、ポーリング・セットにアクセスしようとしたりしていないことが分かり、ポーリング・セットからファイル記述子を安全に削除できます。</li>
+<li>イベント・ロックを取得した後、クローズ操作は非常に迅速に(通常はミリ秒単位で)完了し、すぐにイベント・ロックを解放します。</li>
+<li>同時に、 <a class="el"
 href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok()</a>
-and friends reverts to the original, documented behaviour.</li>
-<li>The release of the events lock causes the threads that are waiting for
-events to be woken up and to start competing to become event handlers
-again. One of them will succeed; it will then re-obtain the list of poll
-descriptors, and USB I/O will then continue as normal.</li>
+とその友人達の振る舞いは、文書化された元の行動に戻ります。</li>
+<li>イベント・ロックを解除すると、イベントを待機しているスレッドがウェイクアップされ、再びイベント・ハンドラーになるための競合が開始されます。それらのどれか1つは成功します。その後、ポーリング・デスクリプターのリストを再取得し、USB入出力は通常どおり続行されます。</li>
 </ol>
 <p><a class="el"
 href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>
-is similar, and is actually a more simplistic case. Upon a call to <a
-class="el"
-href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>:</p>
+も同様ですが、実際にはもっと単純なパターンです。 <a class="el"
+href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>
+の呼び出し時は以下のとおりです:</p>
 <ol type="1">
-<li>The device is opened and a file descriptor is added to the poll set.</li>
-<li>libusb sends some dummy data on the event pipe, and records that it is
-trying to modify the poll descriptor set.</li>
-<li>The event handler is interrupted, and the same behaviour change as for <a
-class="el"
+<li>デバイスがオープンされ、ファイル・デスクリプターがポーリング・セットに追加されます。</li>
+<li>libusbはイベント・パイプでダミー・データを送信し、ポーリング・デスクリプター・セットを変更しようとしていることを記録します。</li>
+<li>イベント・ハンドラーが割り込み中断され、 <a class="el"
 href="group__libusb__dev.html#ga779bc4f1316bdb0ac383bddbd538620e">libusb_close()</a>
-takes effect, causing all event handling threads to become event waiters.</li>
-<li>The <a class="el"
+と同じ振る舞いの変更が有効になり、すべてのイベント処理スレッドがイベント待ちになります。</li>
+<li><a class="el"
 href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>
-implementation takes its free ride to the events lock.</li>
-<li>Happy that it has successfully paused the events handler, <a class="el"
+のコードは、イベント・ロックにただ乗りでアクセスできます。</li>
+<li>イベント・ハンドラーが正常に一時停止されたので、安心して <a class="el"
 href="group__libusb__dev.html#ga3f184a8be4488a767b2e0ae07e76d1b0">libusb_open()</a>
-releases the events lock.</li>
-<li>The event waiter threads are all woken up and compete to become event
-handlers again. The one that succeeds will obtain the list of poll
-descriptors again, which will include the addition of the new device.</li>
+はイベント・ロックを解放します。</li>
+<li>イベント待ちスレッドはすべてウェイクアップされ、再びイベント・ハンドラーになるために競合します。そのうちイベント・ハンドラーになる事に成功したものは、新しいデバイスの追加を含むポーリング・デスクリプターのリストを再度取得します。</li>
 </ol>
-<h2><a class="anchor" id="concl"></a> Closing remarks</h2>
-<p>The above may seem a little complicated, but hopefully I have made it clear
-why such complications are necessary. Also, do not forget that this only
-applies to applications that take libusb's file descriptors and integrate
-them into their own polling loops.</p>
-<p>You may decide that it is OK for your multi-threaded application to ignore
-some of the rules and locks detailed above, because you don't think that two
-threads can ever be polling the descriptors at the same time. If that is the
-case, then that's good news for you because you don't have to worry. But be
-careful here; remember that the synchronous I/O functions do event handling
-internally. If you have one thread doing event handling in a loop (without
-implementing the rules and locking semantics documented above) and another
-trying to send a synchronous USB transfer, you will end up with two threads
-monitoring the same descriptors, and the above-described undesirable
-behaviour occurring. The solution is for your polling thread to play by the
-rules; the synchronous I/O functions do so, and this will result in them
-getting along in perfect harmony.</p>
-<p>If you do have a dedicated thread doing event handling, it is perfectly
-legal for it to take the event handling lock for long periods of time. Any
-synchronous I/O functions you call from other threads will transparently
-fall back to the "event waiters" mechanism detailed above. The only
-consideration that your event handling thread must apply is the one related
-to <a class="el"
-href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok()</a>:
-you must call this before every poll(), and give up the events lock if
-instructed. </p>
+<h2><a class="anchor" id="concl"></a> おわりに</h2>
+<p>上記は少し複雑に思えるかもしれませんが、望み通りであるためには、なぜそのような複雑さが必要なのかを明らかにしました。
+また、これはlibusbのファイル・デスクリプターを取得して独自のポーリング・ループに統合するアプリケーションにのみ適用されることを忘れないでください。</p>
+<p>あなたの2つのスレッドが同時にデスクリプターをポーリングできるとは思わない時、マルチ・スレッド・アプリケーションが上記のルールとロックの一部を無視しても問題ないと判断する場合があります。その場合は、その心配する必要がないので、それはあなたにとって朗報です。ただし、同期入出力関数は内部でイベント処理を行うことに注意してください。1つのスレッドがループ内でイベント処理を実行し(上記の規則とロック方法論を実装せずに)、別のスレッドが同期USB転送を送信しようとすると、2つのスレッドが同じデスクリプターを監視することになり、上述の望ましくない振る舞いが発生します。その解決策は、あなたがポーリング・スレッドを規則に従って上演することです。同期入出力関数はそのように動き、そしてその結果はこれらが完全に調和する結果になります。</p>
+<p>イベント処理を行う専用スレッドがある場合、イベント処理ロックを長期間取得することは完全に合法です。他のスレッドから呼び出す同期入出力関数は、上記の「イベント待ち」メカニズムに透過的にフォールバックします。イベント処理スレッドが適用しなければならない唯一の考慮事項は、
+<a class="el"
+href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok()</a>
+に関連するものです。すべての poll() の前にこれを呼び出し、指示された場合はイベント・ロックを放棄する必要があります。 </p>
 </div></div>
 <!-- contents -->
 </div>
 <!-- PageDoc -->
 <div class="ttc" id="agroup__libusb__desc_html_gga86c880af878493aa8f805c2aba654b8ba940484c16d44bdfc6eccc2de7a9ffcb2"><div class="ttname"><a
-href="group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba940484c16d44bdfc6eccc2de7a9ffcb2">LIBUSB_ENDPOINT_OUT</a></div><div class="ttdeci">@ LIBUSB_ENDPOINT_OUT</div><div class="ttdoc">Out: host-to-device.</div><div class="ttdef"><b>Definition:</b> libusb.h:319</div></div>
+href="group__libusb__desc.html#gga86c880af878493aa8f805c2aba654b8ba940484c16d44bdfc6eccc2de7a9ffcb2">LIBUSB_ENDPOINT_OUT</a></div><div class="ttdeci">@ LIBUSB_ENDPOINT_OUT</div><div class="ttdoc">Out: ホストからデバイスへ。</div><div class="ttdef"><b>定義:</b> libusb.h:319</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga3a0a6e8be310c20f1ca68722149f9dbf"><div class="ttname"><a
-href="group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf">libusb_event_handler_active</a></div><div class="ttdeci">int libusb_event_handler_active(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:1887</div></div>
+href="group__libusb__poll.html#ga3a0a6e8be310c20f1ca68722149f9dbf">libusb_event_handler_active</a></div><div class="ttdeci">int libusb_event_handler_active(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:1887</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga4989086e3f0327f3886a4c474ec7c327"><div class="ttname"><a
-href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events</a></div><div class="ttdeci">int libusb_handle_events(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:2407</div></div>
+href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events</a></div><div class="ttdeci">int libusb_handle_events(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:2407</div></div>
 <div class="ttc" id="astructlibusb__transfer_html_a7fa594567e074191ce8f28b5fb4a3bea"><div class="ttname"><a
-href="structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea">libusb_transfer::buffer</a></div><div class="ttdeci">unsigned char * buffer</div><div class="ttdoc">Data buffer.</div><div class="ttdef"><b>Definition:</b> libusb.h:1273</div></div>
+href="structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea">libusb_transfer::buffer</a></div><div class="ttdeci">unsigned char * buffer</div><div class="ttdoc">Data buffer.</div><div class="ttdef"><b>定義:</b> libusb.h:1273</div></div>
 <div class="ttc" id="agroup__libusb__asyncio_html_ga5447311149ec2bd954b5f1a640a8e231"><div class="ttname"><a
 href="group__libusb__asyncio.html#ga5447311149ec2bd954b5f1a640a8e231">libusb_fill_control_setup</a></div><div class="ttdeci">static void libusb_fill_control_setup(unsigned char *buffer, uint8_t
 bmRequestType, uint8_t bRequest, uint16_t wValue, uint16_t wIndex, uint16_t
-wLength)</div><div class="ttdef"><b>Definition:</b> libusb.h:1525</div></div>
+wLength)</div><div class="ttdef"><b>定義:</b> libusb.h:1525</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_gacefbeabdd3409490dc4678f00779c165"><div class="ttname"><a
-href="group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165">libusb_unlock_events</a></div><div class="ttdeci">void libusb_unlock_events(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:1823</div></div>
+href="group__libusb__poll.html#gacefbeabdd3409490dc4678f00779c165">libusb_unlock_events</a></div><div class="ttdeci">void libusb_unlock_events(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:1823</div></div>
 <div class="ttc" id="agroup__libusb__asyncio_html_ga13cc69ea40c702181c430c950121c000"><div class="ttname"><a
-href="group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000">libusb_alloc_transfer</a></div><div class="ttdeci">struct libusb_transfer * libusb_alloc_transfer(int iso_packets)</div><div class="ttdef"><b>Definition:</b> io.c:1285</div></div>
+href="group__libusb__asyncio.html#ga13cc69ea40c702181c430c950121c000">libusb_alloc_transfer</a></div><div class="ttdeci">struct libusb_transfer * libusb_alloc_transfer(int iso_packets)</div><div class="ttdef"><b>定義:</b> io.c:1285</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga0bc99f39e4cf5ad393cd5936c36037d1"><div class="ttname"><a
-href="group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1">libusb_handle_events_completed</a></div><div class="ttdeci">int libusb_handle_events_completed(libusb_context *ctx, int *completed)</div><div class="ttdef"><b>Definition:</b> io.c:2429</div></div>
+href="group__libusb__poll.html#ga0bc99f39e4cf5ad393cd5936c36037d1">libusb_handle_events_completed</a></div><div class="ttdeci">int libusb_handle_events_completed(libusb_context *ctx, int *completed)</div><div class="ttdef"><b>定義:</b> io.c:2429</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga41d7716458c11ee02d0deb19a31233ed"><div class="ttname"><a
-href="group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed">libusb_unlock_event_waiters</a></div><div class="ttdeci">void libusb_unlock_event_waiters(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:1963</div></div>
+href="group__libusb__poll.html#ga41d7716458c11ee02d0deb19a31233ed">libusb_unlock_event_waiters</a></div><div class="ttdeci">void libusb_unlock_event_waiters(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:1963</div></div>
 <div class="ttc" id="agroup__libusb__asyncio_html_gabb0932601f2c7dad2fee4b27962848ce"><div class="ttname"><a
-href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer</a></div><div class="ttdeci">int libusb_submit_transfer(struct libusb_transfer *transfer)</div><div class="ttdef"><b>Definition:</b> io.c:1489</div></div>
+href="group__libusb__asyncio.html#gabb0932601f2c7dad2fee4b27962848ce">libusb_submit_transfer</a></div><div class="ttdeci">int libusb_submit_transfer(struct libusb_transfer *transfer)</div><div class="ttdef"><b>定義:</b> io.c:1489</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga150865a3f35c38173d688efa7ee52929"><div class="ttname"><a
-href="group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929">libusb_lock_event_waiters</a></div><div class="ttdeci">void libusb_lock_event_waiters(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:1952</div></div>
+href="group__libusb__poll.html#ga150865a3f35c38173d688efa7ee52929">libusb_lock_event_waiters</a></div><div class="ttdeci">void libusb_lock_event_waiters(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:1952</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_gaa72153938dc4f34decfacbc6cc6237ef"><div class="ttname"><a
-href="group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef">libusb_lock_events</a></div><div class="ttdeci">void libusb_lock_events(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:1808</div></div>
+href="group__libusb__poll.html#gaa72153938dc4f34decfacbc6cc6237ef">libusb_lock_events</a></div><div class="ttdeci">void libusb_lock_events(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:1808</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga63592b28c265185d9469d1e6920d8373"><div class="ttname"><a
-href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok</a></div><div class="ttdeci">int libusb_event_handling_ok(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:1858</div></div>
+href="group__libusb__poll.html#ga63592b28c265185d9469d1e6920d8373">libusb_event_handling_ok</a></div><div class="ttdeci">int libusb_event_handling_ok(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:1858</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga6deff4c7d3a6c04bb9ec9fd259b48933"><div class="ttname"><a
-href="group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933">libusb_handle_events_timeout</a></div><div class="ttdeci">int libusb_handle_events_timeout(libusb_context *ctx, struct timeval *tv)</div><div class="ttdef"><b>Definition:</b> io.c:2387</div></div>
+href="group__libusb__poll.html#ga6deff4c7d3a6c04bb9ec9fd259b48933">libusb_handle_events_timeout</a></div><div class="ttdeci">int libusb_handle_events_timeout(libusb_context *ctx, struct timeval *tv)</div><div class="ttdef"><b>定義:</b> io.c:2387</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_gae22755d523560be2867be7d09034ca50"><div class="ttname"><a
-href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event</a></div><div class="ttdeci">int libusb_wait_for_event(libusb_context *ctx, struct timeval *tv)</div><div class="ttdef"><b>Definition:</b> io.c:1995</div></div>
-<div class="ttc" id="astructlibusb__transfer_html"><div class="ttname"><a href="structlibusb__transfer.html">libusb_transfer</a></div><div class="ttdef"><b>Definition:</b> libusb.h:1222</div></div>
+href="group__libusb__poll.html#gae22755d523560be2867be7d09034ca50">libusb_wait_for_event</a></div><div class="ttdeci">int libusb_wait_for_event(libusb_context *ctx, struct timeval *tv)</div><div class="ttdef"><b>定義:</b> io.c:1995</div></div>
+<div class="ttc" id="astructlibusb__transfer_html"><div class="ttname"><a href="structlibusb__transfer.html">libusb_transfer</a></div><div class="ttdef"><b>定義:</b> libusb.h:1222</div></div>
 <div class="ttc" id="astructlibusb__transfer_html_ab75ab3e7185f08e07a1ae858a35ebb7b"><div class="ttname"><a
-href="structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b">libusb_transfer::user_data</a></div><div class="ttdeci">void * user_data</div><div class="ttdoc">User context data.</div><div class="ttdef"><b>Definition:</b> libusb.h:1270</div></div>
+href="structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b">libusb_transfer::user_data</a></div><div class="ttdeci">void * user_data</div><div class="ttdoc">User context data.</div><div class="ttdef"><b>定義:</b> libusb.h:1270</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga71da081f97afa3bf68aed8e372254e8f"><div class="ttname"><a
-href="group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f">libusb_handle_events_locked</a></div><div class="ttdeci">int libusb_handle_events_locked(libusb_context *ctx, struct timeval *tv)</div><div class="ttdef"><b>Definition:</b> io.c:2457</div></div>
+href="group__libusb__poll.html#ga71da081f97afa3bf68aed8e372254e8f">libusb_handle_events_locked</a></div><div class="ttdeci">int libusb_handle_events_locked(libusb_context *ctx, struct timeval *tv)</div><div class="ttdef"><b>定義:</b> io.c:2457</div></div>
 <div class="ttc" id="agroup__libusb__misc_html_gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345"><div class="ttname"><a
-href="group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345">LIBUSB_REQUEST_TYPE_VENDOR</a></div><div class="ttdeci">@ LIBUSB_REQUEST_TYPE_VENDOR</div><div class="ttdoc">Vendor.</div><div class="ttdef"><b>Definition:</b> libusb.h:405</div></div>
+href="group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a1585f40d2a73c752a5f60688612c1345">LIBUSB_REQUEST_TYPE_VENDOR</a></div><div class="ttdeci">@ LIBUSB_REQUEST_TYPE_VENDOR</div><div class="ttdoc">Vendor.</div><div class="ttdef"><b>定義:</b> libusb.h:405</div></div>
 <div class="ttc" id="agroup__libusb__poll_html_ga6e5a116d5c9498ca4a0e29587fec1a05"><div class="ttname"><a
-href="group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05">libusb_try_lock_events</a></div><div class="ttdeci">int libusb_try_lock_events(libusb_context *ctx)</div><div class="ttdef"><b>Definition:</b> io.c:1765</div></div>
+href="group__libusb__poll.html#ga6e5a116d5c9498ca4a0e29587fec1a05">libusb_try_lock_events</a></div><div class="ttdeci">int libusb_try_lock_events(libusb_context *ctx)</div><div class="ttdef"><b>定義:</b> io.c:1765</div></div>
 <div class="ttc" id="agroup__libusb__asyncio_html_ga3a8513ed87229fe2c9771ef0bf17206e"><div class="ttname"><a
 href="group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e">libusb_fill_control_transfer</a></div><div class="ttdeci">static void libusb_fill_control_transfer(struct libusb_transfer *transfer,
 libusb_device_handle *dev_handle, unsigned char *buffer,
-libusb_transfer_cb_fn callback, void *user_data, unsigned int timeout)</div><div class="ttdef"><b>Definition:</b> libusb.h:1574</div></div>
+libusb_transfer_cb_fn callback, void *user_data, unsigned int timeout)</div><div class="ttdef"><b>定義:</b> libusb.h:1574</div></div>
 
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a

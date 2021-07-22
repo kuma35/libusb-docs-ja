@@ -200,7 +200,7 @@ class="el" href="group__libusb__syncio.html">同期API</a>
 href="group__libusb__asyncio.html#asyncevent">イベント処理</a>
 節で既に説明しています。要約すると、libusbはイベント処理用の内部スレッドを作成しないため、保留中のイベントを処理できるように、特定の時点でアプリケーションがlibusbを呼び出すことに頼っています。</p>
 <p>あなたのメインループは、おそらくすでに他のイベント・ソース(キーボードのキーの押下、マウスの動き、ネットワーク・ソケットなど)のファイル・デスクリプターのセットで
-poll() または select() またはバリアントを呼び出しています。あなたは次に、libusbのファイル・デスクリプターを
+poll() または select() またはその変種を呼び出しています。あなたは次に、libusbのファイル・デスクリプターを
 poll()/select() 呼び出しに追加します。これらのデスクリプターでアクティビティが検出されたら、 <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
 を呼び出す必要があります。</p>
@@ -1044,7 +1044,7 @@ href="group__libusb__lib.html#ga4ec088aa7b79c4a9599e39bf36a72833">libusb_context
 <p>libusbが処理する必要がある次の内部タイムアウトを決定します。この関数は、libusbのファイル・デスクリプターで poll() や
 select() などを自分で呼び出す場合にのみ使用する必要があります。 <a class="el"
 href="group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327">libusb_handle_events()</a>
-またはバリアントを直接呼び出す場合は、この関数を使用する必要はありません。</p>
+またはその変種を直接呼び出す場合は、この関数を使用する必要はありません。</p>
 <p>select() または poll() が結果を返すまで待機する時間を決定するには、あなたはメイン・ループでこの関数を呼び出す必要があります。
 libusbはこのタイムアウトで呼び出される必要があるため、あなたは select() または poll()
 呼び出しの上限として使用する必要があります。</p>

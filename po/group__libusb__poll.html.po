@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-19 23:49+0900\n"
+"PO-Revision-Date: 2021-07-22 15:15+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -398,7 +398,7 @@ msgid ""
 "such descriptors you know it is time to call <a class=\"el\" href="
 "\"group__libusb__poll."
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a>."
-msgstr "あなたのメインループは、おそらくすでに他のイベント・ソース(キーボードのキーの押下、マウスの動き、ネットワーク・ソケットなど)のファイル・デスクリプターのセットで poll() または select() またはバリアントを呼び出しています。あなたは次に、libusbのファイル・デスクリプターを poll()/select() 呼び出しに追加します。これらのデスクリプターでアクティビティが検出されたら、 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> を呼び出す必要があります。"
+msgstr "あなたのメインループは、おそらくすでに他のイベント・ソース(キーボードのキーの押下、マウスの動き、ネットワーク・ソケットなど)のファイル・デスクリプターのセットで poll() または select() またはその変種を呼び出しています。あなたは次に、libusbのファイル・デスクリプターを poll()/select() 呼び出しに追加します。これらのデスクリプターでアクティビティが検出されたら、 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> を呼び出す必要があります。"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/group__libusb__poll.html:113
@@ -1913,7 +1913,7 @@ msgid ""
 "calling <a class=\"el\" href=\"group__libusb__poll."
 "html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> or a "
 "variant directly."
-msgstr "libusbが処理する必要がある次の内部タイムアウトを決定します。この関数は、libusbのファイル・デスクリプターで poll() や select() などを自分で呼び出す場合にのみ使用する必要があります。 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> またはバリアントを直接呼び出す場合は、この関数を使用する必要はありません。"
+msgstr "libusbが処理する必要がある次の内部タイムアウトを決定します。この関数は、libusbのファイル・デスクリプターで poll() や select() などを自分で呼び出す場合にのみ使用する必要があります。 <a class=\"el\" href=\"group__libusb__poll.html#ga4989086e3f0327f3886a4c474ec7c327\">libusb_handle_events()</a> またはその変種を直接呼び出す場合は、この関数を使用する必要はありません。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__poll.html:752
