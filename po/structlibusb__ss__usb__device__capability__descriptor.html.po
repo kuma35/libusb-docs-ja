@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:32+0900\n"
+"PO-Revision-Date: 2021-07-23 15:54+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -309,6 +309,7 @@ msgstr ""
 msgid "Capability type."
 msgstr ""
 
+# libusb_bos_type::LIBUSB_BT_SS_USB_DEVICE_CAPABILITY
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:116
 msgid ""
@@ -316,7 +317,7 @@ msgid ""
 "html#gga6ccabbf3b3728ae69608ba83bba4e64ca2f1ab0d2d1e14d4942c079749b1b6c85\">libusb_capability_type::"
 "LIBUSB_BT_SS_USB_DEVICE_CAPABILITY</a> LIBUSB_BT_SS_USB_DEVICE_CAPABILITY in "
 "this context."
-msgstr ""
+msgstr "この構造体では値は LIBUSB_BT_SS_USB_DEVICE_CAPABILITY です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__ss__usb__device__capability__descriptor.html:120

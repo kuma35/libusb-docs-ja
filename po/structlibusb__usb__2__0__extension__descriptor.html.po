@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:32+0900\n"
+"PO-Revision-Date: 2021-07-23 15:55+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -231,13 +231,14 @@ msgstr ""
 msgid "Capability type."
 msgstr ""
 
+# libusb_bos_type::LIBUSB_BT_USB_2_0_EXTENSION
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:102
 msgid ""
 "Will have value <a class=\"el\" href=\"group__libusb__desc."
 "html#gga6ccabbf3b3728ae69608ba83bba4e64ca243b090db95a0fdf7104fbf581724b86\">libusb_capability_type::"
 "LIBUSB_BT_USB_2_0_EXTENSION</a> LIBUSB_BT_USB_2_0_EXTENSION in this context."
-msgstr ""
+msgstr "この構造体では値は LIBUSB_BT_USB_2_0_EXTENSION です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__usb__2__0__extension__descriptor.html:106

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-13 08:33+0900\n"
+"PO-Revision-Date: 2021-07-23 08:18+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -2592,6 +2592,7 @@ msgstr "USB 2.0 拡張デスクリプターを取得する"
 msgid "dev_cap"
 msgstr "dev_cap"
 
+# libusb_bos_type::LIBUSB_BT_USB_2_0_EXTENSION
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__desc.html:880
 msgid ""
@@ -2599,7 +2600,7 @@ msgid ""
 "href=\"group__libusb__desc."
 "html#gga6ccabbf3b3728ae69608ba83bba4e64ca243b090db95a0fdf7104fbf581724b86\">libusb_capability_type::"
 "LIBUSB_BT_USB_2_0_EXTENSION</a> LIBUSB_BT_USB_2_0_EXTENSION"
-msgstr "bDevCapabilityTypeの値が <a class=\"el\" href=\"group__libusb__desc.html#gga6ccabbf3b3728ae69608ba83bba4e64ca243b090db95a0fdf7104fbf581724b86\">libusb_capability_type::LIBUSB_BT_USB_2_0_EXTENSION</a> であるデバイス機能デスクリプター"
+msgstr "bDevCapabilityTypeの値が LIBUSB_BT_USB_2_0_EXTENSION であるデバイス機能デスクリプター"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__desc.html:881
@@ -2703,6 +2704,7 @@ msgstr "<em>ss_usb_device_cap</em>&#160;"
 msgid "Get a SuperSpeed USB Device Capability descriptor"
 msgstr "超速(SuperSpeed)USBデバイス機能デスクリプターを取得する"
 
+# libusb_bos_type::LIBUSB_BT_SS_USB_DEVICE_CAPABILITY
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__desc.html:951
 msgid ""
@@ -2710,7 +2712,7 @@ msgid ""
 "href=\"group__libusb__desc."
 "html#gga6ccabbf3b3728ae69608ba83bba4e64ca2f1ab0d2d1e14d4942c079749b1b6c85\">libusb_capability_type::"
 "LIBUSB_BT_SS_USB_DEVICE_CAPABILITY</a> LIBUSB_BT_SS_USB_DEVICE_CAPABILITY"
-msgstr "bDevCapabilityTypeの値が <a class=\"el\" href=\"group__libusb__desc.html#gga6ccabbf3b3728ae69608ba83bba4e64ca2f1ab0d2d1e14d4942c079749b1b6c85\">libusb_capability_type::LIBUSB_BT_SS_USB_DEVICE_CAPABILITY</a> であるデバイス機能デスクリプター"
+msgstr "bDevCapabilityTypeの値が LIBUSB_BT_SS_USB_DEVICE_CAPABILITY であるデバイス機能デスクリプター"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__desc.html:952
@@ -2807,6 +2809,7 @@ msgstr "<em>container_id</em>&#160;"
 msgid "Get a Container ID descriptor"
 msgstr "コンテナIDデスクリプターを取得する"
 
+# libusb_bos_type::LIBUSB_BT_CONTAINER_ID
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__desc.html:1022
 msgid ""
@@ -2814,7 +2817,7 @@ msgid ""
 "href=\"group__libusb__desc."
 "html#gga6ccabbf3b3728ae69608ba83bba4e64cac3c00e8861b4b596ea1f53c505809e5e"
 "\">libusb_capability_type::LIBUSB_BT_CONTAINER_ID</a> LIBUSB_BT_CONTAINER_ID"
-msgstr "bDevCapabilityTypeの値が <a class=\"el\" href=\"group__libusb__desc.html#gga6ccabbf3b3728ae69608ba83bba4e64cac3c00e8861b4b596ea1f53c505809e5e\">libusb_capability_type::LIBUSB_BT_CONTAINER_ID</a> であるデバイス機能デスクリプター"
+msgstr "bDevCapabilityTypeの値が LIBUSB_BT_CONTAINER_ID であるデバイス機能デスクリプター"
 
 #. type: Content of: <html><body><div><div><div><dl><dd><table><tr><td>
 #: source/api-1.0/group__libusb__desc.html:1023

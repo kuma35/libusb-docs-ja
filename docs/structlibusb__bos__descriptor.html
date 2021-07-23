@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: libusb_bos_descriptor Struct Reference</title>
+<title>libusb: libusb_bos_descriptor 構造体リファレンス</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,9 +44,9 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">データ・フィールド</a>  </div>
   <div class="headertitle">
-<div class="title">libusb_bos_descriptor Struct Reference<div class="ingroups"><a class="el" href="group__libusb__desc.html">USB descriptors</a></div></div>  </div>
+<div class="title">libusb_bos_descriptor 構造体リファレンス<div class="ingroups"><a class="el" href="group__libusb__desc.html">USBデスクリプター</a></div></div>  </div>
 </div>
 <!--header-->
 <div class="contents">
@@ -54,38 +54,35 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <p><code>#include &lt;<a class="el"
 href="libusb_8h_source.html">libusb.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> Data Fields</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> データ・フィールド</h2></td></tr>
 <tr class="memitem:ae0684cd2fd0a519c711b2c5169c6a54e"><td class="memItemLeft" align="right" valign="top"><a id="ae0684cd2fd0a519c711b2c5169c6a54e"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__bos__descriptor.html#ae0684cd2fd0a519c711b2c5169c6a54e">bLength</a></td></tr>
-<tr class="memdesc:ae0684cd2fd0a519c711b2c5169c6a54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of this descriptor (in bytes) <br /></td></tr>
+<tr class="memdesc:ae0684cd2fd0a519c711b2c5169c6a54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">このデスクリプターのサイズ(バイト単位) <br /></td></tr>
 <tr class="separator:ae0684cd2fd0a519c711b2c5169c6a54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6dcffa81a4885e1cf677656f7ae9ff7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__bos__descriptor.html#ae6dcffa81a4885e1cf677656f7ae9ff7">bDescriptorType</a></td></tr>
-<tr class="memdesc:ae6dcffa81a4885e1cf677656f7ae9ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descriptor type.  <a
-href="structlibusb__bos__descriptor.html#ae6dcffa81a4885e1cf677656f7ae9ff7">More...</a><br /></td></tr>
+<tr class="memdesc:ae6dcffa81a4885e1cf677656f7ae9ff7"><td class="mdescLeft">&#160;</td><td class="mdescRight">デスクリプター・タイプ。 <a
+href="structlibusb__bos__descriptor.html#ae6dcffa81a4885e1cf677656f7ae9ff7">詳細…</a><br /></td></tr>
 <tr class="separator:ae6dcffa81a4885e1cf677656f7ae9ff7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02490a8cfd9d1b53ef8f19190a2a1a2c"><td class="memItemLeft" align="right" valign="top"><a id="a02490a8cfd9d1b53ef8f19190a2a1a2c"></a> uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__bos__descriptor.html#a02490a8cfd9d1b53ef8f19190a2a1a2c">wTotalLength</a></td></tr>
-<tr class="memdesc:a02490a8cfd9d1b53ef8f19190a2a1a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of this descriptor and all of its sub descriptors. <br /></td></tr>
+<tr class="memdesc:a02490a8cfd9d1b53ef8f19190a2a1a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">このデスクリプターとその全てのサブ・デスクリプターの長さ <br /></td></tr>
 <tr class="separator:a02490a8cfd9d1b53ef8f19190a2a1a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba92a4ee25d13195f80651a79add48d6"><td class="memItemLeft" align="right" valign="top"><a id="aba92a4ee25d13195f80651a79add48d6"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__bos__descriptor.html#aba92a4ee25d13195f80651a79add48d6">bNumDeviceCaps</a></td></tr>
-<tr class="memdesc:aba92a4ee25d13195f80651a79add48d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of separate device capability descriptors in the BOS. <br /></td></tr>
+<tr class="memdesc:aba92a4ee25d13195f80651a79add48d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">BOS内の個別のデバイス機能デスクリプターの数。 <br /></td></tr>
 <tr class="separator:aba92a4ee25d13195f80651a79add48d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c3e8bd21b759d317eaf7d84ee0e9fa0"><td class="memItemLeft" align="right" valign="top"><a id="a8c3e8bd21b759d317eaf7d84ee0e9fa0"></a> struct <a class="el"
 href="structlibusb__bos__dev__capability__descriptor.html">libusb_bos_dev_capability_descriptor</a>
 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__bos__descriptor.html#a8c3e8bd21b759d317eaf7d84ee0e9fa0">dev_capability</a>
 [ZERO_SIZED_ARRAY]</td></tr>
-<tr class="memdesc:a8c3e8bd21b759d317eaf7d84ee0e9fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">bNumDeviceCap Device Capability Descriptors <br /></td></tr>
+<tr class="memdesc:a8c3e8bd21b759d317eaf7d84ee0e9fa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">bNumDeviceCap デバイス機能デスクリプター <br /></td></tr>
 <tr class="separator:a8c3e8bd21b759d317eaf7d84ee0e9fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A structure representing the Binary Device Object Store (BOS)
-descriptor. This descriptor is documented in section 9.6.2 of the USB 3.0
-specification. All multiple-byte fields are represented in host-endian
-format. </p>
-</div><h2 class="groupheader">Field Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳細説明</h2>
+<div class="textblock"><p>バイナリ・デバイス・オブジェクト・ストア(BOS)デスクリプターを表す構造。このデスクリプターは、USB3.0仕様のセクション9.6.2に記載されています。すべてのマルチ・バイト・フィールドは、ホスト・エンディアン形式で表されます。 </p>
+</div><h2 class="groupheader">フィールド解説</h2>
 <a id="ae6dcffa81a4885e1cf677656f7ae9ff7"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#ae6dcffa81a4885e1cf677656f7ae9ff7">&#9670;&nbsp;</a></span>bDescriptorType</h2>
@@ -99,14 +96,14 @@ href="#ae6dcffa81a4885e1cf677656f7ae9ff7">&#9670;&nbsp;</a></span>bDescriptorTyp
       </table>
 </div><div class="memdoc">
 
-<p>Descriptor type. </p>
-<p>Will have value <a class="el"
+<p>デスクリプター・タイプ。 </p>
+<p>この構造体では、値は <a class="el"
 href="group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9caab1245826594605de870d70bffae7f2c">libusb_descriptor_type::LIBUSB_DT_BOS</a>
-LIBUSB_DT_BOS in this context. </p>
+です。 </p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>この文書は、以下のファイルから生成されました:<ul>
 <li><a class="el" href="libusb_8h_source.html">libusb.h</a></li>
 </ul>
 </div>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:28+0900\n"
+"PO-Revision-Date: 2021-07-23 15:53+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -246,6 +246,7 @@ msgstr ""
 msgid "Capability type."
 msgstr ""
 
+# libusb_bos_type::LIBUSB_BT_CONTAINER_ID
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__container__id__descriptor.html:107
 msgid ""
@@ -253,7 +254,7 @@ msgid ""
 "html#gga6ccabbf3b3728ae69608ba83bba4e64cac3c00e8861b4b596ea1f53c505809e5e"
 "\">libusb_capability_type::LIBUSB_BT_CONTAINER_ID</a> LIBUSB_BT_CONTAINER_ID "
 "in this context."
-msgstr ""
+msgstr "この構造体では値は LIBUSB_BT_CONTAINER_ID です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__container__id__descriptor.html:111
