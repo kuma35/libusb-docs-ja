@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:27+0900\n"
+"PO-Revision-Date: 2021-07-24 08:03+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__config__descriptor.html:8
 msgid "libusb: libusb_config_descriptor Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_config_descriptor 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__config__descriptor.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__config__descriptor.html:36
@@ -42,46 +42,46 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:47
 msgid "libusb_config_descriptor Struct Reference"
-msgstr ""
+msgstr "libusb_config_descriptor構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:47
 msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__desc.html\">USBデスクリプター</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:55
 msgid "<a id=\"a18ccd46a86328fd9c849e17ca8f01738\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"a18ccd46a86328fd9c849e17ca8f01738\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:56
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#a18ccd46a86328fd9c849e17ca8f01738\">bLength</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#a18ccd46a86328fd9c849e17ca8f01738\">bLength</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:57
@@ -107,124 +107,124 @@ msgstr ""
 #: source/api-1.0/structlibusb__config__descriptor.html:92
 #: source/api-1.0/structlibusb__config__descriptor.html:93
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:57
 msgid "Size of this descriptor (in bytes)"
-msgstr ""
+msgstr "このデスクリプターのサイズ(バイト単位)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:59
 #: source/api-1.0/structlibusb__config__descriptor.html:82
 msgid "uint8_t&#160;"
-msgstr ""
+msgstr "uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:59
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#abc4f9a751c5b2ed968b045cb17528f74\">bDescriptorType</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#abc4f9a751c5b2ed968b045cb17528f74\">bDescriptorType</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:60
 msgid ""
 "Descriptor type.  <a href=\"structlibusb__config__descriptor."
 "html#abc4f9a751c5b2ed968b045cb17528f74\">More...</a>"
-msgstr ""
+msgstr "デスクリプター・タイプ。 <a href=\"structlibusb__config__descriptor.html#abc4f9a751c5b2ed968b045cb17528f74\">詳細はコチラ...</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:62
 msgid "<a id=\"a819c160c66c1bd7b569399e6a6fc278f\"></a> uint16_t&#160;"
-msgstr ""
+msgstr "<a id=\"a819c160c66c1bd7b569399e6a6fc278f\"></a> uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:63
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#a819c160c66c1bd7b569399e6a6fc278f\">wTotalLength</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#a819c160c66c1bd7b569399e6a6fc278f\">wTotalLength</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:64
 msgid "Total length of data returned for this configuration."
-msgstr ""
+msgstr "この構成(configuration)で返されるデータの全長。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:66
 msgid "<a id=\"a2c89b2d0a9ec0440801b97a8f8145792\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"a2c89b2d0a9ec0440801b97a8f8145792\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:67
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#a2c89b2d0a9ec0440801b97a8f8145792\">bNumInterfaces</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#a2c89b2d0a9ec0440801b97a8f8145792\">bNumInterfaces</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:68
 msgid "Number of interfaces supported by this configuration."
-msgstr ""
+msgstr "この構成(configuration)でサポートされるインターフェイスの数。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:70
 msgid "<a id=\"a04549d99d38080857e0256fcad8dcce7\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"a04549d99d38080857e0256fcad8dcce7\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:71
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#a04549d99d38080857e0256fcad8dcce7\">bConfigurationValue</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#a04549d99d38080857e0256fcad8dcce7\">bConfigurationValue</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:72
 msgid "Identifier value for this configuration."
-msgstr ""
+msgstr "この構成(configuration)のID値。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:74
 msgid "<a id=\"a06dbb2e068b3999dd23954e63640d953\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"a06dbb2e068b3999dd23954e63640d953\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:75
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#a06dbb2e068b3999dd23954e63640d953\">iConfiguration</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#a06dbb2e068b3999dd23954e63640d953\">iConfiguration</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:76
 msgid "Index of string descriptor describing this configuration."
-msgstr ""
+msgstr "この構成(configuration)を説明する文字列デスクリプターのインデックス。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:78
 msgid "<a id=\"adb65fe86ce28394110caad982c566525\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"adb65fe86ce28394110caad982c566525\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:79
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#adb65fe86ce28394110caad982c566525\">bmAttributes</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#adb65fe86ce28394110caad982c566525\">bmAttributes</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:80
 msgid "Configuration characteristics."
-msgstr ""
+msgstr "この構成の特徴を示す属性値群"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:82
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#a527518147a0c7321a195f2d8dac2ea01\">MaxPower</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#a527518147a0c7321a195f2d8dac2ea01\">MaxPower</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:83
@@ -233,21 +233,21 @@ msgid ""
 "configuration when the device is fully operation.  <a href="
 "\"structlibusb__config__descriptor."
 "html#a527518147a0c7321a195f2d8dac2ea01\">More...</a>"
-msgstr ""
+msgstr "そのUSBデバイスが完全に動作しているとき、この構成でのこのバスからそのUSBデバイスが最大限消費する電力。 <a href=\"structlibusb__config__descriptor.html#a527518147a0c7321a195f2d8dac2ea01\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:85
 msgid ""
 "const struct <a class=\"el\" href=\"structlibusb__interface.html"
 "\">libusb_interface</a> *&#160;"
-msgstr ""
+msgstr "const struct <a class=\"el\" href=\"structlibusb__interface.html\">libusb_interface</a> *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:85
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#afe04b70611b0ac83866639103d27df76\">interface</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#afe04b70611b0ac83866639103d27df76\">interface</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:86
@@ -255,38 +255,38 @@ msgid ""
 "Array of interfaces supported by this configuration.  <a href="
 "\"structlibusb__config__descriptor."
 "html#afe04b70611b0ac83866639103d27df76\">More...</a>"
-msgstr ""
+msgstr "この構成でサポートされるインターフェイスの配列。 <a href=\"structlibusb__config__descriptor.html#afe04b70611b0ac83866639103d27df76\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:88
 msgid "const unsigned char *&#160;"
-msgstr ""
+msgstr "const unsigned char *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:88
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#acc982e6c82f7183dfa41076d28d991f7\">extra</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#acc982e6c82f7183dfa41076d28d991f7\">extra</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:89
 msgid ""
 "Extra descriptors.  <a href=\"structlibusb__config__descriptor."
 "html#acc982e6c82f7183dfa41076d28d991f7\">More...</a>"
-msgstr ""
+msgstr "追加のデスクリプター達。 <a href=\"structlibusb__config__descriptor.html#acc982e6c82f7183dfa41076d28d991f7\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:91
 msgid "int&#160;"
-msgstr ""
+msgstr "int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:91
 msgid ""
 "<a class=\"el\" href=\"structlibusb__config__descriptor."
 "html#a18439e83e8f46606a13d70c00a48a9d9\">extra_length</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__config__descriptor.html#a18439e83e8f46606a13d70c00a48a9d9\">extra_length</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:92
@@ -294,17 +294,17 @@ msgid ""
 "Length of the extra descriptors, in bytes.  <a href="
 "\"structlibusb__config__descriptor."
 "html#a18439e83e8f46606a13d70c00a48a9d9\">More...</a>"
-msgstr ""
+msgstr "追加デスクリプター達の長さ。バイト単位。 <a href=\"structlibusb__config__descriptor.html#a18439e83e8f46606a13d70c00a48a9d9\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:95
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:95
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:96
@@ -312,17 +312,17 @@ msgid ""
 "A structure representing the standard USB configuration descriptor. This "
 "descriptor is documented in section 9.6.3 of the USB 3.0 specification. All "
 "multiple-byte fields are represented in host-endian format."
-msgstr ""
+msgstr "標準のUSB構成デスクリプターを表す構造体。このデスクリプターは、USB3.0仕様のセクション9.6.3に記載されています。すべてのマルチ・バイト・フィールドは、ホスト・エンディアン形式で表されます。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:97
 msgid "Field Documentation"
-msgstr ""
+msgstr "フィールド解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:98
 msgid "<a id=\"abc4f9a751c5b2ed968b045cb17528f74\"></a>"
-msgstr ""
+msgstr "<a id=\"abc4f9a751c5b2ed968b045cb17528f74\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:99
@@ -330,17 +330,17 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#abc4f9a751c5b2ed968b045cb17528f74\">&#9670;&nbsp;</a></"
 "span>bDescriptorType"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#abc4f9a751c5b2ed968b045cb17528f74\">&#9670;&nbsp;</a></span>bDescriptorType"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:105
 msgid "uint8_t libusb_config_descriptor::bDescriptorType"
-msgstr ""
+msgstr "uint8_t libusb_config_descriptor::bDescriptorType"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:110
 msgid "Descriptor type."
-msgstr ""
+msgstr "デスクリプター・タイプ。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:111
@@ -348,148 +348,148 @@ msgid ""
 "Will have value <a class=\"el\" href=\"group__libusb__desc."
 "html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca2a3f906d7755932ab67f39701da0b508\">libusb_descriptor_type::"
 "LIBUSB_DT_CONFIG</a> LIBUSB_DT_CONFIG in this context."
-msgstr ""
+msgstr "この構造体では値は <a class=\"el\" href=\"group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca2a3f906d7755932ab67f39701da0b508\">libusb_descriptor_type::LIBUSB_DT_CONFIG</a> です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:115
 msgid "<a id=\"a527518147a0c7321a195f2d8dac2ea01\"></a>"
-msgstr ""
+msgstr "<a id=\"a527518147a0c7321a195f2d8dac2ea01\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:116
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#a527518147a0c7321a195f2d8dac2ea01\">&#9670;&nbsp;</a></span>MaxPower"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a527518147a0c7321a195f2d8dac2ea01\">&#9670;&nbsp;</a></span>MaxPower"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:122
 msgid "uint8_t libusb_config_descriptor::MaxPower"
-msgstr ""
+msgstr "uint8_t libusb_config_descriptor::MaxPower"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:127
 msgid ""
 "Maximum power consumption of the USB device from this bus in this "
 "configuration when the device is fully operation."
-msgstr ""
+msgstr "そのUSBデバイスが完全に動作しているとき、この構成でのこのバスからそのUSBデバイスが最大限消費する電力。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:128
 msgid ""
 "Expressed in units of 2 mA when the device is operating in high-speed mode "
 "and in units of 8 mA when the device is operating in super-speed mode."
-msgstr ""
+msgstr "デバイスが高速(high-speed)モードで動作している場合は2mAの単位で表され、デバイスが超速(super-speed)モードで動作している場合は8mAの単位で表されます。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:132
 msgid "<a id=\"afe04b70611b0ac83866639103d27df76\"></a>"
-msgstr ""
+msgstr "<a id=\"afe04b70611b0ac83866639103d27df76\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:133
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#afe04b70611b0ac83866639103d27df76\">&#9670;&nbsp;</a></span>interface"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#afe04b70611b0ac83866639103d27df76\">&#9670;&nbsp;</a></span>interface"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:139
 msgid ""
 "const struct <a class=\"el\" href=\"structlibusb__interface.html"
 "\">libusb_interface</a>* libusb_config_descriptor::interface"
-msgstr ""
+msgstr "const struct <a class=\"el\" href=\"structlibusb__interface.html\">libusb_interface</a>* libusb_config_descriptor::interface"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:144
 msgid "Array of interfaces supported by this configuration."
-msgstr ""
+msgstr "この構成でサポートされるインターフェイスの配列。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:145
 msgid "The length of this array is determined by the bNumInterfaces field."
-msgstr ""
+msgstr "この配列の長さは、bNumInterfacesフィールドによって決定されます。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:149
 msgid "<a id=\"acc982e6c82f7183dfa41076d28d991f7\"></a>"
-msgstr ""
+msgstr "<a id=\"acc982e6c82f7183dfa41076d28d991f7\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:150
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#acc982e6c82f7183dfa41076d28d991f7\">&#9670;&nbsp;</a></span>extra"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#acc982e6c82f7183dfa41076d28d991f7\">&#9670;&nbsp;</a></span>extra"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:156
 msgid "const unsigned char* libusb_config_descriptor::extra"
-msgstr ""
+msgstr "const unsigned char* libusb_config_descriptor::extra"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:161
 msgid "Extra descriptors."
-msgstr ""
+msgstr "追加のデスクリプター達。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:162
 msgid ""
 "If libusb encounters unknown configuration descriptors, it will store them "
 "here, should you wish to parse them."
-msgstr ""
+msgstr "libusbが不明な構成デスクリプターを検出した場合、それらをパースしたい場合は、ここにそれらを格納します。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:166
 msgid "<a id=\"a18439e83e8f46606a13d70c00a48a9d9\"></a>"
-msgstr ""
+msgstr "<a id=\"a18439e83e8f46606a13d70c00a48a9d9\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__config__descriptor.html:167
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#a18439e83e8f46606a13d70c00a48a9d9\">&#9670;&nbsp;</a></span>extra_length"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a18439e83e8f46606a13d70c00a48a9d9\">&#9670;&nbsp;</a></span>extra_length"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__config__descriptor.html:173
 msgid "int libusb_config_descriptor::extra_length"
-msgstr ""
+msgstr "int libusb_config_descriptor::extra_length"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:178
 msgid "Length of the extra descriptors, in bytes."
-msgstr ""
+msgstr "追加のデスクリプター達の長さ。バイト単位。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__config__descriptor.html:179
 msgid "Must be non-negative."
-msgstr ""
+msgstr "負の値を指定してはいけません。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__config__descriptor.html:183
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この文書は以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__config__descriptor.html:184
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__config__descriptor.html:188
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__config__descriptor.html:190
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__config__descriptor.html:191
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
