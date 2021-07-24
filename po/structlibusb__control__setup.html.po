@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:28+0900\n"
+"PO-Revision-Date: 2021-07-24 21:31+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__control__setup.html:8
 msgid "libusb: libusb_control_setup Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_control_setup 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__control__setup.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__control__setup.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__control__setup.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__control__setup.html:36
@@ -42,49 +42,49 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__control__setup.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__control__setup.html:47
 msgid "libusb_control_setup Struct Reference"
-msgstr ""
+msgstr "libusb_control_setup 構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__control__setup.html:47
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device I/"
 "O</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html\">非同期デバイス入出力</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__control__setup.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:55
 #: source/api-1.0/structlibusb__control__setup.html:58
 msgid "uint8_t&#160;"
-msgstr ""
+msgstr "uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:55
 msgid ""
 "<a class=\"el\" href=\"structlibusb__control__setup."
 "html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">bmRequestType</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:56
@@ -98,121 +98,121 @@ msgstr ""
 #: source/api-1.0/structlibusb__control__setup.html:69
 #: source/api-1.0/structlibusb__control__setup.html:70
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:56
 msgid ""
 "Request type.  <a href=\"structlibusb__control__setup."
 "html#a39b148c231d675492ccd2383196926bf\">More...</a>"
-msgstr ""
+msgstr "要求(request)タイプ。<a href=\"structlibusb__control__setup.html#a39b148c231d675492ccd2383196926bf\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:58
 msgid ""
 "<a class=\"el\" href=\"structlibusb__control__setup."
 "html#a1b80a28b8d4e8586fc54358194e70087\">bRequest</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">bRequest</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:59
 msgid ""
 "Request.  <a href=\"structlibusb__control__setup."
 "html#a1b80a28b8d4e8586fc54358194e70087\">More...</a>"
-msgstr ""
+msgstr "要求(request) <a href=\"structlibusb__control__setup.html#a1b80a28b8d4e8586fc54358194e70087\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:61
 #: source/api-1.0/structlibusb__control__setup.html:64
 msgid "uint16_t&#160;"
-msgstr ""
+msgstr "uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:61
 msgid ""
 "<a class=\"el\" href=\"structlibusb__control__setup."
 "html#abbb6daa01fe4b6a05dc43492e4e53a7d\">wValue</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">wValue</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:62
 msgid ""
 "Value.  <a href=\"structlibusb__control__setup."
 "html#abbb6daa01fe4b6a05dc43492e4e53a7d\">More...</a>"
-msgstr ""
+msgstr "値。 <a href=\"structlibusb__control__setup.html#abbb6daa01fe4b6a05dc43492e4e53a7d\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:64
 msgid ""
 "<a class=\"el\" href=\"structlibusb__control__setup."
 "html#a70c2ae456344b200a19d434ace85ae2b\">wIndex</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">wIndex</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:65
 msgid ""
 "Index.  <a href=\"structlibusb__control__setup."
 "html#a70c2ae456344b200a19d434ace85ae2b\">More...</a>"
-msgstr ""
+msgstr "インデックス。 <a href=\"structlibusb__control__setup.html#a70c2ae456344b200a19d434ace85ae2b\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:67
 msgid "<a id=\"a3c442c64fd7619b43b782367235766cc\"></a> uint16_t&#160;"
-msgstr ""
+msgstr "<a id=\"a3c442c64fd7619b43b782367235766cc\"></a> uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:68
 msgid ""
 "<a class=\"el\" href=\"structlibusb__control__setup."
 "html#a3c442c64fd7619b43b782367235766cc\">wLength</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__control__setup.html#a3c442c64fd7619b43b782367235766cc\">wLength</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:69
 msgid "Number of bytes to transfer."
-msgstr ""
+msgstr "転送バイト数"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__control__setup.html:72
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__control__setup.html:72
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:73
 msgid "Setup packet for control transfers."
-msgstr ""
+msgstr "制御転送用のセットアップ・パケット"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__control__setup.html:74
 msgid "Field Documentation"
-msgstr ""
+msgstr "フィールド解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__control__setup.html:75
 msgid "<a id=\"a39b148c231d675492ccd2383196926bf\"></a>"
-msgstr ""
+msgstr "<a id=\"a39b148c231d675492ccd2383196926bf\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__control__setup.html:76
 msgid ""
 "<span class=\"permalink\"><a href=\"#a39b148c231d675492ccd2383196926bf"
 "\">&#9670;&nbsp;</a></span>bmRequestType"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a39b148c231d675492ccd2383196926bf\">&#9670;&nbsp;</a></span>bmRequestType"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:82
 msgid "uint8_t libusb_control_setup::bmRequestType"
-msgstr ""
+msgstr "uint8_t libusb_control_setup::bmRequestType"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:87
 msgid "Request type."
-msgstr ""
+msgstr "要求(request)タイプ。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:88
@@ -224,29 +224,29 @@ msgid ""
 "determines data transfer direction, see <a class=\"el\" href="
 "\"group__libusb__desc.html#ga86c880af878493aa8f805c2aba654b8b"
 "\">libusb_endpoint_direction</a>."
-msgstr ""
+msgstr "ビット 0:4 はレシピを決定(<a class=\"el\" href=\"group__libusb__misc.html#ga20a4e8a729aa543fa742a5086596cbae\">libusb_request_recipient</a> 参照)。ビット 5:6 はタイプを決定(<a class=\"el\" href=\"group__libusb__misc.html#ga0b0933ae70744726cde11254c39fac91\">libusb_request_type</a> 参照)。ビット 7 は転送方向を決定(<a class=\"el\" href=\"group__libusb__desc.html#ga86c880af878493aa8f805c2aba654b8b\">libusb_endpoint_direction</a> 参照)。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__control__setup.html:92
 msgid "<a id=\"a1b80a28b8d4e8586fc54358194e70087\"></a>"
-msgstr ""
+msgstr "<a id=\"a1b80a28b8d4e8586fc54358194e70087\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__control__setup.html:93
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#a1b80a28b8d4e8586fc54358194e70087\">&#9670;&nbsp;</a></span>bRequest"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a1b80a28b8d4e8586fc54358194e70087\">&#9670;&nbsp;</a></span>bRequest"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:99
 msgid "uint8_t libusb_control_setup::bRequest"
-msgstr ""
+msgstr "uint8_t libusb_control_setup::bRequest"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:104
 msgid "Request."
-msgstr ""
+msgstr "要求(request)。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:105
@@ -257,86 +257,86 @@ msgid ""
 "a> then this field refers to <a class=\"el\" href=\"group__libusb__misc."
 "html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a>. For "
 "other cases, use of this field is application-specific."
-msgstr ""
+msgstr "bmRequestTypeのタイプビットが <a class=\"el\" href=\"group__libusb__misc.html#gga0b0933ae70744726cde11254c39fac91a20eca62c34d2d25be7e1776510184209\">LIBUSB_REQUEST_TYPE_STANDARD</a> に等しい場合、このフィールドは <a class=\"el\" href=\"group__libusb__misc.html#ga5b5912057c2d7e23b3ed5aa0c20236df\">libusb_standard_request</a> を参照します。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__control__setup.html:109
 msgid "<a id=\"abbb6daa01fe4b6a05dc43492e4e53a7d\"></a>"
-msgstr ""
+msgstr "<a id=\"abbb6daa01fe4b6a05dc43492e4e53a7d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__control__setup.html:110
 msgid ""
 "<span class=\"permalink\"><a href=\"#abbb6daa01fe4b6a05dc43492e4e53a7d"
 "\">&#9670;&nbsp;</a></span>wValue"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#abbb6daa01fe4b6a05dc43492e4e53a7d\">&#9670;&nbsp;</a></span>wValue"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:116
 msgid "uint16_t libusb_control_setup::wValue"
-msgstr ""
+msgstr "uint16_t libusb_control_setup::wValue"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:121
 msgid "Value."
-msgstr ""
+msgstr "値。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:122
 msgid "Varies according to request"
-msgstr ""
+msgstr "要求に応じて異なります"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__control__setup.html:126
 msgid "<a id=\"a70c2ae456344b200a19d434ace85ae2b\"></a>"
-msgstr ""
+msgstr "<a id=\"a70c2ae456344b200a19d434ace85ae2b\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__control__setup.html:127
 msgid ""
 "<span class=\"permalink\"><a href=\"#a70c2ae456344b200a19d434ace85ae2b"
 "\">&#9670;&nbsp;</a></span>wIndex"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a70c2ae456344b200a19d434ace85ae2b\">&#9670;&nbsp;</a></span>wIndex"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__control__setup.html:133
 msgid "uint16_t libusb_control_setup::wIndex"
-msgstr ""
+msgstr "uint16_t libusb_control_setup::wIndex"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:138
 msgid "Index."
-msgstr ""
+msgstr "インデックス。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__control__setup.html:139
 msgid "Varies according to request, typically used to pass an index or offset"
-msgstr ""
+msgstr "要求に応じて変化し、通常はインデックスまたはオフセットを渡すために使用されます"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__control__setup.html:143
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この文書は以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__control__setup.html:144
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__control__setup.html:148
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__control__setup.html:150
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__control__setup.html:151
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
