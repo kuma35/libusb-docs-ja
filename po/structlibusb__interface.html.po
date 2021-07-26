@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:29+0900\n"
+"PO-Revision-Date: 2021-07-27 07:29+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__interface.html:8
 msgid "libusb: libusb_interface Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_interface 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__interface.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__interface.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__interface.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__interface.html:36
@@ -42,48 +42,48 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__interface.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__interface.html:47
 msgid "libusb_interface Struct Reference"
-msgstr ""
+msgstr "libusb_interface 構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__interface.html:47
 msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__desc.html\">USBデスクリプター</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__interface.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__interface.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:55
 msgid ""
 "const struct <a class=\"el\" href=\"structlibusb__interface__descriptor.html"
 "\">libusb_interface_descriptor</a> *&#160;"
-msgstr ""
+msgstr "const struct <a class=\"el\" href=\"structlibusb__interface__descriptor.html\">libusb_interface_descriptor</a> *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:55
 msgid ""
 "<a class=\"el\" href=\"structlibusb__interface."
 "html#a072dc48e34a98aeafbd23591ffe694ce\">altsetting</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce\">altsetting</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:56
@@ -91,26 +91,26 @@ msgstr ""
 #: source/api-1.0/structlibusb__interface.html:59
 #: source/api-1.0/structlibusb__interface.html:60
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:56
 msgid ""
 "Array of interface descriptors.  <a href=\"structlibusb__interface."
 "html#a072dc48e34a98aeafbd23591ffe694ce\">More...</a>"
-msgstr ""
+msgstr "インターフェイス・デスクリプターの配列 <a href=\"structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:58
 msgid "int&#160;"
-msgstr ""
+msgstr "int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:58
 msgid ""
 "<a class=\"el\" href=\"structlibusb__interface."
 "html#afc930be16a60980424f64a88b23c10e9\">num_altsetting</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">num_altsetting</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:59
@@ -118,108 +118,108 @@ msgid ""
 "The number of alternate settings that belong to this interface.  <a href="
 "\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">More...</"
 "a>"
-msgstr ""
+msgstr "このインターフェイスに属する代替設定の数。 <a href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__interface.html:62
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__interface.html:62
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:63
 msgid "A collection of alternate settings for a particular USB interface."
-msgstr ""
+msgstr "指定のUSBインターフェイスの代替設定のコレクション(collection)。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__interface.html:64
 msgid "Field Documentation"
-msgstr ""
+msgstr "フィールド解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__interface.html:65
 msgid "<a id=\"a072dc48e34a98aeafbd23591ffe694ce\"></a>"
-msgstr ""
+msgstr "<a id=\"a072dc48e34a98aeafbd23591ffe694ce\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__interface.html:66
 msgid ""
 "<span class=\"permalink\"><a href=\"#a072dc48e34a98aeafbd23591ffe694ce"
 "\">&#9670;&nbsp;</a></span>altsetting"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a072dc48e34a98aeafbd23591ffe694ce\">&#9670;&nbsp;</a></span>altsetting"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:72
 msgid ""
 "const struct <a class=\"el\" href=\"structlibusb__interface__descriptor.html"
 "\">libusb_interface_descriptor</a>* libusb_interface::altsetting"
-msgstr ""
+msgstr "const struct <a class=\"el\" href=\"structlibusb__interface__descriptor.html\">libusb_interface_descriptor</a>* libusb_interface::altsetting"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:77
 msgid "Array of interface descriptors."
-msgstr ""
+msgstr "インターフェイス・デスクリプターの配列。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:78
 msgid "The length of this array is determined by the num_altsetting field."
-msgstr ""
+msgstr "この配列の長さは、num_altsettingフィールドによって決定されます。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__interface.html:82
 msgid "<a id=\"afc930be16a60980424f64a88b23c10e9\"></a>"
-msgstr ""
+msgstr "<a id=\"afc930be16a60980424f64a88b23c10e9\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__interface.html:83
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#afc930be16a60980424f64a88b23c10e9\">&#9670;&nbsp;</a></span>num_altsetting"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#afc930be16a60980424f64a88b23c10e9\">&#9670;&nbsp;</a></span>num_altsetting"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface.html:89
 msgid "int libusb_interface::num_altsetting"
-msgstr ""
+msgstr "int libusb_interface::num_altsetting"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:94
 msgid "The number of alternate settings that belong to this interface."
-msgstr ""
+msgstr "このインターフェイスに属する代替設定の数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:95
 msgid "Must be non-negative."
-msgstr ""
+msgstr "負の値を指定してはいけません。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__interface.html:99
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この文書は以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__interface.html:100
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__interface.html:104
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__interface.html:106
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__interface.html:107
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: libusb_interface Struct Reference</title>
+<title>libusb: libusb_interface 構造体リファレンス</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,9 +44,9 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">データ・フィールド</a>  </div>
   <div class="headertitle">
-<div class="title">libusb_interface Struct Reference<div class="ingroups"><a class="el" href="group__libusb__desc.html">USB descriptors</a></div></div>  </div>
+<div class="title">libusb_interface 構造体リファレンス<div class="ingroups"><a class="el" href="group__libusb__desc.html">USBデスクリプター</a></div></div>  </div>
 </div>
 <!--header-->
 <div class="contents">
@@ -54,23 +54,23 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <p><code>#include &lt;<a class="el"
 href="libusb_8h_source.html">libusb.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> Data Fields</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> データ・フィールド</h2></td></tr>
 <tr class="memitem:a072dc48e34a98aeafbd23591ffe694ce"><td class="memItemLeft" align="right" valign="top">const struct <a class="el"
 href="structlibusb__interface__descriptor.html">libusb_interface_descriptor</a>
 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce">altsetting</a></td></tr>
-<tr class="memdesc:a072dc48e34a98aeafbd23591ffe694ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of interface descriptors.  <a
-href="structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce">More...</a><br /></td></tr>
+<tr class="memdesc:a072dc48e34a98aeafbd23591ffe694ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">インターフェイス・デスクリプターの配列 <a
+href="structlibusb__interface.html#a072dc48e34a98aeafbd23591ffe694ce">詳細はコチラ</a><br /></td></tr>
 <tr class="separator:a072dc48e34a98aeafbd23591ffe694ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc930be16a60980424f64a88b23c10e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9">num_altsetting</a></td></tr>
-<tr class="memdesc:afc930be16a60980424f64a88b23c10e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of alternate settings that belong to this interface.  <a
-href="structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9">More...</a><br /></td></tr>
+<tr class="memdesc:afc930be16a60980424f64a88b23c10e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスに属する代替設定の数。 <a
+href="structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9">詳細はコチラ</a><br /></td></tr>
 <tr class="separator:afc930be16a60980424f64a88b23c10e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A collection of alternate settings for a particular USB interface. </p>
-</div><h2 class="groupheader">Field Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳細説明</h2>
+<div class="textblock"><p>指定のUSBインターフェイスの代替設定のコレクション(collection)。 </p>
+</div><h2 class="groupheader">フィールド解説</h2>
 <a id="a072dc48e34a98aeafbd23591ffe694ce"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#a072dc48e34a98aeafbd23591ffe694ce">&#9670;&nbsp;</a></span>altsetting</h2>
@@ -86,8 +86,8 @@ libusb_interface::altsetting</td>
       </table>
 </div><div class="memdoc">
 
-<p>Array of interface descriptors. </p>
-<p>The length of this array is determined by the num_altsetting field. </p>
+<p>インターフェイス・デスクリプターの配列。 </p>
+<p>この配列の長さは、num_altsettingフィールドによって決定されます。 </p>
 
 </div>
 </div>
@@ -104,12 +104,12 @@ href="#afc930be16a60980424f64a88b23c10e9">&#9670;&nbsp;</a></span>num_altsetting
       </table>
 </div><div class="memdoc">
 
-<p>The number of alternate settings that belong to this interface. </p>
-<p>Must be non-negative. </p>
+<p>このインターフェイスに属する代替設定の数。 </p>
+<p>負の値を指定してはいけません。 </p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>この文書は以下のファイルから生成されました:<ul>
 <li><a class="el" href="libusb_8h_source.html">libusb.h</a></li>
 </ul>
 </div>
