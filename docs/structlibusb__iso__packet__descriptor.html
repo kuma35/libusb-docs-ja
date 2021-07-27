@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: libusb_iso_packet_descriptor Struct Reference</title>
+<title>libusb: libusb_iso_packet_descriptor 構造体リファレンス</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,9 +44,9 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">データ・フィールド</a>  </div>
   <div class="headertitle">
-<div class="title">libusb_iso_packet_descriptor Struct Reference<div class="ingroups"><a class="el" href="group__libusb__asyncio.html">Asynchronous device I/O</a></div></div>  </div>
+<div class="title">libusb_iso_packet_descriptor 構造体リファレンス<div class="ingroups"><a class="el" href="group__libusb__asyncio.html">非同期デバイス入出力</a></div></div>  </div>
 </div>
 <!--header-->
 <div class="contents">
@@ -54,24 +54,24 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <p><code>#include &lt;<a class="el"
 href="libusb_8h_source.html">libusb.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> Data Fields</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> データ・フィールド</h2></td></tr>
 <tr class="memitem:a374d36e24869c8b07bf8eb1a18fa10ad"><td class="memItemLeft" align="right" valign="top"><a id="a374d36e24869c8b07bf8eb1a18fa10ad"></a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__iso__packet__descriptor.html#a374d36e24869c8b07bf8eb1a18fa10ad">length</a></td></tr>
-<tr class="memdesc:a374d36e24869c8b07bf8eb1a18fa10ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of data to request in this packet. <br /></td></tr>
+<tr class="memdesc:a374d36e24869c8b07bf8eb1a18fa10ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">このパケットで要求(request)するデータの長さ。 <br /></td></tr>
 <tr class="separator:a374d36e24869c8b07bf8eb1a18fa10ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03fa4f4eaf8a8b4e5c05931809581a32"><td class="memItemLeft" align="right" valign="top"><a id="a03fa4f4eaf8a8b4e5c05931809581a32"></a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32">actual_length</a></td></tr>
-<tr class="memdesc:a03fa4f4eaf8a8b4e5c05931809581a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of data that was actually transferred. <br /></td></tr>
+<tr class="memdesc:a03fa4f4eaf8a8b4e5c05931809581a32"><td class="mdescLeft">&#160;</td><td class="mdescRight">実際に転送されたデータの量。 <br /></td></tr>
 <tr class="separator:a03fa4f4eaf8a8b4e5c05931809581a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab21ee2a5835a0e53d7ac5844ee34371"><td class="memItemLeft" align="right" valign="top"><a id="aab21ee2a5835a0e53d7ac5844ee34371"></a> enum <a class="el"
 href="group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856">libusb_transfer_status</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371">status</a></td></tr>
-<tr class="memdesc:aab21ee2a5835a0e53d7ac5844ee34371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Status code for this packet. <br /></td></tr>
+<tr class="memdesc:aab21ee2a5835a0e53d7ac5844ee34371"><td class="mdescLeft">&#160;</td><td class="mdescRight">このパケットのステータス・コード。 <br /></td></tr>
 <tr class="separator:aab21ee2a5835a0e53d7ac5844ee34371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Isochronous packet descriptor. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">詳細説明</h2>
+<div class="textblock"><p>アイソクロナス・パケット・デスクリプター。 </p>
+</div><hr/>この文書は以下のファイルから生成されました:<ul>
 <li><a class="el" href="libusb_8h_source.html">libusb.h</a></li>
 </ul>
 </div>

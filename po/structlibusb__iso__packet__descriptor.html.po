@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:30+0900\n"
+"PO-Revision-Date: 2021-07-28 08:05+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:8
 msgid "libusb: libusb_iso_packet_descriptor Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_iso_packet_descriptor 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:36
@@ -42,48 +42,48 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:47
 msgid "libusb_iso_packet_descriptor Struct Reference"
-msgstr ""
+msgstr "libusb_iso_packet_descriptor 構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:47
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device I/"
 "O</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html\">非同期デバイス入出力</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:55
 msgid "<a id=\"a374d36e24869c8b07bf8eb1a18fa10ad\"></a> unsigned int&#160;"
-msgstr ""
+msgstr "<a id=\"a374d36e24869c8b07bf8eb1a18fa10ad\"></a> unsigned int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:56
 msgid ""
 "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor."
 "html#a374d36e24869c8b07bf8eb1a18fa10ad\">length</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#a374d36e24869c8b07bf8eb1a18fa10ad\">length</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:57
@@ -93,29 +93,29 @@ msgstr ""
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:65
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:66
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:57
 msgid "Length of data to request in this packet."
-msgstr ""
+msgstr "このパケットで要求(request)するデータの長さ。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:59
 msgid "<a id=\"a03fa4f4eaf8a8b4e5c05931809581a32\"></a> unsigned int&#160;"
-msgstr ""
+msgstr "<a id=\"a03fa4f4eaf8a8b4e5c05931809581a32\"></a> unsigned int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:60
 msgid ""
 "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor."
 "html#a03fa4f4eaf8a8b4e5c05931809581a32\">actual_length</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#a03fa4f4eaf8a8b4e5c05931809581a32\">actual_length</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:61
 msgid "Amount of data that was actually transferred."
-msgstr ""
+msgstr "実際に転送されたデータの量。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:63
@@ -123,59 +123,59 @@ msgid ""
 "<a id=\"aab21ee2a5835a0e53d7ac5844ee34371\"></a> enum <a class=\"el\" href="
 "\"group__libusb__asyncio."
 "html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>&#160;"
-msgstr ""
+msgstr "<a id=\"aab21ee2a5835a0e53d7ac5844ee34371\"></a> enum <a class=\"el\" href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:64
 msgid ""
 "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor."
 "html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:65
 msgid "Status code for this packet."
-msgstr ""
+msgstr "このパケットのステータス・コード。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:68
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:68
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:69
 msgid "Isochronous packet descriptor."
-msgstr ""
+msgstr "アイソクロナス・パケット・デスクリプター。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:70
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この文書は以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:71
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:75
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:77
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__iso__packet__descriptor.html:78
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
