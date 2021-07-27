@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>libusb: libusb_interface_descriptor Struct Reference</title>
+<title>libusb: libusb_interface_descriptor 構造体リファレンス</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">libusb &#160;<span id="projectnumber">1.0.24</span>
    </div>
-   <div id="projectbrief">A cross-platform user library to access USB devices</div>
+   <div id="projectbrief">USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ</div>
   </td>
  </tr>
  </tbody>
@@ -44,9 +44,9 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Data Fields</a>  </div>
+<a href="#pub-attribs">データ・フィールド</a>  </div>
   <div class="headertitle">
-<div class="title">libusb_interface_descriptor Struct Reference<div class="ingroups"><a class="el" href="group__libusb__desc.html">USB descriptors</a></div></div>  </div>
+<div class="title">libusb_interface_descriptor 構造体リファレンス<div class="ingroups"><a class="el" href="group__libusb__desc.html">USBデスクリプター</a></div></div>  </div>
 </div>
 <!--header-->
 <div class="contents">
@@ -54,70 +54,66 @@ GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); });
 <p><code>#include &lt;<a class="el"
 href="libusb_8h_source.html">libusb.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> Data Fields</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a> データ・フィールド</h2></td></tr>
 <tr class="memitem:a646b7bf875e5b927796d47e57c9182b8"><td class="memItemLeft" align="right" valign="top"><a id="a646b7bf875e5b927796d47e57c9182b8"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a646b7bf875e5b927796d47e57c9182b8">bLength</a></td></tr>
-<tr class="memdesc:a646b7bf875e5b927796d47e57c9182b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of this descriptor (in bytes) <br /></td></tr>
+<tr class="memdesc:a646b7bf875e5b927796d47e57c9182b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">このデスクリプターのサイズ(バイト単位) <br /></td></tr>
 <tr class="separator:a646b7bf875e5b927796d47e57c9182b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affe977ae83d3bbf07513d87ebfb6ed0e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#affe977ae83d3bbf07513d87ebfb6ed0e">bDescriptorType</a></td></tr>
-<tr class="memdesc:affe977ae83d3bbf07513d87ebfb6ed0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descriptor type.  <a
-href="structlibusb__interface__descriptor.html#affe977ae83d3bbf07513d87ebfb6ed0e">More...</a><br /></td></tr>
+<tr class="memdesc:affe977ae83d3bbf07513d87ebfb6ed0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">デスクリプター・タイプ。 <a
+href="structlibusb__interface__descriptor.html#affe977ae83d3bbf07513d87ebfb6ed0e">詳細はコチラ</a><br /></td></tr>
 <tr class="separator:affe977ae83d3bbf07513d87ebfb6ed0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75046f443d3330f590f3d3fb1f9df863"><td class="memItemLeft" align="right" valign="top"><a id="a75046f443d3330f590f3d3fb1f9df863"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a75046f443d3330f590f3d3fb1f9df863">bInterfaceNumber</a></td></tr>
-<tr class="memdesc:a75046f443d3330f590f3d3fb1f9df863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of this interface. <br /></td></tr>
+<tr class="memdesc:a75046f443d3330f590f3d3fb1f9df863"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスの番号。 <br /></td></tr>
 <tr class="separator:a75046f443d3330f590f3d3fb1f9df863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c94bce217e8ecd5fd23728510e9c838"><td class="memItemLeft" align="right" valign="top"><a id="a2c94bce217e8ecd5fd23728510e9c838"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a2c94bce217e8ecd5fd23728510e9c838">bAlternateSetting</a></td></tr>
-<tr class="memdesc:a2c94bce217e8ecd5fd23728510e9c838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used to select this alternate setting for this interface. <br /></td></tr>
+<tr class="memdesc:a2c94bce217e8ecd5fd23728510e9c838"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスのこの代替設定を選択するために使用される値。 <br /></td></tr>
 <tr class="separator:a2c94bce217e8ecd5fd23728510e9c838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487bd2058bfbe749d370c6e7d3add20e"><td class="memItemLeft" align="right" valign="top"><a id="a487bd2058bfbe749d370c6e7d3add20e"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a487bd2058bfbe749d370c6e7d3add20e">bNumEndpoints</a></td></tr>
-<tr class="memdesc:a487bd2058bfbe749d370c6e7d3add20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of endpoints used by this interface (excluding the control endpoint). <br /></td></tr>
+<tr class="memdesc:a487bd2058bfbe749d370c6e7d3add20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスで使用されるエンドポイントの数(制御エンドポイントを除く)。 <br /></td></tr>
 <tr class="separator:a487bd2058bfbe749d370c6e7d3add20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19dcf80e6a5fedf3d3673630897ad649"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a19dcf80e6a5fedf3d3673630897ad649">bInterfaceClass</a></td></tr>
-<tr class="memdesc:a19dcf80e6a5fedf3d3673630897ad649"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB-IF class code for this interface.  <a
-href="structlibusb__interface__descriptor.html#a19dcf80e6a5fedf3d3673630897ad649">More...</a><br /></td></tr>
+<tr class="memdesc:a19dcf80e6a5fedf3d3673630897ad649"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスのUSB-IFクラス・コード。 <a
+href="structlibusb__interface__descriptor.html#a19dcf80e6a5fedf3d3673630897ad649">詳細はコチラ</a><br /></td></tr>
 <tr class="separator:a19dcf80e6a5fedf3d3673630897ad649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b9b890f84694a4e6a0103944e1247f4"><td class="memItemLeft" align="right" valign="top"><a id="a0b9b890f84694a4e6a0103944e1247f4"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a0b9b890f84694a4e6a0103944e1247f4">bInterfaceSubClass</a></td></tr>
-<tr class="memdesc:a0b9b890f84694a4e6a0103944e1247f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB-IF subclass code for this interface, qualified by the bInterfaceClass
-value. <br /></td></tr>
+<tr class="memdesc:a0b9b890f84694a4e6a0103944e1247f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスのUSB-IFサブ・クラス・コード。bInterfaceClass値で修飾されます。 <br /></td></tr>
 <tr class="separator:a0b9b890f84694a4e6a0103944e1247f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5062bbb17fc76e6c3624ea7ca68d554c"><td class="memItemLeft" align="right" valign="top"><a id="a5062bbb17fc76e6c3624ea7ca68d554c"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a5062bbb17fc76e6c3624ea7ca68d554c">bInterfaceProtocol</a></td></tr>
-<tr class="memdesc:a5062bbb17fc76e6c3624ea7ca68d554c"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB-IF protocol code for this interface, qualified by the bInterfaceClass
-and bInterfaceSubClass values. <br /></td></tr>
+<tr class="memdesc:a5062bbb17fc76e6c3624ea7ca68d554c"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスのUSB-IFプロトコル・コード。bInterfaceClass値とbInterfaceSubClass値で修飾されます。 <br /></td></tr>
 <tr class="separator:a5062bbb17fc76e6c3624ea7ca68d554c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19227cc111c27e27c2c07430777e1ab8"><td class="memItemLeft" align="right" valign="top"><a id="a19227cc111c27e27c2c07430777e1ab8"></a> uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a19227cc111c27e27c2c07430777e1ab8">iInterface</a></td></tr>
-<tr class="memdesc:a19227cc111c27e27c2c07430777e1ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of string descriptor describing this interface. <br /></td></tr>
+<tr class="memdesc:a19227cc111c27e27c2c07430777e1ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">このインターフェイスを説明する文字列デスクリプターのインデックス。 <br /></td></tr>
 <tr class="separator:a19227cc111c27e27c2c07430777e1ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42bd0c63b361cf6c0bda5ecdf73e1c75"><td class="memItemLeft" align="right" valign="top">const struct <a class="el"
 href="structlibusb__endpoint__descriptor.html">libusb_endpoint_descriptor</a>
 *&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#a42bd0c63b361cf6c0bda5ecdf73e1c75">endpoint</a></td></tr>
-<tr class="memdesc:a42bd0c63b361cf6c0bda5ecdf73e1c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of endpoint descriptors.  <a
-href="structlibusb__interface__descriptor.html#a42bd0c63b361cf6c0bda5ecdf73e1c75">More...</a><br /></td></tr>
+<tr class="memdesc:a42bd0c63b361cf6c0bda5ecdf73e1c75"><td class="mdescLeft">&#160;</td><td class="mdescRight">エンドポイント・デスクリプターの配列。 <a
+href="structlibusb__interface__descriptor.html#a42bd0c63b361cf6c0bda5ecdf73e1c75">詳細はコチラ</a><br /></td></tr>
 <tr class="separator:a42bd0c63b361cf6c0bda5ecdf73e1c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1169e8c0b22a9928bbd51169609f31d"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#aa1169e8c0b22a9928bbd51169609f31d">extra</a></td></tr>
-<tr class="memdesc:aa1169e8c0b22a9928bbd51169609f31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extra descriptors.  <a
-href="structlibusb__interface__descriptor.html#aa1169e8c0b22a9928bbd51169609f31d">More...</a><br /></td></tr>
+<tr class="memdesc:aa1169e8c0b22a9928bbd51169609f31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加のデスクリプター達。 <a
+href="structlibusb__interface__descriptor.html#aa1169e8c0b22a9928bbd51169609f31d">詳細はコチラ</a><br /></td></tr>
 <tr class="separator:aa1169e8c0b22a9928bbd51169609f31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad77fa0b951a83d0c7eac28920367f200"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el"
 href="structlibusb__interface__descriptor.html#ad77fa0b951a83d0c7eac28920367f200">extra_length</a></td></tr>
-<tr class="memdesc:ad77fa0b951a83d0c7eac28920367f200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of the extra descriptors, in bytes.  <a
-href="structlibusb__interface__descriptor.html#ad77fa0b951a83d0c7eac28920367f200">More...</a><br /></td></tr>
+<tr class="memdesc:ad77fa0b951a83d0c7eac28920367f200"><td class="mdescLeft">&#160;</td><td class="mdescRight">追加のデスクリプター達の長さ。バイト単位。 <a
+href="structlibusb__interface__descriptor.html#ad77fa0b951a83d0c7eac28920367f200">詳細はコチラ</a><br /></td></tr>
 <tr class="separator:ad77fa0b951a83d0c7eac28920367f200"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A structure representing the standard USB interface descriptor. This
-descriptor is documented in section 9.6.5 of the USB 3.0 specification. All
-multiple-byte fields are represented in host-endian format. </p>
-</div><h2 class="groupheader">Field Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">詳細説明</h2>
+<div class="textblock"><p>標準のUSBインターフェイス・デスクリプターを表す構造体。このデスクリプターは、USB3.0仕様のセクション9.6.5に記載されています。すべてのマルチ・バイト・フィールドは、ホスト・エンディアン形式で表されます。 </p>
+</div><h2 class="groupheader">フィールド解説</h2>
 <a id="affe977ae83d3bbf07513d87ebfb6ed0e"></a>
 <h2 class="memtitle"><span class="permalink"><a
 href="#affe977ae83d3bbf07513d87ebfb6ed0e">&#9670;&nbsp;</a></span>bDescriptorType</h2>
@@ -131,10 +127,10 @@ href="#affe977ae83d3bbf07513d87ebfb6ed0e">&#9670;&nbsp;</a></span>bDescriptorTyp
       </table>
 </div><div class="memdoc">
 
-<p>Descriptor type. </p>
-<p>Will have value <a class="el"
+<p>デスクリプター・タイプ。 </p>
+<p>この構造体では値は <a class="el"
 href="group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca797f18e35ee27434562aed0c20c46b78">libusb_descriptor_type::LIBUSB_DT_INTERFACE</a>
-LIBUSB_DT_INTERFACE in this context. </p>
+です。 </p>
 
 </div>
 </div>
@@ -151,7 +147,7 @@ href="#a19dcf80e6a5fedf3d3673630897ad649">&#9670;&nbsp;</a></span>bInterfaceClas
       </table>
 </div><div class="memdoc">
 
-<p>USB-IF class code for this interface. </p>
+<p>このインターフェイスのUSB-IFクラス・コード。 </p>
 <p>See <a class="el"
 href="group__libusb__desc.html#gac529888effbefef8af4f9d17ebc903a1">libusb_class_code</a>. </p>
 
@@ -172,8 +168,8 @@ libusb_interface_descriptor::endpoint</td>
       </table>
 </div><div class="memdoc">
 
-<p>Array of endpoint descriptors. </p>
-<p>This length of this array is determined by the bNumEndpoints field. </p>
+<p>エンドポイント・デスクリプターの配列。 </p>
+<p>この配列のこの長さは、bNumEndpointsフィールドによって決定されます。 </p>
 
 </div>
 </div>
@@ -190,9 +186,8 @@ href="#aa1169e8c0b22a9928bbd51169609f31d">&#9670;&nbsp;</a></span>extra</h2>
       </table>
 </div><div class="memdoc">
 
-<p>Extra descriptors. </p>
-<p>If libusb encounters unknown interface descriptors, it will store them here,
-should you wish to parse them. </p>
+<p>追加のデスクリプター達。 </p>
+<p>libusbが不明なインターフェイス・デスクリプターを検出した場合、それらをパースしたい場合は、ここにそれらを格納します。 </p>
 
 </div>
 </div>
@@ -209,12 +204,12 @@ href="#ad77fa0b951a83d0c7eac28920367f200">&#9670;&nbsp;</a></span>extra_length</
       </table>
 </div><div class="memdoc">
 
-<p>Length of the extra descriptors, in bytes. </p>
-<p>Must be non-negative. </p>
+<p>追加のデスクリプター達の長さ。バイト単位。 </p>
+<p>負の値を指定してはいけません。 </p>
 
 </div>
 </div>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<hr/>この文書は以下のファイルから生成されました:<ul>
 <li><a class="el" href="libusb_8h_source.html">libusb.h</a></li>
 </ul>
 </div>
