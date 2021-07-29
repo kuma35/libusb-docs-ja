@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:31+0900\n"
+"PO-Revision-Date: 2021-07-29 15:37+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:8
 msgid "libusb: libusb_ss_endpoint_companion_descriptor Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_ss_endpoint_companion_descriptor 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:36
@@ -42,46 +42,46 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:47
 msgid "libusb_ss_endpoint_companion_descriptor Struct Reference"
-msgstr ""
+msgstr "libusb_ss_endpoint_companion_descriptor 構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:47
 msgid "<a class=\"el\" href=\"group__libusb__desc.html\">USB descriptors</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__desc.html\">USBデスクリプター</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:55
 msgid "<a id=\"a576f037f393bf45926a2d45a80c3c3ce\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"a576f037f393bf45926a2d45a80c3c3ce\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:56
 msgid ""
 "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor."
 "html#a576f037f393bf45926a2d45a80c3c3ce\">bLength</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a576f037f393bf45926a2d45a80c3c3ce\">bLength</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:57
@@ -95,25 +95,25 @@ msgstr ""
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:70
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:71
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:57
 msgid "Size of this descriptor (in bytes)"
-msgstr ""
+msgstr "このデスクリプターのサイズ(バイト単位)"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:59
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:66
 msgid "uint8_t&#160;"
-msgstr ""
+msgstr "uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:59
 msgid ""
 "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor."
 "html#a85344cb4f4d8d03014d9cc2cf90c748f\">bDescriptorType</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85344cb4f4d8d03014d9cc2cf90c748f\">bDescriptorType</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:60
@@ -121,33 +121,33 @@ msgid ""
 "Descriptor type.  <a href="
 "\"structlibusb__ss__endpoint__companion__descriptor."
 "html#a85344cb4f4d8d03014d9cc2cf90c748f\">More...</a>"
-msgstr ""
+msgstr "デスクリプター・タイプ。 <a href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85344cb4f4d8d03014d9cc2cf90c748f\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:62
 msgid "<a id=\"a85b999ffaff20e9e1518597339e0a7dc\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"a85b999ffaff20e9e1518597339e0a7dc\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:63
 msgid ""
 "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor."
 "html#a85b999ffaff20e9e1518597339e0a7dc\">bMaxBurst</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a85b999ffaff20e9e1518597339e0a7dc\">bMaxBurst</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:64
 msgid ""
 "The maximum number of packets the endpoint can send or receive as part of a "
 "burst."
-msgstr ""
+msgstr "エンドポイントがバーストの一部として送信または受信できるパケットの最大数。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:66
 msgid ""
 "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor."
 "html#aa7097b478f5e46e8cdd160fb4aaccc1f\">bmAttributes</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#aa7097b478f5e46e8cdd160fb4aaccc1f\">bmAttributes</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:67
@@ -155,19 +155,19 @@ msgid ""
 "In bulk EP: bits 4:0 represents the maximum number of streams the EP "
 "supports.  <a href=\"structlibusb__ss__endpoint__companion__descriptor."
 "html#aa7097b478f5e46e8cdd160fb4aaccc1f\">More...</a>"
-msgstr ""
+msgstr "バルク・エンドポイントの場合: ビット 4:0 は、そのエンドポイントがサポートするストリームの最大数を表します。 <a href=\"structlibusb__ss__endpoint__companion__descriptor.html#aa7097b478f5e46e8cdd160fb4aaccc1f\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:69
 msgid "uint16_t&#160;"
-msgstr ""
+msgstr "uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:69
 msgid ""
 "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor."
 "html#a13605afcfe00291bc86ebb415226ece6\">wBytesPerInterval</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__ss__endpoint__companion__descriptor.html#a13605afcfe00291bc86ebb415226ece6\">wBytesPerInterval</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:70
@@ -175,17 +175,17 @@ msgid ""
 "The total number of bytes this EP will transfer every service interval.  <a "
 "href=\"structlibusb__ss__endpoint__companion__descriptor."
 "html#a13605afcfe00291bc86ebb415226ece6\">More...</a>"
-msgstr ""
+msgstr "このエンドポイントがサービス間隔ごとに転送する合計バイト数。 <a href=\"structlibusb__ss__endpoint__companion__descriptor.html#a13605afcfe00291bc86ebb415226ece6\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:73
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:73
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:74
@@ -193,34 +193,34 @@ msgid ""
 "A structure representing the superspeed endpoint companion descriptor. This "
 "descriptor is documented in section 9.6.7 of the USB 3.0 specification. All "
 "multiple-byte fields are represented in host-endian format."
-msgstr ""
+msgstr "超速(superspeed)エンドポイント・コンパニオン・デスクリプターを表す構造体。このデスクリプターは、USB3.0仕様のセクション9.6.7に記載されています。 すべてのマルチ・バイト・フィールドは、ホスト・エンディアン形式で表されます。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:75
 msgid "Field Documentation"
-msgstr ""
+msgstr "フィールド解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:76
 msgid "<a id=\"a85344cb4f4d8d03014d9cc2cf90c748f\"></a>"
-msgstr ""
+msgstr "<a id=\"a85344cb4f4d8d03014d9cc2cf90c748f\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:77
 msgid ""
 "<span class=\"permalink\"><a href=\"#a85344cb4f4d8d03014d9cc2cf90c748f"
 "\">&#9670;&nbsp;</a></span>bDescriptorType"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a85344cb4f4d8d03014d9cc2cf90c748f\">&#9670;&nbsp;</a></span>bDescriptorType"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:83
 msgid "uint8_t libusb_ss_endpoint_companion_descriptor::bDescriptorType"
-msgstr ""
+msgstr "uint8_t libusb_ss_endpoint_companion_descriptor::bDescriptorType"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:88
 msgid "Descriptor type."
-msgstr ""
+msgstr "デスクリプター・タイプ。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:89
@@ -228,43 +228,43 @@ msgid ""
 "Will have value <a class=\"el\" href=\"group__libusb__desc."
 "html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca9bdd0a16eb0647330c2b7085520db533\">libusb_descriptor_type::"
 "LIBUSB_DT_SS_ENDPOINT_COMPANION</a> in this context."
-msgstr ""
+msgstr "この構造体では値は <a class=\"el\" href=\"group__libusb__desc.html#gga0a2e8a25dfdebf29fdd4764dcdbc1a9ca9bdd0a16eb0647330c2b7085520db533\">libusb_descriptor_type::LIBUSB_DT_SS_ENDPOINT_COMPANION</a> です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:93
 msgid "<a id=\"aa7097b478f5e46e8cdd160fb4aaccc1f\"></a>"
-msgstr ""
+msgstr "<a id=\"aa7097b478f5e46e8cdd160fb4aaccc1f\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:94
 msgid ""
 "<span class=\"permalink\"><a href=\"#aa7097b478f5e46e8cdd160fb4aaccc1f"
 "\">&#9670;&nbsp;</a></span>bmAttributes"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#aa7097b478f5e46e8cdd160fb4aaccc1f\">&#9670;&nbsp;</a></span>bmAttributes"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:100
 msgid "uint8_t libusb_ss_endpoint_companion_descriptor::bmAttributes"
-msgstr ""
+msgstr "uint8_t libusb_ss_endpoint_companion_descriptor::bmAttributes"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:105
 msgid ""
 "In bulk EP: bits 4:0 represents the maximum number of streams the EP "
 "supports."
-msgstr ""
+msgstr "バルクエンドポイントの場合: ビット 4:0 は、そのエンドポイントがサポートするストリームの最大数を表します。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:106
 msgid ""
 "In isochronous EP: bits 1:0 represents the Mult - a zero based value that "
 "determines the maximum number of packets within a service interval"
-msgstr ""
+msgstr "アイソクロナス・エンドポイントの場合: ビット 1:0 はマルチを表します。それはサービス間隔内のパケットの最大数を決定するゼロベースの値です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:111
 msgid "<a id=\"a13605afcfe00291bc86ebb415226ece6\"></a>"
-msgstr ""
+msgstr "<a id=\"a13605afcfe00291bc86ebb415226ece6\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:112
@@ -272,47 +272,47 @@ msgid ""
 "<span class=\"permalink\"><a href="
 "\"#a13605afcfe00291bc86ebb415226ece6\">&#9670;&nbsp;</a></"
 "span>wBytesPerInterval"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a13605afcfe00291bc86ebb415226ece6\">&#9670;&nbsp;</a></span>wBytesPerInterval"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:118
 msgid "uint16_t libusb_ss_endpoint_companion_descriptor::wBytesPerInterval"
-msgstr ""
+msgstr "uint16_t libusb_ss_endpoint_companion_descriptor::wBytesPerInterval"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:123
 msgid "The total number of bytes this EP will transfer every service interval."
-msgstr ""
+msgstr "このエンドポイントがサービス間隔ごとに転送する合計バイト数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:124
 msgid "Valid only for periodic EPs."
-msgstr ""
+msgstr "周期的(periodic)なエンドポイント達にのみ有効です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:128
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この文書は以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:129
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:133
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:135
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__ss__endpoint__companion__descriptor.html:136
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
