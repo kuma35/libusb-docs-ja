@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:32+0900\n"
+"PO-Revision-Date: 2021-07-30 07:52+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__transfer.html:8
 msgid "libusb: libusb_transfer Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_transfer 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__transfer.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__transfer.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__transfer.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__transfer.html:36
@@ -42,36 +42,36 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__transfer.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__transfer.html:47
 msgid "libusb_transfer Struct Reference"
-msgstr ""
+msgstr "libusb_transfer 構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__transfer.html:47
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio.html\">Asynchronous device I/"
 "O</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html\">非同期デバイス入出力</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__transfer.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__transfer.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:55
@@ -79,14 +79,14 @@ msgid ""
 "<a id=\"adaaf06aeb5ab2a8819e75310ec253f7a\"></a> <a class=\"el\" href="
 "\"group__libusb__dev."
 "html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *&#160;"
-msgstr ""
+msgstr "<a id=\"adaaf06aeb5ab2a8819e75310ec253f7a\"></a> <a class=\"el\" href=\"group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4\">libusb_device_handle</a> *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:56
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#adaaf06aeb5ab2a8819e75310ec253f7a\">dev_handle</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#adaaf06aeb5ab2a8819e75310ec253f7a\">dev_handle</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:57
@@ -116,213 +116,213 @@ msgstr ""
 #: source/api-1.0/structlibusb__transfer.html:98
 #: source/api-1.0/structlibusb__transfer.html:99
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:57
 msgid "Handle of the device that this transfer will be submitted to."
-msgstr ""
+msgstr "この転送が送信(submit)されるデバイスのハンドル。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:59
 msgid "<a id=\"ae26c063df30c2e29835212aad98c6e06\"></a> uint8_t&#160;"
-msgstr ""
+msgstr "<a id=\"ae26c063df30c2e29835212aad98c6e06\"></a> uint8_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:60
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#ae26c063df30c2e29835212aad98c6e06\">flags</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#ae26c063df30c2e29835212aad98c6e06\">flags</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:61
 msgid ""
 "A bitwise OR combination of <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a>."
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga1fb47dd0f7c209b60a3609ff0c03d56d\">libusb_transfer_flags</a> のビット論理和の組み合わせ。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:63
 msgid "<a id=\"a0fcfd057f53b0e1bff6f1567761c231a\"></a> unsigned char&#160;"
-msgstr ""
+msgstr "<a id=\"a0fcfd057f53b0e1bff6f1567761c231a\"></a> unsigned char&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:64
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a0fcfd057f53b0e1bff6f1567761c231a\">endpoint</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a0fcfd057f53b0e1bff6f1567761c231a\">endpoint</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:65
 msgid "Address of the endpoint where this transfer will be sent."
-msgstr ""
+msgstr "この転送が送られるエンドポイントのアドレス。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:67
 msgid "<a id=\"a7c9fa575986fe9f23bbecb26b766dff1\"></a> unsigned char&#160;"
-msgstr ""
+msgstr "<a id=\"a7c9fa575986fe9f23bbecb26b766dff1\"></a> unsigned char&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:68
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a7c9fa575986fe9f23bbecb26b766dff1\">type</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a7c9fa575986fe9f23bbecb26b766dff1\">type</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:69
 msgid ""
 "Type of the transfer from <a class=\"el\" href=\"group__libusb__asyncio."
 "html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a>."
-msgstr ""
+msgstr "転送タイプ(<a class=\"el\" href=\"group__libusb__asyncio.html#gacb52027036a07de6ecc6c2bf07d07c71\">libusb_transfer_type</a>)。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:71
 msgid "unsigned int&#160;"
-msgstr ""
+msgstr "unsigned int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:71
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a9a12af15ca5b482f5dcaebd26a848cbb\">timeout</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a9a12af15ca5b482f5dcaebd26a848cbb\">timeout</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:72
 msgid ""
 "Timeout for this transfer in milliseconds.  <a href=\"structlibusb__transfer."
 "html#a9a12af15ca5b482f5dcaebd26a848cbb\">More...</a>"
-msgstr ""
+msgstr "この転送のタイムアウト(ミリ秒単位)。 <a href=\"structlibusb__transfer.html#a9a12af15ca5b482f5dcaebd26a848cbb\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:74
 msgid ""
 "enum <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>&#160;"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a>&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:74
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a64b2e70e76d52a7cd23daa3cd4fb397e\">status</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a64b2e70e76d52a7cd23daa3cd4fb397e\">status</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:75
 msgid ""
 "The status of the transfer.  <a href=\"structlibusb__transfer."
 "html#a64b2e70e76d52a7cd23daa3cd4fb397e\">More...</a>"
-msgstr ""
+msgstr "転送ステータス。 <a href=\"structlibusb__transfer.html#a64b2e70e76d52a7cd23daa3cd4fb397e\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:77
 #: source/api-1.0/structlibusb__transfer.html:80
 #: source/api-1.0/structlibusb__transfer.html:93
 msgid "int&#160;"
-msgstr ""
+msgstr "int&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:77
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a68c023e1f40b50aa8604a2495b6a391e\">length</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a68c023e1f40b50aa8604a2495b6a391e\">length</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:78
 msgid ""
 "Length of the data buffer.  <a href=\"structlibusb__transfer."
 "html#a68c023e1f40b50aa8604a2495b6a391e\">More...</a>"
-msgstr ""
+msgstr "データ・バッファの長さ。 <a href=\"structlibusb__transfer.html#a68c023e1f40b50aa8604a2495b6a391e\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:80
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a7e858f07c48a271a62209d11376ae607\">actual_length</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">actual_length</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:81
 msgid ""
 "Actual length of data that was transferred.  <a href="
 "\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">More...</a>"
-msgstr ""
+msgstr "実際に転送されたデータの長さ。 <a href=\"structlibusb__transfer.html#a7e858f07c48a271a62209d11376ae607\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:83
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>&#160;"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a>&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:83
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a69c6df011ec23ff3e481cc98bfff0623\">callback</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a69c6df011ec23ff3e481cc98bfff0623\">callback</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:84
 msgid ""
 "Callback function.  <a href=\"structlibusb__transfer."
 "html#a69c6df011ec23ff3e481cc98bfff0623\">More...</a>"
-msgstr ""
+msgstr "コールバック関数。 <a href=\"structlibusb__transfer.html#a69c6df011ec23ff3e481cc98bfff0623\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:86
 msgid "void *&#160;"
-msgstr ""
+msgstr "void *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:86
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#ab75ab3e7185f08e07a1ae858a35ebb7b\">user_data</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b\">user_data</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:87
 msgid ""
 "User context data.  <a href=\"structlibusb__transfer."
 "html#ab75ab3e7185f08e07a1ae858a35ebb7b\">More...</a>"
-msgstr ""
+msgstr "ユーザー・データ。 <a href=\"structlibusb__transfer.html#ab75ab3e7185f08e07a1ae858a35ebb7b\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:89
 msgid "<a id=\"a7fa594567e074191ce8f28b5fb4a3bea\"></a> unsigned char *&#160;"
-msgstr ""
+msgstr "<a id=\"a7fa594567e074191ce8f28b5fb4a3bea\"></a> unsigned char *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:90
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a7fa594567e074191ce8f28b5fb4a3bea\">buffer</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:91
 msgid "Data buffer."
-msgstr ""
+msgstr "データ・バッファー。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:93
 msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a87d725a5521c26832fdc13611220014d\">num_iso_packets</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">num_iso_packets</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:94
 msgid ""
 "Number of isochronous packets.  <a href=\"structlibusb__transfer."
 "html#a87d725a5521c26832fdc13611220014d\">More...</a>"
-msgstr ""
+msgstr "アイソクロナス・パケットの数。 <a href=\"structlibusb__transfer.html#a87d725a5521c26832fdc13611220014d\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:96
@@ -330,7 +330,7 @@ msgid ""
 "<a id=\"a3b72ef736d32b94a7097798612741644\"></a> struct <a class=\"el\" href="
 "\"structlibusb__iso__packet__descriptor.html\">libusb_iso_packet_descriptor</"
 "a>&#160;"
-msgstr ""
+msgstr "<a id=\"a3b72ef736d32b94a7097798612741644\"></a> struct <a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html\">libusb_iso_packet_descriptor</a>&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:97
@@ -338,22 +338,22 @@ msgid ""
 "<a class=\"el\" href=\"structlibusb__transfer."
 "html#a3b72ef736d32b94a7097798612741644\">iso_packet_desc</a> "
 "[ZERO_SIZED_ARRAY]"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__transfer.html#a3b72ef736d32b94a7097798612741644\">iso_packet_desc</a> [ZERO_SIZED_ARRAY]"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:98
 msgid "Isochronous packet descriptors, for isochronous transfers only."
-msgstr ""
+msgstr "アイソクロナス転送専用のアイソクロナス・パケット・デスクリプター。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:101
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:101
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:102
@@ -362,51 +362,51 @@ msgid ""
 "then submits it in order to request a transfer. After the transfer has "
 "completed, the library populates the transfer with the results and passes it "
 "back to the user."
-msgstr ""
+msgstr "一般的なUSB転送構造体。ユーザーはこの構造体にデータを入力し、転送を要求するために送信(submits)します。転送が完了すると、ライブラリは転送に結果を入力し、ユーザーに返します。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:103
 msgid "Field Documentation"
-msgstr ""
+msgstr "フィールド解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:104
 msgid "<a id=\"a9a12af15ca5b482f5dcaebd26a848cbb\"></a>"
-msgstr ""
+msgstr "<a id=\"a9a12af15ca5b482f5dcaebd26a848cbb\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:105
 msgid ""
 "<span class=\"permalink\"><a href=\"#a9a12af15ca5b482f5dcaebd26a848cbb"
 "\">&#9670;&nbsp;</a></span>timeout"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a9a12af15ca5b482f5dcaebd26a848cbb\">&#9670;&nbsp;</a></span>timeout"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:111
 msgid "unsigned int libusb_transfer::timeout"
-msgstr ""
+msgstr "unsigned int libusb_transfer::timeout"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:116
 msgid "Timeout for this transfer in milliseconds."
-msgstr ""
+msgstr "この転送のタイムアウト(ミリ秒単位)"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:117
 msgid "A value of 0 indicates no timeout."
-msgstr ""
+msgstr "値が0の場合はタイムアウト無し。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:121
 msgid "<a id=\"a64b2e70e76d52a7cd23daa3cd4fb397e\"></a>"
-msgstr ""
+msgstr "<a id=\"a64b2e70e76d52a7cd23daa3cd4fb397e\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:122
 msgid ""
 "<span class=\"permalink\"><a href=\"#a64b2e70e76d52a7cd23daa3cd4fb397e"
 "\">&#9670;&nbsp;</a></span>status"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a64b2e70e76d52a7cd23daa3cd4fb397e\">&#9670;&nbsp;</a></span>status"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:128
@@ -414,17 +414,17 @@ msgid ""
 "enum <a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a> "
 "libusb_transfer::status"
-msgstr ""
+msgstr "enum <a class=\"el\" href=\"group__libusb__asyncio.html#ga9fcb2aa23d342060ebda1d0cf7478856\">libusb_transfer_status</a> libusb_transfer::status"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:133
 msgid "The status of the transfer."
-msgstr ""
+msgstr "転送ステータス。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:134
 msgid "Read-only, and only for use within transfer callback function."
-msgstr ""
+msgstr "読み取り専用で、転送コールバック関数内でのみ使用されます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:135
@@ -434,75 +434,75 @@ msgid ""
 "\"structlibusb__iso__packet__descriptor."
 "html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a> field in each packet to "
 "determine if errors occurred."
-msgstr ""
+msgstr "アイソクロナス転送の場合、フレームにエラーがあったとしても、このフィールドはCOMPLETEDと表示されることがあります。各パケットの <a class=\"el\" href=\"structlibusb__iso__packet__descriptor.html#aab21ee2a5835a0e53d7ac5844ee34371\">status</a> フィールドを使用して、エラーが発生したかどうかを判断します。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:139
 msgid "<a id=\"a68c023e1f40b50aa8604a2495b6a391e\"></a>"
-msgstr ""
+msgstr "<a id=\"a68c023e1f40b50aa8604a2495b6a391e\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:140
 msgid ""
 "<span class=\"permalink\"><a href=\"#a68c023e1f40b50aa8604a2495b6a391e"
 "\">&#9670;&nbsp;</a></span>length"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a68c023e1f40b50aa8604a2495b6a391e\">&#9670;&nbsp;</a></span>length"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:146
 msgid "int libusb_transfer::length"
-msgstr ""
+msgstr "int libusb_transfer::length"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:151
 msgid "Length of the data buffer."
-msgstr ""
+msgstr "でーた・バッファーの長さ。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:152
 msgid "Must be non-negative."
-msgstr ""
+msgstr "負の値を指定してはいけません。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:156
 msgid "<a id=\"a7e858f07c48a271a62209d11376ae607\"></a>"
-msgstr ""
+msgstr "<a id=\"a7e858f07c48a271a62209d11376ae607\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:157
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#a7e858f07c48a271a62209d11376ae607\">&#9670;&nbsp;</a></span>actual_length"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a7e858f07c48a271a62209d11376ae607\">&#9670;&nbsp;</a></span>actual_length"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:163
 msgid "int libusb_transfer::actual_length"
-msgstr ""
+msgstr "int libusb_transfer::actual_length"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:168
 msgid "Actual length of data that was transferred."
-msgstr ""
+msgstr "実際に転送されたデータの長さ。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:169
 msgid ""
 "Read-only, and only for use within transfer callback function. Not valid for "
 "isochronous endpoint transfers."
-msgstr ""
+msgstr "読み取り専用で、転送コールバック関数内でのみ使用されます。アイソクロナス・エンドポイント転送では無効です。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:173
 msgid "<a id=\"a69c6df011ec23ff3e481cc98bfff0623\"></a>"
-msgstr ""
+msgstr "<a id=\"a69c6df011ec23ff3e481cc98bfff0623\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:174
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#a69c6df011ec23ff3e481cc98bfff0623\">&#9670;&nbsp;</a></span>callback"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a69c6df011ec23ff3e481cc98bfff0623\">&#9670;&nbsp;</a></span>callback"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:180
@@ -510,61 +510,61 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> "
 "libusb_transfer::callback"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gac74874519794cd7aa40c0814702b0c88\">libusb_transfer_cb_fn</a> libusb_transfer::callback"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:185
 msgid "Callback function."
-msgstr ""
+msgstr "コールバック関数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:186
 msgid ""
 "This will be invoked when the transfer completes, fails, or is cancelled."
-msgstr ""
+msgstr "これは、転送が完了、失敗、またはキャンセルされたときに呼び出されます。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:190
 msgid "<a id=\"ab75ab3e7185f08e07a1ae858a35ebb7b\"></a>"
-msgstr ""
+msgstr "<a id=\"ab75ab3e7185f08e07a1ae858a35ebb7b\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:191
 msgid ""
 "<span class=\"permalink\"><a href=\"#ab75ab3e7185f08e07a1ae858a35ebb7b"
 "\">&#9670;&nbsp;</a></span>user_data"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#ab75ab3e7185f08e07a1ae858a35ebb7b\">&#9670;&nbsp;</a></span>user_data"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:197
 msgid "void* libusb_transfer::user_data"
-msgstr ""
+msgstr "void* libusb_transfer::user_data"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:202
 msgid "User context data."
-msgstr ""
+msgstr "ユーザ・データ。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:203
 msgid ""
 "Useful for associating specific data to a transfer that can be accessed from "
 "within the callback function."
-msgstr ""
+msgstr "コールバック関数内からアクセスできる転送に特定のデータを関連付けるのに便利です。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:204
 msgid ""
 "This field may be set manually or is taken as the <code>user_data</code> "
 "parameter of the following functions:"
-msgstr ""
+msgstr "このフィールドは手動で設定することも、以下の関数の <code>user_data</code> パラメーターとして使用することもできます:"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/structlibusb__transfer.html:205
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gad4ddb1a5c6c7fefc979a44d7300b95d7\">libusb_fill_bulk_transfer()</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/structlibusb__transfer.html:206
@@ -572,14 +572,14 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer()</"
 "a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#gac2e84d8fb9218d3c67e6a4fd4ade5b10\">libusb_fill_bulk_stream_transfer()</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/structlibusb__transfer.html:207
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga3a8513ed87229fe2c9771ef0bf17206e\">libusb_fill_control_transfer()</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/structlibusb__transfer.html:208
@@ -587,66 +587,66 @@ msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer()</"
 "a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga90f53cea1124a7566df1aa1202b77510\">libusb_fill_interrupt_transfer()</a>"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/structlibusb__transfer.html:209
 msgid ""
 "<a class=\"el\" href=\"group__libusb__asyncio."
 "html#ga30fdce8c461e851f0aa4c851014e1aa7\">libusb_fill_iso_transfer()</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__asyncio.html#ga30fdce8c461e851f0aa4c851014e1aa7\">libusb_fill_iso_transfer()</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:214
 msgid "<a id=\"a87d725a5521c26832fdc13611220014d\"></a>"
-msgstr ""
+msgstr "<a id=\"a87d725a5521c26832fdc13611220014d\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__transfer.html:215
 msgid ""
 "<span class=\"permalink\"><a href=\"#a87d725a5521c26832fdc13611220014d"
 "\">&#9670;&nbsp;</a></span>num_iso_packets"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a87d725a5521c26832fdc13611220014d\">&#9670;&nbsp;</a></span>num_iso_packets"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__transfer.html:221
 msgid "int libusb_transfer::num_iso_packets"
-msgstr ""
+msgstr "int libusb_transfer::num_iso_packets"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:226
 msgid "Number of isochronous packets."
-msgstr ""
+msgstr "アイソクロナス・パケットの数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__transfer.html:227
 msgid "Only used for I/O with isochronous endpoints. Must be non-negative."
-msgstr ""
+msgstr "アイソクロナス・エンドポイントを使用した入出力にのみ使用されます。負の値を指定してはいけません。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__transfer.html:231
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この文書は以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__transfer.html:232
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__transfer.html:236
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__transfer.html:238
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__transfer.html:239
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
