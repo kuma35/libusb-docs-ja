@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-09 02:33+0900\n"
+"PO-Revision-Date: 2021-07-30 08:08+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -19,22 +19,22 @@ msgstr ""
 #. type: Content of: <html><head><title>
 #: source/api-1.0/structlibusb__version.html:8
 msgid "libusb: libusb_version Struct Reference"
-msgstr ""
+msgstr "libusb: libusb_version 構造体リファレンス"
 
 #. type: Attribute 'alt' of: <html><body><div><div><table><tbody><tr><td><img>
 #: source/api-1.0/structlibusb__version.html:20
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__version.html:22
 msgid "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
-msgstr ""
+msgstr "libusb &#160;<span id=\"projectnumber\">1.0.24</span>"
 
 #. type: Content of: <html><body><div><div><table><tbody><tr><td><div>
 #: source/api-1.0/structlibusb__version.html:25
 msgid "A cross-platform user library to access USB devices"
-msgstr ""
+msgstr "USBデバイスにアクセスするためのクロス・プラットフォームのユーザー・ライブラリ"
 
 #. type: Content of: <html><body><div><script>
 #: source/api-1.0/structlibusb__version.html:36
@@ -42,48 +42,48 @@ msgid ""
 "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;"
 "dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search."
 "php','Search'); }); /* @license-end */"
-msgstr ""
+msgstr "/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */ $(function() { initMenu('',false,false,'search.php','Search'); }); /* @license-end */"
 
 #. type: Content of: <html><body><div><div>
 #: source/api-1.0/structlibusb__version.html:45
 msgid "<a href=\"#pub-attribs\">Data Fields</a>"
-msgstr ""
+msgstr "<a href=\"#pub-attribs\">データ・フィールド</a>"
 
 #. type: Content of: <html><body><div><div><div>
 #: source/api-1.0/structlibusb__version.html:47
 msgid "libusb_version Struct Reference"
-msgstr ""
+msgstr "libusb_version 構造体リファレンス"
 
 #. type: Content of: <html><body><div><div><div><div>
 #: source/api-1.0/structlibusb__version.html:47
 msgid ""
 "<a class=\"el\" href=\"group__libusb__lib.html\">Library initialization/"
 "deinitialization</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"group__libusb__lib.html\">ライブラリ 利用準備(initialization)/後片付け(deinitialization)</a>"
 
 #. type: Content of: <html><body><div><p>
 #: source/api-1.0/structlibusb__version.html:51
 msgid ""
 "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</"
 "a>&gt;</code>"
-msgstr ""
+msgstr "<code>#include &lt;<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>&gt;</code>"
 
 #. type: Content of: <html><body><div><table><tr><td><h2>
 #: source/api-1.0/structlibusb__version.html:53
 msgid "<a name=\"pub-attribs\"></a> Data Fields"
-msgstr ""
+msgstr "<a name=\"pub-attribs\"></a> データ・フィールド"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:55
 msgid "<a id=\"a7f80ed3e95566b639fa09380e94f8d59\"></a> const uint16_t&#160;"
-msgstr ""
+msgstr "<a id=\"a7f80ed3e95566b639fa09380e94f8d59\"></a> const uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:56
 msgid ""
 "<a class=\"el\" href=\"structlibusb__version."
 "html#a7f80ed3e95566b639fa09380e94f8d59\">major</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html#a7f80ed3e95566b639fa09380e94f8d59\">major</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:57
@@ -99,171 +99,171 @@ msgstr ""
 #: source/api-1.0/structlibusb__version.html:76
 #: source/api-1.0/structlibusb__version.html:77
 msgid "&#160;"
-msgstr ""
+msgstr "&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:57
 msgid "Library major version."
-msgstr ""
+msgstr "ライブラリ・メジャー(major)・バージョン。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:59
 msgid "<a id=\"ac886b798704bb9ca2b6cd3ae0234591f\"></a> const uint16_t&#160;"
-msgstr ""
+msgstr "<a id=\"ac886b798704bb9ca2b6cd3ae0234591f\"></a> const uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:60
 msgid ""
 "<a class=\"el\" href=\"structlibusb__version."
 "html#ac886b798704bb9ca2b6cd3ae0234591f\">minor</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html#ac886b798704bb9ca2b6cd3ae0234591f\">minor</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:61
 msgid "Library minor version."
-msgstr ""
+msgstr "ライブラリ・マイナー(minor)・バージョン。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:63
 msgid "<a id=\"a6a73a21564237c1fa0e6e5b038e98605\"></a> const uint16_t&#160;"
-msgstr ""
+msgstr "<a id=\"a6a73a21564237c1fa0e6e5b038e98605\"></a> const uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:64
 msgid ""
 "<a class=\"el\" href=\"structlibusb__version."
 "html#a6a73a21564237c1fa0e6e5b038e98605\">micro</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html#a6a73a21564237c1fa0e6e5b038e98605\">micro</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:65
 msgid "Library micro version."
-msgstr ""
+msgstr "ライブラリ・マイクロ(micro)・バージョン。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:67
 msgid "<a id=\"afbe4cf431bea706294667e333878508c\"></a> const uint16_t&#160;"
-msgstr ""
+msgstr "<a id=\"afbe4cf431bea706294667e333878508c\"></a> const uint16_t&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:68
 msgid ""
 "<a class=\"el\" href=\"structlibusb__version."
 "html#afbe4cf431bea706294667e333878508c\">nano</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html#afbe4cf431bea706294667e333878508c\">nano</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:69
 msgid "Library nano version."
-msgstr ""
+msgstr "ライブラリ・ナノ(nano)・バージョン。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:71
 msgid "const char *&#160;"
-msgstr ""
+msgstr "const char *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:71
 msgid ""
 "<a class=\"el\" href=\"structlibusb__version."
 "html#a99937642131c0559025bad92e7f51f27\">rc</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">rc</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:72
 msgid ""
 "Library release candidate suffix string, e.g.  <a href="
 "\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">More...</a>"
-msgstr ""
+msgstr "ライブラ・リリリース候補のサフィックス文字列(例: <a href=\"structlibusb__version.html#a99937642131c0559025bad92e7f51f27\">詳細はコチラ</a> )"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:74
 msgid "<a id=\"af42453a3421515fa2db3fdf30f2367c3\"></a> const char *&#160;"
-msgstr ""
+msgstr "<a id=\"af42453a3421515fa2db3fdf30f2367c3\"></a> const char *&#160;"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:75
 msgid ""
 "<a class=\"el\" href=\"structlibusb__version."
 "html#af42453a3421515fa2db3fdf30f2367c3\">describe</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"structlibusb__version.html#af42453a3421515fa2db3fdf30f2367c3\">describe</a>"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:76
 msgid "For ABI compatibility only."
-msgstr ""
+msgstr "ABI互換性のみ。"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__version.html:79
 msgid "<a name=\"details\" id=\"details\"></a>"
-msgstr ""
+msgstr "<a name=\"details\" id=\"details\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__version.html:79
 msgid "Detailed Description"
-msgstr ""
+msgstr "詳細説明"
 
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__version.html:80
 msgid "Structure providing the version of the libusb runtime"
-msgstr ""
+msgstr "libusbランタイムのバージョンを提供する構造体"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__version.html:81
 msgid "Field Documentation"
-msgstr ""
+msgstr "フィールド解説"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__version.html:82
 msgid "<a id=\"a99937642131c0559025bad92e7f51f27\"></a>"
-msgstr ""
+msgstr "<a id=\"a99937642131c0559025bad92e7f51f27\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__version.html:83
 msgid ""
 "<span class=\"permalink\"><a href="
 "\"#a99937642131c0559025bad92e7f51f27\">&#9670;&nbsp;</a></span>rc"
-msgstr ""
+msgstr "<span class=\"permalink\"><a href=\"#a99937642131c0559025bad92e7f51f27\">&#9670;&nbsp;</a></span>rc"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/structlibusb__version.html:89
 msgid "const char* libusb_version::rc"
-msgstr ""
+msgstr "const char* libusb_version::rc"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__version.html:94
 msgid "Library release candidate suffix string, e.g."
-msgstr ""
+msgstr "ライブラ・リリリース候補のサフィックス文字列 例:"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__version.html:95
 msgid "\"-rc4\"."
-msgstr ""
+msgstr "\"-rc4\"."
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__version.html:99
 msgid ""
 "The documentation for this struct was generated from the following file:"
-msgstr ""
+msgstr "この文書は以下のファイルから生成されました:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: source/api-1.0/structlibusb__version.html:100
 msgid "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
-msgstr ""
+msgstr "<a class=\"el\" href=\"libusb_8h_source.html\">libusb.h</a>"
 
 #. type: Content of: <html><body><address><small><a>
 #: source/api-1.0/structlibusb__version.html:104
 msgid ""
 "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href="
 "\"http://www.doxygen.org/index.html\">"
-msgstr ""
+msgstr "<small> Generated on Fri Jul 9 2021 02:35:39 for libusb by &#160;<a href=\"http://www.doxygen.org/index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><address><small><a><img>
 #: source/api-1.0/structlibusb__version.html:106
 msgid "doxygen"
-msgstr ""
+msgstr "doxygen"
 
 #. type: Content of: <html><body><address>
 #: source/api-1.0/structlibusb__version.html:107
 msgid "</a> 1.8.17 </small>"
-msgstr ""
+msgstr "</a> 1.8.17 </small>"
