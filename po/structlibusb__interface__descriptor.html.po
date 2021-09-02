@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-28 07:59+0900\n"
+"PO-Revision-Date: 2021-09-02 16:54+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -168,7 +168,7 @@ msgstr "<a class=\"el\" href=\"structlibusb__interface__descriptor.html#a2c94bce
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface__descriptor.html:68
 msgid "Value used to select this alternate setting for this interface."
-msgstr "このインターフェイスのこの代替設定を選択するために使用される値。"
+msgstr "このインターフェイスのこの切替設定を選択するために使用される値。"
 
 #. type: Content of: <html><body><div><table><tr><td>
 #: source/api-1.0/structlibusb__interface__descriptor.html:70

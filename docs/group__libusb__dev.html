@@ -1438,7 +1438,7 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
 <p>以前に <a class="el"
 href="group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a">libusb_claim_interface()</a>
 で要求されたインターフェイスを解放します。デバイス・ハンドルを閉じる前に、要求されたすべてのインターフェイスを解放する必要があります。</p>
-<p>これはブロッキング関数です。 SET_INTERFACE制御要求がデバイスに送信され、インターフェイスの状態が最初の代替設定にリセットされます。</p>
+<p>これはブロッキング関数です。 SET_INTERFACE制御要求がデバイスに送信され、インターフェイスの状態が最初の切替設定にリセットされます。</p>
 <p><code>dev</code>のauto_detach_kernel_driverが1に設定されている場合、カーネル・ドライバーは、インターフェイスを解放した後に再接続されます。</p>
 <dl class="params"><dt>パラメーター</dt><dd>
   <table class="params">
@@ -1493,7 +1493,7 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>インターフェイスの代替設定をアクティブにします。 インターフェイスは、 <a class="el"
+<p>インターフェイスの切替設定をアクティブにします。 インターフェイスは、 <a class="el"
 href="group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a">libusb_claim_interface()</a>
 で事前に要求されている必要があります。</p>
 <p>独自のSET_INTERFACE制御要求を作成するのではなく、常にこの関数を使用する必要があります。
@@ -1509,7 +1509,7 @@ href="group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a">libusb_claim_i
 </dl>
 <dl class="section return"><dt>戻り値</dt><dd>0ならば成功 </dd>
 <dd>
-LIBUSB_ERROR_NOT_FOUND 指定のインターフェイスが要求されていなかった場合、または要求した代替設定が存在していなかった場合 </dd>
+LIBUSB_ERROR_NOT_FOUND 指定のインターフェイスが要求されていなかった場合、または要求した切替設定が存在していなかった場合 </dd>
 <dd>
 LIBUSB_ERROR_NO_DEVICE デバイスが切断されている場合 </dd>
 <dd>
@@ -1583,7 +1583,7 @@ href="group__libusb__dev.html#ga7df95821d20d27b5597f1d783749d6a4">libusb_device_
         </tr>
       </table>
 </div><div class="memdoc">
-<p>USBポートのリセットを実行して、デバイスを再初期化します。リセットが完了した後、システムは以前の構成と代替設定の復元を試みます。</p>
+<p>USBポートのリセットを実行して、デバイスを再初期化します。リセットが完了した後、システムは以前の構成と切替設定の復元を試みます。</p>
 <p>リセットが失敗した場合、デスクリプターが変更された場合、または前の状態を復元できない場合、デバイスは切断されて再接続されたように見えます。これは、デバイス・ハンドルが無効になり(クローズする必要があります)、デバイスを再検出することを意味します。
 この場合、戻り値はLIBUSB_ERROR_NOT_FOUNDです。</p>
 <p>これはブロッキング関数であり、通常は顕著な遅延が発生します。</p>

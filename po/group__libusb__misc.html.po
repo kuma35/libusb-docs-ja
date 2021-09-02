@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-17 09:34+0900\n"
+"PO-Revision-Date: 2021-09-02 16:53+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -752,7 +752,7 @@ msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa179b703deda249f6e48412bc2cf6
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:237
 msgid "Return the selected alternate setting for the specified interface."
-msgstr "指定のインターフェイスの選択された代替設定を返します。"
+msgstr "指定のインターフェイスの選択された切替設定を返します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:239
@@ -765,7 +765,7 @@ msgstr "<a id=\"gga5b5912057c2d7e23b3ed5aa0c20236dfa72e910864721ebe3e5cb6a5b53de
 #. type: Content of: <html><body><div><div><div><table><tr><td><p>
 #: source/api-1.0/group__libusb__misc.html:239
 msgid "Select an alternate interface for the specified interface."
-msgstr "指定のインターフェイスの代替インターフェイスを選択します。"
+msgstr "指定のインターフェイスの切替インターフェイスを選択します。"
 
 #. type: Content of: <html><body><div><div><div><table><tr><td>
 #: source/api-1.0/group__libusb__misc.html:241

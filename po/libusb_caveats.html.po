@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-20 12:43+0900\n"
+"PO-Revision-Date: 2021-09-02 16:53+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -210,7 +210,7 @@ msgid ""
 "Interface/alternate setting activation (<a class=\"el\" href="
 "\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a"
 "\">libusb_set_interface_alt_setting()</a>)"
-msgstr "インターフェイス/代替設定 のアクティブ化(<a class=\"el\" href=\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a\">libusb_set_interface_alt_setting()</a>)"
+msgstr "インターフェイス/切替設定 のアクティブ化(<a class=\"el\" href=\"group__libusb__dev.html#ga4858ad4f0f58fd1dc0afaead1fe6479a\">libusb_set_interface_alt_setting()</a>)"
 
 #. type: Content of: <html><body><div><div><div><ul><li>
 #: source/api-1.0/libusb_caveats.html:74

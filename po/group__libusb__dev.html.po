@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-15 15:47+0900\n"
+"PO-Revision-Date: 2021-09-02 16:52+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -3056,7 +3056,7 @@ msgstr "以前に <a class=\"el\" href=\"group__libusb__dev.html#gaee5076addf5de
 msgid ""
 "This is a blocking function. A SET_INTERFACE control request will be sent to "
 "the device, resetting interface state to the first alternate setting."
-msgstr "これはブロッキング関数です。 SET_INTERFACE制御要求がデバイスに送信され、インターフェイスの状態が最初の代替設定にリセットされます。"
+msgstr "これはブロッキング関数です。 SET_INTERFACE制御要求がデバイスに送信され、インターフェイスの状態が最初の切替設定にリセットされます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1071
@@ -3109,7 +3109,7 @@ msgid ""
 "Activate an alternate setting for an interface. The interface must have been "
 "previously claimed with <a class=\"el\" href=\"group__libusb__dev."
 "html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a>."
-msgstr "インターフェイスの代替設定をアクティブにします。 インターフェイスは、 <a class=\"el\" href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a> で事前に要求されている必要があります。"
+msgstr "インターフェイスの切替設定をアクティブにします。 インターフェイスは、 <a class=\"el\" href=\"group__libusb__dev.html#gaee5076addf5de77c7962138397fd5b1a\">libusb_claim_interface()</a> で事前に要求されている必要があります。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1122
@@ -3134,7 +3134,7 @@ msgstr "アクティブにしたいだいたい設定の <code>bAlternateSetting
 msgid ""
 "LIBUSB_ERROR_NOT_FOUND if the interface was not claimed, or the requested "
 "alternate setting does not exist"
-msgstr "LIBUSB_ERROR_NOT_FOUND 指定のインターフェイスが要求されていなかった場合、または要求した代替設定が存在していなかった場合"
+msgstr "LIBUSB_ERROR_NOT_FOUND 指定のインターフェイスが要求されていなかった場合、または要求した切替設定が存在していなかった場合"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/group__libusb__dev.html:1142
@@ -3197,7 +3197,7 @@ msgid ""
 "Perform a USB port reset to reinitialize a device. The system will attempt "
 "to restore the previous configuration and alternate settings after the reset "
 "has completed."
-msgstr "USBポートのリセットを実行して、デバイスを再初期化します。リセットが完了した後、システムは以前の構成と代替設定の復元を試みます。"
+msgstr "USBポートのリセットを実行して、デバイスを再初期化します。リセットが完了した後、システムは以前の構成と切替設定の復元を試みます。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/group__libusb__dev.html:1203

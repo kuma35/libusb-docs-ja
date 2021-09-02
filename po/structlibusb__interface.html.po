@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libusb-api-doc 1.0\n"
 "POT-Creation-Date: 2021-07-09 02:36+0900\n"
-"PO-Revision-Date: 2021-07-27 07:29+0900\n"
+"PO-Revision-Date: 2021-09-02 16:54+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -118,7 +118,7 @@ msgid ""
 "The number of alternate settings that belong to this interface.  <a href="
 "\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">More...</"
 "a>"
-msgstr "このインターフェイスに属する代替設定の数。 <a href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">詳細はコチラ</a>"
+msgstr "このインターフェイスに属する切替設定の数。 <a href=\"structlibusb__interface.html#afc930be16a60980424f64a88b23c10e9\">詳細はコチラ</a>"
 
 #. type: Content of: <html><body><div>
 #: source/api-1.0/structlibusb__interface.html:62
@@ -133,7 +133,7 @@ msgstr "詳細説明"
 #. type: Content of: <html><body><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:63
 msgid "A collection of alternate settings for a particular USB interface."
-msgstr "指定のUSBインターフェイスの代替設定のコレクション(collection)。"
+msgstr "指定のUSBインターフェイスの切替設定のコレクション(collection)。"
 
 #. type: Content of: <html><body><div><h2>
 #: source/api-1.0/structlibusb__interface.html:64
@@ -189,7 +189,7 @@ msgstr "int libusb_interface::num_altsetting"
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:94
 msgid "The number of alternate settings that belong to this interface."
-msgstr "このインターフェイスに属する代替設定の数。"
+msgstr "このインターフェイスに属する切替設定の数。"
 
 #. type: Content of: <html><body><div><div><div><p>
 #: source/api-1.0/structlibusb__interface.html:95
